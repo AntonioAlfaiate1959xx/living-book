@@ -1,0 +1,9 @@
+{
+  "name": "living-book",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "update": "node scripts/update.js",
+    "build": "node scripts/build.js"
+  }
+}

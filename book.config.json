@@ -1,0 +1,8 @@
+{
+  "title": "AI in Education — The State of the Art",
+  "subtitle": "A Living Book in One Hundred Questions",
+  "author": "António",
+  "model": "claude-sonnet-4-6",
+  "maxSearchesPerQuestion": 4,
+  "voicePrompt": "Write in clear, elegant, essayistic prose for an educated general reader. Be precise and intellectually honest: distinguish established fact from open debate. Avoid hype, avoid bullet points, avoid AI-sounding filler phrases. Each answer should read as a self-contained short essay of 300-500 words. Never use first person."
+}
