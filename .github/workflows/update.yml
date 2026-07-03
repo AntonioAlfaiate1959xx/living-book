@@ -1,1 +1,41 @@
-.github/workflows/update.yml
+# The name shown in GitHub's "Actions" tab.
+name: Update Living Book
+
+on:
+  schedule:
+    # "cron" is a five-field clock pattern: minute hour day month weekday.
+    # This one means: 06:00 UTC every Monday.
+    - cron: "0 6 * * 1"
+  # This line adds a "Run workflow" button so you can also trigger it by hand.
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest # GitHub lends us a fresh Linux computer.
+    permissions:
+      contents: write # Allow the job to save results back.
+    steps:
+      - name: Get the repository files
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run the update pipeline
+        run: node scripts/update.js
+        env:
+          # The secret is injected here — it never appears in any file.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Rebuild the book
+        run: node scripts/build.js
+
+      - name: Save the new edition
+        run: |
+          git config user.name "living-book-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Living edition $(date -u +%F)"
+          git push
