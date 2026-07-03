@@ -1,0 +1,42 @@
+{
+  "id": "q007",
+  "question": "Should education aim to make humans complementary to AI, resistant to it, or independent of it?",
+  "answer": "**The Three Orientations and Their Stakes**\n\nThe question of what education should make of AI — a partner, an adversary, or an irrelevance — is not merely pedagogical. It is a question about what kind of minds a society wishes to cultivate, and what version of human agency it is prepared to defend.\n\nThe dominant institutional answer, at present, is complementarity. Domain accomplishment is said to hinge on complementary human-AI roles, wherein AI provides scalability and humans maintain contextual rigor. This framing has been embraced by bodies ranging from individual universities to international organizations. UNESCO released AI competency frameworks for students and teachers in 2024, built on the idea that AI should support, rather than replace, human decision-making and intellectual development. The appeal is obvious: rather than positioning technology as a threat to be resisted or a crutch to be avoided, the complementarity model imagines a productive division of cognitive labor. AI offers consistency, vast knowledge, and real-time adaptivity, while human teachers provide the irreplaceable elements of inspiration, ethical grounding, and emotional connection — together forming, in this account, a powerful alliance.\n\nThe labor market lends this view empirical weight. The World Economic Forum projects that AI will displace 92 million jobs while creating 170 million new ones — roles that are not simply \"AI jobs\" but existing roles transformed by AI integration — and the IMF emphasizes that students need \"cognitive, creative, and technical skills that complement AI and help them use it rather than compete with it.\"\n\nYet the complementarity consensus conceals a serious empirical worry. AI is creating an increasing dependence that reduces critical thinking skills and human agency; people are relinquishing \"old\" skills — independent decision-making, critical thinking, face-to-face social skills — before acquiring the new ones necessary for using AI, and a vicious cycle of dependence and loss of confidence in one's own judgment has begun. The risk is particularly acute for the young. The downside of adolescents growing up delegating to AI is a generation that was never sharp to begin with, making the protection of the space children need to develop foundational thinking skills a non-negotiable. Research on younger learners bears this out: for primary school children, reliance on AI may interfere with the \"automation\" of foundational skills such as syntax or calculation, whereas for secondary adolescents the risk shifts toward the erosion of self-efficacy and academic identity.\n\nThis is where the case for resistance — or at least for AI-free cognitive development — gains its most serious purchase. Resistance here need not mean Luddism; it means protecting developmental phases during which unassisted thinking must be practiced if it is to consolidate. Educators and philosophers argue that we need to put effort into learning the profound limitations of AI, take into account its broader impacts on human rights and social justice, and — perhaps most importantly — learn how to think critically. The French philosopher Éric Sadin, speaking at UNESCO in late 2025, went further, warning against the consequences of the \"civilizational rupture\" represented by generative AI — a concern that UNESCO echoed in its insistence that education remain human-centred.\n\nIndependence — the third orientation — is often conflated with resistance, but it is subtly different. Where resistance is reactive, independence is constitutive: it asks that certain capacities be cultivated in students without reference to AI at all, so that those students can then engage AI from a position of genuine agency rather than habituated reliance. Human agency can be safeguarded by designing AI systems to complement rather than replace human capabilities, and emerging perspectives frame human-AI interaction as a partnership in which each side's strengths mitigate the other's limitations — but this only works if the human side of the partnership has something genuine to contribute. A more balanced educational approach is necessary to break out of the cycle of dependence and fill the void with renewed skills to navigate the new technological reality.\n\nWhat emerges from the current evidence is not a clean answer but a developmental sequence. The three orientations are not mutually exclusive; they are appropriate at different stages and in different domains. Foundational education — early literacy, numeracy, the practice of sustained argument — demands a form of independence that AI presence can undermine. Later, in professional and higher education, a well-grounded complementarity becomes not only defensible but necessary. And throughout, some capacity for resistance — the ability to interrogate, distrust, and override AI outputs — must be deliberately cultivated, because threats such as hallucination-induced errors, academic fraud, and a decline in critical thinking remain serious in the absence of metacognitive scaffolding and ethical regulation. The honest answer is that education must pursue all three orientations in sequence: independence first, so that complementarity is real rather than illusory, and resistance always, so that the partnership never becomes surrender.",
+  "sources": [
+    {
+      "title": "Frontiers | Complementary AI in higher education: behavioral, cognitive, and ethical implications of ChatGPT and DeepSeek",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1699114/full"
+    },
+    {
+      "title": "Learning to think in the AI era",
+      "url": "https://courier.unesco.org/en/articles/learning-think-ai-era"
+    },
+    {
+      "title": "Cognifying Education: Mapping AI's transformative role in emotional, creative, and collaborative learning",
+      "url": "https://arxiv.org/pdf/2509.25266"
+    },
+    {
+      "title": "Revising Bloom's Taxonomy for Dual-Mode Cognition in Human-AI Systems: The Augmented Cognition Framework",
+      "url": "https://arxiv.org/pdf/2602.00697"
+    },
+    {
+      "title": "Frontiers | AI in education: new tools to navigate the AI reality",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1765510/full"
+    },
+    {
+      "title": "Adults Lose Skills to AI. Children Never Build Them. | Psychology Today",
+      "url": "https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202603/adults-lose-skills-to-ai-children-never-build-them"
+    },
+    {
+      "title": "Potential risks of generative artificial intelligence integration into K-12 education: A scoping review - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+    },
+    {
+      "title": "Protecting and Promoting Human Agency in Education in the Age of Artificial Intelligence",
+      "url": "https://arxiv.org/pdf/2602.20014"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

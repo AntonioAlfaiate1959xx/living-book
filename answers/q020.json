@@ -1,0 +1,54 @@
+{
+  "id": "q020",
+  "question": "What ethical obligations do AI companies have toward education systems they disrupt but do not serve?",
+  "answer": "**What Ethical Obligations Do AI Companies Have Toward Education Systems They Disrupt but Do Not Serve?**\n\nThe question contains a hard premise worth examining first: AI companies frequently disrupt education without genuinely serving it. The distinction is not trivial. To disrupt is to alter the conditions under which teaching and learning occur — rewriting what counts as student work, reshaping the value of credentials, and recalibrating the skills an economy demands. To serve is to bear the costs, meet the needs, and accept accountability for the populations affected. These two things are not the same, and the gap between them is where the most serious ethical obligations reside.\n\nThe intersection of AI power and education policy has become increasingly direct: in July 2025, OpenAI released an \"Economic Blueprint\" for Australia, a document containing recommendations and advice for Australian government policy across multiple sectors, including education. This pattern repeated globally — in the US, a June 2025 \"Pledge to America's Youth\" on AI education was signed by over sixty organizations, more than half representing big tech companies or their venture capital funders, including Amazon, Apple, Google, Meta, Microsoft, and OpenAI. These companies have, in effect, taken it upon themselves to determine the future of AI in American education. There is an obvious asymmetry here: the entities shaping the terms of educational disruption are the same ones standing to profit from it.\n\nThe most concrete harm this produces is inequity. The impact of generative AI on digital equity depends on its implementation: if equitable access to these technologies is not guaranteed, the digital divide could widen. A growing equity concern is that advanced, expensive AI tools threaten to create a new dramatic educational divide, with critics warning that students who can afford this technology may gain \"almost superhuman academic capabilities\" compared to peers without access. Meanwhile, adoption is uneven, especially between urban and rural districts. Key unresolved questions remain: how should institutions respond to generative AI companies seeking a role in education while offering tools at unaffordable prices, and why are academic-use AI models not currently supported or subsidized more broadly?\n\nA second cluster of obligations concerns bias and the integrity of pedagogical systems. Despite advances in dataset auditing and fairness tools, algorithmic discrimination remained a significant challenge in 2025, with models used in education continuing to mirror historical inequalities. Cognitive dependence is also a relevant concern, where excessive use of generative AI can inhibit the development of critical thinking skills and autonomy in students. These are not technical glitches awaiting a patch — they are structural features of how these systems were built, trained, and deployed, which makes them the developer's responsibility rather than the teacher's problem.\n\nOn the question of accountability, current practice falls short of what the moment demands. As privately developed AI systems shape more of daily life, transparency must move beyond technical descriptions to show how accountability works — including who makes decisions, how ethical issues are escalated, and what remediation paths exist when things go wrong. Clear responsibility for harms or breaches should be identifiable in practice, not just in principle. The ACM warned about the manipulative potential of chatbots interacting with minors, and UNICEF emphasized that AI systems impacting children must be designed with explicit safeguards, transparency, and accountability to prevent exploitation and undue influence.\n\nSome companies have responded with pledges. xAI committed $10 million to provide AI education for underserved youth, and OpenAI announced plans to certify 10 million workers by 2030 through a new skills platform. These gestures are real but also instructive in what they reveal: they are voluntary, unilateral, and difficult to enforce — which is precisely the corporate responsibility model that critics find inadequate. The digital divide is rapidly becoming an AI divide, and pledges calibrated in marketing cycles cannot substitute for structural remedies.\n\nWhat would genuine obligation look like? Scaling AI literacy is a shared responsibility, and companies working with educators, governments, and communities can help create a generation of learners who engage with AI critically, ethically, and confidently. But \"shared responsibility\" cannot be a euphemism for diffused responsibility — the arrangement in which everyone is nominally responsible and no one is actually held to account. Maintaining educational integrity amidst growing commercial influence requires, at minimum, that AI companies accept binding obligations of transparency, submit to third-party audits, provide meaningful access to underserved populations as a condition of market entry, and acknowledge that the choice between investing in AI platforms that could reach millions and hiring the 44 million additional teachers the world still needs is a genuine dilemma — not one Silicon Valley should resolve alone. The ethical minimum, in short, is proportionality: those who profit most from disruption owe the most to those who bear its costs.",
+  "sources": [
+    {
+      "title": "Teaching AI Ethics 2026: Power",
+      "url": "https://leonfurze.com/2026/02/02/teaching-ai-ethics-2026-power/"
+    },
+    {
+      "title": "Frontiers | Ethical and regulatory challenges of Generative AI in education: a systematic review",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1565938/full"
+    },
+    {
+      "title": "Navigating AI’s $7 Billion Surge in Classrooms: Academic Integrity and Equity in 2025",
+      "url": "https://medium.com/@NewsBang/navigating-ais-7-billion-surge-in-classrooms-academic-integrity-and-equity-in-2025-a866ae0a05d5"
+    },
+    {
+      "title": "AI Goes to School in 2025: Promise, Privacy, and the Equity Gap",
+      "url": "https://completeaitraining.com/news/ai-goes-to-school-in-2025-promise-privacy-and-the-equity-gap/"
+    },
+    {
+      "title": "AI Ethical Guidelines | EDUCAUSE",
+      "url": "https://library.educause.edu/resources/2025/6/ai-ethical-guidelines"
+    },
+    {
+      "title": "Top AI ethics and policy issues of 2025 and what to expect in 2026 - ΑΙhub",
+      "url": "https://aihub.org/2026/03/04/top-ai-ethics-and-policy-issues-of-2025-and-what-to-expect-in-2026/"
+    },
+    {
+      "title": "Responsible AI in practice: 2025 global insights from the AI Company",
+      "url": "https://www.unesco.org/en/articles/responsible-ai-practice-2025-global-insights-ai-company-data-initiative"
+    },
+    {
+      "title": "Major Organizations Commit to Supporting AI Education – The White House",
+      "url": "https://www.whitehouse.gov/releases/2025/09/major-organizations-commit-to-supporting-ai-education/"
+    },
+    {
+      "title": "AI and the future of education: disruptions, dilemmas and directions",
+      "url": "https://www.unesco.org/en/articles/ai-and-future-education-disruptions-dilemmas-and-directions-0"
+    },
+    {
+      "title": "Responsible AI in higher education: Skills, trust, integrity | World Economic Forum",
+      "url": "https://www.weforum.org/stories/2025/09/responsible-ai-in-higher-education-building-skills-trust-and-integrity/"
+    },
+    {
+      "title": "The potential impact of Artificial Intelligence on equity and inclusion in education | OECD",
+      "url": "https://www.oecd.org/en/publications/the-potential-impact-of-artificial-intelligence-on-equity-and-inclusion-in-education_15df715b-en.html"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

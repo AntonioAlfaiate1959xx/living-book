@@ -1,0 +1,62 @@
+{
+  "id": "q064",
+  "question": "How have universities restructured courses, assessments, and honor codes in response to generative AI, and with what results?",
+  "answer": "## Universities and Generative AI: Restructuring the Curriculum, the Assessment, and the Honor Code\n\nThe arrival of generative AI in classrooms has forced universities into a kind of institutional triage — simultaneously rewriting the rules of academic conduct, redesigning how learning is tested, and reckoning with the uncomfortable fact that their enforcement tools may be as unreliable as the behavior they are meant to catch.\n\n**The scale of the problem**\n\nThe pace of student adoption has outrun virtually every institutional response. Research from the Higher Education Policy Institute found that 92% of students were using AI by 2025, up from 66% in 2024. Confirmed misconduct has surged alongside usage: UK universities reported nearly 7,000 proven cases of AI-related cheating in the 2023–2024 academic year, a threefold increase from the previous year, and part of a nearly 400% increase in AI-related misconduct incidents over just three academic years. Yet experts caution that even these alarming figures are undercounts. In one University of Reading test, 94% of AI-written submissions went undetected. Paradoxically, traditional plagiarism has dropped significantly during the same period, falling from 19 to 15.2 cases per 1,000 students in 2023–24, suggesting that students are substituting one form of dishonesty for another that institutions are less equipped to see.\n\n**The policy response: disclosure, not prohibition**\n\nMost leading universities have converged on a disclosure-based framework rather than outright prohibition. At Oxford, students may use generative AI to support their studies, but its use in summative assessments is permitted only if explicitly allowed by course instructions; a declaration must accompany any permitted use, and unauthorized use is treated as academic misconduct. Cambridge similarly allows students to use generative AI for personal study and formative tasks, but unacknowledged AI-generated content in summative assessments constitutes academic misconduct. Princeton's library guidance requires students to confirm with instructors whether AI use is allowed, to disclose any use, and some courses require students to keep AI chat logs for verification.\n\nThe deeper structural challenge is that policies are frequently decentralized and therefore inconsistent. At UNC–Chapel Hill, all undergraduate course syllabi are required to include an explicit AI use policy, with faculty selecting from sample statements ranging from full prohibition to conditional acceptance. Enforcement, however, is decentralized and based on faculty syllabi, which can leave room for inconsistency in application across classrooms, departments, and campuses. Pre-existing honor codes have been exposed as structurally inadequate: they typically state that students cannot submit work that is not their own, but they do not define whether AI-assisted work counts as \"their own\" — a gray zone that pre-2023 codes simply do not address.\n\n**Assessment redesign: toward the unoutsourceable**\n\nThe most substantive institutional response has not been punitive but architectural: redesigning assessments so that they are harder to delegate to a machine. A commonly proposed response has been a return to invigilated, on-campus examinations, though such approaches have well-documented strengths and limitations in terms of assessing student learning. Stanford's Academic Integrity Working Group has recommended in-person formats such as oral exams and in-class writing assignments for instructors who wish to limit student AI use in high-stakes settings. Across Australia, the University of Sydney has moved toward embedding assessment into program-level design, reflecting the increasing difficulty of securing individual assessments in an AI-rich and connected environment. In Australia more broadly, the national regulator TEQSA announced in May 2025 a shift to a regulatory-led framework beginning in 2026, reflecting the widespread use of generative AI by students and the associated risks to assessment integrity.\n\n**The failure of detection**\n\nThe technology meant to enforce these policies has proven deeply problematic. Stanford's Academic Integrity Working Group identified several issues with tools designed to detect AI use, including bias and occurrences of false positives and negatives, finding that these tools often fail to reliably assess the extent of AI involvement in texts that mix AI and human writing — making them unsuitable for high-stakes situations. The bias concern is acute: research found that AI detectors incorrectly identified human-written essays as AI-generated in up to 62% of cases when the writing came from non-native English speakers. Turnitin, the most widely deployed tool, boasts a 99% success rate, but this accuracy has been challenged by a recent study that found it detected AI-generated text only about 61% of the time. At Vanderbilt, current guidelines explicitly state that a report to the Undergraduate Honor Council cannot be based solely on an AI detector score, a policy that reflects a growing institutional recognition that these instruments are not fit for adjudicating individual guilt.\n\n**Faculty preparedness and the gap between policy and practice**\n\nInstitutions face a further complication: their own instructors are often not equipped for the environment they are being asked to police. Despite rapid student adoption of generative AI, faculty preparedness to integrate these tools into teaching has lagged; while 42% of students now perceive faculty as \"well-equipped\" to support their AI use — up from just 18% in 2024 — many professors remain cautious or uncertain. A 2025 report found that while 79% of higher education educators agree AI literacy is essential, significant confidence gaps persist, with many instructors still figuring out how to use AI themselves, let alone how to govern student use of it.\n\nThe net result is a sector in genuine transition. Outright bans have largely been abandoned as unenforceable. Detection tools are unreliable and, in some cases, discriminatory. Assessment redesign is underway but uneven. What is emerging, haltingly, is a recognition that the question is not how to stop students using these tools, but how to build courses in which using them badly — or using them as a substitute for thought — simply does not pay.",
+  "sources": [
+    {
+      "title": "Generative AI Policies at the World’s Top Universities: October 2025 Update",
+      "url": "https://www.thesify.ai/blog/gen-ai-policies-update-2025"
+    },
+    {
+      "title": "The Cheating Crisis That AI Created, and How Schools Are Fighting Back",
+      "url": "https://www.liveaiwire.com/2026/05/ai-cheating-crisis-schools-universities-fighting-back.html"
+    },
+    {
+      "title": "ChatGPT Cheating Statistics (2025): Latest Facts on AI in Schools & Universities | Nerdynav",
+      "url": "https://nerdynav.com/chatgpt-cheating-statistics/"
+    },
+    {
+      "title": "Thousands of UK Students Caught Cheating With AI as Detection Lags Behind | The Academic Observer",
+      "url": "https://academicobserver.com/docs/news/2025-06-18-thousands-students-AI-cheating/"
+    },
+    {
+      "title": "Institutional Policies on Artificial Intelligence in Higher Education: Frameworks and Best Practices for Faculty - Azevedo - 2025 - New Directions for Adult and Continuing Education - Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/ace.70013"
+    },
+    {
+      "title": "AI Ready University (19): Academic Integrity Policies That Actually Work in the AI Era | Expert Education Consultants",
+      "url": "https://bppe.consulting/blog/ai-ready-university-19-academic-integrity-policies-that-actually-work-in-the-ai-era"
+    },
+    {
+      "title": "Reflections on the Future of Statistics Education in a Technological Era",
+      "url": "https://arxiv.org/pdf/2602.18242"
+    },
+    {
+      "title": "Academic Integrity Working Group addresses generative AI and exam policies | Stanford Report",
+      "url": "https://news.stanford.edu/stories/2025/10/academic-integrity-working-group-generative-ai-exam-policies"
+    },
+    {
+      "title": "Navigating AI in Higher Education: tasks ahead for 2025 and 2026 – Teaching@Sydney",
+      "url": "https://educational-innovation.sydney.edu.au/teaching@sydney/navigating-ai-in-higher-education-tasks-ahead-for-2025-and-2026/"
+    },
+    {
+      "title": "The Cheating Crisis: How AI Detection Tools Are Failing Schools and What Smart Educators Are Doing Instead",
+      "url": "https://www.evelynlearning.com/blog/the-cheating-crisis-how-ai-detection-tools-are-failing-schools-and-what-smart-educators-are-doing-instead"
+    },
+    {
+      "title": "AI-detection software isn’t the solution to classroom cheating — assessment has to shift",
+      "url": "https://theconversation.com/ai-detection-software-isnt-the-solution-to-classroom-cheating-assessment-has-to-shift-246102"
+    },
+    {
+      "title": "Academic Integrity and Generative AI | Generative AI | Vanderbilt University",
+      "url": "https://www.vanderbilt.edu/generative-ai/academic-integrity/"
+    },
+    {
+      "title": "Teaching with AI in Higher Education (2025): Curriculum, Assessment, and Faculty Literacy",
+      "url": "https://www.thesify.ai/blog/teaching-with-ai-in-higher-education-2025"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

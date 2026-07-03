@@ -1,0 +1,50 @@
+{
+  "id": "q003",
+  "question": "Does human knowledge lose or change its value when it is no longer scarce?",
+  "answer": "The question of whether knowledge loses its value when it ceases to be scarce turns out to be one of the most consequential questions of the present moment — and the answer depends heavily on which kind of \"value\" is under discussion.\n\nThe economic case seems clear enough at first glance. Abundance lowers costs, and when that happens, the elimination of scarcity changes the economics of how goods and services are produced and distributed. This has always been true of physical commodities, but knowledge has an unusual relationship with scarcity because it was never naturally scarce to begin with. Patent and copyright exist to supply artificial scarcity to what would otherwise be harmfully abundant knowledge — and paradoxically, this artificial scarcity is intended to motivate the production of more knowledge. In other words, much of what looks like knowledge's economic value has always been a legal construction, not an intrinsic property of the knowledge itself. Ideas are made scarce so that they can be brought into the economy and charged for; on the classical view of intellectual property law, a world in which all value resides in information is one that requires IP everywhere, or no one will be paid to create.\n\nWhen abundance arrives anyway — through the internet, through open-access publishing, and now through large language models — the economic value of holding information does erode. But this is not the same as saying knowledge loses all value. What shifts is *where* value is created. In conditions of abundance, value migrates up the supply chain: it is created through the service of helping people find what they want within the sea of choice. Curation, judgment, and synthesis become the scarce goods. Scarcity of time on the part of the consumer becomes the ultimate limiting factor even when physical constraints are removed.\n\nThe deeper question, though, is epistemic rather than economic. Information abundance paradoxically degrades truth discernment, creating new opportunities for entrepreneurial foresight but also new forms of cognitive fatigue. A world drowning in content is not a world that knows more; it may, in important ways, know less reliably. Many prominent scholars have argued that increasing abundance of knowledge resources will lead to substantial and even disruptive transformation of existing political, economic, and social systems — but the direction of that transformation is contested, not settled.\n\nThis points to a distinction that philosophy has long maintained between knowledge and wisdom. As Heraclitus observed, abundance in knowledge cannot guarantee wisdom; being knowledgeable means having knowledge, but being wise means much more than that. Some of the most knowledgeable people are not wise: although they have an abundance of very important factual knowledge, they lack the practical know-how that marks a wise person — the capacity to navigate all kinds of situations and all kinds of people. Wisdom, in the formulation of psychologist Robert Sternberg, is \"the value-laden application of tacit knowledge not only for one's own benefit but for the benefit of others, in order to attain a common good\" — and what matters is not just knowledge, or the intellectual skills one applies to knowledge, but how that knowledge is used.\n\nAbundance, then, devalues a particular kind of knowledge: propositional knowledge, the kind that can be stored, retrieved, and replicated. It does not devalue — and may actually increase the premium on — what philosophers call tacit knowledge: the embodied, experiential, judgment-laden understanding that resists easy transmission. AI technologies are trained on data from the human past, but democratic life often depends on the surfacing of human tacit knowledge and previously unrevealed preferences. Systems that reward speed over critical reflection risk encouraging learners to shift from inquiry-based learning toward the reproduction of polished, preformed answers — and unless explicitly addressed, this epistemic conditioning risks undermining the cultivation of ambiguity tolerance, intellectual humility, and reflective skepticism.\n\nThe honest verdict is this: when knowledge loses scarcity, its *commodity* value collapses, but its deeper value — as understanding, as judgment, as the hard-won capacity to act wisely under uncertainty — does not. What changes is the ease with which that deeper value can be counterfeited by the mere appearance of information. The scarcity that matters most in an age of abundance is not factual but attentional and epistemic: the scarce resource is the human capacity to distinguish knowledge from noise, and to use what one knows well.",
+  "sources": [
+    {
+      "title": "Frontiers | Editorial: Scarcity, regulation, and the abundance society",
+      "url": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2022.1104460/full"
+    },
+    {
+      "title": "Too Much of a Good Thing? A Governing Knowledge Commons Review of Abundance in Context",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9327526/"
+    },
+    {
+      "title": "What Happens When the Economics of Scarcity Meets the Economics of Abundance? | Working Knowledge",
+      "url": "https://www.library.hbs.edu/working-knowledge/what-happens-when-the-economics-of-scarcity-meets-the-economics-of-abundance"
+    },
+    {
+      "title": "Epistemic Scarcity: The Economics of Unresolvable Unknowns",
+      "url": "https://arxiv.org/html/2507.01483v1"
+    },
+    {
+      "title": "Frontiers | Externalities, scarcity, and abundance",
+      "url": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2022.1111446/full"
+    },
+    {
+      "title": "A New Theory of Wisdom: Integrating Intelligence and ...",
+      "url": "https://files.eric.ed.gov/fulltext/ED535738.pdf"
+    },
+    {
+      "title": "Wisdom (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/wisdom/"
+    },
+    {
+      "title": "Wisdom - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wisdom"
+    },
+    {
+      "title": "AI and Epistemic Risk for Democracy: A Coming Crisis of Public Knowledge? by John Wihbey :: SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4805026"
+    },
+    {
+      "title": "Epistemic authority and generative AI in learning spaces: rethinking knowledge in the algorithmic age",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/pdf"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

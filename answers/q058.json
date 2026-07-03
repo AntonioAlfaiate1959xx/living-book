@@ -1,0 +1,58 @@
+{
+  "id": "q058",
+  "question": "What do studies reveal about teachers' actual adoption patterns, workload effects, and attitudes toward AI tools?",
+  "answer": "**Teachers and AI Tools: Adoption, Workload, and Attitudes**\n\nThe picture that emerges from recent survey data and peer-reviewed research is one of rapid but uneven uptake, ambiguous effects on teacher workload, and a strikingly split emotional landscape — enthusiasm and anxiety coexisting within the same profession, and often within the same classroom.\n\nOn the question of adoption rates, the trajectory has been steep. In the 2023–2024 school year, roughly one quarter of ELA, math, and science teachers used AI tools for instructional planning or teaching. Within a single year, that figure more than doubled: 60% of K-12 teachers reported using an AI tool during the 2024–25 school year, with RAND Corporation research showing that teacher AI adoption rose from 25% to 53% between the two school years. Yet aggregate numbers conceal considerable variation in depth of engagement. Teachers used AI tools most often for preparing to teach, making worksheets or activities, and modifying materials to meet student needs — and while 32% were using AI at least weekly, 28% were doing so only monthly or less. Frequent, pedagogically integrated use, then, remains a minority practice even among adopters.\n\nThe pattern of what tasks teachers actually delegate to AI is revealing. A 2025 report from the Center for Democracy and Technology found that 69% of teachers in grades 6–12 use AI for curriculum and content development. Grading and assessment support are also common use cases: AI systems have taken up logistical workloads such as reinforcing students' mastery of key concepts, and research consistently shows AI working well in sharing tutoring tasks, providing immediate feedback, and reducing instructors' workload. At the same time, a sobering caveat comes from British science teachers: while 44% reported having used AI within their teaching role, only 3% said it had greatly reduced their workload, suggesting that the promised productivity gains remain largely unrealized at the classroom level, at least in the short term. The Gallup–Walton Family Foundation study offered a more optimistic projection, estimating that consistent AI use could save teachers the equivalent of six weeks per year — though this figure describes potential rather than current experience.\n\nThe gap between adoption and readiness is perhaps the most persistent finding across studies. Only about a quarter of teachers have received any training on AI chatbots, and nearly one-third cite a lack of training or professional development as the main barrier to adoption. A 2025 survey put this bluntly: two-thirds of Americans say educators need better training, and 70% of teachers themselves admit they do not feel ready to use AI effectively in their classrooms.\n\nTeacher attitudes, when examined closely, tend to be neither simply positive nor simply resistant. Cross-national survey studies suggest that AI understanding and self-efficacy are strongly associated with perceiving more benefits and fewer concerns, while teachers broadly see substantial potential in AI tools but also worry about workload, job displacement, student dependence, and unintended classroom harms. Attitudes are shaped not only by perceived advantages but also by ethical and professional concerns, including worries about academic integrity, AI bias, overreliance of students on automated assistance, and fears of diminishing teacher authority and human connection. Research from multiple national contexts confirms that these anxieties are not parochial: in South Korea, elementary teachers fear that AI threatens their emotional support roles, while in Turkey, educators express anxiety over insufficient data protection in AI systems used in schools.\n\nWhat drives adoption or resistance ultimately comes down to perceived usefulness and self-confidence. Studies find that teachers' AI self-efficacy is significantly and positively associated with AI attitudes, and that positive attitudes toward AI significantly influence both pedagogical knowledge and willingness to experiment. Teachers are more likely to trust and adopt AI tools when provided with clear explanations of how AI systems make decisions; addressing misconceptions about job loss and privacy, alongside targeted professional development, further improves willingness to integrate these tools. The implication running through this body of research is consistent: adoption is not primarily a technological problem but a professional development and institutional support problem — one that neither the tools themselves nor the enthusiasm of early adopters has yet resolved.",
+  "sources": [
+    {
+      "title": "Uneven Adoption of Artificial Intelligence Tools Among U.S. Teachers and Principals in the 2023–2024 School Year | RAND",
+      "url": "https://www.rand.org/pubs/research_reports/RRA134-25.html"
+    },
+    {
+      "title": "EdTech & AI in Education Statistics 2026: 40+ Verified ...",
+      "url": "https://tutorbase.com/statistics/edtech-ai"
+    },
+    {
+      "title": "Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year",
+      "url": "https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx"
+    },
+    {
+      "title": "70+ AI in Education Statistics – Originality.AI",
+      "url": "https://originality.ai/blog/ai-in-education-statistics"
+    },
+    {
+      "title": "Frontiers | A systematic review of the early impact of artificial intelligence on higher education curriculum, instruction, and assessment",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1522841/full"
+    },
+    {
+      "title": "44% of teachers have used AI, but workload remains unchanged",
+      "url": "https://www.rsc.org/policy-and-campaigning/education/the-science-teaching-survey/2024/44-of-teachers-have-used-ai-but-workload-remains-unchanged"
+    },
+    {
+      "title": "AI In Education Statistics By Usage, Adoption and Facts (2025)",
+      "url": "https://electroiq.com/stats/ai-in-education-statistics/"
+    },
+    {
+      "title": "Survey Examines American Attitudes Toward AI in Education",
+      "url": "https://www.digitalinformationworld.com/2025/08/survey-examines-american-attitudes.html"
+    },
+    {
+      "title": "Practitioner Voices Summit: How Teachers Evaluate AI Tools through Deliberative Sensemaking",
+      "url": "https://arxiv.org/pdf/2603.22588"
+    },
+    {
+      "title": "Teachers Attitudes towards the Use of AI: A Study of Benefits, Concerns and Support Needs – International Journal of Research and Innovation in Social Science",
+      "url": "https://rsisinternational.org/journals/ijriss/articles/teachers-attitudes-towards-the-use-of-ai-a-study-of-benefits-concerns-and-support-needs/"
+    },
+    {
+      "title": "Exploring the Relationship Between Teachers' AI Attitudes, AI Self‐Efficacy, and AI Technological Pedagogical Content Knowledge - Erol - 2025 - European Journal of Education - Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/ejed.70332?af=R"
+    },
+    {
+      "title": "Perceptions of AI Across Sectors: A Comparative Review of Public Attitudes",
+      "url": "https://arxiv.org/pdf/2509.18233"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "q066",
+  "question": "What experiences have emerged from AI use in vocational, technical, and professional training (medicine, law, engineering, trades)?",
+  "answer": "**AI in Vocational, Technical, and Professional Training**\n\nThe integration of artificial intelligence into vocational, technical, and professional training is one of the more consequential educational experiments of the current decade — and the results, while genuinely promising in places, are more uneven and contested than enthusiasts typically acknowledge.\n\nIn medicine, the pace of AI adoption has been swift and the stakes are high enough to generate a serious body of evidence. The landscape of AI in medical education has undergone a significant transformation in recent years, with generative AI models demonstrating remarkable capabilities in tackling complex medical examinations. The benchmark results are striking: in 2024, GPT-4 achieved an 82.4% accuracy rate on the Spanish Medical Internship and Residency exam, a substantial improvement over ChatGPT-3, which scored 51.4% the previous year. Medical schools have begun integrating AI into structured curricula in response. One new medical school tracked adoption among its students and found a rise from 24% to 77% between May 2024 and February 2025 — a trajectory that forced institutions to establish explicit policies simultaneously with rollout. Clear professionalism guidelines were established prohibiting AI use in generating learning objectives or writing clinical notes, while permitting its use in research applications or specific course settings authorized by faculty. Meanwhile, simulation-based training has advanced in parallel: AI can facilitate clinical reasoning training and critical care simulation, with AI-powered mannequins like SimMan 3G PLUS allowing medical students to practice clinical skills and teamwork in a fully controlled and immersive environment. Yet there is consistent caution in the literature: AI models still lack the holistic understanding, ethical reasoning, and empathetic capabilities that are fundamental to medical practice.\n\nLegal education has followed a different arc — more cautious institutionally, but rapidly changing in practice. The Thomson Reuters Institute 2025 report found that 26% of professionals now use generative AI at work, almost twice the 14% who did in 2024, with law firm attorneys leading in adoption. A 2024 survey found that 41 of the 100 largest U.S. law firms already utilize AI, with document drafting, legal research, and document summarization identified as the primary applications — though concerns about data security, algorithmic bias, and accountability persist. Law schools have scrambled to keep pace. Thomson Reuters announced in September 2025 that its AI-enabled legal tools — CoCounsel Legal and Deep Research from Westlaw — would be made available to U.S. law schools. At Berkeley Law, a course launched in early 2025 focused on generative AI in law covers how to integrate AI responsibly into practice, including prompt engineering, and managing risks such as AI hallucinations or confidentiality breaches. A more troubling signal comes from new empirical research: a 2026 study found that upper-level law students who rely on AI at an early stage of a project may experience reduced comprehension and impaired legal reasoning — a finding that complicates simple optimism.\n\nIn engineering and technical trades, the picture is different again, divided between the use of AI *as a training tool* and the broader question of how AI is reshaping which training is needed at all. Within programs, drafting students can use Fusion 360's generative design tools to create optimized components, while AI-based tools like ChatGPT are increasingly used in microcontroller and PLC programming, where natural language instructions can generate complex control code. The potential is not merely cosmetic: fields involving physical, hands-on activities experience the most notable advantages from AI integration, especially when utilizing sensor-rich, real-time feedback mechanisms. However, the evidence base is thinner than the enthusiasm. Only two studies as of 2025 used quantitative skill assessments evaluating tangible skill enhancements through controlled comparisons; the great majority of studies relied on surveys using Likert scales to evaluate satisfaction, perceived understanding, or usability. Instructor readiness remains a stubborn gap: instructors acknowledged possible benefits but voiced concerns about their level of preparedness, with one study finding that teachers exhibited a limited grasp of AI's practical uses even within technology-centric vocational schools in Germany — highlighting the urgent need for professional development before extensive AI implementation.\n\nThe macro-level effect of AI on the trades is, in some respects, the opposite of what one might expect. Rather than making manual training obsolete, the AI boom is driving demand for it. With AI threatening traditional jobs, policymakers are turning to apprenticeships and career technical education to fill gaps in skilled trades, and apprenticeship programs have surged 88% since 2015, reaching over 670,000 registered participants nationwide. Tech companies are directly funding this shift: in 2025, Google announced a $10 million initiative to support training of tens of thousands of U.S. electricians, channeled through a joint IBEW-NECA apprenticeship program aiming to train 100,000 new electricians and 30,000 apprentices. At trade schools themselves, the conversation is less about using AI in instruction and more about positioning against it: skilled trades are considered least vulnerable to AI displacement because they require hands-on problem-solving, adaptability, and manual labor.\n\nAcross all these fields, one tension recurs: the tools advance faster than the pedagogy. Medical schools, law schools, and engineering programs are each developing AI policies reactively, after adoption is already underway. Issues pertaining to data privacy, algorithmic bias, and equitable access must be addressed through robust regulatory frameworks and institution-wide policies if AI is to genuinely equip future professionals with the adaptive skills needed in a patient-centered, client-centered, or technically demanding workplace. The honest summary is that enthusiasm is high, early evidence is mixed, and robust longitudinal data on whether AI-assisted professional training actually produces more competent practitioners remains, for now, largely absent.",
+  "sources": [
+    {
+      "title": "Evaluating Large Language Models on the Spanish Medical Intern Resident   (MIR) Examination 2024/2025:A Comparative Analysis of Clinical Reasoning and   Knowledge Application",
+      "url": "https://arxiv.org/pdf/2503.00025"
+    },
+    {
+      "title": "Challenges in the Rapid and Responsible Integration of Generative Artificial Intelligence (AI) Into a New Medical School Curriculum",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12296314/"
+    },
+    {
+      "title": "Evolution of Artificial Intelligence in Medical Education From 2000 to 2024: Bibliometric Analysis",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11826936/"
+    },
+    {
+      "title": "Artificial Intelligence and law: What legal teams need to know",
+      "url": "https://legal.thomsonreuters.com/blog/artificial-intelligence-and-law-guide/"
+    },
+    {
+      "title": "\"Make It Sound Like a Lawyer Wrote It\": Scenarios of Potential Impacts of Generative AI for Legal Conflict Resolution",
+      "url": "https://arxiv.org/pdf/2602.24130"
+    },
+    {
+      "title": "Thomson Reuters Expands AI-Powered Legal Education with Next-Generation Tools for Law Schools | Thomson Reuters",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2025/september/thomson-reuters-expands-ai-powered-legal-education-with-next-generation-tools-for-law-schools"
+    },
+    {
+      "title": "Refonte Learning : Top Artificial Intelligence Courses for Lawyers in 2025",
+      "url": "https://www.refontelearning.com/blog/top-artificial-intelligence-courses-for-lawyers-in-2025"
+    },
+    {
+      "title": "Generative AI and Law School - Generative AI in the Legal Field - LibGuides at Loyola University Chicago Law Library",
+      "url": "https://lawlibguides.luc.edu/GenerativeAI/LawSchool"
+    },
+    {
+      "title": "Artificial Intelligence in Career Technical Education | ASCCC",
+      "url": "https://www.asccc.org/content/artificial-intelligence-career-technical-education"
+    },
+    {
+      "title": "Artificial Intelligence in Technical and Vocational Education and Training: Empirical Evidence, Implementation Challenges, and Future Directions[v1] | Preprints.org",
+      "url": "https://www.preprints.org/manuscript/202504.2173"
+    },
+    {
+      "title": "How States Are Combating AI Job Threats with Apprenticeships and Career Technical Education | MultiState",
+      "url": "https://www.multistate.us/insider/2025/9/16/how-states-are-combating-ai-job-threats-with-apprenticeships-and-career-technical-education"
+    },
+    {
+      "title": "Why the AI Infrastructure Boom Drives U.S. Demand for Skilled Trades - Align BA",
+      "url": "https://alignba.com/2025/05/09/why-the-ai-infrastructure-boom-drives-u-s-demand-for-skilled-trades/"
+    },
+    {
+      "title": "An Academic Viewpoint (2025) on the Integration of Generative Artificial Intelligence in Medical Education: Transforming Learning and Practices",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12020443/"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

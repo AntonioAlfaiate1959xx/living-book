@@ -1,0 +1,46 @@
+{
+  "id": "q041",
+  "question": "How can public education systems keep pace with private AI development without surrendering governance to tech companies?",
+  "answer": "The tension between public education and private AI development is not a future problem — it is an acute, present one, and the recent record makes clear that governments at every level are scrambling to catch up rather than lead.\n\n**The Scale of the Asymmetry**\n\nThe speed differential between private AI development and public institutional response is almost comically lopsided. The 2025 State EdTech Trends Report, released by SETDA in collaboration with Whiteboard Advisors, captures a pivotal moment: for the first time, artificial intelligence has overtaken cybersecurity as the top state education technology priority. Yet this priority status arrived largely in reaction to commercial products already saturating classrooms. According to CoSN's May 2025 State of EdTech District Leadership report, 43 percent of districts lack formal policies or guidance for AI use — even as 80 percent of districts have generative AI initiatives underway. The tools arrived before the governance did.\n\n**The Legislative Response: Active but Fragmented**\n\nLegislatures are not standing still. During the 2025 legislative session, 53 bills were proposed on the use of AI in education across 21 states, including 51 that apply specifically to K-12 schools; four states — Illinois, Louisiana, Nevada, and New Mexico — enacted legislation. Across these bills, five themes emerge: advancing AI literacy for students and professional development for teachers; requiring guidance on responsible use including privacy and transparency; creating studies or task forces; prohibiting specific AI uses such as those related to student mental health support or replacing teachers; and addressing AI-generated non-consensual intimate imagery. The breadth is encouraging; the fragmentation is not. A patchwork of state-level rules — some permissive, some restrictive — creates an uneven landscape that sophisticated vendors can navigate at will, adapting their terms of service to whichever jurisdiction offers the least friction.\n\nAt the federal level, the posture has been more promotional than regulatory. The White House launched a \"Pledge to America's Youth: Investing in AI Education\" that now includes commitments from over 200 tech companies and organizations including Google, OpenAI, Microsoft, NVIDIA, and Salesforce. America's AI Action Plan highlights the current administration's aversion toward regulation by providing that states should not have access to federal funding on AI-related matters should they implement \"burdensome AI regulations.\" This creates a structural incentive for states to compete on permissiveness rather than protection.\n\n**The Data Governance Crisis**\n\nThe governance vacuum is not theoretical. In December 2024, PowerSchool — a leading provider of cloud-based software managing student grades, attendance, and records for approximately 16,000 schools — detected unauthorized access; by January 2025, the scope was clear: more than 62 million student records and nearly 10 million teacher records had been exfiltrated, representing the largest breach of children's data in US history. The breach exposed an industry governance model that has normalized the centralization of children's data at unprecedented scale without commensurate security architecture, regulatory oversight, or enforceable data minimization requirements — and one year later, that model remains largely intact.\n\nMore insidious than spectacular breaches is the routine opacity of how student data flows. More than half of education technology companies did not fully disclose how learner data was being collected and shared, creating ethical and reputational risks for universities and schools. This lack of visibility has led to the rise of what experts call \"shadow AI\" — unapproved apps and browser extensions that process student inputs, store them indefinitely, or reuse them to train commercial models, often free, widely adopted, and nearly invisible to IT teams.\n\n**What Public Governance Can Actually Do**\n\nThree strategies carry genuine promise. The first is the creation of public AI infrastructure as a counterweight to proprietary systems. Digital Promise has launched a K-12 AI Infrastructure Program, a $26 million, multi-year effort to create openly shared and freely available models, datasets, and benchmarks designed for education. The logic here is important: if public institutions depend entirely on proprietary models, they can only govern those models from the outside. Owning or co-developing public-interest AI infrastructure is a different kind of leverage.\n\nThe second is what some governments are calling regulatory sandboxes — formally supervised frameworks where governments can engage innovators to test tools that challenge existing legal frameworks, in order to understand risks and safeguards and help shape regulation. This allows regulators to develop genuine technical knowledge before committing to rules, rather than legislating from ignorance.\n\nThe third is institutional self-defense through procurement power. Some higher education institutions are addressing data risk by maintaining local control of AI infrastructure — for example, the University of Montana worked with Amazon Web Services and Microsoft to create a university-owned data center that runs enterprise-grade models directly from these companies, ensuring all data is hosted in the university system and is not used to train any models. Public institutions collectively represent enormous purchasing leverage; exercising that leverage through coordinated procurement standards could reshape vendor incentives across the entire sector.\n\n**The Deeper Question**\n\nRealizing the benefits of AI in education while managing its risks calls for collaboration across public, private, and civic actors, supported by strong public oversight and safeguards; as Big Tech companies expand their presence in education ecosystems, it is critical for governments to strengthen their capacity to engage with private sector partnerships on their own terms. The phrase \"on their own terms\" carries real weight. The risk is not merely that public systems will fall behind technically — it is that, in the scramble to catch up, they will accept the terms set by the companies whose products they adopt, effectively outsourcing not just the tools but the values embedded in them. Keeping pace, in this context, means something more demanding than speed: it means building the institutional knowledge, legal architecture, and public infrastructure to remain the authoritative party in every negotiation.",
+  "sources": [
+    {
+      "title": "2025 State EdTech Trends Report: AI, Privacy and Student Wellbeing | Medium",
+      "url": "https://derekebaird.medium.com/student-privacy-digital-wellbeing-and-equity-of-access-insights-from-the-2025-state-edtech-e1f1759f723c"
+    },
+    {
+      "title": "Data, privacy, and cybersecurity in schools: A 2025 wake-up call",
+      "url": "https://www.eschoolnews.com/digital-learning/2025/07/30/data-privacy-and-cybersecurity-in-schools-a-2025-wake-up-call/"
+    },
+    {
+      "title": "States Focused on Responsible Use of AI in Education during the 2025 Legislative Session - Center for Democracy and Technology",
+      "url": "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+    },
+    {
+      "title": "Rights and Regulations: A Case Study on Guidelines for AI Use in Education – UAB Institute for Human Rights Blog",
+      "url": "https://sites.uab.edu/humanrights/2025/11/13/rights-and-regulations-a-case-study-on-guidelines-for-ai-use-in-education/"
+    },
+    {
+      "title": "Unmasking EdTech's Surveillance Infrastructure in the Age of AI | TechPolicy.Press",
+      "url": "https://www.techpolicy.press/unmasking-edtechs-surveillance-infrastructure-in-the-age-of-ai/"
+    },
+    {
+      "title": "Data Privacy in EdTech: What Universities Must Know in 2025",
+      "url": "https://www.enago.com/academy/guestposts/michael/data-privacy-edtech-universities-researchers/"
+    },
+    {
+      "title": "New AI Infrastructure Program Aims to Lower Barriers—and Raise Standards—for K-12 Vendors",
+      "url": "https://marketbrief.edweek.org/product-development/new-ai-infrastructure-program-aims-to-lower-barriers-and-raise-standards-for-k-12-vendors/2026/02"
+    },
+    {
+      "title": "How might we create policies and programmes that enable use of AI in education while protecting learners and national priorities? - EdTech Hub",
+      "url": "https://edtechhub.org/2025/11/26/ai-observatory-waypoints-and-signals-issue-25/"
+    },
+    {
+      "title": "AI in Higher Education: Protecting Student Data Privacy | EdTech Magazine",
+      "url": "https://edtechmagazine.com/higher/article/2026/01/ai-higher-education-protecting-student-data-privacy-perfcon"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

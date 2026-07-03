@@ -1,0 +1,50 @@
+{
+  "id": "q034",
+  "question": "What new literacies (AI literacy, prompt literacy, epistemic hygiene) become as fundamental as reading and writing?",
+  "answer": "## The New Literacies: AI Fluency, Prompt Craft, and Epistemic Self-Defense\n\nThere is a recurring pattern in the history of communication technology: each transformative shift in how information is produced and distributed eventually forces a redefinition of what it means to be literate. The printing press made alphabetic reading non-negotiable; the internet elevated digital and media literacy from elective to essential. Generative AI represents a third such rupture, and the skills it demands are not supplementary refinements to existing education — they are foundational competencies in their own right.\n\n**AI literacy** is the broadest of these emerging skills, and the one gaining the most institutional traction. The World Economic Forum's *Future of Jobs Report 2025* projects that nearly 40% of the skills required by the global workforce will change within five years. In response, preparing students for that future now means going beyond traditional curricula to include AI-specific capacities such as algorithmic thinking, prompt engineering, and understanding bias in data systems. Governments are beginning to formalize this. Article 4 of the EU AI Act mandates that those deploying AI systems must ensure users — including students and educators — have a sufficient level of AI literacy. The OECD and European Commission have jointly developed an AI Literacy Framework for primary and secondary education, and insights from more than 2,000 individuals helped shape its final version. In the United States, the Department of Education took actions prioritizing AI education in July 2025, releasing guidance on using AI to improve education outcomes. These are not isolated experiments — they signal an emerging consensus that AI literacy belongs alongside reading and arithmetic in the foundational curriculum.\n\n**Prompt literacy** is a narrower but equally significant skill: the ability to communicate effectively with generative AI systems. Prompt literacy enables anyone to communicate with and direct generative AI systems without needing expertise in computer programming. Prompts are commands formulated in natural human language that unlock the capabilities of AI and guide its outputs — and with prompt literacy, people can successfully interact with generative AI to achieve defined objectives while exercising judgment and responsibility. This is not simply a technical trick. Prompt engineering can be viewed as a specialized form of computational communication — a literacy for strategically interacting with AI systems to achieve desired outcomes. Research confirms that the quality of a prompt shapes the quality of the answer: the quality of prompts directly impacts the relevance, accuracy, and creativity of AI-generated output. Crucially, prompt literacy goes beyond just providing initial input; it also involves evaluating the accuracy of results produced by generative AI and continually modifying the prompt until the desired information is obtained. In this sense, prompt literacy is inseparable from critical thinking — it is reasoning made operational.\n\n**Epistemic hygiene** — the discipline of governing one's own belief-formation processes — may be the most urgent and least taught of the new literacies. AI systems impact not only beliefs, but belief revision itself — the reconfiguring of mechanisms by which people adopt, reject, or modify claims to knowledge. The danger is not only individual. As artificial intelligence rapidly evolves, the complexity of navigating an information landscape saturated with synthetic content, misinformation, and disinformation is amplified. Deepfakes, AI-generated texts, and algorithmically curated media increasingly challenge public trust and informed democratic participation. Research on student behavior reveals a troubling tendency: students increasingly see AI tools as trustworthy central sources of learning, a posture that skirts critical reflection on biases or model limits, producing automation bias in which AI results are trusted too much, even when errors are recognized — compromising basic epistemic practices such as evidence assessment, source triangulation, and epistemic modesty.\n\nWhat unifies these three literacies is that none of them is purely technical, and none can be reduced to simple rule-following. Beyond technical know-how, learners will need the human skills that AI cannot replicate — empathy, judgment, ethical reasoning, and collaboration. Without this support, learners may uncritically accept AI-generated content, adopt habits that compromise academic integrity, or neglect skills like critical thinking and empathetic judgment. The analogy to reading and writing is therefore precise rather than rhetorical: just as a person who can decode letters but cannot evaluate an argument is not truly literate, a person who can use AI tools but cannot interrogate their outputs, probe their assumptions, or trace the origin of a claim is not equipped for the epistemic demands of the current moment. The new literacies are not additions to the curriculum — they are its necessary reformation.",
+  "sources": [
+    {
+      "title": "Why AI literacy is now a core competency in education | World Economic Forum",
+      "url": "https://www.weforum.org/stories/2025/05/why-ai-literacy-is-now-a-core-competency-in-education/"
+    },
+    {
+      "title": "AI Literacy Framework for Primary & Secondary Education",
+      "url": "https://ailiteracyframework.org/"
+    },
+    {
+      "title": "TRAINING AND EMPLOYMENT NOTICE NO. 07-25 DATE February 13, 2026",
+      "url": "https://www.dol.gov/sites/dolgov/files/ETA/advisories/TEN/2025/TEN%2007-25/TEN%2007-25%20(complete%20document).pdf"
+    },
+    {
+      "title": "(PDF) Prompt Literacy",
+      "url": "https://www.researchgate.net/publication/378878862_Prompt_Literacy"
+    },
+    {
+      "title": "Full article: Human-Centric Artificial Intelligence Pedagogy (HCAP) framework developed from TPACK through integration of artificial intelligence literacy and competency",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10494820.2026.2615818"
+    },
+    {
+      "title": "Conceptualizing and Operationalizing Prompt Literacy for English Language Learners - Tour - 2025 - Journal of Adolescent & Adult Literacy - Wiley Online Library",
+      "url": "https://ila.onlinelibrary.wiley.com/doi/full/10.1002/jaal.70020"
+    },
+    {
+      "title": "What is prompt literacy? An exploratory study of language learners'   development of new literacy skill using generative AI",
+      "url": "https://arxiv.org/pdf/2311.05373"
+    },
+    {
+      "title": "Frontiers | Epistemic authority and generative AI in learning spaces: rethinking knowledge in the algorithmic age",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+    },
+    {
+      "title": "Media Literacy and Faculty Responsibility: Addressing AI‐Generated Disinformation in Higher Education - Hill - 2025 - New Directions for Adult and Continuing Education - Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/ace.70018"
+    },
+    {
+      "title": "1 Empowering Learners for the Age of AI - Review Draft (May 2025)",
+      "url": "https://ailiteracyframework.org/wp-content/uploads/2025/05/AILitFramework_ReviewDraft.pdf"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

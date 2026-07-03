@@ -1,0 +1,50 @@
+{
+  "id": "q016",
+  "question": "What consent can a minor meaningfully give to AI-mediated education?",
+  "answer": "The question of what consent a minor can meaningfully give to AI-mediated education cuts across philosophy, developmental psychology, and a rapidly shifting legal landscape — and it resists any tidy answer.\n\n**The structural problem of consent**\n\nThe most fundamental difficulty is not procedural but philosophical. One prominent line of criticism questions whether it is at all possible for students to consent to AI-powered educational systems, given that they are minors and schools wield disproportionate power compared to them. A student who must use a school-mandated platform — or who faces academic disadvantage for not doing so — is not in a position to refuse freely. Consent obtained under institutional compulsion is consent in name only. Some privacy policies are purposefully written in confusing ways, so accepting them should not be considered genuine consent; and even well-intentioned policies, being lengthy and difficult to comprehend, are often accepted carelessly to save time.\n\n**The developmental dimension: assent, not consent**\n\nA more nuanced position distinguishes between legal *consent*, which minors cannot give, and *assent* — a meaningful, if partial, expression of willingness by someone who lacks full legal capacity. Although a younger child is not legally able to give consent, the child has the freedom to assent or dissent after being informed in age-appropriate language. This distinction matters practically. Facilitating meaningful child assent — where children receive age-appropriate information and the ability to opt out of data collection — reinforces ethical engagement; and revisiting assent processes at key developmental milestones can further support children's evolving cognitive abilities, ensuring that they gradually develop an understanding of privacy and data rights. The complicating factor is that young children have limited metacognitive competence and are still developing an understanding of social contexts, personal rights, and roles, making it difficult for them to assess whether they have provided informed assent or whether they have the right to withdraw.\n\n**The legal scaffolding: where law steps in**\n\nBecause genuine minor consent is so difficult to establish, legal frameworks largely substitute other mechanisms for it. In the United States, COPPA requires parental consent for data collection from children under 13, with 2025 amendments requiring separate consent for third-party data sharing and mandatory data retention policies. In Europe, GDPR establishes digital consent ages ranging from 13 to 16, depending on jurisdiction. Schools themselves occupy an ambiguous intermediary role: tools may comply with COPPA when used through a school — where the school acts as the parent's agent for consent — with the school signing a data processing agreement with the vendor and the vendor treating student data accordingly. Legislatively, the landscape is accelerating: if operators know a user is a minor, pending legislation would require them to disclose that the user is interacting with AI, provide periodic reminders that the interaction involves AI, and institute additional protections.\n\nYet legal compliance and ethical adequacy are not the same thing. A 2024 Center for Democracy and Technology survey found that 42% of school districts using AI tools had not executed data processing agreements with their AI vendors, and 31% of administrators could not identify which federal law governs student data privacy. Research also reveals that 60% of school apps send student data to third-party advertising platforms, and only 14% of schools enable parents to consent to technology use.\n\n**The case for dynamic, graduated consent**\n\nThe most intellectually serious proposals move away from a single moment of consent — a box clicked, a form signed — toward something ongoing and developmental. Dynamic and flexible forms of informed consent could be adopted to maximize transparency, and by including methodological advancements and ethical developments in the research process, the ethical soundness of AI involvement with children and adolescents could be maintained. This approach treats consent not as a threshold event but as a relationship: one that evolves as the child matures, as the technology changes, and as its consequences become clearer. In K–12 contexts, where minors may lack the capacity to assess risks and implications, parents must be fully informed about the presence, functions, and impacts of AI tools, including transparency regarding data collection practices, algorithmic profiling, and potential privacy risks.\n\nWhat emerges from the current state of evidence is that no minor — and arguably no adult — can give truly informed consent to AI systems whose data practices are opaque and whose long-term developmental effects remain unknown. Generative AI is transforming education while research on long-term effects is still needed; there are identified risks concerning the cognitive and socio-emotional development of children and adolescents. The honest position is that the consent frameworks available today are placeholders — morally imperfect approximations — designed to distribute responsibility among parents, institutions, and regulators in the absence of anything more robust.",
+  "sources": [
+    {
+      "title": "Unpacking the ethics of using AI in primary and secondary education: a systematic literature review - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12434897/"
+    },
+    {
+      "title": "Ethical considerations in AI for child health and recommendations for child-centered medical AI - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11893894/"
+    },
+    {
+      "title": "Innovating responsibly: ethical considerations for AI in early childhood education | AI, Brain and Child | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s44436-025-00003-5"
+    },
+    {
+      "title": "10 questions every school should ask about AI data privacy | SchoolAI",
+      "url": "https://schoolai.com/blog/key-questions-ai-data-privacy-schools-before-implementation"
+    },
+    {
+      "title": "Privacy Software for Schools: Protecting Student Data & ...",
+      "url": "https://secureprivacy.ai/blog/privacy-software-for-schools"
+    },
+    {
+      "title": "COPPA-Compliant AI Tools for Kids: Verified List (2026)",
+      "url": "https://www.kidsaitools.com/en/articles/coppa-compliant-ai-tools-for-kids"
+    },
+    {
+      "title": "End-of-Year 2025 State and Federal Developments in Minors’ Privacy | Inside Privacy",
+      "url": "https://www.insideprivacy.com/childrens-privacy/end-of-year-2025-state-and-federal-developments-in-minors-privacy/"
+    },
+    {
+      "title": "Legal Considerations for AI in Education — FERPA, COPPA, and GDPR | EduGenius",
+      "url": "https://www.edugenius.app/blog/legal-considerations-ai-education-ferpa-coppa"
+    },
+    {
+      "title": "Informed Consent in Educational AI Research Needs to Be Transparent, Flexible, and Dynamic - Skulmowski - 2025 - Mind, Brain, and Education - Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/mbe.12435?af=R"
+    },
+    {
+      "title": "A Systematic Review of AI Ethics in Education: - ScienceDirect",
+      "url": "https://www.sciencedirect.com/org/science/article/pii/S1062737525000654"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

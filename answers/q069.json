@@ -1,0 +1,82 @@
+{
+  "id": "q069",
+  "question": "Which national and regional AI-in-education regulations currently exist, and how do their approaches compare?",
+  "answer": "## AI in Education: The Global Regulatory Landscape\n\nThe regulation of artificial intelligence in educational settings is now one of the most active — and most contested — areas of technology policy worldwide. Three distinct regulatory philosophies have emerged, each reflecting deeper assumptions about the proper relationship between states, institutions, and technology.\n\n---\n\n### The European Union: Rights-Based, Risk-Stratified Law\n\nThe most architecturally ambitious framework is the EU AI Act, the world's first comprehensive legal framework governing AI development and deployment, which classifies AI systems by risk level — from minimal to unacceptable — and assigns corresponding compliance obligations. For the education sector, this classification has direct consequences. Education sits at the intersection of two areas the Act treats with particular care: high-risk AI applications and the protection of vulnerable populations. Many common school applications — from automated essay grading and adaptive learning platforms to dropout prediction tools — fall squarely into the high-risk category under Annex III, covering AI systems that determine access, assess learning outcomes, or influence the educational path of individuals.\n\nThe prohibitions are explicit and already enforceable. Among eight banned practices, emotion recognition in educational institutions and real-time remote biometric identification are flatly prohibited; those prohibitions became effective in February 2025. Any system designed to infer student emotions from facial, vocal, or biometric cues is classified as \"unacceptable risk\" and is banned in EU educational settings.\n\nThe timeline has recently shifted, however. A legislative simplification package — the so-called \"AI omnibus\" — was adopted in November 2025, with a political agreement reached in May 2026. Under that agreement, the full compliance rules for high-risk AI systems in education will now apply from December 2027. Penalties for non-compliance are substantial: placing a non-compliant high-risk AI system on the market can result in fines of up to 15 million euros or 3 percent of global annual turnover, whichever is higher.\n\nAlongside the binding Act, the European Commission has issued ethical guidelines for educators and the guidelines include clear explanations of the AI Act, the General Data Protection Regulation, and the principles of responsible AI use. The European Schools system, notably, has been candid that no generative AI tools have yet been officially approved for system-wide use, with approval procedures still under development.\n\n---\n\n### The United States: Federalism Without a Federal Floor\n\nAcross the Atlantic, the picture is one of deliberate decentralization. There is no comprehensive federal AI-in-education statute. The existing federal scaffolding rests on older laws: FERPA protects the privacy of student education records, but its last regulatory updates predate the widespread use of technology in learning environments, leaving institutions to interpret it in light of artificial intelligence. There are few federal regulations that govern AI directly at the higher education level.\n\nThe Trump administration's April 2025 executive order on AI education frames the issue almost entirely in competitiveness terms. It is the policy of the United States to promote AI literacy and proficiency among Americans by promoting the appropriate integration of AI into education, providing comprehensive AI training for educators, and fostering early exposure to AI concepts to develop an AI-ready workforce. The Department of Education subsequently issued grant guidance outlining how AI may be used across key educational functions and articulating principles for responsible use, affirming such uses are allowable under existing federal education programs.\n\nWith the federal level providing only encouragement and grant incentives, states have become the primary regulatory arena. When ChatGPT debuted in 2022, no states had policies related to generative AI; by April 2025, at least 28 states had engaged with the issue legislatively. The legislative priorities reveal a pragmatic rather than rights-based orientation. Fifteen bills in the 2025 session alone focused on promoting AI literacy for students and professional development for teachers, making this the top legislative priority. Several states have moved toward guardrails on specific harms: Nevada enacted legislation prohibiting public schools from using AI-powered tools to perform the functions of a school counselor, psychologist, or social worker in relation to student mental health. Vendor accountability is a newer frontier: legislators are increasingly mandating that AI EdTech vendors submit documentation about how they handle and use student data to train their products.\n\nState approaches vary widely in ambition. States like California, Connecticut, and Texas have introduced bills to create oversight boards and \"regulatory sandboxes\" where AI tools can be tested before broader rollout. Tennessee, by contrast, passed a law mandating that all K-12 districts, charter schools, and universities adopt their own AI policies, with the Tennessee School Boards Association subsequently developing a model policy that most districts adopted in full.\n\n---\n\n### China: State-Directed Integration with Embedded Guardrails\n\nChina's approach is neither rights-centered like Europe's nor market-permissive like the United States'. It is best understood as state-directed deployment, combining ambitious top-down mandates with granular behavioral rules. China aims to promote AI in aiding education reform, with a joint guideline from the Ministry of Education and eight other departments emphasizing building an AI-based education system that integrates smart technologies into teaching, learning, assessment, and academic research.\n\nThe Ministry of Education issued two guidelines in May 2025: one for AI general education in primary and secondary schools, and one for the use of generative AI — prohibiting students from independently using open-ended content generation at the primary level and banning teachers from using generative AI as a substitute for their core teaching responsibilities. The curriculum is structured as a developmental ladder: primary school students encounter basic technologies like voice recognition and image classification; junior high students examine machine learning processes and develop critical thinking about misinformation in AI outputs; senior secondary students design and refine AI algorithm models while cultivating interdisciplinary systems thinking.\n\nSeveral regions — including Beijing, Guangzhou, and Chengdu — have rolled out implementation plans specifying class hour requirements at each school stage and incorporating AI course evaluations into students' overall assessments; Beijing's primary and secondary schools will fully implement general AI education starting in fall 2025, with no fewer than eight class hours per academic year.\n\nAt the university level, academic integrity has become a pressure point. At Tianjin University of Science and Technology, AI-generated content in undergraduate theses must not exceed 40 percent under detection measures introduced in 2024. Fudan University's regulations ban AI use in six areas of academic work, including research design, original data collection, and thesis writing.\n\n---\n\n### Comparing the Three Approaches\n\nThe fundamental divergence is one of purpose. The EU regulates AI in education primarily as a matter of fundamental rights — student autonomy, non-discrimination, and freedom from surveillance — and uses legal prohibition and conformity assessment to enforce those values. The United States treats the problem primarily as a governance challenge to be managed at the most local level capable of acting, with the federal role confined to incentives and workforce framing. China treats AI integration as a national strategic imperative, with the state setting both the pace and the curriculum, while embedding data security and anti-dependency rules as safety val",
+  "sources": [
+    {
+      "title": "EU AI Act for Education — Guide 2026 | Plan Be Eco",
+      "url": "https://planbe.eco/en/blog/eu-ai-act-for-the-education-industry/"
+    },
+    {
+      "title": "AI Act | Shaping Europe's digital future - European Union",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+      "title": "[Research] The EU AI Act: Implications for Ethical AI in Education.",
+      "url": "https://swisscyberinstitute.com/research/eu-ai-act-implications-ethical-ai-education/"
+    },
+    {
+      "title": "Guidelines on the ethical use of artificial intelligence and data in teaching and learning - European Education Area",
+      "url": "https://education.ec.europa.eu/focus-topics/digital-education/actions/plan/ethical-guidelines-for-educators-on-using-artificial-intelligence"
+    },
+    {
+      "title": "Legal and pedagogical guidelines for the educational use of ...",
+      "url": "https://www.eursc.eu/BasicTexts/2025-01-D-66-en-2.pdf"
+    },
+    {
+      "title": "Federal Regulations Related to Artificial Intelligence",
+      "url": "https://www.nea.org/sites/default/files/2025-06/5.1-ai-policy-overview-of-federal-regulations-final.pdf"
+    },
+    {
+      "title": "Advancing Artificial Intelligence Education for American Youth – The White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/advancing-artificial-intelligence-education-for-american-youth/"
+    },
+    {
+      "title": "U.S. Department of Education Issues Guidance on Artificial Intelligence Use in Schools, Proposes Additional Supplemental Priority | U.S. Department of Education",
+      "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-issues-guidance-artificial-intelligence-use-schools-proposes-additional-supplemental-priority"
+    },
+    {
+      "title": "How States Are Responding to the Rise of AI in Education - Education Commission of the States",
+      "url": "https://www.ecs.org/artificial-intelligence-ai-education-task-forces/"
+    },
+    {
+      "title": "States Focused on Responsible Use of AI in Education during the 2025 Legislative Session - Center for Democracy and Technology",
+      "url": "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+    },
+    {
+      "title": "Our Response: Policies Relating to AI Generally",
+      "url": "https://www.ecs.org/wp-content/uploads/Artificial-Intelligence-Technologies-in-Education_July-2025-Update.pdf"
+    },
+    {
+      "title": "States race forward on education AI regulations despite Trump objections",
+      "url": "https://thehill.com/homenews/education/5720796-states-education-ai-regs-trump-order/"
+    },
+    {
+      "title": "State AI Guidance for Education — AI for Education",
+      "url": "https://www.aiforeducation.io/ai-resources/state-ai-guidance"
+    },
+    {
+      "title": "New guideline stresses on AI-based education",
+      "url": "https://english.www.gov.cn/policies/policywatch/202504/18/content_WS6801bda9c6d0868f4e8f1da9.html"
+    },
+    {
+      "title": "China issues guidelines to promote AI education in primary and secondary schools - Global Times",
+      "url": "https://www.globaltimes.cn/page/202505/1333878.shtml"
+    },
+    {
+      "title": "China advances AI curriculum to cover full basic education | english.scio.gov.cn",
+      "url": "http://english.scio.gov.cn/pressroom/2025-05/13/content_117871666.html"
+    },
+    {
+      "title": "Chinese cities roll out AI curriculum in schools, linking learning outcomes to student evaluation - Global Times",
+      "url": "https://www.globaltimes.cn/page/202506/1337312.shtml"
+    },
+    {
+      "title": "Chinese universities tighten AI usage rules to curb academic misuse",
+      "url": "http://www.ecns.cn/news/cns-wire/2025-02-27/detail-ihepcskv6108382.shtml"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

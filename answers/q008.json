@@ -1,0 +1,54 @@
+{
+  "id": "q008",
+  "question": "How does AI reshape our concept of intelligence itself — and the way schools measure and reward it?",
+  "answer": "**Intelligence Reconsidered: What AI Changes About the Mind and the Classroom**\n\nFor most of the twentieth century, the dominant model of intelligence was essentially computational: the smartest person in the room was the one who could store the most information, retrieve it fastest, and process it with fewest errors. Schools were built in that image — examinations rewarded recall, speed, and the disciplined application of known procedures. Then came machines that can do all of those things vastly better than any human being, at any scale, at negligible cost. The encounter is not merely a technological disruption; it is a conceptual one. It forces a reckoning with what intelligence actually is, and what schooling is therefore for.\n\nThe reckoning is already underway in research and policy. Where the steam engine redefined labour and the computer redefined calculation, AI is redefining thought itself — and unlike earlier technologies that multiplied individual workers' power, large language models multiply what might be called the collective intelligence of humanity. This shift puts pressure on a long-standing assumption: that the value of a trained mind lies chiefly in what it holds and can produce in isolation. A 2025 framework proposed by Moldoveanu and Siemens argues for a core shift — that skills are now exercised interactionally and dialogically before they are individually mastered, and that cultivating what they call \"interactional intelligence\" means integrating meta-cognitive capacities such as understanding how we think *with* AI, evaluating model appropriateness, and designing task architectures that distribute work between human and machine.\n\nThat redistribution raises an uncomfortable empirical question: does offloading cognitive work to machines degrade the human capacity for independent thought? The evidence is genuinely mixed and should not be simplified. A study by Gerlich (2025) found a negative correlation between frequent AI usage and critical-thinking abilities, with one contributing factor being cognitive offloading — AI users engaging less in deep, reflective thinking and preferring quick AI-generated solutions. An MIT Media Lab study divided subjects into three groups writing essays using ChatGPT, a search engine, or nothing at all; EEG recordings found that generative AI users had the lowest brain engagement and consistently underperformed at neural, linguistic, and behavioural levels. Yet the picture is not uniformly bleak. Cognitive Load Theory suggests that AI has the potential to eliminate redundant work and allow students to focus on more important cognitive operations — but that over-reliance risks reducing the kind of effortful engagement needed for deep learning and higher-order thinking, and that adaptive AI must promote effortful engagement rather than passive reception.\n\nUnlike earlier tools such as calculators and spreadsheets, which made specific tasks easier without fundamentally altering the ability to think, AI is reshaping the way people process information and make decisions, often diminishing reliance on their own cognitive abilities. Whether that diminishment becomes permanent depends significantly on how schools respond — and here the institutional picture is one of belated, uneven reform.\n\nAustralia's national higher-education regulator, TEQSA, released a landmark guidance document in September 2025 acknowledging that AI detection tools cannot guarantee integrity and that structural redesign of assessment is the only sustainable response. Schools, vocational providers, and universities alike are grappling with the same question: how to design assessments that are credible, authentic, and future-facing in the age of AI. The answer emerging from multiple quarters is to shift emphasis from what students can produce toward what they can judge, question, and direct. The World Economic Forum's *Future of Jobs Report 2025* projects that nearly 40% of the skills required by the global workforce will change within five years, and that preparing students means going beyond traditional curricula. The skills that curriculum designers now emphasise include algorithmic thinking and prompt engineering alongside the human capacities that AI cannot replicate: empathy, judgment, ethical reasoning, and collaboration.\n\nPrompt engineering — the ability to craft precise, thoughtful inputs for AI tools to produce effective outputs — is quickly becoming an essential skill in modern education; more than a technical trick, it represents a pedagogical shift. There is a genuine irony here: to use a thinking machine well, one must think carefully first, which means the best use of AI may paradoxically demand more rigorous intellectual formation, not less. Policymakers, accordingly, are being urged to expand access to education and training that emphasises complex decision-making skills, ensuring that more people develop the judgment needed to complement AI rather than simply defer to it.\n\nWhat remains genuinely contested is whether schools are moving fast enough, or in the right direction. The World Economic Forum identifies creative thinking, flexibility, resilience, curiosity, and lifelong learning as competencies expected to rise sharply through 2030 — skills that K–12 schools must intentionally foster. Whether the grading rubric, the standardised test, and the timed examination — all instruments calibrated to a pre-AI conception of mind — can capture those qualities is a question that educational systems have barely begun to answer.",
+  "sources": [
+    {
+      "title": "When AI Meets Engineering Education: Rethinking the University - HEPI",
+      "url": "https://www.hepi.ac.uk/2025/09/17/when-ai-meets-engineering-education-rethinking-the-university/"
+    },
+    {
+      "title": "From Individual Prompts to Collective Intelligence: Mainstreaming Generative AI in the Classroom",
+      "url": "https://arxiv.org/pdf/2601.06171"
+    },
+    {
+      "title": "AI’s cognitive implications: the decline of our thinking skills?",
+      "url": "https://www.ie.edu/center-for-health-and-well-being/blog/ais-cognitive-implications-the-decline-of-our-thinking-skills/"
+    },
+    {
+      "title": "Is AI Eroding Our Critical Thinking Skills? - The ANSI Blog",
+      "url": "https://blog.ansi.org/ansi/is-ai-eroding-our-critical-thinking-skills/"
+    },
+    {
+      "title": "The cognitive paradox of AI in education: between enhancement and erosion - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036037/"
+    },
+    {
+      "title": "The Dark Side of AI: How It’s Impacting Human Cognitive Skills",
+      "url": "https://www.forbes.com/sites/chriswestfall/2024/12/18/the-dark-side-of-ai-tracking-the-decline-of-human-cognitive-skills/"
+    },
+    {
+      "title": "Three pathways to assessment reform: what TEQSA’s AI guidance means for universities | Instructure",
+      "url": "https://www.instructure.com/en-au/resources/blog/three-pathways-assessment-reform-what-teqsas-ai-guidance-means-universities"
+    },
+    {
+      "title": "Why AI literacy is now a core competency in education | World Economic Forum",
+      "url": "https://www.weforum.org/stories/2025/05/why-ai-literacy-is-now-a-core-competency-in-education/"
+    },
+    {
+      "title": "AI prompt engineering is a critical new skillset - eCampus News",
+      "url": "https://www.ecampusnews.com/ai-in-education/2025/12/24/ai-prompt-engineering-is-a-critical-new-skillset/"
+    },
+    {
+      "title": "Machine Intelligence and Human Judgment",
+      "url": "https://www.imf.org/en/publications/fandd/issues/2025/06/machine-intelligence-and-human-judgement-ajay-agrawal"
+    },
+    {
+      "title": "Artificial Intelligence - Professional Learning (CA Dept of Education)",
+      "url": "https://www.cde.ca.gov/ci/pl/aiincalifornia.asp"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

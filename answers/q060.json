@@ -1,0 +1,42 @@
+{
+  "id": "q060",
+  "question": "Which widely repeated claims about AI in education lack solid evidence, and which early findings have failed to replicate?",
+  "answer": "**Unverified Promises and Inconvenient Findings: The Evidentiary State of AI in Education**\n\nFew domains in contemporary technology have accumulated such a gap between confident assertion and rigorous proof as artificial intelligence in education. Advocates routinely describe AI tutors as instruments of revolutionary personalization, equity, and scale — claims that, on close examination, rest on a shakier empirical foundation than their proponents acknowledge.\n\nThe most fundamental problem is the provenance of the evidence itself. Most existing research on AI's educational effectiveness is produced by the technology developers themselves, which undermines its independence and invites skepticism about conflicts of interest. This is not a minor methodological quibble: vendor-sponsored findings consistently outperform results from independent replication, a pattern well-documented across other technology sectors. There remains no shared framework or consensus on what constitutes valid, independent evidence of AI's impact in learning environments.\n\nCompounding this is the pace of deployment relative to the pace of knowledge. AI enters classrooms not through deliberate adoption of evidence-based tools but through widespread and spontaneous student and teacher use, largely before institutions had formed any response and definitely before research has been able to figure out productive and responsible practices. In some cases, the direct evidence base for effective AI-based pedagogy that could guide the use of such tools does not yet exist in recognizable form and may not for years.\n\nThe widely repeated claim that AI delivers genuinely *personalized* learning — adapting in real time to each student's needs and thereby closing achievement gaps — is among the most overstated. Educators and policymakers are generally optimistic about AI's potential to deliver personalized education despite limited evidence that these tools can be effective at improving student learning outcomes; a systematic review of 113 papers found that while AI education tools can generally improve student motivation and output, the methods used to evaluate them were often ineffective at measuring actual learning. Motivation and genuine comprehension are not the same thing, and conflating the two inflates apparent success rates considerably.\n\nThe claim that AI is a *neutral* or *equalizing* force in education is equally contested. Researchers have identified distinct forms of algorithmic discrimination — including proxy bias, disparate impact, and biased targeting — that systematically disadvantage groups defined by race, gender, disability, and socioeconomic status; bias can also be reinforced through patterns of user interaction, allowing inequities to compound over time rather than dissipate. Taken together, this evidence challenges the assumption that AI is a neutral educational tool.\n\nWhere early studies did show gains, the picture from more recent work has grown more complicated. Systematic reviews show that generative AI can support critical thinking under guided, reflective use, but that unstructured or excessive reliance shifts effort from analysis and evaluation to acceptance of AI outputs; reported gains cluster at lower cognitive levels, while higher-order reasoning weakens under automation bias and reduced metacognitive effort. An EEG study at MIT Media Lab sharpened this concern considerably: participants who used LLM assistance showed lower cognitive engagement signatures during writing, and when subsequently asked to perform the same task without AI showed measurably reduced performance relative to those who had never used AI assistance — a pattern the authors term \"cognitive debt.\"\n\nNot all findings point in the same pessimistic direction. A 2025 randomized controlled trial at Harvard offers the most rigorous counterweight to date: the study by Kestin, Miller, Klales and colleagues provides empirical validation that properly designed AI tutoring can surpass traditional pedagogical best practices, with a randomized controlled trial conducted during Fall 2023 at Harvard University and published in *Scientific Reports*. However, the critical caveat is implementation. The study demonstrates that effective AI tutoring requires substantial upfront investment in careful prompt engineering, platform development, and pedagogical design — not merely purchasing access to commercial chatbots. That distinction matters enormously, because most institutional deployments resemble the latter far more than the former.\n\nThe honest summary is one of significant uncertainty layered over modest, domain-specific signal. A systematic review of AI tutoring systems from 2010 to 2025 reveals a complex landscape regarding effectiveness, highlighting both advancements and persistent challenges, and identifies a need for greater scientific rigor in experimental design and data analysis. Enthusiasm has consistently run ahead of evidence, and the field's most urgent need is not more enthusiastic pilot programs but independent, longitudinal studies designed from the outset to measure what students can actually do once the AI is switched off.",
+  "sources": [
+    {
+      "title": "AI and the Futures of Education | UNESCO",
+      "url": "https://www.unesco.org/en/articles/ai-and-futures-education"
+    },
+    {
+      "title": "A Framework for institutional change in the age of AI",
+      "url": "https://arxiv.org/pdf/2605.12757"
+    },
+    {
+      "title": "From Intuition to Understanding: Using AI Peers to Overcome Physics   Misconceptions",
+      "url": "https://arxiv.org/pdf/2504.00408"
+    },
+    {
+      "title": "Frontiers | AI and the digital divide in education",
+      "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1759027/full"
+    },
+    {
+      "title": "A Review of the Negative Effects of Digital Technology on Cognition",
+      "url": "https://arxiv.org/pdf/2603.10025"
+    },
+    {
+      "title": "The Cognitive Divergence: AI Context Windows, Human Attention Decline, and the Delegation Feedback Loop",
+      "url": "https://arxiv.org/pdf/2603.26707"
+    },
+    {
+      "title": "Review of Kestin et al.’s June 2025 Harvard Study on AI Tutoring | Educational Technology and Change Journal",
+      "url": "https://etcjournal.com/2025/11/10/review-of-kestin-et-al-s-june-2025-harvard-study-on-ai-tutoring/"
+    },
+    {
+      "title": "A Comprehensive Review of AI-based Intelligent Tutoring Systems: Applications and Challenges",
+      "url": "https://arxiv.org/html/2507.18882v1"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "q051",
+  "question": "What does current peer-reviewed evidence show about the effects of AI tutoring systems on learning outcomes, and how strong is that evidence?",
+  "answer": "**AI Tutoring Systems and Learning Outcomes: What the Evidence Shows**\n\nThe question of whether AI tutoring systems genuinely improve learning is one of the most consequential in contemporary education research — and the honest answer, as of mid-2026, is that the evidence is promising but still maturing, with its quality varying considerably depending on the generation of technology being evaluated.\n\nThe older, pre-generative-AI strand of evidence is comparatively well-established. A meta-analysis of 50 controlled evaluations of intelligent tutoring systems found a median effect size of 0.66 standard deviations over conventional instruction — equivalent to moving a student from the 50th to the 75th percentile. Positive effect sizes were found at all levels of education and in nearly all subject domains evaluated, and the pattern held even after accounting for potential publication bias. These are meaningful numbers by educational research standards, where effect sizes above 0.4 are generally considered substantive. However, the magnitude of improvement depended heavily on whether outcomes were measured using locally developed or standardized tests, suggesting that alignment between test content and instructional objectives is a critical determinant of results.\n\nThe more recent wave of research concerns generative AI — systems built on large language models rather than rule-based logic — and here the evidence base is thinner but expanding rapidly. Many claims about the educational benefits of generative AI have outpaced high-quality evidence, but a number of recent rigorous studies suggest that tutoring systems integrating generative AI can deliver learning gains and offer a path to individualized education at scale. A 2025 randomized controlled trial published in *Scientific Reports* by researchers at Harvard is among the most cited: the study measured college students' learning when content was delivered through an AI-powered tutor compared with an active-learning class, finding that students learned significantly more in less time with the AI tutor, and also reported feeling more engaged and motivated. A separate exploratory RCT in UK secondary school classrooms found that an AI tutor integrated into a mathematics platform and supervised by human tutors produced a 5.5 percentage-point increase in students' likelihood of correctly answering novel questions.\n\nYet the picture is not uniformly positive, and a crucial caveat emerges from a large-scale field experiment published in *PNAS*. That study examined GPT-4's impact on student learning in mathematics and found that although AI-based tutoring improved performance during practice sessions, students who relied on the technology tended to underperform when AI access was subsequently removed — indicating reduced independent skill acquisition. The remedy, the researchers found, was deliberate design: carefully designed safeguards, especially asking the AI tutor to provide teacher-designed hints rather than giving away answers, can mitigate these negative effects. This finding is echoed in the broader literature: there are studies indicating that over-reliance on AI hints can worsen outcomes, and a systematic review by Zhai et al. (2024) associated regular use of AI dialogue and tutoring systems with a decline in students' cognitive abilities and an increased tendency for cognitive offloading.\n\nThe K-12 systematic review published in *npj Science of Learning* in 2025 provides a useful summary of where the evidence currently stands for younger learners: the effects of intelligent tutoring systems on learning and performance in K-12 education are generally positive but are mitigated when compared to non-intelligent tutoring systems, and additional research with longer interventions and more diverse samples is warranted. The methodological problems are not trivial: empirical evidence remains scarce, and most published evaluations rely on user satisfaction metrics or short-duration laboratory tasks rather than rigorous field experimentation with validated learning outcome measures.\n\nTwo conclusions emerge from the current body of work. First, well-designed AI tutoring systems — particularly those that adapt to the learner, provide formative feedback, and resist simply handing over answers — can produce real academic gains, especially in structured domains like mathematics and science. Second, design choices matter enormously: safeguards that constrain how the AI assists are not merely a safety feature but a pedagogical necessity, required to ensure that human learning is actually preserved. The gap between a well-designed AI tutor and an unconstrained language model is not cosmetic — it may determine whether the technology helps students learn or merely helps them complete tasks.",
+  "sources": [
+    {
+      "title": "Effectiveness of Intelligent Tutoring Systems: A Meta- ...",
+      "url": "https://journals.sagepub.com/doi/abs/10.3102/0034654315581420"
+    },
+    {
+      "title": "[PDF] Intelligent tutoring systems and learning outcomes: A meta-analysis | Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/Intelligent-tutoring-systems-and-learning-outcomes:-Ma-Adesope/9581009c34216cac062888c5ccf055453db17881"
+    },
+    {
+      "title": "What the research shows about generative AI in tutoring | Brookings",
+      "url": "https://www.brookings.edu/articles/what-the-research-shows-about-generative-ai-in-tutoring/"
+    },
+    {
+      "title": "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting | Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-025-97652-6"
+    },
+    {
+      "title": "Testing the efficacy of AI tutoring in secondary mathematics: A scaled RCT in UK classrooms",
+      "url": "https://www.socialscienceregistry.org/trials/18079"
+    },
+    {
+      "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics | PNAS",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122"
+    },
+    {
+      "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/"
+    },
+    {
+      "title": "Analysing the Effectiveness of Different AI-Based Tutoring Systems and their Impact on Education across Global Contexts: A Literature Review - NHSJS",
+      "url": "https://nhsjs.com/2025/analysing-the-effectiveness-of-different-ai-based-tutoring-systems-and-their-impact-on-education-across-global-contexts-a-literature-review/"
+    },
+    {
+      "title": "A systematic review of AI-driven intelligent tutoring systems (ITS) in K-12 education | npj Science of Learning",
+      "url": "https://www.nature.com/articles/s41539-025-00320-7"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

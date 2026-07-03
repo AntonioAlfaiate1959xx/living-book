@@ -1,0 +1,38 @@
+{
+  "id": "q006",
+  "question": "What is irreducibly human in the act of teaching, and what is irreducibly human in the act of learning?",
+  "answer": "**What Is Irreducibly Human in Teaching and Learning**\n\nThe question presses hardest precisely when it seems most answerable by technology. An AI tutor can be patient without limit, responsive without fatigue, available at midnight, and calibrated to the exact pace of any learner. And yet something resists substitution — not as a sentimental preference for the old ways, but as a structural feature of what teaching and learning actually are.\n\nBegin with the teacher. The most obvious candidates for the irreducibly human — warmth, encouragement, the ability to notice a student's confusion — are real but insufficient. What is deeper is the teacher's own history as a learner. When a learner works with an expert teacher, they are not simply gaining access to the teacher's knowledge, but also benefiting from the teacher's memories of learning it themselves. This is not a trivial advantage. A teacher who has genuinely struggled with a concept carries in their body and speech a kind of phenomenological map of the confusion — where it hurts, where the wrong turn is attractive, what it feels like to suddenly see through it. No AI technology learns something the way a human learns it, and then helps another human learn accordingly. The machine's \"knowledge\" is statistically derived, not experientially won, and this distinction leaves a mark on every explanation it can give.\n\nThe teacher also brings something harder to name: the capacity for genuine moral witness. If education is ultimately about cultivating judgment, empathy, curiosity, and the ability to engage thoughtfully with others, then meaningful human encounters cannot be an occasional feature of learning. The teacher who perceives a student's shame, or excitement, or dawning self-doubt is not performing pattern recognition on behavioral data — a human is uniquely placed to sense what another human is cognitively experiencing at any moment, and respond accordingly. That responsiveness is partly emotional and partly ethical: it involves caring about this particular person's formation, not just their performance on a task. Teachers believe that the complex nature of teaching requires human intervention, that AI alone cannot adequately address the multifaceted demands of education, including social and emotional development, personalized support, and adaptability to individual student needs.\n\nThere is also the matter of intellectual authority — not the authority of hierarchy, but the authority of genuine commitment. A teacher vouches for what they teach. They stake something of themselves on the claim that this material matters, that it is worth the student's time and suffering. A system that generates plausible explanations cannot vouch for anything. Close reading, cultural nuance, and the encounter with soulless machine translations all point to the same belief: that yearning is a human act, and that learning involves recognizing and reclaiming what is irreducibly human.\n\nNow consider the learner. Here the irreducibly human is less about relationship and more about stakes. To learn genuinely — not to acquire information but to be changed by it — is to submit to a process that disrupts prior certainty. Education does not begin when information is presented; it begins when assumptions are challenged by new people and experiences. This kind of challenge is not merely cognitive. Cognition is shaped not merely by the brain but also by the interactions between the body and the environment, and conceptual knowledge can be acquired and understood through bodily experiences, with cognition grounded in sensorimotor activities. The learner who grasps a concept is not filing a new proposition into memory; the understanding often inhabits posture, gesture, and sensation.\n\nMore fundamentally, the learner brings vulnerability — the willingness to not yet know. This is existentially costly in a way machines cannot replicate or appreciate. Social-emotional competencies developed through human interactions are something generative AI technologies cannot currently replicate. The courage to be confused in front of others, to revise one's self-understanding, to remain uncertain while pushing forward — these are not skills in the ordinary sense. They are modes of being that emerge through the encounter with other people who have themselves survived not knowing.\n\nWhat remains irreducibly human in teaching, then, is the transmission of hard-won experience, the act of moral witness, and the vouching of one mind for the value of what it knows. What remains irreducibly human in learning is the vulnerability of genuine transformation — the willingness to be remade by contact with difficulty, other minds, and the world as it resists our expectations. As AI becomes increasingly capable of providing information, the purpose of education might become even clearer: information is abundant. What is scarce is the human willingness to be changed by it.",
+  "sources": [
+    {
+      "title": "Artificial intelligence will never replace human teachers – Monash Lens",
+      "url": "https://lens.monash.edu/ai-technology-will-never-take-over-from-human-teachers/"
+    },
+    {
+      "title": "Teaching is a human activity, not for AI - Taipei Times",
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/07/02/2003860080"
+    },
+    {
+      "title": "From Co-Design to Metacognitive Laziness: Evaluating Generative AI in Vocational Education",
+      "url": "https://arxiv.org/pdf/2512.12306"
+    },
+    {
+      "title": "Teaching What AI Can’t Touch: A Humanist’s Reflections on AI in the Classroom - Duke Learning Innovation & Lifetime Education",
+      "url": "https://lile.duke.edu/blog/2025/06/teaching-what-ai-cant-touch-a-humanists-reflections-on-ai-in-the-classroom/"
+    },
+    {
+      "title": "Embodied social agency in human-robot collaboration for promoting EFL learners’ persuasive communication and bodily-emotional awareness: A functional linguistics perspective | Education and Information Technologies | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s10639-025-13747-7"
+    },
+    {
+      "title": "Frontiers | Augmented reality and embodied learning: effects of embodiment degrees on students’ learning achievement, cognitive load, and technology acceptance",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1712261/full"
+    },
+    {
+      "title": "Will generative AI replace teachers in higher education? A study of teacher and student perceptions - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0191491X24000749"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

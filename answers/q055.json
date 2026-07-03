@@ -1,0 +1,54 @@
+{
+  "id": "q055",
+  "question": "What have studies found about AI feedback compared with human feedback — in accuracy, usefulness, and student receptivity?",
+  "answer": "## AI Feedback vs. Human Feedback: What the Research Shows\n\nThe comparison between AI-generated and human feedback has become one of the most active areas of educational research, producing a body of evidence that is genuinely mixed — usefully so, since the mixture itself reveals something important about what feedback is actually for.\n\n**Accuracy**\n\nOn the question of scoring accuracy, AI systems have closed much of the gap with human raters. Systems such as e-rater and ChatGPT-3.5 have demonstrated the potential to match human evaluators in grading accuracy, with deep learning models achieving quadratic weighted kappa scores of 0.78, closely approaching human rater agreement levels of 0.72. Yet this statistical parity conceals important qualitative differences. When comprehensive correct answers and domain knowledge are provided, large language models produce concrete and factually correct feedback on structured tasks, but for longer essays, studies have documented recurring hallucinations. The problem is especially acute in knowledge-intensive writing, where AI must evaluate nuanced conceptual claims rather than surface-level grammar or argument structure. Proficient students frequently find AI-generated feedback lacking in personalization when addressing higher-order concerns such as theme development or rhetorical strength, and advanced learners question the system's ability to evaluate subjectively rich content effectively.\n\n**Usefulness and Learning Outcomes**\n\nAt the aggregate level, the headline finding from recent meta-analyses is one of rough equivalence — and then important caveats beneath it. A meta-analysis drawing on 41 studies involving 4,813 students found no statistically significant differences in learning performance between students who received AI-generated feedback and those who received human-provided feedback. A separate meta-analysis of 40 studies found that AI-supported personalized feedback has a moderate effect on learning outcomes (g = 0.58) and a strong effect on learning motivation (g = 0.82). These are not trivial numbers. Yet the aggregate obscures an important asymmetry in what each feedback source does well. In a controlled three-way comparison, students receiving teacher feedback indicated less willingness to revise their work, yet teacher feedback produced the strongest improvements in scientific argumentation and formal writing quality, while LLM feedback yielded the smallest improvement overall. A consistent finding across studies of writing is that automated written feedback can positively impact learners' writing, but it is not as effective as feedback provided by humans such as teachers and peers. One revealing distinction concerns the type of dialogue feedback enables: teachers provided question-based feedback that encouraged students to think critically, while generative AI chatbots did not use this type of feedback at all — suggesting that human feedback stimulates a different kind of cognitive engagement.\n\n**Student Receptivity**\n\nStudent attitudes toward AI feedback are more complicated than a simple preference for the human touch. The dominant pattern across studies is what researchers call \"algorithm aversion\" — students show a clear preference for human feedback over AI feedback, revealing a bias against machine-generated evaluations. This bias appears to be partly psychological rather than purely evidence-based. A striking experiment gave students identical AI-generated feedback but labeled it differently: students perceived the feedback more favorably when it was attributed to an experienced teacher, yet when informed it came from an AI system, they were paradoxically more likely to act upon it, making a greater number of revisions. In other words, students trust humans more but may respond more readily to machines — a dissociation that has real implications for how feedback is deployed.\n\nReceptivity also varies substantially by student profile. Older and more proficient writers frequently express skepticism about AI feedback, citing inaccuracies and a preference for the nuance and individual tailoring they associate with human instructors. Less experienced writers tend to be more accepting. Some studies also find that when AI feedback is well-designed — clear, specific, and structured — students respond positively on certain dimensions: AI feedback has received significantly higher ratings for specificity, clarity, and simplicity, with no significant difference observed for correctness, suggesting that learners perceive the factual accuracy of AI and human feedback to be similar.\n\n**What the Evidence Suggests Overall**\n\nThe research does not support either the optimistic claim that AI feedback is simply equivalent to expert human feedback or the dismissive claim that it is a poor substitute. The honest summary is that AI and teacher feedback appear to serve different needs, and are therefore complementary but not interchangeable. AI systems excel at speed, scale, consistency, and certain surface-level dimensions of clarity. Human feedback retains a clear advantage in higher-order reasoning, contextual sensitivity, and the kind of questioning that promotes genuine intellectual development. The most promising line of current research explores not which is better, but how each can reinforce the other — a question the field has only begun to answer rigorously.",
+  "sources": [
+    {
+      "title": "Exploring undergraduate students' perceptions of AI vs. human scoring and feedback - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1096751625000612"
+    },
+    {
+      "title": "AI-Mediated Feedback Improves Student Revisions: A Randomized Trial with FeedbackWriter in a Large Undergraduate Course",
+      "url": "https://arxiv.org/html/2602.16820v1"
+    },
+    {
+      "title": "Full article: How does artificial intelligence compare to human feedback? A meta-analysis of performance, feedback perception, and learning dispositions",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/01443410.2025.2553639"
+    },
+    {
+      "title": "The Effectiveness of AI-Supported Personalized Feedback on Students’ Learning Outcomes and Motivation: A Meta-Analysis - Wenxuan Wang, Yiting Wang, Jiahua Chen, Xudong Wang, Hui Zhang, Chunli Guo, Yan Peng, 2026",
+      "url": "https://journals.sagepub.com/doi/10.1177/07356331251410020"
+    },
+    {
+      "title": "Teacher, peer, or AI? Comparing effects of feedback sources in higher education - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S266655732500059X"
+    },
+    {
+      "title": "A systematic review of AI-based automated written feedback research | ReCALL | Cambridge Core",
+      "url": "https://www.cambridge.org/core/journals/recall/article/systematic-review-of-aibased-automated-written-feedback-research/28A670C4C7F2F1F30C7EA36EC489F867"
+    },
+    {
+      "title": "The Effect of Feedback on Informative Text Writing: AI or Teacher? | Open Praxis",
+      "url": "https://openpraxis.org/articles/10.55982/openpraxis.17.3.871"
+    },
+    {
+      "title": "Student reactions to AI versus human feedback in teamwork skills assessment | International Journal of Educational Technology in Higher Education | Full Text",
+      "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-025-00555-9"
+    },
+    {
+      "title": "Students’ psychological biases towards teacher and AI-generated feedback: An experiment study | Research Square",
+      "url": "https://www.researchsquare.com/article/rs-8942475/v1"
+    },
+    {
+      "title": "LLM-based Multimodal Feedback Produces Equivalent Learning and Better Student Perceptions than Educator Feedback",
+      "url": "https://arxiv.org/pdf/2601.15280"
+    },
+    {
+      "title": "Full article: Comparing Generative AI and teacher feedback: student perceptions of usefulness and trustworthiness",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02602938.2025.2502582"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

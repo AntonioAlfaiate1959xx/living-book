@@ -1,0 +1,58 @@
+{
+  "id": "q043",
+  "question": "How do developing nations avoid a new \"AI colonialism\" in education while leapfrogging infrastructure gaps?",
+  "answer": "## AI Colonialism and the Education Leapfrog: Navigating Dependency in the Global South\n\nThe promise of artificial intelligence in education is nowhere more vivid — or more fraught — than in the Global South. For nations still contending with teacher shortages, unreliable electricity, and uneven broadband access, AI tutoring systems and adaptive learning platforms appear to offer a shortcut around decades of infrastructure-building. The question is whether that shortcut leads to genuine empowerment or to a subtler form of dependency that scholars have begun calling \"AI colonialism.\"\n\nDigital colonialism describes the contemporary dynamics in which powerful nations and multinational corporations deploy digital infrastructure, platforms, and data-harvesting tools to extend influence over less technologically advanced societies — and AI amplifies these dynamics by providing sophisticated mechanisms for data collection, surveillance, and automated decision-making that can reinforce unequal power structures. In education specifically, the danger is epistemic as much as economic. AI systems are developed within specific epistemic, linguistic, and regulatory contexts, embedding assumptions about originality, relevance, and authority; indexing practices already privilege English-language journals and Global North publication venues, systematically marginalizing regional scholarship. In this way, AI-mediated infrastructures shape not only how education is delivered, but also which forms of knowledge are rendered visible, legitimate, and valuable.\n\nThe infrastructure gap itself is real and stubborn. AI adoption across the Global South is hindered by persistent gaps in infrastructure, data, skills, and governance, with reliable electricity and broadband remaining unevenly available and local datasets often scarce. Yet attitudes toward AI are strikingly different from those in wealthier nations. The 2025 Edelman Trust Barometer found that fewer than one in three Americans feel comfortable with businesses using AI, while in India, Indonesia, and Nigeria nearly two-thirds express comfort — a gap that reflects AI's perception as threat in the North and as opportunity in the South. The potential for leapfrogging — wherein institutions can bypass traditional development stages by adopting cutting-edge technologies to bridge gaps between industrialized and developing countries — makes AI particularly compelling for the Global South. Kenya's M-Shule is one concrete illustration: in education, AI is helping bridge critical teacher shortages, with M-Shule using AI to create personalized learning plans based on student performance data and delivering custom SMS-based lessons to thousands of students.\n\nBut leapfrogging built on borrowed architecture carries its own risks. Many breakthroughs rely on Northern institutions, creating benefits but also exposing a fragile dependency — when outside funding or partnerships end, local efforts can stall, meaning that leapfrogging risks being built on borrowed foundations. The remedies being proposed and, in some cases, enacted operate on several levels simultaneously.\n\nThe first is policy sovereignty. Nations can assert their place in the global digital landscape by fostering local innovation, safeguarding digital sovereignty, bridging the digital divide, promoting local infrastructure development, and encouraging education and research — thereby harnessing the transformative power of technology while retaining control over their digital destinies. A national AI strategy should provide a high-level vision addressing workforce development, ethics, and data sovereignty, while sector-specific strategies identify tailored opportunities in key areas such as healthcare, education, energy, and agriculture.\n\nThe second is the push for culturally grounded, locally owned AI systems. AI tools can democratize access to education by providing localized, context-specific learning resources — generating curriculum materials in regional languages, integrating indigenous knowledge systems, and simulating scenarios tailored to local geographies. This requires repositioning teachers not as passive adopters but as active participants: positioning teachers as co-designers and informed decision-makers, prioritizing locally developed or curated AI systems and training programs that build critical digital capacity, and supporting educators to question whose knowledge is embedded in AI systems — and whose is omitted — are all essential to prevent AI from reinforcing marginalization.\n\nThe third is collective action at a continental scale. The African Union's Continental AI Strategy, endorsed in July 2024, commits member states to a people-centred, development-oriented approach and foregrounds education as a pillar of inclusive digital futures; in April 2025, forty-nine African countries signed the Africa Declaration on AI alongside a proposed sixty-billion-dollar Africa AI Fund. India, meanwhile, launched its IndiaAI Mission encompassing sovereign compute, model development, and AI education, and hosted the first Global South AI summit in February 2026.\n\nNone of these strategies resolves the central tension cleanly. Questions about data sovereignty, digital infrastructure disparities, ethical concerns, and the cultural appropriateness of AI tools demand scholarly inquiry and collaborative problem-solving to ensure that AI deployment in education is equitable, context-sensitive, and aligned with local priorities. The history of development assistance suggests that good intentions channeled through asymmetric power structures tend to reproduce those structures. What distinguishes the current moment is the degree to which Global South nations are insisting — with growing institutional backing — that they be architects rather than recipients of the AI educational order. Whether that insistence can be sustained against the gravitational pull of dominant platforms, training data concentrated in the Global North, and compute infrastructure controlled by a handful of corporations remains, honestly, an open question.",
+  "sources": [
+    {
+      "title": "Digital colonialism and AI: A Critical Analysis",
+      "url": "https://theshillonga.com/index.php/jhed/article/download/495/466/977"
+    },
+    {
+      "title": "Frontiers | Algorithmic dependence and digital colonialism: a conceptual framework for artificial intelligence in education and knowledge systems of the Global South",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1720563/full"
+    },
+    {
+      "title": "From Silicon Valley to Nairobi: What the Global South’s AI leapfrogging teaches tech leaders | VentureBeat",
+      "url": "https://venturebeat.com/ai/from-silicon-valley-to-nairobi-what-the-global-souths-ai-leapfrogging"
+    },
+    {
+      "title": "Frontiers | A systematic review on AI-enhanced pedagogies in higher education in the Global South",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1667884/full"
+    },
+    {
+      "title": "Infrastructure for the Global South’s AI Revolution",
+      "url": "https://ssir.org/articles/entry/infrastructure-global-south-ai"
+    },
+    {
+      "title": "Artificial intelligence, digital colonialism, and the implications for Africa’s future development | Data & Policy | Cambridge Core",
+      "url": "https://www.cambridge.org/core/journals/data-and-policy/article/artificial-intelligence-digital-colonialism-and-the-implications-for-africas-future-development/4BD73E9129A9CD9E9301C61CB2401450"
+    },
+    {
+      "title": "Blog: Digital colonialism and AI - A call to action to policy makers | Commonwealth",
+      "url": "https://thecommonwealth.org/news/blog-digital-colonialism-and-ai-call-action-policy-makers"
+    },
+    {
+      "title": "Bridging Gaps in Education and Climate Justice with AI: Insights from The Nobel Fest and Teacher’s Summit | Center for International Development",
+      "url": "https://www.hks.harvard.edu/centers/cid/voices/bridging-gaps-education-and-climate-justice-ai-insights-nobel-fest-and-teachers"
+    },
+    {
+      "title": "Frontiers | Artificial intelligence in education: applications and limitations for teachers in low- and middle-income countries",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1681836/full"
+    },
+    {
+      "title": "Towards an Ethical AI Curriculum: A Pan-African, Culturally Contextualized Framework for Primary and Secondary Education",
+      "url": "https://arxiv.org/pdf/2604.27708"
+    },
+    {
+      "title": "Punctuated Equilibria in Artificial Intelligence: The Institutional Scaling Law and the Speciation of Sovereign AI",
+      "url": "https://arxiv.org/pdf/2603.14664"
+    },
+    {
+      "title": "THE ELECTRONIC JOURNAL OF INFORMATION SYSTEMS IN DEVELOPING COUNTRIES Call for Papers Special Issue on Reimagining Teaching and Learning with AI: The Global South Perspective",
+      "url": "https://onlinelibrary.wiley.com/page/journal/16814835/call-for-papers/si-2025-000118"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

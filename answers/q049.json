@@ -1,0 +1,38 @@
+{
+  "id": "q049",
+  "question": "What shared human culture and values should education transmit when AI fragments information into personalized realities?",
+  "answer": "## The Epistemic Commons: What Education Must Preserve When AI Splinters Reality\n\nThe deepest threat posed by AI-driven personalization is not misinformation in the conventional sense — it is the dissolution of a shared world. At a societal level, if everyone interacts with differently personalized systems calibrated to their particular preferences and beliefs, shared reality and common knowledge may erode. This is the civilizational wager now sitting, largely unexamined, at the heart of educational policy. The question is not only what children should learn, but what they must learn *in common* — and why that commonality itself is a moral and political good.\n\nThe problem is more layered than early warnings about filter bubbles suggested. In increasingly personalized media environments, individuals encounter information that aligns with their existing beliefs, raising concerns about polarization, intergroup hostility, and the erosion of shared political reality — and filter bubbles emerge not from algorithms alone, but through the recursive interaction of motivated cognitive processing, identity-based social networks, and algorithmic amplification. AI does not simply distort the information landscape from the outside; it reshapes the internal habits by which people seek, weigh, and revise knowledge. AI systems impact not only beliefs, but belief revision itself — and in the classroom, this implies students will update their knowledge in response to algorithmic authority, without recourse to further justification or reflection.\n\nThis is where the educational stakes become philosophical rather than merely technical. The values underpinning current forms of educational AI — individualism, mastery-based learning, automation of teaching — work directly against many of the core elements of how democratic education has been understood by educationalists such as John Dewey over the past century. Personalized learning optimizes the individual learner's trajectory through content; democratic education, by contrast, has always been partly about the friction of encountering minds unlike one's own, negotiating disagreement, and building the civic capacity to inhabit a world held in common. The current push for educational AI is resulting in technologies that diminish students' opportunities for communication and collaboration with others.\n\nWhat, then, should education transmit? Three clusters of value emerge from current scholarship as non-negotiable, regardless of what AI systems can deliver efficiently.\n\nThe first is *epistemic agency* — the cultivated capacity to interrogate sources, tolerate uncertainty, and resist the seduction of algorithmic fluency. AI tools that prioritize speed and convenience risk amplifying automation bias, reducing cognitive struggle, and weakening critical thinking; to counteract this, AI must preserve cognitive friction — prompting retrieval, offering delayed feedback, framing uncertainty as opportunity — so that it fosters intellectual resilience and the critical thinking skills vital for democratic society. The transmission of this value requires teachers who model doubt, not just delivery.\n\nThe second is *shared factual ground* — a curriculum that insists certain things are true, contested, or false independent of any individual's preference profile. Through algorithmic filtering and personalized content, individuals are nudged toward specific viewpoints without awareness, limiting exposure to diverse information and weakening their capacity for independent thought — and the resulting manipulation diminishes individuals' ability to make informed choices, undermining democratic participation. Education's answer must be a commitment to evidence, method, and the disciplines that have developed collectively-validated ways of knowing: scientific reasoning, historical analysis, literary interpretation, mathematical proof.\n\nThe third is *solidarity through encounter* — the experience of being educated alongside people whose lives, backgrounds, and conclusions differ from one's own. Education for democracy is a holistic and participatory approach that fosters the knowledge, skills, values, and attitudes needed for active and responsible citizenship, going beyond textbooks by emphasising experiential and inclusive learning that strengthens democratic competencies such as critical thinking, dialogue, agency, and meaningful participation. No AI tutor, however sophisticated, replicates the moral education that occurs when a classroom must reach understanding across genuine disagreement.\n\nUltimately, an ethical use of AI in education is about preserving education as a space for autonomy, critical inquiry, and democratic formation — because if AI systems undermine these values, they risk weakening not just learning outcomes, but the social institutions that depend on educated, reflective, and empowered citizens. The curriculum of the future will need to be deliberately, even stubbornly, common: not because uniformity is a virtue, but because a democracy requires citizens who can, at minimum, argue about the same world.",
+  "sources": [
+    {
+      "title": "Large Language Models Should Learn Personalized Rather Than Aggregated Human Preferences",
+      "url": "https://arxiv.org/pdf/2606.07629"
+    },
+    {
+      "title": "Frontiers | Emotion as a cross-layer mechanism in filter bubbles: a social-psychological perspective",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1740709/full"
+    },
+    {
+      "title": "Frontiers | Epistemic authority and generative AI in learning spaces: rethinking knowledge in the algorithmic age",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+    },
+    {
+      "title": "Critical Studies of Education & Technology: Why AI Will Not Democratize Education (notes on Wieczorek 2025)",
+      "url": "https://nepc.colorado.edu/blog/why-ai"
+    },
+    {
+      "title": "AI in Education Beyond Learning Outcomes: Cognition, Agency, Emotion, and Ethics",
+      "url": "https://arxiv.org/html/2602.04598v1"
+    },
+    {
+      "title": "Aligning Trustworthy AI with Democracy: A Dual Taxonomy of Opportunities and Risks",
+      "url": "https://arxiv.org/pdf/2505.13565"
+    },
+    {
+      "title": "How AI Can Shape Education for Democracy: Opportunities and Risks - Democrat | Education for Democracy",
+      "url": "https://democrat-horizon.eu/how-ai-can-shape-education-for-democracy/"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "q017",
+  "question": "How do we preserve academic integrity when the boundary between assistance and authorship dissolves?",
+  "answer": "**The Dissolution of Authorship and the Problem of Accountability**\n\nThe question of academic integrity in the age of generative AI is not, at its core, a question about technology. It is a question about what authorship means, and why it has ever mattered. Authorship has traditionally implied a cluster of things that travel together: intellectual origination, accountability for error, and the capacity to stand behind one's claims. When a language model drafts the sentences a scholar submits under their name, that cluster begins to come apart — and institutional life has not yet caught up with the consequences.\n\nThe current institutional response has settled, for now, on two principles. Authors are held solely responsible for all content, AI tools cannot be listed as authors or co-authors, and human judgment and verification are treated as indispensable. This position is now universal across major academic publishers: Elsevier, Springer Nature, Wiley, Taylor & Francis, and SAGE Publishing all explicitly prohibit listing generative AI or large language models as an author or co-author. The justification is straightforward: the fundamental responsibilities of academic authorship — taking full accountability for a work's integrity, managing legal agreements, approving the final manuscript — can only be fulfilled by humans or legal persons.\n\nTransparency through disclosure has become the dominant governance mechanism. The Committee on Publication Ethics published formal AI authorship guidelines in 2023, updated in 2025, requiring that AI tools cannot be listed as authors and that their use must be disclosed in the methods section. As of January 2025, approximately 70% of journals had established AI usage guidelines, and the trend in academic publishing is continuing to expand toward accepting AI tools while requiring disclosure. Yet disclosure requirements, however well-intentioned, face a fundamental enforcement problem: despite the high prevalence of AI policies, academic writing shows a significant increase in AI content from 2023 onward, and journals with and without AI policies show parallel growth trends — suggesting that publishing an AI policy has not meaningfully affected researchers' use of AI writing tools.\n\nThis enforcement gap has pushed institutions toward automated detection, with results that are troubling. The ability to detect AI-generated content is currently not 100% reliable, and unlike traditional plagiarism detection — which can document the original source of plagiarized text — no such evidence currently exists for AI detection platforms. The inequity introduced by these tools is especially concerning: detectors are more likely to flag non-native English writers due to linguistic patterns that resemble AI output, raising serious concerns about fairness and inclusivity in academic assessment. One study found that over half of TOEFL essays were wrongly flagged as AI-generated across all tested detectors. The strongest argument against detection-based enforcement is epistemological: probabilistic tools should not make high-stakes determinations about academic conduct, and a 2024 study documented systemic harm from enforcement based primarily on detection scores.\n\nThe more durable response may lie not in surveillance but in redesigning what is assessed and how. While using generative AI for essays may not constitute plagiarism in the classical sense, it can reasonably be determined to be \"false authorship,\" since the student did not write the essay themselves — functionally similar to having a peer write it. The 2025 AWAC Statement on AI and Writing Across the Curriculum recommends separating responsible \"supporting\" use from unethical \"substitution,\" advising students to retain primary authorship by revising and personalizing automated suggestions. That distinction — support versus substitution — is philosophically sensible but practically elusive, which is precisely why assessment design matters more than detection. When a detector flags an assignment, a more defensible approach is a structured conversation: asking the student to explain key paragraphs, justify sources, and describe how the draft developed — shifting from \"gotcha\" enforcement to evidence-based integrity review.\n\nUnderlying all of this is a deeper unresolved question. Existing authorship models are arguably inappropriate for AI contributions, and revised criteria are needed that account for the ethical and legal dimensions of accountability and intellectual property. A 2025 survey of U.S. university students found that students' personal ethical beliefs — not institutional policy — are the strongest predictors of whether they use AI in prohibited ways, suggesting that institutional energy may be better invested in ethical education and policy clarity than in detection-based enforcement. Academic integrity, in other words, has always depended less on catching dishonesty than on cultivating the conditions under which honesty seems worthwhile. The technology has changed; that underlying logic has not.",
+  "sources": [
+    {
+      "title": "AI Policies in Academic Publishing 2025: Guide & Checklist",
+      "url": "https://www.thesify.ai/blog/ai-policies-academic-publishing-2025"
+    },
+    {
+      "title": "AI Academic Integrity Policies 2026: Rules & Examples",
+      "url": "https://www.eyesift.com/blog/academic-integrity-policy-ai/"
+    },
+    {
+      "title": "Academic journals' AI policies fail to curb the surge in AI-assisted academic writing",
+      "url": "https://arxiv.org/pdf/2512.06705"
+    },
+    {
+      "title": "AI Detection Tools - Considerations and Limitations | CSUF - Faculty Development Center",
+      "url": "https://fdc.fullerton.edu/teaching/ai/detection-tools.html"
+    },
+    {
+      "title": "AI Detection for Students: What You Need to Know (2026) — EyeSift",
+      "url": "https://www.eyesift.com/blog/ai-detection-for-students/"
+    },
+    {
+      "title": "Student Perceptions of AI-Assisted Writing and Academic Integrity: Ethical Concerns, Academic Misconduct, and Use of Generative AI in Higher Education[v1] | Preprints.org",
+      "url": "https://www.preprints.org/manuscript/202507.1882/v1"
+    },
+    {
+      "title": "AI Writing Tools and Academic Integrity in 2025: Study Plan",
+      "url": "https://aiflowreview.com/ai-writing-tools-academic-integrity-beliefs-2025/"
+    },
+    {
+      "title": "How Do Professors Detect AI in 2026? Tools, Accuracy, and False Positives",
+      "url": "https://www.thesify.ai/blog/how-professors-detect-ai-writing-2026-guide"
+    },
+    {
+      "title": "Artificial Intelligence and the Development of Academic Authorship: Analyzing AI-Generated Content, Ethical Issues, and Intellectual Property Challenges | International Journal of Management and Data Analytics (IJMADA)",
+      "url": "https://ijmada.com/index.php/ijmada/article/view/99"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

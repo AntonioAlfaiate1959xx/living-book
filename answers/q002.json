@@ -1,0 +1,50 @@
+{
+  "id": "q002",
+  "question": "If AI can answer any question, what does it mean to \"learn\" something?",
+  "answer": "The question sounds deceptively simple, but it strikes at the deepest tension in contemporary education: if an answer is always one prompt away, what exactly is the human learner supposed to do?\n\nThe classical cognitive science answer is unambiguous on the distinction that matters most. Understanding means being able to *use* knowledge, as opposed to merely *having* it — and that requires knowledge to be integrated into some kind of mental structure. Cognitive learning, by this definition, is a process in which information is received, processed, and connected to existing knowledge, leading to a change in the learner's mental schemata. AI can supply information instantly, but it cannot perform that integration on behalf of another mind. The schemata either form in a particular brain, through effort and experience, or they do not form at all.\n\nThis distinction between possession and integration is not merely academic. Cognitive learning is less about what one knows and more about how one comes to know it — the mental steps taken to make sense of new information, including questioning, analyzing, and connecting it to prior knowledge. A student who asks an AI to explain the French Revolution and reads the answer has acquired a text. A student who argues with a primary source, gets confused, revises a hypothesis, and eventually produces a coherent account has undergone something categorically different: a structural change in how they think about historical causation. The former transaction leaves no lasting trace on the mind; the latter reshapes it.\n\nWhat is now actively contested is whether AI, in its practical day-to-day use, tends to promote the deeper process or to short-circuit it. The emerging empirical picture is worrying. Research has found a significant negative correlation between frequent AI tool usage and critical thinking abilities, mediated by increased cognitive offloading. A collaborative study by Carnegie Mellon University and Microsoft Research revealed that too much reliance on AI can hinder the brain's capacity for critical thinking, finding that it risks reducing a user's ability to problem-solve or have independent thought, particularly when AI-generated content is accepted without review. The International AI Safety Report for 2026 notes that one study found that three months after the introduction of AI support, clinicians' ability to detect tumours without AI assistance had dropped by 6% — a concrete instance of how outsourcing a cognitive task erodes the underlying skill.\n\nThe developmental stakes are even higher for young people. An adult choosing to offload a task they already understand is making a tradeoff between effort and efficiency — the capacity to do that task independently still exists, and the atrophy is probably recoverable. A child offloading a task they have never learned to perform is not making a choice; they are skipping a developmental step that was never developed, and the foreclosure may be permanent.\n\nNone of this means that AI is inherently hostile to learning. The relevant distinction, as one recent analysis puts it, is whether AI operates as a scaffold or a substitute — and scaffolding is characterized by temporariness and empowerment, with the goal of strengthening internal capacities so that the technology becomes progressively less necessary. If students overuse AI-provided answers, their ability to develop independent critical thinking may be impaired; AI implementation must therefore be made in a way that enhances higher-order thinking rather than simply automating lower-order tasks.\n\nWhat AI's arrival clarifies, then, is something that was always true but easy to obscure: learning has never really been about acquiring answers. Learning is a process whereby knowledge is created and results in a change in mental representations or associations due to experience. The verb that matters is *change*. An AI system does not change when it returns a result; the user who reads that result and does nothing demanding with it does not change either. To learn something, in any sense worth the word, is to be a different thinker afterward — to carry a revised structure in one's mind that was not there before. No tool, however capable, can accomplish that on another person's behalf.",
+  "sources": [
+    {
+      "title": "Contributions from cognitive research to mathematics and science   education",
+      "url": "https://arxiv.org/pdf/0708.2496"
+    },
+    {
+      "title": "Cognitive Learning - an overview | ScienceDirect Topics",
+      "url": "https://www.sciencedirect.com/topics/social-sciences/cognitive-learning"
+    },
+    {
+      "title": "What Is Cognitive Learning? And Why Does It Matter?",
+      "url": "https://www.articulate.com/blog/cognitive-learning/"
+    },
+    {
+      "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+      "url": "https://www.mdpi.com/2075-4698/15/1/6"
+    },
+    {
+      "title": "How Cognitive Offloading to AI Is Weakening Our Critical Thinking",
+      "url": "https://www.forbes.com/sites/lisabodell/2025/11/13/outsourcing-our-minds-how-generative-ai-is-rewiring-how-we-think/"
+    },
+    {
+      "title": "International AI Safety Report 2026",
+      "url": "https://arxiv.org/pdf/2602.21012"
+    },
+    {
+      "title": "Adults Lose Skills to AI. Children Never Build Them. | Psychology Today",
+      "url": "https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202603/adults-lose-skills-to-ai-children-never-build-them"
+    },
+    {
+      "title": "Cognitive offloading or cognitive overload? How AI alters the mental architecture of coping - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12678390/"
+    },
+    {
+      "title": "The cognitive paradox of AI in education: between enhancement and erosion - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036037/"
+    },
+    {
+      "title": "Cognition and Learning - The Peak Performance Center",
+      "url": "https://thepeakperformancecenter.com/educational-learning/learning/process/processing-information/cognition-and-learning/"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

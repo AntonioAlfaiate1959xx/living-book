@@ -1,0 +1,62 @@
+{
+  "id": "q040",
+  "question": "What is the future of universities, credentials, and degrees when skills can be learned and demonstrated outside institutions?",
+  "answer": "**The Credential in Question**\n\nThe institution of the university degree is not collapsing, but it is no longer uncontested. For most of the twentieth century, a bachelor's degree served as a reliable proxy for capability, discipline, and general readiness for professional life. That arrangement is under genuine pressure — not because universities have grown less rigorous, but because the labour market is changing faster than four-year curricula can follow. The labour market now changes faster than curricula. A degree takes four to five years to complete, but technology and required skills change every six to twelve months. The result is a structural mismatch that no amount of curriculum review can fully close.\n\n**The Rise of the Alternative**\n\nInto this gap has rushed a proliferating array of shorter-form credentials. Out of the 1.8 million credentials now offered across the United States, digital badges and certificates dominate — with digital badges alone numbering over one million, according to a recent report from Credential Engine. Degrees, by comparison, made up a smaller fraction of the credentials tallied: 264,099 programmes. The microcredential market itself is not trivial in economic terms; the global microcredential market is projected to exceed USD 3.5 billion in 2025, with an annual growth rate above 17 percent through 2030, with strong presence in technology, healthcare, education, and sustainability sectors.\n\nThe appeal is straightforward. Microcredentials have advantages over standard degrees in cost, duration, and structure: they are shorter in duration, more focused in terms of skills and subject matter, and more adaptable in curriculum and delivery than a conventional degree programme. There is \"growing appetite, more demand from learners for more efficient and direct routes to employment opportunities,\" as one analyst at Jobs for the Future has put it. In the most recent enrollment data, students pursuing short-term credentials increased 6.6 percent in a single year, outpacing growth in associate and bachelor's degree programmes.\n\n**The Gap Between Policy and Practice**\n\nYet the most revealing data concerns not the supply of alternatives, but what employers actually do when confronted with them. Here the evidence is striking and sobering. While 85 percent of companies claim to use skills-based hiring, only 0.14 percent of hires are actually impacted by degree requirement removal. At least 26 states and major private companies including IBM and Accenture have stripped degree requirements from job listings, with seven states showing double-digit percentage increases in postings without degree requirements between 2019 and 2024. But less evidence has emerged of employers actually hiring non-degreed job seekers in substantial numbers: Burning Glass and Harvard Business School found that fewer than 1 in 700 hires in 2023 benefited from the shift to skills-based hiring.\n\nThe explanation is cultural as much as structural. The people in charge of hiring are typically senior managers accustomed to college-related data — school attended, courses taken, grades earned, degree attained — and without those reference points, they need an entirely new template for assessing candidates. Cultural biases will not simply evaporate because a CEO issues a press release. There is also a regulatory obstacle: many of the same states that have eliminated degree requirements still regulate non-degree training providers as if they were traditional college institutions, forcing them through a labyrinth of licensing rules and reporting mandates never designed for their models.\n\n**Unbundling, Not Replacement**\n\nThe most durable forecast from those studying the field is not disruption but transformation through what might be called unbundling. The future of higher education will likely not be about replacing degrees, but unbundling them into independent modules. Universities are not sitting still: Arizona State University has developed \"stackable\" microcredentials that can accumulate toward a master's degree, while European universities are integrating microcredentials into the Bologna Process to allow cross-border recognition. At the same time, the gap between skills-based hiring intent and actual practice exists partly because the infrastructure for verifying skills did not exist until recently; the emerging standard is Open Badges 3.0, built on the W3C Verifiable Credentials Data Model.\n\nWhat appears to be emerging, then, is a layered system: rather than degrees being replaced, a hybrid system is developing — perhaps something like a \"skills passport\" or \"lifelong learning credential\" that records all learning, from a first degree to the microcredentials accumulated throughout a working life. Traditional degrees remain essential for leadership roles, advanced research, and professions that require intensive accreditation, while shorter credentials gain ground in technical fields where demonstrable, current competence matters more than breadth. The World Economic Forum estimates that over one billion workers will need to reskill by 2030, and LinkedIn Learning reports that the technical skill half-life, from a marketability standpoint, is approximately two years — a pace at which no four-year degree, however well designed, can keep up on its own. The university will survive, but likely as one node in a much larger, more fluid learning infrastructure rather than as the sole gateway to professional life.",
+  "sources": [
+    {
+      "title": "The University Degree Is No Longer Enough: Digital Credentials",
+      "url": "https://www.pok.tech/blog/posts/university-degree-digital-credentials"
+    },
+    {
+      "title": "Over 1 Million Digital Badges on Offer in the U.S.",
+      "url": "https://www.insidehighered.com/news/tech-innovation/alternative-credentials/2025/12/10/over-1-million-digital-badges-offer-us"
+    },
+    {
+      "title": "Microcredentials: 2025 Statistics, Impact, and Why They Are the Future of Education and Work",
+      "url": "https://www.pok.tech/blog/posts/future-microcredentials-education-employability-statistics-2025"
+    },
+    {
+      "title": "Unlocking Career Potential: How Micro-Credentials Are Revolutionising Higher Education and Lifelong Learning",
+      "url": "https://www.mdpi.com/2227-7102/15/5/525"
+    },
+    {
+      "title": "Short-Term Credentials Bolster Enrollment Boom",
+      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2025/11/11/short-term-credentials-bolster-enrollment-boom"
+    },
+    {
+      "title": "The State of Skills-Based Hiring in 2025: 85% of Companies Claim It, But Only 1 in 700 Hires Are Actually Affected - A Comprehensive Research Report - The Interview Guys",
+      "url": "https://blog.theinterviewguys.com/the-state-of-skills-based-hiring/"
+    },
+    {
+      "title": "As the job market tightens, workers without degrees could hit a ‘paper ceiling’",
+      "url": "https://hechingerreport.org/no-college-degree-no-problem-not-so-fast/"
+    },
+    {
+      "title": "Harvard Research: Fewer than 1 in 700 get hired without a college degree | Institute for Business in Global Society",
+      "url": "https://www.hbs.edu/bigs/joseph-fuller-college-degree-gap"
+    },
+    {
+      "title": "Skills-Based Hiring Is Catching On. Outdated Laws Are Holding It Back.",
+      "url": "https://www.governing.com/workforce/skills-based-hiring-is-catching-on-outdated-laws-are-holding-it-back"
+    },
+    {
+      "title": "Council Post: How Micro-Credentials Are Shaping The Future Of AI-Driven Learners",
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2025/09/24/how-micro-credentials-are-shaping-the-future-of-ai-driven-learners/"
+    },
+    {
+      "title": "Skill-based hiring in 2026: the 85% vs 0.14% paradox | Sertifier",
+      "url": "https://sertifier.com/blog/skill-based-hiring-2026/"
+    },
+    {
+      "title": "Microcredentials vs Degrees: Is This the Future of Learning?",
+      "url": "https://uninewsletter.com/blogs/microcredentials-vs-degrees-is-this-the-future-of-learning/en"
+    },
+    {
+      "title": "Microcredentials vs. Traditional Degrees",
+      "url": "https://professionalstudies.syracuse.edu/2025/08/04/microcredentials-vs-traditional-degrees-a-guide-for-modern-professionals/"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

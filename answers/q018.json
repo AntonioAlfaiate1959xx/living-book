@@ -1,0 +1,46 @@
+{
+  "id": "q018",
+  "question": "Should there be a \"right to a human teacher,\" analogous to a right to human medical care?",
+  "answer": "**Should There Be a \"Right to a Human Teacher\"?**\n\nThe question is less fanciful than it sounds. As AI tutoring systems grow more capable and economically attractive, the pressure to substitute them for human educators will intensify — in underfunded school districts first, then more broadly. Whether students have, or should have, a legally enforceable claim to human instruction is now a live policy question, and it connects in revealing ways to debates already unfolding in medicine.\n\nThe structural analogy to healthcare is imperfect but illuminating. Philosophers of medicine have argued that moral agency belongs only to humans, on the grounds of autonomy and sentience that AI systems lack, and have used this to argue against fully automated systems in clinical settings. The principle of patient autonomy — which entails the right to receive reasonable explanations and to withhold informed consent — has been invoked to reject what some call \"black-box medicine.\" Similar reasoning applies to education: if a learner cannot interrogate the reasoning behind an assessment or a pedagogical choice, something morally significant has been lost. When AI performs teacher-like functions such as diagnosing student understanding, planning learning pathways, and adjudicating correctness, no expert may be able to examine the basis of those judgments, and intervention becomes impossible when they are incorrect.\n\nThe rights-based case for a human teacher draws on existing international frameworks. The United Nations Convention on the Rights of the Child establishes key rights for children — including the rights to education, dignity, autonomy, privacy, and protection from discrimination and economic exploitation. In the context of AI and education, this implies that tasks such as teaching, assessment, and accreditation should not be delegated to AI systems unless it can be demonstrated that doing so does not violate children's dignity; and even when that high standard is achieved, human teachers must remain central to these processes, as they are better equipped to understand and respond to the emotional and psychological needs of children.\n\nUNESCO has been the most prominent institutional voice on this question. Its position, endorsed by the Santiago Consensus at the World Summit on Teachers, is that teachers are irreplaceable and that AI must support, not replace, educators. A UNESCO Teacher Task Force paper argues that while AI can support teaching by automating certain tasks and providing data-driven insights, it cannot replicate the relational, ethical, and human dimensions of teaching — and that framing teachers as replaceable risks undermining professional identity and reducing education to a purely technical process.\n\nYet the analogy to medicine also reveals a tension that advocates of a formal right must confront. In healthcare, AI has demonstrably outperformed human specialists in certain diagnostic tasks. AI applications have begun to diagnose some types of cancer better than doctors, identify heart rhythm abnormalities like cardiologists, and diagnose various eye diseases as well as ophthalmologists. If we would not insist on a human radiologist when an algorithm is more accurate, the argument for mandatory human involvement must rest on something beyond mere competence — on the intrinsic value of the human relationship itself. In education, that value is more plausibly central. Effective teaching requires empathy, judgment, and the ability to respond to diverse student needs — capabilities that cannot be automated. Teachers often play a role in shaping students' moral and ethical values by discussing complex issues and encouraging reflection, and AI systems lack the capability to provide such guidance.\n\nThere is also a distributional dimension that gives the rights question additional urgency. There is unprecedented federal attention in the United States to accelerating the deployment of AI in K-12 schools, and at the same time growing evidence that this expansion is related to increased risks to students. The danger is not that wealthy private schools will replace their teachers with chatbots — they will not — but that AI substitution will be imposed on precisely the students who already receive the least human attention. A right to a human teacher, in this light, is partly a proxy for a right against educational neglect dressed in technological clothing.\n\nWhere current consensus lands is not quite at a codified right, but at something close to a rebuttable presumption: human teachers should remain central, AI should be deployed only where it demonstrably serves learners without violating their dignity, and the burden of proof falls on those proposing automation. As AI becomes more embedded in education systems, it raises pressing questions about rights to privacy, work, culture, autonomy, and the right to be heard. Whether those concerns eventually crystallize into a justiciable right to human instruction — as the right to a human clinician may yet do in medicine — remains genuinely open.",
+  "sources": [
+    {
+      "title": "When Doctors and AI Interact: on Human Responsibility for Artificial Risks | Philosophy & Technology | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s13347-022-00506-6"
+    },
+    {
+      "title": "How should AI knowledge be governed? Epistemic authority, structural transparency, and the case for open cognitive graphs",
+      "url": "https://arxiv.org/pdf/2602.16949"
+    },
+    {
+      "title": "Frontiers | AI, education, and children’s rights",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1656736/full"
+    },
+    {
+      "title": "AI and the future of education: disruptions, dilemmas and directions",
+      "url": "https://www.unesco.org/en/articles/ai-and-future-education-disruptions-dilemmas-and-directions-0"
+    },
+    {
+      "title": "UNESCO paper says teachers are not replaceable in AI age of education | ETIH EdTech News — EdTech Innovation Hub",
+      "url": "https://www.edtechinnovationhub.com/news/teachers-are-not-replaceable-unesco-paper-argues-in-new-guidance-on-ai-in-education"
+    },
+    {
+      "title": "Ethics of AI and Health Care: Towards a Substantive Human Rights Framework | Topoi | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s11245-023-09911-8"
+    },
+    {
+      "title": "The AI Revolution in Education: Will AI Replace or Assist Teachers in",
+      "url": "https://arxiv.org/pdf/2305.01185"
+    },
+    {
+      "title": "States Focused on Responsible Use of AI in Education during the 2025 Legislative Session - Center for Democracy and Technology",
+      "url": "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+    },
+    {
+      "title": "What you need to know about AI and the right to education | UNESCO",
+      "url": "https://www.unesco.org/en/articles/what-you-need-know-about-ai-and-right-education"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "q063",
+  "question": "What do documented deployments of AI tutors in low-resource and developing-world contexts show about what transfers and what fails?",
+  "answer": "The evidence gathered from multiple recent sources allows for a well-grounded and nuanced account. Here is the section:\n\n---\n\n**AI Tutors in Low-Resource Contexts: What Transfers, What Fails**\n\nThe deployment of AI tutoring systems in low- and middle-income countries has produced a record that is neither the triumph that promotional literature suggests nor the unqualified failure that skeptics predict. What the evidence shows, instead, is a consistent and instructive pattern: the pedagogical logic of adaptive tutoring can transfer surprisingly well, while nearly everything that makes it function — connectivity, current hardware, teacher capacity, and linguistic fit — often does not.\n\nOn the positive side, there are documented gains. In India, students using an AI-powered personalized learning tool scored higher in Hindi and mathematics. A study in Kenyan higher education found a strong positive correlation between AI tool use and improved teaching and learning outcomes. Critically, gains were largest for students who typically struggle most, suggesting AI could be a powerful equity tool when implemented thoughtfully. These findings are consistent with the general literature on intelligent tutoring systems, which has long shown that immediate, adaptive feedback benefits weaker learners most — a dynamic that appears to hold across national contexts.\n\nThe infrastructure barrier, however, is the single most documented source of failure, and it is not trivial. Peru's One Laptop Per Child program distributed roughly 900,000 devices over a decade but produced no measurable effect on math or reading achievement; the problem was not the hardware but the absence of electricity, connectivity, teacher capacity, and curricular integration — and AI raises that infrastructure bar rather than lowering it, requiring reliable bandwidth, sufficient processing power, and capable devices. As of 2022, only about 40% of primary schools and 50% of lower secondary schools globally had internet access. AI tutors, unlike laptops used offline, typically require sustained connectivity to function at all.\n\nLanguage is the second structural failure point, and it is perhaps less appreciated than the connectivity problem. The overwhelming prevalence of English-language content restricts the accessibility of AI tools for non-English-speaking practitioners, educators, and policymakers, and this linguistic asymmetry perpetuates epistemic hierarchies that marginalize alternative knowledge systems and local epistemologies. One largely overlooked dimension is linguistic diversity: even when students interact with large language models in English, they may be seeking guidance for contexts where local languages dominate professional communication — a mismatch that current models are not equipped to handle. The majority of AI tutoring products were trained predominantly on English-language corpora from wealthy-country curricula; deploying them in, say, a Francophone West African or rural South Asian classroom involves not just translation but a fundamental mismatch of cultural reference, pedagogy, and assessed content.\n\nGovernance and data sovereignty add a further layer of complexity that low-resource settings are poorly equipped to manage. Student data, when used to train commercial AI systems, often flows to foreign-controlled servers with limited transparency, and while UNESCO's 2025 framework on AI ethics emphasizes \"data dignity,\" implementation mechanisms in resource-constrained contexts remain underdeveloped. Academic dishonesty driven by AI access is prevalent in Sub-Saharan African higher education, and while a 2025 study found over half of students and faculty report incidents of AI-assisted misconduct, many institutions lack the infrastructure or policies to respond systematically.\n\nAt the same time, the evidence base itself is thin and lopsided. The available literature on AI in education largely neglects low- and middle-income countries, with scholarly attention predominantly directed toward advanced economies. High-income countries account for 87% of notable AI models, 86% of AI start-ups, and 91% of venture capital funding, despite representing just 17% of the global population. This means that documented deployments in low-resource contexts are often small pilots, not rigorous randomized trials, and that the systems being piloted were designed elsewhere for different learners.\n\nWorld Bank-supported pilots are underway across several low-income contexts, including adaptive learning programs in Côte d'Ivoire, The Gambia, and Mali; WhatsApp-based tutors in Ghana; teacher-focused solutions in Ethiopia; and youth skills programs in Tanzania and Mauritius. These designs are notable precisely because they work around, rather than assume, high-bandwidth infrastructure — WhatsApp-based delivery, for instance, functions on intermittent mobile data. Whether the results of these pilots prove durable at scale remains to be seen; the evidence is still being gathered. What the aggregate record suggests, then, is that the core promise of personalized, patient, adaptive instruction is not culturally specific — but realizing it in low-resource contexts demands locally co-designed tools, mother-tongue language support, offline or low-bandwidth architectures, and genuine teacher integration, none of which come bundled with the systems currently dominating the global market.",
+  "sources": [
+    {
+      "title": "Tipping the scales: AI's dual impact on developing nations",
+      "url": "https://blogs.worldbank.org/en/digital-development/tipping-the-scales--ai-s-dual-impact-on-developing-nations"
+    },
+    {
+      "title": "AI in Education: Navigating Fears, Embracing Possibilities, and Charting a Path Forward – RUFORUM BLOG",
+      "url": "https://news.ruforum.org/ai-in-education-navigating-fears-embracing-possibilities-and-charting-a-path-forward/"
+    },
+    {
+      "title": "Will AI in education succeed? | Brookings",
+      "url": "https://www.brookings.edu/articles/will-ai-in-education-succeed/"
+    },
+    {
+      "title": "Frontiers | Artificial intelligence in education: applications and limitations for teachers in low- and middle-income countries",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1681836/full"
+    },
+    {
+      "title": "Evaluating LLMs for Career Guidance: Comparative Analysis of Computing Competency Recommendations Across Ten African Countries",
+      "url": "https://arxiv.org/pdf/2510.18902"
+    },
+    {
+      "title": "Strengthening AI Foundations: Emerging Opportunities for Developing Countries",
+      "url": "https://www.worldbank.org/en/news/factsheet/2025/11/21/strengthening-ai-foundations-emerging-opportunities-for-developing-countries"
+    },
+    {
+      "title": "The future is Africa: Shaping AI-enabled EdTech for skilling the next generation",
+      "url": "https://blogs.worldbank.org/en/education/the-future-is-africa--shaping-ai-enabled-edtech-for-skilling-the"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

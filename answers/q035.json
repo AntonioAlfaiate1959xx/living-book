@@ -1,0 +1,50 @@
+{
+  "id": "q035",
+  "question": "What is the promise and the peril of AI-driven accessibility for learners with disabilities, neurodivergence, or language barriers, from the learner's own perspective?",
+  "answer": "**AI-Driven Accessibility: Promise and Peril for Learners Who Have Been Left Behind**\n\nThe most consequential thing AI may do in education is not raise average performance — it is lower the floor. For learners with disabilities, neurodivergent students, and those navigating instruction in a language not their own, the gap between what a system offers and what they can actually access has historically been vast. AI is beginning to close that gap in ways that matter, but it is simultaneously introducing new forms of exclusion that deserve equal scrutiny.\n\nOn the side of promise, the evidence is genuine. Generative AI tools can support academic writing, task planning, emotional regulation, and self-management by providing personalised, flexible, and multimodal support. For a student with dyslexia who has spent years watching peers draft fluent prose in the time it takes them to form a paragraph, or for an ADHD student whose executive function collapses under open-ended tasks, these are not marginal conveniences — they can be transformative. Positive outcomes documented in the research literature include improved writing fluency, time management, self-efficacy, and engagement. Meanwhile, AI-supported translation, summarisation, and speech-to-text features are transforming the accessibility of learning materials, particularly for multilingual and neurodiverse learners, enabling real-time adaptation of complex texts into multiple languages or simplified summaries. For a student who speaks Spanish at home and sits through science instruction in English, real-time comprehension support is not a shortcut — it is equity.\n\nParticipation in regular classes is now possible for disabled students with the use of AI-based assistive technologies, and such tools can also allow students with disabilities to pursue autonomous learning without depending on the availability of a human interpreter or aide. Extended Reality technologies can enable immersive, adaptable, and practice-oriented learning, while accessibility tools such as speech-to-text have become more accurate in recent years due to advances in AI and cloud computing. The cumulative effect is a set of accommodations that, for the first time, scale.\n\nThe peril, however, sits close to the promise. The first risk is bias in the underlying systems. Students with disabilities are particularly at risk of AI bias due to the lack of diverse user input in the training of most models — a notable example being the tendency of AI-generated captions to misinterpret dysarthric speech, creating accessibility barriers in online learning environments. An AI that cannot understand how a person with a motor speech disorder talks is not an accessibility tool; it is another wall. Most studies in the field lack neurodivergent user participation and fail to adequately address sensory and cognitive heterogeneity, accessibility barriers, and gender bias in their datasets — meaning that systems built without the input of those they claim to serve will reliably fail them in ways that remain invisible until deployment.\n\nThe second risk is more philosophical but no less real: the erosion of agency. AI can both foster and inadvertently constrain autonomy depending on system transparency and design; if recommendations are overly prescriptive or opaque, learners may follow AI-generated paths rather than initiate or evaluate their own choices, creating dependence rather than genuine self-direction. Experimental evidence reinforces this concern: the vulnerability of students' self-regulation and autonomy in AI-mediated learning is real, with exposure to AI interventions producing significant declines in autonomy in at least one subgroup across multiple experiments. For students who have already been defined by their deficits — who have spent years receiving accommodations framed as exceptions rather than rights — a system that further reduces their sense of authorship over their own learning does quiet, lasting damage.\n\nThe third risk is structural. If AI tools live up to their potential for neurodivergent learners, those learners may be more willing to accept privacy or security risks in exchange for the advantages — but if policymakers legislate on the basis of the risk-benefit ratio for the neurotypical population, they could prevent neurodivergent people from accessing tools that are genuinely helpful to them. Regulation calibrated to the majority will always be the wrong fit for those at the margins. Finally, AI technologies in education risk reproducing systemic inequalities by embedding ableist and normative assumptions into their design, marginalising non-normative ways of learning and knowing — precisely the ways of knowing that neurodivergent and differently-abled learners often exemplify.\n\nThe honest summary is this: AI-driven accessibility holds more concrete near-term promise for marginalised learners than for any other group, precisely because their baseline access is so constrained. But the same systems, if built without their participation and deployed without nuance, will encode new hierarchies in the language of inclusion. Neurodivergent people having a voice in these discussions is not a courtesy — it is the precondition for any of this working as intended.",
+  "sources": [
+    {
+      "title": "The Potential of Generative AI in Supporting Neurodiversity in Higher Education: A Systematic Review - Liao - 2025 - Proceedings of the Association for Information Science and Technology - Wiley Online Library",
+      "url": "https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1331?af=R"
+    },
+    {
+      "title": "Transforming Science Learning Materials in the Era of Artificial Intelligence",
+      "url": "https://arxiv.org/pdf/2602.18470"
+    },
+    {
+      "title": "Advancing Personalized and Inclusive Education for Students with Disability Through Artificial Intelligence: Perspectives, Challenges, and Opportunities",
+      "url": "https://www.mdpi.com/2673-6470/5/2/11"
+    },
+    {
+      "title": "Full Report: AI to Support Neurodivergent Learners in Vocational Education and Training | OECD",
+      "url": "https://www.oecd.org/en/publications/ai-to-support-neurodivergent-learners-in-vocational-education-and-training_718d7522-en/full-report.html"
+    },
+    {
+      "title": "Full article: Reframing AI governance in education: insights from the social model of disability",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17439884.2025.2595443"
+    },
+    {
+      "title": "Full article: A scoping review of inclusive and adaptive human–AI interaction design for neurodivergent users",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17483107.2025.2579822"
+    },
+    {
+      "title": "Frontiers | Artificial intelligence and learner autonomy: a meta-analysis of self-regulated and self-directed learning",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1738751/full"
+    },
+    {
+      "title": "How Students Use AI Feedback Matters: Experimental Evidence on Physics Achievement and Autonomy",
+      "url": "https://arxiv.org/pdf/2505.08672"
+    },
+    {
+      "title": "Risks in using AI and other advanced technologies to support neurodivergent VET learners: AI to Support Neurodivergent Learners in Vocational Education and Training | OECD",
+      "url": "https://www.oecd.org/en/publications/ai-to-support-neurodivergent-learners-in-vocational-education-and-training_718d7522-en/full-report/component-6.html"
+    },
+    {
+      "title": "Full article: Disabling AI: power, exclusion, and disability",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/01425692.2025.2519482"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

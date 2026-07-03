@@ -1,0 +1,42 @@
+{
+  "id": "q042",
+  "question": "Who has legitimate authority to govern AI in education — states, markets, professions, or communities — and on what principles?",
+  "answer": "**Who Has Legitimate Authority to Govern AI in Education?**\n\nThe question of legitimate authority over AI in education is not merely technical or administrative — it is a question about which institutions are trusted enough, and accountable enough, to make consequential decisions about how children learn and what kinds of cognitive lives they lead. The current landscape offers no clean answer, but it does reveal a recognizable pattern: authority is being improvised, from many directions simultaneously, against a background of structural uncertainty.\n\n**The State's Case — and Its Limits**\n\nStates have, in practice, moved fastest. When ChatGPT debuted in 2022, no states had policies related to generative AI in schools; by April 2025, at least 28 states had published guidance on AI in K–12 settings. By the end of 2025, that number had grown to 34 states with statewide guidance. This is not a trivial development. The state — understood as the collective democratic authority vested in elected legislatures and their administrative agencies — has the oldest and most legitimate claim to govern education precisely because it bears fiduciary responsibility for children. Colorado, for instance, passed what analysts have called the most comprehensive state-level AI governance law in the country, targeting deployers of \"high-risk\" AI systems making consequential decisions in education, employment, and other domains, requiring risk-management programs, consumer disclosures, and mitigation of algorithmic discrimination.\n\nYet the state's authority is complicated by fragmentation. AI governance in the United States has emerged through a patchwork of policies and voluntary guidelines rather than a unified legal framework; federal agencies rely on existing authorities and executive guidance while Congress has yet to pass comprehensive legislation, and states are moving forward with their own laws, producing a fragmented landscape that complicates compliance and national policy coordination. This fragmentation is not merely untidy — in the absence of coordinated state leadership, AI adoption in schools is often uneven, driven by local capacity and vendor offerings rather than a coherent statewide vision, risking the widening of inequities and leaving educators without clear expectations for responsible use.\n\n**Markets as De Facto Governors**\n\nIn the absence of binding law, markets have become the dominant governing force by default. The White House launched a \"Pledge to America's Youth\" that now includes commitments from over 200 tech companies and organizations — including Google, OpenAI, Microsoft, NVIDIA, and Salesforce — while the American Federation of Teachers launched a National Academy for AI Instruction in partnership with Microsoft, OpenAI, and Anthropic. These are market actors choosing to shape educational norms, and their influence is substantial. The legitimacy problem is plain: companies optimizing for adoption and revenue are not structurally positioned to prioritize child welfare, equity, or pedagogical integrity over growth. AI vendor contracts at major public universities are already becoming flashpoints for broader debates about austerity, faculty shared governance, and the commercialization of public higher education; ed-tech vendors pursuing large institutional contracts should expect intensifying scrutiny from faculty stakeholders. Market authority, in short, is real but not legitimate in the foundational sense — it lacks democratic accountability.\n\n**Professional Claims and Their Strength**\n\nThe professions — teachers, faculty, and the organizations that represent them — hold a different kind of legitimate claim. They possess the situated knowledge of what pedagogically works, and they bear direct moral responsibility for students in their care. The American Association of University Professors has recommended that AI governance in higher education be adopted through governance bodies such as academic senates, with mechanisms for enforcement and oversight. Several states have taken heed: Illinois proposed an Advisory Board to give guidance, oversight, and evaluation of education technology, including AI, in collaboration with the state education agency, with the board also required to develop standards on safety, privacy, and transparency and guidance for districts and educators. Professional authority is at its strongest when it is structured into formal oversight roles rather than left as mere practitioner preference.\n\n**The Principled Case for Polycentric Governance**\n\nNo single locus of authority is sufficient. The state supplies democratic legitimacy and enforcement power but risks uniformity, bureaucratic lag, and political capture. Markets supply speed and resources but not accountability. Professions supply pedagogical wisdom but not systemic reach. Communities — parents, students, local civil society — supply the moral particularity that any general rule will inevitably smooth over.\n\nWhat the evidence suggests is that legitimate governance requires these actors to be organized in relation to one another, not left to compete. There is a growing shift from early experimentation toward more structured discussions around guidance, oversight, and use cases in schools, with policymakers seeking ways to ensure safe and ethical AI use without slowing down innovation. Practitioners and scholars have argued that ethical aspirations remain ineffective without binding legal mandates — yet mandates without professional input produce rules that misfire in actual classrooms.\n\nOn principles, a workable consensus is emerging, if not yet enforced: transparency about when and how AI is used, fairness in ensuring that algorithmic tools do not reproduce existing inequities, accountability in clarifying who bears responsibility when AI advice goes wrong, and a commitment to preserving the epistemic autonomy — the critical thinking and creativity — that education is meant to cultivate. Ethics-focused AI education remains severely underrepresented in technical curricula worldwide despite increasing global concern about fairness and accountability. That gap between stated principle and institutional practice is, at bottom, where the governance question still lives.",
+  "sources": [
+    {
+      "title": "How States Are Responding to the Rise of AI in Education - Education Commission of the States",
+      "url": "https://www.ecs.org/artificial-intelligence-ai-education-task-forces/"
+    },
+    {
+      "title": "States Take Next Steps on Governing AI Use in Schools",
+      "url": "https://www.nasbe.org/states-take-next-steps-on-governing-ai-use-in-schools/"
+    },
+    {
+      "title": "US AI regulations 2026: the state laws you must comply with",
+      "url": "https://verifywise.ai/blog/state-of-ai-governance-regulations-united-states-2026"
+    },
+    {
+      "title": "Governance of AI - Atlantic Council",
+      "url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/governance-of-ai/"
+    },
+    {
+      "title": "States Focused on Responsible Use of AI in Education during the 2025 Legislative Session - Center for Democracy and Technology",
+      "url": "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+    },
+    {
+      "title": "Latest AI in Education News: Policies and Innovations | 2026",
+      "url": "https://www.pursuit.us/news/ai-in-education-news-policies-innovations"
+    },
+    {
+      "title": "Artificial Intelligence and Academic Professions | AAUP",
+      "url": "https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/artificial-intelligence-and-academic"
+    },
+    {
+      "title": "Beyond the Algorithm: Professional Experiences and Perceptions of AI Bias",
+      "url": "https://arxiv.org/pdf/2606.18289"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

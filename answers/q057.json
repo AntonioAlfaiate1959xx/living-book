@@ -1,0 +1,70 @@
+{
+  "id": "q057",
+  "question": "What evidence exists on how AI use affects different learner profiles — high vs. low performers, younger vs. older students, novices vs. experts?",
+  "answer": "## AI and Differential Learner Profiles: Who Benefits, Who Doesn't, and Why\n\nThe question of whether AI tools help all students equally has attracted serious empirical attention over the past two years, and the emerging answer is clearly no. The effects of AI on learning vary significantly across performance levels, age groups, and prior expertise — and the patterns are more complex, and more cautionary in places, than the technology's advocates tend to acknowledge.\n\n### High vs. Low Performers\n\nOne of the most consequential findings concerns the divergence between high and low performers. The promise of AI tutoring is that it can rescue students from classes \"pitched to the median\" in which high-achieving learners are insufficiently challenged while struggling students fall behind. There is genuine evidence for this potential: lower-performing students, specifically those one standard deviation below the mean, showed meaningful improvements — an additional 0.15 SD gain on state tests — when human-AI hybrid tutoring was compared to AI-only tutoring. Yet the same research found a troubling wrinkle: lower-performing students showed lower AI tutor use than their higher-performing peers, suggesting that the students most in need of the tool are also the least likely to engage with it consistently.\n\nMeanwhile, studies on language learning point in a similar direction. In a study of English language learning in Nigeria, those who gained the most benefit from generative AI access were higher academic achievers, implying that AI may amplify, rather than reduce, existing performance gaps. In writing contexts, AI's impact varies by students' independent writing competence, with lower-proficiency students potentially struggling to leverage AI effectively. The tool, in other words, rewards those who already bring enough prior skill to use it well.\n\nDesign matters enormously here. In a randomized controlled trial with roughly 1,000 high school mathematics students, AI-assisted performance improved by 48%, but unassisted exam performance fell by 17% relative to control — a stark reversal suggesting that when students use AI as an answer machine rather than a thinking partner, short-term task performance comes at the cost of durable learning. Research by Bastani et al. indicated that although generative AI instantly enhanced students' problem-solving performance, these benefits diminished or became negative by final examinations, with participants' end-of-term grades declining when AI was available without pedagogical guardrails.\n\nA counterpoint comes from research on AI-assisted human tutors. Students whose tutors used AI assistance were 4 percentage points more likely to progress through math tutoring assessments successfully, with the approach particularly benefiting lower-rated and less-experienced tutors — students of lower-rated tutors who used AI assistance increased their math proficiency by up to 9 percentage points on average. The implication is that AI's greatest leveling potential may lie not in replacing human instruction but in elevating the quality of weaker instructors.\n\n### Novices vs. Experts\n\nThe novice-expert divide reveals a distinct cognitive mechanism. Research highlights systematic differences between novices and experts when collaborating with AI for programming: in agent-based modeling, experts could benefit more than novices, relying on stronger skills in task decomposition and evaluation of AI outputs; in code comprehension, experts inspect data more deeply, verify assumptions, and navigate outputs with clear goals — behaviors that novices underuse. Novices, lacking the mental scaffolding to evaluate AI outputs critically, risk being led astray rather than guided forward. Studies also document failure patterns such as \"prompting rabbit holes,\" where less-experienced users iterate on prompts without convergence.\n\nThe underlying danger for novices is well captured by the metacognitive dimension: while a ChatGPT-assisted group showed improved task performance during the supported intervention phase, there were no differences in posttest knowledge gain or knowledge transfer, and a temporal process analysis suggested that the ChatGPT group relied strongly on AI support and showed relatively low metacognitive processing compared to other support groups. For novice learners specifically, the negative impact of large language models on the depth of inquiry was found to be \"particularly true for novices.\" Programming research extends this concern: a novice programmer who relies on a tool like GitHub Copilot may learn how to prompt the AI but not how to think like a programmer.\n\nThat said, the novice case is not uniformly bleak. Using AI code generators can significantly increase task completion, improve correctness scores, reduce errors, and reduce task completion time for novice programmers during training. And crucially, learners with higher prior programming competency performed significantly better on retention tests if they had access to the AI code generator during their training phase — a finding that once again underscores how prior knowledge moderates the benefit.\n\n### Younger vs. Older Students\n\nAge-based differences in AI use are well documented, though research on differential *learning outcomes* by age remains thinner than research on adoption patterns. A higher percentage of older teens (16 to 18) than younger teens (13 to 16) used AI to summarize texts (45.5% vs. 31.5%) or to provide different interpretations of a text (19.1% vs. 10.1%), suggesting that older adolescents are both more aware of and more sophisticated in their AI use. Adoption within schools also scales with grade: nearly a quarter of students in grades 11 and 12 (24%) reported using ChatGPT, compared to 17% in grades 9 and 10 and 12% in grades 7 and 8.\n\nCritically, engagement quality diverges as much as usage rates. More young people who enjoyed reading or writing added their own thoughts to AI outputs, while those who did not enjoy these activities were more likely to copy AI responses directly — a gap that was especially pronounced around reading enjoyment. This suggests that motivation and existing affinity for a subject mediate how productively students of any age interact with AI tools.\n\n### The Overarching Pattern\n\nWhat emerges across all three dimensions — performance level, expertise, and age — is a consistent dynamic that researchers have begun to call the *assistance-erosion paradox*: AI raises immediate performance while potentially undermining the deeper cognitive work that produces lasting knowledge. While AI offers rapid access to information, overdependence may reduce students' engagement in independent analysis and reflective reasoning; when used reflectively and with appropriate regulation it may serve as a tool for intellectual stimulation, but excessive or passive AI use may impair the very skills it aims to enhance. The students most at risk of passive use — lower performers, novices, and younger learners with weaker metacognitive skills — are precisely those for whom the stakes of that erosion are highest. Studies have only sporadically examined how individual characteristics moderate the impact of generative AI on learning outcomes, and a more well-rounded analytical framework has been lacking, meaning the field's understanding of these differential effects remains genuinely incomplete.",
+  "sources": [
+    {
+      "title": "What the research shows about generative AI in tutoring | Brookings",
+      "url": "https://www.brookings.edu/articles/what-the-research-shows-about-generative-ai-in-tutoring/"
+    },
+    {
+      "title": "Improving Hybrid Human-AI Tutoring by Differentiating Human Tutor Roles Based on Student Needs",
+      "url": "https://arxiv.org/pdf/2605.11155"
+    },
+    {
+      "title": "Learning outcomes with GenAI in the classroom",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/10/GenAILearningOutcomes-Report-published-10-07-2025.pdf"
+    },
+    {
+      "title": "The Crutch or the Ceiling? How Different Generations of LLMs Shape EFL Student Writings",
+      "url": "https://arxiv.org/pdf/2604.15460"
+    },
+    {
+      "title": "Faster Completion, Less Learning: Generative AI Reduced Study Time on Math Problems and the Knowledge They Build",
+      "url": "https://arxiv.org/pdf/2605.21629"
+    },
+    {
+      "title": "How Students Use AI Feedback Matters: Experimental Evidence on Physics Achievement and Autonomy",
+      "url": "https://arxiv.org/html/2505.08672v2"
+    },
+    {
+      "title": "How AI can improve tutor effectiveness | SCALE Initiative",
+      "url": "https://scale.stanford.edu/news/how-ai-can-improve-tutor-effectiveness"
+    },
+    {
+      "title": "Not Everyone Wins with LLMs: Behavioral Patterns and Pedagogical Implications for AI Literacy in Programmatic Data Science",
+      "url": "https://arxiv.org/pdf/2509.21890"
+    },
+    {
+      "title": "Looking Beyond the Hype: Understanding the Effects of AI on Learning | Educational Psychology Review | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s10648-025-10020-8"
+    },
+    {
+      "title": "The Impact of AI on Students’ Reading, Critical Thinking, and Problem-Solving Skills , American Journal of Education and Information Technology, Science Publishing Group",
+      "url": "https://sciencepublishinggroup.com/article/10.11648/j.ajeit.20250902.12"
+    },
+    {
+      "title": "Studying the effect of AI Code Generators on Supporting Novice Learners   in Introductory Programming",
+      "url": "https://arxiv.org/pdf/2302.07427"
+    },
+    {
+      "title": "Young people and teachers’ use of generative AI to support literacy in 2025 | National Literacy Trust",
+      "url": "https://literacytrust.org.uk/research-services/research-reports/young-people-and-teachers-use-of-generative-ai-to-support-literacy-in-2025/"
+    },
+    {
+      "title": "The Latest AI in Education Statistics (2026) - Programs.com",
+      "url": "https://programs.com/resources/ai-education-statistics/"
+    },
+    {
+      "title": "Learners' AI dependence and critical thinking: The psychological mechanism of fatigue and the social buffering role of AI literacy - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001691825010388"
+    },
+    {
+      "title": "Effect of generative artificial intelligence on university students learning outcomes: A systematic review and meta-analysis - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1747938X25000740"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

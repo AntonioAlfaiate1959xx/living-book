@@ -1,0 +1,38 @@
+{
+  "id": "q052",
+  "question": "What does research reveal about how students actually use generative AI when unsupervised — as distinct from how they report using it?",
+  "answer": "The gap between what students say they do with generative AI and what they actually do — when unobserved and unsurveyed — has become one of the more revealing and methodologically vexed problems in contemporary education research. The evidence accumulated by 2025 and 2026 cuts in several directions at once, but certain patterns are now firm enough to hold.\n\nThe headline numbers on self-reported usage are staggering on their own terms. Based on a survey of over one thousand UK undergraduates, the Higher Education Policy Institute found that the proportion of students using generative AI tools such as ChatGPT for assessments jumped from 53 percent in 2024 to 88 percent in 2025. By 2026, AI use had become nearly universal, with 95 percent of students reporting using it in at least one way and 94 percent saying they use it to help with assessed work. The Copyleaks 2025 report broadly corroborates this trajectory: nearly 90 percent of students have used AI for academic purposes, with almost a third doing so daily and another 24 percent doing so several times per week.\n\nThese are self-reported figures, however, and the distance between what students declare and what they do in practice is precisely where the more interesting research lies. The most direct evidence of systematic underreporting comes from studies using list experiments — an anonymization technique that allows respondents to admit socially stigmatized behaviors without direct attribution. A study based on interviews and list experiments with 305 Indonesian undergraduates found that students were often reluctant to admit dishonest behavior when asked directly, but the anonymous list experiment method produced substantially higher admissions of AI-assisted cheating. A comparable quantitative study of 1,386 Vietnamese undergraduates using list experiments found a similar pattern: students tended to conceal AI-assisted cheating when asked directly. The mechanism, across both contexts, appears to be shame and social pressure rather than simple ignorance of the rules.\n\nA further dimension of the gap concerns not misconduct per se, but covert use more broadly. Qualitative research from 2026, drawing on interviews with college students, found that there is a growing misalignment between students' AI adoption and existing institutional practices — around assessment, policy, and limited AI resources — and that this misalignment has led to covert AI usage, increased student anxiety, and an intention-behavior gap where students feel pressured into disregulated AI engagement. The title of that study captures the phenomenology with precision: \"Everyone's using it, but no one is allowed to talk about it.\" Its results show that traditional assessment structures — characterized by tight deadlines, exam stacking, and graded homework — incentivize students to use AI for task completion rather than deep engagement. In other words, institutional design is actively producing the covert behavior it nominally prohibits.\n\nWhat students actually use AI *for*, when conditions allow honesty, also diverges from the catastrophizing narratives common in faculty discourse. The most common reported uses are for AI to explain concepts, summarize articles, and suggest research ideas — functions closer to an advanced reference tool than a ghost-writing service. The proportion of students directly including AI-generated text in assessed work, while rising, stands at 12 percent as of 2026, up from 8 percent in 2025 and 3 percent in 2024. This matters: even as near-universal engagement is reported, wholesale text submission remains a minority behavior. The more common, less dramatic reality is iterative assistance at earlier stages of work.\n\nWhat distorts disclosure, research suggests, is not chiefly moral recklessness but institutional ambiguity. Roughly one third of respondents in one study admitted some AI use, yet disclosure was rare — and this silence appeared to reflect not dishonesty but rational caution in the face of ambiguous policies and perceived academic risk. Contrary to what institutional leaders might assume, mere awareness of a university's AI policy does little to sway student views on whether using AI is ethical; formal guidance often trails behind the informal norms students create for themselves.\n\nThe picture that emerges is thus more complicated than either the \"students are cheating en masse\" or \"students are using AI responsibly\" framings allow. Students are using generative AI far more extensively than they disclose, particularly in high-stakes assessment contexts. That concealment is shaped less by calculated dishonesty than by a policy environment that criminalizes a technology students experience as ordinary, and by assessment structures that reward speed over depth. The behavior gap, in this sense, is partly an institutional creation.",
+  "sources": [
+    {
+      "title": "Student Generative AI Survey 2025 - HEPI",
+      "url": "https://www.hepi.ac.uk/reports/student-generative-ai-survey-2025/"
+    },
+    {
+      "title": "Student Generative Artificial Intelligence Survey 2026 - HEPI",
+      "url": "https://www.hepi.ac.uk/reports/student-generative-ai-survey-2026/"
+    },
+    {
+      "title": "AI in Action: 2025 Student AI Usage Report | Copyleaks",
+      "url": "https://copyleaks.com/blog/ai-in-action-2025-student-ai-usage-report"
+    },
+    {
+      "title": "Frontiers | AI-assisted academic cheating: a conceptual model based on postgraduate student voices",
+      "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1682190/full"
+    },
+    {
+      "title": "“Everyone’s using it, but no one is allowed to talk about it”: College Students’ Experiences Navigating the Higher Education Environment in a Generative AI World",
+      "url": "https://arxiv.org/html/2602.17720v1"
+    },
+    {
+      "title": "Beyond Detection: How Students Use—and Hide—AI in Online Assessments and What Authentic Tasks Can Do About It | Journal of Academic Ethics | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s10805-025-09691-3"
+    },
+    {
+      "title": "Student Perceptions of AI-Assisted Writing and Academic Integrity: Ethical Concerns, Academic Misconduct, and Use of Generative AI in Higher Education",
+      "url": "https://www.mdpi.com/3042-8130/1/1/2"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "q047",
+  "question": "How do we manage the transition for current workers whose skills are being obsoleted faster than retraining systems can respond?",
+  "answer": "**The Retraining Gap: When Skills Obsolescence Outpaces the Systems Built to Address It**\n\nThe arithmetic of the current moment is genuinely alarming. The World Economic Forum's 2025 Future of Jobs report estimates that workers can expect two-fifths of their existing skill sets to be transformed or become outdated over the 2025–2030 period. Meanwhile, SHRM's 2025 research estimates that 19.2 million U.S. jobs face a high or very high risk of automation displacement across clerical, logistics, and finance sectors. The retraining systems expected to absorb this disruption were not built for its scale or velocity, and the evidence accumulated over decades suggests they are not becoming adequate fast enough to matter.\n\nThe public architecture of worker support reveals a structural underfunding that predates the current crisis. Federal workforce development spending has fallen from 0.35 percent of GDP in the 1980s to under 0.1 percent today. In absolute terms, the United States spends roughly five billion dollars per year on public workforce programs. The historical track record of dedicated programs such as Trade Adjustment Assistance is damning across administrations and decades: past efforts to respond to economic displacement have not lived up to the hopes of those who devised them, reflecting failures of both design and implementation, with major consequences for workers and the broader political landscape.\n\nThe private sector offers some countervailing examples, but they remain exceptional rather than systemic. AT&T committed one billion dollars to a multiyear program called Future Ready to retrain about 100,000 employees for new tech roles, partnering with online education providers and universities to create tailored courses; by 2020, tens of thousands of workers had completed training in software development, data science, and cybersecurity. Such cases demonstrate that large-scale internal retraining is technically possible — but a 2025 Brookings survey of HR leaders at companies that had deployed AI tools found that only 7 percent were working on reskilling strategies for AI-impacted roles, while 62 percent were focused on piloting AI in HR management itself. The private sector is, in other words, more likely to automate its human resources department than to retrain the workers that automation displaces.\n\nThree structural failures recur through the research with uncomfortable consistency. The standard retraining theory assumes that for every automated job that disappears, a new skilled job emerges somewhere else — but evidence suggests technological change can reduce the number of available middle-wage positions faster than workers can retrain into them. You cannot retrain your way into a job that does not exist. Second, the people who need retraining most are often the least able to access it: retraining takes weeks or months of classes, often without income, and workers living paycheck to paycheck cannot afford to stop earning. Third, even when workers do retrain, the destination may be insecure: Harvard Kennedy School–affiliated research found that retraining raises earnings on average but produces smaller gains when workers move into occupations with high AI exposure, concluding that retraining works best when it targets roles with long-term stability rather than those vulnerable to additional automation. This is a moving target that existing programs have no mechanism to track in real time.\n\nA further problem concerns what gets taught. The skills that AI is perceived to be most useful in helping to teach — procedural, closed skills — appear to be the same ones most susceptible to workplace automation, creating a potential \"training for obsolescence\" trap where educational systems inadvertently prepare workers for roles that will not exist by the time they complete their programs.\n\nCurrent reform proposals cluster around three approaches, none yet proven at scale. The first is structural overhaul of public programs: workforce programs are currently evaluated on how participants are doing a year after completing their training, which creates an incentive to nudge workers into the first available job rather than what may be a better long-term alternative — a preferable approach would align program incentives with securing long-term, meaningful employment. The second concerns income continuity: a 2024 study found that wage insurance increased rates of employment and long-run earnings by cushioning wage losses and encouraging displaced workers to accept new jobs, suggesting that bridging income rather than mandating rapid retraining may paradoxically produce better outcomes. The third is distributional: some economists suggest mechanisms to share productivity gains more broadly, including profit-sharing plans that extend to all employees, or new forms of taxation where companies that benefit enormously from AI contribute to retraining funds or basic income for displaced workers.\n\nWhat the evidence converges on is a need for a system that enables exposed and displaced workers to prepare for and transition to future occupations mid-career rather than only early-career — an infrastructure that does not yet exist in any country at meaningful scale. The retraining gap is not primarily a pedagogical problem. It is a political economy problem: the costs of displacement fall on individuals and communities, while the gains from automation accrue to firms and shareholders, and no durable mechanism yet redistributes between the two with sufficient speed or adequacy.",
+  "sources": [
+    {
+      "title": "Workforce capacity development and occupational transitions with dignity | Brookings",
+      "url": "https://www.brookings.edu/articles/workforce-capacity-development-and-occupational-transitions-with-dignity/"
+    },
+    {
+      "title": "Smarter Reskilling for Automation and Workforce Transformation",
+      "url": "https://blog.getaura.ai/reskilling-for-automation"
+    },
+    {
+      "title": "The $380 Billion Retraining Industry Has 90 Years of Evidence. Almost None of It Works. — Live in the Future",
+      "url": "https://liveinthefuture.org/stories/retraining-industry-failure"
+    },
+    {
+      "title": "Lessons from past trade adjustment policies to support displaced workers in the era of artificial intelligence - Equitable Growth",
+      "url": "https://equitablegrowth.org/research-paper/lessons-from-past-trade-adjustment-policies-to-support-displaced-workers-in-the-era-of-artificial-intelligence/"
+    },
+    {
+      "title": "Bridging the AI Skills Divide in the Automation Era - AMPLYFI",
+      "url": "https://amplyfi.com/blog/bridging-the-ai-skills-divide-in-the-automation-era/"
+    },
+    {
+      "title": "AI Job Displacement: Will Retraining Save You? (Brookings) | AI Changing Work",
+      "url": "https://aichanging.work/en/blog/ai-displacement-retraining-limits-what-works"
+    },
+    {
+      "title": "Retraining Emerges as Leading Response to AI Job Disruption | PYMNTS.com",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2025/retraining-emerges-as-leading-response-to-ai-job-disruption/"
+    },
+    {
+      "title": "Training for Obsolescence? The AI-Driven Education Trap",
+      "url": "https://arxiv.org/pdf/2508.19625"
+    },
+    {
+      "title": "Reforms to the Workforce Innovation and Opportunity Act Could Help Workers Displaced by AI | TechPolicy.Press",
+      "url": "https://www.techpolicy.press/reforms-to-the-workforce-innovation-and-opportunity-act-could-help-workers-displaced-by-ai/"
+    },
+    {
+      "title": "What Happens When Jobs Disappear? A Guide to Displaced Worker Programs in the U.S.",
+      "url": "https://bipartisanpolicy.org/explainer/what-happens-when-jobs-disappear-a-guide-to-displaced-worker-programs-in-the-u-s/"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

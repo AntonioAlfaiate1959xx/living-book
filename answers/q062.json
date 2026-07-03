@@ -1,0 +1,54 @@
+{
+  "id": "q062",
+  "question": "What lessons emerge from schools and universities that banned AI, then reversed course — or embraced it, then restricted it?",
+  "answer": "The arc of institutional policy on artificial intelligence in education constitutes one of the more instructive episodes in the recent history of technology governance — a compressed cycle of panic, reversal, and grudging accommodation that has unfolded in less than three years.\n\n**The initial reflex and its collapse**\n\nNew York City Public Schools was the first school system to block access to ChatGPT — and also the first to reverse its ban. The sequence was swift enough to be almost comic, but it was not unique. Highly restrictive policies introduced after the launch of ChatGPT were eased in favor of more nuanced responses, as a study of more than 30,000 U.S. courses found — with the easing occurring across all disciplines except the arts and humanities. The bans collapsed for a simple reason: they were unenforceable in principle and ignored in practice. Eighty-four percent of U.S. high schoolers used AI for schoolwork, and bans were not stopping them; students in schools that prohibited AI used it just as much as those in schools that did not. As one education researcher put it plainly, \"outright bans tend not to persist, possibly because they are hard to enforce. Instructors increasingly specify when AI use is acceptable and for which tasks, which aligns better with how learning actually happens.\"\n\n**The equity argument against prohibition**\n\nThe reversal was not only pragmatic. For North Carolina's superintendent of public instruction, choosing to allow the technology in schools was an equity issue: \"If kids are not learning how to use it at school, and they don't have access to it at home or have parents who can teach them how to leverage it, large swaths of children are missing out\" on key career preparation. This concern proved influential: blanket bans had an unintended distributive consequence, because wealthier students could access AI tools regardless of school policy, while others were simply denied the preparation.\n\n**What replaced the bans**\n\nThe dominant movement has been away from categorical prohibition and toward task-specific, disclosure-based governance. Across 2024 and 2025, universities such as Harvard, Oxford, and the University of Michigan updated course syllabi to include explicit AI disclosure language rather than blanket prohibitions — policies that now often read \"AI tools may be used only with disclosure and within instructor-defined limits,\" shifting the issue away from plagiarism and toward authorship transparency. The scale of this shift is measurable: calls for students to attribute their AI use were cited in only 1 percent of syllabi in early 2023, but by the end of 2025 this figure had reached 29 percent.\n\nThe new frameworks are notably granular. Course materials moved toward policies that explicitly restrict or permit AI use depending on the specific task: when policies mention drafting or revising, 79 percent ban AI use; for reasoning and problem-solving, 65 percent prohibit it; but for coding and technical work only 20 percent ban AI, and for editing or proofreading the proportion is 17 percent. Law schools present the clearest case of principled caution: the legal profession's bar exam and client-advising contexts require precise, source-attributed reasoning, and AI hallucination in legal contexts can cause direct client harm — most law schools maintained or tightened prohibition-oriented policies through 2025.\n\n**The cost of unreflective embrace**\n\nInstitutions that moved rapidly to wholesale integration have encountered a different set of problems. Ninety percent of faculty report that AI is weakening critical thinking, according to a January 2026 survey of 1,057 faculty members conducted by the American Association of Colleges and Universities and Elon University. More troubling still, sixty-three percent of faculty report that spring 2025 graduates were not well prepared to use AI effectively in the workplace, despite frequent exposure to these tools during college. Exposure, in other words, is not the same as formation. Students are entering higher education with AI habits already ingrained, but restrictions in classrooms do not appear to prevent AI use — instead risking students using AI quietly with no formal guidance in increasingly punitive classroom environments, which may bode for worse student outcomes than the tools themselves.\n\n**What the evidence teaches**\n\nThe lesson that survives both the banning experiment and the enthusiast overcorrection is structural rather than technological. Some 67 percent of university leaders say they have not acted or have no clear AI strategy, according to a survey by The Chronicle of Higher Education. Where institutions have done better, the common feature is granularity: the trend is toward nuanced, course-specific rules rather than blanket bans. Universities are now writing rules that assume AI's presence instead of pretending it can be excluded entirely, while clarifying that AI detection outputs do not override instructor judgment — even when a report indicates a high probability score, faculty retain discretion to determine whether contextual factors warrant further action.\n\nThe deeper pedagogical question, which institutions have been slower to confront, concerns what skills are actually being practiced. As one researcher summarizes: \"Academic integrity still matters, but the bigger question is what students are practicing and what skills they are building. More instructors are starting to frame AI in terms of learning, including when it supports practice and when it might replace the practice students need.\" That reframing — from policing to deliberate design — marks the mature version of what most institutions are still struggling to reach.",
+  "sources": [
+    {
+      "title": "Should schools ban or integrate generative AI in the classroom? | Brookings",
+      "url": "https://www.brookings.edu/articles/should-schools-ban-or-integrate-generative-ai-in-the-classroom/"
+    },
+    {
+      "title": "Faculty Moving Away From Outright Bans on AI, Study Finds",
+      "url": "https://www.insidehighered.com/news/faculty/learning-assessment/2026/02/13/faculty-moving-away-outright-bans-ai-study-finds"
+    },
+    {
+      "title": "Why AI Is Banned in Schools: Cheating, Learning Gaps & What Educators Can Do (2025–2026)",
+      "url": "https://www.tshanywhere.org/post/schools-debate-ai-ban-classrooms"
+    },
+    {
+      "title": "Does Your District Ban ChatGPT? Here's What Educators Told Us",
+      "url": "https://www.edweek.org/technology/does-your-district-ban-chatgpt-heres-what-educators-told-us/2024/02"
+    },
+    {
+      "title": "AI Is Not Banned — It’s Regulated: 25 AI University Policies You Should Know (2026) - WriteBros.ai Blog",
+      "url": "https://writebros.ai/blog/ai-university-policies-you-should-know"
+    },
+    {
+      "title": "AI Academic Integrity Policies 2026: Rules & Examples",
+      "url": "https://www.eyesift.com/blog/academic-integrity-policy-ai/"
+    },
+    {
+      "title": "90% Of Faculty Say AI Is Weakening Student Learning: How Higher Ed Can Reverse It",
+      "url": "https://www.forbes.com/sites/avivalegatt/2026/01/27/90-of-faculty-say-ai-is-weakening-student-learning-how-higher-ed-can-reverse-it/"
+    },
+    {
+      "title": "Bridging the Skills Gap: A Course Model for Modern Generative AI Education",
+      "url": "https://arxiv.org/pdf/2511.11757"
+    },
+    {
+      "title": "How AI Can Help Universities Capture Opportunity | BCG",
+      "url": "https://www.bcg.com/publications/2026/how-ai-can-help-universities-capture-opportunity"
+    },
+    {
+      "title": "Generative AI Policies at the World’s Top Universities: October 2025 Update",
+      "url": "https://www.thesify.ai/blog/gen-ai-policies-update-2025"
+    },
+    {
+      "title": "Academics moving away from outright bans of AI, study finds",
+      "url": "https://www.timeshighereducation.com/news/academics-moving-away-outright-bans-ai-study-finds"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

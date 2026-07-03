@@ -1,0 +1,38 @@
+{
+  "id": "q022",
+  "question": "How should the teacher's role be redefined — from transmitter of knowledge to what, exactly?",
+  "answer": "**From Transmitter to What, Exactly?**\n\nThe phrase \"from transmitter to facilitator\" has become so common in education discourse that it risks meaning almost nothing. It is worth pressing harder on that \"what, exactly\" — because the answer turns out to be multiple, layered, and genuinely contested.\n\nThe transmitter model rested on a specific theory of scarcity: the teacher possessed knowledge the student lacked, and the essential act of schooling was the transfer of that content across the gap. Traditional education focused on memorization and the reproduction of knowledge; with the widespread application of AI, mechanical and repetitive tasks are increasingly handled by technology, meaning learning must shift toward developing abilities that cannot be replaced by algorithms. When information becomes abundant and freely accessible, the transfer model does not merely become inefficient — it becomes structurally unnecessary for a large class of content. The teacher's irreplaceability must therefore be located elsewhere.\n\nOne answer, now close to orthodoxy in policy circles, is the facilitator. UNESCO has described the teacher's role as having transitioned from knowledge transmitter to facilitator of learning, a collaborative knowledge producer, and a guide to citizenship in the era of AI. That formulation is richer than it first appears: it implies not one role but three simultaneously — pedagogical, intellectual, and civic. Teachers must now embrace a multifaceted role that includes being facilitators, mentors, and digital pedagogues.\n\nA second, more technically precise answer comes from researchers working at the intersection of AI and pedagogy. The integration of generative AI demands a reconceptualization of instructional design as a process of co-authorship between educators and intelligent systems; this dimension views educators as *epistemic designers* who collaborate with AI to curate, interpret, and adapt AI-generated resources to promote scientific reasoning and inquiry. The teacher as epistemic designer is a meaningfully different figure from the teacher as facilitator: design implies intentionality, judgment about what is worth knowing, and accountability for the architecture of learning experiences — not merely the lubrication of a process students lead themselves.\n\nA third answer concerns what AI conspicuously cannot do. While AI enhances instructional efficiency, personalization, and access to education, it cannot fully replicate the emotional intelligence, empathy, and social interactions inherent in effective teaching. This points toward the teacher as a *relational* and *moral* presence. The social and collaborative aspects of learning require a learning environment that supports interaction and cooperation between students; the teacher as facilitator also plays an important role in providing emotional support and constructive feedback, contributing to students' emotional well-being. On this view, what teachers uniquely offer is not content, and not even method, but presence — the kind of attentive witness to a student's development that no system can simulate.\n\nThere is also the question of identity and will. While many teachers are actively redefining their roles as learning designers and embracing reflective, student-centered pedagogies, their ability to fully realize this shift is shaped by institutional support, curriculum demands, and access to professional development; the transition is not merely a technical adjustment but a profound pedagogical and identity shift — one that requires agency, collaboration, and systemic alignment. The redefinition, in other words, cannot be mandated from above; it has to be inhabited.\n\nThe core objectives of future student development should emphasize cultivating the ability to ask meaningful questions, think critically, and drive innovation. If that is what students need, then the teacher's redefined role is ultimately that of someone who models exactly those capacities — not by lecturing about them, but by exercising them visibly and in relationship with students. The best short answer may be: the teacher moves from being the source of answers to being the most experienced asker of questions in the room.",
+  "sources": [
+    {
+      "title": "Redefining learning in the age of AI - Chinadaily.com.cn",
+      "url": "https://www.chinadaily.com.cn/a/202505/21/WS682d18a0a310a04af22c0965.html"
+    },
+    {
+      "title": "JOURNAL OF E-LEARNING AND KNOWLEDGE SOCIETY Vol. 21, No. 1 (2025), pp. 32-41",
+      "url": "https://www.je-lks.org/ojs/index.php/Je-LKS_EN/article/download/1136172/1431/"
+    },
+    {
+      "title": "Issue 23/ 2025 THE CHANGING ROLE OF TEACHERS IN",
+      "url": "https://journals.aseiacademic.org/index.php/ijsei/article/download/448/350/"
+    },
+    {
+      "title": "Science Literacy: Generative AI as Enabler of Coherence in the Teaching, Learning, and Assessment of Scientific Knowledge and Reasoning",
+      "url": "https://arxiv.org/pdf/2603.06659"
+    },
+    {
+      "title": "(PDF) Can AI Replace Teachers in the Future? A Case Study",
+      "url": "https://www.researchgate.net/publication/397562934_Can_AI_Replace_Teachers_in_the_Future_A_Case_Study"
+    },
+    {
+      "title": "(PDF) THE ROLE OF THE TEACHER AS A FACILITATOR IN THE LEARNING PROCESS: A REVIEW OF EDUCATIONAL PSYCHOLOGY",
+      "url": "https://www.researchgate.net/publication/388615360_THE_ROLE_OF_THE_TEACHER_AS_A_FACILITATOR_IN_THE_LEARNING_PROCESS_A_REVIEW_OF_EDUCATIONAL_PSYCHOLOGY"
+    },
+    {
+      "title": "Global Education Journal Vol. 3, 2 (April-July, 2025), pp. 390-396",
+      "url": "https://journal.civiliza.org/index.php/gej/article/download/674/629"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}

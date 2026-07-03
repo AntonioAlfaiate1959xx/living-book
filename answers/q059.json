@@ -1,0 +1,54 @@
+{
+  "id": "q059",
+  "question": "What does current evidence show about AI's effects on student motivation, engagement, and persistence — and how do these findings differ from marketing claims?",
+  "answer": "**AI and Student Motivation, Engagement, and Persistence: Evidence Against the Claims**\n\nThe marketing language surrounding AI in education is strikingly uniform: personalized learning pathways, instant feedback, mastery-based progression, engagement on demand. The pitch promises \"personalized learning pathways, instant feedback, mastery-based progression\" — sounding as if the future of education had already arrived. The research picture is considerably more complicated, and the complications fall into two distinct camps: conditional gains under the right conditions, and genuine harms under the wrong ones.\n\nOn the positive side, there is real evidence that purpose-built AI tutoring systems can boost engagement and motivation in ways that generalist classroom instruction does not. One randomized controlled trial measuring college students' learning found that students learned significantly more in less time using an AI tutor compared with in-class active learning, and also reported feeling more engaged and more motivated. Adaptive platforms that adjust difficulty and pacing in real time show similar promise: intelligent tutoring systems and adaptive learning platforms that personalize content delivery by adjusting instructional materials based on learners' real-time performance have been shown to enhance cognitive engagement. Surveys of students' self-reported experience are broadly consistent with this: a recent meta-analysis demonstrated that AI use positively influences students' learning perceptions and satisfaction.\n\nYet the Stanford University AI Hub for Education found that this body of optimistic evidence does not hold up well to methodological scrutiny. A Stanford report found that evidence behind claims of efficacy remains limited and, in some cases, raises new concerns about how and whether students are truly learning — pointing to a clear tension: AI can improve student performance while in use, but those gains appear to fade when the technology is removed. The core problem is one of causal inference. Despite the swift adoption of AI in schools, rigorous research on its impact remains limited; most studies examine whether students using AI tools perform better, yet do not isolate whether the technology itself caused those gains — and while researchers analyzed more than 800 studies, they ultimately relied upon approximately 20 high-quality causal research studies.\n\nThere is also a critical distinction between tool types that marketing almost never makes. Most tools on the market were not designed around the tutoring evidence base — they were designed around what artificial intelligence can do, and then positioned as tutoring afterwards. Generic AI tools used for studying can actively harm learning — one RCT found students using ChatGPT performed around 17% worse in exams — while purpose-built AI tutoring systems designed around proven tutoring principles show measurable within-session learning gains.\n\nThe darker findings concern what happens to motivation and cognitive engagement over time. Researchers have documented a phenomenon they call \"metacognitive laziness\": cognitive offloading, where learners delegate cognitive tasks to AI to reduce effort, may lead to a decrease in internal cognitive engagement over time, and the metacognitive laziness phenomenon has been documented, where learners become dependent on AI and offload metacognitive load, reducing effective engagement in metacognitive processes. This is not merely a theoretical concern. Studies indicate that when individuals rely heavily on AI for information retrieval and decision-making, their ability to engage in reflective problem-solving may decline, with one study reporting a significant negative correlation between AI tool usage and critical-thinking scores — and younger participants aged 17–25 showed higher AI dependence and lower thinking scores than older groups.\n\nThe motivational consequences of this dependency compound over time. Research using grounded theory found that \"motivational disengagement\" was among the most reported dimensions of problematic AI use, with students bypassing independent effort in favor of immediate AI assistance and experiencing eroding confidence in their own academic capabilities. A qualitative inquiry found that among those who had become AI-dependent, 67% reported increased procrastination and reduced intrinsic motivation.\n\nWhat the evidence suggests, taken as a whole, is that the relationship between AI and student motivation is not a fixed property of the technology but is instead determined by how it is deployed and whether it requires students to think or allows them to avoid thinking. Conceptual and integrative reviews consistently warn that unreflective reliance on AI can produce cumulative deskilling, metacognitive passivity, and loss of autonomy by reducing practice of core analytical skills. The marketing claims tend to measure the feeling of engagement — which AI-powered interfaces reliably produce — while the cautionary research measures what happens to independent thinking when that feeling becomes a substitute for the harder work of learning.",
+  "sources": [
+    {
+      "title": "AI Tutors Support 16 Percent of Learning. What About the Other 84 Percent? - Social Science Space",
+      "url": "https://www.socialsciencespace.com/2026/02/ai-tutors-support-16-percent-of-learning-what-about-the-other-84-percent/"
+    },
+    {
+      "title": "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting | Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-025-97652-6"
+    },
+    {
+      "title": "Frontiers | Artificial intelligence in higher education: a systematic review of its impact on student engagement and the mediating role of teaching methods",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1648661/full"
+    },
+    {
+      "title": "The associations between students' attitudes toward AI and learning engagement: serial mediating roles of perceived autonomy and learning enjoyment - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12728060/"
+    },
+    {
+      "title": "Stanford Researchers Find Thin Evidence Behind AI Classroom Tools",
+      "url": "https://www.govtech.com/education/k-12/stanford-researchers-find-thin-evidence-behind-ai-classroom-tools"
+    },
+    {
+      "title": "What Is The Current Evidence Into AI Tutoring And The Impact On Learners In School?",
+      "url": "https://thirdspacelearning.com/blog/ai-tutoring-evidence/"
+    },
+    {
+      "title": "From Co-Design to Metacognitive Laziness: Evaluating Generative AI in Vocational Education",
+      "url": "https://arxiv.org/pdf/2512.12306"
+    },
+    {
+      "title": "To Think or Not to Think: The Impact of AI on Critical-Thinking Skills | NSTA",
+      "url": "https://www.nsta.org/blog/think-or-not-think-impact-ai-critical-thinking-skills"
+    },
+    {
+      "title": "Defining AI Fatigue in Academic Contexts: Dimensions, Indicators, and a Stage-Based Model Using Grounded Theory",
+      "url": "https://arxiv.org/pdf/2605.23123"
+    },
+    {
+      "title": "JMIR Medical Education - Paradox of AI in Higher Education: Qualitative Inquiry Into AI Dependency Among Educators in Palestine",
+      "url": "https://mededu.jmir.org/2025/1/e74947"
+    },
+    {
+      "title": "A Review of the Negative Effects of Digital Technology on Cognition",
+      "url": "https://arxiv.org/pdf/2603.10025"
+    }
+  ],
+  "lastUpdated": "2026-07-03",
+  "lastChecked": "2026-07-03",
+  "history": []
+}
