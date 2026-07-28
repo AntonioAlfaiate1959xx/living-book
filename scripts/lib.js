@@ -20,6 +20,7 @@ const PATHS = {
   dataDir: path.join(ROOT, "data"),
   claimsDir: path.join(ROOT, "data", "claims"),
   registry: path.join(ROOT, "data", "question-registry.json"),
+  graph: path.join(ROOT, "data", "graph.json"),
   editionsDir: path.join(ROOT, "editions"),
   ledger: path.join(ROOT, "editions", "ledger.json"),
   logsDir: path.join(ROOT, "logs"),

@@ -27,6 +27,10 @@ essay answers.
 graph / vector store, cross-question consistency checking, and an automated
 PR/merge pipeline.
 
+> **Phase 2 is now implemented** — see the "Phase 2" section at the end of this
+> document for the multi-agent ensemble, the cross-question consistency checker
+> and claim graph, and the human-in-the-loop scheduled workflow.
+
 ---
 
 ## Directory layout (new files only)
@@ -215,3 +219,103 @@ never touch the real `data/` or `editions/` files. No API key is required.
   history.
 - **No new dependencies.** Everything uses Node.js built-ins, keeping the repo
   install-free and easy to audit.
+
+
+
+---
+
+# Phase 2 — Multi-Agent Ensemble, Consistency Graph & CI
+
+Phase 2 builds on Phase 1 without changing any of its data schemas. It is
+still **additive and offline-safe**: every model-calling code path has a
+deterministic `--mock` mode, tests never touch the network, and nothing is
+ever pushed to `main` or deployed automatically.
+
+## 1. The multi-agent ensemble
+
+The single-shot orchestrator is upgraded into a three-stage pipeline. Each
+stage is an independent, testable module under `scripts/agents/`:
+
+```
+Research  →  Verification  →  Synthesis
+```
+
+| Stage | File | Responsibility |
+|-------|------|----------------|
+| Research | `scripts/agents/research-agent.js` | Gather candidate findings + source URLs. Does **not** judge reliability. |
+| Verification | `scripts/agents/verification-agent.js` | Independently classify each source (`classifySource`), assign a reliability grade, and flag conflicting findings as `disputed`. |
+| Synthesis | `scripts/agents/synthesis-agent.js` | Merge only the *verified* findings into a schema-valid claim set + summary; surface disputes under `disputed_aspects`. |
+| Runner | `scripts/agents/ensemble.js` | Chains the three stages for one question and returns a claim-file object (does not write to disk). |
+
+The reliability rule is deterministic: **high-credibility** sources →
+`established`, **medium** → `emerging`, **no usable source** → cannot be
+`established` and is not marked `verified`, **conflicting polarity** →
+`disputed`. This enforces the project rule that *no claim is published merely
+because a model can write it.*
+
+### Running the ensemble
+
+```bash
+# Offline, deterministic — safe for demos and CI:
+npm run ensemble -- --question-id q001 --mock
+
+# Live (requires the environment variable; never hardcoded):
+ABACUS_API_KEY=... npm run ensemble -- --question-id q001
+```
+
+The ensemble path appends its new claims after any existing ones (ids never
+collide), bumps the question's edition, and writes an immutable ledger entry
+authored by `ensemble` / `ensemble(mock)`. The default single-shot path
+(`npm run orchestrate`) is unchanged.
+
+## 2. Cross-question consistency checker & claim graph
+
+`scripts/consistency-check.js` builds a relationship graph across **all**
+claim files and flags potential contradictions before publication.
+
+- **Graph** (`data/graph.json`): nodes are claims; an edge links two claims
+  from *different* questions when they share a source URL (`shared-source`)
+  or have strong keyword overlap (`topical`).
+- **Contradiction candidates**: related claims with opposing polarity (one
+  negates the other) are reported for editorial review.
+
+```bash
+npm run consistency          # write data/graph.json + print a report
+npm run consistency:check    # same, but exit 1 if contradictions exist (CI gate)
+node scripts/consistency-check.js --json   # machine-readable output
+```
+
+On the current migrated data this reports **69 claims, 133 cross-question
+relationships, 0 contradictions**.
+
+## 3. Human-in-the-loop automation (`.github/workflows/living-book-v2.yml`)
+
+A new workflow, kept separate from the legacy `update.yml`, enforces the
+"stop before publishing" rule:
+
+- **`ci` job** — on every push/PR to `feature/living-book-v2`: runs the full
+  test suite and the consistency gate. No secrets required.
+- **`refresh` job** — scheduled (weekly) or manual: runs the ensemble
+  (mock unless `ABACUS_API_KEY` is configured as a repo secret), rebuilds the
+  graph, and **opens a Pull Request** via `peter-evans/create-pull-request`.
+  It **never pushes to `main` and never deploys** — a human reviews and merges.
+
+## 4. Tests
+
+Phase 2 adds mock-only suites (all run with `npm test`):
+
+- `tests/research-agent.test.js`
+- `tests/verification-agent.test.js`
+- `tests/synthesis-agent.test.js`
+- `tests/ensemble.test.js` (full pipeline + orchestrator `--ensemble` path)
+- `tests/consistency-check.test.js`
+
+Total: **41 tests passing** (19 from Phase 1 + 22 new).
+
+## 5. Safety recap
+
+- No credentials in code — `ABACUS_API_KEY` is read from the environment only.
+- Every model call has a deterministic `--mock`; tests make no network calls.
+- `main`, the legacy `docs/` site, and all migrated `data/` / `editions/`
+  files are untouched by Phase 2.
+- Automated refreshes open a PR for review; they never merge or deploy.

@@ -24,6 +24,7 @@ const {
   summarise,
 } = require("./lib.js");
 const { parseArgs } = require("./propose-question.js");
+const { runEnsemble } = require("./agents/ensemble.js");
 
 // ── Logging ─────────────────────────────────────────────────────────
 function log(message) {
@@ -114,13 +115,20 @@ async function liveAnswer(questionText) {
 // Exported and testable. `provider` lets tests inject a fake fetcher.
 async function orchestrate(
   questionId,
-  { mock = false, provider = null, persist = true } = {}
+  {
+    mock = false,
+    provider = null,
+    persist = true,
+    ensemble = false,
+    apiCall = null,
+  } = {}
 ) {
   if (!questionId || !/^q\d+$/.test(questionId)) {
     throw new Error(`Invalid --question-id "${questionId}" (expected qNNN).`);
   }
 
-  log(`START refresh ${questionId} (mode=${mock ? "mock" : "live"})`);
+  const mode = `${mock ? "mock" : "live"}${ensemble ? "+ensemble" : ""}`;
+  log(`START refresh ${questionId} (mode=${mode})`);
 
   // 1. Confirm the question exists and is active in the registry.
   const registry = readJSON(PATHS.registry, null);
@@ -139,23 +147,7 @@ async function orchestrate(
     throw new Error(`Question ${questionId} is deprecated; refusing to refresh.`);
   }
 
-  // 2. Fetch a fresh answer.
-  let fresh;
-  if (provider) {
-    fresh = await provider(questionId, regEntry.question);
-  } else if (mock) {
-    fresh = mockAnswer(questionId, regEntry.question);
-  } else {
-    fresh = await liveAnswer(regEntry.question);
-  }
-  if (!fresh || !fresh.text) {
-    log(`FAIL ${questionId}: provider returned no text`);
-    throw new Error("Answer provider returned no text.");
-  }
-  log(`FETCHED ${questionId}: ${fresh.text.length} chars, ` +
-      `${(fresh.sources || []).length} source(s) via ${fresh.model || "?"}`);
-
-  // 3. Determine the next global edition number from the ledger.
+  // 2. Determine the next global edition number from the ledger.
   const ledger = readJSON(PATHS.ledger, { editions: [] });
   const maxEdition = ledger.editions.reduce(
     (m, e) => Math.max(m, e.edition_number || 0),
@@ -163,15 +155,9 @@ async function orchestrate(
   );
   const newEdition = maxEdition + 1;
 
-  // 4. Build the new claim and merge into the claim file.
   const claimFilePath = path.join(PATHS.claimsDir, `${questionId}.json`);
   const existing = readJSON(claimFilePath, null);
-
   const day = today();
-  const sources = (fresh.sources || []).map((s) => {
-    const { type, credibility } = classifySource(s.url);
-    return { url: s.url, title: s.title || s.url, type, retrieved: day, credibility };
-  });
 
   const claimFile = existing || {
     question_id: questionId,
@@ -182,32 +168,104 @@ async function orchestrate(
     disputed_aspects: [],
   };
 
-  const nextClaimNum = claimFile.claims.length + 1;
-  const newClaim = {
-    claim_id: `${questionId}-c${String(nextClaimNum).padStart(2, "0")}`,
-    text: fresh.text,
-    reliability: "established",
-    sources,
-    perspectives: [],
-    last_verified: day,
-    added_edition: newEdition,
-  };
+  let newClaims;
 
-  claimFile.claims.push(newClaim);
+  if (ensemble) {
+    // ── Multi-agent path: Research → Verification → Synthesis ────────
+    const result = await runEnsemble({
+      questionId,
+      mock,
+      edition: newEdition,
+      apiCall,
+      registryData: registry,
+    });
+    const synthesized = result.claimFile;
+    if (!synthesized.claims.length) {
+      log(`FAIL ${questionId}: ensemble produced no verified claims`);
+      throw new Error("Ensemble produced no verified claims.");
+    }
+    // Renumber synthesized claims to continue after existing ones so ids
+    // never collide within the claim file.
+    const offset = claimFile.claims.length;
+    newClaims = synthesized.claims.map((c, i) => ({
+      ...c,
+      claim_id: `${questionId}-c${String(offset + i + 1).padStart(2, "0")}`,
+    }));
+    claimFile.claims.push(...newClaims);
+    claimFile.answer_summary = synthesized.answer_summary;
+    // Merge disputed aspects (dedupe by source_url).
+    const seen = new Set(
+      (claimFile.disputed_aspects || []).map((d) => d.source_url)
+    );
+    for (const d of synthesized.disputed_aspects) {
+      if (!seen.has(d.source_url)) {
+        claimFile.disputed_aspects.push(d);
+        seen.add(d.source_url);
+      }
+    }
+    log(
+      `FETCHED ${questionId} via ensemble: ${newClaims.length} claim(s), ` +
+        `${synthesized.disputed_aspects.length} disputed`
+    );
+  } else {
+    // ── Single-shot path (default, unchanged) ────────────────────────
+    let fresh;
+    if (provider) {
+      fresh = await provider(questionId, regEntry.question);
+    } else if (mock) {
+      fresh = mockAnswer(questionId, regEntry.question);
+    } else {
+      fresh = await liveAnswer(regEntry.question);
+    }
+    if (!fresh || !fresh.text) {
+      log(`FAIL ${questionId}: provider returned no text`);
+      throw new Error("Answer provider returned no text.");
+    }
+    log(
+      `FETCHED ${questionId}: ${fresh.text.length} chars, ` +
+        `${(fresh.sources || []).length} source(s) via ${fresh.model || "?"}`
+    );
+
+    const sources = (fresh.sources || []).map((s) => {
+      const { type, credibility } = classifySource(s.url);
+      return {
+        url: s.url,
+        title: s.title || s.url,
+        type,
+        retrieved: day,
+        credibility,
+      };
+    });
+
+    const nextClaimNum = claimFile.claims.length + 1;
+    const newClaim = {
+      claim_id: `${questionId}-c${String(nextClaimNum).padStart(2, "0")}`,
+      text: fresh.text,
+      reliability: "established",
+      sources,
+      perspectives: [],
+      last_verified: day,
+      added_edition: newEdition,
+    };
+    claimFile.claims.push(newClaim);
+    claimFile.answer_summary = summarise(fresh.text);
+    newClaims = [newClaim];
+  }
+
   claimFile.current_edition = newEdition;
   claimFile.question_text = regEntry.question;
-  claimFile.answer_summary = summarise(fresh.text);
 
   // 5. Append the immutable ledger entry.
   const wasNew = !existing;
+  const authorBase = ensemble ? "ensemble" : "orchestrator";
   ledger.editions.push({
     edition_number: newEdition,
     created_at: nowISO(),
-    description: `Refreshed ${questionId} via ${mock ? "mock" : "orchestrator"}.`,
+    description: `Refreshed ${questionId} via ${mock ? "mock " : ""}${authorBase}.`,
     questions_updated: wasNew ? [] : [questionId],
     questions_added: wasNew ? [questionId] : [],
     questions_deprecated: [],
-    author: mock ? "orchestrator(mock)" : "orchestrator",
+    author: mock ? `${authorBase}(mock)` : authorBase,
   });
 
   // 6. If this question was only "proposed", promote it to active.
@@ -222,10 +280,18 @@ async function orchestrate(
     writeJSON(PATHS.registry, registry);
   }
 
+  const primaryClaim = newClaims[newClaims.length - 1];
   log(`DONE ${questionId}: wrote edition ${newEdition}, ` +
-      `claim ${newClaim.claim_id}`);
+      `${newClaims.length} claim(s), last ${primaryClaim.claim_id}`);
 
-  return { questionId, edition: newEdition, claim: newClaim, claimFile, ledger };
+  return {
+    questionId,
+    edition: newEdition,
+    claim: primaryClaim,
+    claims: newClaims,
+    claimFile,
+    ledger,
+  };
 }
 
 // ── CLI entry point ─────────────────────────────────────────────────
@@ -233,12 +299,13 @@ if (require.main === module) {
   const args = parseArgs(process.argv.slice(2));
   const questionId = args["question-id"];
   const mock = Boolean(args.mock);
+  const ensemble = Boolean(args.ensemble);
 
-  orchestrate(questionId, { mock })
+  orchestrate(questionId, { mock, ensemble })
     .then((r) => {
       console.log(`✓ Refreshed ${r.questionId}`);
       console.log(`  edition : ${r.edition}`);
-      console.log(`  claim   : ${r.claim.claim_id}`);
+      console.log(`  claims  : ${r.claims.length} (last ${r.claim.claim_id})`);
       console.log(`  sources : ${r.claim.sources.length}`);
       console.log(`  log     : ${path.relative(PATHS.root, PATHS.orchestrationLog)}`);
     })
