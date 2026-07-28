@@ -4,6 +4,10 @@
   "private": true,
   "scripts": {
     "update": "node scripts/update.js",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "migrate": "node scripts/migrate.js",
+    "propose": "node scripts/propose-question.js",
+    "orchestrate": "node scripts/orchestrate.js",
+    "test": "node --test tests/*.test.js"
   }
 }
