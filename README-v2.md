@@ -364,3 +364,62 @@ The legacy and v2 build systems coexist on `feature/living-book-v2`:
 - `npm run build:v2` — v2 path (reads `data/` and `editions/`).
 
 When this branch is merged to `main`, the GitHub Pages workflow can switch from `build.js` to `build-v2.js`, and the v2 data becomes the single source of truth for the published site. Until then, both work independently.
+
+
+
+---
+
+# Phase 4 — Back Office (admin control panel)
+
+A dependency-free web dashboard for operating every change and action from one
+place, instead of remembering CLI flags.
+
+## Run it
+
+```bash
+npm run backoffice          # starts on http://localhost:3000
+PORT=4000 npm run backoffice  # custom port
+```
+
+Then open the printed URL. To enable live AI refreshes, export your key before
+starting the server:
+
+```bash
+export ABACUS_API_KEY=your_key_here
+npm run backoffice
+```
+
+## What it does
+
+| Tab | Capability |
+|-----|-----------|
+| **Dashboard** | Live totals (questions, answered, proposed, editions, claim nodes, relationships, contradictions, disputed). Quick actions: run consistency check, build site. |
+| **Questions** | Searchable/filterable table of all 100+ questions. Click a row to see the rendered claim, sources and disputed aspects. "Refresh" opens a dialog to regenerate the answer. |
+| **Propose** | Add a new question (question / chapter / rationale). Enters the registry with status `proposed`. |
+| **Refresh dialog** | Choose pipeline (**Single-shot** or **Multi-agent ensemble**) and mode (**Mock** offline or **Live AI**). Live mode is disabled automatically when no API key is set. |
+| **Editions** | The immutable, append-only edition ledger. |
+| **Consistency** | Consistency-graph stats and any contradictions; re-run on demand. |
+| **Logs** | Tail of `logs/orchestration.log`. |
+
+## How it is built
+
+- `scripts/server.js` — Node built-in `http` server. No frameworks, no new
+  dependencies. It requires the existing script modules
+  (`orchestrate`, `propose-question`, `consistency-check`, `render-claim`)
+  and exposes them as a small JSON API:
+  - `GET /api/status`, `GET /api/questions[/:id]`, `GET /api/editions`,
+    `GET /api/graph`, `GET /api/logs`
+  - `POST /api/propose`, `POST /api/refresh`, `POST /api/consistency`,
+    `POST /api/build`
+- `admin/` — static single-page front end (`index.html`, `styles.css`,
+  `app.js`). Served by the same server.
+
+## Safety
+
+- Reuses the exact same functions as the CLI — the dashboard cannot do
+  anything the scripts don't already do.
+- Live mode requires `ABACUS_API_KEY` **on the server**; the key is never sent
+  to the browser or written to disk.
+- Path-traversal protection on static file serving; request bodies capped.
+- `tests/server.test.js` covers the data-assembly helpers and the read-only
+  HTTP endpoints (56 tests total, all passing; no network, no data writes).

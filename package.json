@@ -12,6 +12,8 @@
     "ensemble": "node scripts/orchestrate.js --ensemble",
     "consistency": "node scripts/consistency-check.js",
     "consistency:check": "node scripts/consistency-check.js --check",
+    "backoffice": "node scripts/server.js",
+    "serve": "node scripts/server.js",
     "test": "node --test tests/*.test.js"
   }
 }
