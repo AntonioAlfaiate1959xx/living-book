@@ -319,3 +319,48 @@ Total: **41 tests passing** (19 from Phase 1 + 22 new).
 - `main`, the legacy `docs/` site, and all migrated `data/` / `editions/`
   files are untouched by Phase 2.
 - Automated refreshes open a PR for review; they never merge or deploy.
+
+---
+
+# Phase 3 — Publishing Bridge: v2 Data → GitHub Pages
+
+Phase 3 completes the circle: the v2 data structures (claim files, registry, ledger) now **feed directly into the published GitHub Pages site**. The legacy `build.js` remains untouched on `main`, while the v2 build produces an identical output format from the new data.
+
+## 1. Claim-to-HTML rendering (`scripts/render-claim.js`)
+
+Converts a schema-valid claim file into a reader-facing HTML section:
+- **Answer summary** — the synthesized text from `answer_summary`.
+- **Sources** — all sources from all claims, deduplicated and sorted by credibility (high → medium → low), with visible credibility badges.
+- **Disputed aspects** — surfaced prominently in a yellow-highlighted `<details>` box so readers always see competing perspectives.
+- **Security** — all user-controlled content (question text, source titles, URLs) is HTML-escaped; only `http://` and `https://` URLs are allowed (others replaced with `#`).
+
+## 2. v2-aware build (`scripts/build-v2.js`)
+
+Generates `docs/index.html` from the v2 data:
+- Reads `data/question-registry.json` (instead of `questions/questions.json`).
+- Reads `data/claims/qNNN.json` (instead of `answers/qNNN.json`).
+- Reads `editions/ledger.json` (instead of `changelog/changelog.json`).
+- Groups questions by chapter, renders each with `renderClaim`, and appends the edition ledger as the appendix.
+- Output is a single-page HTML book **identical in structure** to the legacy build, preserving all GitHub Pages behavior.
+
+```bash
+npm run build:v2   # writes docs/index.html from v2 data
+```
+
+On the current migrated data, this produces **100 active questions across 12 chapters, Edition 1**.
+
+## 3. Tests (10 new, 51 total passing)
+
+Phase 3 adds:
+- `tests/render-claim.test.js` — HTML escaping, Markdown conversion, source deduplication, disputed-aspect surfacing.
+- `tests/build-v2.test.js` — end-to-end build validation, XSS prevention, schema conformance.
+
+All tests pass; no network, no credentials, no `docs/` writes during test runs.
+
+## 4. Migration path
+
+The legacy and v2 build systems coexist on `feature/living-book-v2`:
+- `npm run build` — legacy path (unchanged, reads `questions/` and `answers/`).
+- `npm run build:v2` — v2 path (reads `data/` and `editions/`).
+
+When this branch is merged to `main`, the GitHub Pages workflow can switch from `build.js` to `build-v2.js`, and the v2 data becomes the single source of truth for the published site. Until then, both work independently.
