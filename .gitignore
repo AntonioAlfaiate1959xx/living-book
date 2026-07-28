@@ -1,0 +1,6 @@
+# Runtime orchestration logs (folder is tracked via .gitkeep)
+logs/*.log
+node_modules/
+
+# Internal agent workspace file (never committed)
+.abacus.donotdelete

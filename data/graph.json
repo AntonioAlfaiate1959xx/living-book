@@ -1,0 +1,1873 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-07-28T20:16:21Z",
+  "node_count": 69,
+  "edge_count": 133,
+  "nodes": [
+    {
+      "claim_id": "q001-c01",
+      "question_id": "q001",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q002-c01",
+      "question_id": "q002",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q003-c01",
+      "question_id": "q003",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q004-c01",
+      "question_id": "q004",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q005-c01",
+      "question_id": "q005",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q006-c01",
+      "question_id": "q006",
+      "reliability": "established",
+      "source_count": 7
+    },
+    {
+      "claim_id": "q007-c01",
+      "question_id": "q007",
+      "reliability": "established",
+      "source_count": 8
+    },
+    {
+      "claim_id": "q008-c01",
+      "question_id": "q008",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q009-c01",
+      "question_id": "q009",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q010-c01",
+      "question_id": "q010",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q011-c01",
+      "question_id": "q011",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q012-c01",
+      "question_id": "q012",
+      "reliability": "established",
+      "source_count": 12
+    },
+    {
+      "claim_id": "q013-c01",
+      "question_id": "q013",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q014-c01",
+      "question_id": "q014",
+      "reliability": "established",
+      "source_count": 15
+    },
+    {
+      "claim_id": "q015-c01",
+      "question_id": "q015",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q016-c01",
+      "question_id": "q016",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q017-c01",
+      "question_id": "q017",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q018-c01",
+      "question_id": "q018",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q019-c01",
+      "question_id": "q019",
+      "reliability": "established",
+      "source_count": 8
+    },
+    {
+      "claim_id": "q020-c01",
+      "question_id": "q020",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q021-c01",
+      "question_id": "q021",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q022-c01",
+      "question_id": "q022",
+      "reliability": "established",
+      "source_count": 7
+    },
+    {
+      "claim_id": "q023-c01",
+      "question_id": "q023",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q024-c01",
+      "question_id": "q024",
+      "reliability": "established",
+      "source_count": 12
+    },
+    {
+      "claim_id": "q025-c01",
+      "question_id": "q025",
+      "reliability": "established",
+      "source_count": 7
+    },
+    {
+      "claim_id": "q026-c01",
+      "question_id": "q026",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q027-c01",
+      "question_id": "q027",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q028-c01",
+      "question_id": "q028",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q029-c01",
+      "question_id": "q029",
+      "reliability": "established",
+      "source_count": 7
+    },
+    {
+      "claim_id": "q030-c01",
+      "question_id": "q030",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q031-c01",
+      "question_id": "q031",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q032-c01",
+      "question_id": "q032",
+      "reliability": "established",
+      "source_count": 12
+    },
+    {
+      "claim_id": "q033-c01",
+      "question_id": "q033",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q034-c01",
+      "question_id": "q034",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q035-c01",
+      "question_id": "q035",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q036-c01",
+      "question_id": "q036",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q037-c01",
+      "question_id": "q037",
+      "reliability": "established",
+      "source_count": 14
+    },
+    {
+      "claim_id": "q038-c01",
+      "question_id": "q038",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q039-c01",
+      "question_id": "q039",
+      "reliability": "established",
+      "source_count": 8
+    },
+    {
+      "claim_id": "q040-c01",
+      "question_id": "q040",
+      "reliability": "established",
+      "source_count": 13
+    },
+    {
+      "claim_id": "q041-c01",
+      "question_id": "q041",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q042-c01",
+      "question_id": "q042",
+      "reliability": "established",
+      "source_count": 8
+    },
+    {
+      "claim_id": "q043-c01",
+      "question_id": "q043",
+      "reliability": "established",
+      "source_count": 12
+    },
+    {
+      "claim_id": "q044-c01",
+      "question_id": "q044",
+      "reliability": "established",
+      "source_count": 14
+    },
+    {
+      "claim_id": "q045-c01",
+      "question_id": "q045",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q046-c01",
+      "question_id": "q046",
+      "reliability": "established",
+      "source_count": 12
+    },
+    {
+      "claim_id": "q047-c01",
+      "question_id": "q047",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q048-c01",
+      "question_id": "q048",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q049-c01",
+      "question_id": "q049",
+      "reliability": "established",
+      "source_count": 7
+    },
+    {
+      "claim_id": "q050-c01",
+      "question_id": "q050",
+      "reliability": "established",
+      "source_count": 10
+    },
+    {
+      "claim_id": "q051-c01",
+      "question_id": "q051",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q052-c01",
+      "question_id": "q052",
+      "reliability": "established",
+      "source_count": 7
+    },
+    {
+      "claim_id": "q053-c01",
+      "question_id": "q053",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q054-c01",
+      "question_id": "q054",
+      "reliability": "established",
+      "source_count": 9
+    },
+    {
+      "claim_id": "q055-c01",
+      "question_id": "q055",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q056-c01",
+      "question_id": "q056",
+      "reliability": "established",
+      "source_count": 8
+    },
+    {
+      "claim_id": "q057-c01",
+      "question_id": "q057",
+      "reliability": "established",
+      "source_count": 15
+    },
+    {
+      "claim_id": "q058-c01",
+      "question_id": "q058",
+      "reliability": "established",
+      "source_count": 12
+    },
+    {
+      "claim_id": "q059-c01",
+      "question_id": "q059",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q060-c01",
+      "question_id": "q060",
+      "reliability": "established",
+      "source_count": 8
+    },
+    {
+      "claim_id": "q061-c01",
+      "question_id": "q061",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q062-c01",
+      "question_id": "q062",
+      "reliability": "established",
+      "source_count": 11
+    },
+    {
+      "claim_id": "q063-c01",
+      "question_id": "q063",
+      "reliability": "established",
+      "source_count": 7
+    },
+    {
+      "claim_id": "q064-c01",
+      "question_id": "q064",
+      "reliability": "established",
+      "source_count": 13
+    },
+    {
+      "claim_id": "q065-c01",
+      "question_id": "q065",
+      "reliability": "established",
+      "source_count": 13
+    },
+    {
+      "claim_id": "q066-c01",
+      "question_id": "q066",
+      "reliability": "established",
+      "source_count": 13
+    },
+    {
+      "claim_id": "q067-c01",
+      "question_id": "q067",
+      "reliability": "established",
+      "source_count": 4
+    },
+    {
+      "claim_id": "q068-c01",
+      "question_id": "q068",
+      "reliability": "established",
+      "source_count": 14
+    },
+    {
+      "claim_id": "q069-c01",
+      "question_id": "q069",
+      "reliability": "established",
+      "source_count": 18
+    }
+  ],
+  "edges": [
+    {
+      "from": "q001-c01",
+      "to": "q004-c01",
+      "from_question": "q001",
+      "to_question": "q004",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-032-14721-9_11"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q001-c01",
+      "to": "q006-c01",
+      "from_question": "q001",
+      "to_question": "q006",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q001-c01",
+      "to": "q026-c01",
+      "from_question": "q001",
+      "to_question": "q026",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q001-c01",
+      "to": "q033-c01",
+      "from_question": "q001",
+      "to_question": "q033",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q001-c01",
+      "to": "q048-c01",
+      "from_question": "q001",
+      "to_question": "q048",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q001-c01",
+      "to": "q050-c01",
+      "from_question": "q001",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q001-c01",
+      "to": "q059-c01",
+      "from_question": "q001",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q001-c01",
+      "to": "q060-c01",
+      "from_question": "q001",
+      "to_question": "q060",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2605.12757"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q002-c01",
+      "to": "q007-c01",
+      "from_question": "q002",
+      "to_question": "q007",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202603/adults-lose-skills-to-ai-children-never-build-them"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q002-c01",
+      "to": "q008-c01",
+      "from_question": "q002",
+      "to_question": "q008",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036037/"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q002-c01",
+      "to": "q010-c01",
+      "from_question": "q002",
+      "to_question": "q010",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q002-c01",
+      "to": "q029-c01",
+      "from_question": "q002",
+      "to_question": "q029",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.mdpi.com/2075-4698/15/1/6"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q002-c01",
+      "to": "q037-c01",
+      "from_question": "q002",
+      "to_question": "q037",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.mdpi.com/2075-4698/15/1/6"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q002-c01",
+      "to": "q044-c01",
+      "from_question": "q002",
+      "to_question": "q044",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2602.21012"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q002-c01",
+      "to": "q050-c01",
+      "from_question": "q002",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2602.21012"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q002-c01",
+      "to": "q053-c01",
+      "from_question": "q002",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.mdpi.com/2075-4698/15/1/6",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036037/"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q003-c01",
+      "to": "q004-c01",
+      "from_question": "q003",
+      "to_question": "q004",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://plato.stanford.edu/entries/wisdom/"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q004-c01",
+      "to": "q005-c01",
+      "from_question": "q004",
+      "to_question": "q005",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q004-c01",
+      "to": "q034-c01",
+      "from_question": "q004",
+      "to_question": "q034",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q004-c01",
+      "to": "q039-c01",
+      "from_question": "q004",
+      "to_question": "q039",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q004-c01",
+      "to": "q049-c01",
+      "from_question": "q004",
+      "to_question": "q049",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q005-c01",
+      "to": "q034-c01",
+      "from_question": "q005",
+      "to_question": "q034",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q005-c01",
+      "to": "q039-c01",
+      "from_question": "q005",
+      "to_question": "q039",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q005-c01",
+      "to": "q049-c01",
+      "from_question": "q005",
+      "to_question": "q049",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q006-c01",
+      "to": "q026-c01",
+      "from_question": "q006",
+      "to_question": "q026",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q006-c01",
+      "to": "q033-c01",
+      "from_question": "q006",
+      "to_question": "q033",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q006-c01",
+      "to": "q048-c01",
+      "from_question": "q006",
+      "to_question": "q048",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q006-c01",
+      "to": "q050-c01",
+      "from_question": "q006",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0
+    },
+    {
+      "from": "q006-c01",
+      "to": "q059-c01",
+      "from_question": "q006",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q007-c01",
+      "to": "q021-c01",
+      "from_question": "q007",
+      "to_question": "q021",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2509.25266",
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q007-c01",
+      "to": "q029-c01",
+      "from_question": "q007",
+      "to_question": "q029",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q007-c01",
+      "to": "q031-c01",
+      "from_question": "q007",
+      "to_question": "q031",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2509.25266"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q007-c01",
+      "to": "q036-c01",
+      "from_question": "q007",
+      "to_question": "q036",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2509.25266"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q007-c01",
+      "to": "q044-c01",
+      "from_question": "q007",
+      "to_question": "q044",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q007-c01",
+      "to": "q065-c01",
+      "from_question": "q007",
+      "to_question": "q065",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q007-c01",
+      "to": "q068-c01",
+      "from_question": "q007",
+      "to_question": "q068",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0
+    },
+    {
+      "from": "q008-c01",
+      "to": "q034-c01",
+      "from_question": "q008",
+      "to_question": "q034",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.weforum.org/stories/2025/05/why-ai-literacy-is-now-a-core-competency-in-education/"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q008-c01",
+      "to": "q048-c01",
+      "from_question": "q008",
+      "to_question": "q048",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.22
+    },
+    {
+      "from": "q008-c01",
+      "to": "q053-c01",
+      "from_question": "q008",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036037/"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q009-c01",
+      "to": "q010-c01",
+      "from_question": "q009",
+      "to_question": "q010",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q009-c01",
+      "to": "q030-c01",
+      "from_question": "q009",
+      "to_question": "q030",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/html/2606.26181v1"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q009-c01",
+      "to": "q049-c01",
+      "from_question": "q009",
+      "to_question": "q049",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/html/2602.04598v1"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q009-c01",
+      "to": "q053-c01",
+      "from_question": "q009",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q009-c01",
+      "to": "q059-c01",
+      "from_question": "q009",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q009-c01",
+      "to": "q060-c01",
+      "from_question": "q009",
+      "to_question": "q060",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q010-c01",
+      "to": "q011-c01",
+      "from_question": "q010",
+      "to_question": "q011",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/org/science/article/pii/S1062737525000654"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q010-c01",
+      "to": "q016-c01",
+      "from_question": "q010",
+      "to_question": "q016",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/org/science/article/pii/S1062737525000654"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q010-c01",
+      "to": "q030-c01",
+      "from_question": "q010",
+      "to_question": "q030",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2451958826001764"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q010-c01",
+      "to": "q031-c01",
+      "from_question": "q010",
+      "to_question": "q031",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2605.21629"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q010-c01",
+      "to": "q033-c01",
+      "from_question": "q010",
+      "to_question": "q033",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1697554/full"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q010-c01",
+      "to": "q053-c01",
+      "from_question": "q010",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1697554/full",
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q010-c01",
+      "to": "q057-c01",
+      "from_question": "q010",
+      "to_question": "q057",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2605.21629"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q010-c01",
+      "to": "q059-c01",
+      "from_question": "q010",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.163
+    },
+    {
+      "from": "q010-c01",
+      "to": "q060-c01",
+      "from_question": "q010",
+      "to_question": "q060",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q011-c01",
+      "to": "q016-c01",
+      "from_question": "q011",
+      "to_question": "q016",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/org/science/article/pii/S1062737525000654"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q011-c01",
+      "to": "q017-c01",
+      "from_question": "q011",
+      "to_question": "q017",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q011-c01",
+      "to": "q020-c01",
+      "from_question": "q011",
+      "to_question": "q020",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1565938/full"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q012-c01",
+      "to": "q069-c01",
+      "from_question": "q012",
+      "to_question": "q069",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q013-c01",
+      "to": "q035-c01",
+      "from_question": "q013",
+      "to_question": "q035",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q013-c01",
+      "to": "q042-c01",
+      "from_question": "q013",
+      "to_question": "q042",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2606.18289"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q013-c01",
+      "to": "q050-c01",
+      "from_question": "q013",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2590291125008708"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q014-c01",
+      "to": "q035-c01",
+      "from_question": "q014",
+      "to_question": "q035",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/01425692.2025.2519482",
+        "https://www.tandfonline.com/doi/full/10.1080/17439884.2025.2595443"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q014-c01",
+      "to": "q043-c01",
+      "from_question": "q014",
+      "to_question": "q043",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1681836/full"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q014-c01",
+      "to": "q060-c01",
+      "from_question": "q014",
+      "to_question": "q060",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1759027/full"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q014-c01",
+      "to": "q063-c01",
+      "from_question": "q014",
+      "to_question": "q063",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1681836/full"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q015-c01",
+      "to": "q016-c01",
+      "from_question": "q015",
+      "to_question": "q016",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://link.springer.com/article/10.1007/s44436-025-00003-5"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q015-c01",
+      "to": "q018-c01",
+      "from_question": "q015",
+      "to_question": "q018",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1656736/full"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q017-c01",
+      "to": "q062-c01",
+      "from_question": "q017",
+      "to_question": "q062",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.eyesift.com/blog/academic-integrity-policy-ai/"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q017-c01",
+      "to": "q064-c01",
+      "from_question": "q017",
+      "to_question": "q064",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.22
+    },
+    {
+      "from": "q018-c01",
+      "to": "q020-c01",
+      "from_question": "q018",
+      "to_question": "q020",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.unesco.org/en/articles/ai-and-future-education-disruptions-dilemmas-and-directions-0"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q018-c01",
+      "to": "q041-c01",
+      "from_question": "q018",
+      "to_question": "q041",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+      ],
+      "keyword_overlap": 0
+    },
+    {
+      "from": "q018-c01",
+      "to": "q042-c01",
+      "from_question": "q018",
+      "to_question": "q042",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q018-c01",
+      "to": "q046-c01",
+      "from_question": "q018",
+      "to_question": "q046",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.unesco.org/en/articles/ai-and-future-education-disruptions-dilemmas-and-directions-0"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q018-c01",
+      "to": "q069-c01",
+      "from_question": "q018",
+      "to_question": "q069",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q020-c01",
+      "to": "q046-c01",
+      "from_question": "q020",
+      "to_question": "q046",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.unesco.org/en/articles/ai-and-future-education-disruptions-dilemmas-and-directions-0"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q021-c01",
+      "to": "q029-c01",
+      "from_question": "q021",
+      "to_question": "q029",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q021-c01",
+      "to": "q031-c01",
+      "from_question": "q021",
+      "to_question": "q031",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2509.25266"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q021-c01",
+      "to": "q036-c01",
+      "from_question": "q021",
+      "to_question": "q036",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2509.25266"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q021-c01",
+      "to": "q065-c01",
+      "from_question": "q021",
+      "to_question": "q065",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q021-c01",
+      "to": "q068-c01",
+      "from_question": "q021",
+      "to_question": "q068",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0
+    },
+    {
+      "from": "q022-c01",
+      "to": "q025-c01",
+      "from_question": "q022",
+      "to_question": "q025",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.06659"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q024-c01",
+      "to": "q025-c01",
+      "from_question": "q024",
+      "to_question": "q025",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q026-c01",
+      "to": "q033-c01",
+      "from_question": "q026",
+      "to_question": "q033",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q026-c01",
+      "to": "q048-c01",
+      "from_question": "q026",
+      "to_question": "q048",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q026-c01",
+      "to": "q050-c01",
+      "from_question": "q026",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q026-c01",
+      "to": "q059-c01",
+      "from_question": "q026",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.02
+    },
+    {
+      "from": "q026-c01",
+      "to": "q067-c01",
+      "from_question": "q026",
+      "to_question": "q067",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1651217/full"
+      ],
+      "keyword_overlap": 0.22
+    },
+    {
+      "from": "q027-c01",
+      "to": "q032-c01",
+      "from_question": "q027",
+      "to_question": "q032",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q027-c01",
+      "to": "q048-c01",
+      "from_question": "q027",
+      "to_question": "q048",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q028-c01",
+      "to": "q039-c01",
+      "from_question": "q028",
+      "to_question": "q039",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.thesify.ai/blog/teaching-with-ai-in-higher-education-2025"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q028-c01",
+      "to": "q064-c01",
+      "from_question": "q028",
+      "to_question": "q064",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.thesify.ai/blog/teaching-with-ai-in-higher-education-2025"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q029-c01",
+      "to": "q037-c01",
+      "from_question": "q029",
+      "to_question": "q037",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.mdpi.com/2075-4698/15/1/6"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q029-c01",
+      "to": "q053-c01",
+      "from_question": "q029",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.mdpi.com/2075-4698/15/1/6"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q029-c01",
+      "to": "q065-c01",
+      "from_question": "q029",
+      "to_question": "q065",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q029-c01",
+      "to": "q068-c01",
+      "from_question": "q029",
+      "to_question": "q068",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226"
+      ],
+      "keyword_overlap": 0
+    },
+    {
+      "from": "q030-c01",
+      "to": "q031-c01",
+      "from_question": "q030",
+      "to_question": "q031",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.uts.edu.au/news/2026/03/experts-warn-unstructured-ai-use-in-schools-risks-cognitive-atrophy/contentassets/ai-cognitive-offloading-and-implications-for-education.pdf"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q030-c01",
+      "to": "q053-c01",
+      "from_question": "q030",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/html/2510.16019v1",
+        "https://www.uts.edu.au/news/2026/03/experts-warn-unstructured-ai-use-in-schools-risks-cognitive-atrophy/contentassets/ai-cognitive-offloading-and-implications-for-education.pdf"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q031-c01",
+      "to": "q036-c01",
+      "from_question": "q031",
+      "to_question": "q036",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2509.25266"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q031-c01",
+      "to": "q053-c01",
+      "from_question": "q031",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.uts.edu.au/news/2026/03/experts-warn-unstructured-ai-use-in-schools-risks-cognitive-atrophy/contentassets/ai-cognitive-offloading-and-implications-for-education.pdf"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q031-c01",
+      "to": "q057-c01",
+      "from_question": "q031",
+      "to_question": "q057",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2605.21629"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q033-c01",
+      "to": "q048-c01",
+      "from_question": "q033",
+      "to_question": "q048",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q033-c01",
+      "to": "q050-c01",
+      "from_question": "q033",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.rand.org/pubs/research_reports/RRA4742-1.html",
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.163
+    },
+    {
+      "from": "q033-c01",
+      "to": "q053-c01",
+      "from_question": "q033",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1697554/full"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q033-c01",
+      "to": "q059-c01",
+      "from_question": "q033",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q034-c01",
+      "to": "q039-c01",
+      "from_question": "q034",
+      "to_question": "q039",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q034-c01",
+      "to": "q049-c01",
+      "from_question": "q034",
+      "to_question": "q049",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q035-c01",
+      "to": "q036-c01",
+      "from_question": "q035",
+      "to_question": "q036",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1738751/full"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q037-c01",
+      "to": "q053-c01",
+      "from_question": "q037",
+      "to_question": "q053",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.mdpi.com/2075-4698/15/1/6"
+      ],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q039-c01",
+      "to": "q049-c01",
+      "from_question": "q039",
+      "to_question": "q049",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q039-c01",
+      "to": "q064-c01",
+      "from_question": "q039",
+      "to_question": "q064",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.thesify.ai/blog/teaching-with-ai-in-higher-education-2025"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q041-c01",
+      "to": "q042-c01",
+      "from_question": "q041",
+      "to_question": "q042",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q041-c01",
+      "to": "q069-c01",
+      "from_question": "q041",
+      "to_question": "q069",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+      ],
+      "keyword_overlap": 0.19
+    },
+    {
+      "from": "q042-c01",
+      "to": "q050-c01",
+      "from_question": "q042",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.ecs.org/artificial-intelligence-ai-education-task-forces/"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q042-c01",
+      "to": "q069-c01",
+      "from_question": "q042",
+      "to_question": "q069",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.ecs.org/artificial-intelligence-ai-education-task-forces/",
+        "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q043-c01",
+      "to": "q061-c01",
+      "from_question": "q043",
+      "to_question": "q061",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2604.27708"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q043-c01",
+      "to": "q063-c01",
+      "from_question": "q043",
+      "to_question": "q063",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1681836/full"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q044-c01",
+      "to": "q050-c01",
+      "from_question": "q044",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2602.21012"
+      ],
+      "keyword_overlap": 0.163
+    },
+    {
+      "from": "q044-c01",
+      "to": "q060-c01",
+      "from_question": "q044",
+      "to_question": "q060",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.unesco.org/en/articles/ai-and-futures-education"
+      ],
+      "keyword_overlap": 0
+    },
+    {
+      "from": "q048-c01",
+      "to": "q049-c01",
+      "from_question": "q048",
+      "to_question": "q049",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://democrat-horizon.eu/how-ai-can-shape-education-for-democracy/"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q048-c01",
+      "to": "q050-c01",
+      "from_question": "q048",
+      "to_question": "q050",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.111
+    },
+    {
+      "from": "q048-c01",
+      "to": "q059-c01",
+      "from_question": "q048",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.22
+    },
+    {
+      "from": "q050-c01",
+      "to": "q057-c01",
+      "from_question": "q050",
+      "to_question": "q057",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0001691825010388"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q050-c01",
+      "to": "q059-c01",
+      "from_question": "q050",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2512.12306"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q050-c01",
+      "to": "q069-c01",
+      "from_question": "q050",
+      "to_question": "q069",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.ecs.org/artificial-intelligence-ai-education-task-forces/"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q051-c01",
+      "to": "q057-c01",
+      "from_question": "q051",
+      "to_question": "q057",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.brookings.edu/articles/what-the-research-shows-about-generative-ai-in-tutoring/"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q051-c01",
+      "to": "q059-c01",
+      "from_question": "q051",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.nature.com/articles/s41598-025-97652-6"
+      ],
+      "keyword_overlap": 0.22
+    },
+    {
+      "from": "q053-c01",
+      "to": "q059-c01",
+      "from_question": "q053",
+      "to_question": "q059",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.064
+    },
+    {
+      "from": "q053-c01",
+      "to": "q060-c01",
+      "from_question": "q053",
+      "to_question": "q060",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.087
+    },
+    {
+      "from": "q054-c01",
+      "to": "q057-c01",
+      "from_question": "q054",
+      "to_question": "q057",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://literacytrust.org.uk/research-services/research-reports/young-people-and-teachers-use-of-generative-ai-to-support-literacy-in-2025/"
+      ],
+      "keyword_overlap": 0.042
+    },
+    {
+      "from": "q054-c01",
+      "to": "q066-c01",
+      "from_question": "q054",
+      "to_question": "q066",
+      "relation": "topical",
+      "shared_sources": [],
+      "keyword_overlap": 0.22
+    },
+    {
+      "from": "q059-c01",
+      "to": "q060-c01",
+      "from_question": "q059",
+      "to_question": "q060",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://arxiv.org/pdf/2603.10025"
+      ],
+      "keyword_overlap": 0.163
+    },
+    {
+      "from": "q062-c01",
+      "to": "q064-c01",
+      "from_question": "q062",
+      "to_question": "q064",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.thesify.ai/blog/gen-ai-policies-update-2025"
+      ],
+      "keyword_overlap": 0.136
+    },
+    {
+      "from": "q065-c01",
+      "to": "q068-c01",
+      "from_question": "q065",
+      "to_question": "q068",
+      "relation": "shared-source",
+      "shared_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2666920X26000226",
+        "https://arxiv.org/pdf/2601.06066"
+      ],
+      "keyword_overlap": 0.064
+    }
+  ]
+}
