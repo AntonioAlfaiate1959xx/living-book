@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Living Book — Back Office</title>
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">📚</span>
+    <div>
+      <h1>Living Book — Back Office</h1>
+      <p class="subtitle">AI in Education · reliability-first control panel</p>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <span id="apiKeyBadge" class="badge badge-muted">API key: …</span>
+    <button id="refreshStatusBtn" class="btn btn-ghost" title="Reload status">↻</button>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-view="dashboard">Dashboard</button>
+  <button class="tab" data-view="questions">Questions</button>
+  <button class="tab" data-view="propose">Propose</button>
+  <button class="tab" data-view="editions">Editions</button>
+  <button class="tab" data-view="graph">Consistency</button>
+  <button class="tab" data-view="logs">Logs</button>
+</nav>
+
+<main id="app">
+  <!-- Views injected here -->
+</main>
+
+<!-- Toast notifications -->
+<div id="toast" class="toast hidden"></div>
+
+<!-- Question detail modal -->
+<div id="modal" class="modal hidden">
+  <div class="modal-card">
+    <div class="modal-head">
+      <h2 id="modalTitle">Question</h2>
+      <button id="modalClose" class="btn btn-ghost">✕</button>
+    </div>
+    <div id="modalBody" class="modal-body"></div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
