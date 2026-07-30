@@ -71,12 +71,35 @@ async function liveAnswer(questionText) {
   const endpoint = llmBase.replace(/\/$/, "") + "/chat/completions";
   const model = process.env.ABACUS_MODEL || "claude-sonnet-4-6";
 
-  const voicePrompt =
+  // Read the canonical voice prompt from book.config.json so the live
+  // API call always matches the book's editorial standard.
+  let configVoicePrompt =
     "Write in clear, elegant, essayistic prose for an educated general reader. " +
     "Be precise and intellectually honest: distinguish established fact from open debate. " +
     "Avoid hype, avoid bullet points, avoid AI-sounding filler phrases. " +
-    "Each answer should read as a self-contained short essay of 300-500 words. " +
-    "Never use first person. Cite sources with URLs where possible.";
+    "Each answer should read as a self-contained, comprehensive essay of 700-900 words. " +
+    "Never use first person.";
+  try {
+    const bookConfig = JSON.parse(
+      require("fs").readFileSync(
+        require("path").join(PATHS.root, "book.config.json"), "utf8"
+      )
+    );
+    if (bookConfig.voicePrompt) configVoicePrompt = bookConfig.voicePrompt;
+  } catch (_) { /* fall back to inline default */ }
+
+  const systemPrompt =
+    configVoicePrompt + "\n\n" +
+    "You are writing one section of a living reference book on AI in Education. " +
+    "Rules that override everything else:\n" +
+    "1. Write a thorough, substantive essay — aim for 700-900 words of real depth.\n" +
+    "2. Cover the full intellectual landscape: define key terms, explain the evidence, " +
+    "   acknowledge contested areas, and draw a clear conclusion.\n" +
+    "3. Every major factual claim should be grounded in real research or authoritative " +
+    "   sources. Where possible, cite sources by naming them and including URLs.\n" +
+    "4. If evidence is mixed or contested, say so plainly. Never manufacture certainty.\n" +
+    "5. Do not mention that you are an AI, do not address the reader directly, " +
+    "   and do not refer to these instructions.";
 
   const response = await fetch(endpoint, {
     method: "POST",
@@ -87,16 +110,17 @@ async function liveAnswer(questionText) {
     body: JSON.stringify({
       model,
       messages: [
-        { role: "system", content: voicePrompt },
+        { role: "system", content: systemPrompt },
         {
           role: "user",
           content:
-            "Provide an up-to-date, well-sourced answer to the following " +
-            "question about AI in education. Cite sources with URLs.\n\n" +
-            questionText,
+            "Write a comprehensive, well-sourced essay answering the following " +
+            "question for the AI in Education living book. The essay must be " +
+            "700-900 words, substantive, and intellectually rigorous.\n\n" +
+            "Question: " + questionText,
         },
       ],
-      max_tokens: 1024,
+      max_tokens: 3000,
     }),
   });
 

@@ -43,20 +43,23 @@ async function defaultApiCall(questionText) {
         {
           role: "system",
           content:
-            "You are a RESEARCH agent for an AI-in-Education reference book. " +
-            "Gather the most relevant, recent, well-sourced findings about the " +
-            "given question. Return several distinct findings, each supported by " +
-            "a real source URL and title. Do not editorialise or draw conclusions.",
+            "You are a RESEARCH agent for an AI-in-Education living reference book. " +
+            "Your job is to gather rich, substantive, well-sourced findings about the " +
+            "given question. Return at least 5 distinct findings, each with real depth — " +
+            "not one-line summaries. For each finding include a real source URL and title. " +
+            "Cover the full landscape: empirical studies, policy positions, practitioner " +
+            "perspectives, and contested areas. Do not editorialise or draw final conclusions.",
         },
         {
           role: "user",
           content:
-            "Gather well-sourced findings about the following question on " +
-            "AI in education. For each finding include a source URL.\n\n" +
+            "Gather comprehensive, well-sourced findings about the following question " +
+            "on AI in education. For each finding provide a substantive paragraph and " +
+            "a source URL. Aim for breadth and depth — cover multiple perspectives.\n\n" +
             questionText,
         },
       ],
-      max_tokens: 1024,
+      max_tokens: 3000,
     }),
   });
   if (!response.ok) {
