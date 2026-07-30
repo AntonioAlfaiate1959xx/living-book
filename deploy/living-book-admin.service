@@ -1,0 +1,16 @@
+[Unit]
+Description=Living Book v2 Back Office admin server
+After=network-online.target
+Wants=network-online.target
+RequiresMountsFor=/home/ubuntu
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/github_repos/living-book
+EnvironmentFile=/etc/living-book-admin.env
+ExecStart=/usr/bin/node scripts/server.js
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
