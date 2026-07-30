@@ -223,14 +223,13 @@ async function orchestrate(
       log(`FAIL ${questionId}: ensemble produced no verified claims`);
       throw new Error("Ensemble produced no verified claims.");
     }
-    // Renumber synthesized claims to continue after existing ones so ids
-    // never collide within the claim file.
-    const offset = claimFile.claims.length;
-    newClaims = synthesized.claims.map((c, i) => ({
+    // Ensemble refresh: REPLACE c01 with the newly synthesised essay.
+    // The synthesis agent already produces a single canonical c01 claim.
+    newClaims = synthesized.claims.map((c) => ({
       ...c,
-      claim_id: `${questionId}-c${String(offset + i + 1).padStart(2, "0")}`,
+      claim_id: `${questionId}-c01`,
     }));
-    claimFile.claims.push(...newClaims);
+    claimFile.claims = newClaims;           // replace, not append
     claimFile.answer_summary = synthesized.answer_summary;
     // Merge disputed aspects (dedupe by source_url).
     const seen = new Set(

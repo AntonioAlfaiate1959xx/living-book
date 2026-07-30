@@ -60,9 +60,10 @@ test("synthesis excludes unverified findings", async () => {
     edition: 1,
     mock: true,
   });
-  // Only the 2 verified findings should become claims.
-  assert.strictEqual(out.claims.length, 2);
-  assert.ok(!out.claims.some((c) => c.text.includes("must be excluded")));
+  // New architecture: all verified findings are synthesised into exactly ONE canonical c01 claim.
+  assert.strictEqual(out.claims.length, 1, "should produce exactly one synthesised claim");
+  // The unverified finding must not appear in the essay text.
+  assert.ok(!out.claims[0].text.includes("must be excluded"), "unverified finding must be excluded");
 });
 
 test("synthesis surfaces disputed findings under disputed_aspects", async () => {
@@ -87,9 +88,10 @@ test("synthesis surfaces disputed findings under disputed_aspects", async () => 
     edition: 2,
     mock: true,
   });
-  assert.strictEqual(out.disputed_aspects.length, 1);
-  assert.strictEqual(out.claims[0].reliability, "disputed");
-  assert.ok(out.claims[0].perspectives.length >= 1);
+  // Disputed findings appear in disputed_aspects; the consolidated essay has reliability "emerging".
+  assert.strictEqual(out.disputed_aspects.length, 1, "disputed finding must appear in disputed_aspects");
+  assert.strictEqual(out.claims.length, 1, "still exactly one synthesised claim");
+  assert.strictEqual(out.claims[0].reliability, "emerging", "disputed inputs make the claim 'emerging'");
 });
 
 test("claim ids are unique and well-formed", async () => {

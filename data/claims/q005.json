@@ -1,83 +1,62 @@
 {
   "question_id": "q005",
   "question_text": "How does the human relationship with truth change when answers are generated rather than discovered?",
-  "current_edition": 1,
+  "current_edition": 2,
   "claims": [
     {
       "claim_id": "q005-c01",
-      "text": "## Generated Truth: A New Epistemic Condition\n\nFor most of human history, truth was something one went to find — through observation, argument, experiment, or testimony from a witness who had themselves gone looking. The answer, when it arrived, carried a traceable lineage: here is the evidence, here is the method of reasoning, here is the person who stands behind the claim. What generative AI introduces is something categorically different: an answer that is assembled rather than retrieved, produced rather than possessed.\n\nThese systems operate not through deliberation, interpretation, or hermeneutic engagement but through probabilistic reasoning, pattern recognition, and anomaly detection — what might be called computational inference rather than human judgment. The architecture underlying large language models makes this especially stark. Popular LLMs such as ChatGPT and Gemini are text-generation engines designed to predict which string of words comes next in a piece of text, fine-tuned via reinforcement learning from human feedback to make their outputs more human-like, persuasive, and useful. The output is optimized for plausibility, not for accuracy in the classical sense — a distinction that cuts to the heart of the epistemic problem.\n\nThis creates a peculiar vulnerability in the human receiver. AI's fluency and confident tone align with cognitive preferences for easily processed content, and existing work shows that users form trust in AI based on fluency, tone, and perceived authority, often overlooking accuracy when corrections are absent. In other words, the psychological conditions for accepting a generated answer as true are largely decoupled from the conditions that would traditionally warrant that acceptance. Our vulnerability to treating LLMs as human-like truth tellers is uniquely worrying.\n\nThe consequences are not merely individual. Algorithmic truth is neither neutral nor universal; it is embedded with normative assumptions, data-driven biases, and institutional logic that carry profound implications for epistemic authority, public trust, and democratic discourse. When a system functions as an arbiter of credibility at scale, the errors it makes propagate differently than the errors of any individual expert. Recent 2025–2026 studies confirm that even advanced models like GPT-4o and Claude 3.7 still exhibit 15–20% hallucination rates on factual citation tasks, rising sharply on niche or recent topics — and in medical and legal domains, rates can exceed 28% without grounding.\n\nThe phenomenon of hallucination — in which a model produces information that seems authentic yet is ultimately fabricated — is not simply a technical bug awaiting a patch. As long as the core next-token prediction mechanism remains, hallucinations persist as an ongoing technical challenge and an epistemic risk. Philosophers and computer scientists have begun to argue that the goal must therefore shift: systems must be oriented towards epistemic integrity — a commitment to generating outputs that are not only plausible, but also verifiable, context-aware, justified, and appropriately uncertain — including modelling and communicating internal confidence levels, and recognising when to defer or abstain.\n\nYet there is a genuine and contested question about whether generated answers might, under the right conditions, actually extend human knowledge rather than merely simulate it. In several recent cases, AI systems have genuinely contributed to human knowledge, leveraging fast processing of big data and neural network pattern detection — including in biomedical research, especially drug discovery, and in astronomy and cosmology. By analyzing extensive scientific literature, LLMs can uncover gaps in existing knowledge and propose novel hypotheses that may not be immediately apparent to human researchers — and have been applied to propose drug combinations for breast cancer treatment, some of which were later validated in laboratory experiments.\n\nThis is the sharpest tension in the current moment. The same generative process that fabricates a nonexistent legal citation can, it seems, sketch a genuinely productive hypothesis. This signals a basic epistemological shift: from the collaborative construction of knowledge to a framework that privileges immediate, polished output. What changes, fundamentally, is not just where answers come from — but who bears the burden of verification, and whether that burden, quietly and incrementally, is being laid down.",
-      "reliability": "established",
+      "text": "## Generated Truth: How AI Answers Reshape the Human Relationship with Knowledge\n\nThere is an old distinction in philosophy between knowing and merely having information, and it has rarely mattered more than now. When a person works through a problem — consulting sources, weighing evidence, revising hypotheses — the resulting belief carries with it a kind of epistemic ownership. The knower understands not just the answer but something of its provenance and its limits. When an answer is instead generated and delivered, that relationship changes in ways that are subtle, consequential, and only beginning to be well understood.\n\nThe most robustly documented change is what researchers call automation bias. Parasuraman and Manzey's landmark 2010 review in *Human Factors* established that when systems generate answers, users systematically reduce their own verification effort. This is not mere laziness; it reflects a rational-seeming heuristic — automated systems are often more reliable than unaided human judgment, so deferring to them is frequently correct. The problem is that the heuristic operates even when it should not. Users accept generated outputs with diminished scrutiny, treating the act of receiving an answer as functionally equivalent to the act of establishing its truth. The shift is from knowing to having: one possesses a claim without having done the epistemic work that would ordinarily justify confidence in it.\n\nThis matters especially in educational contexts, where the process of discovery is not merely instrumental but constitutive of learning. When a student searches for an answer — reading, comparing, discarding false leads — the struggle itself builds the cognitive structures that make knowledge durable and transferable. A generated answer short-circuits that process. The student may hold a correct belief without understanding why it is correct, which is a philosophically and practically different condition. Whether this represents a genuine impoverishment or simply a new division of cognitive labour is a genuinely contested question, but the concern is grounded in well-established research on how understanding is formed.\n\nThe issue deepens when one considers the nature of large language model outputs specifically. These systems do not retrieve stored facts; they generate statistically plausible text. The result is a peculiar epistemic object — fluent, confident, and structurally indistinguishable from authoritative prose, yet produced by a process that has no intrinsic commitment to accuracy. Researchers have documented the phenomenon of \"hallucination,\" in which models produce false claims with the same surface assurance as true ones. For a reader already primed by automation bias to reduce verification effort, this is a compounding hazard. The very fluency that makes generated text useful also makes it harder to treat with appropriate suspicion.\n\nThere is a further, more philosophical dimension to the shift. Discovery, in the traditional sense, involves an encounter with resistance — with evidence that pushes back, with sources that contradict one another, with problems that refuse easy resolution. This resistance is epistemically productive: it is what forces the revision of beliefs and the development of judgment. Generated answers, by contrast, are designed to be smooth and satisfying. They resolve rather than complicate. Whether this smoothness systematically distorts the user's sense of how difficult or contested a question actually is remains an open empirical question, but there are reasonable grounds for concern. A student who receives a confident generated summary of a genuinely disputed historical or scientific question may come away with a false sense of closure.\n\nNone of this implies that generated answers are simply harmful. There are well-documented cases in which access to rapid, accurate information accelerates learning, reduces cognitive overload, and allows attention to be directed toward higher-order reasoning rather than routine retrieval. The question is not whether generation is good or bad but how it changes the epistemic situation — and what compensating practices might be needed. Some researchers argue that the critical variable is metacognitive awareness: users who understand that generated answers require verification, and who have been trained to apply that understanding, may be able to capture the benefits of generation while mitigating its risks. This is plausible but not yet well evidenced at scale.\n\nWhat is clear is that the widespread availability of generated answers represents a genuine shift in the conditions under which people form beliefs. The traditional model of inquiry — in which truth is something one works toward, through effort and resistance — is being supplemented, and in some contexts replaced, by a model in which truth is something one receives. The difference is not merely procedural. It touches on what it means to understand something, on the relationship between effort and epistemic warrant, and on the habits of mind that sustain a culture capable of distinguishing reliable knowledge from plausible-sounding text. These are not new philosophical concerns, but they have acquired a new urgency.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://link.springer.com/article/10.1007/s00146-025-02560-y",
-          "title": "Automating epistemology: how AI reconfigures truth, authority, and verification | AI & SOCIETY | Springer Nature Link",
+          "url": "https://journals.sagepub.com/doi/10.1177/0018720810376055",
+          "title": "https://journals.sagepub.com/doi/10.1177/0018720810376055",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11303832/",
-          "title": "Do large language models have a legal duty to tell the truth? - PMC",
+          "url": "https://www.cureus.com/articles/138667-artificial-hallucinations-in-chatgpt-implications-in-scientific-writing",
+          "title": "https://www.cureus.com/articles/138667-artificial-hallucinations-in-chatgpt-implications-in-scientific-writing",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s00146-022-01429-4",
+          "title": "https://link.springer.com/article/10.1007/s00146-022-01429-4",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://misinforeview.hks.harvard.edu/article/new-sources-of-inaccuracy-a-conceptual-framework-for-studying-ai-hallucinations/",
-          "title": "New sources of inaccuracy? A conceptual framework for studying AI hallucinations | HKS Misinformation Review",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/abs/pii/S221462962600191X",
-          "title": "Hallucinations in generative AI: A threat to scholarly integrity and the urgent need for publisher-led academically supervised verification - ScienceDirect",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0160791X26000758",
-          "title": "The trust crisis in artificial intelligence: AI hallucinations and human-AI collaboration - ScienceDirect",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2509.13345",
-          "title": "Beyond Accuracy: Rethinking Hallucination and Regulatory Response in Generative AI",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12271224/",
-          "title": "Epistemic responsibility: toward a community standard for human-AI collaborations - PMC",
-          "type": "official",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.14599",
-          "title": "Toward Reliable Scientific Hypothesis Generation: Evaluating Truthfulness and Hallucination in Large Language Models",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full",
-          "title": "Frontiers | Epistemic authority and generative AI in learning spaces: rethinking knowledge in the algorithmic age",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
+          "url": "https://www.mdpi.com/2076-0760/13/1/6",
+          "title": "https://www.mdpi.com/2076-0760/13/1/6",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 2
     }
   ],
-  "answer_summary": "For most of human history, truth was something one went to find — through observation, argument, experiment, or testimony from a witness who had themselves gone looking. The answer, when it arrived, carried a traceable lineage: here is the evidence, here is the method of reasoning, here is the person who stands behind the claim.",
+  "answer_summary": "There is an old distinction in philosophy between knowing and merely having information, and it has rarely mattered more than now. When a person works through a problem — consulting sources, weighing evidence, revising hypotheses — the resulting belief carries with it a kind of epistemic ownership. The knower understands not just the answer but something of its provenance and its limits.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

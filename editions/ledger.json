@@ -78,6 +78,17 @@
       ],
       "questions_deprecated": [],
       "author": "migration-script"
+    },
+    {
+      "edition_number": 2,
+      "created_at": "2026-07-30T02:05:36Z",
+      "description": "Refreshed q005 via ensemble.",
+      "questions_updated": [
+        "q005"
+      ],
+      "questions_added": [],
+      "questions_deprecated": [],
+      "author": "ensemble"
     }
   ]
 }
