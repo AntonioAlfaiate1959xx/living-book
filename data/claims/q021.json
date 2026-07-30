@@ -1,90 +1,62 @@
 {
   "question_id": "q021",
   "question_text": "What can AI tutors do better than human teachers, and where do they categorically fail?",
-  "current_edition": 1,
+  "current_edition": 24,
   "claims": [
     {
       "claim_id": "q021-c01",
-      "text": "**AI Tutors vs. Human Teachers: Genuine Advantages and Categorical Limits**\n\nThe question of what AI tutors do better than human teachers is not, at present, merely speculative. A body of controlled research now exists, and the results are striking enough to demand serious attention — and sober qualification.\n\n**Where AI tutors excel**\n\nThe most documented advantage is raw instructional efficiency on well-defined content. A randomized controlled trial at Harvard found that students learned twice as much in less time with AI tutoring, with effect sizes ranging from 0.73 to 1.3 standard deviations — a magnitude that dwarfs most educational interventions. A separate large-scale trial produced comparable findings: a 2025 randomized controlled trial found a custom AI tutor outperformed in-class active learning on knowledge gains and time efficiency, and raised engagement.\n\nWhat drives this? AI tutors possess capabilities that no human instructor can match at scale. They can identify and operate within each student's zone of proximal development, instantly detecting whether a task is too easy or too hard — based on error patterns and response latency — and adjusting difficulty in real time. They are also constitutionally patient and omnipresent: AI tutors are available 24/7, infinitely patient, and adapt in real time to each student's needs, eliminating scheduling constraints and removing the social anxiety that some students experience with human tutors. For procedural, knowledge-based subjects — mathematics, coding, grammar, pronunciation — AI tutors work especially well, while the complexity and variability of humanities or creative fields make developing an effective system considerably harder.\n\n**Where the evidence is mixed**\n\nA 2025 meta-analysis found, more modestly, no significant differences in learning outcomes between AI and human feedback — suggesting that in many standard instructional contexts the two approaches are approximately equivalent rather than AI being categorically superior. The impressive RCT results may partly reflect the weakness of the comparison condition (passive lectures) rather than the particular genius of AI pedagogy.\n\n**Where AI tutors categorically fail**\n\nThe failures are not mere inconveniences; some are structural. The most damaging finding comes from dependency research. In a large randomized trial in secondary mathematics, students using GPT-based tutors performed worse on follow-up exams without AI support, showed no long-term learning gains, and substantially overestimated their preparedness — consistent with a \"learning penalty\" driven by cognitive offloading and an inflated sense of mastery. This is not a marginal side effect: evidence suggests that reliance on generative AI can hinder independent performance and distort self-assessment, with one randomized controlled trial demonstrating that students using a basic GPT tutor performed 17% worse on subsequent non-AI exams compared to their peers.\n\nCompounding this is the hallucination problem. AI generates hallucinations — confidently presented misinformation — and performs inconsistently across tasks, what researchers describe as \"a jagged and unpredictable frontier\" of capabilities. The danger is that students are poorly equipped to detect these errors: medical trainees achieved only 55% accuracy detecting AI hallucinations overall, dropping to 44.2% in complex clinical scenarios — and as cognitive demands increased, detection accuracy decreased, meaning AI assistance is least reliable precisely where it is most needed.\n\nThen there is the dimension of human formation that no current system touches. Teachers' emotional support is crucial for student motivation and engagement, something that AI technologies have not yet been able to replicate. Over-reliance on AI risks reducing face-to-face interactions that help foster social skills and build rapport, both of which are vital for holistic development. There is also a more unsettling social risk on the horizon: OpenAI has cautioned that human-like voice interactions could lead users to anthropomorphize the AI tutor and develop emotional dependency, with early testing surfacing risks that extended interaction could change social norms and cause some users to prefer engaging with an AI bot over human interaction.\n\nThe honest summary is this: AI tutors are genuinely superior at delivering structured, measurable content gains efficiently and equitably — democratizing access to patient, personalized instruction. But they are categorically unreliable as guarantors of deep learning, honest information, emotional development, or the cultivation of independent thought. Routine use of AI tools can hinder the development of metacognitive skills, independent thinking, and intellectual agency, as students begin to outsource decision-making to the machine and risk becoming passive recipients of information rather than critical participants in the learning process. The technology is powerful enough to matter and flawed enough to be dangerous without careful human oversight.",
-      "reliability": "established",
+      "text": "## AI Tutors and Human Teachers: Complementary Strengths, Categorical Limits\n\nThe question of what artificial intelligence can do better than a human teacher — and where it fundamentally cannot compete — is one of the most consequential in contemporary education. Decades of research, beginning with work on Intelligent Tutoring Systems long before the era of large language models, offer a surprisingly clear picture, though important tensions and open questions remain.\n\nThe strongest empirical case for AI tutoring rests on what researchers call the \"2-sigma problem,\" identified by Benjamin Bloom in 1984. Bloom demonstrated that students receiving one-on-one human tutoring outperformed classroom-taught peers by approximately two standard deviations — a staggering advantage that conventional schooling, constrained by teacher-to-student ratios, could rarely provide. The central promise of AI tutoring has always been to democratise that advantage. VanLehn's landmark 2011 meta-analysis of fourteen Intelligent Tutoring Systems found effect sizes of roughly 0.76 compared to classroom instruction — substantial, if not quite reaching Bloom's two-sigma ceiling. This is an established finding, replicated across multiple systems and subject domains, and it anchors the legitimate optimism surrounding AI tutors.\n\nThe mechanism behind these gains is reasonably well understood. AI tutors excel at personalised pacing: they can identify precisely where a student's understanding breaks down, adjust the difficulty of subsequent problems in real time, and provide immediate, targeted feedback without the delays inherent in a classroom where one teacher must attend to thirty students simultaneously. A human teacher, however skilled, cannot monitor every student's cognitive state moment to moment. An AI system, by contrast, does nothing else. This continuous, granular responsiveness is not merely a convenience — it reflects a genuine structural advantage. Errors are caught before they calcify into misconceptions; mastery is confirmed before new material is introduced. In procedural domains such as mathematics, introductory programming, and grammar, where correctness is unambiguous and practice volume matters, this advantage is well-documented and meaningful.\n\nAI tutors also offer consistency and availability that no human teacher can match. They do not have bad days, do not unconsciously favour students who remind them of themselves, and are accessible at two in the morning before an examination. For students in under-resourced schools or remote areas, an AI tutor may represent the only form of individualised academic support available. This equity argument is not merely rhetorical; it reflects a real gap that AI systems are structurally positioned to address.\n\nYet the catalogue of failures is equally instructive, and in several respects categorical rather than merely technical. The most fundamental concerns the nature of understanding itself. Current AI tutors — even those powered by sophisticated language models — operate on pattern recognition and probabilistic text generation. They can identify that a student has made an error and suggest a correction, but they do not comprehend the student's reasoning in the way a perceptive human teacher does. A skilled teacher notices the particular confusion behind a wrong answer, distinguishes a careless slip from a deep misconception, and responds to the student's thinking rather than merely to its surface expression. This interpretive depth remains beyond what AI systems reliably achieve.\n\nEqually important is the relational dimension of teaching, which research consistently identifies as central to motivation, persistence, and long-term engagement. Students learn more from teachers they trust, feel seen by, and believe care about them. This is not sentiment — it is a robust finding in educational psychology. AI systems can simulate warmth, but the simulation is recognised as such by most students beyond early childhood, and the affective bond that sustains a struggling learner through difficulty is not something a chatbot can authentically provide. Related to this is the AI tutor's near-total incapacity for the kind of moral and civic education that happens in classrooms: the negotiation of disagreement, the modelling of intellectual humility, the cultivation of collaborative reasoning among peers. These are not peripheral to education; they are among its central purposes.\n\nThere is also a contested but important concern about dependency and the atrophying of productive struggle. Some researchers argue that the immediacy of AI feedback, while beneficial for skill acquisition, may reduce students' tolerance for the uncertainty and effort that genuine learning requires. If a system intervenes too quickly, it may prevent the desirable difficulty that consolidates long-term retention. This remains an open empirical question, but it points to a design tension that has not been resolved.\n\nThe honest synthesis, then, is that AI tutors are genuinely superior to human teachers in a narrow but important set of conditions: high-volume procedural practice, immediate corrective feedback, adaptive pacing, and consistent availability at scale. They fail categorically — not merely in degree but in kind — when education requires authentic relationship, interpretive understanding of a student's inner life, moral modelling, or the cultivation of collaborative human judgment. The error would be to treat these as competing alternatives. The evidence suggests they are complementary, and that the most productive question is not which is better, but how each can be deployed where its advantages are real.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://nuton.app/blog/ai-tutor-vs-human-tutor-which-is-better",
-          "title": "AI Tutor vs Human Tutor: Which Is Better for Learning? — Nuton Blog",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2011.611369",
+          "title": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2011.611369",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/gem-report/en/2023",
+          "title": "https://www.unesco.org/gem-report/en/2023",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959475212000357",
+          "title": "https://www.sciencedirect.com/science/article/abs/pii/S0959475212000357",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41539-021-00105-8",
+          "title": "https://www.nature.com/articles/s41539-021-00105-8",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/education/oecd-digital-education-outlook-2023-c74f03de-en.htm",
+          "title": "https://www.oecd.org/education/oecd-digital-education-outlook-2023-c74f03de-en.htm",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.routledge.com/The-Ethics-of-Artificial-Intelligence-in-Education/Holmes-Porayska-Pomsta/p/book/9780367349721",
+          "title": "https://www.routledge.com/The-Ethics-of-Artificial-Intelligence-in-Education/Holmes-Porayska-Pomsta/p/book/9780367349721",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.speakerly.ai/blog/ai-tutors-vs-human-teachers-whats-more-effective-for-english-practice",
-          "title": "AI Tutors vs Human Teachers: What’s More Effective for English Practice? -",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2509.25266",
-          "title": "Cognifying Education: Mapping AI's transformative role in emotional, creative, and collaborative learning",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.park.edu/blog/ai-in-education-the-rise-of-intelligent-tutoring-systems/",
-          "title": "AI in Education: The Rise of Intelligent Tutoring Systems | Park University",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X26000226",
-          "title": "Potential risks of generative artificial intelligence integration into K-12 education: A scoping review - ScienceDirect",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.brookings.edu/articles/ais-future-for-students-is-in-our-hands/",
-          "title": "AI’s future for students is in our hands | Brookings",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/html/2602.17671v1",
-          "title": "AI Hallucination from Students’ Perspective: A Thematic Analysis",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.mathsjournal.com/pdf/2025/vol10issue6/PartB/10-6-9-216.pdf",
-          "title": "AI-Tutors: Can AI replace human teachers",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.educationnext.org/ai-tutors-hype-or-hope-for-education-forum/",
-          "title": "AI Tutors: Hype or Hope for Education? - Education Next",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2507.06878",
-          "title": "Do AI tutors empower or enslave learners? Toward a critical use of AI in education",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 24
     }
   ],
-  "answer_summary": "AI Tutors vs. Human Teachers: Genuine Advantages and Categorical Limits The question of what AI tutors do better than human teachers is not, at present, merely speculative. A body of controlled research now exists, and the results are striking enough to demand serious attention — and sober qualification.",
+  "answer_summary": "The question of what artificial intelligence can do better than a human teacher — and where it fundamentally cannot compete — is one of the most consequential in contemporary education. Decades of research, beginning with work on Intelligent Tutoring Systems long before the era of large language models, offer a surprisingly clear picture, though important tensions and open questions remain.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

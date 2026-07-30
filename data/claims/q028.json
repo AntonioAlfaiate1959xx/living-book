@@ -1,83 +1,62 @@
 {
   "question_id": "q028",
   "question_text": "How do we assess learning authentically when AI can complete any traditional assessment?",
-  "current_edition": 1,
+  "current_edition": 31,
   "claims": [
     {
       "claim_id": "q028-c01",
-      "text": "**Assessing Learning Authentically in the Age of AI**\n\nThe question of how to assess learning when AI can complete virtually any traditional assignment is, at its core, a question about what assessment was always supposed to do. The proliferation of AI in education provides a valuable opportunity to reconsider why students are being assessed, what is being evaluated, and how evidence of learning is gathered. What the generative AI moment has exposed is not a new vulnerability but an old one: a great deal of conventional assessment was measuring compliance with a task format rather than the presence of genuine understanding.\n\nThe scale of the problem is not in dispute. The rapid adoption of generative AI among university students is reshaping traditional assessment methods, with 40% of surveyed UK students agreeing that AI-generated content could achieve a good grade in their subject. Traditional assessments such as essays and take-home assignments are increasingly susceptible to AI-assisted plagiarism, necessitating a re-evaluation of assessment strategies. The instinctive institutional response — detection tools, prohibition, a return to invigilated paper exams — is understandable but limited. Attempts to block remote access to technology can often easily be bypassed by students, and attempts to use other technology to detect such behaviour are unlikely to be effective or sustainable.\n\nA more principled response begins with a distinction between what AI can produce and what it cannot perform. Authentic assessments differ from traditional tests by requiring students to apply their knowledge in practical, context-rich scenarios which reflect the complexities they will encounter in professional settings. No AI can attend a seminar and defend a position under cross-examination, conduct a supervised clinical consultation, or improvise in a live design critique. Oral examinations in higher education offer a comprehensive method of assessing student learning, and their advantage lies in their ability to evaluate a range of skills and competencies essential in today's rapidly evolving academic and professional landscapes — including depth of understanding and critical thinking in ways that written tests may not.\n\nOne of the more rigorous frameworks to emerge from this period is what has been called the \"Two-Lane\" model, developed at the University of Sydney and adopted by Australia's national quality agency. This validity-centred design recognises that different learning outcomes require different assessment approaches: foundational knowledge and skills that must be verified as genuinely human capability call for supervised environments such as proctored exams, oral presentations, or in-class demonstrations, while professional capabilities involving tool use call for assessments where AI engagement is transparent and the human contribution is measurable. The logic is honest: rather than pretending AI does not exist in professional life, the framework distinguishes between competencies that must be independently held and competencies that will, in practice, be AI-assisted.\n\nA parallel movement emphasises process over product. Universities increasingly cite \"authentic assessments (e.g., real-world tasks, projects), process-oriented assessments (e.g., portfolios), and assignments requiring higher-order thinking\" as the most frequently mentioned approaches for adapting to the disruption caused by generative AI. There has been a broader shift in the literature toward greater emphasis on learning processes rather than solely on final products, with portfolios, staged drafting, in-class checkpoints, and reflective journals increasingly promoted as ways to protect validity and foster genuine assessment for learning.\n\nYet caution is warranted about treating any single format as a solution. Portfolio-based assessment, frequently suggested as a forward-looking option, faces the concern that generative AI could also produce outlines, drafts, or reflective commentaries, undermining intended authenticity. While some research appears to support the role of authentic assessment in reducing academic misconduct, the evidence is unclear, and the likely success of this approach will depend heavily on how it is done in its particular context and conditions. Even oral examinations present equity issues: handwritten and oral exams are known to significantly disadvantage students with physical or mental disabilities.\n\nThe most intellectually honest position is that there is no single AI-proof assessment format — only a more deliberately designed ecology of assessments that collectively make learning visible. Leading researchers argue that assessment quality, not cheating prevention, should drive AI-era reforms. Rather than investing in AI detection tools, institutions should invest in redesigning assessments to ensure validity. The disruption, in this reading, is not a crisis to be managed but a long-overdue invitation to ask what it actually means to know something — and to design the conditions under which that knowledge must be shown, not merely produced.",
-      "reliability": "established",
+      "text": "## Assessing Learning Authentically When AI Can Complete Any Traditional Assessment\n\nThe emergence of large language models capable of producing polished essays, solving complex mathematical problems, and answering examination questions with apparent fluency has precipitated what assessment scholars are calling a \"validity crisis\" in higher education. Research from the University of Sydney's Centre for Educational Measurement and Assessment has identified the core problem with precision: standard written assignments, multiple-choice tests, and take-home examinations can no longer reliably distinguish between a student's own understanding and the output of a generative AI system. When an instrument cannot measure what it claims to measure, its validity collapses — and with it, the evidentiary basis for grades, credentials, and progression decisions.\n\nThe instinct to respond by detecting AI use has proven largely futile. Detection tools operate on probabilistic inference rather than certainty, producing both false positives that wrongly accuse students and false negatives that miss genuine misuse. More fundamentally, the detection arms race misframes the problem: the question is not how to catch students using AI, but how to design assessments that reveal genuine learning regardless of whether AI is available. This reframing, increasingly endorsed across the assessment literature, shifts attention from policing to design.\n\nThe most robust response emerging from research is a return to — and reinvention of — authentic assessment: tasks that require students to demonstrate understanding in ways that are situated, personal, and resistant to wholesale delegation. Oral examinations, long dismissed in many disciplines as impractical at scale, have attracted renewed scholarly interest precisely because they demand real-time reasoning that cannot be outsourced. When a student must explain their thinking, respond to unexpected follow-up questions, and defend a position under gentle interrogation, the examiner is observing cognition directly rather than inferring it from a text artifact. The limitation is resource intensity: oral assessment at scale requires significant staff time and introduces its own risks of inconsistency and bias, concerns that remain active in the literature.\n\nProcess-based assessment offers a complementary approach. Rather than evaluating only a finished product, educators assess the documented journey — annotated drafts, revision histories, reflective journals, and timestamped working notes. The logic is that AI can produce an endpoint but cannot fabricate a credible intellectual history of a specific student's evolving engagement with a problem. Research into portfolio-based models suggests that when students are asked to narrate their own learning trajectory and connect it to personal experience, the resulting evidence is both harder to simulate and more educationally meaningful. The tension here is that process documentation can itself be gamed by a sufficiently motivated student, and the additional burden on both students and assessors is non-trivial.\n\nA more structurally ambitious response involves redesigning tasks around what might be called \"AI-proof specificity\" — assessments anchored in local, personal, or ephemeral contexts that a general-purpose AI cannot access. A student asked to analyse a debate that occurred in their own seminar room last Tuesday, or to apply a theoretical framework to an artefact they brought from their own life, is working with material that lies outside any model's training data. Similarly, assessments that require integration of course-specific discussions, instructor feedback, and peer interactions create an evidentiary texture that is genuinely personal. This approach is promising but raises equity concerns: students with richer personal contexts, more confident self-disclosure, or greater access to varied experiences may be advantaged in ways that have nothing to do with disciplinary mastery.\n\nThere is also a more radical position gaining traction in some quarters: rather than treating AI as a threat to assessment, redesign assessment to include AI as a tool while evaluating the distinctly human contributions — critical judgment, ethical reasoning, creative direction, and the ability to interrogate and improve AI output. Under this model, the assessed competency shifts from information retrieval and text production toward what might be called \"epistemic agency\": knowing what to ask, recognising when an answer is wrong or incomplete, and taking responsibility for the quality of a final product. This is arguably closer to the skills graduates will actually need. The objection is that foundational knowledge still matters, and assessments that permit AI use from the outset may allow students to bypass the productive struggle through which deep understanding is built.\n\nWhat the evidence does not yet support is any single solution. The validity crisis is real, but the field is still in an early, exploratory phase. Oral examinations, process portfolios, contextually specific tasks, and AI-integrated assessments each address part of the problem while introducing new complications. What is clear is that the passive continuation of traditional assessment formats — essays submitted to a portal, unsupervised take-home tests — can no longer be defended as valid measures of individual learning. The challenge now is to build assessment systems that are simultaneously rigorous, equitable, scalable, and genuinely illuminating of what students know and can do.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://www.monash.edu/learning-teaching/teachhq/Teaching-practices/artificial-intelligence/ai-and-assessment",
-          "title": "AI and assessment - Learning and Teaching: Teach HQ",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.thesify.ai/blog/teaching-with-ai-in-higher-education-2025",
-          "title": "Teaching with AI in Higher Education (2025): Curriculum, Assessment, and Faculty Literacy",
+          "url": "https://ro.uow.edu.au/jutlp/vol20/iss2/07/",
+          "title": "https://ro.uow.edu.au/jutlp/vol20/iss2/07/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://link.springer.com/article/10.1007/s43681-025-00871-w",
-          "title": "Redefining student assessment in AI-infused learning environments: a systematic review of challenges and strategies for academic integrity | AI and Ethics | Springer Nature Link",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/02602938.2023.2197539",
+          "title": "https://www.tandfonline.com/doi/full/10.1080/02602938.2023.2197539",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1499495/full",
-          "title": "Frontiers | AI-resistant assessments in higher education: practical insights from faculty training workshops",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/13562517.2023.2193121",
+          "title": "https://www.tandfonline.com/doi/full/10.1080/13562517.2023.2193121",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://arxiv.org/pdf/2401.06160",
-          "title": "Future-proofing Education: A Prototype for Simulating Oral Examinations   Using Large Language Models",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "type": "official",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://learning.northeastern.edu/ai-assessment/",
-          "title": "Assessment in an AI-Ubiquitous World | Center for Advancing Teaching and Learning Through Research",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "url": "https://www.oecd.org/education/generative-ai-and-the-future-of-education-da2c9c35-en.htm",
+          "title": "https://www.oecd.org/education/generative-ai-and-the-future-of-education-da2c9c35-en.htm",
+          "type": "official",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1703130/full",
-          "title": "Frontiers | A framework for AI and vocational assessment in higher education",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/07294360.2023.2209670",
+          "title": "https://www.tandfonline.com/doi/full/10.1080/07294360.2023.2209670",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/pii/S1475158525001407",
-          "title": "Changing EAP assessment practices in the age of generative artificial intelligence: The case of Scottish higher education institutions - ScienceDirect",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://onlinelearning.london.ac.uk/2025/07/01/menu-of-tools-and-resources/",
-          "title": "Ensuring assessment survives AI: A menu of tools and resources - Online Education",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 31
     }
   ],
-  "answer_summary": "Assessing Learning Authentically in the Age of AI The question of how to assess learning when AI can complete virtually any traditional assignment is, at its core, a question about what assessment was always supposed to do.",
+  "answer_summary": "The emergence of large language models capable of producing polished essays, solving complex mathematical problems, and answering examination questions with apparent fluency has precipitated what assessment scholars are calling a \"validity crisis\" in higher education.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

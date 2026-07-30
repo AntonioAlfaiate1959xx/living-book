@@ -1,0 +1,61 @@
+{
+  "question_id": "q092",
+  "question_text": "What is known about the longitudinal effects of sustained AI use on learners, and how should long-term studies be designed and tracked?",
+  "current_edition": 95,
+  "claims": [
+    {
+      "claim_id": "q092-c01",
+      "text": "# Longitudinal Effects of Sustained AI Use on Learners\n\nThe most important thing currently known about the long-term effects of sustained AI use on learners is, frankly, how little is known. The empirical literature on AI in education is dominated by short-term, small-scale studies — most spanning only weeks or a single semester — that are structurally incapable of answering developmental questions. A systematic review published in *Computers & Education* (2023) by Zawacki-Richter and colleagues confirmed this pattern comprehensively, finding that very few studies track learners across multiple years or through significant educational transitions. This is not a minor methodological footnote; it represents a critical knowledge gap at the precise moment when AI tools are being adopted at scale across educational systems worldwide.\n\nThe gap matters because the questions that most urgently need answering are inherently longitudinal. Does sustained reliance on AI tutoring systems strengthen or erode a learner's capacity for independent problem-solving over time? Does early habituation to AI-generated feedback reshape how students seek and process criticism from human teachers? Do the measurable short-term gains in performance that many studies report — in mathematics, writing, and language acquisition — persist, compound, or dissolve once the AI scaffolding is removed? None of these questions can be answered by a semester-long randomised trial, however well designed.\n\nWhat the short-term literature does establish, with reasonable consistency, is that AI-assisted instruction tends to produce immediate improvements in specific, measurable outcomes: quiz scores, task completion rates, time-on-task, and certain dimensions of writing quality. Intelligent tutoring systems in mathematics, for instance, have shown reliable short-term gains across multiple studies. But short-term gains in controlled conditions are a poor proxy for durable learning, and the history of educational technology is littered with interventions that looked promising at six weeks and negligible at six months. The absence of longitudinal data means the field cannot yet distinguish between AI tools that genuinely accelerate learning trajectories and those that produce performance without understanding — a distinction that only time can reveal.\n\nThere are also emerging theoretical concerns, not yet well-supported empirically, about the effects of sustained AI use on cognitive habits. Researchers working in the tradition of cognitive load theory have raised the possibility that over-reliance on AI assistance during formative learning stages could reduce the productive struggle that consolidates long-term retention and transfer. This is a plausible hypothesis grounded in established learning science, but it remains largely untested in naturalistic AI-use contexts. Similarly, questions about motivational development — whether AI personalisation fosters intrinsic curiosity or gradually substitutes for it — are theoretically live but empirically open.\n\nThe design of future longitudinal studies is therefore not merely a technical question but a conceptual one. Researchers must first decide what counts as a meaningful outcome over multi-year timescales. Academic achievement measures are the obvious starting point, but they are insufficient on their own. Studies should track metacognitive development — learners' capacity to monitor, regulate, and evaluate their own thinking — since this is precisely the domain most likely to be affected, for better or worse, by sustained AI interaction. Self-efficacy beliefs, epistemic habits, and the ability to work productively without AI assistance are equally important constructs that require validated instruments and repeated measurement across time.\n\nMethodologically, the field needs cohort studies that follow learners from initial AI adoption through subsequent educational stages, with comparison groups that allow researchers to disentangle AI effects from the many other variables shaping development. Randomised designs become increasingly difficult to sustain over years, as attrition, contamination, and ethical concerns about withholding beneficial tools all compound. Quasi-experimental and observational designs with careful covariate adjustment will therefore play a central role, though they carry their own inferential limitations. Natural variation in AI adoption across schools and districts offers one promising source of quasi-experimental leverage.\n\nTracking should also be sensitive to heterogeneity. There is already evidence from short-term studies that AI tools affect different learners differently — by prior attainment, socioeconomic background, and learning disposition — and these differential effects may widen or narrow over time in ways that have significant equity implications. A longitudinal study that reports only average effects will miss the most important story.\n\nFinally, the pace of AI development itself poses a distinctive methodological challenge. A study that begins tracking learners using 2024-era AI tools may find, by the time it reports results, that the tools in use bear little resemblance to those being studied. This is not a reason to abandon longitudinal research — it is a reason to design studies that characterise AI exposure with sufficient granularity to remain interpretable as the technology evolves, and to build in flexibility for tracking tool characteristics alongside learner outcomes. The field is, in this respect, studying a moving target, and its methods must be honest about that condition.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
+          "title": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.rand.org/pubs/external_publications/EP50463.html",
+          "title": "https://www.rand.org/pubs/external_publications/EP50463.html",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41562-024-01953-1",
+          "title": "https://www.nature.com/articles/s41562-024-01953-1",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://edpolicy.stanford.edu/sites/default/files/scope-pub-science-of-learning-report.pdf",
+          "title": "https://edpolicy.stanford.edu/sites/default/files/scope-pub-science-of-learning-report.pdf",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.12917",
+          "title": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.12917",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 95
+    }
+  ],
+  "answer_summary": "The most important thing currently known about the long term effects of sustained AI use on learners is, frankly, how little is known. The empirical literature on AI in education is dominated by short term, small scale studies — most spanning only weeks or a single semester — that are structurally incapable of answering developmental questions.",
+  "disputed_aspects": []
+}

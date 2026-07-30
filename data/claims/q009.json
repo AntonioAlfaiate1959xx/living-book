@@ -1,90 +1,62 @@
 {
   "question_id": "q009",
   "question_text": "What happens to intellectual struggle, effort, and \"productive failure\" when friction can always be removed?",
-  "current_edition": 1,
+  "current_edition": 12,
   "claims": [
     {
       "claim_id": "q009-c01",
-      "text": "**The Friction That Teaches**\n\nThere is a well-established paradox at the heart of learning science: conditions that feel difficult in the moment tend to produce the most durable understanding, while conditions that feel easy tend to produce the least. The term \"desirable difficulties,\" coined by cognitive psychologist Robert Bjork, refers to strategies that introduce difficulties, engage learners actively, and may appear to impede performance but which, in reality, create more durable learning than the conditions that, superficially, make learning feel easy. The canonical examples — spacing study sessions, interleaving topics, testing oneself before one feels ready — share a common feature: they make the learner work. Research suggests that while difficult tasks might slow down learning initially, the long-term benefits are greater than with easy tasks. This is not a minor footnote in educational psychology. It is among the field's most robust findings, replicated across age groups, subjects, and cultures.\n\nThe related concept of \"productive failure,\" developed by Manu Kapur at ETH Zurich, sharpens the argument further. Productive failure is a learning design that entails creating conditions for learners to persist in generating and exploring representations and solution methods for solving complex, novel problems. The premise is that failing to solve a problem before being taught the canonical solution is not waste — it is preparation. Initial struggle and failure can activate prior knowledge and create fertile ground for subsequent learning, leading to deeper understanding and better retention of concepts. In a University of British Columbia study of first-year biology students, students first struggled to solve complex problems, which primed them to learn the expert solution via a series of interactive activities — and this approach led to significant benefits compared with more conventional instruction.\n\nWhat happens, then, when a tool exists that can dissolve this friction on demand? The evidence is increasingly worrying. In a quasi-experimental study of 151 first-year computer science students, substantial short-term gains were found in AI-assisted programming tasks, yet weak transfer to independent problem-solving contexts — suggesting that performance improvements do not necessarily translate into long-term learning. In writing contexts, students who relied extensively on AI-generated text exhibited a superficial understanding of their own submissions, often struggling to explain arguments, justify structural decisions, or recall specific claims within their essays. The irony is precise: the tool produces a better-looking output while the mind behind it grows less capable.\n\nPart of the mechanism is what researchers call the illusion of fluency. Cognitive struggle — mental effort that may feel uncomfortable — is essential for deep understanding, long-term retention, and transferable knowledge. Students often misinterpret effort as a sign of poor learning, a bias known as the illusion of fluency, which drives preference for low-effort, superficially satisfying activities. AI tools, by their design, reward exactly this preference. The speed, fluency, and authoritative tone of AI can normalize shortcut-seeking and reduce tolerance for cognitive effort, shifting learners from effortful sense-making toward passive consumption unless pedagogy enforces critique, justification, and desirable difficulties.\n\nThe broader concern is not merely academic performance but what one recent paper calls cognitive sovereignty. The durable, transferable competence a student earns through struggle is the individual ground of autonomous thought in an age of AI systems built to supply it on demand — and outsourced at the moment of learning, that ground erodes one effortless task at a time. There is also striking experimental evidence on the magnitude of the effect: an unguarded AI helper left high-school students roughly 17 percent worse on an unaided exam than peers with no tool at all, while the same model rebuilt to withhold answers erased the harm, and a well-engineered tutor roughly doubled learning.\n\nThe conclusion the research forces is not that AI assistance is inherently corrosive — it is that design determines everything. Pedagogically aligned AI — designed to manage cognitive load without eliminating struggle, to prompt reflection rather than deliver answers — can strengthen intellectual resilience rather than weaken it. The challenge for educators and designers is to resist the temptation of frictionless automation and instead design for productive struggle, agency, and reflection. Friction, in other words, is not a bug to be optimized away. For minds in the process of becoming, it is the substrate of growth itself.",
-      "reliability": "established",
+      "text": "## The Necessary Friction: Intellectual Struggle, Productive Failure, and the Risk of Frictionless Learning\n\nThere is a paradox at the heart of learning that educators have long understood intuitively and that research has now confirmed with some precision: difficulty is not the enemy of understanding but frequently its precondition. When artificial intelligence systems can dissolve that difficulty on demand, something important is placed at risk — though the nature and extent of that risk remains a matter of genuine debate.\n\nThe theoretical foundation for taking this seriously comes principally from Manu Kapur's work on what he termed \"productive failure.\" In a series of controlled studies with mathematics students in Singapore, Kapur demonstrated that students who wrestled with complex problems *before* receiving formal instruction consistently outperformed those who received direct instruction first — and this held true even when the struggling students produced incorrect or incomplete solutions. The mechanism appears to be cognitive: the act of attempting a problem activates prior knowledge, surfaces misconceptions, and creates what might be called a prepared mind. When instruction arrives after genuine struggle, it lands on soil that has already been turned. When it arrives before, it often slides off a surface that has had no reason to become receptive.\n\nThis finding connects to a broader body of work in cognitive science on desirable difficulties — the counterintuitive principle that certain forms of resistance in the learning process, including spacing, interleaving, and retrieval practice, produce more durable and transferable knowledge than smooth, frictionless instruction. The discomfort of not immediately knowing, of holding a problem open, of tolerating ambiguity, is not incidental to learning; it is, in many cases, constitutive of it.\n\nAgainst this backdrop, the arrival of generative AI systems capable of providing instant, articulate, and often accurate answers to almost any question poses a structural challenge to pedagogy. The friction that productive failure depends upon is precisely the kind of friction these systems are designed to remove. A student who encounters a difficult mathematics problem, a confusing historical argument, or an opaque philosophical text can now obtain not merely a hint but a complete, well-reasoned response within seconds. The struggle that Kapur's research identifies as the engine of deep learning becomes, in this environment, entirely optional — and for many students, optionality is effectively elimination.\n\nThe concern is not merely theoretical. Research on related phenomena — homework help sites, solution manuals, worked examples provided too early — suggests that students who bypass struggle tend to develop what might be called brittle knowledge: they can reproduce procedures in familiar contexts but fail to transfer understanding to novel problems. There is reasonable evidence that this effect is not simply a matter of laziness or poor character but reflects something genuine about how memory consolidation and schema formation work. The brain appears to encode information more robustly when it has been retrieved under effort than when it has been passively received.\n\nYet the picture is not straightforwardly bleak, and intellectual honesty requires acknowledging the tensions in the evidence. Not all friction is productive. Kapur himself was careful to distinguish between struggle that activates relevant prior knowledge and struggle that merely frustrates and demoralises. Students who lack the foundational knowledge to engage meaningfully with a problem do not benefit from being left to flounder; they benefit from targeted support. The question, then, is not whether AI assistance is categorically harmful but whether it is being deployed at the right moment in the learning sequence — after sufficient struggle has occurred, rather than instead of it.\n\nThere is also an equity dimension that complicates simple conclusions. Students from well-resourced backgrounds have always had access to tutors, educated parents, and other forms of friction-reducing support. If AI assistance is uniquely dangerous, it was not uniquely dangerous when it was available only to the privileged. Some researchers argue that democratising access to on-demand explanation may reduce rather than increase educational inequality, provided the assistance is used thoughtfully.\n\nWhat remains genuinely uncertain is whether students, left to their own devices, will use AI tools thoughtfully — that is, as a resource consulted after genuine effort rather than instead of it. Early observational evidence from university settings suggests that many students default to AI assistance at the first sign of difficulty, which is precisely the moment when, according to the productive failure literature, they should be persisting. Whether this represents a stable behavioural pattern or an early-adoption phenomenon that pedagogy can correct is not yet clear.\n\nWhat the research does establish, with reasonable confidence, is that the value of intellectual struggle is not a romantic fiction but a finding with mechanistic support. Any educational environment — AI-mediated or otherwise — that systematically removes the opportunity to fail productively before receiving guidance is likely to produce learners who know more in the short term and understand less in the long run. The design challenge for educators is not to ban the tools that remove friction but to build structures that ensure the friction happens first.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://sites.edb.utexas.edu/slam/70-2/",
-          "title": "Desirable Difficulties to Create Learning - Science of Learning and Metacognition Lab",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2016.1155457",
+          "title": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2016.1155457",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Desirable_difficulty",
-          "title": "Desirable difficulty - Wikipedia",
+          "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf",
+          "title": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360131523002270",
+          "title": "https://www.sciencedirect.com/science/article/pii/S0360131523002270",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.learningandthebrain.com/blog/ai-and-the-future-of-learning/",
+          "title": "https://www.learningandthebrain.com/blog/ai-and-the-future-of-learning/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.manukapur.com/productive-failure/",
-          "title": "Productive Failure (PF), Learning Design, Four Core Mechanisms",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/html/2411.11227v1",
-          "title": "Investigating the Use of Productive Failure as a Design Paradigm for Learning Introductory Python Programming",
+          "url": "https://link.springer.com/article/10.1007/s10648-021-09624-7",
+          "title": "https://link.springer.com/article/10.1007/s10648-021-09624-7",
           "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nature.com/articles/s41539-019-0040-6",
-          "title": "DIY productive failure: boosting performance in a large undergraduate biology course | npj Science of Learning",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2603.07834",
-          "title": "AI Misuse in Education Is a Measurement Problem: Toward a Learning Visibility Framework",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2602.04598",
-          "title": "AI in Education Beyond Learning Outcomes: Cognition, Agency, Emotion, and Ethics",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2603.10025",
-          "title": "A Review of the Negative Effects of Digital Technology on Cognition",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/html/2606.26181v1",
-          "title": "The Effortless Trap: Productive Struggle, AI, and the Illusion of Learning",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/html/2602.04598v1",
-          "title": "AI in Education Beyond Learning Outcomes: Cognition, Agency, Emotion, and Ethics",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 12
     }
   ],
-  "answer_summary": "The Friction That Teaches There is a well established paradox at the heart of learning science: conditions that feel difficult in the moment tend to produce the most durable understanding, while conditions that feel easy tend to produce the least.",
+  "answer_summary": "There is a paradox at the heart of learning that educators have long understood intuitively and that research has now confirmed with some precision: difficulty is not the enemy of understanding but frequently its precondition.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

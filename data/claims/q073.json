@@ -1,0 +1,61 @@
+{
+  "question_id": "q073",
+  "question_text": "How should institutions handle procurement of AI tools — evaluation criteria, vendor accountability, contract terms, and exit strategies?",
+  "current_edition": 76,
+  "claims": [
+    {
+      "claim_id": "q073-c01",
+      "text": "## Procuring AI in Education: Evaluation, Accountability, and the Art of the Exit\n\nWhen educational institutions consider adopting AI tools, the temptation is to treat procurement as a technical exercise — comparing feature lists, sitting through vendor demonstrations, and negotiating price. The evidence suggests this approach is inadequate and, in some cases, actively harmful. Institutions that have fared best in AI adoption, according to the EDUCAUSE 2023 AI Landscape Study, approached procurement as a pedagogical and governance challenge first, and a technical one second. That reordering of priorities has significant consequences for how evaluation criteria are constructed, how vendors are held accountable, and how contracts are written to protect institutional interests over time.\n\n**Evaluation as a Multi-Dimensional Exercise**\n\nThe most durable lesson from recent institutional experience is that technical performance and pedagogical validity are not the same thing, and conflating them is a reliable path to disappointment. A tool may perform impressively on benchmark tasks while failing to support the specific learning outcomes an institution cares about, introducing accessibility barriers for students with disabilities, or encoding demographic biases that disadvantage already-marginalised groups. Institutions that developed multi-dimensional evaluation rubrics — assessing pedagogical alignment, accessibility compliance, data governance practices, and equity impact before any pilot with students — consistently reported smoother adoption and fewer downstream crises.\n\nThis means evaluation committees should include not only IT and procurement staff but instructional designers, faculty, disability services officers, and ideally student representatives. Equity impact assessments deserve particular emphasis: AI systems trained on unrepresentative data can systematically underserve the students who most need support, and this risk is rarely visible in a vendor's promotional materials. Accessibility compliance, governed in many jurisdictions by law as well as institutional policy, must be verified independently rather than accepted on a vendor's assurance.\n\n**Vendor Accountability: Beyond the Sales Relationship**\n\nOnce a tool clears initial evaluation, the question becomes how to maintain meaningful accountability throughout the relationship. Vendors of AI products occupy an unusual position: their systems can change substantially through model updates, retraining, or shifts in underlying infrastructure, sometimes without explicit notification to institutional clients. A system that passed an equity audit in January may behave differently by September. Contracts should therefore require vendors to notify institutions of material changes to model behaviour, training data, or algorithmic logic, and to provide updated documentation sufficient for the institution to reassess compliance.\n\nTransparency obligations extend to explainability. Where AI tools inform consequential decisions — flagging students as at-risk, generating feedback on assessed work, or influencing course recommendations — institutions have both ethical and, increasingly, legal reasons to understand how those outputs are produced. Vendors who cannot or will not provide meaningful explanations of their systems' reasoning should be treated with considerable caution. This is an area where the field remains contested: full algorithmic transparency is technically difficult and commercially sensitive, and reasonable people disagree about how much explainability is achievable or necessary. What is not contested is that institutions should ask the question explicitly and document the answer before signing.\n\n**Contract Terms That Protect Institutional Interests**\n\nThe contract is where good intentions either become enforceable commitments or evaporate. Several provisions deserve particular attention. Data ownership and data use clauses must be unambiguous: student data generated through use of an AI tool should not be available to the vendor for model retraining or commercial purposes without explicit, informed consent. Given the sensitivity of educational records and the legal protections that govern them in most jurisdictions, this is non-negotiable rather than aspirational.\n\nService-level agreements should specify not only uptime but performance standards relevant to educational use — response accuracy, bias metrics, and accessibility conformance — with defined consequences for failure. Audit rights, allowing the institution or a designated third party to inspect the system's behaviour periodically, provide a mechanism for ongoing accountability rather than a one-time evaluation. Where institutions lack the internal expertise to conduct such audits, consortium arrangements with peer institutions or engagement of specialist third parties are increasingly common and worth the investment.\n\n**Exit Strategies: Planning for the End from the Beginning**\n\nPerhaps the most neglected dimension of AI procurement is the exit strategy. Vendor lock-in is a structural risk in AI adoption: proprietary data formats, deep integration with institutional systems, and the practical difficulty of migrating accumulated student data can make it prohibitively expensive to leave a vendor even when the relationship has deteriorated. Contracts should specify data portability rights in open, documented formats, define the conditions and timelines under which the institution can terminate without penalty, and require the vendor to support a transition period during which data can be extracted and migrated.\n\nThe broader principle underlying all of these considerations is that AI procurement in education is not a transaction but a relationship with significant power asymmetries — and that the institution's leverage is greatest before the contract is signed. Investing in rigorous evaluation, demanding enforceable accountability, and planning for exit from the outset are not bureaucratic cautions but the practical conditions for responsible adoption.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://www.educause.edu/horizon-report-teaching-and-learning-2023",
+          "title": "https://www.educause.edu/horizon-report-teaching-and-learning-2023",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://fpf.org/blog/fpf-releases-student-privacy-and-ed-tech-framework/",
+          "title": "https://fpf.org/blog/fpf-releases-student-privacy-and-ed-tech-framework/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
+          "title": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://ainowinstitute.org/publication/algorithmic-accountability-policy-toolkit-2018",
+          "title": "https://ainowinstitute.org/publication/algorithmic-accountability-policy-toolkit-2018",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.jisc.ac.uk/guides/buying-and-deploying-ai-tools-in-education",
+          "title": "https://www.jisc.ac.uk/guides/buying-and-deploying-ai-tools-in-education",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.eff.org/issues/student-privacy",
+          "title": "https://www.eff.org/issues/student-privacy",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 76
+    }
+  ],
+  "answer_summary": "When educational institutions consider adopting AI tools, the temptation is to treat procurement as a technical exercise — comparing feature lists, sitting through vendor demonstrations, and negotiating price. The evidence suggests this approach is inadequate and, in some cases, actively harmful.",
+  "disputed_aspects": []
+}

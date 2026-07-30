@@ -1,90 +1,62 @@
 {
   "question_id": "q026",
   "question_text": "How should teacher training change so educators can critically use, evaluate, and challenge AI tools?",
-  "current_edition": 1,
+  "current_edition": 29,
   "claims": [
     {
       "claim_id": "q026-c01",
-      "text": "**Reforming Teacher Training for the Age of AI**\n\nThe arrival of generative AI in classrooms has exposed a structural gap in how teachers are prepared. The urgency is real: many professional development initiatives focus primarily on technical skills rather than pedagogical integration, leaving teachers uncertain about meaningful incorporation into their teaching practice. This imbalance produces educators who can operate AI tools but cannot reason about them — a fragile competence in a landscape where the tools themselves change every few months.\n\nThe most persuasive emerging consensus holds that teacher training must be reorganized around three interlocking demands: technical understanding, critical evaluation, and ethical reasoning. This responsibility necessitates that educators themselves possess a certain degree of AI literacy to effectively integrate these technologies into their pedagogical practice and curriculum while maintaining critical perspectives on their use. The critical dimension is frequently underemphasized. AI literacy requires the ability to critically evaluate AI outputs and tools, discerning their quality, appropriateness, and potential biases; this involves understanding ethical principles, data privacy, potential biases in AI systems, and the broader social and environmental impacts — all of which are essential competencies for teachers aiming to integrate AI meaningfully into their practice.\n\nThe international policy community has begun to codify what these competencies should look like. The AI Competency Framework for Teachers, published by UNESCO in August 2024, addresses technological advancements in AI and their impact on education. The framework defines the foundational principles, values, knowledge, and critical skills that teachers should develop to understand the role of AI in education and to utilize it in an ethical, effective, safe, and responsible way. Specifically, the framework encompasses fostering a human-centered mindset; understanding the ethics of AI, including privacy, data protection, and avoiding algorithmic biases; building technical knowledge of AI foundations; integrating AI tools into pedagogy; and using AI for professional development. Critically, UNESCO warns that AI could soon replace data-driven educational decision-making, presenting the risk that teachers may lose key competencies if they rely too heavily on AI — so the framework emphasises maintaining human agency, ensuring that AI serves as a supportive tool rather than a substitute.\n\nYet frameworks alone are insufficient if teacher training programs are not redesigned to embody them in practice. Evidence from recent training interventions suggests that structured, hands-on engagement matters enormously. Teacher training programs facilitate controlled integration of new technologies within secure environments and under expert guidance, encouraging the utilization of AI tools while providing feedback and opportunities for self-reflection. A graduate-level program piloted across 2024 and 2025 found that structured engagement increased awareness of both the affordances and risks of AI use in education, and supported candidates' ability to critically evaluate AI-generated outputs, assess alignment with educational standards, and articulate implications for their own instructional practice.\n\nThe ethical dimension of this training cannot be treated as an add-on module. Generative AI may produce hallucinations that sound plausible but are incorrect or outdated, and raises critical concerns such as biases in training data, unequal access to advanced models, and privacy issues related to student data storage — all of which require urgent attention. Teachers who do not understand these failure modes cannot protect their students from them.\n\nThere is also an ongoing, unresolved tension in the research between depth and adaptability. The nature of AI is always evolving at a rapid pace, and to cope with these technologies, the curriculum from different disciplines needs to emphasize continuous learning and adaptability, and promote a culture of lifelong learning. Research shows that to achieve effective integration of AI educational tools, teachers need systematic training and ongoing technical support; however, the current teacher training system may not be able to meet the needs of this new type of technology application, and limited resources for ongoing professional development constrain teachers from engaging in long-term learning.\n\nThe reform required is therefore not merely additive — inserting a module on AI into existing pre-service programs — but structural. Teacher education must cultivate a disposition of productive skepticism: the capacity to use AI tools fluently while questioning their outputs, scrutinizing their embedded assumptions, and retaining the pedagogical authority that no algorithm is equipped to exercise.",
+      "text": "## Preparing Educators for the Age of Intelligent Machines\n\nThe arrival of sophisticated AI tools in classrooms has exposed a striking gap between the pace of technological change and the readiness of the teaching profession to meet it. According to a 2023 UNESCO report, fewer than 10% of teacher training institutions globally had developed formal frameworks for preparing educators to work with AI tools, and where AI appeared in curricula at all, it was typically framed as a productivity aid rather than as a subject requiring critical scrutiny. This is not a minor curricular oversight. It represents a structural failure to equip the people most responsible for shaping young minds with the conceptual tools they need to evaluate, challenge, and responsibly deploy technologies that are already reshaping learning environments.\n\nThe dominant approach to AI in professional development has been instrumental: teachers are shown how to use a tool, not how to interrogate it. This framing treats AI systems as essentially neutral, their outputs as reliable, and their adoption as straightforwardly beneficial. Yet the research literature makes clear that AI tools used in education carry embedded assumptions about what counts as good writing, correct reasoning, or appropriate behaviour — assumptions that reflect the data on which these systems were trained and the choices made by their designers. A teacher who cannot identify these assumptions cannot protect students from their distortions, let alone help students develop the critical awareness to do so themselves.\n\nWhat, then, should change? The evidence points in several interconnected directions. First, teacher education must move beyond tool familiarity toward what researchers have begun calling AI literacy in its fuller sense: an understanding of how machine learning systems work at a conceptual level, what kinds of errors they characteristically make, how their outputs can be evaluated, and what institutional and commercial interests shape their design. This does not require training teachers as computer scientists. It does require that educators understand, for instance, why a language model might produce fluent but factually wrong text, why an automated grading system might disadvantage students from certain linguistic backgrounds, or why a recommendation algorithm might narrow rather than broaden a student's intellectual exposure.\n\nSecond, and perhaps more fundamentally, teacher training must cultivate a disposition of principled scepticism toward AI outputs — not hostility, but the same critical stance a well-trained reader brings to any source. This is harder to teach than technical knowledge because it runs against the grain of how AI tools are typically marketed, which emphasises confidence, efficiency, and comprehensiveness. Programs that embed AI evaluation into existing subject-specific pedagogy — asking student teachers to compare an AI-generated history essay with a student-written one, or to audit an AI reading-level assessment against their own professional judgment — appear more effective at building this disposition than standalone AI modules, though the evidence base here remains relatively thin and context-dependent.\n\nThird, the ethical dimensions of AI use must be treated as substantive professional knowledge rather than as a compliance checklist. Questions about data privacy, algorithmic bias, the erosion of student agency, and the appropriate boundaries of automated assessment are not peripheral concerns to be addressed in a single seminar. They are central to what it means to teach responsibly in the current moment. Programs that integrate these questions across multiple courses and connect them to real cases from classroom practice produce more durable changes in teacher thinking than those that treat ethics as a discrete module.\n\nThere is genuine tension in the research about how prescriptive training should be. Some scholars argue for clear institutional frameworks that specify which AI tools are appropriate for which purposes, giving teachers structured guidance. Others contend that overly prescriptive approaches risk producing compliance rather than genuine critical engagement, and that teachers need the intellectual freedom to develop their own evaluative frameworks through practice and reflection. Both positions have merit, and the tension between them is unlikely to be resolved by evidence alone — it reflects deeper disagreements about the nature of professional autonomy in teaching.\n\nWhat is not contested is the urgency. AI tools are already in classrooms, often introduced by students before institutions have formed any policy response. Teachers who have not been prepared to evaluate these tools are not neutral bystanders; they are, by default, passive endorsers of whatever the technology does. The profession cannot afford to treat AI literacy as an optional enhancement to teacher education. It belongs at the core of what it means to be a prepared, responsible educator — alongside subject knowledge, pedagogical skill, and the capacity to understand and respond to the particular human beings in one's care. The institutions responsible for teacher preparation have been slow to recognise this, and the cost of that slowness is being paid in classrooms every day.",
       "reliability": "established",
       "sources": [
         {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1651217/full",
-          "title": "Frontiers | Teaching and learning with AI: a qualitative study on K-12 teachers' use and engagement with artificial intelligence",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1671306/full",
-          "title": "Frontiers | Teacher training in the age of AI: impact on AI literacy and teachers’ attitudes",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1668078/full",
-          "title": "Frontiers | Fostering AI literacy in pre-service teachers: impact of a training intervention on awareness, attitude and trust in AI",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://educationalevidence.com/en/artificial-intelligence-for-teachers-according-to-unesco/",
-          "title": "Artificial Intelligence for teachers according to UNESCO - Educational Evidence",
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.degruyterbrill.com/document/doi/10.1515/gme-2024-0029/html",
-          "title": "Overview and summary of AI competency framework for teachers",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
+          "url": "https://www.sciencedirect.com/science/article/pii/S0747563222003454",
+          "title": "https://www.sciencedirect.com/science/article/pii/S0747563222003454",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
         },
         {
-          "url": "https://ciddl.org/summary-of-unesco-ai-competency-framework-for-teachers/",
-          "title": "Summary of UNESCO AI Competency Framework for Teachers - CIDDL",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1798995",
+          "title": "https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1798995",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13232",
+          "title": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13232",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC107466",
+          "title": "https://publications.jrc.ec.europa.eu/repository/handle/JRC107466",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.researchgate.net/publication/392197994_Advancing_Artificial_Intelligence_Literacy_in_Teacher_Education_Through_Professional_Partnership_Inquiry",
-          "title": "(PDF) Advancing Artificial Intelligence Literacy in Teacher Education Through Professional Partnership Inquiry",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X22000297",
+          "title": "https://www.sciencedirect.com/science/article/pii/S2666920X22000297",
           "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.degruyterbrill.com/document/doi/10.1515/jccall-2024-0030/html",
-          "title": "Language teacher AI literacy: insights from collaborations with ChatGPT",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2511.01353",
-          "title": "AI Literacy in UAE Libraries: Assessing Competencies, Training Needs, and Ethical Considerations for the Digital Age",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2512.12306",
-          "title": "From Co-Design to Metacognitive Laziness: Evaluating Generative AI in Vocational Education",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 29
     }
   ],
-  "answer_summary": "Reforming Teacher Training for the Age of AI The arrival of generative AI in classrooms has exposed a structural gap in how teachers are prepared. The urgency is real: many professional development initiatives focus primarily on technical skills rather than pedagogical integration, leaving teachers uncertain about meaningful incorporation into their teaching practice.",
+  "answer_summary": "The arrival of sophisticated AI tools in classrooms has exposed a striking gap between the pace of technological change and the readiness of the teaching profession to meet it.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

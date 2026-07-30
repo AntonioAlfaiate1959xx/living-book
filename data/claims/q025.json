@@ -1,69 +1,62 @@
 {
   "question_id": "q025",
   "question_text": "What does effective human–AI co-teaching look like in a real classroom?",
-  "current_edition": 1,
+  "current_edition": 28,
   "claims": [
     {
       "claim_id": "q025-c01",
-      "text": "Effective human–AI co-teaching is not a single model but a continuum of arrangements, and the evidence from real classrooms — rather than design proposals — reveals a picture that is promising, uneven, and still being worked out in practice.\n\nThe most documented form of co-teaching assigns a clear division of labor: the AI system handles tasks that require speed, scale, or data-intensive pattern recognition, while the human teacher retains authority over judgment, relationships, and the moral texture of the room. AI has made significant inroads into intelligent recommendation, automated grading, and learning analytics, and is increasingly penetrating core aspects of teaching, including instructional design, classroom management, and student assessment. Yet in practice, teachers rarely hand these tasks over wholesale. Teachers engage in ongoing interpretive work, evaluating AI outputs, reconciling them with classroom contexts, and adapting them to students' diverse needs. The AI, in other words, proposes; the teacher disposes.\n\nOne of the more carefully studied implementations is the Culturally Responsive Lesson Planner, a GPT-powered tool observed in science classrooms. Rather than issuing generic outputs, the system engages teachers in a structured dialogue in which the AI asks targeted, context- and culture-specific questions, and teachers respond with their content knowledge, classroom expertise, and understanding of students' cultural assets — an iterative process that activates pedagogical decision-making, cultural reasoning, and anticipatory judgment as teachers refine the AI's drafts. The cognitive demands on the teacher are in fact heightened, not reduced: critiquing AI drafts, generating cultural examples, evaluating scientific coherence, adjusting difficulty levels, and confirming conceptual accuracy demonstrate that AI-assisted teaching is not a passive activity.\n\nAt the junior-high school level, a case study examining a hybrid intelligence classroom found a more tentative equilibrium. Involving forty students and one teacher, the study found that the order degree between the human teacher and AI machines remained at a moderate level while undergoing dynamic changes — a finding that captures the essential instability of early co-teaching arrangements. The partnership is not static: teachers and systems learn from each other across weeks and months, and AI integration is a dynamic process in which constructs such as confirmation, satisfaction, and continuance behavior likely evolve as teachers gain experience and as systems are updated.\n\nA persistent structural challenge is that AI tools designed outside the classroom frequently misalign with the realities inside it. A persistent challenge in AI evolution is the disconnect between design innovations and their continuous practical application within the classroom; their integration often falls short when they are not meaningfully aligned with pedagogical objectives or the realities of classroom dynamics. Teachers in field studies report that a minority of AI suggestions are inconsistent or overly generic — a complaint that matters enormously when a teacher must decide, in the flow of a lesson, whether to trust a system's recommendation.\n\nThe question of teacher agency is therefore central to whether co-teaching works at all. Teachers' incorporation of diverse AI tools relies on teacher professional agency, which is seriously lacking in most educational development. Where institutional support is strong and teachers feel genuine ownership over the technology, the results shift markedly: empirical data show that teacher–AI collaboration significantly and positively predicts teaching engagement.\n\nWhat emerges from the collective evidence is a portrait of effective co-teaching as a practice of continuous negotiation rather than a fixed configuration. Emerging models of hybrid human–AI pedagogy frame AI as a collaborator that expands human capacity rather than a replacement. The teacher sets the values, reads the room, and holds the relationship; the AI extends the teacher's reach into data, personalization, and feedback at scale. Neither works well without the other — and neither, on current evidence, works perfectly with the other either.",
-      "reliability": "established",
+      "text": "## Human–AI Co-Teaching in the Real Classroom\n\nThe question of what effective human–AI co-teaching actually looks like in practice—not in theory, not in pilot demonstrations, but in ordinary classrooms with ordinary constraints—has begun to yield concrete answers, though the picture remains uneven and contested in important respects. The most instructive evidence comes from large-scale deployments of adaptive intelligent tutoring systems, particularly Carnegie Learning's MATHia platform in U.S. middle and high schools, which represents one of the most empirically documented cases of this emerging pedagogical arrangement.\n\nThe structural logic of the MATHia model is worth examining carefully, because it reveals a division of cognitive and relational labour that appears, under the right conditions, to be genuinely productive. The AI system takes responsibility for what it does well: individualising practice sequences, diagnosing errors in real time, adjusting problem difficulty in response to student performance, and maintaining a granular record of each learner's progress. The human teacher, meanwhile, is freed from the exhausting and often impossible task of simultaneously tracking thirty students' individual trajectories. Instead, the teacher consults a \"class snapshot\" dashboard that surfaces which students are struggling, where misconceptions cluster, and which learners may be coasting without challenge. Armed with this intelligence, the teacher circulates and intervenes—not randomly, not according to who raises a hand, but with a degree of targeting that unaided human attention cannot sustain across a full classroom.\n\nThis is not a trivial shift. One of the persistent structural problems in mixed-ability classrooms is that teacher attention is distributed inequitably, often gravitating toward students who are most vocal or most visibly distressed, while quieter strugglers go unnoticed. An AI system that continuously monitors all students simultaneously and surfaces need in a legible format addresses this problem directly. The teacher's role becomes less that of a universal explainer and more that of a diagnostician and relationship-builder—someone who can offer the kind of contextualised, emotionally attuned support that no current AI system can replicate.\n\nWhat the evidence from MATHia deployments suggests, however, is that this model's effectiveness is highly contingent on teacher behaviour. When teachers treat the AI dashboard as a passive report rather than an active prompt for intervention—when they allow students to work through the system without circulating, questioning, or supplementing—the benefits diminish substantially. The AI, in other words, does not replace pedagogical judgement; it depends on it. Effective co-teaching requires teachers who understand what the system's metrics mean, who can translate a flagged misconception into a productive conversation, and who know when to override the system's sequencing in favour of whole-class discussion or collaborative problem-solving.\n\nThis points to a broader principle that emerges from the available evidence: the human and the AI are not interchangeable partners of equal standing, nor is the AI simply a tool the teacher operates. The relationship is better understood as a genuine division of complementary functions, where each party's contribution is necessary but insufficient on its own. The AI provides scale, consistency, and data; the teacher provides interpretation, relationship, and professional judgement. When either side of this partnership is weak—when the AI's adaptive model is poorly calibrated, or when the teacher lacks the training to act on its outputs—the arrangement underperforms.\n\nThere are legitimate tensions in this picture that the evidence does not fully resolve. One concerns equity: schools with stronger teacher professional development, more stable technology infrastructure, and smaller class sizes are better positioned to realise the model's potential. In under-resourced settings, the same system can function as a substitute for teacher attention rather than a complement to it, with students working through adaptive exercises in relative isolation. Whether this represents a net gain over the status quo is genuinely debatable, and researchers have not reached consensus.\n\nA second tension concerns the scope of what AI co-teaching can address. The MATHia evidence is drawn almost entirely from mathematics, a domain where correctness is relatively unambiguous and where adaptive sequencing of procedural and conceptual problems is tractable. Whether analogous models can work in writing instruction, historical reasoning, or scientific argumentation—domains where the criteria for good performance are more complex and contested—remains an open and important question. Early experiments in AI-assisted writing feedback suggest some promise, but the evidence base is far thinner and the risks of reductive feedback loops are more pronounced.\n\nWhat the best current evidence supports, then, is a cautiously optimistic but conditional picture. Effective human–AI co-teaching is not a technology problem that good software solves automatically; it is a pedagogical and organisational achievement that requires deliberate role design, teacher preparation, and ongoing attention to whether the partnership is serving students or merely processing them. The classroom in which this works well is one where the AI handles the relentless cognitive bookkeeping of individualised learning, and the teacher—informed, attentive, and professionally confident—does what only a human can.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12292687/",
-          "title": "Will Teacher-AI Collaboration Enhance Teaching Engagement? - PMC",
-          "type": "official",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
+          "url": "https://www.rand.org/pubs/research_reports/RR1365.html",
+          "title": "https://www.rand.org/pubs/research_reports/RR1365.html",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
         },
         {
-          "url": "https://arxiv.org/html/2510.18296v1",
-          "title": "Relief or displacement? How teachers are negotiating generative AI’s role in their professional practice",
+          "url": "https://www.khanacademy.org/khan-labs/khanmigo",
+          "title": "https://www.khanacademy.org/khan-labs/khanmigo",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360131521000842",
+          "title": "https://www.sciencedirect.com/science/article/pii/S0360131521000842",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://arxiv.org/pdf/2603.06659",
-          "title": "Science Literacy: Generative AI as Enabler of Coherence in the Teaching, Learning, and Assessment of Scientific Knowledge and Reasoning",
+          "url": "https://bera-journals.onlinelibrary.wiley.com/journal/14678535",
+          "title": "https://bera-journals.onlinelibrary.wiley.com/journal/14678535",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.nature.com/articles/s41599-025-05097-z",
-          "title": "Examining human–AI collaboration in hybrid intelligence learning environments: insight from the Synergy Degree Model | Humanities and Social Sciences Communications",
+          "url": "https://link.springer.com/journal/10648",
+          "title": "https://link.springer.com/journal/10648",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1765263/full",
-          "title": "Frontiers | Understanding university teachers’ continuance of an AI teaching assistant: an integrated TTF–TAM–ECM model in higher education",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nature.com/articles/s41599-026-06981-y",
-          "title": "Reimagining teacher-AI co-design in learning task design: trends and perspectives | Humanities and Social Sciences Communications",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13033745/",
-          "title": "Understanding university teachers’ continuance of an AI teaching assistant: an integrated TTF–TAM–ECM model in higher education - PMC",
-          "type": "official",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
+          "url": "https://www.iste.org/areas-of-focus/AI-in-education",
+          "title": "https://www.iste.org/areas-of-focus/AI-in-education",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 28
     }
   ],
-  "answer_summary": "Effective human–AI co teaching is not a single model but a continuum of arrangements, and the evidence from real classrooms — rather than design proposals — reveals a picture that is promising, uneven, and still being worked out in practice.",
+  "answer_summary": "The question of what effective human–AI co teaching actually looks like in practice—not in theory, not in pilot demonstrations, but in ordinary classrooms with ordinary constraints—has begun to yield concrete answers, though the picture remains uneven and contested in important respects.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

@@ -1,90 +1,62 @@
 {
   "question_id": "q011",
   "question_text": "Who is responsible when an AI teaches something false, biased, or harmful to a student?",
-  "current_edition": 1,
+  "current_edition": 14,
   "claims": [
     {
       "claim_id": "q011-c01",
-      "text": "## Who Is Responsible When an AI Teaches Something False, Biased, or Harmful?\n\nThe question of accountability when an AI system misleads a student is deceptively simple on the surface and deeply tangled in practice. It implicates at least four distinct parties — technology developers, schools and universities, classroom teachers, and students themselves — and the law, as yet, offers no clean resolution.\n\n### The Nature of the Harm\n\nThe harms in question are not hypothetical. AI models frequently \"hallucinate,\" producing false information that students may accept as truth due to the authoritative way AI presents responses. Despite improvements in content filtering, bias remains a concern, with studies showing that chatbots can reinforce stereotypes and mislead young users into believing AI-generated content is factually accurate. As generative AI expands in education, multiple cases have been documented where algorithms have reproduced and amplified pre-existing inequalities — biases that can affect academic assessments, course recommendations, and even the allocation of learning opportunities. For younger students, the risks compound: children tend to anthropomorphize chatbots, seeking emotional support from AI systems that lack true understanding, which can result in distress if responses are inappropriate or unhelpful.\n\n### The Legal Vacuum\n\nExisting law was not built for this situation. Legal and ethical frameworks assume a human-in-the-loop model, where accountability rests with the user, because AI tools are not recognized as legal persons or responsible agents. That assumption breaks down in educational settings, where a child interacting with a tutoring chatbot has no meaningful ability to audit its outputs. Traditional product liability theories, such as design defect and failure to warn, are being tested and redefined in the AI context, but because AI systems' decision-making can be opaque even to their creators, it is inherently difficult to assess liability, assign responsibility, and anticipate the full range of potential harms.\n\nEarly court cases have set limited and cautious precedents. In a 2025 ruling against a plaintiff who sued OpenAI for defamation, the court recognized OpenAI's efforts to reduce inaccuracies and provide user warnings, concluding that the legal threshold for defamation was not met — a ruling significant for suggesting that disclaimers and responsible AI design may protect developers from liability, even while the broader question of AI accountability remains unsettled.\n\n### Where Responsibility Currently Falls\n\nIn practical terms, responsibility is being distributed — unevenly — across three layers. At the developer level, researchers and ethicists increasingly argue that bias mitigation must be addressed across the AI lifecycle, from data collection and training to inference and system updates, and that developers should incorporate human rights impact assessments to identify risks before deployment. Ultimately, developers must be held accountable for ensuring that AI education technologies foster ethical, inclusive, and pedagogically meaningful innovations.\n\nAt the institutional level, schools are being pushed to take responsibility for what they deploy. Institutional accountability requires universities to establish clear standards and monitoring mechanisms to ensure the ethical and responsible use of these tools. Schools need clear agreements outlining liability with AI vendors, and regular monitoring of AI's impact is needed to ensure it supports rather than disrupts learning goals. Legislatively, the pace of regulation is accelerating: during the 2026 legislative session alone, FutureEd is tracking 71 bills across 27 states that address artificial intelligence in classroom instruction.\n\nTeachers occupy a third position, one that the law has barely begun to define. Concerns are looming over transparency and accountability as AI becomes increasingly entrenched in decision-making processes, and the educator who recommends or simply permits the use of a particular AI tool may carry an implicit duty of care that has no established legal precedent.\n\n### The Unresolved Core\n\nWhat remains genuinely open is whether any single party can or should bear primary responsibility. The lack of transparency and accountability in algorithmic processes fundamentally complicates ethical oversight. Exploiting personal data due to a lack of awareness can go unnoticed without accountability, and problems persist with the opacity of AI systems, including so-called black-box algorithms. The practical consequence is a diffusion of responsibility that benefits no one — least of all the student who simply trusted the machine. The honest answer, for now, is that accountability is shared in principle and enforced by almost no one in particular, a condition that is more a reflection of how quickly the technology arrived than of any considered social judgment about where the duty of care should lie.",
-      "reliability": "established",
+      "text": "## When AI Gets It Wrong: Responsibility, Accountability, and the Governance of Harm in Educational AI\n\nWhen an AI system tells a student something false, reinforces a harmful stereotype, or delivers content that causes psychological or intellectual damage, the question of who bears responsibility proves far more complicated than it might initially appear. Unlike a textbook with a named author or a teacher with a professional licence, AI educational systems are the product of layered decisions made by multiple parties across long chains of development and deployment. Scholars studying AI governance have identified what they term an \"accountability gap\" — a structural condition in which responsibility is so widely distributed that no single actor can be straightforwardly held to account, even when harm is clear and documented.\n\nThat distribution typically spans at least four parties. The AI developer designs and trains the underlying model, making foundational choices about data sources, safety filters, and the boundaries of acceptable output. The educational technology vendor deploys and customises that model for classroom use, often adding proprietary interfaces, content libraries, and behavioural constraints. The institution — a school district, university, or training provider — procures the system, configures it for local use, and decides which students will interact with it under what conditions. Finally, the teacher or instructor integrates the tool into pedagogical practice, mediating between the system's outputs and the student's learning experience. Each of these actors makes decisions that shape what a student ultimately encounters, and each can, in principle, point to the decisions of the others when something goes wrong.\n\nThis diffusion of agency is not merely an administrative inconvenience; it has real consequences for students seeking redress. A student who receives confidently stated misinformation from an AI tutor, or who is systematically underestimated by an adaptive learning system trained on historically biased data, faces the daunting task of identifying which link in the chain failed. Did the model hallucinate because the developer's training data was inadequate? Did the vendor fail to implement sufficient fact-checking mechanisms? Did the institution deploy the tool in a subject domain for which it was never validated? Did the teacher fail to exercise the critical oversight that professional responsibility demands? In practice, the answer is often some combination of all four — which is precisely what makes accountability so elusive.\n\nThe three categories of harm — false information, bias, and harmful content — each implicate the accountability chain somewhat differently. Factual error, or \"hallucination\" in the technical vocabulary, is most directly traceable to model design and training, placing primary responsibility on developers. Yet vendors who market a system as suitable for high-stakes academic instruction, and institutions that deploy it without adequate human oversight, share in the culpability when students act on false information. Bias presents a more structurally embedded problem: AI systems trained on historical data tend to reproduce historical inequities, and research has documented cases in which adaptive educational platforms assign lower-difficulty content to students from certain demographic groups, effectively encoding lower expectations into the learning pathway. Here, responsibility is genuinely shared — developers must audit training data, vendors must test for differential outcomes, and institutions must monitor deployment patterns — but the diffuse nature of the harm makes it easy for each party to treat it as someone else's problem. Harmful content, whether psychologically distressing material or content that reinforces dangerous ideas, raises the sharpest questions about vendor-level content moderation and institutional duty of care toward minors.\n\nThe role of the teacher in this framework is both practically important and ethically contested. There is a well-established argument that professional educators retain a non-delegable duty of care toward their students, meaning that deploying an AI tool does not transfer their responsibility to the technology. On this view, teachers who use AI systems without critically evaluating their outputs, or who allow students to rely on AI instruction without verification, are themselves accountable for foreseeable harms. This position has considerable force, but it also places an unrealistic burden on individual practitioners who may lack the technical literacy to audit AI outputs, who are under institutional pressure to adopt new tools, and who have no meaningful visibility into how the underlying model was built or what its failure modes are.\n\nWhat emerges from this analysis is not a clean assignment of blame but a case for systemic governance. Developers must be held to transparency and safety standards that are externally audited rather than self-certified. Vendors must be required to demonstrate fitness for purpose in specific educational contexts before deployment. Institutions must establish oversight mechanisms that treat AI tools as pedagogical interventions subject to the same scrutiny as any other curriculum decision. And teachers must be supported — through training, time, and institutional backing — to exercise genuine critical oversight rather than nominal supervision. The accountability gap is real, but it is not inevitable. It persists largely because the governance frameworks that would close it have not yet been built.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2503.10242",
-          "title": "MinorBench: A hand-built benchmark for content-based risks for children",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+          "type": "official",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1565938/full",
-          "title": "Frontiers | Ethical and regulatory challenges of Generative AI in education: a systematic review",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "url": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
+          "title": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
+          "type": "official",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.sciencedirect.com/science/article/pii/S2590291126006674",
-          "title": "Accuracy, reliability, and regulatory concerns in the use of AI tools in education and research - ScienceDirect",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.productlawperspective.com/2025/10/emerging-legal-challenges-artificial-intelligence-and-product-liability/",
-          "title": "Emerging Legal Challenges: Artificial Intelligence and Product Liability | Product Perspective: Complex Tort & Product Law",
+          "url": "https://www.ajl.org/take-action/exam-surveillance-harms-students",
+          "title": "https://www.ajl.org/take-action/exam-surveillance-harms-students",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://roninlegalconsulting.com/ai-generated-defamation-and-legal-liability-a-closer-look/",
-          "title": "AI-Generated Defamation: Legal Risks and Liability Cases",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.sciencedirect.com/org/science/article/pii/S1062737525000654",
-          "title": "A Systematic Review of AI Ethics in Education: - ScienceDirect",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "url": "https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education",
+          "title": "https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education",
+          "type": "official",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://askatechteacher.com/legal-risks-and-obligations-for-schools-using-ai-tutors/",
-          "title": "Legal Risks and Obligations for Schools Using AI Tutors",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.future-ed.org/legislative-tracker-2026-state-ai-in-education-bills/",
-          "title": "Legislative Tracker: 2026 State AI in Education Bills - FutureEd",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.nature.com/articles/s41599-025-05252-6",
-          "title": "Towards responsible artificial intelligence in education: a systematic review on identifying and mitigating ethical risks | Humanities and Social Sciences Communications",
+          "url": "https://hai.stanford.edu/news/generative-ai-and-education",
+          "title": "https://hai.stanford.edu/news/generative-ai-and-education",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://link.springer.com/article/10.1007/s10805-025-09660-w",
-          "title": "Ethical Challenges Associated with the Use of Artificial Intelligence in University Education | Journal of Academic Ethics | Springer Nature Link",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
+          "url": "https://cdt.org/insights/hidden-harms-the-misleading-promise-of-monitoring-students-online/",
+          "title": "https://cdt.org/insights/hidden-harms-the-misleading-promise-of-monitoring-students-online/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 14
     }
   ],
-  "answer_summary": "The question of accountability when an AI system misleads a student is deceptively simple on the surface and deeply tangled in practice. It implicates at least four distinct parties — technology developers, schools and universities, classroom teachers, and students themselves — and the law, as yet, offers no clean resolution. The harms in question are not hypothetical.",
+  "answer_summary": "When an AI system tells a student something false, reinforces a harmful stereotype, or delivers content that causes psychological or intellectual damage, the question of who bears responsibility proves far more complicated than it might initially appear.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

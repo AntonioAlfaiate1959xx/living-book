@@ -1,0 +1,61 @@
+{
+  "question_id": "q096",
+  "question_text": "What roles are autonomous AI agents beginning to play in education — as persistent tutors, course designers, or student proxies — and what new questions do they raise?",
+  "current_edition": 99,
+  "claims": [
+    {
+      "claim_id": "q096-c01",
+      "text": "## Autonomous AI Agents in Education: Tutors, Designers, and Proxies\n\nThe arrival of large language model-based agents in educational settings marks something qualitatively different from earlier generations of adaptive software. Where previous systems followed rigid decision trees or statistical models trained on narrow datasets, contemporary autonomous agents can sustain open-ended dialogue, remember prior interactions, adjust their pedagogical approach in real time, and, in some configurations, act on behalf of users across multiple platforms. Education is encountering these systems not as a single tool but as a cluster of overlapping roles — persistent tutor, curriculum architect, and, most controversially, student proxy — each carrying its own promise and its own set of unresolved questions.\n\nThe most empirically grounded of these roles is the persistent AI tutor. Research on systems such as Khanmigo, Khan Academy's LLM-based tutoring agent, has demonstrated measurable gains in student performance, particularly in mathematics, when the agent maintains conversational memory across sessions and adapts its responses to a learner's specific pattern of errors. The persistence is not incidental: it is precisely the capacity to recall that a student consistently misapplies the distributive property, or loses confidence when word problems become multi-step, that allows the agent to intervene with targeted rather than generic support. These findings represent some of the more robust evidence currently available, though important caveats apply. Gains have been most reliably documented in procedural domains — arithmetic, algebra, structured writing — where correctness is easier to assess and feedback loops are tighter. Whether persistent AI tutors produce comparable benefits in subjects requiring interpretive judgment, historical reasoning, or creative synthesis remains an open and genuinely contested question. There is also an unresolved debate about dependency: some researchers argue that students who receive highly responsive AI support develop metacognitive skills more slowly, because the agent resolves confusion before the productive struggle that consolidates understanding can occur.\n\nThe role of AI as course designer is less empirically settled but rapidly expanding in practice. Institutions and individual instructors are deploying agents to generate syllabi, scaffold assignment sequences, produce formative assessments, and even recommend curricular adjustments based on aggregated student performance data. The appeal is obvious — curriculum design is time-intensive, and the bottleneck between pedagogical intention and classroom implementation is real. Yet the research here is still largely observational and practitioner-reported rather than experimentally controlled. What is clear is that AI-generated curricula tend to reflect the biases and gaps present in the training data on which the underlying models were built, which raises particular concerns about representation in history, literature, and social science. A course on twentieth-century literature designed with heavy reliance on an AI agent may systematically underweight non-Western traditions not because of any deliberate choice but because those traditions are underrepresented in the corpora the model learned from. This is not a hypothetical risk; it is a structural feature of how these systems work, and it demands active human oversight rather than passive trust.\n\nThe most philosophically charged role is that of the student proxy — an agent that completes assignments, participates in discussion forums, or sits examinations on a student's behalf. This is, in one sense, simply a technologically sophisticated form of academic dishonesty, and institutions have responded with detection tools, revised assessment designs, and updated honor codes. But the phenomenon raises questions that extend beyond integrity policy. When a student submits AI-generated work, what exactly has been learned, and by whom? The transaction exposes a tension that was always latent in credentialed education: the gap between demonstrated performance and actual competence. AI proxies make that gap visible and exploitable at scale, forcing a reckoning with what assessments are actually measuring. Some researchers argue this pressure is ultimately productive, compelling educators to design tasks that require genuine presence — oral defenses, iterative portfolios with documented revision histories, collaborative projects with observable process — rather than polished final artifacts that any sufficiently capable agent could produce.\n\nCutting across all three roles is a set of questions about autonomy, accountability, and the nature of the educational relationship itself. When an AI tutor makes a pedagogical decision — choosing to push a student harder or to offer reassurance — who is responsible for that decision and its consequences? When an AI agent designs a course, whose intellectual authority does the curriculum carry? These are not merely administrative questions. They touch on what education is understood to be: a transmission of knowledge, a cultivation of judgment, a social process of formation. Autonomous agents are capable of simulating many features of that process with impressive fidelity, but simulation and instantiation are not the same thing, and the difference matters enormously for how these tools should be governed, evaluated, and — where appropriate — constrained.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://www.carnegielearning.com/research/",
+          "title": "https://www.carnegielearning.com/research/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/computers-and-education",
+          "title": "https://www.sciencedirect.com/journal/computers-and-education",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://academicintegrity.org/resources/research",
+          "title": "https://academicintegrity.org/resources/research",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.ed.ac.uk/institute-academic-development/research-degrees",
+          "title": "https://www.ed.ac.uk/institute-academic-development/research-degrees",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "title": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://ai.umich.edu/research/",
+          "title": "https://ai.umich.edu/research/",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 99
+    }
+  ],
+  "answer_summary": "The arrival of large language model based agents in educational settings marks something qualitatively different from earlier generations of adaptive software.",
+  "disputed_aspects": []
+}

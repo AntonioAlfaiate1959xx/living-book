@@ -1,0 +1,61 @@
+{
+  "question_id": "q085",
+  "question_text": "How should institutions structure professional development so teachers gain real AI competence rather than one-off training?",
+  "current_edition": 88,
+  "claims": [
+    {
+      "claim_id": "q085-c01",
+      "text": "# Building Real AI Competence: How Institutions Should Structure Teacher Professional Development\n\nThe instinct to address a new challenge with a single, intensive training day is understandable but consistently wrong. Decades of research on technology integration in education have established, with unusual clarity, that one-off workshops produce minimal lasting change in classroom practice. Darling-Hammond and colleagues' landmark 2017 synthesis for the Learning Policy Institute identified the hallmarks of effective professional development: it is content-focused, incorporates active learning, supports collaboration, uses models of effective practice, provides coaching and expert support, offers feedback and reflection, and — critically — is sustained over time. Each of these characteristics stands in direct opposition to the format most institutions default to when a new technology arrives. Artificial intelligence is no different, and the temptation to treat it as a special case requiring only a briefing rather than genuine professional formation is one institutions should resist.\n\nThe core argument is structural. Competence in using AI tools for teaching is not a piece of declarative knowledge that can be transmitted in an afternoon; it is a practical capacity that develops through repeated cycles of experimentation, failure, reflection, and refinement. A teacher who attends a demonstration of a generative AI tool and then returns to an unchanged classroom environment has no scaffold for integrating what they have seen, no colleague to consult when something goes wrong, and no protected time to try again. The research on general educational technology adoption shows that without these conditions, even enthusiastic early adopters tend to revert to familiar routines within weeks. There is no reason to expect AI adoption to escape this pattern, and early institutional reports from schools that have attempted awareness-only training suggest it does not.\n\nWhat the evidence recommends instead is professional development that is job-embedded — meaning it is woven into the ordinary rhythms of teaching rather than extracted from them. This takes several forms. Instructional coaching, in which a knowledgeable colleague works alongside a teacher over an extended period, has one of the strongest evidence bases in the broader PD literature. Applied to AI, this means coaches who can sit with a teacher while they design an AI-assisted assignment, observe what happens in the classroom, and then debrief on what worked and what did not. The feedback loop is tight, the context is authentic, and the learning is cumulative. This is expensive and logistically demanding, which is precisely why institutions avoid it — and precisely why the gap between awareness and competence remains so wide.\n\nCollaborative professional learning communities offer a more scalable complement to coaching. When teachers meet regularly in subject-specific or grade-level groups to share AI experiments, examine student work produced with AI assistance, and collectively develop institutional norms around academic integrity and pedagogical purpose, the learning becomes distributed rather than dependent on any single expert. There is an important caveat here: the research on professional learning communities shows that their quality varies enormously. Groups that meet without structured protocols, clear goals, or accountability mechanisms tend to drift toward complaint-sharing rather than genuine inquiry. Institutions need to invest in the facilitation of these communities, not merely create the calendar space for them.\n\nA further structural consideration concerns the sequencing of content. AI competence is not monolithic. It encompasses technical fluency with specific tools, conceptual understanding of how large language models work and where they fail, pedagogical judgment about when AI use serves learning and when it undermines it, and ethical reasoning about data privacy, bias, and equity. These domains require different kinds of learning and different timescales. Institutions that conflate them — offering a single session that tries to cover everything — produce teachers who feel vaguely informed but specifically capable of nothing. A more defensible approach sequences these domains deliberately, beginning with enough conceptual grounding that teachers can evaluate tools critically, moving to supervised experimentation in low-stakes contexts, and only then expecting independent integration into assessed student work.\n\nOne genuinely contested question in the emerging literature concerns the role of teacher agency in PD design. Some researchers argue that mandated, institution-wide AI training is counterproductive because it treats teachers as passive recipients rather than professional learners, generating resistance that undermines even well-designed programmes. Others contend that voluntary participation systematically excludes the teachers most in need of support, entrenching inequalities in AI literacy across a school. The honest answer is that neither pure mandate nor pure voluntarism is sufficient; institutions need to create conditions in which engagement feels purposeful and professionally meaningful rather than merely compulsory, while still ensuring that no teacher is left without access to sustained support.\n\nWhat the evidence does not support is the status quo. The one-day workshop, the vendor demonstration, the policy document distributed without follow-up — none of these produce the kind of reflective, adaptive, critically informed AI practice that students deserve from their teachers. Real competence is built slowly, collaboratively, and in direct contact with the messy realities of actual classrooms. Institutions that design their professional development accordingly will find the investment repaid; those that do not will find themselves repeating the same introductory training, year after year, to diminishing effect.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://learningpolicyinstitute.org/product/effective-teacher-professional-development-report",
+          "title": "https://learningpolicyinstitute.org/product/effective-teacher-professional-development-report",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s11528-022-00715-y",
+          "title": "https://link.springer.com/article/10.1007/s11528-022-00715-y",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/digital-education/ai-future-learning",
+          "title": "https://www.unesco.org/en/digital-education/ai-future-learning",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000380602",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000380602",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://hai.stanford.edu/news/ai-education-k-12",
+          "title": "https://hai.stanford.edu/news/ai-education-k-12",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.iste.org/areas-of-focus/AI-in-education",
+          "title": "https://www.iste.org/areas-of-focus/AI-in-education",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 88
+    }
+  ],
+  "answer_summary": "The instinct to address a new challenge with a single, intensive training day is understandable but consistently wrong. Decades of research on technology integration in education have established, with unusual clarity, that one off workshops produce minimal lasting change in classroom practice.",
+  "disputed_aspects": []
+}

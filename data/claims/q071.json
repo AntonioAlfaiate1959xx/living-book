@@ -1,0 +1,61 @@
+{
+  "question_id": "q071",
+  "question_text": "What does an effective institutional AI policy contain, and what distinguishes policies that work from those ignored in practice?",
+  "current_edition": 74,
+  "claims": [
+    {
+      "claim_id": "q071-c01",
+      "text": "# What Effective Institutional AI Policy Contains, and Why Most Policies Fail in Practice\n\nWhen generative AI tools became widely accessible in late 2022 and throughout 2023, educational institutions faced immediate pressure to respond. The result, across higher education in particular, was a wave of hastily drafted policies that satisfied the demand for institutional action without necessarily guiding it. The EDUCAUSE 2024 AI Landscape Study, which examined dozens of institutional policy documents, found that the majority fell into one of two failure modes: they were either so vague as to offer no practical direction, or so rigid that they became obsolete within months as the tools themselves evolved. Understanding what separates effective policy from performative policy requires examining both the structural features of the documents themselves and the institutional conditions that determine whether any policy is actually followed.\n\nThe most durable policies, according to the EDUCAUSE analysis, avoid the trap of naming specific tools and instead specify *categories* of acceptable and unacceptable use. A policy that prohibits \"ChatGPT\" by name is already partially outdated; a policy that addresses the use of AI-generated text submitted without disclosure, or the feeding of confidential student data into external language models, remains relevant regardless of which particular system is involved. This categorical approach requires more careful drafting, because it demands that institutions think through the underlying principles — around academic integrity, data privacy, equity of access, and pedagogical purpose — rather than reacting to a specific product. The effort, however, pays dividends in longevity and applicability.\n\nSpecificity and adaptability are not opposites, but achieving both simultaneously is genuinely difficult. Effective policies tend to resolve this tension by operating at two levels: a stable core of principles and prohibited conduct that changes rarely, and a set of implementation guidelines or annexes that can be updated more frequently as circumstances shift. The core might establish that undisclosed AI assistance in assessed work constitutes a breach of academic integrity, while the implementation guidance addresses how disclosure should be made, what counts as meaningful human authorship, and how instructors should handle ambiguous cases. Separating these layers allows the institution to respond to new developments without reopening foundational debates every time a new tool appears.\n\nWhat the evidence consistently shows is that the content of a policy, however well-crafted, is a necessary but insufficient condition for compliance. The more consequential variable is the process by which the policy was developed. Policies that emerge from genuine consultation — involving faculty, students, academic integrity officers, legal counsel, and IT — tend to be followed more consistently than those handed down from senior administration or legal teams alone. This is partly because consultation surfaces practical objections and edge cases that top-down drafting misses, and partly because stakeholders who participated in shaping a policy feel a degree of ownership over it. A faculty member who argued for a particular formulation during a working group is more likely to apply it thoughtfully in their course than one who received the final document by email.\n\nTraining and communication matter enormously, and here most institutions have underinvested. A policy document, however clear, does not automatically translate into changed behaviour. Faculty need concrete guidance on how to apply categorical rules to specific situations — whether a student using AI to generate a first draft and then substantially revising it constitutes a violation, for instance, is a question that reasonable people answer differently, and policy silence on such cases produces inconsistency. Students, meanwhile, frequently report confusion about what is and is not permitted, particularly when policies vary across courses or departments. The EDUCAUSE findings suggest that institutions with lower rates of policy confusion tend to be those that have invested in worked examples, scenario-based training, and accessible points of contact for questions.\n\nThere is also a structural tension that no amount of good drafting fully resolves: the gap between institutional policy and course-level practice. Many instructors treat AI policy as a matter of individual pedagogical discretion, adjusting permissions assignment by assignment. This is not inherently unreasonable — the appropriate role of AI assistance in a creative writing workshop differs from its role in a statistics exam — but it creates a fragmented landscape that students find difficult to navigate. Effective institutional policy tends to acknowledge this reality explicitly, establishing a baseline of institutional expectations while granting instructors defined latitude to be more permissive or more restrictive within their courses, provided they communicate their position clearly in course materials.\n\nWhat distinguishes policies that work, then, is not any single feature but a combination: categorical rather than tool-specific framing, a layered structure that separates stable principles from updatable guidance, genuine stakeholder involvement in drafting, investment in training and communication, and explicit acknowledgment of the course-level variation that will inevitably occur. Institutions that treat policy as a compliance exercise — something to publish and file — will find it ignored. Those that treat it as the beginning of an ongoing institutional conversation about the role of AI in learning are more likely to find it shaping practice in the ways they intend.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://www.educause.edu/research-and-publications/research/educause-ai-landscape-study",
+          "title": "https://www.educause.edu/research-and-publications/research/educause-ai-landscape-study",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://fpf.org/blog/fpf-releases-student-privacy-and-ai-a-framework-for-schools-and-colleges/",
+          "title": "https://fpf.org/blog/fpf-releases-student-privacy-and-ai-a-framework-for-schools-and-colleges/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X23000097",
+          "title": "https://www.sciencedirect.com/science/article/pii/S2666920X23000097",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://cdt.org/insights/automated-and-artificial-intelligence-tools-in-education/",
+          "title": "https://cdt.org/insights/automated-and-artificial-intelligence-tools-in-education/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://hai.stanford.edu/sites/default/files/2023-03/AI-Ed-White-Paper.pdf",
+          "title": "https://hai.stanford.edu/sites/default/files/2023-03/AI-Ed-White-Paper.pdf",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 74
+    }
+  ],
+  "answer_summary": "When generative AI tools became widely accessible in late 2022 and throughout 2023, educational institutions faced immediate pressure to respond. The result, across higher education in particular, was a wave of hastily drafted policies that satisfied the demand for institutional action without necessarily guiding it.",
+  "disputed_aspects": []
+}

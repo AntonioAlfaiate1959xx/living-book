@@ -1,97 +1,62 @@
 {
   "question_id": "q023",
   "question_text": "What pedagogical models (Socratic, constructivist, mastery-based) does AI enable at scale for the first time?",
-  "current_edition": 1,
+  "current_edition": 26,
   "claims": [
     {
       "claim_id": "q023-c01",
-      "text": "**Pedagogical Models AI Enables at Scale**\n\nFor most of recorded educational history, the most powerful models of teaching have been the least scalable. The Socratic method requires a patient interlocutor willing to withhold answers, ask probing questions, and tailor each query to the particular confusion of a particular student. Constructivism demands that learners actively build knowledge through exploration rather than passive reception. Mastery-based learning insists that no student advance until genuine competence is demonstrated. All three ideals share the same structural problem: they are labour-intensive, individualized, and therefore expensive. A well-resourced university tutorial, a one-on-one Montessori session, a personalised mastery curriculum — these have historically been luxuries. AI is now dismantling that constraint, though with important caveats about what is genuinely enabled versus what is merely promised.\n\n**The Socratic method** is perhaps the most dramatic case. The classic Socratic move is to respond to a student's question with another question — not obstruction, but redirection toward self-generated insight. Socratic tutoring, rooted in the philosophies of Socrates, emphasises dialogue and questioning to nurture critical thinking; by engaging students in structured conversations, it fosters deeper understanding and encourages learners to articulate their reasoning, developing higher-order skills such as analysing, evaluating, and synthesising information. The trouble is that a human tutor employing this method can work with only one student at a time. AI systems now implement the approach through deliberate design constraints. Khanmigo, Khan Academy's AI tutor built on GPT-4 and fine-tuned across 842 courses, operates on a core design principle: it never gives the answer. In a parallel UK classroom trial, Google's LearnLM was prompted to draft concise, Socratic responses aimed at guiding students to self-correct specific misconceptions without revealing the answer. A 2025 randomised controlled trial run across UK schools found that such AI-delivered Socratic tutoring was pedagogically effective, and a Georgia Tech initiative demonstrated that AI can even scale the traditionally resource-prohibitive viva-style oral exam to measure reasoning depth across large cohorts.\n\nYet the limits are real. If a student does not bring genuine cognitive effort to the conversation, the Socratic method collapses — leaving a chatbot asking questions to someone who has checked out. The method's power depends on a kind of intellectual reciprocity that AI cannot compel.\n\n**Constructivism** — the view, associated with Piaget and Vygotsky, that knowledge must be built rather than transmitted — maps naturally onto what adaptive AI systems do best. Adaptive content sequencing, learner-controlled pacing, and feedback personalisation, all commonly implemented in AI systems, are conceptually grounded in constructivist learning theory, which views learning as an active process of knowledge construction shaped by prior experience and contextual interaction. In practice, this means an AI platform can scaffold a student's encounter with new material so that each concept is an extension of something already understood, rather than an arbitrary external imposition. The ability to analyse individual learning patterns and adapt content accordingly ensures that students are engaged at an optimal level of challenge, promoting deeper learning and retention. What is genuinely new is the simultaneous personalisation of this process for thousands of learners at once — something no human teacher or fixed curriculum could attempt.\n\n**Mastery-based learning** may be where AI's structural advantage is clearest. The classical criticism of time-based schooling — that it advances students by calendar rather than by competence — is well-documented. Mastery models, which insist on demonstrated understanding before progression, solve this problem in theory but create an administrative and logistical burden that overwhelmed most institutional attempts. AI-powered adaptive learning systems offer a bespoke learning experience that dynamically adjusts based on each student's unique learning style, pace, and comprehension levels, preemptively identifying areas of difficulty and offering targeted resources to ensure mastery of content. If a student struggles with fractions but excels at geometry, the system identifies this discrepancy and adjusts instructional materials accordingly, providing additional practice or alternative explanations specifically targeting the gap. A systematic review of empirical studies found that adaptive systems can reduce learning time by 30–50% while improving learning outcomes by 15–25% compared to traditional instructional methods.\n\nAcross all three models, an honest accounting must acknowledge the problems that accompany the promise. Critical challenges persist in model interpretability, data privacy, and scalability, especially in low-resource settings. Traditional educational approaches constrained by practical limitations of classroom instruction and resource availability have historically struggled to provide truly individualised learning experiences at scale — and AI does not automatically dissolve every one of those constraints. Equity of access, algorithmic bias, and the risk Dartmouth researchers call an \"illusion of mastery\" — the danger of cognitively outsourcing all thinking and learning to AI without genuinely learning anything — remain live concerns that the evidence has not resolved. What is nonetheless historically significant is that for the first time, the structural ceiling preventing these models from reaching millions of learners simultaneously has been lifted. Whether institutions and educators seize that opening intelligently is a separate, and still open, question.",
-      "reliability": "established",
+      "text": "# Pedagogical Models AI Enables at Scale\n\nFor most of the history of formal education, the most powerful ways of teaching have also been the least scalable. The Socratic dialogue, the constructivist project, the mastery-based progression — each demands something that mass instruction cannot provide: sustained, responsive attention to an individual learner's current state of understanding. A single teacher facing thirty students must compress, standardize, and approximate. What artificial intelligence introduces, at least in principle, is the possibility of dissolving that trade-off — of delivering pedagogically sophisticated instruction to thousands of learners simultaneously without collapsing into the one-size-fits-all logic that has long defined institutional schooling.\n\nThe Socratic method is perhaps the most demanding of the three models to replicate, because it is fundamentally a conversational art. It requires an interlocutor who can detect the precise shape of a student's misconception, formulate a question that exposes rather than corrects it, and then follow the student's response into whatever territory it opens. Historically, this has meant small seminars or one-on-one tutoring — contexts available to a privileged minority of learners. Intelligent Tutoring Systems have been working toward a computational approximation of this dynamic for decades. AutoTutor, developed by Arthur Graesser and colleagues, uses natural language processing to engage students in dialogue about physics, computer literacy, and critical thinking, posing questions, detecting gaps in reasoning, and nudging students toward self-correction rather than simply supplying answers. The evidence base for such systems is now substantial: meta-analyses of ITS research consistently show effect sizes in the range of 0.4 to 0.8 standard deviations compared to conventional classroom instruction — a meaningful gain, though researchers are careful to note that these comparisons depend heavily on what counts as the control condition. The arrival of large language models has extended these capabilities considerably, enabling more fluent and contextually sensitive dialogue than earlier rule-based systems could manage, though whether LLM-based tutors genuinely replicate Socratic reasoning or merely simulate its surface features remains an open and important question.\n\nConstructivism presents a different kind of scaling challenge. Where Socratic tutoring is dialogic, constructivist pedagogy is generative: it asks students to build knowledge through exploration, experimentation, and the construction of artifacts — essays, models, designs, solutions to open-ended problems. The difficulty of scaling this approach has always been evaluative. Open-ended work resists automated assessment, and without timely, substantive feedback, the constructivist loop breaks down. AI changes this in several ways. Generative AI systems can now engage with student-produced work at a level of specificity that was previously impossible to automate — commenting not just on surface features but on the coherence of an argument, the validity of a model, or the originality of a design approach. Platforms built around project-based learning are beginning to use AI to scaffold the construction process itself, prompting students with questions at moments of apparent stagnation and offering resources calibrated to the direction a student's inquiry is taking. This remains an emerging area, and the research base is thinner than for ITS; there are legitimate concerns about whether AI feedback on creative or argumentative work is reliable enough to support genuine constructivist learning, or whether it introduces systematic biases that distort the process.\n\nMastery-based learning — the model associated with Benjamin Bloom's famous \"2 sigma problem\" — may be the area where AI's scaling potential is most clearly established. Bloom demonstrated in 1984 that one-on-one tutoring, which allows a student to advance only upon demonstrating genuine mastery of each concept, produced learning outcomes two standard deviations above conventional group instruction. The obstacle was always logistical: individualized mastery progression requires continuous assessment and curriculum branching that no human teacher can sustain across a full classroom. Adaptive learning systems have been addressing this problem for years, and the evidence that well-designed adaptive platforms improve learning outcomes — particularly in mathematics and the sciences — is among the more robust findings in educational technology research. Systems like those deployed by Khan Academy and various university-level adaptive courseware providers track student performance at a granular level, identify prerequisite gaps, and route learners through content sequences tailored to their demonstrated needs. The integration of more sophisticated AI has made these systems more responsive and more capable of distinguishing between a student who has memorized a procedure and one who has understood the underlying principle.\n\nWhat unites these three models is that each, in its classical form, required a human expert to hold a detailed, dynamic model of an individual learner's mind. That requirement was the bottleneck. AI does not eliminate the need for such a model — it attempts to construct and maintain one computationally, updating it in real time as the learner responds. Whether the computational model is ever rich enough to fully substitute for a skilled human teacher is genuinely contested. What is less contested is that it can approximate these pedagogical ideals at a scale, and at a cost, that makes them accessible to learners who would otherwise encounter only their pale institutional substitutes.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1528603/full",
-          "title": "Frontiers | Socratic wisdom in the age of AI: a comparative study of ChatGPT and human tutors in enhancing critical thinking skills",
+          "url": "https://link.springer.com/article/10.3758/BF03195563",
+          "title": "https://link.springer.com/article/10.3758/BF03195563",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.buildmvpfast.com/blog/ai-tutoring-khanmigo-case-study-2026",
-          "title": "AI Tutoring at Scale: Khan Academy's Khanmigo Case Study",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X21000114",
+          "title": "https://www.sciencedirect.com/science/article/pii/S2666920X21000114",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.jstor.org/stable/1175554",
+          "title": "https://www.jstor.org/stable/1175554",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.carnegielearning.com/research/",
+          "title": "https://www.carnegielearning.com/research/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://arxiv.org/html/2512.23633v1",
-          "title": "AI tutoring can safely and effectively support students: An exploratory RCT in UK classrooms",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://aicompetence.org/ai-socratic-tutors/",
-          "title": "AI Socratic Tutors: Teaching The World To Think",
+          "url": "https://www.cast.org/products-services/resources/2022/ai-universal-design-learning",
+          "title": "https://www.cast.org/products-services/resources/2022/ai-universal-design-learning",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1782626/full",
-          "title": "Frontiers | Artificial intelligence in education: a systematic review of personalized learning trends and future directions",
+          "url": "https://journals.sagepub.com/doi/10.1177/00222194211070638",
+          "title": "https://journals.sagepub.com/doi/10.1177/00222194211070638",
           "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.1177/02734753241288876",
-          "title": "A Constructivist Approach to Integrating AI in Marketing Education: Bridging Theory and Practice - Shahper Richter, Marilyn Giroux, Inna Piven, Herbert Sima, Patrick Dodd, 2025",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://elearningindustry.com/ai-powered-adaptive-learning-ushering-in-a-new-era-of-education-in-2025",
-          "title": "AI-Powered Adaptive Learning: Ushering In A New Era Of Education In 2025",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/sd.3221",
-          "title": "AI‐driven adaptive learning for sustainable educational transformation - Strielkowski - 2025 - Sustainable Development - Wiley Online Library",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://drpress.org/ojs/index.php/ijeh/article/view/31572",
-          "title": "Personalized Learning and Adaptive Systems: AI-Driven Educational Innovation and Student Outcome Enhancement | International Journal of Education and Humanities",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://link.springer.com/article/10.1007/s44217-025-00908-6",
-          "title": "Artificial intelligence in adaptive education: a systematic review of techniques for personalized learning | Discover Education | Springer Nature Link",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://home.dartmouth.edu/news/2025/11/ai-can-deliver-personalized-learning-scale-study-shows",
-          "title": "AI Can Deliver Personalized Learning at Scale, Study Shows | Dartmouth",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 26
     }
   ],
-  "answer_summary": "Pedagogical Models AI Enables at Scale For most of recorded educational history, the most powerful models of teaching have been the least scalable. The Socratic method requires a patient interlocutor willing to withhold answers, ask probing questions, and tailor each query to the particular confusion of a particular student.",
+  "answer_summary": "For most of the history of formal education, the most powerful ways of teaching have also been the least scalable. The Socratic dialogue, the constructivist project, the mastery based progression — each demands something that mass instruction cannot provide: sustained, responsive attention to an individual learner's current state of understanding.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

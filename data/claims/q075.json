@@ -1,0 +1,61 @@
+{
+  "question_id": "q075",
+  "question_text": "What academic-integrity frameworks have institutions adopted to replace binary \"cheating/not cheating\" models, and how are they working?",
+  "current_edition": 78,
+  "claims": [
+    {
+      "claim_id": "q075-c01",
+      "text": "## Beyond Cheating and Not Cheating: How Institutions Are Rethinking Academic Integrity\n\nFor most of the twentieth century, academic integrity operated on a simple binary: a student either cheated or did not, and the institutional response followed accordingly. That model, however clean in theory, proved increasingly inadequate as the realities of student work grew more complex — collaborative writing cultures, patchwork paraphrasing, contract cheating services, and, most recently, generative artificial intelligence have all exposed the binary's inability to capture what actually happens when students produce academic work. In response, a significant number of institutions have moved toward what researchers associated with the International Center for Academic Integrity (ICAI) describe as \"graduated\" or \"spectrum-based\" frameworks, which treat academic dishonesty not as a single category but as a continuum of severity and intentionality.\n\nThe conceptual shift is substantial. Where the old model asked only whether a violation occurred, spectrum-based frameworks ask a series of more granular questions: How serious was the breach? Was it deliberate or the product of misunderstanding? Was the student a first offender or a repeat one? Did the conduct involve personal gain at the expense of others, or did it reflect confusion about norms? These distinctions matter because they allow institutions to calibrate responses — educational interventions for minor or inadvertent infractions, formal sanctions for deliberate or serious ones — rather than applying the same disciplinary machinery to a student who miscited a source and one who purchased an essay wholesale.\n\nThe practical architecture of these frameworks varies, but several common features have emerged. Many institutions now operate tiered systems in which low-level infractions, such as poor paraphrasing or incomplete attribution, are handled at the course level through mandatory academic-skills instruction rather than formal adjudication. Mid-level violations — deliberate plagiarism, unauthorized collaboration — typically trigger departmental review with outcomes ranging from grade penalties to required integrity modules. The most serious offences, including contract cheating and systematic deception, are escalated to institutional panels with the capacity to impose suspension or expulsion. Crucially, most of these systems build in a record-keeping mechanism that allows a pattern of lower-level infractions to be recognized and treated more seriously over time, addressing the concern that lenient handling of early violations enables escalation.\n\nThe evidence on how well these frameworks are working is genuinely mixed, and intellectual honesty requires acknowledging that tension. On the positive side, institutions that have adopted spectrum models report higher rates of faculty reporting, a finding that makes intuitive sense: instructors who previously avoided formal processes because they seemed disproportionate to minor infractions are more willing to engage when a proportionate, educational response is available. There is also some evidence that students who receive educational rather than purely punitive responses to first offences show lower rates of subsequent violations, suggesting that the rehabilitative logic underlying these frameworks has some empirical support.\n\nAt the same time, critics raise legitimate concerns. One persistent problem is inconsistency: when discretion is distributed across individual instructors and departments, students in different programs or with different instructors may receive dramatically different treatment for comparable conduct, raising equity concerns. This is not a trivial objection. Research on how bias operates in academic misconduct proceedings suggests that students from underrepresented groups are sometimes judged more harshly, and a system that multiplies the points at which individual judgment is exercised may amplify rather than reduce that disparity. Institutions have attempted to address this through calibration training and standardized rubrics, but whether those interventions are sufficient remains an open question.\n\nThe arrival of generative AI has stress-tested these frameworks in ways that were not anticipated when most of them were designed. AI-assisted writing does not map neatly onto existing categories: it is not plagiarism in the traditional sense, it may or may not involve deliberate deception depending on whether the student understood the rules, and the degree of reliance on AI output varies enormously. Some institutions have responded by adding AI-specific tiers to their existing frameworks, distinguishing between undisclosed AI use, partial AI assistance with human revision, and wholesale AI generation. Others have opted for a more radical rethink, treating AI as a tool whose permissibility is assignment-specific rather than categorically prohibited or permitted. Neither approach has yet accumulated enough longitudinal data to permit confident evaluation.\n\nWhat the evidence does support, with reasonable confidence, is that the binary model it replaced was not working. High rates of unreported violations, faculty reluctance to engage formal processes, and student confusion about norms all pointed to a system that was simultaneously too blunt and too punitive to function well. The spectrum-based frameworks now being adopted represent a more sophisticated and arguably more honest account of how academic misconduct actually occurs. Whether they will prove durable as AI continues to reshape what student work looks like is the central unresolved question facing the field.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://academicintegrity.org/resources/fundamental-values",
+          "title": "https://academicintegrity.org/resources/fundamental-values",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/03075079.2018.1527824",
+          "title": "https://www.tandfonline.com/doi/full/10.1080/03075079.2018.1527824",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.educause.edu/ecar/research-publications/2023/ecar-study-of-students-and-technology-2023",
+          "title": "https://www.educause.edu/ecar/research-publications/2023/ecar-study-of-students-and-technology-2023",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1023/A:1014893102151",
+          "title": "https://link.springer.com/article/10.1023/A:1014893102151",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://journalhosting.ucalgary.ca/index.php/cjeap/article/view/75415",
+          "title": "https://journalhosting.ucalgary.ca/index.php/cjeap/article/view/75415",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/02602938.2018.1542608",
+          "title": "https://www.tandfonline.com/doi/full/10.1080/02602938.2018.1542608",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 78
+    }
+  ],
+  "answer_summary": "For most of the twentieth century, academic integrity operated on a simple binary: a student either cheated or did not, and the institutional response followed accordingly.",
+  "disputed_aspects": []
+}

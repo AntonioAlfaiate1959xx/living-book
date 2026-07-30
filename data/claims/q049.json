@@ -1,69 +1,62 @@
 {
   "question_id": "q049",
   "question_text": "What shared human culture and values should education transmit when AI fragments information into personalized realities?",
-  "current_edition": 1,
+  "current_edition": 52,
   "claims": [
     {
       "claim_id": "q049-c01",
-      "text": "## The Epistemic Commons: What Education Must Preserve When AI Splinters Reality\n\nThe deepest threat posed by AI-driven personalization is not misinformation in the conventional sense — it is the dissolution of a shared world. At a societal level, if everyone interacts with differently personalized systems calibrated to their particular preferences and beliefs, shared reality and common knowledge may erode. This is the civilizational wager now sitting, largely unexamined, at the heart of educational policy. The question is not only what children should learn, but what they must learn *in common* — and why that commonality itself is a moral and political good.\n\nThe problem is more layered than early warnings about filter bubbles suggested. In increasingly personalized media environments, individuals encounter information that aligns with their existing beliefs, raising concerns about polarization, intergroup hostility, and the erosion of shared political reality — and filter bubbles emerge not from algorithms alone, but through the recursive interaction of motivated cognitive processing, identity-based social networks, and algorithmic amplification. AI does not simply distort the information landscape from the outside; it reshapes the internal habits by which people seek, weigh, and revise knowledge. AI systems impact not only beliefs, but belief revision itself — and in the classroom, this implies students will update their knowledge in response to algorithmic authority, without recourse to further justification or reflection.\n\nThis is where the educational stakes become philosophical rather than merely technical. The values underpinning current forms of educational AI — individualism, mastery-based learning, automation of teaching — work directly against many of the core elements of how democratic education has been understood by educationalists such as John Dewey over the past century. Personalized learning optimizes the individual learner's trajectory through content; democratic education, by contrast, has always been partly about the friction of encountering minds unlike one's own, negotiating disagreement, and building the civic capacity to inhabit a world held in common. The current push for educational AI is resulting in technologies that diminish students' opportunities for communication and collaboration with others.\n\nWhat, then, should education transmit? Three clusters of value emerge from current scholarship as non-negotiable, regardless of what AI systems can deliver efficiently.\n\nThe first is *epistemic agency* — the cultivated capacity to interrogate sources, tolerate uncertainty, and resist the seduction of algorithmic fluency. AI tools that prioritize speed and convenience risk amplifying automation bias, reducing cognitive struggle, and weakening critical thinking; to counteract this, AI must preserve cognitive friction — prompting retrieval, offering delayed feedback, framing uncertainty as opportunity — so that it fosters intellectual resilience and the critical thinking skills vital for democratic society. The transmission of this value requires teachers who model doubt, not just delivery.\n\nThe second is *shared factual ground* — a curriculum that insists certain things are true, contested, or false independent of any individual's preference profile. Through algorithmic filtering and personalized content, individuals are nudged toward specific viewpoints without awareness, limiting exposure to diverse information and weakening their capacity for independent thought — and the resulting manipulation diminishes individuals' ability to make informed choices, undermining democratic participation. Education's answer must be a commitment to evidence, method, and the disciplines that have developed collectively-validated ways of knowing: scientific reasoning, historical analysis, literary interpretation, mathematical proof.\n\nThe third is *solidarity through encounter* — the experience of being educated alongside people whose lives, backgrounds, and conclusions differ from one's own. Education for democracy is a holistic and participatory approach that fosters the knowledge, skills, values, and attitudes needed for active and responsible citizenship, going beyond textbooks by emphasising experiential and inclusive learning that strengthens democratic competencies such as critical thinking, dialogue, agency, and meaningful participation. No AI tutor, however sophisticated, replicates the moral education that occurs when a classroom must reach understanding across genuine disagreement.\n\nUltimately, an ethical use of AI in education is about preserving education as a space for autonomy, critical inquiry, and democratic formation — because if AI systems undermine these values, they risk weakening not just learning outcomes, but the social institutions that depend on educated, reflective, and empowered citizens. The curriculum of the future will need to be deliberately, even stubbornly, common: not because uniformity is a virtue, but because a democracy requires citizens who can, at minimum, argue about the same world.",
-      "reliability": "established",
+      "text": "## The Common World at Risk: Education, AI Personalization, and the Transmission of Shared Culture\n\nThe question of what education should transmit has always been contested, but it has rarely been as urgent as it is now. When artificial intelligence systems tailor information environments to individual preferences, they do not merely customize learning — they risk dissolving the shared epistemic ground on which democratic culture, moral reasoning, and civic life depend. The challenge for education is therefore not simply pedagogical but civilizational: how to sustain a common world when the dominant technologies of knowledge distribution are pulling steadily in the opposite direction.\n\nThe empirical case for concern begins with what researchers call the filter bubble problem. Eli Pariser's foundational work demonstrated that algorithmic personalization systematically narrows the information environments individuals encounter, reducing their exposure to divergent or challenging viewpoints. A landmark 2015 study by Bakshy, Messing, and Adamic, published in *Science*, examined the behavior of millions of Facebook users and found that algorithmic curation meaningfully reduced the cross-cutting content people saw, even when such content was available in their networks. The study's findings are contested in their precise magnitude — some researchers argue that individual self-selection plays a larger role than the algorithm itself — but the directional conclusion is robust: personalization tends toward epistemic enclosure. When AI tutoring systems, content platforms, and recommendation engines are applied to education, they import this same logic. A student whose learning environment is optimized for engagement and comfort will encounter fewer of the dissonant ideas, unfamiliar traditions, and morally complex texts that education has historically used to expand rather than confirm the self.\n\nThis creates a structural tension at the heart of contemporary schooling. The efficiency gains from AI personalization are real: adaptive systems can identify gaps in understanding, adjust pacing, and sustain motivation in ways that uniform instruction cannot. But efficiency in the transmission of skills is not the same as education in the fuller sense. The Western tradition of liberal education, and its analogues in other cultures, has always insisted that schooling must do something more than optimize individual performance — it must initiate the young into a shared inheritance. That inheritance includes not only canonical texts and historical narratives but the habits of mind required to engage with people whose formation has been different from one's own.\n\nThe question of which shared culture education should transmit is, of course, genuinely contested. Critics of traditional canons have rightly pointed out that what presents itself as universal culture has often been the culture of dominant groups, and that the exclusion of other traditions from the curriculum has carried real costs for students whose histories were rendered invisible. This debate is not resolved by the arrival of AI; if anything, personalization sharpens it. An AI system trained on existing cultural hierarchies will reproduce them; one designed to reflect each student's existing cultural context risks reinforcing parochialism rather than expanding it. Neither outcome is satisfactory.\n\nWhat the research suggests, however, is that the answer cannot be the abandonment of shared content in favor of purely individualized pathways. Societies require what the philosopher Hannah Arendt called a \"common world\" — a set of shared references, stories, and values that make genuine public conversation possible. Without some common curriculum, students from different backgrounds have no meeting ground, no shared vocabulary for disagreement, no basis for the kind of mutual recognition that democratic life requires. The transmission of this common world is precisely what AI-driven personalization, left unchecked, tends to erode.\n\nEducation's response must therefore be deliberate and structural. Several principles emerge from the evidence. First, shared texts and experiences — literature, history, scientific reasoning, ethical philosophy — should remain a non-negotiable core of schooling, not because any particular canon is beyond criticism, but because the act of studying the same things together is itself educationally significant. Second, the curriculum should explicitly include the skills of navigating disagreement: media literacy, the evaluation of sources, the capacity to engage charitably with opposing arguments. These are not merely technical competencies but civic virtues, and they are precisely what filter-bubble environments fail to cultivate. Third, educators and policymakers must scrutinize the design of AI systems used in schools, asking not only whether they improve test scores but whether they expose students to the breadth of human experience or narrow it.\n\nNone of this requires rejecting the genuine benefits of adaptive technology. It requires insisting that personalization serve educational ends rather than define them. The deepest values education must transmit — intellectual honesty, respect for evidence, the capacity for empathy across difference, and a sense of obligation to a world larger than oneself — are not values that any algorithm will spontaneously generate. They must be chosen, defended, and taught. That act of choosing is itself a cultural and moral commitment, and it belongs to human educators, not to the systems they deploy.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2606.07629",
-          "title": "Large Language Models Should Learn Personalized Rather Than Aggregated Human Preferences",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1740709/full",
-          "title": "Frontiers | Emotion as a cross-layer mechanism in filter bubbles: a social-psychological perspective",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full",
-          "title": "Frontiers | Epistemic authority and generative AI in learning spaces: rethinking knowledge in the algorithmic age",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://nepc.colorado.edu/blog/why-ai",
-          "title": "Critical Studies of Education & Technology: Why AI Will Not Democratize Education (notes on Wieczorek 2025)",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/html/2602.04598v1",
-          "title": "AI in Education Beyond Learning Outcomes: Cognition, Agency, Emotion, and Ethics",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2505.13565",
-          "title": "Aligning Trustworthy AI with Democracy: A Dual Taxonomy of Opportunities and Risks",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://democrat-horizon.eu/how-ai-can-shape-education-for-democracy/",
-          "title": "How AI Can Shape Education for Democracy: Opportunities and Risks - Democrat | Education for Democracy",
+          "url": "https://www.science.org/doi/10.1126/science.aaa1160",
+          "title": "https://www.science.org/doi/10.1126/science.aaa1160",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/234622491_Multicultural_Education_Historical_Development_Dimensions_and_Practice",
+          "title": "https://www.researchgate.net/publication/234622491_Multicultural_Education_Historical_Development_Dimensions_and_Practice",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/10.3102/0002831216679817",
+          "title": "https://journals.sagepub.com/doi/10.3102/0002831216679817",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/00131857.2013.779010",
+          "title": "https://www.tandfonline.com/doi/abs/10.1080/00131857.2013.779010",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+          "title": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 52
     }
   ],
-  "answer_summary": "The deepest threat posed by AI driven personalization is not misinformation in the conventional sense — it is the dissolution of a shared world. At a societal level, if everyone interacts with differently personalized systems calibrated to their particular preferences and beliefs, shared reality and common knowledge may erode.",
+  "answer_summary": "The question of what education should transmit has always been contested, but it has rarely been as urgent as it is now. When artificial intelligence systems tailor information environments to individual preferences, they do not merely customize learning — they risk dissolving the shared epistemic ground on which democratic culture, moral reasoning, and civic life depend.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

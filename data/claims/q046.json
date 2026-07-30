@@ -1,104 +1,62 @@
 {
   "question_id": "q046",
   "question_text": "What is the role of education in a society where economic productivity no longer requires most human labor — education for meaning rather than for jobs?",
-  "current_edition": 1,
+  "current_edition": 49,
   "claims": [
     {
       "claim_id": "q046-c01",
-      "text": "**Education for Meaning Rather Than for Jobs**\n\nThe industrial model of schooling was always, at its core, an economic instrument. It sorted children into future roles, credentialed them for employers, and measured success in terms of earning capacity. That arrangement made a kind of rough sense when human labor was the primary engine of economic output. The collision is now visible: education systems built in the industrial age are confronting technologies of an exponential age. The question of what schooling is *for* — long a philosophical afterthought — has become the most urgent practical question in education policy.\n\nThe scale of displacement is contested but substantial. Oxford Economics estimates that up to 300 million full-time jobs globally could be exposed to AI automation by 2030. More pointedly, there is a growing recognition that current institutions are still educating for a workforce defined by static roles, predictable ladders, and siloed knowledge — precisely the category of work most vulnerable to automation. The philosophical question of what gives human life meaning when economic productivity is no longer the organizing principle of society is moving from academic journals to policy agendas.\n\nWhat fills the gap depends entirely on what one believes education is fundamentally for. The dominant response from policy circles remains instrumental: reskill, pivot, prepare students for the *next* economy rather than acknowledge that the economy may need less of them. Scholars have warned that continued pressure on educational systems to perform for the economy will deepen social conflicts over access and stratification, and that narrow human capital models reduce the capacity of formal education to meet the expansive challenges of a post-work landscape. The utilitarian framework, in other words, becomes self-defeating the more thoroughly automation advances.\n\nA more durable alternative reaches back past the industrial era entirely. The Romans' *artes liberales* was a program of study intended to provide citizens with the skills free persons needed to flourish and participate actively and wisely in civic life. Liberal education, in this original sense, prioritizes the cultivation of intellectual faculties, critical reasoning, and moral discernment — and seeks to liberate the mind from narrow utility, fostering habits of inquiry and ethical judgment that enable individuals to pursue knowledge for its intrinsic value. The irony is sharp: education designed for people who did not need to work for a living may be exactly what a post-work society requires.\n\nIn the process of seeking to know what is good, such an education cultivates minds that help people lead flourishing lives of purpose and meaning, and to be better participants in shared political life. To practice liberal learning is to become equipped with habits of mind and character that allow one to construct a vision of the good life and society — a kind of education that forms students with the hearts and minds of engaged citizens, who have thought deeply with others about what it means to be a human being.\n\nThis is not mere nostalgia. The question is not whether to prepare students for an AI-shaped world, but how to do so in a way that keeps human flourishing, not just employability, at the center. Stanford's Rob Reich has highlighted the tension between using AI for automation versus augmentation, arguing that developing AI tools to mimic humans is misguided and that the focus should instead be on how AI can amplify and cultivate human intelligence. On this view, education's proper task is not to compete with machines but to develop what machines structurally cannot replicate: the capacity for ethical reasoning, aesthetic experience, civic deliberation, and the construction of a meaningful life.\n\nThe challenge lies in maintaining a sense of purpose and identity in a world where traditional job roles are diminished. Humans must rediscover purpose beyond economic productivity, finding meaning in relationships, creativity, learning, and community contribution. Whether institutions designed for credential-granting and workforce sorting can reinvent themselves as schools for living remains genuinely open. Depending on the choices made now, the future of education will be marked by expanded opportunity or deepened inequality. The material conditions — who has access to the leisure that meaningful education requires — cannot be separated from the philosophical vision. An education for meaning, divorced from serious attention to economic justice, risks becoming a privilege of the already free.",
-      "reliability": "established",
+      "text": "# Education After Work: Meaning, Identity, and the Post-Labor Question\n\nThe modern school was built, in large part, as a machine for producing workers. Historians of education such as David Labaree have traced how the \"social efficiency\" rationale — the idea that schooling's primary purpose is to sort and prepare young people for economic roles — came to dominate 20th-century educational thinking in industrialized nations, gradually displacing older civic and humanistic justifications. That architecture made a certain sense when the economy reliably absorbed most human labor. The question now pressing on educational theory and policy is what happens to the institution when that premise erodes — when automation and artificial intelligence reduce the economy's appetite for human work not at the margins but at the center.\n\nThis is not yet a fully realized condition, and intellectual honesty requires acknowledging that. Economists disagree sharply about the pace and depth of labor displacement. Technological optimists argue that new categories of work will emerge, as they have after every previous wave of automation, and that predictions of mass idleness have historically proven wrong. Pessimists counter that the breadth and cognitive reach of contemporary AI systems make this disruption categorically different from the mechanization of physical labor. The honest position is that the outcome remains genuinely uncertain. What is less uncertain is that the question itself is now serious enough to demand that education systems think carefully about purposes they have long neglected.\n\nThe most immediate challenge is psychological and existential rather than economic. Across modern societies, paid work has served as the primary source of social identity, daily structure, and felt purpose for most adults. Education has been the institution that prepares people to enter that system of meaning. If the system contracts, education cannot simply continue as credentialing for jobs that may not exist, or exist in far smaller numbers. It would be preparing people for a form of life that is no longer available to them — a profound institutional failure dressed up as continuity.\n\nWhat might replace this? Scholars working in the tradition of philosophical anthropology and positive psychology have long argued that human flourishing depends on what Aristotle called *eudaimonia* — a life of active engagement with things that matter, of developed capacities exercised in meaningful ways. Work, in the best cases, has delivered some of this. But work has never been the only vehicle, and for many people in many jobs, it has delivered very little of it. The arts, civic participation, care relationships, intellectual inquiry, spiritual practice, and craft have always been alternative sources of meaning, systematically undervalued precisely because they were not economically productive. An education oriented toward a post-labor world would need to take these seriously as primary rather than supplementary goods.\n\nThis reorientation has concrete curricular implications. Philosophy, literature, and the arts — long treated as luxuries or as soft preparation for harder vocational subjects — would move toward the center of educational purpose. Not because they are decorative, but because they are the disciplines most directly concerned with how to live, what to value, and how to make sense of existence under conditions of uncertainty. Civic education, similarly, would need to be reconceived not as preparation for participation in a democracy that happens to have a labor market, but as preparation for collective self-governance in a society that must decide, politically, how to distribute the gains of automated production and how to organize social life when work no longer structures it.\n\nThere is a serious tension here that deserves acknowledgment. The turn toward meaning-centered education risks becoming a consolation offered disproportionately to those who have already lost economic security, while the children of the privileged continue to receive education that maintains their competitive position. History offers ample precedent for this pattern: humanistic education has often been the province of elites, while vocational training was directed at everyone else. A genuine reorientation of educational purpose cannot reproduce this division. It would require that education for meaning be understood as a universal entitlement, not a luxury for those who can afford to stop worrying about employment.\n\nThere is also the question of what institutions beyond schools would need to change. Education does not operate in isolation. If the broader social architecture continues to tie healthcare, housing security, and social respect to paid employment, then schools oriented toward meaning will be preparing students for a world that does not yet exist — and may feel cruelly irrelevant to students who know they need jobs. Educational transformation of this kind is inseparable from broader political and economic questions about how societies distribute resources and recognize human contribution.\n\nWhat the scholarship converges on, even amid these tensions, is that the social efficiency rationale has run its course as the organizing principle of education. Whether automation produces mass unemployment or merely transforms the labor market, the reduction of human beings to their economic function has always been an impoverishment. The present moment offers, at considerable cost, an occasion to build something more adequate to the full range of what human life can be.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://thelearningcounsel.com/articles/the-future-of-education-in-the-age-of-ai/",
-          "title": "The Future of Education in the Age of AI",
+          "url": "https://www.nber.org/papers/w23285",
+          "title": "https://www.nber.org/papers/w23285",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://tech4impactsummit.com/blog/future-of-work-human-talent-ai-agents-2026/",
-          "title": "The Future of Work: Human Talent, AI Agents, or Post-Work Society? | Tech for Impact Summit 2026",
+          "url": "https://www.aspeninstitute.org/wp-content/uploads/files/content/upload/Intro_and_Section_I.pdf",
+          "title": "https://www.aspeninstitute.org/wp-content/uploads/files/content/upload/Intro_and_Section_I.pdf",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.entrepreneur.com/science-technology/how-ai-is-redefining-education-and-the-future-of-work/489575",
-          "title": "How AI, Funding Cuts and Shifting Skills Are Redefining Education — and What It Means for the Future of Work",
+          "url": "https://julkaisut.valtioneuvosto.fi/handle/10024/162219",
+          "title": "https://julkaisut.valtioneuvosto.fi/handle/10024/162219",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.researchgate.net/publication/325428861_Education_for_a_post-work_future_Automation_precarity_and_stagnation",
-          "title": "(PDF) Education for a post-work future: Automation, precarity, and stagnation",
+          "url": "https://press.princeton.edu/books/hardcover/9780691142223/not-for-profit",
+          "title": "https://press.princeton.edu/books/hardcover/9780691142223/not-for-profit",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.amacad.org/publication/daedalus/positive-humanities-focus-human-flourishing",
-          "title": "The Positive Humanities: A Focus on Human Flourishing | American Academy of Arts and Sciences",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://grokipedia.com/page/Liberal_education",
-          "title": "Liberal education — Grokipedia",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.jackmillercenter.org/article/liberal-education-as-civic-education",
-          "title": "Liberal Education as Civic Education - Civics Magazine - Jack Miller Center",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.microsoft.com/en-us/education/blog/2026/06/5-foundations-for-reshaping-the-future-of-education-and-ai/",
-          "title": "5 foundations for reshaping the future of education and AI | Microsoft Education Blog",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://acceleratelearning.stanford.edu/story/the-future-is-already-here-ai-and-education-in-2025/",
-          "title": "The future is already here: AI and education in 2025 • Stanford Accelerator for Learning",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://postlaborsociety.com/envisioning-a-post-work-society-future-of-tech-and-wealth/",
-          "title": "Envisioning a Post-Work Society: Future of Tech and Wealth – Post Labor Society",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.jysterling.com/articles/post-work",
-          "title": "Post Work Society: Understanding the Future Beyond Employment | J.Y. Sterling",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.unesco.org/en/articles/ai-and-future-education-disruptions-dilemmas-and-directions-0",
-          "title": "AI and the future of education: disruptions, dilemmas and directions",
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000379707",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000379707",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.press.uchicago.edu/ucp/books/book/chicago/E/bo3683820.html",
+          "title": "https://www.press.uchicago.edu/ucp/books/book/chicago/E/bo3683820.html",
+          "type": "academic",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 49
     }
   ],
-  "answer_summary": "Education for Meaning Rather Than for Jobs The industrial model of schooling was always, at its core, an economic instrument. It sorted children into future roles, credentialed them for employers, and measured success in terms of earning capacity. That arrangement made a kind of rough sense when human labor was the primary engine of economic output.",
+  "answer_summary": "The modern school was built, in large part, as a machine for producing workers. Historians of education such as David Labaree have traced how the \"social efficiency\" rationale — the idea that schooling's primary purpose is to sort and prepare young people for economic roles — came to dominate 20th century educational thinking in industrialized nations, gradually displacing older civic and humanist",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

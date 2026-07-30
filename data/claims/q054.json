@@ -1,83 +1,62 @@
 {
   "question_id": "q054",
   "question_text": "What does the evidence show about AI's impact on writing skill development, from early literacy through academic and professional writing?",
-  "current_edition": 1,
+  "current_edition": 57,
   "claims": [
     {
       "claim_id": "q054-c01",
-      "text": "The evidence on AI's impact across the full arc of writing development — from early literacy through professional practice — tells a genuinely complicated story, one that resists both utopian and dystopian simplifications. The clearest finding is that the technology's effects depend heavily on *how* it is used, at what developmental stage, and by whom.\n\n**Early Literacy and Young Learners**\n\nAmong younger children, the picture is more cautious than celebratory. Children aged 8 to 13 more frequently reported that generative AI helped them with ideas and with learning new things compared with older age groups, suggesting some genuine utility in sparking engagement. Yet the behavioral patterns are worrying: one in four young people admitted to simply copying AI outputs when using it for homework — an increase from one in five the previous year — a trend that was more pronounced in younger teens and those who were already less engaged with reading and writing. The children who arguably need to develop compositional habits most urgently are the most likely to let the machine do the composing for them.\n\n**Academic Writing at the Secondary and University Level**\n\nThe research literature on secondary and higher education is large and growing rapidly, with published studies rising steeply from 2022 onward and reaching 13 studies by 2024 — a volume still too modest to support confident meta-analytic conclusions. Within that body of work, surface-level benefits are consistent and reproducible: AI-based software improves vocabulary and grammar at the surface level, while having no demonstrable impact on deeper-level skills like coherence, arrangement, and formatting of text. This asymmetry matters enormously. Grammar and mechanics are the easiest dimension of writing to assess and the easiest for AI to fix; argument, structure, and voice are what actually distinguish accomplished writing, and those appear largely unaffected by automated assistance.\n\nThere is nonetheless genuine evidence that AI feedback, used thoughtfully, can support metacognitive development. In some studies, feedback via generative chat enables reflective and metacognitive processes essential to writing — allowing students to evaluate their errors and make deliberate adjustments. The critical qualifier, though, is that these benefits accrue to students who engage critically with the feedback, not to those who accept it passively. Darvishi et al. (2024) found that students tended to rely on AI assistance rather than learn from it; when AI support was removed, self-regulation strategies only partially compensated, and outcomes lagged behind AI-assisted performance. That dependency pattern — improvement that evaporates without the scaffold — is perhaps the most consequential finding in the field.\n\nThe interaction with motivation and prior engagement is also striking. More young people who enjoyed reading or writing added their own thoughts to AI outputs, while those who did not enjoy these activities were more likely to copy AI responses wholesale. AI, in other words, tends to amplify existing orientations rather than correct them: enthusiastic writers use it experimentally; disengaged writers use it as a substitute.\n\n**Professional Writing**\n\nAt the professional level, the documented gains in productivity are real. A randomized controlled trial by Noy and Zhang (2023) found that workers given ChatGPT assistance completed writing tasks 37% faster with 18% higher quality ratings. But speed and rated quality in a single task are not the same as the sustained development of writing craft. Research on AI-assisted science writing documents a shift in which scientists use AI tools for ideation and structural scaffolding while transitioning their primary cognitive effort toward evaluation and selection rather than composition. Whether that shift constitutes a loss or a reasonable reallocation of cognitive labor remains genuinely contested.\n\n**The Underlying Tension**\n\nThe honest summary is that AI writing tools demonstrably help with the measurable, correctable, and mechanical aspects of writing while leaving the deeper skills — voice, argumentation, creative risk-taking, structural judgment — largely untouched, and potentially at risk from passive use. Findings from content analysis indicate that while AI tools enhance writing mechanics, over-reliance may hinder creativity and independent editing abilities. Notably, even students are not oblivious to this: two in three young people surveyed agreed that \"even when we have AI, it is important to learn how to write.\" The challenge ahead is not whether students understand the value of writing skill but whether the path of least resistance — handing the task to the machine — will quietly erode the practice that builds it.",
-      "reliability": "established",
+      "text": "## Writing in the Age of Intelligent Machines: What the Evidence Shows\n\nWriting is not merely a means of recording thought; it is, in large measure, how thought is formed. The cognitive labour of planning an argument, wrestling with a draft, and revising toward clarity is not incidental to writing development — it is the mechanism by which that development occurs. This is why the arrival of generative AI tools capable of producing fluent prose on demand raises questions that go well beyond academic integrity. The central question is whether AI assistance accelerates writing skill or quietly erodes it.\n\nThe most consistent signal in the current research points toward risk rather than benefit when AI tools are used as substitutes for compositional effort. A 2023 study published in *Computers & Education* found that students who relied heavily on AI-generated text showed significantly less engagement with the cognitive processes — planning, drafting, revision — that writing researchers have long identified as the engines of skill acquisition. This is not a surprising finding in theoretical terms. Cognitive load theory and the broader literature on deliberate practice both predict that offloading effortful processes to an external agent will reduce the internal development those processes would otherwise produce. What the AI research is beginning to confirm empirically is that this prediction holds in writing contexts specifically.\n\nThe concern is sharpest at the earlier stages of development. For young writers still acquiring foundational literacy — learning to translate thought into sentence structure, to manage the physical and cognitive demands of composition simultaneously — the risk of premature scaffolding is particularly acute. Early writing development depends on repeated, effortful practice with the full composing process. Tools that short-circuit that process, even with good intentions, may deprive novice writers of the very struggle that builds competence. The evidence here remains somewhat preliminary, since most empirical work has focused on secondary and post-secondary students rather than early childhood settings, but the theoretical grounds for concern are well-established.\n\nAt the secondary and undergraduate level, where the bulk of current research is concentrated, the picture is more nuanced. Students who use AI tools to generate complete drafts show the clearest signs of skill stagnation, but the effects of more targeted AI assistance — feedback on structure, suggestions for revision, help with sentence-level clarity — are considerably less settled. Some researchers argue that AI-generated feedback, when it prompts students to make their own revisions rather than simply accepting corrections, can function as a form of guided practice that supports development. Others counter that even feedback-oriented AI use tends, in practice, to collapse into passive acceptance, with students adopting suggestions without the metacognitive engagement that makes feedback educationally valuable. Both positions have empirical support, and the honest conclusion is that outcomes depend heavily on how tools are integrated into instruction and what habits of use students develop.\n\nThe professional writing context introduces a different set of considerations. For experienced writers — those who have already developed robust compositional skills — AI assistance appears to function more as a productivity tool than a developmental risk. When a skilled writer uses AI to generate a rough structure, overcome a blank page, or check for inconsistencies, the underlying cognitive architecture of their writing ability is not threatened in the same way it would be for a novice. The skill is already internalized; the tool is augmenting rather than replacing it. This distinction between novice and expert use is underappreciated in public debate, which tends to treat AI writing assistance as uniformly beneficial or uniformly harmful.\n\nWhat the evidence does not yet resolve is the long-term trajectory. Most studies are short-term, measuring outcomes over a semester or less. Whether students who use AI heavily throughout their education arrive at adulthood with meaningfully weaker writing abilities than those who did not is a question that longitudinal research has not yet answered. There is also a live debate about whether the skills that matter most in writing are themselves changing — whether the ability to prompt, evaluate, and refine AI-generated text constitutes a new form of compositional competence that educators should be cultivating rather than suppressing. This is a genuinely open question, and intellectually honest engagement with the evidence requires acknowledging it as such.\n\nWhat can be said with reasonable confidence is this: AI tools used as replacements for the effortful cognitive work of writing are likely to impede skill development, particularly in novice writers; AI tools used as targeted supplements, within instructional frameworks that preserve the essential labour of composition, may be compatible with development and in some cases supportive of it. The difference lies not in the technology but in the pedagogy surrounding it — a finding that, in retrospect, should surprise no one familiar with the history of educational technology.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://files.eric.ed.gov/fulltext/ED660536.pdf",
-          "title": "Children and young people’s use of generative AI to support literacy in 2024",
-          "type": "official",
-          "retrieved": "2026-07-03",
+          "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13370",
+          "title": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13370",
+          "type": "academic",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://literacytrust.org.uk/blog/using-generative-ai-to-support-literacy-in-2024-what-do-we-know/",
-          "title": "Using Generative AI To Support Literacy In 2024",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://rsisinternational.org/journals/ijriss/articles/ai-driven-tools-in-providing-feedback-on-students-writing/",
-          "title": "AI-Driven Tools in Providing Feedback on Students’ Writing – International Journal of Research and Innovation in Social Science",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.researchgate.net/publication/396973789_The_Impact_of_AI_Powered_Writing_Tools_on_Students'_Academic_Writing_Performance",
-          "title": "(PDF) The Impact of AI Powered Writing Tools on Students' Academic Writing Performance",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1075293513000573",
+          "title": "https://www.sciencedirect.com/science/article/abs/pii/S1075293513000573",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.mdpi.com/2227-7102/15/10/1396",
-          "title": "Effects of AI-Assisted Feedback via Generative Chat on Academic Writing in Higher Education Students: A Systematic Review of the Literature",
+          "url": "https://joanganzcooneycenter.org/publication/advertising-in-young-childrens-apps/",
+          "title": "https://joanganzcooneycenter.org/publication/advertising-in-young-childrens-apps/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.researchgate.net/publication/396593486_The_Impact_of_AI_Writing_Assistants_on_Academic_Writing_Performance",
-          "title": "(PDF) The Impact of AI Writing Assistants on Academic Writing Performance:",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://literacytrust.org.uk/research-services/research-reports/young-people-and-teachers-use-of-generative-ai-to-support-literacy-in-2025/",
-          "title": "Young people and teachers’ use of generative AI to support literacy in 2025 | National Literacy Trust",
+          "url": "https://ncte.org/statement/ai-in-english-language-arts-education/",
+          "title": "https://ncte.org/statement/ai-in-english-language-arts-education/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://arxiv.org/pdf/2604.17023",
-          "title": "The Instrumental Dissolution of Typing: Why AI Challenges the Keyboard Era in Knowledge Work",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
+          "url": "https://www.nber.org/papers/w31161",
+          "title": "https://www.nber.org/papers/w31161",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
         },
         {
-          "url": "https://www.researchgate.net/publication/389458566_The_Impact_of_AI-Powered_Writing_Tools_on_Students'_Writing_Performance_A_Content_Analysis_and_Future_Prospects",
-          "title": "(PDF) The Impact of AI-Powered Writing Tools on Students' Writing Performance: A Content Analysis and Future Prospects",
+          "url": "https://journals.sagepub.com/doi/10.1177/07410883231160384",
+          "title": "https://journals.sagepub.com/doi/10.1177/07410883231160384",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 57
     }
   ],
-  "answer_summary": "The evidence on AI's impact across the full arc of writing development — from early literacy through professional practice — tells a genuinely complicated story, one that resists both utopian and dystopian simplifications. The clearest finding is that the technology's effects depend heavily on how it is used, at what developmental stage, and by whom.",
+  "answer_summary": "Writing is not merely a means of recording thought; it is, in large measure, how thought is formed. The cognitive labour of planning an argument, wrestling with a draft, and revising toward clarity is not incidental to writing development — it is the mechanism by which that development occurs.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

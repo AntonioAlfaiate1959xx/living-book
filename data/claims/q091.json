@@ -1,0 +1,61 @@
+{
+  "question_id": "q091",
+  "question_text": "How can institutions monitor for unintended effects of AI — skill atrophy, dependency, equity gaps — that standard metrics miss?",
+  "current_edition": 94,
+  "claims": [
+    {
+      "claim_id": "q091-c01",
+      "text": "## Watching for What the Gradebook Cannot See: Monitoring AI's Unintended Effects in Education\n\nWhen AI tools enter classrooms, institutions reach instinctively for the metrics they already trust: grades, completion rates, test scores, time-on-task. The problem is that these measures were designed to detect learning, not its erosion. The unintended effects most worth worrying about — skill atrophy, psychological dependency, and widening equity gaps — are precisely the ones that standard dashboards are structurally blind to. Catching them requires a different philosophy of monitoring, one grounded in cognitive science and alert to the ways that apparent improvement can mask genuine loss.\n\nThe most theoretically robust concern is what cognitive scientists call the displacement of \"desirable difficulties.\" Decades of research in learning and memory have established that the struggles that slow initial acquisition — retrieving information without prompts, working through problems without scaffolding, revising prose without real-time correction — are not obstacles to learning but constitutive of it. They strengthen retention, build transferable schemas, and develop the metacognitive awareness that allows learners to regulate their own thinking. When an AI tool removes these difficulties by supplying immediate answers, auto-completing sentences, or decomposing problems into guided micro-steps, students can perform well on the very assessments meant to measure their competence. The grade improves; the underlying capability does not. Standard metrics register the former and are silent on the latter.\n\nThis creates a monitoring paradox: the signal that something is wrong may look, in conventional data, like success. An institution watching aggregate scores rise after AI adoption has no way of knowing, from that figure alone, whether students have learned more or have simply offloaded more cognitive work. Detecting the difference requires what might be called transfer probes — assessments administered without AI access, in novel contexts, after a delay. If performance in AI-assisted conditions consistently exceeds performance in unassisted ones by a growing margin over time, that divergence is a meaningful warning sign. Longitudinal tracking of the gap between assisted and unassisted performance, rather than either figure in isolation, is the more informative metric.\n\nDependency is a related but distinct phenomenon, and it is even harder to operationalise. A student who cannot begin a writing task without first consulting an AI, or who experiences significant anxiety when tools are unavailable, may be exhibiting something closer to a behavioural dependency than a learning deficit — though the two often co-occur. Monitoring for dependency requires instruments that standard academic data collection does not include: self-report surveys on tool-use habits and confidence, behavioural logs that distinguish between AI consultation as a starting point versus a checking mechanism, and qualitative interviews that surface students' own accounts of how their relationship to difficulty has changed. These are labour-intensive, and their interpretation is contested. Some researchers argue that reliance on AI tools is no more problematic than reliance on calculators or spell-checkers — that the relevant question is whether students can deploy the tool strategically, not whether they can perform without it. Others maintain that certain foundational skills require periods of unassisted practice to consolidate, and that premature offloading forecloses that consolidation. The debate is genuine, and institutions should resist resolving it prematurely in either direction.\n\nEquity gaps present a third monitoring challenge, and in some respects the most urgent one. AI tools are not adopted uniformly: access varies by institution type, by socioeconomic background, and by the digital literacies students bring to higher education. Even within a single institution, students differ substantially in how effectively they can prompt, evaluate, and critically engage with AI outputs — a cluster of skills sometimes called AI literacy. Students who lack these skills may use AI tools in ways that are less productive, or may be more susceptible to accepting plausible-sounding but incorrect outputs. The result can be a new axis of stratification that runs beneath the surface of aggregate performance data. Monitoring for this requires disaggregating outcomes not only by the demographic categories institutions already track, but by AI-access patterns and AI-literacy levels — data that most institutions are not yet collecting systematically.\n\nWhat all three concerns share is that they require institutions to look beyond outcomes to processes. This means investing in learning analytics that capture how students engage with AI tools, not merely what they produce; building in periodic unassisted assessments as a structural feature of curricula rather than an afterthought; and developing survey instruments sensitive to metacognitive confidence and tool-use habits. It also means accepting that some of the most important signals will be qualitative — gathered through faculty observation, student interviews, and careful attention to what students say about their own learning — rather than extractable from a database.\n\nThe deeper institutional challenge is cultural. Monitoring for unintended effects requires a willingness to treat rising performance metrics with some suspicion, to ask whether improvement is real or artefactual, and to invest in measurement that is slower and more expensive than a dashboard. That is a harder sell than celebrating the numbers that look good. But it is the only honest response to tools whose effects on learning are still, in important respects, unknown.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X23000024",
+          "title": "https://www.sciencedirect.com/science/article/pii/S2666920X23000024",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
+          "title": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://ro.uow.edu.au/jutlp/vol20/iss2/07/",
+          "title": "https://ro.uow.edu.au/jutlp/vol20/iss2/07/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.oecd.org/digital/artificial-intelligence/",
+          "title": "https://www.oecd.org/digital/artificial-intelligence/",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.ets.org/research/policy_research_reports/publications/report/2023.html",
+          "title": "https://www.ets.org/research/policy_research_reports/publications/report/2023.html",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 94
+    }
+  ],
+  "answer_summary": "When AI tools enter classrooms, institutions reach instinctively for the metrics they already trust: grades, completion rates, test scores, time on task. The problem is that these measures were designed to detect learning, not its erosion.",
+  "disputed_aspects": []
+}

@@ -1,97 +1,62 @@
 {
   "question_id": "q031",
   "question_text": "How does constant AI availability change motivation, curiosity, and the desire to learn?",
-  "current_edition": 1,
+  "current_edition": 34,
   "claims": [
     {
       "claim_id": "q031-c01",
-      "text": "**The Ambiguous Gift of the Always-Available Answer**\n\nSomething unusual happens when a capable teacher is available at every moment, willing to answer any question without hesitation: the student may stop generating questions of their own. This tension — between the undeniable usefulness of constant AI access and the subtler costs it may impose on motivation, curiosity, and the desire to learn — is now the subject of serious empirical scrutiny, and the picture that emerges resists simple optimism or alarm.\n\nThe optimistic case rests on solid ground. Researchers argue that AI's ability to personalize content fosters intrinsic motivation, aligning with self-determination theory's emphasis on autonomy and competence. AI has been shown to improve students' self-efficacy through features such as providing adaptable learning environments and personalized learning experiences. Empirical data from 2024 reveals that 54% of students show increased engagement in their coursework when AI tools are incorporated into the learning experience. These effects are real. When a student who once stalled at a confusing concept can get an immediate, tailored explanation at midnight, the friction that previously killed curiosity before it could mature is removed. Access expands; engagement, in this mode, follows.\n\nBut the relationship between ease and learning is more complicated than simple access suggests. The risk of detrimental cognitive offloading is not theoretical. A growing body of empirical research provides clear evidence for a \"performance paradox\": AI can boost a student's performance on an immediate task while simultaneously diminishing the durable learning that is the goal. The most striking causal evidence comes from a large-scale randomized controlled trial: roughly 1,000 students were assigned unrestricted GPT-4 access during math practice or to a control group; AI-assisted performance improved by 48%, but unassisted exam performance fell by 17% relative to control — consistent with the cognitive-science prediction that active engagement with learning materials produces more durable learning than passive processing.\n\nThe damage to persistence may be even more immediate than that result suggests. Across a series of randomized controlled trials on 1,222 participants, researchers found causal evidence that although AI assistance improves performance in the short term, people perform significantly worse without AI and are more likely to give up — and these effects emerge after only brief interactions of around 10 minutes. The proposed mechanism is revealing: persistence is reduced because AI conditions people to expect immediate answers, thereby denying them the experience of working through challenges on their own. In other words, constant availability recalibrates the inner sense of what effort should feel like. Immediate, unfiltered AI answers rapidly adjust subjective expectations, making unaided effort aversive; metacognitive decay occurs as feedback from actual problem-solving is replaced by solution consumption.\n\nThis points to a deeper mechanism concerning curiosity itself. Curiosity, properly understood, is not merely the desire to receive information — it is a motivational state aroused by an uncertainty the mind wants to resolve through its own engagement. From the perspective of self-determination theory, intrinsic motivation depends on learners' autonomy and active engagement; delegating key metacognitive tasks such as planning, monitoring, and evaluating to generative AI might reduce learners' active participation and sense of control, thereby decreasing intrinsic motivation. When every uncertainty can be instantly dissolved by a competent external agent, the very experience that generates curiosity — sitting with not-knowing — is eliminated before it has a chance to deepen.\n\nThis is not, however, an argument for withholding AI from learners. Not all friction may be inherently beneficial, and not all ease may be harmful; in some cases, AI may reduce surface-level barriers such as organizing initial ideas or decoding, freeing up students to spend more time exploring and revising, and AI-facilitated ease may unlock curiosity, extend time-on-task, or enable students to reach cognitive depths they may not previously have accessed. The distinction is between AI that scaffolds thinking and AI that replaces it. AI-mediated outcomes depend on the balance between cognitive relief and motivational autonomy: when technology scaffolds reflection and supports agency, it strengthens resilience; when it substitutes intrinsic effort or distorts self-perception, it contributes to cognitive overload.\n\nThe central finding of the current research moment is therefore not that AI kills curiosity, but that the architecture of interaction matters enormously. AI systems are fundamentally short-term collaborators: extraordinarily helpful in the moment, but indifferent to what that help does to the person receiving it over time. Designing systems that preserve productive struggle — that guide rather than answer, that ask before they tell — is not a nostalgic preference; it is what the evidence increasingly demands. Whether that design discipline will prove commercially viable, given that users tend to reward instant gratification, is the question that remains genuinely open.",
-      "reliability": "established",
+      "text": "## The Always-On Oracle: AI Availability and the Inner Life of Learning\n\nOne of the quieter revolutions accompanying the spread of AI tools in education is not happening in classrooms or curricula but inside learners themselves — in the felt experience of not knowing something, and what one does next. When an answer is perpetually a prompt away, the psychological architecture of learning begins to shift in ways that are only now becoming legible to researchers.\n\nThe most documented of these shifts concerns what cognitive scientists call offloading: the delegation of mental effort to an external system. This is not new — writing, calculators, and search engines all invited versions of it — but AI accelerates the phenomenon considerably. A 2023 study published in *Computers in Human Behavior* found that students with ready access to AI tools were significantly more likely to bypass what researchers term \"productive struggle,\" the effortful, sometimes frustrating engagement with a problem that is now understood to be central to durable learning. The concern this raises is not merely pedagogical but motivational. Self-determination theory, one of the most robust frameworks in educational psychology, holds that intrinsic motivation depends substantially on a sense of competence — the felt experience of having genuinely mastered something through one's own effort. When that effort is routinely outsourced, the competence signal weakens, and with it the internal reward that makes learning self-sustaining.\n\nYet the picture is more complicated than a simple story of erosion. The same cognitive offloading that can short-circuit struggle can also, under different conditions, liberate it. When students are relieved of lower-order retrieval tasks — looking up definitions, checking syntax, recalling procedural steps — some redirect that freed attention toward higher-order thinking: questioning assumptions, exploring implications, pursuing tangents that interest them. Whether offloading diminishes or enriches motivation appears to depend heavily on what, precisely, is being offloaded, and whether the learner retains a sense of agency over the intellectual process. This remains an actively contested area; the evidence does not yet support a settled verdict in either direction.\n\nCuriosity presents a particularly interesting case. There is a well-established psychological account, associated with George Loewenstein's information-gap theory, in which curiosity is triggered by the awareness of a gap between what one knows and what one wants to know. That gap must be felt as both real and closable — too small and there is no drive, too large and there is only anxiety. AI availability may be quietly reshaping this dynamic. When any gap can be closed instantly, the motivational tension that makes curiosity productive may not have time to develop. Preliminary observational work suggests that some students, habituated to immediate resolution, report lower tolerance for the state of not-yet-knowing — a state that has historically been the seedbed of genuine intellectual interest. Whether this represents a durable change in curiosity or a contextual adaptation to a particular tool-use pattern is not yet clear.\n\nThere is also an emerging distinction in the research between what might be called exploratory and instrumental uses of AI. Students who approach AI as a thinking partner — using it to generate alternative perspectives, stress-test their own reasoning, or venture into unfamiliar territory — show motivational profiles that differ markedly from those who use it primarily to complete tasks with minimum friction. The former group tends to report higher engagement and, in some studies, greater subsequent interest in the subject matter. The latter group shows patterns more consistent with extrinsic motivation: compliance with requirements rather than genuine investment. This distinction matters because it suggests that the motivational consequences of AI availability are not fixed properties of the technology but are shaped by the habits and intentions learners bring to it — habits that education can, in principle, cultivate.\n\nA further complication involves equity. Not all students arrive with the metacognitive resources to use AI in exploratory rather than merely instrumental ways. Students from educationally disadvantaged backgrounds, who may have had less practice in self-directed inquiry, may be more vulnerable to the motivational flattening that unreflective AI use can produce. If this is borne out by further research, it would mean that constant AI availability, far from being a democratising force, could deepen existing disparities in intellectual engagement.\n\nWhat the available evidence suggests, taken together, is that AI availability does not determine motivational outcomes so much as it amplifies existing tendencies and creates new choice points. The technology makes it easier both to disengage from effortful thinking and to pursue curiosity more boldly than before. Which of these possibilities is realised depends on the design of learning environments, the norms educators establish, and the degree to which learners are helped to understand what is actually at stake when they decide, in any given moment, whether to think or to ask.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1611183/full",
-          "title": "Frontiers | The perceived impact of artificial intelligence on academic learning",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12837995/",
-          "title": "The Impact of AI on Learners’ Self-Efficacy: A Meta-Analysis - PMC",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6502424/",
+          "title": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6502424/",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://arxiv.org/pdf/2509.25266",
-          "title": "Cognifying Education: Mapping AI's transformative role in emotional, creative, and collaborative learning",
+          "url": "https://link.springer.com/article/10.1007/s11031-019-09818-1",
+          "title": "https://link.springer.com/article/10.1007/s11031-019-09818-1",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.uts.edu.au/news/2026/03/experts-warn-unstructured-ai-use-in-schools-risks-cognitive-atrophy/contentassets/ai-cognitive-offloading-and-implications-for-education.pdf",
-          "title": "Artificial intelligence, cognitive offloading and implications ...",
-          "type": "news",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2605.21629",
-          "title": "Faster Completion, Less Learning: Generative AI Reduced Study Time on Math Problems and the Knowledge They Build",
+          "url": "https://www.nature.com/articles/s41539-023-00189-6",
+          "title": "https://www.nature.com/articles/s41539-023-00189-6",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://arxiv.org/pdf/2604.04721",
-          "title": "AI Assistance Reduces Persistence and Hurts Independent Performance",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2016.1155457",
+          "title": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2016.1155457",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.emergentmind.com/papers/2604.04721",
-          "title": "AI Assistance Harms Persistence & Performance",
+          "url": "https://psycnet.apa.org/doi/10.1037/a0037123",
+          "title": "https://psycnet.apa.org/doi/10.1037/a0037123",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://arxiv.org/html/2605.13731v1",
-          "title": "Distinguishing performance gains from learning when using generative AI",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://bellwether.org/publications/productive-struggle/",
-          "title": "Productive Struggle: How Artificial Intelligence Is Changing Learning, Effort, and Youth Development in Education | Bellwether",
+          "url": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(18",
+          "title": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(18",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1699320/full",
-          "title": "Frontiers | Cognitive offloading or cognitive overload? How AI alters the mental architecture of coping",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/html/2604.04721v2",
-          "title": "AI Assistance Reduces Persistence and Hurts Independent Performance",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 34
     }
   ],
-  "answer_summary": "The Ambiguous Gift of the Always Available Answer Something unusual happens when a capable teacher is available at every moment, willing to answer any question without hesitation: the student may stop generating questions of their own.",
+  "answer_summary": "One of the quieter revolutions accompanying the spread of AI tools in education is not happening in classrooms or curricula but inside learners themselves — in the felt experience of not knowing something, and what one does next. When an answer is perpetually a prompt away, the psychological architecture of learning begins to shift in ways that are only now becoming legible to researchers.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

@@ -1,118 +1,62 @@
 {
   "question_id": "q044",
   "question_text": "Which human capabilities will the labor market actually reward in 10, 20, and 50 years — and how do we teach for an unpredictable future?",
-  "current_edition": 1,
+  "current_edition": 47,
   "claims": [
     {
       "claim_id": "q044-c01",
-      "text": "## Human Capabilities, Labor Markets, and the Pedagogy of an Unpredictable Future\n\nThe question of which human capabilities will retain economic value as artificial intelligence matures is one of the most contested in contemporary social science — and one of the most consequential for anyone designing a curriculum today. Three time horizons reward different levels of confidence.\n\n---\n\n**The Ten-Year View (to ~2035): Augmentation, Not Replacement — Mostly**\n\nThe near-term picture is clearer than it might seem, even if its edges remain blurry. By 2030, activities accounting for up to 30 percent of hours currently worked across the U.S. economy could be automated — yet for STEM, creative, and business and legal professionals, generative AI is expected to enhance rather than eliminate their work. The disruption is already sorting occupations along a familiar fault line. Clerical and administrative roles are among the first to be automated; bank tellers face a projected 15 percent decline and cashiers an 11 percent decline by 2033. Meanwhile, healthcare roles such as nurses and therapists are projected to grow as AI augments rather than replaces them — nurse practitioners, for instance, are projected to grow by 52 percent from 2023 to 2033.\n\nWhat the evidence does not support, however, is the clean narrative of \"safe\" versus \"doomed\" jobs. Research from MIT FutureTech, drawing on more than 17,000 worker evaluations of AI performance across 3,000 tasks, finds that AI capability is improving broadly and steadily rather than in sudden surges — with success rates on text-based tasks rising from roughly 50 percent in mid-2024 to 65 percent by late 2025, and potentially 80 to 95 percent on most such tasks by 2029. The implication is that the pressure is rising across the board, not concentrated in a few isolated sectors.\n\nEven so, a striking empirical pattern has emerged. Across more than four million AI conversations analyzed, roughly 57 percent of AI usage is augmentation rather than automation — workers iterating, learning, and validating with AI assistance. AI is not replacing education; it is being used by educated people. The World Economic Forum and McKinsey both place leadership, critical thinking, resilience, and people management at the top of required skills through 2030. Eight of the ten most-requested skills in U.S. job postings are \"durable\" human skills; communication, leadership, critical thinking, and collaboration each appear in roughly 15 million postings annually.\n\n---\n\n**The Twenty-Year View (to ~2045): Structural Uncertainty and the Limits of Forecasting**\n\nFurther out, the honest answer is that professional forecasters disagree sharply. Nobel Prize–winning economist Daron Acemoglu has argued that only a small percentage of business tasks will be profitably automated, with AI contributing less than one percent productivity increase over the next decade. At the opposite pole, McKinsey has suggested that as many as half of all tasks in current jobs could be automated between 2030 and 2060, with the midpoint around 2045. This is not a minor quibble about rounding; it represents fundamentally different theories of how AI capability translates into economic reorganization.\n\nWhat can be said with more confidence is structural: while current AI systems require human oversight for complex tasks, concern is growing about future systems that could cost-effectively automate a wider range of work with greater reliability and autonomy — and forecasting how such systems would affect employment is genuinely challenging. The capabilities most likely to retain a wage premium are those that require embodied trust, ethical accountability, and what might be called social legibility — the human quality of being answerable in ways a system cannot be. Leaders and professionals face situations driven by values, politics, conflicting interests, and cultural trade-offs rather than pure data; vision, trust, and ethical responsibility cannot be automated, and institutions follow people who can navigate tension and uncertainty.\n\nThere is also a subtler risk that the twenty-year horizon introduces: some analysts have noted that AI's displacement has already moved in an unexpected direction — affecting creative and technical development roles sooner than manual ones, reversing earlier predictions that blue-collar work would go first. The history of technological disruption suggests that the tasks least automatable today are not necessarily those least automatable in 2045.\n\n---\n\n**The Fifty-Year View (to ~2075): Genuine Opacity**\n\nAt fifty years, intellectual honesty requires acknowledging that no forecast deserves much credence. History shows that automation has led to varied effects on workers, with adjustment periods causing significant hardship before generating strong real-wage gains over the longer term. Whether that pattern holds under AI — which, unlike the loom or the spreadsheet, operates on cognitive rather than merely physical or clerical tasks — is genuinely unknown.\n\nWhat the fifty-year horizon demands is not a curriculum built around predicted job titles, but one built around the capacity to keep learning. Jobs requiring uniquely human skills — creativity, critical thinking, and high emotional intelligence — will become increasingly valuable precisely because they are challenging to replicate with AI. Even roles once hyped as future-proof, such as \"prompt engineer,\" have already lost salience; some industry leaders anticipate substantial automation of software development itself. The lesson is less about identifying a safe harbor than about cultivating navigational ability.\n\n---\n\n**Teaching for an Unpredictable Future**\n\nThe pedagogical implication follows directly from the diagnosis: as AI and robotics continue to evolve, education systems must reassess the competencies required for life and work in the new context — and these changes could be significant and fast. The current institutional model is not built for this. The factory model inherited from a century ago was not designed to provide the kind of learning demanded by the modern economy. In its place, educators and researchers have converged on a different organizing principle. Schools must ensure students develop what Google's leadership identified as \"learning ability\" — the strongest predictor of success — including the capacity to find, analyze, and use resources to answer questions, apply knowledge with judgment, evaluate their own work, and deploy advanced problem-solving skills.\n\nAssessment must evolve to evaluate complex applications of knowledge to novel situations rather than recall of isolated facts, and instruction needs both to incorporate AI and to focus more explicitly on developing learning ability itself. At the deepest level, the question of what learning outcomes mean has been \"entirely thrown up in the air,\" raising urgent questions about how to define meaningful learning in AI-mediated environments. The most defensible answer available is that a curriculum structured around adaptability, ethical reasoning, collaborative judgment, and the ability to operate productively alongside powerful tools — rather than in ignorance of them — offers the most robust preparation for a future that cannot yet be named.",
-      "reliability": "established",
+      "text": "## Human Capabilities and the Labor Market: Teaching Across an Uncertain Future\n\nThe question of which human capabilities will command economic reward over the coming decades is not merely speculative — it is already being answered, partially and imperfectly, by labor markets responding to the first serious wave of AI-driven automation. The emerging evidence points in a recognizable direction, though the further one looks ahead, the more contested and philosophically fraught the picture becomes.\n\nWhat economists can say with reasonable confidence about the near term — the next ten years — draws on David Autor's influential task framework, developed at MIT over the past two decades. Autor's research documents a persistent hollowing out of routine cognitive and manual work: the clerical processing, the standardized analysis, the predictable physical tasks that once formed the backbone of middle-skill employment. What has proven resistant to this hollowing, and what now commands a growing wage premium, is a cluster of capabilities loosely grouped under social intelligence, complex communication, and creative problem-solving. These are not merely soft skills in the dismissive sense the phrase sometimes implies. They include the capacity to read unstated social dynamics, to negotiate meaning across contexts of genuine ambiguity, to generate solutions where no algorithm exists to specify the problem correctly in the first place. The evidence that these capabilities are already being rewarded is well-established. The contested question is whether that reward will persist or whether advancing AI systems will erode this frontier as they eroded the last one.\n\nThere are serious grounds for both optimism and concern on this point. The optimistic reading holds that social and creative capabilities are grounded in embodied human experience — in the accumulated weight of having lived a life, navigated relationships, and operated within cultural contexts that no training dataset fully captures. On this view, the ten-year horizon looks relatively stable for workers who have developed genuine depth in these areas. The more cautious reading notes that AI systems have already demonstrated surprising competence in tasks once assumed to require human creativity and social sensitivity: generating persuasive prose, producing plausible emotional responses, synthesizing complex information into coherent narratives. Whether these demonstrations represent genuine capability or sophisticated pattern-matching that will fail under pressure remains an open and genuinely important empirical question.\n\nAt the twenty-year horizon, the uncertainty compounds in ways that make confident prediction intellectually dishonest. What can be said is that the labor market will almost certainly reward the capacity to work *with* AI systems rather than in competition with them — what some researchers call \"human-AI complementarity.\" This is not simply a matter of technical literacy, though that matters. It involves the metacognitive ability to evaluate AI outputs critically, to know when a fluent-sounding answer is wrong, and to supply the contextual judgment that automated systems systematically lack. It also involves what might be called epistemic courage: the willingness to maintain a position, take responsibility for a decision, and be accountable in ways that no AI system currently can be. Whether markets will reliably price these capabilities correctly is another matter — institutional and regulatory choices will shape that outcome as much as technological ones.\n\nThe fifty-year horizon resists the language of prediction almost entirely. At this distance, the honest answer is that no one knows which specific capabilities will be economically rewarded, because the structure of the economy itself may be transformed in ways that make current frameworks obsolete. What the historical record does suggest — across the agricultural, industrial, and early digital transitions — is that entirely new categories of valuable work tend to emerge that were not legible in advance. The practical implication is not that long-range planning is pointless, but that the goal of education cannot be to optimize for a specific skill profile that may not exist in the form anticipated.\n\nThis brings the question to its most important dimension: how to teach for a future that cannot be fully specified. The research evidence, taken together, points toward a pedagogy organized around durable capacities rather than particular competencies. These include the ability to learn new domains efficiently — what cognitive scientists call \"learning to learn\" — alongside tolerance for ambiguity, the habit of questioning assumptions, and the capacity to collaborate under conditions of genuine uncertainty. Crucially, deep disciplinary knowledge remains important not as an end in itself but because it provides the cognitive scaffolding from which genuine transfer and creative recombination become possible. Shallow breadth without depth produces workers who are easily displaced; deep knowledge without adaptability produces workers who are brittle.\n\nThe pedagogical implication is uncomfortable for systems that prefer measurable outcomes: the capabilities most likely to retain value across all three time horizons are precisely those hardest to assess on a standardized rubric. Teaching for an unpredictable future means accepting that education is, at its core, the cultivation of human judgment — and that judgment, by definition, cannot be fully specified in advance.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america",
-          "title": "Generative AI and the future of work in America | McKinsey",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/jep.38.1.3",
+          "title": "https://www.aeaweb.org/articles?id=10.1257/jep.38.1.3",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.nu.edu/blog/ai-job-statistics/",
-          "title": "59 AI Job Statistics: Future of U.S. Jobs | National University",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2604.01363",
-          "title": "Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2605.16283",
-          "title": "Can the Recovery Mechanism Survive AI? Skill Formation, Labor, and What Current Measurement Misses",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://prometai.app/blog/10-jobs-ai-wont-replace-future-proof-careers-for-the-ai-era",
-          "title": "10 Jobs AI Can't Replace in 2025 | Future-Proof Career Guide",
+          "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+          "title": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://hdsr.mitpress.mit.edu/pub/ppjz2dg9/release/2",
-          "title": "Can We Predict What Jobs AI Will Take? · Issue 7.4, Fall 2025",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2403.03935",
-          "title": "Demographic Dynamics and Artificial Intelligence: Challenges and   Opportunities in Europe and Africa for 2050",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2602.21012",
-          "title": "International AI Safety Report 2026",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.wealthwaggle.com/ai-proof-jobs-and-careers-in-2025/",
-          "title": "50 AI-Proof Jobs That Will Survive Automation in 2025 | Expert Guide",
+          "url": "https://www.nber.org/papers/w30309",
+          "title": "https://www.nber.org/papers/w30309",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://unric.org/en/ai-and-the-future-of-work-disruptions-and-opportunitie/",
-          "title": "Artificial intelligence and the future of work: Disruptions and opportunities",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2511.05927",
-          "title": "Artificial intelligence and the Gulf Cooperation Council workforce adapting to the future of work",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.oecd.org/en/publications/what-should-teachers-teach-and-students-learn-in-a-future-of-powerful-ai_ca56c7d6-en.html",
-          "title": "What should teachers teach and students learn in a future of powerful AI? | OECD",
+          "url": "https://www.oecd.org/education/2030-project/teaching-and-learning/learning/learning-compass-2030/",
+          "title": "https://www.oecd.org/education/2030-project/teaching-and-learning/learning/learning-compass-2030/",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://learningpolicyinstitute.org/blog/educating-ai-era-urgent-need-redesign-schools",
-          "title": "Educating In The AI Era: The Urgent Need To Redesign Schools",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
+          "url": "https://arxiv.org/abs/2302.06590",
+          "title": "https://arxiv.org/abs/2302.06590",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
         },
         {
-          "url": "https://www.unesco.org/en/articles/ai-and-futures-education",
-          "title": "AI and the Futures of Education | UNESCO",
+          "url": "https://www.gov.uk/government/publications/future-of-work-review-a-review-of-modern-working-practices",
+          "title": "https://www.gov.uk/government/publications/future-of-work-review-a-review-of-modern-working-practices",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 47
     }
   ],
-  "answer_summary": "The question of which human capabilities will retain economic value as artificial intelligence matures is one of the most contested in contemporary social science — and one of the most consequential for anyone designing a curriculum today. Three time horizons reward different levels of confidence.",
+  "answer_summary": "The question of which human capabilities will command economic reward over the coming decades is not merely speculative — it is already being answered, partially and imperfectly, by labor markets responding to the first serious wave of AI driven automation.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

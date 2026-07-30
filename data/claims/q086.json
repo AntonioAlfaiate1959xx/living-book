@@ -1,0 +1,61 @@
+{
+  "question_id": "q086",
+  "question_text": "How can schools communicate with and involve parents and communities in decisions about AI use?",
+  "current_edition": 89,
+  "claims": [
+    {
+      "claim_id": "q086-c01",
+      "text": "## Involving Parents and Communities in School Decisions About AI\n\nWhen schools introduce artificial intelligence tools into classrooms, the question of how to bring parents and communities into that process is not merely procedural — it goes to the heart of democratic governance in education. Research and policy guidance converge on a clear starting point: transparent communication must precede deployment, not follow it. The U.S. Department of Education's 2023 report on AI in education is explicit on this point, recommending that districts develop plain-language policies shared proactively with families, including clear explanations of what data is collected, how it is used, who has access to it, and what safeguards are in place. The instinct to introduce a tool quietly and explain it later, once its value has been demonstrated, tends to corrode exactly the trust schools need to sustain long-term community support.\n\nThe emphasis on plain language is not incidental. AI systems are technically complex, and the gap between how educators and vendors understand these tools and how most parents encounter them is substantial. Consent frameworks that rely on dense legal disclosures or jargon-laden privacy notices effectively exclude large portions of the parent population — particularly those with lower literacy levels, those navigating the school system in a second language, and those with limited prior exposure to digital technology. Accessible communication, then, is not simply a courtesy; it is a prerequisite for meaningful consent. Schools that have made genuine progress in this area tend to invest in translated materials, community liaisons, and multiple formats — written, verbal, and visual — rather than treating a single policy document as sufficient.\n\nTransparency about data is especially important because parental concern about AI in schools clusters heavily around privacy. Families want to know whether their children's learning data, behavioral records, or biometric information might be shared with third-party vendors, used to train commercial models, or retained beyond the school year. These are legitimate concerns, and schools that address them directly — naming the specific tools in use, identifying the vendors, and explaining the contractual protections in place — tend to generate more confidence than those that offer reassurances without specifics. Where data-sharing arrangements are genuinely uncertain or subject to vendor terms that schools cannot fully control, intellectual honesty requires acknowledging that uncertainty rather than papering over it.\n\nBeyond communication, the more demanding challenge is genuine participation. Informing parents about AI decisions is meaningfully different from involving them in making those decisions. Advisory structures — parent councils, community forums, or standing committees with representation from diverse demographic groups — offer one mechanism for moving from notification to co-governance. The practical difficulty is that such structures require sustained investment: meetings must be scheduled accessibly, childcare and translation must sometimes be provided, and the feedback gathered must demonstrably influence outcomes rather than being absorbed into a process that was already decided. When community input is solicited but visibly ignored, the result is often deeper cynicism than if no consultation had occurred at all.\n\nThere is a genuine tension in the literature between two legitimate concerns. On one side, researchers and advocates emphasize that communities — especially those historically subject to surveillance, algorithmic bias, or discriminatory institutional practices — have strong grounds for skepticism about AI tools and deserve meaningful veto power over their introduction. On the other side, some education researchers caution that highly localized community control can produce inconsistent outcomes, with well-resourced and digitally confident communities embracing beneficial tools while under-resourced communities, whose students might benefit most from adaptive learning technologies, opt out due to generalized distrust. Neither concern cancels the other, and schools navigating this tension must resist the temptation to resolve it too quickly in either direction.\n\nWhat the evidence does support clearly is that the quality of the relationship between schools and their communities before any AI decision is made largely determines how those decisions will be received. Districts with established cultures of transparency, regular family engagement, and demonstrated responsiveness to community concerns are better positioned to introduce AI tools thoughtfully than those attempting to build trust at the moment of controversy. This suggests that the work of community involvement in AI governance is inseparable from the broader, slower work of building institutional credibility.\n\nPractically, this means schools should treat AI governance not as a one-time policy announcement but as an ongoing conversation — revisiting decisions as tools evolve, reporting back on outcomes, and creating accessible channels through which parents can raise concerns at any point. The goal is not consensus on every decision, which is rarely achievable, but a shared understanding that the institution is accountable, that families have genuine standing in the process, and that the interests of children are the organizing principle around which all other considerations are arranged.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
+          "title": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://datasociety.net/library/governing-ai-in-education/",
+          "title": "https://datasociety.net/library/governing-ai-in-education/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://edsafeai.org/parents-and-ai-in-schools/",
+          "title": "https://edsafeai.org/parents-and-ai-in-schools/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://fpf.org/blog/student-privacy-and-ai-a-legal-landscape-analysis/",
+          "title": "https://fpf.org/blog/student-privacy-and-ai-a-legal-landscape-analysis/",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://ed.stanford.edu/equity-learning-initiative/community-voice-edtech",
+          "title": "https://ed.stanford.edu/equity-learning-initiative/community-voice-edtech",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 89
+    }
+  ],
+  "answer_summary": "When schools introduce artificial intelligence tools into classrooms, the question of how to bring parents and communities into that process is not merely procedural — it goes to the heart of democratic governance in education. Research and policy guidance converge on a clear starting point: transparent communication must precede deployment, not follow it. The U.S.",
+  "disputed_aspects": []
+}

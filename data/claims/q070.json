@@ -1,0 +1,61 @@
+{
+  "question_id": "q070",
+  "question_text": "What guidance have major international bodies (UNESCO, OECD, EU, and others) issued on AI in education, and how is it being implemented?",
+  "current_edition": 73,
+  "claims": [
+    {
+      "claim_id": "q070-c01",
+      "text": "## International Guidance on Artificial Intelligence in Education\n\nThe arrival of generative AI in classrooms and research institutions has prompted an unusually swift response from international bodies, each approaching the challenge through its own institutional lens while converging on a set of shared concerns: learner protection, equity, teacher agency, and the need for governance frameworks that can keep pace with rapidly evolving technology.\n\nUNESCO has been the most prolific producer of normative guidance in this space. Its engagement stretches back to the 2019 *Beijing Consensus on Artificial Intelligence and Education*, which established early principles around human-centred design, inclusion, and the primacy of educational values over technological imperatives. That foundation was substantially built upon when UNESCO released its *Guidance for Generative AI in Education and Research* in September 2023, the product of a global consultation process that gave the document unusual breadth of input. The guidance explicitly calls on governments to regulate generative AI tools before deploying them in educational settings, a notably cautious posture that reflects UNESCO's longstanding concern with protecting vulnerable learners. Central to the document is the argument that no generative AI application should enter a school or university without prior assessment of its pedagogical value, its data practices, and its potential to exacerbate existing inequalities. UNESCO also insists that teachers must remain the authoritative figures in learning relationships, with AI positioned as a supplementary instrument rather than a substitute for human judgement. The organisation has paired this normative work with practical tools, including a competency framework for educators and a recommendation that member states designate minimum ages for student interaction with generative AI systems — a provision that has attracted both support and criticism, with some researchers arguing that blanket age thresholds are blunt instruments poorly suited to the diversity of educational contexts across 193 member states.\n\nThe OECD has approached the question from a somewhat different angle, emphasising skills, labour market readiness, and the measurement of learning outcomes. Its AI in Education work sits within a broader programme on digital education and is closely connected to the OECD's *Principles on AI*, adopted in 2019 and subsequently endorsed by G20 nations, which stress transparency, accountability, and robustness. In the education context, the OECD has focused particularly on what it terms \"AI literacy\" — the capacity of students and teachers to understand, critically evaluate, and work alongside AI systems. Its analyses of national education systems suggest that readiness varies enormously, with high-income countries generally better positioned to integrate AI tools responsibly, while lower-income systems risk being left to adopt technologies designed elsewhere, with little capacity to audit or adapt them. The OECD has stopped short of prescriptive regulation, preferring to offer comparative data and policy options, which gives its guidance a more advisory than directive character.\n\nThe European Union has moved furthest toward binding governance. The EU AI Act, which reached political agreement in late 2023 and entered into force in 2024, classifies certain AI applications in education as high-risk — specifically those used for student assessment, admissions decisions, or monitoring of learner behaviour. High-risk classification triggers requirements for transparency, human oversight, data governance, and conformity assessments before deployment. This represents a qualitatively different kind of guidance from UNESCO or OECD recommendations: it carries legal force within member states and creates compliance obligations for developers and institutions alike. The European Commission has also issued supplementary guidance through its Digital Education Action Plan, which encourages member states to develop national AI in education strategies and invest in teacher training. Implementation, however, remains uneven across the bloc, with northern European countries generally further advanced in both policy development and classroom integration than southern and eastern members.\n\nBeyond these three bodies, the G7 and G20 have issued communiqués endorsing responsible AI principles in education, though these tend to restate existing frameworks rather than break new ground. The Council of Europe has contributed work on AI and human rights that bears on educational contexts, particularly regarding surveillance and the rights of minors.\n\nThe central tension running through all of this guidance is the gap between normative ambition and practical implementation. UNESCO's recommendations are non-binding, and member states vary enormously in their capacity and willingness to act on them. The OECD's influence operates through soft power and peer comparison rather than enforcement. Even the EU AI Act, the most legally robust instrument, faces questions about how educational institutions — many of them under-resourced — will manage compliance in practice. Researchers have noted that guidance produced at the international level often reflects the priorities and technological contexts of wealthy nations, and that its translation into diverse local settings requires adaptation that international bodies are not always well placed to support. Whether the current wave of frameworks will produce durable change in how AI is used in classrooms, or whether it will remain largely aspirational, is a question that the evidence does not yet resolve.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "title": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/education/generative-artificial-intelligence-and-the-future-of-education-17c4a272-en.htm",
+          "title": "https://www.oecd.org/education/generative-artificial-intelligence-and-the-future-of-education-17c4a272-en.htm",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
+          "title": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.coe.int/en/web/artificial-intelligence/education",
+          "title": "https://www.coe.int/en/web/artificial-intelligence/education",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.g7hiroshima.go.jp/documents/pdf/231030_02_en.pdf",
+          "title": "https://www.g7hiroshima.go.jp/documents/pdf/231030_02_en.pdf",
+          "type": "practitioner",
+          "retrieved": "2026-07-30",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.unesco.org/gem-report/en/2023",
+          "title": "https://www.unesco.org/gem-report/en/2023",
+          "type": "official",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-07-30",
+      "added_edition": 73
+    }
+  ],
+  "answer_summary": "The arrival of generative AI in classrooms and research institutions has prompted an unusually swift response from international bodies, each approaching the challenge through its own institutional lens while converging on a set of shared concerns: learner protection, equity, teacher agency, and the need for governance frameworks that can keep pace with rapidly evolving technology.",
+  "disputed_aspects": []
+}

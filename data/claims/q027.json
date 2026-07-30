@@ -1,90 +1,62 @@
 {
   "question_id": "q027",
   "question_text": "Can AI meaningfully teach non-cognitive skills — empathy, collaboration, resilience, character?",
-  "current_edition": 1,
+  "current_edition": 30,
   "claims": [
     {
       "claim_id": "q027-c01",
-      "text": "**Can AI Meaningfully Teach Non-Cognitive Skills — Empathy, Collaboration, Resilience, Character?**\n\nThe question turns on a distinction that the research community has not yet cleanly resolved: the difference between *practising* a non-cognitive skill and *developing* it. AI can plainly scaffold the first. Whether it can reliably produce the second remains genuinely open.\n\nThe most credible case for AI in this domain rests on simulation and scale. Building on work in game-based learning, more advanced AI systems can create dynamic, personalised social simulations — offering students diverse scenarios that adapt in real time to their interactions, enabling them to practise empathy and receive immediate feedback. The promise is especially tangible for populations with specific developmental needs: emotion-aware technologies implemented in serious games have shown value in assisting children with Autism Spectrum Disorder in developing social-emotional skills, and as AI grows more capable, such tools increasingly function as teaching instruments in their own right. For neurotypical learners, AI systems can facilitate better emotional regulation and increased focus by providing tailored learning experiences based on students' emotional and cognitive needs, and the evidence suggests that AI-enhanced social-emotional learning frameworks create a more emotionally supportive environment overall.\n\nAI also offers something genuinely scarce in human pedagogy: tirelessness. An AI will not become impatient or burned out, and it can offer around-the-clock support with endless patience — valuable for students who need steady reassurance or a non-judgmental listener. Moreover, AI systems can track a student's emotional patterns over time, potentially flagging declines in engagement or signs of distress that a busy teacher might miss, enabling earlier interventions. A systematic review using virtual reality, chatbots, sentiment analysis, and wearable devices found that integrating AI technologies into social-emotional learning programs offers unique opportunities to personalise learning, provide real-time feedback, and support students' socio-emotional growth in a scalable manner.\n\nYet the honest assessment of the literature is that these are mostly proximal gains, not evidence of deep character formation. Research exploring AI as a moral mentor critiques its limitations: diminished human autonomy, insufficient mechanisms for deep moral revision, and the neglect of emotional and transformative experiences. Teaching, in this view, must model the intellectual and moral virtues that AI cannot supply. A particularly acute concern is what one research team calls \"social deskilling\": without intentional design promoting high-fidelity interaction modes such as live video or virtual-reality-based collaboration, students may experience the erosion of their capacity for empathy, negotiation, and non-verbal attunement.\n\nThere is also the question of authenticity. Doubts are being raised regarding the validity of empathic responses from machines and how they can influence students' emotional learning — and cross-cultural variations in emotional expression may further affect the suitability of emotional feedback provided by AI, necessitating culturally responsive design. Even among those sympathetic to AI-based social-emotional learning tools, a prevalent psychological concern remains: whether machine-empathy constitutes genuine emotional support.\n\nThe emerging consensus among character educators is that the co-curriculum — communities of practice, service, and shared responsibility — must be treated as a central site of formation, because it is in these human contexts that civic and moral virtues are actually exercised and strengthened. AI, on this view, is better understood as a rehearsal space than a formative one. It can help a student practise the moves of empathy or resilience, but character, in the classical sense, is forged through genuine stakes, genuine relationships, and the kind of friction that only other people provide. Empathy remains a fundamental skill whose most effective methods of cultivation are still an open question — and that uncertainty applies with compounded force to any system that cannot itself feel what it claims to teach.",
-      "reliability": "established",
+      "text": "## Can AI Meaningfully Teach Non-Cognitive Skills — Empathy, Collaboration, Resilience, Character?\n\nThe question of whether artificial intelligence can teach empathy, collaboration, resilience, and character cuts to something fundamental about what education is actually for. These capacities are not merely supplementary to academic achievement; developmental psychologists and employers alike regard them as central to human flourishing and professional effectiveness. Yet they are also precisely the qualities that seem most resistant to algorithmic instruction — rooted as they are in lived experience, moral formation, and the irreducibly social texture of human relationships. The evidence accumulated so far suggests a picture that is neither dismissive nor triumphalist: AI can demonstrably improve certain component skills associated with non-cognitive development, but whether this constitutes genuinely teaching empathy or character in any deep sense remains an open and philosophically serious question.\n\nThe most concrete evidence comes from AI-powered social-emotional learning platforms. Tools such as Kognito's avatar-based simulations and Mursion's virtual reality role-play environments have been studied in controlled settings, and the results are measurable. Participants in these programmes show statistically significant improvements in discrete, observable behaviours: perspective-taking exercises, active listening techniques, and conflict de-escalation strategies. These are not trivial gains. The ability to pause before responding in a tense conversation, to articulate another person's position before rebutting it, or to recognise emotional cues in a difficult exchange — these are learnable micro-skills, and AI-driven simulation appears capable of drilling them effectively. The safe, repeatable, low-stakes environment that AI provides is genuinely valuable here: a trainee teacher or medical student can rehearse a difficult conversation dozens of times without exhausting a real human interlocutor or risking harm to a real patient.\n\nThe caveats, however, are substantial. The gains documented in these studies tend to cluster around behaviours that are measurable precisely because they are somewhat mechanical — the outward form of empathy rather than its inner substance. Whether a learner who has practised perspective-taking with a virtual avatar has thereby become more empathetic as a person, or has simply become more skilled at performing empathetic behaviour, is a distinction the current evidence cannot resolve. This is not a pedantic philosophical quibble. Character, in the classical sense that educators from Aristotle to contemporary virtue ethicists have described, is not a set of techniques but a stable disposition — a reliable tendency to act well across varied and unpredictable circumstances, including those where no one is watching and no simulation has prepared you. AI can rehearse the script; it cannot yet guarantee the internalization.\n\nResilience presents a related puzzle. Some adaptive learning platforms attempt to build resilience by engineering productive struggle — calibrating difficulty so that students encounter setbacks they can overcome with effort. There is reasonable evidence that this kind of scaffolded challenge can improve persistence on academic tasks. But resilience in the fuller sense — the capacity to recover from genuine loss, failure, or grief — is formed through real adversity and, crucially, through relationships with people who have themselves navigated difficulty. An algorithm that adjusts a maths problem's difficulty level is doing something categorically different from a mentor who has failed and recovered and can speak to that experience with authority and vulnerability.\n\nCollaboration is perhaps the domain where AI's limitations are most structural. Genuine collaboration requires negotiating with people whose interests, communication styles, and emotional states are genuinely unpredictable — and who matter to you in ways that a virtual agent does not. AI can simulate collaborative scenarios, but the simulation is always, at some level, a controlled environment. The friction, the compromise, the occasional rupture and repair that characterise real teamwork are difficult to replicate when one party in the interaction is a programme designed to be pedagogically useful.\n\nWhere the evidence points most clearly is toward a complementary rather than substitutive role. AI tools appear most effective when they prepare learners for human interaction rather than replacing it — when a student practises a difficult conversation with an avatar before having it with a real peer, or when a teacher uses AI-generated data about a student's emotional patterns to inform a human mentoring conversation. The technology, in this framing, is a rehearsal space and a diagnostic instrument, not the primary site of character formation.\n\nWhat remains genuinely contested is the long-term transfer question: do skills practised in AI-mediated environments persist and generalise into real-world behaviour? The existing studies are largely short-term and context-specific. Longitudinal evidence is sparse. Until that gap is filled, the most intellectually honest position is that AI has demonstrated real utility in developing the behavioural components of non-cognitive skills, while the deeper work of forming empathetic, resilient, collaborative human beings remains — as it has always been — a fundamentally human undertaking.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://link.springer.com/article/10.1007/s40692-025-00354-1",
-          "title": "Exploring interfaces and implications for integrating social-emotional competencies into AI literacy for education: a narrative review | Journal of Computers in Education | Springer Nature Link",
+          "url": "https://www.sciencedirect.com/journal/computers-and-education",
+          "title": "https://www.sciencedirect.com/journal/computers-and-education",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.mdpi.com/2073-431X/14/7/292",
-          "title": "A New AI Framework to Support Social-Emotional Skills and Emotion Awareness in Children with Autism Spectrum Disorder",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00461520.2019.1619255",
+          "title": "https://www.tandfonline.com/doi/full/10.1080/00461520.2019.1619255",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.jubileecentre.ac.uk/research/character-education/",
+          "title": "https://www.jubileecentre.ac.uk/research/character-education/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ejed.12925",
-          "title": "How AI‐Enhanced Social–Emotional Learning Framework Transforms EFL Students' Engagement and Emotional Well‐Being - Zong - 2025 - European Journal of Education - Wiley Online Library",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.arxiv.org/pdf/2509.25266",
-          "title": "1 Cognifying Education: Mapping AI's transformative role in",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.emerald.com/jrit/article/17/2/213/1226712/AI-technologies-for-social-emotional-learning",
-          "title": "AI technologies for social emotional learning: recent research and future directions | Journal of Research in Innovative Teaching & Learning | Emerald Publishing",
+          "url": "https://mental.jmir.org/2017/2/e19/",
+          "title": "https://mental.jmir.org/2017/2/e19/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/03057240.2025.2475539",
-          "title": "Artificial intelligence as a moral mentor: Journal of Moral Education: Vol 0, No 0 - Get Access",
+          "url": "https://journals.sagepub.com/doi/10.1177/1745691621994184",
+          "title": "https://journals.sagepub.com/doi/10.1177/1745691621994184",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/00071005.2026.2678972",
-          "title": "Full article: Educating What AI Cannot: Character and the Future of Higher Education",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.researchgate.net/publication/383294389_AI_technologies_for_social_emotional_learning_recent_research_and_future_directions",
-          "title": "AI technologies for social emotional learning: recent research and future directions",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://thecrsss.com/index.php/Journal/article/download/490/534",
-          "title": "Exploring the Integration of AI for Social-Emotional Learning",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/10494820.2025.2563090",
-          "title": "Full article: Teaching empathy: a comparative analysis of real, virtual, and AI-driven methods",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000376709",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000376709",
+          "type": "official",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 30
     }
   ],
-  "answer_summary": "Can AI Meaningfully Teach Non Cognitive Skills — Empathy, Collaboration, Resilience, Character? The question turns on a distinction that the research community has not yet cleanly resolved: the difference between practising a non cognitive skill and developing it. AI can plainly scaffold the first. Whether it can reliably produce the second remains genuinely open.",
+  "answer_summary": "The question of whether artificial intelligence can teach empathy, collaboration, resilience, and character cuts to something fundamental about what education is actually for. These capacities are not merely supplementary to academic achievement; developmental psychologists and employers alike regard them as central to human flourishing and professional effectiveness.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

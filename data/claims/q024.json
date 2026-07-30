@@ -1,104 +1,62 @@
 {
   "question_id": "q024",
   "question_text": "How can AI support teachers (planning, assessment, feedback) without deskilling or replacing them?",
-  "current_edition": 1,
+  "current_edition": 27,
   "claims": [
     {
       "claim_id": "q024-c01",
-      "text": "## AI as Pedagogical Partner: Supporting Teachers Without Supplanting Them\n\nThe question of how artificial intelligence can enhance teaching without hollowing it out is not merely technical; it is a question about the nature of professional expertise itself. The evidence accumulated over the past few years points toward a clear, if demanding, answer: AI is most valuable when it absorbs the mechanical and most time-consuming dimensions of a teacher's work, freeing cognitive and emotional energy for the tasks that are genuinely irreplaceable.\n\n**Planning.** The administrative burden of lesson design has long consumed hours that teachers might otherwise spend on students. Platforms such as MagicSchool.ai and Eduaide.AI now offer customizable lesson content aligned to learning goals, and one of AI's most practical strengths is its ability to generate well-structured, standards-aligned lesson plans — teachers can input objectives and instantly connect them to state or national standards, with AI systems highlighting skill gaps and providing actionable insights without hours of manual research. Crucially, however, these outputs are strong starting points but may need refinement to match a school's specific pacing guides or frameworks — a reminder that professional judgment remains the final editor of anything a machine produces.\n\n**Assessment.** The case for AI in formative assessment is particularly compelling, because speed is of the essence. Exit tickets — brief end-of-class checks for understanding — are one of the most evidence-backed formative strategies, with a 2019 meta-analysis finding they improve learning outcomes by an average of 0.4 standard deviations; the obstacle has always been analysis speed, since a teacher with 90 students across three sections receives 90 exit tickets per lesson, and reading and categorizing them traditionally takes 30–45 minutes. AI tools can now compress that analysis to seconds. Teachers using AI-powered evaluation tools save approximately 44% of their time on administrative tasks. Yet the limits matter equally: AI is most reliable for formative assessment of constrained tasks; using it to grade final examinations in philosophy, for instance, is straightforwardly inappropriate.\n\n**Feedback.** Timely feedback is among the most powerful interventions in learning, and AI dramatically shortens the lag between submission and response. Students can receive detailed feedback the same day they submit their work, supporting quicker improvement because corrections arrive while the material is still fresh. Tools like Gradescope accelerate this further: it uses AI to group similar student answers together so that a teacher can write feedback once for a common mistake, and that note applies automatically to every student who made the same error. Even so, caution is warranted — a 2025 MIT study found that students who relied heavily on AI during the writing process showed less cognitive engagement, and teachers on the ground report that AI grading accuracy hovers around 50–55% when a rubric is provided, dropping to roughly 33% without one.\n\n**The deskilling risk.** The danger is real and should not be minimised. Many AI tools replace or stand to replace human activity, and the more AI replaces valuable human activity, the more it risks deskilling humans of their capacities. In education specifically, the risk is not simply automation as such, but pedagogical deskilling through disuse: when teachers are less involved in core instructional decisions, the knowledge and judgment those practices sustain may gradually erode. A subtler threat identified in recent scholarship is what one researcher calls \"reverse adaptation\" — where educational ends are adjusted to fit machine-readable means rather than the other way around, conditioning teachers to anticipate what the system will approve rather than what the situation calls for.\n\n**What protects teacher expertise.** The UNESCO Teacher Task Force's 2025 position paper offers the clearest institutional answer to this problem: AI can help automate tasks, support learning, and improve efficiency, but it cannot replicate the relational, ethical, and creative dimensions at the heart of teaching. Protecting those dimensions requires treating AI literacy not as a bonus skill but as a professional obligation. Teachers must be able to identify algorithmic biases and maintain ethical integration to prevent alienation — and they must develop the discernment to know when AI complements or undermines their intellectual autonomy. Governance matters too: assessment tools should be designed and implemented alongside teachers, with teachers empowered to review results to ensure validity and with teacher-centred design treated as essential for effectiveness and uptake.\n\nA 2024 World Economic Forum report found that 78% of education experts believe AI will augment teachers' work rather than replace them, and research surveying university teachers and students found consensus that AI cannot replace the human qualities essential for students' competency development and personal growth. That consensus is encouraging, but it is not self-fulfilling. The outcome depends on whether schools invest in professional development — 50% of teachers received professional development on AI in fall 2025, up from just 13% in 2023 — and whether that training cultivates critical judgment rather than passive adoption. The teachers least at risk of being diminished by AI are those who understand it well enough to know, at any given moment, exactly what it should and should not be allowed to decide.",
-      "reliability": "established",
+      "text": "## The Teacher and the Machine: How AI Can Assist Without Diminishing\n\nThe question of whether artificial intelligence can genuinely support teachers — rather than gradually hollowing out their professional role — sits at the centre of one of education's most consequential contemporary debates. The evidence available suggests that the answer is a qualified yes, but one that depends heavily on how AI tools are designed, deployed, and understood by the educators who use them.\n\nThe most concrete and well-documented benefit concerns the sheer weight of preparatory labour that teaching demands. According to a 2023 RAND Corporation survey of American teachers, educators who incorporated AI tools into their lesson planning reported saving between one and three hours per week on administrative and preparatory tasks. That is not a trivial gain. Teacher burnout and attrition are persistent crises in many school systems, and time reclaimed from routine preparation is time that can be redirected toward the relational, responsive, and intellectually demanding work that defines good teaching. Tools such as ChatGPT and purpose-built platforms like MagicSchool have demonstrated a genuine capacity to generate draft lesson structures, suggest differentiated activities, and compile resource lists at speed no human could match.\n\nYet the same RAND research introduces an important qualification: the pedagogical appropriateness of AI-generated plans varied significantly without teacher intervention. This finding is crucial, and it reframes the entire question. AI, in its current form, produces outputs that are plausible and often serviceable, but not reliably attuned to the specific students in a specific classroom, the local curriculum context, the unspoken dynamics of a particular school community, or the subtle professional judgements that experienced teachers carry as tacit knowledge. A lesson plan that looks coherent on screen may be pedagogically misaligned in practice. The implication is not that AI planning tools are without value, but that they function best as a starting point — a draft to be interrogated, revised, and owned by the teacher — rather than as a finished product to be adopted wholesale.\n\nThis distinction between AI as co-pilot and AI as autopilot is more than metaphorical. When teachers engage critically with AI-generated material, selecting what fits, discarding what does not, and adapting the rest, they are exercising precisely the professional judgement that defines their expertise. The risk of deskilling arises not from using AI but from using it passively — accepting outputs without scrutiny, gradually outsourcing the deliberative process that keeps pedagogical skill sharp. The technology itself is largely neutral on this point; the danger lies in institutional cultures or workload pressures that incentivise speed over reflection.\n\nIn the domains of assessment and feedback, the picture is similarly nuanced. AI systems capable of analysing student writing, flagging patterns of misunderstanding, or generating formative feedback at scale offer genuine promise, particularly in large classes where individual attention is structurally constrained. Automated feedback can be immediate in a way that human feedback rarely is, and immediacy matters for learning. However, the quality of AI-generated feedback on complex or creative work remains contested. Systems trained on large corpora can identify surface-level errors with reasonable accuracy, but they struggle with the interpretive, contextual, and motivational dimensions of feedback — knowing when a student needs encouragement rather than correction, or when an unconventional response reflects genuine insight rather than confusion. These are judgements that require knowing the student, and AI does not know students in any meaningful sense.\n\nThere is also a structural concern worth naming honestly. If AI takes over the feedback loop between teacher and student, even partially, it risks attenuating one of the most educationally significant relationships in a school. Research on effective teaching consistently identifies the teacher-student relationship as a primary driver of engagement and learning. Feedback is not merely information transfer; it is a form of attention, and students know the difference between a response generated by a system and one written by a person who has read their work carefully. The pedagogical value of human feedback is partly constituted by its human origin.\n\nThe most defensible model, then, is one in which AI handles the high-volume, lower-stakes, and more mechanical dimensions of teacher work — generating initial drafts, flagging patterns in assessment data, producing differentiated resource options — while teachers retain authority over the interpretive, relational, and evaluative dimensions that require professional judgement. This is not a comfortable equilibrium that will maintain itself automatically. It requires deliberate institutional design, professional development that builds AI literacy alongside critical scepticism, and a clear-eyed commitment to preserving the conditions under which teaching as a skilled profession can flourish.\n\nThe technology, in short, is neither saviour nor threat by nature. What determines its effect on the teaching profession is the wisdom — or its absence — with which it is integrated into the work.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://pce.sandiego.edu/ai-tools-for-teachers/",
-          "title": "Top AI Tools for Teachers in 2025",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.indwes.edu/articles/2025/09/how-ai-is-revolutionizing-lesson-plan-design-for-teachers",
-          "title": "How AI is Revolutionizing Lesson Plan Design for Teachers",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://openeducat.org/articles/how-ai-is-changing-classroom-assessment/",
-          "title": "How AI Is Changing Classroom Assessment | OpenEduCat",
+          "url": "https://www.rand.org/pubs/research_reports/RRA956-4.html",
+          "title": "https://www.rand.org/pubs/research_reports/RRA956-4.html",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://schoolai.com/blog/ai-assessment-tools-for-educators-key-learning-insights",
-          "title": "Unlock classroom time: How AI assessment tools transform teaching & learning | SchoolAI",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.educatorstechnology.com/2026/02/ai-feedback-tools-for-teachers.html",
-          "title": "Top AI Feedback Tools for Teachers - Educators Technology",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://link.springer.com/article/10.1007/s00146-025-02686-z",
-          "title": "AI deskilling is a structural problem | AI & SOCIETY | Springer Nature Link",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0360131514002139",
+          "title": "https://www.sciencedirect.com/science/article/pii/S0360131514002139",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1844085/full",
-          "title": "Frontiers | AI in education and the future of teachers’ meaningful work",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://aiadvisoryboards.wordpress.com/2025/09/05/promoting-and-protecting-teacher-agency-in-the-age-of-artificial-intelligence-position-paper-unesco-2025/",
-          "title": "Promoting and protecting teacher agency in the age of artificial intelligence (Position paper/UNESCO 2025) – AI Advisory Boards",
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://www.mdpi.com/2227-7102/16/7/1055",
-          "title": "Teacher Autonomy and Judgment in the Face of Pedagogical Automation in Post-Digital Professionalism: A Systematic Review",
+          "url": "https://www.rand.org/pubs/research_reports/RR1365.html",
+          "title": "https://www.rand.org/pubs/research_reports/RR1365.html",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://edtechhub.org/2025/10/29/how-might-ai-transform-the-way-we-assess-and-understand-learning/",
-          "title": "How Might AI Transform the Way We Assess and Understand Learning? - EdTech Hub",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
+          "url": "https://www.monash.edu/education/research/projects/ai-in-schools",
+          "title": "https://www.monash.edu/education/research/projects/ai-in-schools",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
         },
         {
-          "url": "https://www.htlinternationalschool.com/2026/02/04/can-ai-replace-teachers-the-truth-about-machine-vs-human-learning-in-2026/",
-          "title": "HTL International School in Spain Can AI Replace Teachers? The Truth About Learning in 2026",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.forbes.com/sites/sarahhernholm/article/will-ai-replace-teaching-jobs/",
-          "title": "Will AI Replace Teachers? What Experts Say Is Changing",
-          "type": "news",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
+          "url": "https://www.nature.com/articles/s41539-022-00144-3",
+          "title": "https://www.nature.com/articles/s41539-022-00144-3",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 27
     }
   ],
-  "answer_summary": "The question of how artificial intelligence can enhance teaching without hollowing it out is not merely technical; it is a question about the nature of professional expertise itself.",
+  "answer_summary": "The question of whether artificial intelligence can genuinely support teachers — rather than gradually hollowing out their professional role — sits at the centre of one of education's most consequential contemporary debates.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

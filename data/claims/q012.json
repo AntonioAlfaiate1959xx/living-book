@@ -1,104 +1,62 @@
 {
   "question_id": "q012",
   "question_text": "How should student data collected by AI systems be governed, and who owns the learning profile of a child?",
-  "current_edition": 1,
+  "current_edition": 15,
   "claims": [
     {
       "claim_id": "q012-c01",
-      "text": "**The Child as Data Subject: Governing Student Information in the Age of AI**\n\nThe question of who owns a child's learning profile has no clean answer in current law, and the gap between what AI systems can do and what governance frameworks permit them to do is widening by the year. The stakes are considerable: the use of AI in education involves the collection and analysis of sensitive student data, including personal information, academic performance, and behavioral patterns. Beyond academic records, AI-powered tools collect vast amounts of sensitive information, including student health records, Social Security numbers, and families' credit card data. When aggregated and processed over years of schooling, this material constitutes something qualitatively new: a continuously updated psychological and cognitive portrait of a developing person.\n\n**The Legal Landscape and Its Gaps**\n\nThe primary American statute governing this territory is the Family Educational Rights and Privacy Act (FERPA). FERPA governs student data privacy, ensuring that educational institutions maintain strict confidentiality around student records — but it was enacted long before AI became prevalent, leaving gaps in how it applies to modern data practices. The law was designed for a world of paper files and administrative records, not for adaptive learning platforms that track every hesitation, wrong answer, and rereading of a passage. Guidelines like FERPA don't guarantee meaningful protections for students when AI vendors can structure their data practices to fall outside its definitions of \"education records.\"\n\nFor younger children, the Children's Online Privacy Protection Act (COPPA) provides a separate layer of protection. The FTC's COPPA amendments, finalized in 2025, require separate parental consent for sharing children's data with third parties, though schools can still authorize educational data collection under existing FTC guidance. The question of who actually holds that consent authority — parent, school, or district — remains practically ambiguous.\n\n**The Ownership Problem**\n\nThe question of legal ownership is particularly unsettled. FERPA and similar laws dictate how schools manage student data, yet many AI tools operate in a legal gray area. To ensure compliance, educators and administrators must critically evaluate how AI systems collect, store, and process student information — including who controls the data and whether the school retains ownership or the AI vendor does. In practice, contractual arrangements between districts and edtech companies often determine the answer, and those contracts vary enormously. The law ensures that student data remains under the control of the local educational agency, and the AI provider must agree not to use the data for any purposes other than those specified in the agreement — but enforcement of such provisions is inconsistent and under-resourced.\n\nThe training-data question introduces a further complication. AI firms are constantly seeking data to train their models, and while they are not required to say exactly where they get it, they do have to say how they're using customer data, especially when dealing with students. Most major educational AI platforms publicly disclaim training on student inputs — content submitted by teachers and students is not used to train the foundational AI models that underlie Khan Academy's AI tutor, Khanmigo, according to the company's chief learning officer — but there is no independent verification regime to hold vendors to such commitments.\n\n**The Risks of Permanent Profiling**\n\nPerhaps the most consequential and least-discussed risk is what might be called the permanence problem. AI privacy risks in education include the creation of permanent digital records that follow students throughout their lives. A learning profile assembled at age eight — one that might label a child as struggling with reading comprehension or prone to distraction — could inform algorithmic decisions about academic placement, college admissions, or even employment screenings in ways the child never consented to and cannot later contest. A 2024 study found that predictive algorithms widely used by universities tend to underestimate the success potential of Black and Hispanic students while overestimating that of White and Asian students — and this systematic bias skews academic support interventions, creating a risk of self-fulfilling prophecies where students flagged as \"high-risk\" receive fewer opportunities.\n\n**The Regulatory Response**\n\nGovernance is moving, but unevenly. More than half of US states have issued AI guidance for K-12 schools, most of it converging on the same themes: data privacy, academic integrity, equity, and keeping educators in control of AI-assisted decisions. Yet guidance is not law. As of July 2025, only a couple of states had moved beyond recommendations to passing legal mandates: Ohio passed a law requiring all K-12 public schools to adopt AI use policies by mid-2026, and Tennessee mandated that local school boards implement policies regarding the use of AI by students, faculty, and staff. At the federal level, legislation has been proposed that would amend FERPA and create a Golden Seal of Excellence in Student Data Privacy, along with a Privacy Technical Assistance Center at the U.S. Department of Education, though no such comprehensive framework has yet been enacted.\n\nInternationally, the EU AI Act offers a more structured approach. It classifies several education uses of AI as high-risk, including systems that determine admission or assignment to institutions, evaluate learning outcomes, or monitor behavior during tests — and high-risk status brings obligations on risk management, data quality, logging, transparency, and human oversight.\n\n**What Sound Governance Requires**\n\nThe contours of a defensible governance framework are becoming clearer even if implementation lags. Transparency in data usage is essential — stakeholders should be informed about what data is being collected, how it will be utilized, and who will have access to it — and institutions should establish clear data governance policies that delineate responsibilities for data handling and outline procedures for responding to potential data breaches. Beyond transparency, the field increasingly recognizes that ownership should vest ultimately in the student — with parents acting as stewards during minority — rather than in vendors or even institutions. A comprehensive, nationwide approach to data privacy in education is needed; until such regulations are in place, the responsibility lies with educators and schools to harness the benefits of AI responsibly, ensuring the protection of student data and upholding the integrity of the learning environment. Whether governments move fast enough to establish that framework before AI-generated learning profiles become deeply embedded in consequential decisions remains, as of mid-2026, an open and urgent question.",
-      "reliability": "established",
+      "text": "## Who Owns the Learning Profile of a Child? Governing Student Data in the Age of AI\n\nWhen an adaptive learning platform tracks a child's reading pace, flags moments of confusion, infers emotional states from keystroke patterns, and adjusts content accordingly, it is doing something qualitatively different from storing a report card. It is constructing a dynamic, intimate portrait of a developing mind. The question of who governs that portrait — and who, in any meaningful sense, owns it — sits at the intersection of law, ethics, and political economy, and current frameworks are struggling to keep pace.\n\nThe primary legal architecture in the United States was built for a different era. The Family Educational Rights and Privacy Act (FERPA), enacted in 1974, grants parents the right to access and correct their children's educational records, and transfers those rights to students once they turn eighteen. The Children's Online Privacy Protection Act (COPPA), passed in 1998, requires verifiable parental consent before collecting personal data from children under thirteen. Both statutes were designed when educational records meant paper files and online services were in their infancy. Neither anticipated AI systems that continuously generate inferred data — predictions about learning styles, emotional engagement, cognitive load, or future academic trajectories — that may never appear in any formal record yet shape a child's educational experience in real time.\n\nThe gaps are consequential. FERPA's definition of \"education records\" is ambiguous when applied to behavioral telemetry and algorithmic inferences. A platform might argue that the raw clickstream data it collects, or the predictive model it builds from that data, does not constitute an education record in the statutory sense, and therefore falls outside parental access rights. COPPA addresses collection but says little about the downstream use of data once collected, leaving open the question of whether a company may train commercial AI models on children's learning behaviors gathered under an educational license. These are not merely theoretical loopholes; they represent live commercial incentives in a sector where student data has recognized market value.\n\nThe ownership question is philosophically thornier than it might first appear. In one view, the child — or the family acting on the child's behalf — is the natural owner of a learning profile, since it describes an intimate dimension of personhood. In another view, the school or district owns the data because it was generated within an institutional relationship and the institution bears legal responsibility for the child's education. Vendors complicate this further by asserting proprietary claims over the models and inferences derived from student data, even when the underlying behavioral inputs belong to someone else. In practice, ownership is often determined not by principle but by contract, and the contracts between schools and edtech companies have historically favored vendors, who retain broad rights to aggregate, anonymize, and repurpose data for product development.\n\nEurope's General Data Protection Regulation offers a more rights-centered model. Under GDPR, children receive heightened protections, data subjects have rights of access, rectification, and erasure, and the legal basis for processing must be explicit and proportionate. Crucially, automated decision-making that produces significant effects on individuals — including children — requires human oversight and can be challenged. Several EU member states have gone further, restricting the use of student data for commercial profiling entirely. Whether this model is exportable is contested: critics argue that GDPR's compliance burden disadvantages smaller edtech innovators and that its consent mechanisms are poorly suited to institutional contexts where individual opt-out is impractical.\n\nA growing body of scholarship and policy advocacy points toward a stewardship model as a more coherent alternative to ownership framing. Under this approach, no single party owns a child's learning profile; instead, multiple parties hold defined fiduciary obligations toward the child. Schools are stewards responsible for ensuring data is used only for educational benefit. Vendors are processors bound by strict contractual and regulatory limits on secondary use. Parents and, as children mature, students themselves hold rights of access, correction, and deletion. Regulators provide oversight and enforcement. This model draws on analogies to medical data governance, where the patient does not \"own\" their health record in a property-law sense but enjoys robust protections against its misuse.\n\nWhat remains genuinely contested is how to handle the longitudinal dimension. AI learning profiles, unlike a single test score, accumulate over years and may follow a child across institutions. The risk of what researchers call \"data determinism\" — where early inferences calcify into persistent labels that constrain opportunity — is real and underappreciated. A child flagged at age eight as a slow reader by an adaptive platform should not carry that inference into secondary school as though it were a fixed fact. Governance frameworks must therefore address not only who holds data but for how long, under what conditions inferences may be revised, and what rights of contestation exist when algorithmic assessments prove wrong.\n\nThe architecture of student data governance is, ultimately, a statement about what education is for. If learning profiles exist to serve the child's development, governance must be designed around that purpose, with commercial interests strictly subordinate to it.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://arxiv.org/pdf/2410.19822",
-          "title": "Human-Centric eXplainable AI in Education",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nea.org/professional-excellence/student-engagement/tools-tips/student-and-educator-data-privacy",
-          "title": "Student and Educator Data Privacy | NEA",
+          "url": "https://studentprivacy.ed.gov/resources/ferpa-and-virtual-learning-during-covid-19",
+          "title": "https://studentprivacy.ed.gov/resources/ferpa-and-virtual-learning-during-covid-19",
           "type": "official",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://thecampusreview.com/blog/ai-in-education/",
-          "title": "AI in Education: Legal Implications of Using Artificial Intelligence",
+          "url": "https://www.hrw.org/report/2022/05/25/how-dare-they-peep-my-private-life/childrens-rights-violations-governments",
+          "title": "https://www.hrw.org/report/2022/05/25/how-dare-they-peep-my-private-life/childrens-rights-violations-governments",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.axios.com/2025/08/14/ai-education-privacy",
-          "title": "AI in education's potential privacy nightmare",
+          "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/ico-codes-of-practice/age-appropriate-design-a-code-of-practice-for-online-services/",
+          "title": "https://ico.org.uk/for-organisations/guide-to-data-protection/ico-codes-of-practice/age-appropriate-design-a-code-of-practice-for-online-services/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://schoolai.com/blog/ai-privacy-education",
-          "title": "AI privacy in education: A teacher's guide to protecting students | SchoolAI",
+          "url": "https://www.ohchr.org/en/documents/general-comments-and-recommendations/general-comment-no-25-2021-childrens-rights-relation",
+          "title": "https://www.ohchr.org/en/documents/general-comments-and-recommendations/general-comment-no-25-2021-childrens-rights-relation",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://nsdpa.org/blog/ai-edtech-innovation-student-data-privacy",
-          "title": "National Student Data Privacy Association - AI in EdTech: Innovation Meets Student Data Privacy Laws",
+          "url": "https://ainowinstitute.org/discriminatingsystems.html",
+          "title": "https://ainowinstitute.org/discriminatingsystems.html",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.afslaw.com/perspectives/ai-law-blog/the-development-ai-and-protecting-student-data-privacy",
-          "title": "The Development of AI and Protecting Student Data Privacy | ArentFox Schiff",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://academync.com/articles/ai-privacy-risks-in-education-how-to-protect-student-data-from-ai-tools-2025",
-          "title": "AI Privacy Risks in Education: How to Protect Student Data from AI Tools (2025)",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.vktr.com/ai-ethics-law-risk/higher-educations-ai-dilemma-powerful-tools-dangerous-tradeoffs/",
-          "title": "‘High-Risk’ by Algorithm: AI Bias Threatens Student Equity",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://aurascape.ai/answers/ai-compliance-frameworks-standards-and-governance-for-education-institutions/",
-          "title": "AI Compliance Frameworks for Education Institutions",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.govtech.com/education/k-12/are-state-policies-on-ai-in-education-thinking-too-small",
-          "title": "Are State Policies on AI in Education Thinking Too Small?",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.aasa.org/resources/blog/wide-array-of-ai-legislation-introduced",
-          "title": "Wide Array of AI Legislation Introduced | AASA",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
+          "url": "https://www.nature.com/articles/s41539-019-0060-7",
+          "title": "https://www.nature.com/articles/s41539-019-0060-7",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 15
     }
   ],
-  "answer_summary": "The Child as Data Subject: Governing Student Information in the Age of AI The question of who owns a child's learning profile has no clean answer in current law, and the gap between what AI systems can do and what governance frameworks permit them to do is widening by the year.",
+  "answer_summary": "When an adaptive learning platform tracks a child's reading pace, flags moments of confusion, infers emotional states from keystroke patterns, and adjusts content accordingly, it is doing something qualitatively different from storing a report card. It is constructing a dynamic, intimate portrait of a developing mind.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

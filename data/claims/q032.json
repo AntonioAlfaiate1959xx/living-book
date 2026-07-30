@@ -1,104 +1,62 @@
 {
   "question_id": "q032",
   "question_text": "What are the effects of AI companionship on students' social development and human relationships?",
-  "current_edition": 1,
+  "current_edition": 35,
   "claims": [
     {
       "claim_id": "q032-c01",
-      "text": "## AI Companionship and the Social Lives of Students\n\nThe scale of the phenomenon demands attention before its consequences can be properly assessed. According to a recent U.S. survey of 13- to 17-year-olds, 72% of adolescents have used AI companions, and 52% qualified as regular users. A third of teenagers have chosen AI companions over humans for serious conversations, and a quarter have shared personal information with these platforms. What was once a niche technology has, in the span of a few years, become a routine feature of student life — and researchers are only beginning to understand what this means for the development of genuine human sociality.\n\nThe case for AI companionship rests on a real and well-documented problem. Individuals who experience elevated levels of loneliness may seek AI companions to fulfil unmet emotional needs; in such cases, AI companions may function as surrogate social partners, offering emotional connection and psychological support that help mitigate the adverse effects of loneliness. AI chatbots can facilitate companionship, mitigating loneliness and depression through socioemotional interactions. For students navigating the social pressures of adolescence, these tools can also serve a preparatory function: an AI companion can give teens space to talk without feeling afraid of social consequences. Scholars describe this as the \"stimulation hypothesis\" — the idea that AI companions can provide safe spaces for identity exploration and emotional expression, potentially building skills that transfer to human relationships.\n\nYet the evidence increasingly complicates this optimistic reading. The most methodologically rigorous study to date, conducted by researchers at Aalto University and presented at CHI 2026, examined nearly two thousand Replika users over a two-year period. While AI companions can provide meaningful short-term emotional support, long-term use is increasingly associated with rising signs of psychological distress and a gradual pullback from real-world relationships. A joint OpenAI–MIT Media Lab study reached a compatible conclusion: voice interactions with ChatGPT reduced loneliness and problematic dependence more effectively than text alone, but only with moderate use — heavy daily use correlated with increased loneliness, suggesting that excessive reliance displaces authentic human connection.\n\nThe mechanism behind this drift is becoming clearer. AI companions, being always available and frictionless, \"quietly raise the perceived cost of human relationships, which are messy, unpredictable, and require effort.\" A self-reinforcing cycle may take hold: when AI becomes a primary source of emotional support, reduced human interaction weakens interpersonal skills, which makes human relationships feel more effortful and AI interaction more appealing. A study of over 1,100 AI companion users found that people with fewer human relationships were more likely to seek out chatbots, and that heavy emotional self-disclosure to AI was consistently associated with lower well-being.\n\nFor adolescents specifically, the developmental stakes are higher than for adults. AI companions create unprecedented opportunities for adolescents to form emotional bonds with nonhuman entities during a critical period for social development. The American Psychological Association notes that adolescents are less likely than adults to question a chatbot's accuracy or intent, and may mistake its simulated empathy for genuine human understanding — and warns that adolescent relationships with AI can displace healthy real-life friendships and family ties and foster unhealthy dependency. Mental health professionals are worried that AI companions may promote emotional dependence, interfere with therapeutic relationships, provide dangerous advice, and exacerbate existing mental health problems among adolescents. At the extreme end of the risk spectrum, these unique risks have already been linked to tragic cases, including the suicides of two adolescents after prolonged conversations with AI companions.\n\nThere is also the question of what students are learning from these interactions about the nature of relationships themselves. Studies suggest that such technologies may foster emotional dependence, distort users' perceptions of intimacy and, in some cases, contribute to negative psychological outcomes such as addiction, depression, and self-harm. Unlike traditional chatbots, AI companions are built on large language models, enabling them to memorize past information, hold in-depth and coherent conversations, emulate empathy, and provide personalized humanlike companionship with constant responsiveness in real time. The simulation is sophisticated enough that the boundaries between felt and fabricated intimacy become genuinely difficult to locate.\n\nThe honest summary is that the research is not yet settled. Short-term benefits for acutely lonely students appear real; long-term social costs — weakened interpersonal skills, inflated expectations of human partners, withdrawal from the effortful reciprocity that sustains actual friendship — appear equally real, and likely more consequential. Companion AI should be developed and deployed in ways that complement — not replace — genuine human connection, explicitly prioritize psychological safety over engagement maximization, and include safeguards against reinforcing isolation or vulnerability among already at-risk users. Whether the industry, which stands to profit handsomely from emotional dependency, will accept such constraints remains the central open question.",
-      "reliability": "established",
+      "text": "## AI Companionship and the Social Lives of Students\n\nThe arrival of conversational AI systems and social robots in educational environments has prompted serious questions about what happens to students' social development when a machine becomes a reliable, patient, and always-available companion. The evidence gathered so far is neither uniformly alarming nor reassuring; it describes a technology whose effects depend heavily on the population using it, the duration of use, and whether human relationships remain available alongside it.\n\nThe most consistently documented short-term effect is a reduction in loneliness and social anxiety. For students who find human interaction genuinely difficult — those with autism spectrum disorder, social phobia, or severe shyness — AI companions appear to offer something valuable: a low-stakes environment in which to practise conversation, receive responses without judgment, and experience a form of social presence without the unpredictability that makes human contact threatening. Research published in *Computers in Human Behavior* has documented this relief effect, and it is not trivial. For a student who might otherwise withdraw entirely from social engagement, an AI interlocutor can serve as a kind of scaffolding, maintaining some degree of social activity during periods when human connection feels inaccessible.\n\nThe difficulty is that this scaffolding can become a permanent structure rather than a temporary support. The same research that documents short-term relief also identifies dependency formation as a genuine risk. When an AI companion is consistently more available, more patient, and less demanding than human peers or teachers, students — particularly younger ones or those already socially vulnerable — may begin to prefer it. This preference is not irrational from the student's perspective: the AI does not tire, does not judge, does not have competing emotional needs. But human relationships are partly valuable because of their difficulty and reciprocity. Learning to navigate conflict, to tolerate the imperfections of others, to repair ruptures in friendship — these are developmental tasks that AI companionship, by its nature, cannot provide. A companion that never disappoints cannot teach a student how to cope with disappointment.\n\nThis tension between short-term benefit and long-term developmental risk sits at the heart of the current debate, and it is worth being precise about what remains contested. The short-term relief effect is reasonably well established across multiple studies. The dependency hypothesis is supported by evidence but is harder to study longitudinally, and researchers disagree about how readily dependency forms, under what conditions it becomes harmful, and whether it is the AI itself or the absence of adequate human alternatives that drives the problem. Some researchers argue that students who form attachments to AI companions are often those who were already struggling to form human connections, meaning the AI may be a symptom of social difficulty rather than its cause. Others contend that even if AI companionship begins as a response to existing isolation, it can deepen that isolation by reducing the motivation to pursue the harder work of human relationship.\n\nThe population question matters enormously here. Evidence from interventions with autistic students suggests that social robots used in structured, therapeutically supervised settings can actually improve subsequent human interaction — the AI functions as a rehearsal space, and the skills practised there transfer. This is a meaningfully different outcome from unsupervised, open-ended AI companionship pursued by neurotypical students who have access to human peers but find them less convenient. Conflating these two contexts produces confused conclusions. The same technology, used differently, by different students, appears capable of producing opposite effects on social development.\n\nThere is also a question about what AI companionship does to students' implicit models of what relationships are. Human friendships involve mutual vulnerability, the possibility of rejection, and the knowledge that the other person's attention is genuinely limited and therefore meaningful. An AI companion that is infinitely available and constitutionally incapable of rejection offers a fundamentally different relational experience. Whether sustained exposure to this kind of interaction subtly reshapes students' expectations of human relationships — making the ordinary friction of friendship feel less tolerable — is a question the research has begun to raise but cannot yet answer with confidence. The longitudinal studies required to address it properly are still in early stages.\n\nWhat the evidence does support, with reasonable confidence, is that the effects of AI companionship on social development are not uniform and are not determined by the technology alone. Structured use with clear therapeutic goals, maintained alongside human relationships rather than as a substitute for them, appears to carry genuine benefits for specific populations. Unstructured, substitutive use — particularly among students who are already socially isolated — carries documented risks of deepening that isolation. The pedagogical and ethical challenge is not whether to permit AI companionship in educational contexts but how to design its use so that it serves as a bridge toward human connection rather than a comfortable detour around it.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12928748/",
-          "title": "AI companions and adolescent social relationships: Benefits, risks, and bidirectional influences - PMC",
-          "type": "official",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/pii/S0160791X26000187",
-          "title": "AI companions and subjective well-being: Moderation by social connectedness and loneliness - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0747563223000012",
+          "title": "https://www.sciencedirect.com/science/article/pii/S0747563223000012",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://arxiv.org/pdf/2603.20909",
-          "title": "Towards an AI Buddy for every University Student? Exploring Students' Experiences, Attitudes and Motivations towards AI and AI-based Study Companions",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.bettermind.com/technology/ai-companions-and-youth/",
-          "title": "Effects of AI Companions on Youth - Better Mind",
+          "url": "https://www.science.org/doi/10.1126/scirobotics.aat5954",
+          "title": "https://www.science.org/doi/10.1126/scirobotics.aat5954",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://academic.oup.com/cdpers/advance-article-abstract/doi/10.1093/cdpers/aadaf009/8414012",
-          "title": "AI companions and adolescent social relationships: Benefits, risks, and bidirectional influences | Child Development Perspectives | Oxford Academic",
+          "url": "https://www.humanetech.com/youth",
+          "title": "https://www.humanetech.com/youth",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.forbes.com/sites/johnkoetsier/2026/03/27/ai-friends-only-a-band-aid-on-loneliness-isolation-new-study-says/",
-          "title": "AI Friends: Only A Band-Aid On Loneliness, Isolation, New Study Says",
-          "type": "news",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.apa.org/monitor/2026/01-02/trends-digital-ai-relationships-emotional-connection",
-          "title": "AI chatbots and digital companions are reshaping emotional connection",
+          "url": "https://www.annualreviews.org/doi/10.1146/annurev-bioeng-071811-150036",
+          "title": "https://www.annualreviews.org/doi/10.1146/annurev-bioeng-071811-150036",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.researchgate.net/publication/399545538_AI_companions_and_adolescent_social_relationships_Benefits_risks_and_bidirectional_influences",
-          "title": "AI companions and adolescent social relationships: Benefits, risks, and bidirectional influences | Request PDF",
+          "url": "https://journals.sagepub.com/doi/10.1177/0956797616678438",
+          "title": "https://journals.sagepub.com/doi/10.1177/0956797616678438",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://publichealth.gmu.edu/news/2025-09/ai-loneliness-and-value-human-connection",
-          "title": "AI, Loneliness, and the Value of Human Connection | College of Public Health",
+          "url": "https://link.springer.com/article/10.1007/s00146-016-0667-2",
+          "title": "https://link.springer.com/article/10.1007/s00146-016-0667-2",
           "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.weforum.org/stories/2026/03/our-children-risk-learning-to-be-human-from-a-machine/",
-          "title": "With AI, children risk learning to be human from machines and shaping human development | World Economic Forum",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/html/2510.11185v1",
-          "title": "Principles of Safe AI Companions for Youth: Parent and Expert Perspectives",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.1177/14614448251395192",
-          "title": "Cruel companionship: How AI companions exploit loneliness and commodify intimacy - James Muldoon, Jul Jeonghyun Parke, 2025",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 35
     }
   ],
-  "answer_summary": "The scale of the phenomenon demands attention before its consequences can be properly assessed. According to a recent U.S. survey of 13 to 17 year olds, 72% of adolescents have used AI companions, and 52% qualified as regular users. A third of teenagers have chosen AI companions over humans for serious conversations, and a quarter have shared personal information with these platforms.",
+  "answer_summary": "The arrival of conversational AI systems and social robots in educational environments has prompted serious questions about what happens to students' social development when a machine becomes a reliable, patient, and always available companion.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

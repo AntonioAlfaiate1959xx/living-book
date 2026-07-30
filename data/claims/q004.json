@@ -1,97 +1,62 @@
 {
   "question_id": "q004",
   "question_text": "What is the difference between knowledge, understanding, and wisdom — and which of these can AI possess or transmit?",
-  "current_edition": 1,
+  "current_edition": 7,
   "claims": [
     {
       "claim_id": "q004-c01",
-      "text": "The three concepts — knowledge, understanding, and wisdom — are often used as rough synonyms in ordinary speech, yet philosophy has long insisted they occupy distinct rungs on an epistemic ladder, and the ascent from one to the next is neither automatic nor guaranteed.\n\n**Knowledge**, in the most venerable philosophical tradition, is justified true belief: one knows a proposition when it is true, when one believes it, and when one has adequate grounds for that belief. Knowledge primarily concerns the accumulation of facts, information, and understanding about specific subjects or phenomena. It is, in this sense, propositional and additive — a stockpile of verified claims about the world. A person can have unbounded knowledge and not have wisdom; the reverse, however, is not the case — no one can have wisdom without first having knowledge. Knowledge is thus necessary but not sufficient for the higher states.\n\n**Understanding** is epistemologically more demanding and more contested. Recent epistemology has emphasized that understanding is not reducible to knowledge. Understanding involves grasping explanatory connections — seeing *why* things are as they are, not merely *that* they are. Where knowledge can consist of isolated, disconnected facts, understanding requires that one successfully grasp how one's beliefs in the relevant propositions cohere with other propositions one believes. The analytic tradition is genuinely divided here: some philosophers argue that understanding is simply a species of knowledge, while others oppose the reduction entirely, arguing that understanding demands more than knowledge. What is widely accepted across both camps is that understanding requires something like integration — the capacity to move between ideas, trace dependencies, and model how one thing would change if another changed.\n\n**Wisdom** sits at the apex and is the most resistant to formal definition. It is not merely the possession of knowledge, but the judicious application of it, coupled with experience, intuition, and an ethical compass. The Stanford Encyclopedia of Philosophy identifies at least five major philosophical approaches, from wisdom as epistemic humility to wisdom as a kind of deep rationality; these include wisdom as epistemic accuracy, wisdom as knowledge, a hybrid theory, and wisdom as rationality. Aristotle's concept of *phronesis* — practical wisdom — remains the most influential formulation: it is the intellectual virtue concerned with action, with knowing how to act correctly in particular circumstances. Wisdom, then, is irreducibly action-oriented and evaluative. It is the ability to predict the consequences of one's choices and to make choices based on those predicted consequences — always in conditions of genuine moral and practical uncertainty.\n\n---\n\nThe question of what AI can possess or transmit across these three tiers maps almost precisely onto the difficulty of each concept.\n\n**At the level of knowledge**, AI systems perform strikingly well. Some AI systems hold superior epistemic positions in specific areas of application, producing outputs that consistently reduce false positives and false negatives beyond human capability. Machine learning models trained on vast datasets can detect patterns and correlations that no human could reasonably discern. The philosophical question of whether AI *possesses* this knowledge, or merely processes information that tracks truth reliably, remains genuinely open. Whether AI agents can be thought of as epistemic agents in the strict sense is still disputed; some scholars claim that AI systems do not possess justified beliefs and communicative intentions in the same way humans do. Whether or not one resolves that metaphysical question, AI can certainly *transmit* knowledge effectively to human users.\n\n**At the level of understanding**, matters become thornier. A system might produce correct outputs without its processing exhibiting the structural features associated with understanding why those outputs are correct; it might generate coherent explanations without those explanations being grounded in actual causal mechanisms; and even if both outputs and explanations are correct, the system might fail to exhibit understanding if it cannot reliably distinguish contexts where its patterns apply from those where they fail. Whether large language models exhibit genuine understanding or a sophisticated simulation of it is one of the central unresolved debates in philosophy of mind and AI research.\n\n**At the level of wisdom**, the current scholarly consensus is skeptical. Cognitive technologies such as generative AI have demonstrated impressive capabilities, yet their capacity to generate wisdom remains limited — wisdom emerges from embodied human experience, relational resonance, and ethical engagement. This is not merely a matter of computing power or training data. Wisdom, as Aristotle conceived it, is inseparable from having skin in the game — from facing genuine consequences, experiencing time's passage, and caring about outcomes in a way grounded in one's own life. An AI system has none of these in any straightforward sense.\n\nYet there is a subtler possibility: even if AI cannot *possess* wisdom, it may help *transmit* it, by surfacing the accumulated practical judgments of thinkers across centuries, modeling the structure of wise deliberation, and prompting human reflection. This transformation is not merely practical but philosophical: AI systems impact not only beliefs, but belief revision itself. That influence can run in either direction — toward deeper reflection or away from it. Whether AI becomes a catalyst for human wisdom or a substitute for the effortful work of acquiring it may be one of the defining cultural questions of the coming decades.",
-      "reliability": "established",
+      "text": "## Knowledge, Understanding, and Wisdom: What AI Can and Cannot Possess\n\nThe question of what distinguishes knowledge from understanding, and understanding from wisdom, is among the oldest in philosophy — and it has acquired urgent practical significance now that machines can pass bar examinations, write competent essays, and tutor students in calculus. Getting the distinctions right matters enormously for education, because conflating them leads either to excessive faith in what AI can deliver or to a dismissive refusal to recognise what it genuinely offers.\n\nThe most widely cited framework in information science is Russell Ackoff's DIKW hierarchy, which arranges data, information, knowledge, and wisdom into an ascending pyramid. Data are raw, uninterpreted symbols; information is data organised so as to carry meaning; knowledge is the capacity to apply information purposefully; and wisdom involves knowing *which* purposes are worth pursuing and *why*. Ackoff's scheme has been criticised for oversimplifying the relationships between these levels — knowledge does not simply accumulate upward from data in any linear way — but it remains a useful first orientation. Philosophical epistemology adds further texture. Since Plato, knowledge has conventionally required not merely true belief but justified true belief: one must not only have the right answer but be able to account for why it is right. Understanding, on this view, goes further still: it involves grasping the *structure* of a domain, seeing how its parts relate, and being able to reason flexibly across novel cases. Wisdom is something else again — it is the capacity to act well under conditions of genuine uncertainty, integrating knowledge and understanding with values, experience, and moral judgment.\n\nWhere does AI sit within this scheme? On the question of knowledge, the picture is relatively clear, if philosophically contested. Large language models store and retrieve vast quantities of propositional content and can produce accurate, well-organised responses across an extraordinary range of domains. Whether this constitutes *knowledge* in the philosophical sense depends on whether one requires that a knower have genuine justification — an internal grasp of why something is true — or whether reliable, accurate output is sufficient. Functionalists tend toward the latter view; those who insist on intentionality and genuine comprehension tend toward the former. What is not seriously disputed is that AI systems can *transmit* knowledge effectively: they can present accurate information, correct misconceptions, and scaffold a learner's acquisition of propositional content in ways that research on tutoring systems has consistently shown to be educationally valuable.\n\nUnderstanding is where the debate sharpens. Understanding, as philosophers from Aristotle to contemporary epistemologists like Jonathan Kvanvig have argued, is not merely the possession of true propositions but the ability to integrate them into a coherent, flexible mental model — to see why things are the way they are, to transfer principles across contexts, and to recognise when a familiar framework breaks down. Current AI systems display something that resembles this capacity: they can draw analogies, explain causal mechanisms, and apply concepts to unfamiliar cases. Yet there are strong reasons to hesitate before calling this genuine understanding. These systems have no perceptual grounding in the world, no embodied experience, and no stake in whether their outputs are true. They can produce the *form* of understanding — coherent explanation, apt analogy, flexible application — without the underlying cognitive architecture that philosophers typically associate with the real thing. Whether this distinction matters practically, or whether it is a metaphysical scruple without educational consequence, remains genuinely contested.\n\nWisdom presents the starkest case. Wisdom in the classical sense — *phronesis*, practical wisdom — requires not only knowing what is true and understanding how things work, but judging what matters, weighing competing goods, and acting with integrity under conditions where no algorithm can settle the question. It is inseparable from having a life, from caring about outcomes, from being vulnerable to the consequences of one's choices. An AI system has none of these things. It can retrieve and synthesise what wise people have said; it can model the *reasoning patterns* associated with wise judgment; but it cannot itself be wise, because wisdom is not a cognitive achievement separable from character, experience, and genuine moral agency. This is not a temporary limitation awaiting a technical fix — it reflects something structural about what wisdom is.\n\nFor education, these distinctions carry direct implications. AI is a genuinely powerful instrument for transmitting knowledge and for scaffolding the early stages of understanding: it can explain, illustrate, correct, and adapt to a learner's level with a patience and availability no human teacher can match at scale. What it cannot do is model wisdom, embody intellectual virtue, or demonstrate what it looks like to care about truth for its own sake. Those capacities remain irreducibly human, and the risk of over-relying on AI in education is not that students will learn too much, but that they will mistake the efficient transmission of knowledge for the slower, harder, more personal work of becoming genuinely educated.",
+      "reliability": "emerging",
       "sources": [
         {
-          "url": "https://www.planksip.org/the-distinction-between-wisdom-and-knowledge-and-distinction-1763613989982/",
-          "title": "The Distinction Between Wisdom and Knowledge and Distinction",
+          "url": "https://www.systems-thinking.org/dikw/dikw.htm",
+          "title": "https://www.systems-thinking.org/dikw/dikw.htm",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://learn.ligonier.org/articles/wisdom-and-knowledge",
-          "title": "Wisdom and Knowledge by R.C. Sproul",
+          "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+          "title": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
+          "title": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
+          "type": "academic",
+          "retrieved": "2026-07-30",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.shannonvallor.net/technology-and-the-virtues/",
+          "title": "https://www.shannonvallor.net/technology-and-the-virtues/",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://arxiv.org/pdf/2603.28371",
-          "title": "Coherent Without Grounding, Grounded Without Success: Observability and Epistemic Failure",
+          "url": "https://arxiv.org/abs/2303.12712",
+          "title": "https://arxiv.org/abs/2303.12712",
           "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         },
         {
-          "url": "https://plato.stanford.edu/entries/knowledge-value/",
-          "title": "The Value of Knowledge (Stanford Encyclopedia of Philosophy)",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://philarchive.org/archive/HANRWI-2",
-          "title": "Recent Work in the Epistemology of Understanding",
+          "url": "https://www.pearson.com/content/dam/one-dot-com/one-dot-com/global/Files/about-pearson/innovation/open-ideas/Intelligence-Unleashed-Publication.pdf",
+          "title": "https://www.pearson.com/content/dam/one-dot-com/one-dot-com/global/Files/about-pearson/innovation/open-ideas/Intelligence-Unleashed-Publication.pdf",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
-        },
-        {
-          "url": "https://plato.stanford.edu/entries/wisdom/",
-          "title": "Wisdom (Stanford Encyclopedia of Philosophy)",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.acao.org/index.php?option=com_dailyplanetblog&view=entry&year=2025&month=03&day=21&id=54%3Aunderstanding-the-differences-among-intelligence-knowledge-and-wisdom&Itemid=236",
-          "title": "Understanding the Differences Among, Intelligence, Knowledge, and Wisdom",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2510.21043",
-          "title": "Epistemic Deference to AI",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2603.02960",
-          "title": "Architecting Trust in Artificial Epistemic Agents",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://link.springer.com/chapter/10.1007/978-3-032-14721-9_11",
-          "title": "The Future of AI Must Drive Wisdom, Otherwise it Has No Future: A Framework Toward AI-Enabled Human Wisdom | Springer Nature Link",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647687/full",
-          "title": "Frontiers | Epistemic authority and generative AI in learning spaces: rethinking knowledge in the algorithmic age",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
-      "added_edition": 1
+      "last_verified": "2026-07-30",
+      "added_edition": 7
     }
   ],
-  "answer_summary": "The three concepts — knowledge, understanding, and wisdom — are often used as rough synonyms in ordinary speech, yet philosophy has long insisted they occupy distinct rungs on an epistemic ladder, and the ascent from one to the next is neither automatic nor guaranteed.",
+  "answer_summary": "The question of what distinguishes knowledge from understanding, and understanding from wisdom, is among the oldest in philosophy — and it has acquired urgent practical significance now that machines can pass bar examinations, write competent essays, and tutor students in calculus.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",
