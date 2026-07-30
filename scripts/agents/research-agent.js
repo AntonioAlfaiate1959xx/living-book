@@ -22,25 +22,41 @@ async function defaultApiCall(questionText) {
         "or run the ensemble with --mock for an offline pass."
     );
   }
-  const endpoint =
+
+  // OpenAI-compatible RouteLLM endpoint available on the Abacus.AI VM.
+  const llmBase =
+    process.env.ABACUS_LLM_BASE_URL ||
     process.env.ABACUS_API_ENDPOINT ||
-    "https://api.abacus.ai/api/v0/getChatResponse";
+    "https://routellm.abacus.ai/v1";
+  const endpoint = llmBase.replace(/\/$/, "") + "/chat/completions";
+  const model = process.env.ABACUS_MODEL || "claude-sonnet-4-6";
 
   const response = await fetch(endpoint, {
     method: "POST",
-    headers: { apiKey, "content-type": "application/json" },
+    headers: {
+      "Authorization": `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
     body: JSON.stringify({
+      model,
       messages: [
         {
-          is_user: true,
-          text:
-            "You are a RESEARCH agent. Gather the most relevant, recent, " +
-            "well-sourced findings about the following question on AI in " +
-            "education. Return several distinct findings, each with a source " +
-            "URL and title. Do not editorialise.\n\n" +
+          role: "system",
+          content:
+            "You are a RESEARCH agent for an AI-in-Education reference book. " +
+            "Gather the most relevant, recent, well-sourced findings about the " +
+            "given question. Return several distinct findings, each supported by " +
+            "a real source URL and title. Do not editorialise or draw conclusions.",
+        },
+        {
+          role: "user",
+          content:
+            "Gather well-sourced findings about the following question on " +
+            "AI in education. For each finding include a source URL.\n\n" +
             questionText,
         },
       ],
+      max_tokens: 1024,
     }),
   });
   if (!response.ok) {
@@ -49,21 +65,23 @@ async function defaultApiCall(questionText) {
     );
   }
   const data = await response.json();
+  // OpenAI-compatible response: choices[0].message.content
   const text =
+    data?.choices?.[0]?.message?.content ||
     data?.result?.messages?.slice(-1)[0]?.text ||
     data?.result?.answer ||
     data?.answer ||
     (typeof data === "string" ? data : JSON.stringify(data));
-  const rawSources =
-    data?.result?.search_results || data?.result?.sources || [];
-  const findings = rawSources
-    .filter((s) => s && (s.url || s.link))
-    .map((s) => ({
-      text: s.snippet || s.title || String(text).slice(0, 240),
-      source: { url: s.url || s.link, title: s.title || s.url || s.link },
-    }));
-  // If the deployment returned no structured sources, fall back to a single
-  // finding carrying the whole answer (verification will down-rate it).
+
+  // Extract URLs from the text to form findings.
+  const urlRegex = /https?:\/\/[^\s)"']+/g;
+  const urlMatches = [...new Set(String(text).match(urlRegex) || [])].slice(0, 6);
+  const findings = urlMatches.map((url) => ({
+    text: String(text).trim(),
+    source: { url, title: url },
+  }));
+
+  // If no URLs found, fall back to a single finding with the full text.
   if (findings.length === 0) {
     findings.push({
       text: String(text).trim(),

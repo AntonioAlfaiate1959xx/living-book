@@ -63,28 +63,40 @@ async function liveAnswer(questionText) {
     );
   }
 
-  // Abacus.AI ChatLLM / RouteLLM completion endpoint. The exact model and
-  // routing are configured server-side against the provided key.
-  const endpoint =
+  // OpenAI-compatible RouteLLM endpoint available on the Abacus.AI VM.
+  const llmBase =
+    process.env.ABACUS_LLM_BASE_URL ||
     process.env.ABACUS_API_ENDPOINT ||
-    "https://api.abacus.ai/api/v0/getChatResponse";
+    "https://routellm.abacus.ai/v1";
+  const endpoint = llmBase.replace(/\/$/, "") + "/chat/completions";
+  const model = process.env.ABACUS_MODEL || "claude-sonnet-4-6";
+
+  const voicePrompt =
+    "Write in clear, elegant, essayistic prose for an educated general reader. " +
+    "Be precise and intellectually honest: distinguish established fact from open debate. " +
+    "Avoid hype, avoid bullet points, avoid AI-sounding filler phrases. " +
+    "Each answer should read as a self-contained short essay of 300-500 words. " +
+    "Never use first person. Cite sources with URLs where possible.";
 
   const response = await fetch(endpoint, {
     method: "POST",
     headers: {
-      "apiKey": apiKey,
-      "content-type": "application/json",
+      "Authorization": `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({
+      model,
       messages: [
+        { role: "system", content: voicePrompt },
         {
-          is_user: true,
-          text:
+          role: "user",
+          content:
             "Provide an up-to-date, well-sourced answer to the following " +
             "question about AI in education. Cite sources with URLs.\n\n" +
             questionText,
         },
       ],
+      max_tokens: 1024,
     }),
   });
 
@@ -95,20 +107,23 @@ async function liveAnswer(questionText) {
   }
 
   const data = await response.json();
-  // Defensive extraction: the response envelope may vary by deployment.
+  // OpenAI-compatible response: choices[0].message.content
   const text =
+    data?.choices?.[0]?.message?.content ||
     data?.result?.messages?.slice(-1)[0]?.text ||
     data?.result?.answer ||
     data?.answer ||
     (typeof data === "string" ? data : JSON.stringify(data));
 
-  const rawSources =
-    data?.result?.search_results || data?.result?.sources || [];
-  const sources = rawSources
-    .filter((s) => s && (s.url || s.link))
-    .map((s) => ({ title: s.title || s.url || s.link, url: s.url || s.link }));
+  // RouteLLM does not return structured sources; extract URLs from the text.
+  const urlRegex = /https?:\/\/[^\s)"']+/g;
+  const urlMatches = String(text).match(urlRegex) || [];
+  const sources = [...new Set(urlMatches)].slice(0, 8).map((url) => ({
+    title: url,
+    url,
+  }));
 
-  return { text: String(text).trim(), sources, model: "abacus.ai" };
+  return { text: String(text).trim(), sources, model };
 }
 
 // ── Core refresh logic ──────────────────────────────────────────────
