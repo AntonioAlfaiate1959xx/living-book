@@ -300,6 +300,17 @@ async function handleApi(req, res, url) {
             ensemble: Boolean(ensemble),
             persist: true,
           });
+          // Automatically rebuild docs/index.html so the book site reflects
+          // the refreshed answer immediately.
+          let buildLog = "";
+          try {
+            const buildResult = await runBuild();
+            buildLog = buildResult.ok
+              ? "Site rebuilt successfully."
+              : `Site rebuild warning: ${buildResult.error || "unknown"}`;
+          } catch (be) {
+            buildLog = `Site rebuild failed: ${be.message}`;
+          }
           // Normalize into a compact summary the UI can display directly.
           const summary = {
             questionId: result.questionId,
@@ -310,6 +321,7 @@ async function handleApi(req, res, url) {
                 ? result.claim.sources.length
                 : 0,
             lastClaimId: result.claim ? result.claim.claim_id : null,
+            buildLog,
           };
           return sendJSON(res, 200, { ok: true, result: summary });
         } catch (e) {

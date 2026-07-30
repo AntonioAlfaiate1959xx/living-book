@@ -30,8 +30,15 @@ function renderClaim(claimFile, { includeDisputed = true } = {}) {
   const question = escapeHTML(claimFile.question_text || "");
   const edition = claimFile.current_edition || 1;
 
-  // Primary content: the answer_summary gives the reader the synthesis.
-  const answerHTML = markdownToHTML(claimFile.answer_summary);
+  // Primary content: use the full text of the most recent non-deprecated claim.
+  // Fall back to answer_summary only if no claim text is available.
+  const activeClaims = (claimFile.claims || []).filter(
+    (c) => c.reliability !== "deprecated"
+  );
+  const primaryClaim = activeClaims[activeClaims.length - 1] || null;
+  const fullText =
+    (primaryClaim && primaryClaim.text) ? primaryClaim.text : (claimFile.answer_summary || "");
+  const answerHTML = markdownToHTML(fullText);
 
   // Collect all sources from all claims (dedupe by URL).
   const sourceURLs = new Set();

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-29T22:41:52Z",
+  "generated_at": "2026-07-30T01:56:59Z",
   "node_count": 69,
-  "edge_count": 133,
+  "edge_count": 122,
   "nodes": [
     {
       "claim_id": "q001-c01",
@@ -62,7 +62,7 @@
       "claim_id": "q010-c01",
       "question_id": "q010",
       "reliability": "established",
-      "source_count": 9
+      "source_count": 2
     },
     {
       "claim_id": "q011-c01",
@@ -532,15 +532,6 @@
     },
     {
       "from": "q002-c01",
-      "to": "q010-c01",
-      "from_question": "q002",
-      "to_question": "q010",
-      "relation": "topical",
-      "shared_sources": [],
-      "keyword_overlap": 0.19
-    },
-    {
-      "from": "q002-c01",
       "to": "q029-c01",
       "from_question": "q002",
       "to_question": "q029",
@@ -847,17 +838,6 @@
     },
     {
       "from": "q009-c01",
-      "to": "q010-c01",
-      "from_question": "q009",
-      "to_question": "q010",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://arxiv.org/pdf/2603.10025"
-      ],
-      "keyword_overlap": 0.042
-    },
-    {
-      "from": "q009-c01",
       "to": "q030-c01",
       "from_question": "q009",
       "to_question": "q030",
@@ -910,106 +890,6 @@
         "https://arxiv.org/pdf/2603.10025"
       ],
       "keyword_overlap": 0.042
-    },
-    {
-      "from": "q010-c01",
-      "to": "q011-c01",
-      "from_question": "q010",
-      "to_question": "q011",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://www.sciencedirect.com/org/science/article/pii/S1062737525000654"
-      ],
-      "keyword_overlap": 0.064
-    },
-    {
-      "from": "q010-c01",
-      "to": "q016-c01",
-      "from_question": "q010",
-      "to_question": "q016",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://www.sciencedirect.com/org/science/article/pii/S1062737525000654"
-      ],
-      "keyword_overlap": 0.042
-    },
-    {
-      "from": "q010-c01",
-      "to": "q030-c01",
-      "from_question": "q010",
-      "to_question": "q030",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://www.sciencedirect.com/science/article/pii/S2451958826001764"
-      ],
-      "keyword_overlap": 0.087
-    },
-    {
-      "from": "q010-c01",
-      "to": "q031-c01",
-      "from_question": "q010",
-      "to_question": "q031",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://arxiv.org/pdf/2605.21629"
-      ],
-      "keyword_overlap": 0.087
-    },
-    {
-      "from": "q010-c01",
-      "to": "q033-c01",
-      "from_question": "q010",
-      "to_question": "q033",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1697554/full"
-      ],
-      "keyword_overlap": 0.136
-    },
-    {
-      "from": "q010-c01",
-      "to": "q053-c01",
-      "from_question": "q010",
-      "to_question": "q053",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1697554/full",
-        "https://arxiv.org/pdf/2603.10025"
-      ],
-      "keyword_overlap": 0.042
-    },
-    {
-      "from": "q010-c01",
-      "to": "q057-c01",
-      "from_question": "q010",
-      "to_question": "q057",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://arxiv.org/pdf/2605.21629"
-      ],
-      "keyword_overlap": 0.02
-    },
-    {
-      "from": "q010-c01",
-      "to": "q059-c01",
-      "from_question": "q010",
-      "to_question": "q059",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://arxiv.org/pdf/2603.10025"
-      ],
-      "keyword_overlap": 0.163
-    },
-    {
-      "from": "q010-c01",
-      "to": "q060-c01",
-      "from_question": "q010",
-      "to_question": "q060",
-      "relation": "shared-source",
-      "shared_sources": [
-        "https://arxiv.org/pdf/2603.10025"
-      ],
-      "keyword_overlap": 0.064
     },
     {
       "from": "q011-c01",

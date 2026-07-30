@@ -276,9 +276,12 @@ async function orchestrate(
       };
     });
 
-    const nextClaimNum = claimFile.claims.length + 1;
+    // Single-shot refresh: REPLACE the canonical c01 answer rather than
+    // accumulating a growing list of claims. The old answer is preserved in
+    // the immutable edition ledger. The claim_id is always qNNN-c01 so the
+    // file stays clean and the renderer always finds one authoritative answer.
     const newClaim = {
-      claim_id: `${questionId}-c${String(nextClaimNum).padStart(2, "0")}`,
+      claim_id: `${questionId}-c01`,
       text: fresh.text,
       reliability: "established",
       sources,
@@ -286,7 +289,7 @@ async function orchestrate(
       last_verified: day,
       added_edition: newEdition,
     };
-    claimFile.claims.push(newClaim);
+    claimFile.claims = [newClaim];          // replace, not append
     claimFile.answer_summary = summarise(fresh.text);
     newClaims = [newClaim];
   }

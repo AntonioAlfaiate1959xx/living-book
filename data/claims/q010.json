@@ -5,79 +5,30 @@
   "claims": [
     {
       "claim_id": "q010-c01",
-      "text": "The three modes of engaging with AI in learning — learning *with* it, learning *from* it, and outsourcing learning *to* it — are not merely stylistic variations on the same activity. They represent genuinely distinct moral situations, distinguished by what the learner retains, surrenders, and becomes.\n\nThe most useful philosophical entry point is the concept of cognitive offloading, which has been in human culture since the first writing tablet. Cognitive offloading — using a physical or digital system to reduce the mental demands of information processing — has expanded so dramatically with AI that it may blur into cognitive *outsourcing*, which previously required trusting other people for judgments about the news, history, or what one should do. That blurring is precisely where the moral stakes become serious.\n\n**Learning with AI** — using it as an interlocutor, a sparring partner, or a Socratic challenger — most closely resembles the use of any good tool: it extends capacity without displacing agency. The learner still frames the problem, interrogates the output, and owns the resulting understanding. The educational value of generative AI depends on how students engage with its outputs, with practices such as negotiated and oppositional reading being essential for maintaining critical engagement. Here the moral picture is relatively benign, subject to the usual caveats about source reliability and epistemic humility.\n\n**Learning from AI** is more ambiguous. When a student turns to an AI tutor for explanation and then verifies, questions, and builds on what it provides, the relationship resembles learning from a textbook or a lecturer — with the significant difference that the AI adapts to the learner in real time. The growing use of AI in personalized learning environments has raised concerns over the erosion of student autonomy; while adaptive algorithms aim to optimize learning efficiency, they may also over-direct students, limiting opportunities for independent exploration and critical thinking. The moral concern here is not dishonesty but a subtler problem: current integrations privilege efficiency over learners' epistemic agency, normalizing quick answer-taking rather than verification and productive struggle; in such \"oracle-style\" pipelines, learning devolves into a passive, one-way flow of information from AI to humans.\n\n**Outsourcing learning to AI** is a categorically different matter. Recent scholarship has coined a useful distinction between cognitive offloading and what some researchers call *cognitive surrender*: whereas cognitive offloading involves the strategic outsourcing of a narrow, well-defined task while the reasoner retains the executive cognitive process, generative AI enables a qualitatively different pattern — \"cognitive surrender\" — in which the user adopts an AI-generated output as one's own answer with minimal scrutiny, relinquishing cognitive control rather than delegating a discrete subtask. The moral weight of this distinction lies in what the learner does not build. Studies have consistently revealed a significant negative correlation between frequent AI tool usage and critical thinking abilities, with cognitive offloading acting as a mediating factor. More troublingly, cognitive offloading, illusion of competence, authorship ambiguity, and normalized deference to machine outputs are argued to foster moral abdication and erosion of ethical self-regulation, particularly in education and knowledge work.\n\nThe moral question turns on whether only the final outcome of an action matters, or whether the way in which one reaches that outcome also matters — which sorts of thinking are only about the destination, and which are also about the journey? This is precisely the question that separates the three modes. A student who outsources an essay to AI may produce a passable text, but has foregone the friction through which understanding is actually formed. Introduced too early, before students have acquired the necessary conceptual foundations, AI becomes counterproductive; just as giving a calculator to a child who cannot yet multiply undermines mental arithmetic, using AI as a shortcut in early learning ultimately holds students back.\n\nWhat remains genuinely contested is whether this matters only instrumentally — as a failure of self-interest, since one ends up less competent — or whether it also involves a form of self-betrayal with broader ethical implications. The kind of embodied, experiential know-how typified in craftsmanship is deeply formative of thought and character; just as the assembly line dissected craftsmanship into isolated, repeatable activities, algorithmic reasoning can decompose cognitive expertise into separate skills to be automated or outsourced. On this view, outsourcing learning is not merely unwise; it shapes what kind of thinker — and ultimately what kind of person — one becomes. The evidence for catastrophic cognitive harm from AI use remains, as of current research, more theoretical than empirically settled. The quantitative evidence for enhancement is currently far more substantial and systematically documented than the evidence for cognitive dependence, which often remains an identified risk or a theoretical concern. But the moral case for preserving the journey of learning does not depend on empirical proof of harm — it rests on the older claim that the struggle to understand is itself constitutive of intellectual character, not merely a means to it.",
+      "text": "## The Moral Topology of AI-Assisted Learning\n\nThe arrival of capable generative AI in educational settings has forced a conceptual reckoning that vocabulary has not yet caught up with. Educators and students alike speak loosely of \"using AI,\" as though tutoring, collaboration, and delegation were morally equivalent acts. They are not. Distinguishing between learning *with* AI, learning *from* AI, and outsourcing learning *to* AI is not merely semantic tidiness; it maps onto genuinely different relationships between the learner and knowledge, and those differences carry real ethical weight.\n\n**Learning with AI** describes a genuinely collaborative cognitive process. The learner brings a problem, a draft, or a question; the AI responds; the learner evaluates, pushes back, revises, and integrates. The defining feature is that the learner's own cognitive effort remains the engine of the process. Socratic dialogue has always been understood as a legitimate\u2014indeed, exemplary\u2014mode of learning, and AI tutors that press students to justify their reasoning, identify their assumptions, or consider counterexamples function in this tradition. Research on the \"generation effect,\" documented extensively in cognitive psychology (Roediger and Karpicke's foundational work on retrieval practice, summarized at https://www.apa.org/science/about/psa/2016/06/learning-memory), demonstrates that knowledge constructed through active effort is retained more durably than knowledge passively received. Learning with AI, when it genuinely demands that active effort, is morally unproblematic and pedagogically promising.\n\n**Learning from AI** is subtly different. Here the AI functions as an explanatory resource\u2014a textbook that talks back, a patient tutor who can re-explain a concept seventeen different ways until one lands. The learner is still the recipient of understanding, but the understanding is genuinely internalized. The moral status of this mode depends heavily on what the learner does with the explanation. If a student asks an AI to explain Bayesian inference, works through the logic, and can subsequently apply it independently, the AI has functioned as a superior encyclopedia. No serious ethical objection attaches to consulting a well-written reference. The concern arises when \"learning from\" shades imperceptibly into passive consumption\u2014when the student reads the AI's explanation, feels the subjective sensation of understanding (what psychologists call \"fluency illusion\"), and mistakes that feeling for durable knowledge. This is not a problem unique to AI; it afflicts textbooks and lectures too. But AI's fluency and apparent authority may intensify the illusion. Researchers at Harvard's Graduate School of Education have examined how the ease of AI-generated explanation can suppress the productive struggle that consolidates learning (see the work of the Project Zero group at https://pz.harvard.edu).\n\n**Outsourcing learning to AI** is categorically different from either of the above, and it is here that the moral analysis sharpens considerably. When a student delegates the cognitive work itself\u2014submitting an AI-written essay, having the AI solve problem sets, using AI to generate responses in a language class\u2014the student has not learned; they have acquired a credential or a grade that misrepresents their actual competence. This is dishonest in the straightforward sense: it deceives instructors, institutions, and ultimately employers or graduate programs who rely on those credentials as signals of genuine capability. The wrong is not merely rule-breaking. It is a form of fraud against everyone who depends on educational credentials as meaningful information.\n\nThere is a second, less obvious moral dimension to outsourcing: the harm to the learner themselves. Philosophers of education from John Dewey onward have argued that education is not merely instrumental\u2014not simply a means to credentials\u2014but constitutive of the person. The capacity to think rigorously, write clearly, and reason under uncertainty are not separable from the human being who possesses them; they are partly what it means to be an educated person. Outsourcing the work that builds those capacities is self-undermining in a way that is difficult to capture in purely consequentialist terms. It is closer to what Aristotle would have recognized as a failure of self-cultivation\u2014a choice that forecloses the very development the educational process is designed to enable.\n\nThe boundaries between these three modes are genuinely porous, and that porousness is itself morally significant. A student who begins by learning *with* an AI can drift, almost without noticing, into outsourcing, particularly under time pressure or anxiety. This is not a reason to prohibit AI use but a reason to cultivate metacognitive awareness\u2014the habit of asking, honestly, whether one is doing the thinking or merely watching the AI do it. Institutions bear some responsibility here too: assessment designs that can be trivially satisfied by AI delegation are not merely vulnerable to cheating; they are poorly designed assessments that fail to measure what they claim to measure.\n\nThe moral difference between these three modes, then, is real and consequential. It tracks the presence or absence of genuine cognitive engagement, the honesty of the credential produced, and the degree to which the learner is developing rather than bypassing their own capacities. AI is not inherently a threat to learning; it is a mirror that reflects, with unusual clarity, what learning actually requires.",
       "reliability": "established",
       "sources": [
         {
-          "url": "https://www.thenewatlantis.com/publications/offloading-ourselves-staying-human-in-the-age-of-ai",
-          "title": "Offloading Ourselves — The New Atlantis",
+          "url": "https://www.apa.org/science/about/psa/2016/06/learning-memory",
+          "title": "https://www.apa.org/science/about/psa/2016/06/learning-memory",
           "type": "practitioner",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "medium"
         },
         {
-          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X26000974",
-          "title": "Students’ multimodal prompting practices as epistemic work in AI literacy development - ScienceDirect",
+          "url": "https://pz.harvard.edu",
+          "title": "https://pz.harvard.edu",
           "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/org/science/article/pii/S1062737525000654",
-          "title": "A Systematic Review of AI Ethics in Education: - ScienceDirect",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1697554/full",
-          "title": "Frontiers | The cognitive mirror: a framework for AI-powered metacognition and self-regulated learning",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2605.21629",
-          "title": "Faster Completion, Less Learning: Generative AI Reduced Study Time on Math Problems and the Knowledge They Build",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/pii/S2451958826001764",
-          "title": "AI-overdependence and human cognitive decline: Hazards, evidence, and mitigation strategies - ScienceDirect",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/pdf/2603.10025",
-          "title": "A Review of the Negative Effects of Digital Technology on Cognition",
-          "type": "academic",
-          "retrieved": "2026-07-03",
-          "credibility": "high"
-        },
-        {
-          "url": "https://educationalevidence.com/en/ai-in-technical-education-the-risk-of-cognitive-offloading-and-tempo-as-a-matter-of-professional-ethics/",
-          "title": "AI in technical education: the risk of cognitive offloading and tempo as a matter of professional ethics - Educational Evidence",
-          "type": "practitioner",
-          "retrieved": "2026-07-03",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.researchgate.net/publication/390765958_The_cognitive_paradox_of_AI_in_education_between_enhancement_and_erosion",
-          "title": "(PDF) The cognitive paradox of AI in education: between enhancement and erosion",
-          "type": "academic",
-          "retrieved": "2026-07-03",
+          "retrieved": "2026-07-30",
           "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-03",
+      "last_verified": "2026-07-30",
       "added_edition": 1
     }
   ],
-  "answer_summary": "The three modes of engaging with AI in learning — learning with it, learning from it, and outsourcing learning to it — are not merely stylistic variations on the same activity. They represent genuinely distinct moral situations, distinguished by what the learner retains, surrenders, and becomes.",
+  "answer_summary": "## The Moral Topology of AI-Assisted Learning\n\nThe arrival of capable generative AI in educational settings has forced a conceptual reckoning that vocabulary has not yet caught up with. Educators and students alike speak loosely of \"using AI,\" as though tutoring, collaboration, and delegation were\u2026",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",
