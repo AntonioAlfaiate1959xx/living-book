@@ -5,8 +5,8 @@
     "chapterTitle": "Philosophical Foundations — Why Do We Educate?",
     "position": 1,
     "question": "What is the purpose of education in a world where machines can know, reason, and create?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q002",
@@ -14,8 +14,8 @@
     "chapterTitle": "Philosophical Foundations — Why Do We Educate?",
     "position": 2,
     "question": "If AI can answer any question, what does it mean to \"learn\" something?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q003",
@@ -50,8 +50,8 @@
     "chapterTitle": "Philosophical Foundations — Why Do We Educate?",
     "position": 6,
     "question": "What is irreducibly human in the act of teaching, and what is irreducibly human in the act of learning?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q007",
@@ -59,8 +59,8 @@
     "chapterTitle": "Philosophical Foundations — Why Do We Educate?",
     "position": 7,
     "question": "Should education aim to make humans complementary to AI, resistant to it, or independent of it?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q008",
@@ -68,8 +68,8 @@
     "chapterTitle": "Philosophical Foundations — Why Do We Educate?",
     "position": 8,
     "question": "How does AI reshape our concept of intelligence itself — and the way schools measure and reward it?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q009",
@@ -77,8 +77,8 @@
     "chapterTitle": "Philosophical Foundations — Why Do We Educate?",
     "position": 9,
     "question": "What happens to intellectual struggle, effort, and \"productive failure\" when friction can always be removed?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q010",
@@ -95,8 +95,8 @@
     "chapterTitle": "Ethical Dimensions",
     "position": 1,
     "question": "Who is responsible when an AI teaches something false, biased, or harmful to a student?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q012",
@@ -104,8 +104,8 @@
     "chapterTitle": "Ethical Dimensions",
     "position": 2,
     "question": "How should student data collected by AI systems be governed, and who owns the learning profile of a child?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q013",
@@ -122,8 +122,8 @@
     "chapterTitle": "Ethical Dimensions",
     "position": 4,
     "question": "How do we prevent AI from amplifying existing inequalities of class, language, geography, and disability in education?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q015",
@@ -131,8 +131,8 @@
     "chapterTitle": "Ethical Dimensions",
     "position": 5,
     "question": "Is it ethical to expose children to systems whose long-term cognitive and emotional effects are unknown?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q016",
@@ -140,8 +140,8 @@
     "chapterTitle": "Ethical Dimensions",
     "position": 6,
     "question": "What consent can a minor meaningfully give to AI-mediated education?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q017",
@@ -158,8 +158,8 @@
     "chapterTitle": "Ethical Dimensions",
     "position": 8,
     "question": "Should there be a \"right to a human teacher,\" analogous to a right to human medical care?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q019",
@@ -167,8 +167,8 @@
     "chapterTitle": "Ethical Dimensions",
     "position": 9,
     "question": "How do we address the cultural and ideological biases embedded in models trained predominantly on certain languages and worldviews?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q020",
@@ -176,8 +176,8 @@
     "chapterTitle": "Ethical Dimensions",
     "position": 10,
     "question": "What ethical obligations do AI companies have toward education systems they disrupt but do not serve?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q021",
@@ -194,8 +194,8 @@
     "chapterTitle": "AI's Role in Teaching",
     "position": 2,
     "question": "How should the teacher's role be redefined — from transmitter of knowledge to what, exactly?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q023",
@@ -212,8 +212,8 @@
     "chapterTitle": "AI's Role in Teaching",
     "position": 4,
     "question": "How can AI support teachers (planning, assessment, feedback) without deskilling or replacing them?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q025",
@@ -221,8 +221,8 @@
     "chapterTitle": "AI's Role in Teaching",
     "position": 5,
     "question": "What does effective human–AI co-teaching look like in a real classroom?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q026",
@@ -230,8 +230,8 @@
     "chapterTitle": "AI's Role in Teaching",
     "position": 6,
     "question": "How should teacher training change so educators can critically use, evaluate, and challenge AI tools?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q027",
@@ -248,8 +248,8 @@
     "chapterTitle": "AI's Role in Teaching",
     "position": 8,
     "question": "How do we assess learning authentically when AI can complete any traditional assessment?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q029",
@@ -257,8 +257,8 @@
     "chapterTitle": "AI's Role in Teaching",
     "position": 9,
     "question": "What is the right age and developmental stage to introduce AI tools into learning?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q030",
@@ -266,8 +266,8 @@
     "chapterTitle": "AI's Role in Teaching",
     "position": 10,
     "question": "How do we design AI systems that strengthen rather than substitute students' thinking (avoiding cognitive offloading)?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q031",
@@ -275,8 +275,8 @@
     "chapterTitle": "The Learner's Experience",
     "position": 1,
     "question": "How does constant AI availability change motivation, curiosity, and the desire to learn?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q032",
@@ -284,8 +284,8 @@
     "chapterTitle": "The Learner's Experience",
     "position": 2,
     "question": "What are the effects of AI companionship on students' social development and human relationships?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q033",
@@ -293,8 +293,8 @@
     "chapterTitle": "The Learner's Experience",
     "position": 3,
     "question": "How do we cultivate critical thinking in students who grow up trusting AI-generated answers?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q034",
@@ -302,8 +302,8 @@
     "chapterTitle": "The Learner's Experience",
     "position": 4,
     "question": "What new literacies (AI literacy, prompt literacy, epistemic hygiene) become as fundamental as reading and writing?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q035",
@@ -311,8 +311,8 @@
     "chapterTitle": "The Learner's Experience",
     "position": 5,
     "question": "What is the promise and the peril of AI-driven accessibility for learners with disabilities, neurodivergence, or language barriers, from the learner's own perspective?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q036",
@@ -329,8 +329,8 @@
     "chapterTitle": "The Learner's Experience",
     "position": 7,
     "question": "How do we protect and develop memory, attention, and deep reading in an AI-saturated environment?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q038",
@@ -338,8 +338,8 @@
     "chapterTitle": "Institutions and Systems",
     "position": 1,
     "question": "Is the industrial-era school model (grades, classrooms, standardized curricula) still viable, and what replaces it?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q039",
@@ -347,8 +347,8 @@
     "chapterTitle": "Institutions and Systems",
     "position": 2,
     "question": "How should curricula be redesigned when factual content is instantly accessible and rapidly obsolete?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q040",
@@ -356,8 +356,8 @@
     "chapterTitle": "Institutions and Systems",
     "position": 3,
     "question": "What is the future of universities, credentials, and degrees when skills can be learned and demonstrated outside institutions?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q041",
@@ -365,8 +365,8 @@
     "chapterTitle": "Institutions and Systems",
     "position": 4,
     "question": "How can public education systems keep pace with private AI development without surrendering governance to tech companies?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q042",
@@ -374,8 +374,8 @@
     "chapterTitle": "Institutions and Systems",
     "position": 5,
     "question": "Who has legitimate authority to govern AI in education — states, markets, professions, or communities — and on what principles?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q043",
@@ -383,8 +383,8 @@
     "chapterTitle": "Institutions and Systems",
     "position": 6,
     "question": "How do developing nations avoid a new \"AI colonialism\" in education while leapfrogging infrastructure gaps?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q044",
@@ -392,8 +392,8 @@
     "chapterTitle": "Work, Economy, and Society",
     "position": 1,
     "question": "Which human capabilities will the labor market actually reward in 10, 20, and 50 years — and how do we teach for an unpredictable future?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q045",
@@ -401,8 +401,8 @@
     "chapterTitle": "Work, Economy, and Society",
     "position": 2,
     "question": "How should education respond to the possible decoupling of learning from employment (if AI displaces large categories of work)?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q046",
@@ -410,8 +410,8 @@
     "chapterTitle": "Work, Economy, and Society",
     "position": 3,
     "question": "What is the role of education in a society where economic productivity no longer requires most human labor — education for meaning rather than for jobs?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q047",
@@ -419,8 +419,8 @@
     "chapterTitle": "Work, Economy, and Society",
     "position": 4,
     "question": "How do we manage the transition for current workers whose skills are being obsoleted faster than retraining systems can respond?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q048",
@@ -428,8 +428,8 @@
     "chapterTitle": "Work, Economy, and Society",
     "position": 5,
     "question": "How does AI in education affect democracy — the formation of citizens capable of judgment, deliberation, and resistance to manipulation?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q049",
@@ -446,8 +446,8 @@
     "chapterTitle": "Work, Economy, and Society",
     "position": 7,
     "question": "Looking back from 2050: what decisions made in this decade about AI and education will we most regret or celebrate — and how do we choose wisely now?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q051",
@@ -455,8 +455,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 1,
     "question": "What does current peer-reviewed evidence show about the effects of AI tutoring systems on learning outcomes, and how strong is that evidence?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q052",
@@ -464,8 +464,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 2,
     "question": "What does research reveal about how students actually use generative AI when unsupervised — as distinct from how they report using it?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q053",
@@ -473,8 +473,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 3,
     "question": "What is currently known from cognitive science about AI's effects on memory formation, retention, and transfer of learning?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q054",
@@ -482,8 +482,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 4,
     "question": "What does the evidence show about AI's impact on writing skill development, from early literacy through academic and professional writing?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q055",
@@ -491,8 +491,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 5,
     "question": "What have studies found about AI feedback compared with human feedback — in accuracy, usefulness, and student receptivity?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q056",
@@ -500,8 +500,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 6,
     "question": "What does research show about the reliability of AI-detection tools, and what have institutions learned from relying on them?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q057",
@@ -509,8 +509,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 7,
     "question": "What evidence exists on how AI use affects different learner profiles — high vs. low performers, younger vs. older students, novices vs. experts?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q058",
@@ -518,8 +518,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 8,
     "question": "What do studies reveal about teachers' actual adoption patterns, workload effects, and attitudes toward AI tools?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q059",
@@ -527,8 +527,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 9,
     "question": "What does current evidence show about AI's effects on student motivation, engagement, and persistence — and how do these findings differ from marketing claims?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q060",
@@ -536,8 +536,8 @@
     "chapterTitle": "The Evidence Base — What Research Actually Shows",
     "position": 10,
     "question": "Which widely repeated claims about AI in education lack solid evidence, and which early findings have failed to replicate?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q061",
@@ -545,8 +545,8 @@
     "chapterTitle": "Field Experiences — Case Studies from Real Classrooms",
     "position": 1,
     "question": "What have large-scale national AI-in-education initiatives (across different countries and income levels) achieved, and what have they abandoned?",
-    "lastUpdated": "2026-07-03",
-    "timesChanged": 0
+    "lastUpdated": "2026-08-03",
+    "timesChanged": 1
   },
   {
     "id": "q062",
