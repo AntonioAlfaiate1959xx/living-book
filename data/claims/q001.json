@@ -1,7 +1,7 @@
 {
   "question_id": "q001",
   "question_text": "What is the purpose of education in a world where machines can know, reason, and create?",
-  "current_edition": 1,
+  "current_edition": 2,
   "claims": [
     {
       "claim_id": "q001-c01",
@@ -75,9 +75,60 @@
       "perspectives": [],
       "last_verified": "2026-07-03",
       "added_edition": 1
+    },
+    {
+      "claim_id": "q001-c02",
+      "text": "[MOCK RESEARCH] Primary finding for q001: a peer-reviewed study relevant to \"What is the purpose of education in a world where machines can know, reason, and create?\".",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/mock-q001",
+          "title": "Academic study on q001",
+          "type": "academic",
+          "retrieved": "2026-08-17",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-08-17",
+      "added_edition": 2
+    },
+    {
+      "claim_id": "q001-c03",
+      "text": "[MOCK RESEARCH] Secondary finding for q001: an official policy statement relevant to the question.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.oecd.org/education/mock-q001",
+          "title": "Official guidance on q001",
+          "type": "official",
+          "retrieved": "2026-08-17",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-08-17",
+      "added_edition": 2
+    },
+    {
+      "claim_id": "q001-c04",
+      "text": "[MOCK RESEARCH] Practitioner note for q001 from a vendor blog (lower credibility).",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://example.com/blog/q001",
+          "title": "Practitioner blog on q001",
+          "type": "practitioner",
+          "retrieved": "2026-08-17",
+          "credibility": "medium"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-08-17",
+      "added_edition": 2
     }
   ],
-  "answer_summary": "The Purpose of Education in a World Where Machines Can Know, Reason, and Create The question is not merely pedagogical — it is philosophical, and its urgency grows with every advance in machine capability.",
+  "answer_summary": "[MOCK RESEARCH] Primary finding for q001: a peer reviewed study relevant to \"What is the purpose of education in a world where machines can know, reason, and create?\". [MOCK RESEARCH] Secondary finding for q001: an official policy statement relevant to the question. [MOCK RESEARCH] Practitioner note for q001 from a vendor blog (lower credibility).",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

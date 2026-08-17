@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-28T20:16:21Z",
-  "node_count": 69,
+  "generated_at": "2026-08-17T07:54:04Z",
+  "node_count": 72,
   "edge_count": 133,
   "nodes": [
     {
@@ -9,6 +9,24 @@
       "question_id": "q001",
       "reliability": "established",
       "source_count": 9
+    },
+    {
+      "claim_id": "q001-c02",
+      "question_id": "q001",
+      "reliability": "established",
+      "source_count": 1
+    },
+    {
+      "claim_id": "q001-c03",
+      "question_id": "q001",
+      "reliability": "established",
+      "source_count": 1
+    },
+    {
+      "claim_id": "q001-c04",
+      "question_id": "q001",
+      "reliability": "emerging",
+      "source_count": 1
     },
     {
       "claim_id": "q002-c01",
