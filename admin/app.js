@@ -320,7 +320,12 @@ function openRefresh(id) {
     if (r.ok) {
       const res = r.result || {};
       toast(`Refreshed ${id} → edition ${res.edition}`, "success");
-      out.innerHTML = `✓ Edition ${res.edition} · ${res.claims != null ? res.claims + " claims" : ""} · ${res.sources != null ? res.sources + " sources" : ""}`;
+      const gitLine = res.gitPushed
+        ? `<div style="color:var(--green)">✓ Pushed to GitHub — public site will update shortly.</div>`
+        : (res.gitLog
+            ? `<div style="color:var(--amber)">⚠ Not pushed: ${esc(res.gitLog)}</div>`
+            : "");
+      out.innerHTML = `✓ Edition ${res.edition} · ${res.claims != null ? res.claims + " claims" : ""} · ${res.sources != null ? res.sources + " sources" : ""}` + gitLine;
       loadStatus();
     } else {
       toast("Refresh failed: " + r.error, "error");
