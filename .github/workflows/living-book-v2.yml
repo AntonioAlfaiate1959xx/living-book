@@ -18,9 +18,7 @@ on:
     branches: ["feature/living-book-v2"]
   pull_request:
     branches: ["feature/living-book-v2"]
-  schedule:
-    # 07:00 UTC every Monday. Adjust as desired.
-    - cron: "0 7 * * 1"
+ 
   workflow_dispatch:
     inputs:
       question_id:
