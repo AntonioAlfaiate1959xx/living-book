@@ -213,6 +213,128 @@ function tailLog(lines = 200) {
   return { ok: true, log: arr.slice(-lines).join("\n") };
 }
 
+// ── Git commit + push after a successful refresh ─────────────────────
+// Runs an arbitrary command, capturing stdout/stderr. Never throws — it
+// resolves with { ok, code, output } so callers can decide what to do.
+function runCmd(cmd, args, opts = {}) {
+  return new Promise((resolve) => {
+    let child;
+    try {
+      child = spawn(cmd, args, { cwd: PATHS.root, ...opts });
+    } catch (e) {
+      return resolve({ ok: false, code: -1, output: e.message });
+    }
+    let out = "";
+    let err = "";
+    if (child.stdout) child.stdout.on("data", (d) => (out += d));
+    if (child.stderr) child.stderr.on("data", (d) => (err += d));
+    child.on("error", (e) => resolve({ ok: false, code: -1, output: e.message }));
+    child.on("close", (code) =>
+      resolve({ ok: code === 0, code, output: (out + err).trim() })
+    );
+  });
+}
+
+// Fetch a fresh GitHub access token from the Abacus VM metadata service so
+// that pushes keep working even after any token embedded in the remote URL
+// expires. Best-effort: resolves to a token string or null on any failure.
+async function getFreshGitHubToken() {
+  // Prefer an already-exported key; otherwise pull it from VM metadata.
+  // Every curl is bounded with --max-time so a missing/blocked metadata
+  // service can never hang the server.
+  const script = `
+set -e
+API_KEY="\${ABACUS_API_KEY:-}"
+if [ -z "$API_KEY" ]; then
+  MD_TOKEN=$(curl -s --max-time 5 -X PUT "http://169.254.169.254/latest/api/token" \
+    -H "X-abacus-vm-metadata-token-ttl-seconds: 21600")
+  API_KEY=$(curl -s --max-time 5 -H "X-abacus-vm-metadata-token: $MD_TOKEN" \
+    http://169.254.169.254/latest/user-data \
+    | python3 -c "import sys,json; print(json.load(sys.stdin)['abacus_api_key'])")
+fi
+curl -s --max-time 15 "https://api.abacus.ai/api/getUserConnectorAuth?service=GITHUBUSER" \
+  -H "apiKey: $API_KEY" \
+  | python3 -c "import sys,json; print(json.load(sys.stdin)['result']['auth']['accessToken'])"
+`;
+  try {
+    const r = await runCmd("bash", ["-c", script], { env: process.env });
+    const token = (r.output || "").trim().split("\n").pop().trim();
+    if (r.ok && token && /^gh[a-z]_/.test(token)) return token;
+  } catch (_) {}
+  return null;
+}
+
+// Commit the files touched by a refresh and push them to origin/main so the
+// public GitHub Pages site reflects the change. Fully non-blocking: any
+// failure is caught and returned as a warning rather than crashing the server.
+async function gitCommitAndPush(questionId, edition) {
+  const log = [];
+  const add = (m) => log.push(m);
+  try {
+    // Ensure a git identity exists for the commit.
+    await runCmd("git", ["config", "user.name", "Living Book Bot"]);
+    await runCmd("git", ["config", "user.email", "bot@living-book.local"]);
+
+    // Try to refresh credentials with a fresh token. If this fails we still
+    // attempt the push using whatever credentials the remote already has.
+    const token = await getFreshGitHubToken();
+    if (token) {
+      await runCmd("git", ["config", "credential.helper", "store"]);
+      try {
+        fs.writeFileSync(
+          path.join(process.env.HOME || "/home/ubuntu", ".git-credentials"),
+          `https://oauth2:${token}@github.com\n`,
+          { mode: 0o600 }
+        );
+        add("Refreshed GitHub credentials.");
+      } catch (e) {
+        add(`Could not write git credentials: ${e.message}`);
+      }
+    } else {
+      add("Warning: could not fetch a fresh GitHub token; using existing credentials.");
+    }
+
+    // Stage the files a refresh can touch.
+    const targets = [
+      "data/claims",
+      "editions/ledger.json",
+      "data/graph.json",
+      "data/question-registry.json",
+      "docs/index.html",
+      "logs/orchestration.log",
+    ];
+    await runCmd("git", ["add", "--", ...targets]);
+
+    // Anything actually staged?
+    const staged = await runCmd("git", ["diff", "--cached", "--name-only"]);
+    if (!staged.output) {
+      add("Nothing to commit — working tree clean after refresh.");
+      return { ok: true, pushed: false, log: log.join(" ") };
+    }
+
+    const msg = `chore: refresh answer for ${questionId} via Back Office${
+      edition != null ? ` (edition ${edition})` : ""
+    }`;
+    const commit = await runCmd("git", ["commit", "-m", msg]);
+    if (!commit.ok) {
+      add(`Commit failed: ${commit.output}`);
+      return { ok: false, pushed: false, log: log.join(" ") };
+    }
+    add(`Committed: ${msg}`);
+
+    const push = await runCmd("git", ["push", "origin", "HEAD:main"]);
+    if (!push.ok) {
+      add(`Push failed: ${push.output}`);
+      return { ok: false, pushed: false, log: log.join(" ") };
+    }
+    add("Pushed to origin/main — public site will update shortly.");
+    return { ok: true, pushed: true, log: log.join(" ") };
+  } catch (e) {
+    add(`Git sync error: ${e.message}`);
+    return { ok: false, pushed: false, log: log.join(" ") };
+  }
+}
+
 // Run the v2 build as a child process so we capture its output.
 function runBuild() {
   return new Promise((resolve) => {
@@ -311,6 +433,18 @@ async function handleApi(req, res, url) {
           } catch (be) {
             buildLog = `Site rebuild failed: ${be.message}`;
           }
+          // Commit + push the refreshed data so the public GitHub Pages site
+          // reflects the change. Non-blocking: failures surface as a warning
+          // in the summary rather than aborting the refresh.
+          let gitLog = "";
+          let gitPushed = false;
+          try {
+            const gitResult = await gitCommitAndPush(result.questionId, result.edition);
+            gitLog = gitResult.log;
+            gitPushed = Boolean(gitResult.pushed);
+          } catch (ge) {
+            gitLog = `Git sync failed: ${ge.message}`;
+          }
           // Normalize into a compact summary the UI can display directly.
           const summary = {
             questionId: result.questionId,
@@ -322,6 +456,8 @@ async function handleApi(req, res, url) {
                 : 0,
             lastClaimId: result.claim ? result.claim.claim_id : null,
             buildLog,
+            gitLog,
+            gitPushed,
           };
           return sendJSON(res, 200, { ok: true, result: summary });
         } catch (e) {
@@ -373,4 +509,12 @@ if (require.main === module) {
   });
 }
 
-module.exports = { server, getStatus, listQuestions, getQuestion };
+module.exports = {
+  server,
+  getStatus,
+  listQuestions,
+  getQuestion,
+  gitCommitAndPush,
+  getFreshGitHubToken,
+  runCmd,
+};
