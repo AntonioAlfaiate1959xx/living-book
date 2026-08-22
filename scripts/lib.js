@@ -105,6 +105,116 @@ function padId(n) {
   return "q" + String(n).padStart(3, "0");
 }
 
+// ── Change detection ────────────────────────────────────────────────
+// Truncate a string to a maximum length, appending an ellipsis marker.
+function truncate(text = "", maxLen = 500) {
+  const s = String(text || "");
+  return s.length <= maxLen ? s : s.slice(0, maxLen).trimEnd() + "…";
+}
+
+// Normalise answer text for comparison: strip markdown punctuation,
+// collapse whitespace, and lowercase so trivial formatting differences
+// do not register as content changes.
+function normaliseForCompare(text = "") {
+  return String(text || "")
+    .replace(/\r/g, "")
+    .replace(/[*_`>#|]+/g, " ")
+    .replace(/https?:\/\/[^\s)"']+/g, " ") // URLs compared separately
+    .replace(/[^a-z0-9\s]/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+// Word-level Jaccard similarity in [0,1]; 1 = identical word sets.
+function textSimilarity(a = "", b = "") {
+  const wa = new Set(normaliseForCompare(a).split(" ").filter(Boolean));
+  const wb = new Set(normaliseForCompare(b).split(" ").filter(Boolean));
+  if (wa.size === 0 && wb.size === 0) return 1;
+  if (wa.size === 0 || wb.size === 0) return 0;
+  let inter = 0;
+  for (const w of wa) if (wb.has(w)) inter++;
+  const union = wa.size + wb.size - inter;
+  return union === 0 ? 1 : inter / union;
+}
+
+// Find a short evidence snippet describing what changed: the first place
+// where the new answer diverges from the old one (first ~200 chars).
+function changeEvidence(oldText = "", newText = "", maxLen = 200) {
+  const o = String(oldText || "");
+  const n = String(newText || "");
+  if (!o) return truncate(n.replace(/\s+/g, " ").trim(), maxLen);
+  // Find the first differing character index.
+  let i = 0;
+  const min = Math.min(o.length, n.length);
+  while (i < min && o[i] === n[i]) i++;
+  // Back up to the start of the word/sentence for readability.
+  let start = i;
+  while (start > 0 && !/\s/.test(n[start - 1])) start--;
+  const snippet = n.slice(start).replace(/\s+/g, " ").trim();
+  if (snippet) return truncate(snippet, maxLen);
+  return truncate(n.replace(/\s+/g, " ").trim(), maxLen);
+}
+
+// Classify a change between an old and a new answer.
+// Returns { changeType, evidence, addedSources, removedSources, similarity }.
+// changeType is one of:
+//   "initial"       — there was no prior answer
+//   "no_change"     — content identical (ignoring formatting) and same sources
+//   "minor_update"  — wording changed but same key facts and sources
+//   "major_update"  — key facts or conclusion changed substantially
+//   "new_source"    — a new source URL appeared (no major text change)
+//   "source_removed"— a source was removed (no major text change)
+function classifyChange(oldText, newText, oldSources = [], newSources = []) {
+  const oldUrls = new Set(
+    (oldSources || []).map((s) => (typeof s === "string" ? s : s && s.url)).filter(Boolean)
+  );
+  const newUrls = new Set(
+    (newSources || []).map((s) => (typeof s === "string" ? s : s && s.url)).filter(Boolean)
+  );
+  const addedSources = [...newUrls].filter((u) => !oldUrls.has(u));
+  const removedSources = [...oldUrls].filter((u) => !newUrls.has(u));
+
+  if (oldText == null || oldText === "") {
+    return {
+      changeType: "initial",
+      evidence: changeEvidence("", newText),
+      addedSources,
+      removedSources,
+      similarity: 0,
+    };
+  }
+
+  const similarity = textSimilarity(oldText, newText);
+  const identicalText = normaliseForCompare(oldText) === normaliseForCompare(newText);
+
+  let changeType;
+  if (identicalText && addedSources.length === 0 && removedSources.length === 0) {
+    changeType = "no_change";
+  } else if (!identicalText && similarity < 0.85) {
+    changeType = "major_update";
+  } else if (addedSources.length > 0) {
+    changeType = "new_source";
+  } else if (removedSources.length > 0) {
+    changeType = "source_removed";
+  } else {
+    changeType = "minor_update";
+  }
+
+  let evidence;
+  if (changeType === "no_change") {
+    evidence = "No substantive change; content and sources are unchanged.";
+  } else if (changeType === "new_source") {
+    evidence = "New source(s): " + truncate(addedSources.join(", "), 180);
+  } else if (changeType === "source_removed") {
+    evidence = "Removed source(s): " + truncate(removedSources.join(", "), 180);
+  } else {
+    evidence = changeEvidence(oldText, newText);
+  }
+
+  return { changeType, evidence, addedSources, removedSources, similarity };
+}
+
 // ── Schema validation ───────────────────────────────────────────────
 // Returns an array of human-readable error strings; empty array = valid.
 const RELIABILITY = ["established", "emerging", "disputed", "deprecated"];
@@ -211,6 +321,11 @@ module.exports = {
   classifySource,
   summarise,
   padId,
+  truncate,
+  normaliseForCompare,
+  textSimilarity,
+  changeEvidence,
+  classifyChange,
   validateClaimFile,
   validateRegistryEntry,
   RELIABILITY,

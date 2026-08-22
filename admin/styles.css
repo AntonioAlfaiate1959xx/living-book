@@ -222,3 +222,20 @@ pre.log {
 .muted { color: var(--muted); }
 .empty { text-align: center; color: var(--muted); padding: 40px; }
 .row-between { display: flex; justify-content: space-between; align-items: center; }
+
+
+/* Changes / changelog tab */
+.change-card { margin-bottom: 12px; }
+.change-card summary { cursor: pointer; }
+.diff-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px;
+}
+.diff-h { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 4px; }
+.diff-old, .diff-new {
+  background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
+  padding: 10px; font-size: 13px; line-height: 1.5; white-space: pre-wrap;
+  max-height: 260px; overflow: auto;
+}
+.diff-old { border-left: 3px solid var(--red); }
+.diff-new { border-left: 3px solid var(--green); }
+@media (max-width: 640px) { .diff-grid { grid-template-columns: 1fr; } }

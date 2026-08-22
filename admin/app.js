@@ -86,6 +86,7 @@ function render() {
     case "questions": return renderQuestions();
     case "propose": return renderPropose();
     case "editions": return renderEditions();
+    case "changes": return renderChanges();
     case "graph": return renderGraph();
     case "logs": return renderLogs();
   }
@@ -400,6 +401,87 @@ async function renderEditions() {
         </tbody>
       </table>
     </div>`;
+}
+
+// ── Changes / Changelog ──────────────────────────────────────────────
+const CHANGE_META = {
+  initial:        { label: "First answer",   cls: "badge-blue"  },
+  no_change:      { label: "No change",      cls: "badge-muted" },
+  minor_update:   { label: "Minor update",   cls: "badge-green" },
+  major_update:   { label: "Major update",   cls: "badge-red"   },
+  new_source:     { label: "New source",     cls: "badge-amber" },
+  source_removed: { label: "Source removed", cls: "badge-amber" },
+};
+
+function changeBadge(type) {
+  const m = CHANGE_META[type] || { label: type || "change", cls: "badge-muted" };
+  return `<span class="badge ${m.cls}">${esc(m.label)}</span>`;
+}
+
+async function renderChanges() {
+  app.innerHTML = `<div class="empty"><span class="spinner"></span> Loading change history…</div>`;
+  const r = await getJSON("/api/editions");
+  // Newest first. Every ledger entry is shown; entries recorded before
+  // change-detection existed simply have no `change` block and fall back
+  // to their edition description.
+  const eds = (r.editions || []).slice().reverse();
+
+  const rows = eds.map((e) => {
+    const c = e.change;
+    const date = esc((e.created_at || "").slice(0, 10));
+    const qList = []
+      .concat(e.questions_updated || [], e.questions_added || [])
+      .join(", ");
+
+    if (!c) {
+      // Legacy entry with no recorded classification.
+      return `<div class="card change-card">
+        <div class="row-between">
+          <div><strong>Edition ${e.edition_number}</strong> ${changeBadge("no_change")}
+            <span class="muted"> · ${qList ? esc(qList) : "—"}</span></div>
+          <span class="muted">${date}</span>
+        </div>
+        <p style="margin:8px 0 0">${esc(e.description || "")}</p>
+      </div>`;
+    }
+
+    const hasDiff = (c.oldAnswer || "").trim() || (c.newAnswer || "").trim();
+    const diffBlock = hasDiff
+      ? `<details style="margin-top:10px">
+          <summary class="muted">Old vs new answer</summary>
+          <div class="diff-grid">
+            <div><div class="diff-h">Old</div><div class="diff-old">${esc(c.oldAnswer) || "<span class='muted'>— none —</span>"}</div></div>
+            <div><div class="diff-h">New</div><div class="diff-new">${esc(c.newAnswer) || "<span class='muted'>— none —</span>"}</div></div>
+          </div>
+        </details>`
+      : "";
+
+    const srcNote = [];
+    if ((c.addedSources || []).length) srcNote.push(`+${c.addedSources.length} source(s)`);
+    if ((c.removedSources || []).length) srcNote.push(`−${c.removedSources.length} source(s)`);
+
+    return `<div class="card change-card">
+      <div class="row-between">
+        <div>${changeBadge(c.changeType)}
+          <span class="muted"> · Edition ${e.edition_number} · ${esc(c.id || qList || "")}</span></div>
+        <span class="muted">${date}</span>
+      </div>
+      <p style="margin:8px 0 4px"><strong>${esc(c.question || "")}</strong></p>
+      ${c.evidence ? `<p class="help" style="margin:0 0 4px">${esc(c.evidence)}</p>` : ""}
+      ${srcNote.length ? `<p class="muted" style="margin:0">${esc(srcNote.join(" · "))}</p>` : ""}
+      ${diffBlock}
+    </div>`;
+  });
+
+  app.innerHTML = `
+    <div class="row-between">
+      <h2 class="section" style="margin-top:0">Changes <span class="muted">(all recorded changes, newest first)</span></h2>
+      <button class="btn" id="reloadChanges">Reload</button>
+    </div>
+    <p class="help">Every refresh records what changed (old vs new answer), classified as a change type with evidence. This is the same history published in the book's appendix.</p>
+    ${rows.join("") || `<div class="empty">No changes recorded yet.</div>`}
+  `;
+  document.getElementById("reloadChanges").addEventListener("click", renderChanges);
 }
 
 // ── Consistency graph ────────────────────────────────────────────────
