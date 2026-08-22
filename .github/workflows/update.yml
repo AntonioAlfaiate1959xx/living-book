@@ -1,41 +1,73 @@
-# The name shown in GitHub's "Actions" tab.
+# Weekly auto-refresh for the Living Book (v2 pipeline).
+#
+# Every Monday at 06:00 UTC this workflow refreshes every active question
+# using the v2 orchestrator, rebuilds the published site, and commits the
+# results straight back to `main`. GitHub Pages then serves the new edition.
+#
+# It uses the SAME data store that the published site reads from:
+#   - data/claims/*.json      (per-question answers + sources)
+#   - editions/ledger.json    (the change history / appendix source)
+#   - docs/index.html         (the built book that GitHub Pages serves)
+# so every weekly refresh is immediately visible on the site and in the
+# "How This Book Has Changed" appendix.
+
 name: Update Living Book
 
 on:
   schedule:
-    # "cron" is a five-field clock pattern: minute hour day month weekday.
-    # This one means: 06:00 UTC every Monday.
+    # minute hour day month weekday  →  06:00 UTC every Monday.
     - cron: "0 6 * * 1"
-  # This line adds a "Run workflow" button so you can also trigger it by hand.
+  # Adds a "Run workflow" button so the refresh can also be triggered by hand.
   workflow_dispatch:
+
+# Only one refresh may run at a time; a new one waits rather than racing.
+concurrency:
+  group: living-book-update
+  cancel-in-progress: false
 
 jobs:
   update:
-    runs-on: ubuntu-latest # GitHub lends us a fresh Linux computer.
+    runs-on: ubuntu-latest
     permissions:
-      contents: write # Allow the job to save results back.
+      contents: write # allow the job to commit + push the new edition
+      pages: write # allow Pages to publish
     steps:
       - name: Get the repository files
         uses: actions/checkout@v4
+        with:
+          # Use the built-in token so the later `git push` is authenticated.
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Run the update pipeline
-        run: node scripts/update.js
+      - name: Refresh every active question (v2 orchestrator)
         env:
-          # The secret is injected here — it never appears in any file.
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # The API key is injected from repo secrets; it never appears in a file.
+          # If the secret is missing, the orchestrator falls back to mock mode so
+          # the run still completes instead of failing the whole workflow.
+          ABACUS_API_KEY: ${{ secrets.ABACUS_API_KEY }}
+        run: |
+          if [ -z "$ABACUS_API_KEY" ]; then
+            echo "::warning::ABACUS_API_KEY secret is not set — running in MOCK mode."
+            node scripts/orchestrate.js --all --mock
+          else
+            node scripts/orchestrate.js --all
+          fi
 
-      - name: Rebuild the book
+      - name: Rebuild the published book (v2)
         run: node scripts/build-v2.js
 
-      - name: Save the new edition
+      - name: Commit and push the new edition to main
         run: |
           git config user.name "living-book-bot"
           git config user.email "bot@users.noreply.github.com"
           git add -A
-          git diff --staged --quiet || git commit -m "Living edition $(date -u +%F)"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit this week."
+          else
+            git commit -m "Living edition — weekly refresh $(date -u +%F)"
+            git push origin HEAD:main
+          fi
