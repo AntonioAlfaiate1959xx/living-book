@@ -335,25 +335,71 @@ async function orchestrate(
   };
 }
 
+// ── Refresh every active question (used by the weekly workflow) ──────
+// Iterates all non-deprecated questions in the registry and refreshes
+// each one. Honours the project's "quarantine, never halt" rule: a
+// failure on one question is logged and skipped, and the run continues.
+async function orchestrateAll({ mock = false, ensemble = false } = {}) {
+  const registry = readJSON(PATHS.registry, null);
+  if (!registry || !Array.isArray(registry.questions)) {
+    throw new Error("Registry not found. Run `node scripts/migrate.js` first.");
+  }
+  const active = registry.questions.filter((q) => q.status !== "deprecated");
+  log(
+    `START refresh-all (${active.length} active questions, mode=${mock ? "mock" : "live"}${ensemble ? "+ensemble" : ""})`
+  );
+
+  const results = { ok: [], failed: [] };
+  for (const q of active) {
+    try {
+      const r = await orchestrate(q.id, { mock, ensemble });
+      results.ok.push(q.id);
+      console.log(`✓ Refreshed ${r.questionId} (edition ${r.edition})`);
+    } catch (err) {
+      results.failed.push({ id: q.id, error: err.message });
+      log(`SKIP ${q.id}: ${err.message}`);
+      console.error(`✗ ${q.id} failed (skipped): ${err.message}`);
+    }
+  }
+
+  console.log(
+    `\nrefresh-all complete: ${results.ok.length} refreshed, ${results.failed.length} failed/skipped.`
+  );
+  return results;
+}
+
 // ── CLI entry point ─────────────────────────────────────────────────
 if (require.main === module) {
   const args = parseArgs(process.argv.slice(2));
   const questionId = args["question-id"];
   const mock = Boolean(args.mock);
   const ensemble = Boolean(args.ensemble);
+  const all = Boolean(args.all);
 
-  orchestrate(questionId, { mock, ensemble })
-    .then((r) => {
-      console.log(`✓ Refreshed ${r.questionId}`);
-      console.log(`  edition : ${r.edition}`);
-      console.log(`  claims  : ${r.claims.length} (last ${r.claim.claim_id})`);
-      console.log(`  sources : ${r.claim.sources.length}`);
-      console.log(`  log     : ${path.relative(PATHS.root, PATHS.orchestrationLog)}`);
-    })
-    .catch((err) => {
-      console.error("✗ Orchestration failed: " + err.message);
-      process.exit(1);
-    });
+  if (all) {
+    // Refresh every active question. Never exits non-zero on a single
+    // question failure — the weekly automation must always finish and
+    // commit whatever it managed to refresh.
+    orchestrateAll({ mock, ensemble })
+      .then(() => process.exit(0))
+      .catch((err) => {
+        console.error("✗ refresh-all failed: " + err.message);
+        process.exit(1);
+      });
+  } else {
+    orchestrate(questionId, { mock, ensemble })
+      .then((r) => {
+        console.log(`✓ Refreshed ${r.questionId}`);
+        console.log(`  edition : ${r.edition}`);
+        console.log(`  claims  : ${r.claims.length} (last ${r.claim.claim_id})`);
+        console.log(`  sources : ${r.claim.sources.length}`);
+        console.log(`  log     : ${path.relative(PATHS.root, PATHS.orchestrationLog)}`);
+      })
+      .catch((err) => {
+        console.error("✗ Orchestration failed: " + err.message);
+        process.exit(1);
+      });
+  }
 }
 
-module.exports = { orchestrate, mockAnswer };
+module.exports = { orchestrate, orchestrateAll, mockAnswer };
