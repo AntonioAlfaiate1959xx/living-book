@@ -22,6 +22,8 @@ const {
   nowISO,
   classifySource,
   summarise,
+  classifyChange,
+  truncate,
 } = require("./lib.js");
 const { parseArgs } = require("./propose-question.js");
 const { runEnsemble } = require("./agents/ensemble.js");
@@ -198,6 +200,14 @@ async function orchestrate(
   const existing = readJSON(claimFilePath, null);
   const day = today();
 
+  // Capture the OLD answer BEFORE we overwrite it, so we can classify the
+  // change (old vs new) and record real evidence in the ledger.
+  const oldClaim = existing && Array.isArray(existing.claims)
+    ? existing.claims[existing.claims.length - 1]
+    : null;
+  const oldAnswerText = oldClaim ? oldClaim.text || "" : "";
+  const oldSources = oldClaim ? oldClaim.sources || [] : [];
+
   const claimFile = existing || {
     question_id: questionId,
     question_text: regEntry.question,
@@ -296,18 +306,53 @@ async function orchestrate(
   claimFile.current_edition = newEdition;
   claimFile.question_text = regEntry.question;
 
-  // 5. Append the immutable ledger entry.
+  // 5. Classify the change (old answer vs new answer) so the ledger records
+  //    WHAT changed, not just THAT something changed. This is the change
+  //    detection that powers the Back Office "Changes" tab and the book's
+  //    published appendix.
   const wasNew = !existing;
+  const primaryNewClaim = newClaims[newClaims.length - 1];
+  const newAnswerText = primaryNewClaim ? primaryNewClaim.text || "" : "";
+  const newSources = primaryNewClaim ? primaryNewClaim.sources || [] : [];
+
+  const classification = classifyChange(
+    wasNew ? "" : oldAnswerText,
+    newAnswerText,
+    oldSources,
+    newSources
+  );
+
+  const changeRecord = {
+    id: questionId,
+    question: regEntry.question,
+    timestamp: nowISO(),
+    changeType: wasNew ? "initial" : classification.changeType,
+    evidence: classification.evidence,
+    oldAnswer: truncate(oldAnswerText, 500),
+    newAnswer: truncate(newAnswerText, 500),
+    sources: newSources.map((s) => (typeof s === "string" ? s : s.url)).filter(Boolean),
+    addedSources: classification.addedSources,
+    removedSources: classification.removedSources,
+  };
+
   const authorBase = ensemble ? "ensemble" : "orchestrator";
   ledger.editions.push({
     edition_number: newEdition,
     created_at: nowISO(),
-    description: `Refreshed ${questionId} via ${mock ? "mock " : ""}${authorBase}.`,
+    description: `Refreshed ${questionId} via ${mock ? "mock " : ""}${authorBase} — ${changeRecord.changeType}.`,
     questions_updated: wasNew ? [] : [questionId],
     questions_added: wasNew ? [questionId] : [],
     questions_deprecated: [],
     author: mock ? `${authorBase}(mock)` : authorBase,
+    // Change-detection fields (new in this edition of the tooling):
+    change: changeRecord,
   });
+
+  log(
+    `CLASSIFIED ${questionId}: ${changeRecord.changeType}` +
+      (classification.addedSources.length ? ` +${classification.addedSources.length} src` : "") +
+      (classification.removedSources.length ? ` -${classification.removedSources.length} src` : "")
+  );
 
   // 6. If this question was only "proposed", promote it to active.
   if (regEntry.status === "proposed") {

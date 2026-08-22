@@ -74,13 +74,26 @@ for (const chKey of chapterKeys) {
 }
 
 // The edition ledger appendix — the book's intellectual history.
+// Reads EVERY entry from editions/ledger.json (no truncation) and shows
+// them in reverse-chronological order with the recorded change type and a
+// brief description of what changed.
+const CHANGE_LABELS = {
+  initial: "First answer",
+  no_change: "No change",
+  minor_update: "Minor update",
+  major_update: "Major update",
+  new_source: "New source",
+  source_removed: "Source removed",
+};
+
 let appendix =
   "<h2 id='ledger'>Appendix: How This Book Has Changed</h2>\n" +
-  "<p>This appendix records every edition of the Living Book, showing which " +
-  "questions were added, updated, or deprecated. Each entry is immutable — " +
-  "the book's memory of its own evolution.</p>\n";
+  `<p>This appendix records all ${ledger.editions.length} edition(s) of the ` +
+  "Living Book, showing which questions changed, how they changed, and the " +
+  "evidence for each change. Each entry is immutable — the book's memory of " +
+  "its own evolution.</p>\n";
 
-for (const e of [...ledger.editions].reverse().slice(0, 50)) {
+for (const e of [...ledger.editions].reverse()) {
   const parts = [];
   if (e.questions_added?.length)
     parts.push(`added ${e.questions_added.join(", ")}`);
@@ -89,12 +102,24 @@ for (const e of [...ledger.editions].reverse().slice(0, 50)) {
   if (e.questions_deprecated?.length)
     parts.push(`deprecated ${e.questions_deprecated.join(", ")}`);
   const summary = parts.length ? parts.join("; ") : "no changes";
-  appendix += `<p><strong>Edition ${e.edition_number} — ${e.created_at.slice(
-    0,
-    10
-  )} [${e.author}]</strong><br>${escapeHTML(
-    e.description
-  )}<br><em>${summary}</em></p>\n`;
+
+  const c = e.change;
+  const dateStr = (e.created_at || "").slice(0, 10);
+
+  let detail = "";
+  if (c) {
+    const label = CHANGE_LABELS[c.changeType] || c.changeType || "change";
+    detail =
+      `<br><strong>${escapeHTML(c.question || "")}</strong>` +
+      `<br><em>Change: ${escapeHTML(label)}</em>` +
+      (c.evidence ? `<br>${escapeHTML(c.evidence)}` : "");
+  }
+
+  appendix += `<p><strong>Edition ${e.edition_number} — ${dateStr} [${escapeHTML(
+    e.author || ""
+  )}]</strong><br>${escapeHTML(
+    e.description || ""
+  )}${detail}<br><em>${escapeHTML(summary)}</em></p>\n`;
 }
 
 const html = `<!DOCTYPE html>
