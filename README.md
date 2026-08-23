@@ -100,3 +100,45 @@ GitHub repository, Actions minutes (public repos), and Pages hosting cost $0.
 - Node.js 20+
 - Anthropic API key (stored as GitHub secret `ANTHROPIC_API_KEY`)
 - GitHub repository (public, for free Actions and Pages)
+
+
+## Claim-Node Layer
+
+The **Claim-Node Layer** adds a persistent, versioned, verifiable unit of assertion on top of the existing provenance store. Where the legacy pipeline kept answers and free-text sources per question, the claim-node layer normalizes each distinct claim into its own record with a stable identity and an auditable lifecycle — the missing "claim node" of the system map's provenance/memory layers.
+
+### What it adds
+
+Each claim node (validated against [`schemas/claim-node.schema.json`](schemas/claim-node.schema.json), JSON Schema draft-07) carries:
+
+| Field | Meaning |
+|-------|---------|
+| `claimId` | Persistent identifier, `clm-<uuid-v4>` — stable across runs |
+| `questionId` | The permanent question the claim answers (e.g. `q001`) |
+| `claimText` | The natural-language assertion |
+| `status` | `active` / `superseded` / `retracted` |
+| `version` | Monotonically incrementing integer (bumped on change) |
+| `validityInterval` | ISO-8601 `validFrom` / `validUntil` (open = `null`) |
+| `confidence` | `{ score: 0.0–1.0, level: low/medium/high }`, inferred from source count |
+| `provenanceEdges` | Source edges `{ sourceId, url, relation: supports/contradicts, credibility }` |
+| `contradictionStatus` | `none` / `suspected` / `confirmed` |
+| `disputeStatus` | `none` / `open` / `resolved` |
+
+### Modules (`src/claims/`)
+
+- **`claimBuilder.js`** — reads the provenance store (`data/claims/*.json`, plus any source manifests carrying a free-text `supportsClaim` field) and, for each unique `(questionId, claimText)`, creates or updates a claim node at `claims/<questionId>/<clm-uuid>.json`. Identity is stable: an unchanged claim keeps its `claimId`; a changed claim/provenance bumps `version`. `confidence` is inferred from source count (1 → low, 2 → medium, 3+ → high).
+- **`contradictionEngine.js`** — loads all claim nodes per question and applies conservative, explainable heuristics (antonym conflicts and negation/polarity conflicts over shared topical vocabulary) to flag suspected contradictions. It sets `contradictionStatus = "suspected"` / `disputeStatus = "open"`, writes a dispute record to `disputes/<questionId>-<timestamp>.json`, and appends a run report to `reports/contradictions-<date>.json`. It **never halts** the run and never rewrites answers — flagged pairs are quarantined for human judgement (Zone 4 "Rule on lint report").
+- **`index.js`** — orchestrates `claimBuilder → contradictionEngine`.
+
+### Running it
+
+```bash
+npm run claims
+```
+
+It is designed to run in CI as a step in `.github/workflows/update.yml`, placed **after** the refresh/classify stage and **before** the rebuild/harmonize stage. The ready-to-apply step is provided in [`docs/claim-node-workflow.snippet.yml`](docs/claim-node-workflow.snippet.yml) — a maintainer should paste it into the workflow (the PR that introduced this layer could not edit workflow files directly because the automation app lacks the `workflows` permission).
+
+### Storage
+
+Claim nodes, dispute records, and contradiction reports are **generated runtime artifacts** written under `claims/`, `disputes/`, and `reports/`. These directories are tracked (via `.gitkeep`) but their generated contents are `.gitignore`d, since the pipeline regenerates them on every run. The layer is fully **additive** — it never modifies or deletes existing files under `data/`.
+
+_Claim-Node Layer conceived by inventor **António José Amaro Alfaiate**._

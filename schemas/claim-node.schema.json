@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/AntonioAlfaiate1959xx/living-book/schemas/claim-node.schema.json",
+  "title": "Claim Node",
+  "description": "A persistent, versioned, verifiable unit of assertion in the Living Book. A claim node captures a single factual/argumentative claim attached to a permanent question, its provenance edges to supporting/contradicting sources, and its lifecycle (status, version, validity interval, confidence) plus contradiction/dispute state. Claim nodes are additive to the existing data/claims store and never overwrite legacy answer files.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claimId",
+    "questionId",
+    "claimText",
+    "status",
+    "version",
+    "validityInterval",
+    "confidence",
+    "provenanceEdges",
+    "contradictionStatus",
+    "disputeStatus"
+  ],
+  "properties": {
+    "claimId": {
+      "type": "string",
+      "description": "Persistent, immutable identifier for the claim node. Format: 'clm-' followed by a UUID v4.",
+      "pattern": "^clm-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "questionId": {
+      "type": "string",
+      "description": "Identifier of the permanent question this claim answers (e.g. 'q001').",
+      "pattern": "^q[0-9]{3,}$"
+    },
+    "claimText": {
+      "type": "string",
+      "description": "The natural-language text of the claim being asserted.",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "description": "Lifecycle state of the claim node.",
+      "enum": ["active", "superseded", "retracted"]
+    },
+    "version": {
+      "type": "integer",
+      "description": "Monotonically incrementing version. Starts at 1 on creation and increments by 1 whenever the claim record is updated.",
+      "minimum": 1
+    },
+    "validityInterval": {
+      "type": "object",
+      "description": "ISO-8601 date range during which the claim is considered valid.",
+      "additionalProperties": false,
+      "required": ["validFrom", "validUntil"],
+      "properties": {
+        "validFrom": {
+          "type": "string",
+          "description": "ISO-8601 date (YYYY-MM-DD) from which the claim is valid.",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "validUntil": {
+          "type": ["string", "null"],
+          "description": "ISO-8601 date (YYYY-MM-DD) until which the claim is valid, or null if still open.",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "description": "Confidence in the claim, expressed both as a normalized score and a coarse level.",
+      "additionalProperties": false,
+      "required": ["score", "level"],
+      "properties": {
+        "score": {
+          "type": "number",
+          "description": "Normalized confidence score in [0.0, 1.0].",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "level": {
+          "type": "string",
+          "description": "Coarse confidence bucket.",
+          "enum": ["low", "medium", "high"]
+        }
+      }
+    },
+    "provenanceEdges": {
+      "type": "array",
+      "description": "Edges connecting this claim to the sources that support or contradict it.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sourceId", "relation"],
+        "properties": {
+          "sourceId": {
+            "type": "string",
+            "description": "Stable identifier of the source (derived from its URL when the source lacks its own id).",
+            "minLength": 1
+          },
+          "url": {
+            "type": ["string", "null"],
+            "description": "URL of the source, when available."
+          },
+          "relation": {
+            "type": "string",
+            "description": "Whether the source supports or contradicts the claim.",
+            "enum": ["supports", "contradicts"]
+          },
+          "credibility": {
+            "type": ["string", "null"],
+            "description": "Optional credibility label carried over from the source record.",
+            "enum": ["low", "medium", "high", null]
+          }
+        }
+      }
+    },
+    "contradictionStatus": {
+      "type": "string",
+      "description": "Whether this claim is in contradiction with another claim on the same question.",
+      "enum": ["none", "suspected", "confirmed"]
+    },
+    "disputeStatus": {
+      "type": "string",
+      "description": "Whether an open dispute exists for this claim.",
+      "enum": ["none", "open", "resolved"]
+    },
+    "contradicts": {
+      "type": "array",
+      "description": "Optional list of claimIds this claim is suspected/confirmed to contradict.",
+      "items": {
+        "type": "string",
+        "pattern": "^clm-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+      }
+    },
+    "meta": {
+      "type": "object",
+      "description": "Non-normative bookkeeping metadata.",
+      "additionalProperties": true,
+      "properties": {
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "sourceRecord": { "type": "string" },
+        "legacyClaimId": { "type": "string" },
+        "inventor": { "type": "string" }
+      }
+    }
+  }
+}

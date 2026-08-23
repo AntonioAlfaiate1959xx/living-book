@@ -4,3 +4,11 @@ node_modules/
 
 # Internal agent workspace file (never committed)
 .abacus.donotdelete
+
+# Claim-Node Layer — generated runtime artifacts (directories tracked via .gitkeep)
+claims/*
+!claims/.gitkeep
+disputes/*
+!disputes/.gitkeep
+reports/*
+!reports/.gitkeep
