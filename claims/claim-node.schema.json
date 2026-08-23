@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://living-book/claims/claim-node.schema.json",
+  "title": "Claim Node Record",
+  "description": "Persistent, versioned, provenance-bearing claim node produced by the Canon & Consistency Review layer (Stage 6.5). Mirrors patent FIG. 2 (Claim-Node Data Structure 200). See scripts/consistency-review.mjs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claimId",
+    "questionId",
+    "claimText",
+    "status",
+    "version",
+    "validityInterval",
+    "confidence",
+    "provenanceEdges",
+    "contradictionStatus",
+    "disputeStatus",
+    "contradicts",
+    "meta"
+  ],
+  "properties": {
+    "claimId": {
+      "type": "string",
+      "pattern": "^clm-[0-9a-fA-F-]{36}$",
+      "description": "Persistent identifier, clm-<uuid-v4> (FIG. 2, 210)."
+    },
+    "questionId": {
+      "type": "string",
+      "pattern": "^q\\d+$",
+      "description": "Owning question in q### format (FIG. 2, 215)."
+    },
+    "claimText": {
+      "type": "string",
+      "description": "Natural-language assertion (FIG. 2, 220)."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "superseded", "retracted"],
+      "description": "Lifecycle status (FIG. 2, 225)."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Monotonic version integer (FIG. 2, 230)."
+    },
+    "validityInterval": {
+      "type": "object",
+      "description": "When this version is/was valid (FIG. 2, 235).",
+      "additionalProperties": false,
+      "required": ["validFrom", "validUntil"],
+      "properties": {
+        "validFrom": { "type": "string" },
+        "validUntil": { "type": ["string", "null"] }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "description": "Confidence derived from supporting-source count (FIG. 2, 240).",
+      "additionalProperties": false,
+      "required": ["score", "level"],
+      "properties": {
+        "score": { "type": "number", "minimum": 0, "maximum": 1 },
+        "level": { "type": "string", "enum": ["low", "medium", "high"] }
+      }
+    },
+    "provenanceEdges": {
+      "type": "array",
+      "description": "Sources supporting/contradicting the claim (FIG. 2, 245/246).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sourceId", "url", "relation", "credibility"],
+        "properties": {
+          "sourceId": {
+            "type": "string",
+            "description": "Stable id: 'src-' + first 12 hex of sha256(url)."
+          },
+          "url": { "type": "string" },
+          "relation": { "type": "string", "enum": ["supports", "contradicts"] },
+          "credibility": { "type": "string", "enum": ["low", "medium", "high"] }
+        }
+      }
+    },
+    "contradictionStatus": {
+      "type": "string",
+      "enum": ["none", "suspected", "confirmed"],
+      "description": "Set by the contradiction-detection engine (FIG. 2, 250)."
+    },
+    "disputeStatus": {
+      "type": "string",
+      "enum": ["none", "open", "resolved"],
+      "description": "Human-in-the-loop dispute lifecycle (FIG. 2, 255)."
+    },
+    "contradicts": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "claimIds this node is in tension with (FIG. 2, 260)."
+    },
+    "meta": {
+      "type": "object",
+      "description": "Bookkeeping (FIG. 2, 265).",
+      "additionalProperties": true
+    }
+  }
+}
