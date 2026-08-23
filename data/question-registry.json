@@ -2,7 +2,7 @@
   "schema_version": 2,
   "generated_at": "2026-07-28T20:06:07Z",
   "current_edition": 1,
-  "total_questions": 100,
+  "total_questions": 101,
   "questions": [
     {
       "id": "q001",
@@ -1203,6 +1203,19 @@
       "added_in_edition": 1,
       "deprecated_in_edition": null,
       "superseded_by": null
+    },
+    {
+      "id": "q101",
+      "status": "active",
+      "chapter": "2",
+      "chapter_number": null,
+      "position": null,
+      "question": "The EU AI Act mandates that individuals be informed when interacting with an AI system or consuming AI-generated content. Should this same transparency standard apply to a teacher's use of AI in the classroom, even when disclosure might undermine the pedagogical value of the exercise itself?",
+      "rationale": "Proposed via CLI.",
+      "added_in_edition": 111,
+      "deprecated_in_edition": null,
+      "superseded_by": null,
+      "proposed_at": "2026-08-23T19:13:32Z"
     }
   ]
 }

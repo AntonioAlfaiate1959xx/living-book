@@ -1,0 +1,61 @@
+{
+  "question_id": "q101",
+  "question_text": "The EU AI Act mandates that individuals be informed when interacting with an AI system or consuming AI-generated content. Should this same transparency standard apply to a teacher's use of AI in the classroom, even when disclosure might undermine the pedagogical value of the exercise itself?",
+  "current_edition": 111,
+  "claims": [
+    {
+      "claim_id": "q101-c01",
+      "text": "# Transparency, Trust, and the Pedagogical Exception: AI Disclosure in the Classroom\n\nThe EU AI Act, which entered into force in August 2024, represents the most comprehensive attempt yet to regulate artificial intelligence through binding law. At its heart sits a transparency principle that is both intuitive and demanding: people interacting with AI systems, or consuming AI-generated content, must be told so. Article 50 of Regulation 2024/1689 places this obligation on deployers of AI systems that engage directly with natural persons, carving out only the narrow exception of cases where the artificial nature of the interaction is \"obvious from the context.\" The question of whether this standard should extend with equal force to a teacher's use of AI in the classroom — particularly when disclosure might hollow out the very exercise being attempted — sits at the intersection of legal obligation, pedagogical philosophy, and the ethics of institutional trust.\n\nThe legal position, as it stands, is not entirely settled for educational contexts. The Act's tiered risk framework classifies AI systems used in education as high-risk when they determine access to educational institutions or assess students, but a teacher using a generative AI tool to draft a discussion prompt, produce a sample essay for critique, or simulate a historical figure's voice occupies murkier regulatory ground. Whether such uses trigger Article 50's disclosure requirements depends substantially on whether students are understood to be \"interacting\" with the AI system itself or merely with a teacher-mediated artefact. This ambiguity is not a loophole so much as a genuine gap that the Act's implementation guidance has yet to resolve definitively.\n\nThe pedagogical tension, however, is real regardless of how the legal question is eventually settled. Consider a teacher who presents a class with an AI-generated argument — perhaps a persuasive essay defending a position the teacher finds indefensible — and asks students to identify its weaknesses, spot its rhetorical moves, or assess its credibility. If students know in advance that the text was machine-generated, they may approach it with a categorical suspicion that short-circuits the analytical work the exercise was designed to produce. The same logic applies to simulations: a history class in which students interrogate an AI-voiced \"Thomas Jefferson\" may yield richer historical thinking if students engage with the persona before learning its provenance, then reflect afterward on what the exercise revealed about both the historical figure and the technology. Disclosure before the fact can, in such cases, change the cognitive task entirely.\n\nThis is not a trivial concern, and it has genuine precedent in educational practice. Role-play, Socratic provocation, devil's advocacy, and the deliberate presentation of flawed arguments are all established pedagogical techniques that depend on a degree of managed uncertainty. The teacher who plays devil's advocate without announcing it is not deceiving students in any morally troubling sense; the deception, if it can be called that, is in service of learning and is typically revealed and discussed. The question is whether AI involvement changes the ethical calculus sufficiently to demand a different standard.\n\nThere are strong reasons to think it does, at least partially. AI systems introduce considerations that a teacher's own devil's advocacy does not: questions of data provenance, algorithmic bias, the potential for AI-generated content to be subtly misleading in ways that even the teacher may not have detected, and the broader civic importance of cultivating AI literacy. Students who learn to engage critically with texts and arguments without knowing which were AI-generated may be developing exactly the wrong habit for a world in which that distinction increasingly matters. From this perspective, transparency is not merely a legal formality but a pedagogical value in its own right — one that teaches students to ask, as a matter of course, whether they are dealing with human or machine-generated content.\n\nA defensible resolution lies in distinguishing between prior disclosure and eventual disclosure. The transparency principle need not require that students be informed before an exercise begins in every case; it does require that they be informed, fully and honestly, by its conclusion. A teacher who uses AI-generated material as part of a structured exercise, reveals this at the exercise's end, and uses the revelation itself as a teaching moment about AI's capabilities and limitations is arguably satisfying both the spirit of the Act's transparency requirements and the demands of good pedagogy. What the transparency standard cannot permit — legally or ethically — is systematic concealment that leaves students with no opportunity to develop an accurate understanding of what they have been engaging with.\n\nThe deeper issue is one of institutional trust. Schools and universities occupy a position of particular authority over young people, and that authority depends on a foundational honesty about the nature of the learning environment. Transparency about AI use, even when its timing is pedagogically calibrated, is ultimately an expression of respect for students as developing epistemic agents — people who deserve, eventually, to know the full conditions of their own education.",
+      "reliability": "emerging",
+      "sources": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+          "title": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+          "type": "official",
+          "retrieved": "2026-08-23",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.frontiersin.org/articles/10.3389/frai.2021.654924/full",
+          "title": "https://www.frontiersin.org/articles/10.3389/frai.2021.654924/full",
+          "type": "academic",
+          "retrieved": "2026-08-23",
+          "credibility": "high"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+          "type": "official",
+          "retrieved": "2026-08-23",
+          "credibility": "high"
+        },
+        {
+          "url": "https://futureoflife.org/resource/eu-ai-act-guide/",
+          "title": "https://futureoflife.org/resource/eu-ai-act-guide/",
+          "type": "practitioner",
+          "retrieved": "2026-08-23",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.bertelsmann-stiftung.de/en/publications/publication/did/ai-in-schools",
+          "title": "https://www.bertelsmann-stiftung.de/en/publications/publication/did/ai-in-schools",
+          "type": "practitioner",
+          "retrieved": "2026-08-23",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+          "title": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+          "type": "official",
+          "retrieved": "2026-08-23",
+          "credibility": "high"
+        }
+      ],
+      "perspectives": [],
+      "last_verified": "2026-08-23",
+      "added_edition": 111
+    }
+  ],
+  "answer_summary": "The EU AI Act, which entered into force in August 2024, represents the most comprehensive attempt yet to regulate artificial intelligence through binding law. At its heart sits a transparency principle that is both intuitive and demanding: people interacting with AI systems, or consuming AI generated content, must be told so.",
+  "disputed_aspects": []
+}
