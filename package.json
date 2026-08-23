@@ -10,6 +10,7 @@
     "propose": "node scripts/propose-question.js",
     "orchestrate": "node scripts/orchestrate.js",
     "ensemble": "node scripts/orchestrate.js --ensemble",
+    "claims": "node src/claims/index.js",
     "consistency": "node scripts/consistency-check.js",
     "consistency:check": "node scripts/consistency-check.js --check",
     "backoffice": "node scripts/server.js",

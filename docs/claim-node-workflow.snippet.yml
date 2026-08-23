@@ -1,0 +1,14 @@
+# Claim-Node Layer — CI wiring (apply manually to .github/workflows/update.yml)
+#
+# The GitHub App used to open the PR lacks the `workflows` permission, so the
+# workflow file itself could not be modified via the PR. A maintainer should
+# insert the step below into `.github/workflows/update.yml`, immediately AFTER
+# the "Refresh every active question (v2 orchestrator)" step and BEFORE the
+# "Rebuild the published book (v2)" step:
+
+      # Claim-Node Layer: runs after the refresh/classify stage and before the
+      # rebuild/harmonize stage. Normalizes provenance into persistent, versioned
+      # claim nodes and flags suspected contradictions for human review. It never
+      # halts the run — flagged claims are quarantined via dispute/report files.
+      - name: Build claim nodes + detect contradictions
+        run: npm run claims
