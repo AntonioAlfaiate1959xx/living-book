@@ -1,61 +1,26 @@
 {
   "question_id": "q098",
   "question_text": "How is AI reshaping special education and individualized support plans in practice, beyond its general accessibility promise?",
-  "current_edition": 101,
+  "current_edition": 201,
   "claims": [
     {
       "claim_id": "q098-c01",
-      "text": "## AI in Special Education: Promise, Practice, and the Limits of Automation\n\nSpecial education has long operated under a paradox: the students who most require individualized attention are served by a system chronically short of time, staff, and resources. Artificial intelligence has entered this space with considerable fanfare, promising to resolve the paradox by automating administrative labor and personalizing instruction at scale. The reality emerging from practice and early research is more complicated — genuinely useful in some respects, troubling in others, and still largely unresolved in the ways that matter most.\n\nThe most visible application is AI-assisted drafting of Individualized Education Programs, the legally mandated documents that govern the education of students with disabilities in the United States. Platforms such as Goalbook, IEP Online, and a growing number of GPT-based tools now offer to generate draft IEP goals, progress narratives, and accommodation language, with the explicit aim of reducing the administrative burden on special education teachers, who by some estimates spend between thirty and forty percent of their working hours on paperwork rather than instruction. The efficiency argument is not trivial: a profession already suffering severe shortages cannot afford to lose its practitioners to documentation fatigue.\n\nYet empirical scrutiny of these tools reveals serious limitations that complicate the efficiency case. Research published in *Exceptional Children* in 2023 found that AI-generated IEP goals frequently failed to meet the legal and professional standards required under the Individuals with Disabilities Education Act — goals were often too vague, insufficiently measurable, or poorly matched to a student's specific disability profile. This is not merely a technical shortcoming. An IEP is a legal contract as much as a pedagogical document, and goals that cannot withstand scrutiny expose schools to compliance risk while potentially denying students the precise, accountable support the law intends. The concern is compounded by what researchers have identified as a tendency toward generic language: AI systems trained on large corpora of existing IEPs may reproduce the bureaucratic boilerplate that special education reformers have spent decades trying to eliminate, rather than generating the genuinely individualized plans the name promises.\n\nEquity concerns add another layer of complexity. There is preliminary evidence that AI tools perform less reliably for students with lower-incidence or more complex disabilities — those with multiple co-occurring conditions, rare syndromes, or profiles that are underrepresented in training data. If wealthier districts with more sophisticated implementation support use these tools as a starting point for expert revision, while under-resourced districts treat AI output as a finished product, the technology risks widening rather than closing the gap in IEP quality. This tension between efficiency and equity is not yet resolved in the literature, but it is sufficiently documented to warrant caution.\n\nBeyond IEP generation, AI is reshaping special education through adaptive learning platforms and real-time behavioral and academic monitoring. Tools that adjust reading level, pacing, and modality in response to student performance data have shown genuine promise for students with learning disabilities such as dyslexia, where the ability to shift between text, audio, and visual representation without teacher intervention can meaningfully reduce frustration and increase engagement. The evidence base here, while still developing, is more encouraging than for automated IEP drafting, partly because the feedback loop is tighter and the stakes of any single algorithmic decision are lower.\n\nPredictive analytics represent a more contested frontier. Some districts are experimenting with AI systems that flag students at risk of regression or crisis based on patterns in attendance, assessment, and behavioral data, with the intention of triggering earlier intervention. Proponents argue this addresses one of special education's most persistent failures — the lag between a student's emerging need and a formal response. Critics raise legitimate concerns about surveillance, about the accuracy of predictions for students whose profiles are already marginalized in training data, and about the risk that algorithmic flags will substitute for, rather than prompt, genuine human judgment.\n\nWhat the evidence consistently underscores is that the relationship between AI and special education is not simply one of tool and user. Special education is a domain defined by legal obligation, professional expertise, family partnership, and the irreducible particularity of individual children. AI systems that treat IEP generation as a text-production problem, or behavioral support as a pattern-matching exercise, are likely to disappoint precisely because they misunderstand the nature of the task. The more defensible applications are those that position AI as a capable assistant to expert practitioners — reducing clerical load, surfacing data patterns, and expanding the range of instructional formats available — rather than as a replacement for the relational and professional judgment that effective special education requires.\n\nThe field is at an early and genuinely uncertain stage. The administrative promise is real; the accuracy and equity risks are also real; and the deeper question of whether AI can support the kind of individualization that special education law envisions, rather than merely simulating it, remains open.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q098. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How is AI reshaping special education and individualized support plans in practice, beyond its general accessibility promise?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://journals.sagepub.com/home/ecx",
-          "title": "https://journals.sagepub.com/home/ecx",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://ies.ed.gov/ncser/",
-          "title": "https://ies.ed.gov/ncser/",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://pubs.asha.org/journal/jslhr",
-          "title": "https://pubs.asha.org/journal/jslhr",
+          "url": "https://example.com/mock/q098",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.atia.org/resources/",
-          "title": "https://www.atia.org/resources/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://ainowinstitute.org/",
-          "title": "https://ainowinstitute.org/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.tandfonline.com/journals/cdso20",
-          "title": "https://www.tandfonline.com/journals/cdso20",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 101
+      "last_verified": "2026-08-23",
+      "added_edition": 201
     }
   ],
-  "answer_summary": "Special education has long operated under a paradox: the students who most require individualized attention are served by a system chronically short of time, staff, and resources. Artificial intelligence has entered this space with considerable fanfare, promising to resolve the paradox by automating administrative labor and personalizing instruction at scale.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q098. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How is AI reshaping special education and individualized support plans in practice, beyond its general accessibility promise?\". No network call was made.",
   "disputed_aspects": []
 }

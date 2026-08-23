@@ -1,61 +1,26 @@
 {
   "question_id": "q090",
   "question_text": "What standards of evidence should decision makers demand from edtech vendors before adopting AI products at scale?",
-  "current_edition": 93,
+  "current_edition": 193,
   "claims": [
     {
       "claim_id": "q090-c01",
-      "text": "## What Standards of Evidence Should Decision Makers Demand from EdTech Vendors Before Adopting AI Products at Scale?\n\nThe market for AI-powered educational technology has expanded at a pace that research has conspicuously failed to match. A landmark 2019 RAND Corporation analysis found that fewer than 1% of educational technology products had been evaluated through randomized controlled trials, and by most accounts that gap has only widened as generative AI tools have flooded the sector since. Decision makers — superintendents, curriculum directors, school boards, and ministry officials — are therefore routinely asked to commit public funds and, more consequentially, children's learning time to products whose efficacy rests on vendor claims, demonstration data, or anecdote. Establishing clear, enforceable standards of evidence before adoption is not a bureaucratic nicety; it is an ethical obligation.\n\nThe starting point is understanding why the evidence desert persists. Vendors face strong commercial incentives to move quickly, and procurement cycles rarely reward the patience that rigorous evaluation demands. Schools, for their part, are often under pressure to appear innovative, and the complexity of AI systems makes them difficult for non-specialists to interrogate. The result is a market in which the burden of proof has effectively been reversed: products are presumed effective until proven otherwise, with students serving as the unwitting test population.\n\nThe most defensible standard for large-scale adoption remains the randomized controlled trial, in which students or classrooms are randomly assigned to use or not use the product, and outcomes are measured independently. RCTs are not perfect — they are expensive, time-consuming, and can struggle to capture the full texture of learning — but they remain the most reliable method for establishing that an observed improvement is caused by the intervention rather than by selection effects, teacher enthusiasm, or the novelty of any new tool. Decision makers should ask vendors directly whether RCT evidence exists, and if so, whether it was conducted by independent researchers or by the company itself. Internally funded studies are not worthless, but they are subject to well-documented publication bias and should be weighted accordingly.\n\nWhere RCT evidence is absent, which will be the common case for newer AI products, decision makers should demand the next best available evidence and be explicit about what they are accepting as a trade-off. Quasi-experimental designs — comparing outcomes in schools that adopted a product against carefully matched schools that did not — can provide meaningful signal when randomization is impractical. Rigorous pre-post studies with appropriate controls are weaker still but can at least establish whether gains occurred. What should be categorically insufficient for large-scale adoption is evidence consisting solely of user satisfaction surveys, engagement metrics, or time-on-task data. These measure whether students used a product, not whether they learned more because of it.\n\nBeyond study design, the population studied matters enormously. A product validated with affluent suburban students in one country may perform very differently with English language learners, students with disabilities, or children in under-resourced schools. Decision makers should ask whether efficacy studies were conducted with populations demographically similar to their own, and should treat generalization across very different contexts as an open empirical question rather than a safe assumption. This is particularly important for AI systems, whose underlying models are often trained on data that skews toward certain languages, dialects, and cultural contexts.\n\nEffect size is a further consideration that procurement processes rarely address with sufficient rigour. A statistically significant result can reflect an improvement so small as to be educationally meaningless, particularly when weighed against the cost and disruption of implementation. Researchers generally regard an effect size of around 0.2 standard deviations as modest and 0.4 as meaningful in educational contexts, though these thresholds are contested. Decision makers should ask vendors to report effect sizes alongside p-values, and should be sceptical of claims that do not include this information.\n\nThere is also a temporal dimension that evidence standards must address. Many edtech studies measure outcomes over weeks or a single semester; whether gains persist over years, or whether students become dependent on AI scaffolding in ways that impede independent skill development, is rarely examined. For AI tutoring systems in particular, the question of long-term cognitive effects remains genuinely open, and intellectual honesty requires acknowledging that current evidence cannot resolve it.\n\nFinally, decision makers should insist on transparency about how AI products work, what data they collect, and how algorithmic recommendations are generated. A product that cannot explain its pedagogical logic or that treats its model as a proprietary black box is asking schools to trust a mechanism they cannot evaluate. Independent algorithmic audits, data governance agreements, and clear protocols for monitoring outcomes after deployment are not optional extras but baseline requirements for responsible adoption.\n\nThe core principle is straightforward even when its application is complex: the scale of adoption should be proportionate to the strength of evidence. Piloting an unproven tool with a small, consenting group while collecting rigorous outcome data is defensible. Rolling it out district-wide on the strength of a vendor's marketing deck is not.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q090. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What standards of evidence should decision makers demand from edtech vendors before adopting AI products at scale?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.rand.org/pubs/research_reports/RR2108.html",
-          "title": "https://www.rand.org/pubs/research_reports/RR2108.html",
+          "url": "https://example.com/mock/q090",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.ed.gov/essa/essaguidance17.pdf",
-          "title": "https://www.ed.gov/essa/essaguidance17.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://edtechevidence.org/",
-          "title": "https://edtechevidence.org/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://cdt.org/insights/the-inequitable-effects-of-ai-proctoring-tools-on-students/",
-          "title": "https://cdt.org/insights/the-inequitable-effects-of-ai-proctoring-tools-on-students/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.povertyactionlab.org/sites/default/files/research-paper/EdTech-Evidence-Review_J-PAL_2019.pdf",
-          "title": "https://www.povertyactionlab.org/sites/default/files/research-paper/EdTech-Evidence-Review_J-PAL_2019.pdf",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.oecd.org/education/artificial-intelligence-in-education-guidance-for-policy-makers-7c571a58-en.htm",
-          "title": "https://www.oecd.org/education/artificial-intelligence-in-education-guidance-for-policy-makers-7c571a58-en.htm",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 93
+      "last_verified": "2026-08-23",
+      "added_edition": 193
     }
   ],
-  "answer_summary": "The market for AI powered educational technology has expanded at a pace that research has conspicuously failed to match. A landmark 2019 RAND Corporation analysis found that fewer than 1% of educational technology products had been evaluated through randomized controlled trials, and by most accounts that gap has only widened as generative AI tools have flooded the sector since.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q090. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What standards of evidence should decision makers demand from edtech vendors before adopting AI products at scale?\". No network call was made.",
   "disputed_aspects": []
 }

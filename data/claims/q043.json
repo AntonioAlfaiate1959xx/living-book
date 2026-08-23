@@ -1,62 +1,27 @@
 {
   "question_id": "q043",
   "question_text": "How do developing nations avoid a new \"AI colonialism\" in education while leapfrogging infrastructure gaps?",
-  "current_edition": 46,
+  "current_edition": 146,
   "claims": [
     {
       "claim_id": "q043-c01",
-      "text": "## Avoiding AI Colonialism While Leapfrogging Infrastructure: The Challenge for Developing Nations\n\nThe arrival of artificial intelligence in global education carries a paradox for the developing world. On one hand, AI-powered tutoring systems, adaptive learning platforms, and automated assessment tools offer genuine possibilities for nations where teacher shortages are acute, classrooms are overcrowded, and educational infrastructure remains thin. On the other hand, scholars and policy analysts have grown increasingly concerned that the wholesale adoption of AI tools designed, owned, and operated in the Global North replicates the structural logic of historical colonialism through new technological means. Navigating between these two realities — seizing the genuine opportunity while resisting extractive dependency — is among the most consequential educational policy challenges of the present decade.\n\nThe mechanisms of what researchers have begun calling \"AI colonialism\" in education are not merely rhetorical. Analysis from institutions including the AI Now Institute identifies at least three interlocking dynamics. The first is data colonialism: when students in Kenya, Bangladesh, or Peru interact with a platform headquartered in Silicon Valley or Shenzhen, the behavioral and learning data they generate flows outward, enriching proprietary models that serve commercial interests elsewhere while leaving local institutions with neither the data nor the analytical capacity to improve their own systems. The second mechanism is epistemic imposition — the embedding of particular cultural assumptions, historical narratives, and pedagogical values into AI curricula that present themselves as universal. A system trained predominantly on English-language content and Western educational frameworks does not become neutral simply because it is deployed in Nairobi or Dhaka; it carries its origins with it. The third mechanism is infrastructural dependency, whereby nations that adopt foreign AI platforms find themselves locked into licensing arrangements, proprietary ecosystems, and technical architectures they cannot modify, audit, or eventually replace without prohibitive cost.\n\nThese are structural risks, not hypothetical ones, and they deserve to be taken seriously. Yet the alternative — refusing AI adoption on principle — carries its own costs. The leapfrogging argument has genuine empirical support from adjacent technological history. Mobile banking in sub-Saharan Africa bypassed the branch-banking infrastructure that Western financial systems required, delivering financial inclusion to populations that legacy systems had never reached. There is a plausible analogy in education: AI tutoring systems could, in principle, extend individualized instruction to students in rural areas where qualified teachers are scarce, without waiting for the decades-long process of building conventional educational infrastructure. The question is not whether to engage with AI in education, but on what terms and through what institutional arrangements.\n\nSeveral strategies have emerged from policy research and early implementation experience, though it must be acknowledged that the evidence base remains thin and much of what follows represents informed prescription rather than established outcome. The most promising direction involves investment in local and regional AI development capacity — supporting universities, government agencies, and civil society organizations in nations of the Global South to build, train, and govern their own educational AI systems. This is expensive and slow, but it is the only approach that addresses dependency at its root. Regional coalitions, such as the African Union's emerging data governance frameworks, offer a model for pooling resources across smaller nations that individually lack the scale to develop sovereign AI infrastructure.\n\nA second strategy concerns data governance. Nations that adopt foreign AI platforms can negotiate, through legislation and procurement conditions, for data residency requirements, open licensing of locally generated training data, and mandatory algorithmic audits. This does not eliminate the power asymmetry between a small ministry of education and a large technology corporation, but it creates legal and contractual leverage that currently goes largely unused. The European Union's approach to data sovereignty, whatever its limitations, demonstrates that regulatory frameworks can shift the terms on which technology companies operate within a jurisdiction.\n\nA third, more contested approach involves prioritizing open-source and interoperable AI tools over proprietary platforms. Open-source systems allow local developers to inspect, modify, and localize the underlying models — translating interfaces, adjusting content, and retraining on locally relevant data. The limitation is that open-source AI still requires significant technical capacity to deploy and maintain, capacity that many developing nations currently lack. This points back to the foundational importance of investing in local technical education and research institutions, which is itself a long-term project.\n\nWhat is clear from the available evidence is that the window for shaping these dynamics is narrow. AI educational platforms are being adopted rapidly, and the path dependencies created by early adoption are difficult to reverse. Nations and international bodies that treat AI in education as a purely technical or logistical matter — a question of connectivity and device access — while ignoring questions of ownership, data sovereignty, and epistemic authority are likely to find, a generation hence, that they have exchanged one form of educational dependency for another. The leapfrog is possible, but only if the terms of the jump are negotiated with clear eyes.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q043. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do developing nations avoid a new \"AI colonialism\" in education while leapfrogging infrastructure gaps?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.gsma.com/mobileeconomy/sub-saharan-africa/",
-          "title": "https://www.gsma.com/mobileeconomy/sub-saharan-africa/",
+          "url": "https://example.com/mock/q043",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.masakhane.io/",
-          "title": "https://www.masakhane.io/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://gpai.ai/projects/responsible-ai/enabling-ai-governance-in-africa/",
-          "title": "https://gpai.ai/projects/responsible-ai/enabling-ai-governance-in-africa/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
-          "title": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://link.springer.com/article/10.1007/s13347-020-00405-8",
-          "title": "https://link.springer.com/article/10.1007/s13347-020-00405-8",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 46
+      "last_verified": "2026-08-23",
+      "added_edition": 146
     }
   ],
-  "answer_summary": "The arrival of artificial intelligence in global education carries a paradox for the developing world. On one hand, AI powered tutoring systems, adaptive learning platforms, and automated assessment tools offer genuine possibilities for nations where teacher shortages are acute, classrooms are overcrowded, and educational infrastructure remains thin.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q043. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do developing nations avoid a new \"AI colonialism\" in education while leapfrogging infrastructure gaps?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

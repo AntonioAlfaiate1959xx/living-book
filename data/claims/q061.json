@@ -1,62 +1,27 @@
 {
   "question_id": "q061",
   "question_text": "What have large-scale national AI-in-education initiatives (across different countries and income levels) achieved, and what have they abandoned?",
-  "current_edition": 64,
+  "current_edition": 164,
   "claims": [
     {
       "claim_id": "q061-c01",
-      "text": "# National AI-in-Education Initiatives: Achievements, Failures, and the Distance Between Policy and Classroom\n\nThe global turn toward artificial intelligence in education has produced a striking variety of national experiments — some commanding billions in public investment, others operating on shoestring budgets borrowed from development banks — and the record of what these initiatives have actually achieved is considerably more complicated than either their architects or their critics tend to acknowledge.\n\nChina's program stands as the most ambitious case by scale and by ambition. The Ministry of Education's 2017 \"New Generation AI Development Plan\" did not merely encourage AI in schools; it mandated AI literacy courses across primary and secondary education and called for the deployment of adaptive learning platforms at a scope that, by 2019, encompassed hundreds of millions of students. The policy achievement here is real and should not be minimized: China succeeded in placing AI education on the formal curriculum faster than any comparable system, and it built domestic edtech infrastructure — companies such as Squirrel AI and TAL Education — capable of delivering algorithmically personalized instruction at genuine national scale. Controlled studies of some adaptive tutoring platforms in Chinese schools have shown measurable gains in mathematics performance, particularly for students in rural areas who lack access to experienced teachers.\n\nYet the Chinese case also illustrates how scale can obscure as much as it reveals. Implementation has been deeply uneven: urban schools in Shanghai or Shenzhen received sophisticated platforms and trained teachers, while rural schools in Guizhou or Gansu often received the mandate without the infrastructure. Surveillance concerns have shadowed the program from the beginning, with emotion-recognition cameras and attention-monitoring systems deployed in some classrooms under the banner of AI-assisted teaching — a development that drew criticism from human rights organizations and eventually prompted the Ministry of Education itself to issue cautionary guidance. The line between adaptive learning and behavioral monitoring proved difficult to hold in practice.\n\nThe pattern of ambitious deployment followed by partial retreat is not unique to China. Several high-income countries launched flagship AI tutoring or personalized learning initiatives in the 2010s that have since been quietly scaled back or redesigned. The United States saw substantial philanthropic and federal investment in \"personalized learning\" platforms — a category that often incorporated adaptive algorithms — through initiatives associated with the Bill & Melinda Gates Foundation and, later, the Every Student Succeeds Act. The RAND Corporation's large-scale evaluation of personalized learning schools, published in 2017, found modest positive effects on mathematics and reading, but the effects were small and the causal attribution to AI components specifically was difficult to establish. Several high-profile edtech companies that received significant public and philanthropic funding during this period have since contracted, pivoted, or collapsed.\n\nLower- and middle-income countries present a different set of dynamics. India's national ambitions around AI in education, articulated in the National Education Policy of 2020, have encountered the foundational problem that bedevils technology initiatives across the developing world: connectivity and device access remain inconsistent enough that platform-based AI instruction cannot reach the students most in need of supplementary support. Kenya, Rwanda, and several other sub-Saharan African nations have piloted AI-assisted literacy and numeracy tools, often in partnership with international NGOs or development banks, with results that are genuinely promising in controlled settings but have proven difficult to sustain once external funding ends. The sustainability problem — what happens when the pilot concludes and the implementing partner leaves — is among the most consistent findings across low-income country initiatives.\n\nEstonia, frequently cited as a model of thoughtful digital education policy, has taken a more cautious approach to AI specifically, investing heavily in teacher training and data infrastructure before deploying student-facing AI tools at scale. The Estonian case suggests that the sequencing of investment matters enormously: countries that built teacher capacity and interoperable data systems before introducing AI tools have generally fared better than those that deployed tools first and addressed capacity afterward.\n\nWhat the cross-national record most clearly establishes is that the gap between policy announcement and classroom reality is wide and persistent. Mandates are easy to issue; the conditions that make AI tools educationally effective — reliable infrastructure, trained teachers, well-designed curricula, and robust evaluation mechanisms — are expensive and slow to build. The initiatives that have produced the most credible evidence of learning gains are those that treated AI as one component of a broader instructional system rather than as a standalone solution. Those that have been abandoned or quietly reduced in scope tend to share a common profile: rapid deployment driven by political visibility, insufficient attention to teacher professional development, and evaluation frameworks too weak to detect whether the technology was doing anything useful at all.\n\nThe honest summary of the global record, then, is one of genuine but narrow achievements embedded in a much larger landscape of unrealized ambition — a pattern that should inform, though it has not always informed, the next generation of national initiatives now being planned.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q061. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What have large-scale national AI-in-education initiatives (across different countries and income levels) achieved, and what have they abandoned?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.brookings.edu/articles/chinas-artificial-intelligence-plans-for-education/",
-          "title": "https://www.brookings.edu/articles/chinas-artificial-intelligence-plans-for-education/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.aser",
-          "title": "https://www.aser",
+          "url": "https://example.com/mock/q061",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000380602",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000380602",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.oecd.org/education/Estonia-Rapid-Improvement-Sustained-Progress.pdf",
-          "title": "https://www.oecd.org/education/Estonia-Rapid-Improvement-Sustained-Progress.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "title": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://riseprogramme.org/publications/can-technology-transform-education-evidence-kenya",
-          "title": "https://riseprogramme.org/publications/can-technology-transform-education-evidence-kenya",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 64
+      "last_verified": "2026-08-23",
+      "added_edition": 164
     }
   ],
-  "answer_summary": "The global turn toward artificial intelligence in education has produced a striking variety of national experiments — some commanding billions in public investment, others operating on shoestring budgets borrowed from development banks — and the record of what these initiatives have actually achieved is considerably more complicated than either their architects or their critics tend to acknowledge",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q061. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What have large scale national AI in education initiatives (across different countries and income levels) achieved, and what have they abandoned?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

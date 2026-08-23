@@ -1,61 +1,26 @@
 {
   "question_id": "q089",
   "question_text": "How should the effectiveness of an AI intervention in education be measured — what outcomes, over what timescales, against what baselines?",
-  "current_edition": 92,
+  "current_edition": 192,
   "claims": [
     {
       "claim_id": "q089-c01",
-      "text": "## Measuring What Matters: Outcomes, Timescales, and Baselines for AI Interventions in Education\n\nThe question of how to measure whether an AI intervention in education has actually worked is less straightforward than it might appear. The field has a dominant answer — standardized test scores — and a growing body of evidence suggesting that answer is badly incomplete. A 2023 meta-analysis in *Computers & Education*, examining 92 studies of AI-based tutoring systems, found that 78% relied primarily or exclusively on immediate post-test performance as their measure of success. That figure is both a description of current practice and an implicit indictment of it.\n\nThe appeal of standardized assessments is understandable. They are comparable across contexts, familiar to policymakers, and relatively cheap to administer. When an AI tutoring system produces a measurable gain on a post-test, that gain can be expressed as an effect size, placed alongside effect sizes from other interventions, and used to justify procurement decisions. The problem is that such gains are often measured immediately after the intervention ends, under conditions that may not reflect durable learning. A student who has just spent several hours with an adaptive system drilling algebra may perform better on a test the following day without having consolidated anything that will persist into the following semester. The metric captures a moment rather than a trajectory.\n\nThis is why researchers increasingly argue for multi-dimensional outcome frameworks that extend well beyond test performance. The outcomes worth measuring fall into at least three categories: cognitive, motivational, and metacognitive. Cognitive outcomes include not just factual recall but transfer — the ability to apply knowledge to novel problems — and conceptual understanding that survives the removal of the AI scaffold. Motivational outcomes include engagement, persistence, and whether students develop or lose intrinsic interest in a subject as a result of interacting with the system. Metacognitive outcomes concern whether students become better at regulating their own learning: knowing when they understand something, when they do not, and what to do about it. An AI system that produces short-term test gains while eroding metacognitive capacity or dampening curiosity may be doing net harm even as it appears, by the dominant metric, to be succeeding.\n\nThe timescale question is closely related. Most studies in the literature measure outcomes over periods of days to weeks. Far fewer follow students for a full academic year, and longitudinal studies extending beyond that are rare enough to be notable exceptions. This matters because educational interventions can have effects that diverge sharply over time: an early boost that fades, a slow-building benefit that only becomes visible after months, or a dependency effect in which students perform well while using the system but struggle when it is withdrawn. Responsible evaluation requires at minimum a delayed retention test — typically administered several weeks after the intervention — and ideally a follow-up at the end of the academic year. For interventions aimed at foundational skills, tracking outcomes into subsequent years of schooling is the only way to know whether the gains were real in any educationally meaningful sense.\n\nThe baseline question is equally contested. The most rigorous design compares AI-assisted instruction against a well-resourced control condition — ideally, high-quality human teaching — rather than against no instruction or against a passive reading condition. Many studies in the literature use weak baselines, which inflates apparent effect sizes. An AI tutoring system that outperforms a textbook is not necessarily outperforming a skilled teacher, and conflating these comparisons has led to overclaiming. There is also the question of what the AI system is being added to: an intervention that supplements strong teaching may show modest gains because the ceiling is already high, while the same system deployed in an under-resourced classroom may show larger gains simply because the counterfactual is worse. Neither finding, taken alone, tells the full story.\n\nEquity adds another dimension to the baseline problem. If an AI intervention raises average scores while widening the gap between high- and low-performing students, it has succeeded by one measure and failed by another. Disaggregating outcomes by prior attainment, socioeconomic background, language status, and disability is not optional if the goal is to understand whether a system is genuinely beneficial or merely beneficial for those who were already advantaged.\n\nWhat emerges from this body of evidence is not a single correct measurement protocol but a set of minimum conditions for credible evaluation: outcomes that span cognitive, motivational, and metacognitive domains; timescales that include delayed retention and, where feasible, longitudinal follow-up; baselines that reflect realistic alternatives rather than the weakest possible comparison; and disaggregated analyses that reveal distributional effects. The field's current over-reliance on immediate post-test scores is not merely a methodological inconvenience — it risks systematically misleading the educators, institutions, and policymakers who depend on this evidence to make consequential decisions.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q089. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How should the effectiveness of an AI intervention in education be measured — what outcomes, over what timescales, against what baselines?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.oecd.org/education/generative-ai-and-the-future-of-education-da83c1b4-en.htm",
-          "title": "https://www.oecd.org/education/generative-ai-and-the-future-of-education-da83c1b4-en.htm",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "title": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.povertyactionlab.org/sites/default/files/research-paper/upgrading-education-technology-insights-experimental-research.pdf",
-          "title": "https://www.povertyactionlab.org/sites/default/files/research-paper/upgrading-education-technology-insights-experimental-research.pdf",
+          "url": "https://example.com/mock/q089",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "title": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://learning-analytics.info/index.php/JLA/article/view/5765",
-          "title": "https://learning-analytics.info/index.php/JLA/article/view/5765",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.3102/0013189X16656615",
-          "title": "https://journals.sagepub.com/doi/10.3102/0013189X16656615",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 92
+      "last_verified": "2026-08-23",
+      "added_edition": 192
     }
   ],
-  "answer_summary": "The question of how to measure whether an AI intervention in education has actually worked is less straightforward than it might appear. The field has a dominant answer — standardized test scores — and a growing body of evidence suggesting that answer is badly incomplete.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q089. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How should the effectiveness of an AI intervention in education be measured — what outcomes, over what timescales, against what baselines?\". No network call was made.",
   "disputed_aspects": []
 }

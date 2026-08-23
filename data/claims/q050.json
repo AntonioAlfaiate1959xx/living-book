@@ -1,62 +1,27 @@
 {
   "question_id": "q050",
   "question_text": "Looking back from 2050: what decisions made in this decade about AI and education will we most regret or celebrate — and how do we choose wisely now?",
-  "current_edition": 53,
+  "current_edition": 153,
   "claims": [
     {
       "claim_id": "q050-c01",
-      "text": "## The Decisions That Will Define Learning: A View from the Future\n\nHistory tends to reveal the significance of choices only after the window for making them differently has closed. The introduction of the printing press, the design of mass schooling systems, the arrival of television in classrooms — each moment seemed, to those living through it, like a practical problem of implementation. Only in retrospect did it become clear that something more fundamental was being decided: who would have access to knowledge, on whose terms, and with what consequences for human development. The rapid integration of artificial intelligence into education in the 2020s belongs to this category of hinge moments, and the decisions being made now — about infrastructure, pedagogy, governance, and purpose — will almost certainly be the ones that a 2050 vantage point judges most harshly or most admiringly.\n\nThe most consequential and least glamorous of these decisions concerns infrastructure and access. A 2023 UNESCO report documented that approximately 2.9 billion people worldwide still lack reliable internet connectivity, which means that AI-powered tutoring systems, adaptive learning platforms, and intelligent feedback tools — however sophisticated — remain entirely inaccessible to a substantial portion of humanity. The decisions made in this decade about whether to treat connectivity as a prerequisite for educational AI deployment, or to proceed with rollout in well-resourced contexts while assuming access will eventually follow, will create path dependencies that persist for generations. Educational technology has a well-documented history of amplifying existing inequalities rather than dissolving them: the schools and systems that adopt AI tools earliest and most effectively tend to be those already advantaged by funding, teacher training, and institutional capacity. If the 2020s are remembered as a decade in which AI made excellent education dramatically better for those who already had it, while leaving the connectivity gap unaddressed, that will constitute a serious and foreseeable failure — one that cannot be attributed to ignorance, since the evidence is available now.\n\nThe equity question is not only geographic. Within connected societies, the design choices embedded in AI educational systems carry their own distributional consequences. Algorithmic systems trained predominantly on data from certain linguistic, cultural, and socioeconomic contexts will perform unevenly across populations, and the students most likely to be harmed by those performance gaps are those already underserved by conventional schooling. This is an area where the research is still developing, and where honest uncertainty is warranted: the magnitude of bias effects in educational AI, and the degree to which they can be mitigated through careful design and diverse training data, remains genuinely contested. What is not contested is that these questions require active attention rather than passive optimism.\n\nA second cluster of decisions concerns the relationship between AI and the cognitive development of learners. There is a real and unresolved tension in the research between two legitimate goods. On one side, AI tutoring systems have demonstrated genuine promise in providing personalized, patient, and responsive instruction — particularly for students who lack access to skilled human tutors. On the other side, there are well-grounded concerns that over-reliance on AI assistance during the learning process may impede the development of precisely the capacities — sustained effort, tolerance for confusion, independent problem-solving — that education is meant to cultivate. The analogy to calculators is instructive but imperfect: calculators offload computation while leaving mathematical reasoning intact, whereas AI writing and reasoning assistants potentially offload the very cognitive processes that education is trying to build. How schools navigate this tension — whether they develop principled frameworks for when AI assistance supports learning and when it substitutes for it — will matter enormously. A 2050 retrospective might celebrate this decade for having worked out those distinctions carefully, or regret it for having allowed convenience to foreclose the question.\n\nGovernance and accountability represent a third domain of consequential choice. The companies developing AI educational tools are making decisions about data collection, algorithmic design, and commercial incentives that will shape learning environments for millions of children, largely outside democratic deliberation. The degree to which governments, educators, and civil society establish meaningful oversight — not merely formal regulation, but genuine capacity to evaluate, challenge, and redirect these systems — will determine whether AI in education serves educational purposes or educational purposes come to serve AI deployment.\n\nChoosing wisely in this moment requires resisting two symmetrical errors: the uncritical enthusiasm that treats AI as an unambiguous good requiring only faster adoption, and the reflexive resistance that treats any technological change in education as a threat to humanistic values. The more demanding and more honest path is to insist on specificity — which students, which learning goals, which contexts, with what evidence — and to keep the question of educational purpose primary. The technology is a means. The question of what human flourishing through learning actually requires is the one that must not be delegated to the systems being built to serve it.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q050. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Looking back from 2050: what decisions made in this decade about AI and education will we most regret or celebrate — and how do we choose wisely now?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://learningpolicyinstitute.org/product/restarting-reinventing-school-report",
-          "title": "https://learningpolicyinstitute.org/product/restarting-reinventing-school-report",
+          "url": "https://example.com/mock/q050",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.oecd.org/education/oecd-digital-education-outlook-2023-c74f03de-en.htm",
-          "title": "https://www.oecd.org/education/oecd-digital-education-outlook-2023-c74f03de-en.htm",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.eff.org/wp/school-issued-devices-and-student-privacy",
-          "title": "https://www.eff.org/wp/school-issued-devices-and-student-privacy",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.science.org/doi/10.1126/science.adi5100",
-          "title": "https://www.science.org/doi/10.1126/science.adi5100",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.carnegielearning.com/research/",
-          "title": "https://www.carnegielearning.com/research/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 53
+      "last_verified": "2026-08-23",
+      "added_edition": 153
     }
   ],
-  "answer_summary": "History tends to reveal the significance of choices only after the window for making them differently has closed. The introduction of the printing press, the design of mass schooling systems, the arrival of television in classrooms — each moment seemed, to those living through it, like a practical problem of implementation.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q050. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Looking back from 2050: what decisions made in this decade about AI and education will we most regret or celebrate — and how do we choose wisely now?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

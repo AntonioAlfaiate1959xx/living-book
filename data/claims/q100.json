@@ -1,61 +1,26 @@
 {
   "question_id": "q100",
   "question_text": "What weak signals today — in research labs, startups, and experimental schools — most plausibly indicate what AI in education will look like in ten years?",
-  "current_edition": 103,
+  "current_edition": 203,
   "claims": [
     {
       "claim_id": "q100-c01",
-      "text": "# Faint Signals, Large Consequences: What Today's Experiments Suggest About AI in Education in 2035\n\nThe most consequential shifts in education rarely announce themselves loudly. They begin in underfunded labs, in schools willing to tolerate failure, and in startups operating well outside mainstream institutional comfort. The current moment in artificial intelligence and education is no different. Several converging lines of experimental work — in affective computing, multimodal sensing, and adaptive system design — offer plausible, if still uncertain, glimpses of what learning environments might look like a decade from now.\n\nThe most technically ambitious signal comes from research programs at MIT, Stanford, and Carnegie Mellon, where AI tutoring systems are being rebuilt from the ground up to perceive learners as embodied, emotional beings rather than text-generating machines. MIT's affective computing lineage, initiated by Rosalind Picard and now considerably extended, has produced systems capable of reading facial action codes, tracking eye movement, and measuring galvanic skin response in real time. The goal is not surveillance for its own sake but pedagogical responsiveness: a system that can detect the precise moment a student tips from productive struggle into defeated confusion, and intervene accordingly — slowing down, reframing, or simply acknowledging the difficulty before it hardens into disengagement.\n\nThis matters because one of the most durable findings in educational psychology is that affect and cognition are inseparable. A student who is anxious cannot consolidate new information efficiently; a student who is bored will not encode it at all. Text-based AI tutors, however sophisticated their language models, are blind to these states. They respond to what students type, not to what students feel. The multimodal systems emerging from these labs attempt to close that gap. Whether they will do so reliably, ethically, and at scale within ten years remains genuinely open. The technical challenges are substantial — physiological signals are noisy, culturally variable, and easily confounded — and the ethical questions around continuous biometric monitoring of children are serious enough that regulatory friction alone could delay deployment well beyond the decade horizon.\n\nYet the direction of travel is clear, and it connects to a broader architectural shift visible across multiple research programs: the move from AI as a content-delivery mechanism toward AI as a dynamic model of the individual learner. This is sometimes called \"learner modeling\" in the academic literature, and its ambitions have grown considerably with the availability of large language models and richer sensor data. Rather than adapting only the difficulty of the next problem, next-generation systems aim to maintain a continuously updated representation of a student's conceptual state, motivational profile, and learning history — and to use that model to make decisions across timescales, from the next sentence to the next semester.\n\nExperimental schools, particularly those operating under competency-based or mastery-learning frameworks, are already running early versions of this idea. In these environments, AI systems track not just whether a student answered correctly but how long they hesitated, which distractors they chose, and how their performance varies across contexts. The data density is orders of magnitude greater than what standardized testing captures, and the pedagogical implications are correspondingly richer. A student who consistently fails geometry problems involving rotation but succeeds at those involving reflection is not simply \"bad at geometry\" — they have a specific gap that a well-calibrated system can target precisely. This kind of granular diagnosis, currently available only in well-resourced experimental settings, is a plausible candidate for mainstream adoption within ten years, particularly as the cost of the underlying infrastructure continues to fall.\n\nThe startup ecosystem adds another layer of signal, though one that requires more interpretive caution. Companies working at the intersection of AI and credentialing are experimenting with continuous, portfolio-based assessment that could eventually displace or supplement traditional examinations. The logic is straightforward: if an AI system has observed thousands of hours of a student's work, it has far more evidence about their capabilities than a three-hour exam ever could. Several jurisdictions are already piloting AI-assisted credentialing in vocational education, where the competencies to be assessed are more tractable. Whether this extends to higher-order academic domains — where the constructs are fuzzier and the political stakes around credentials are higher — is contested.\n\nWhat these signals share, taken together, is a common implication: the AI in education of 2035 will likely be far less visible as a discrete tool and far more embedded in the continuous fabric of learning environments. The tutor that senses frustration, the system that models conceptual gaps, the platform that assembles evidence of competence over time — these are not separate products but components of an integrated infrastructure. The open questions are not primarily technical. They concern governance: who controls the learner model, who can access the biometric data, and whether the optimization targets embedded in these systems reflect genuine educational values or merely measurable proxies for them. The signals are real. The destination depends on choices that have not yet been made.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q100. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What weak signals today — in research labs, startups, and experimental schools — most plausibly indicate what AI in education will look like in ten years?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.media.mit.edu/groups/affective-computing/overview/",
-          "title": "https://www.media.mit.edu/groups/affective-computing/overview/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.rand.org/pubs/research_reports/RR2042.html",
-          "title": "https://www.rand.org/pubs/research_reports/RR2042.html",
+          "url": "https://example.com/mock/q100",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.oneusefulthing.org/",
-          "title": "https://www.oneusefulthing.org/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://link.springer.com/article/10.1007/s40593-021-00249-z",
-          "title": "https://link.springer.com/article/10.1007/s40593-021-00249-z",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.christenseninstitute.org/publications/unbundling/",
-          "title": "https://www.christenseninstitute.org/publications/unbundling/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20171112",
-          "title": "https://www.aeaweb.org/articles?id=10.1257/aer.20171112",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 103
+      "last_verified": "2026-08-23",
+      "added_edition": 203
     }
   ],
-  "answer_summary": "The most consequential shifts in education rarely announce themselves loudly. They begin in underfunded labs, in schools willing to tolerate failure, and in startups operating well outside mainstream institutional comfort. The current moment in artificial intelligence and education is no different.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q100. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What weak signals today — in research labs, startups, and experimental schools — most plausibly indicate what AI in education will look like in ten years?\". No network call was made.",
   "disputed_aspects": []
 }

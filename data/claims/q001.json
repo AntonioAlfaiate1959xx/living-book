@@ -1,62 +1,27 @@
 {
   "question_id": "q001",
   "question_text": "What is the purpose of education in a world where machines can know, reason, and create?",
-  "current_edition": 4,
+  "current_edition": 104,
   "claims": [
     {
       "claim_id": "q001-c01",
-      "text": "## The Purpose of Education in a World Where Machines Can Know, Reason, and Create\n\nThe arrival of artificial intelligence systems capable of retrieving facts, constructing arguments, and generating creative work has forced a question that schooling has long deferred: if a machine can do what we trained students to do, what exactly is education for? The question is not merely practical — it cuts to the philosophical core of what it means to develop a human being.\n\nA significant strand of contemporary educational philosophy responds with what might be called the human distinctiveness thesis. Gert Biesta's influential framework holds that education has always served three overlapping purposes: qualification, which prepares people for productive work; socialisation, which initiates them into shared cultural and civic life; and subjectification, which cultivates the capacity to exist as a responsible, self-determining subject. For most of the twentieth century, qualification dominated institutional schooling — curricula were organised around the transmission of knowledge and the demonstration of competence in established disciplines. AI does not merely challenge that priority; it arguably renders the narrowest version of it obsolete. A system that can pass bar examinations, write serviceable code, and summarise medical literature in seconds has not made knowledge worthless, but it has made the passive accumulation of retrievable information a poor organising principle for twelve or more years of human development.\n\nThis does not mean knowledge itself becomes irrelevant — a point worth stressing, because the human distinctiveness thesis is sometimes misread as a licence to abandon rigorous content in favour of vague talk about creativity and emotional intelligence. The more careful version of the argument holds that deep disciplinary understanding remains essential, precisely because it is the substrate on which genuine reasoning, critical evaluation, and creative judgment depend. What changes is the purpose for which that knowledge is cultivated. Students who understand how historical evidence is weighed, how a mathematical proof is constructed, or how a scientific claim is tested are not merely storing information — they are developing the epistemic habits needed to interrogate, direct, and correct AI outputs. In a world where machines generate plausible-sounding text at scale, the ability to distinguish a well-supported claim from a confident confabulation becomes more valuable, not less.\n\nThe socialisation function of education acquires new urgency in this context. Democratic societies depend on citizens who can deliberate together, hold institutions accountable, and navigate disagreement without retreating into algorithmic filter bubbles. These capacities are not naturally produced by exposure to AI tools; they require sustained practice in the kinds of human interaction — argument, negotiation, collective inquiry — that schools are unusually well positioned to provide. There is emerging concern, not yet settled by longitudinal evidence, that heavy reliance on AI-mediated communication in educational settings may attenuate precisely the social and rhetorical muscles that civic life demands. The concern is plausible enough to warrant caution, even if the empirical picture remains incomplete.\n\nIt is the third of Biesta's purposes — subjectification — that generates the most philosophically interesting debate. To become a subject, in this sense, is to develop the capacity to act from one's own values and judgments rather than simply executing instructions or optimising for externally defined outcomes. Critics of AI-heavy pedagogy worry that systems designed to provide immediate feedback, personalised pathways, and frictionless assistance may inadvertently train students in a kind of cognitive dependency — a disposition to outsource judgment rather than exercise it. Proponents counter that well-designed AI tools can scaffold genuine intellectual agency, freeing students from low-level drudgery and creating space for higher-order thinking. Both positions contain truth, and the difference likely lies less in the technology itself than in the pedagogical choices made around it.\n\nWhat remains genuinely contested is whether the qualities most worth cultivating — ethical judgment, aesthetic sensibility, the capacity for meaningful relationship, the willingness to sit with uncertainty — are best understood as distinctively human in some deep sense, or simply as capacities that current AI systems happen not to possess and may eventually approximate. If the latter, then education's purpose cannot be permanently anchored to the gap between human and machine capability, because that gap is a moving target. A more durable answer may be that education is not primarily about producing outputs that machines cannot replicate, but about the intrinsic value of a person coming to understand the world, to locate themselves within a tradition of inquiry, and to take responsibility for their own judgments. On this view, the purpose of education does not change because machines grow more capable; it simply becomes more visible, stripped of the instrumental justifications that once obscured it.\n\nThe honest conclusion is that AI has not answered the question of what education is for — it has made the question impossible to avoid.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q001. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is the purpose of education in a world where machines can know, reason, and create?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.routledge.com/World-Centred-Education-A-View-for-the-Present/Biesta/p/book/9780367628987",
-          "title": "https://www.routledge.com/World-Centred-Education-A-View-for-the-Present/Biesta/p/book/9780367628987",
+          "url": "https://example.com/mock/q001",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000379707",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000379707",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
-          "title": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1761641",
-          "title": "https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1761641",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://mitpress.mit.edu/9780262045698/teaching-machines/",
-          "title": "https://mitpress.mit.edu/9780262045698/teaching-machines/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/pii/S0747563223000195",
-          "title": "https://www.sciencedirect.com/science/article/pii/S0747563223000195",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 4
+      "last_verified": "2026-08-23",
+      "added_edition": 104
     }
   ],
-  "answer_summary": "The arrival of artificial intelligence systems capable of retrieving facts, constructing arguments, and generating creative work has forced a question that schooling has long deferred: if a machine can do what we trained students to do, what exactly is education for? The question is not merely practical — it cuts to the philosophical core of what it means to develop a human being.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q001. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is the purpose of education in a world where machines can know, reason, and create?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

@@ -1,62 +1,27 @@
 {
   "question_id": "q047",
   "question_text": "How do we manage the transition for current workers whose skills are being obsoleted faster than retraining systems can respond?",
-  "current_edition": 50,
+  "current_edition": 150,
   "claims": [
     {
       "claim_id": "q047-c01",
-      "text": "## When Retraining Runs Slower Than Disruption: Managing the Transition for Workers Whose Skills Are Being Obsoleted by AI\n\nThe central difficulty facing workforce policy today is not simply that jobs are changing — it is that they are changing faster than the institutions designed to respond to such change can move. The World Economic Forum's *Future of Jobs Report 2023* documents a striking compression in the useful life of professional skills: from an estimated ten to fifteen years in the 1980s down to roughly five years today, with some technical competencies in software development and data analytics becoming obsolete in as little as two to three years. The same report projects that 44% of workers' core skills will be disrupted within the current decade. Traditional education and retraining systems, built around multi-year curricula, accreditation cycles, and institutional planning horizons measured in semesters rather than quarters, were never designed to operate at this tempo. The mismatch is structural, not incidental, and closing it requires rethinking the architecture of workforce transition rather than simply accelerating existing mechanisms.\n\nThe scale of the problem is uneven in ways that matter enormously for policy. Displacement is not distributed randomly across the workforce. Workers in routine cognitive roles — data entry, paralegal research, certain categories of financial analysis, customer service — face the sharpest near-term exposure, and these roles are disproportionately held by workers in mid-career who lack both the time horizon of younger workers and the accumulated capital of senior professionals. For a 45-year-old whose expertise has been rendered redundant, a two-year retraining programme represents a significant gamble on an uncertain outcome, undertaken at a moment of financial and psychological stress. The calculus is very different from that facing a 22-year-old choosing a first career path.\n\nOne response that has gained traction among employers and policymakers is the shift toward modular, stackable credentials — short-form certifications that can be completed in weeks or months rather than years, and that can be combined incrementally into recognised qualification pathways. Platforms such as Coursera, edX, and various employer-led academies have expanded this space considerably. The evidence on their effectiveness is genuinely mixed, however. Completion rates for self-directed online learning remain low, particularly among workers who are already employed full-time or managing caregiving responsibilities. There is also a persistent credentialing problem: many employers continue to weight traditional degrees heavily in hiring decisions, meaning that a stack of micro-credentials may not translate into the labour market mobility it promises on paper. This gap between credential supply and employer recognition is one of the more contested areas in current workforce research.\n\nA more promising structural intervention, supported by evidence from several national contexts, is the integration of retraining support directly into employment rather than treating it as something that happens after job loss. Germany's Kurzarbeit model, which subsidises reduced working hours during downturns to preserve employment relationships while workers retrain, has demonstrated that keeping workers attached to employers during transitions significantly improves outcomes compared to retraining the unemployed. Singapore's SkillsFuture programme takes a related approach, providing individual learning accounts that workers can draw on continuously throughout their careers, normalising upskilling as an ongoing activity rather than a crisis response. Neither model translates perfectly to other institutional contexts, but both point toward the same underlying principle: transitions managed within employment are substantially less costly — economically and psychologically — than transitions managed through unemployment.\n\nThe role of employers themselves is underappreciated in most policy discussions, which tend to focus on public education systems. There is reasonably strong evidence that firms which invest in internal mobility — actively redeploying workers whose roles are being automated into adjacent functions rather than simply eliminating positions — achieve better outcomes for both workers and the organisation. Amazon's much-publicised Upskilling 2025 commitment and similar corporate programmes represent one end of this spectrum, though critics note that such initiatives often reach a relatively small proportion of affected workers and tend to favour those already closest to technical roles. The honest assessment is that employer-led retraining works well for workers who are already relatively skilled and works poorly for those at the bottom of the internal labour market.\n\nWhat remains genuinely unresolved is the question of income support during transition. Even well-designed retraining programmes require workers to sustain themselves financially while learning, and existing unemployment insurance systems in most countries were designed for short-term frictional unemployment rather than the longer structural transitions now becoming common. Proposals for extended transition accounts, portable benefits, or more ambitious income floor mechanisms remain politically contested and empirically underexplored at scale. The evidence base for what adequate income support during retraining actually costs, and what it produces in terms of employment outcomes, is thinner than policymakers would wish.\n\nThe honest conclusion is that no single intervention closes the gap between the pace of skill obsolescence and the pace of retraining systems. What the evidence supports is a portfolio approach: modular credentials combined with employer recognition reform, retraining embedded in employment rather than following job loss, stronger income support during transitions, and continuous learning cultures normalised well before disruption arrives. The window for building these systems proactively is narrowing.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q047. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do we manage the transition for current workers whose skills are being obsoleted faster than retraining systems can respond?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
-          "title": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+          "url": "https://example.com/mock/q047",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.brookings.edu/articles/workforce-development-in-the-united-states/",
-          "title": "https://www.brookings.edu/articles/workforce-development-in-the-united-states/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20191110",
-          "title": "https://www.aeaweb.org/articles?id=10.1257/pandp.20191110",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.urban.org/research/publication/registered-apprenticeship-outcomes",
-          "title": "https://www.urban.org/research/publication/registered-apprenticeship-outcomes",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://lkyspp.nus.edu.sg/ips/research/details/skillsfuture-evaluation",
-          "title": "https://lkyspp.nus.edu.sg/ips/research/details/skillsfuture-evaluation",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.oecd.org/education/ai-in-education.htm",
-          "title": "https://www.oecd.org/education/ai-in-education.htm",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 50
+      "last_verified": "2026-08-23",
+      "added_edition": 150
     }
   ],
-  "answer_summary": "The central difficulty facing workforce policy today is not simply that jobs are changing — it is that they are changing faster than the institutions designed to respond to such change can move.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q047. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do we manage the transition for current workers whose skills are being obsoleted faster than retraining systems can respond?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

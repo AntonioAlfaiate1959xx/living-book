@@ -1,61 +1,26 @@
 {
   "question_id": "q095",
   "question_text": "How are multimodal and voice-based AI changing learning beyond text — in languages, arts, sciences, and physical skills?",
-  "current_edition": 98,
+  "current_edition": 198,
   "claims": [
     {
       "claim_id": "q095-c01",
-      "text": "## Beyond the Printed Word: How Multimodal and Voice-Based AI Are Reshaping Learning\n\nFor most of its history, educational technology has been a text-bound enterprise — screens filled with words, exercises answered by typing, feedback delivered in written sentences. The emergence of voice-based and multimodal artificial intelligence represents a genuine departure from that tradition, extending the reach of intelligent tutoring into domains where language alone was never sufficient: the spoken word, the visual image, the physical gesture, the laboratory specimen, the musical phrase. The changes are uneven across disciplines, and many claims remain contested, but the directional shift is clear enough to warrant serious examination.\n\nThe most thoroughly documented transformation is occurring in second-language acquisition. Automated Speech Recognition (ASR) systems and conversational AI tutors — deployed through platforms such as Duolingo's voice features and Google's Speak — are giving learners on-demand access to pronunciation feedback and conversational practice that previously required a human interlocutor. Research published in *Language Learning & Technology* has examined how this changes the affective conditions of language learning as much as its mechanics. The anxiety that many learners experience when speaking to a native speaker or a teacher is measurably reduced when the interlocutor is perceived as a machine; errors feel less socially costly, and repetition feels less embarrassing. The result is greater practice volume, which correlates with improved fluency and phonological accuracy. This is an established finding, replicated across multiple studies and language pairs. What remains more contested is whether AI-mediated conversation develops the pragmatic and sociolinguistic competencies — knowing when to be formal, how to hedge, how to read silence — that emerge most naturally from interaction with human speakers embedded in real social contexts. The evidence here is thinner, and researchers are appropriately cautious.\n\nIn the visual arts and design, multimodal AI introduces a different kind of pedagogical possibility. Systems capable of generating, analysing, and annotating images allow students to receive feedback on composition, colour relationships, and spatial organisation in ways that text-based critique cannot fully capture. An AI that can overlay a compositional grid on a student's painting, or highlight tonal inconsistencies by rendering them in false colour, is doing something qualitatively different from a written comment. Early studies in art education suggest that this kind of visual feedback accelerates the development of formal technical skills. The more philosophically fraught question — whether AI engagement enriches or impoverishes the development of aesthetic judgment and creative voice — remains genuinely open. Some researchers argue that rapid AI feedback encourages iterative experimentation; others worry that it nudges students toward optimising for legible, AI-recognisable qualities at the expense of more idiosyncratic expression.\n\nThe sciences present perhaps the most straightforwardly promising case. Multimodal AI can analyse microscopy images, identify specimens, annotate anatomical diagrams, and walk students through the interpretation of spectroscopic data — tasks that previously required either expensive laboratory time or a specialist present in the room. In biology education, AI image-recognition tools have been used to help students identify cell types and pathological features with feedback that is immediate and specific. In chemistry and physics, systems that can interpret hand-drawn diagrams and equations extend intelligent tutoring beyond the typed input that earlier systems required. These applications address a genuine bottleneck: laboratory and practical science education has always been resource-intensive, and AI that can partially substitute for expert human observation during practice exercises has real equity implications, particularly for under-resourced institutions.\n\nPhysical and embodied skills represent the frontier where multimodal AI is most experimental and where the evidence base is thinnest. Computer vision systems can analyse movement — a swimmer's stroke, a surgeon's incision technique, a musician's bowing arm — and generate corrective feedback based on comparison with expert models. Proof-of-concept studies in sports science and surgical training have shown that such systems can identify technical errors that human coaches miss or lack the time to address individually. Music education offers a particularly interesting case: AI systems can now listen to a student's performance, identify intonation problems, rhythmic inconsistencies, and tonal quality issues, and provide feedback that was previously available only from a skilled teacher with a good ear. Whether this feedback translates into durable skill improvement, and how it interacts with the motivational and relational dimensions of instrumental teaching, are questions that longitudinal research has only begun to address.\n\nAcross all these domains, a structural tension persists. Multimodal AI is most effective at providing feedback on the measurable, the classifiable, and the technically specifiable. It is weakest precisely where human expertise is most irreplaceable: in cultivating judgment, taste, interpretive depth, and the capacity to work in conditions of genuine ambiguity. The technology is expanding the boundaries of what automated instruction can do, but it is not yet clear that it is expanding the boundaries of what learners can ultimately become.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q095. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How are multimodal and voice-based AI changing learning beyond text — in languages, arts, sciences, and physical skills?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.lltjournal.org/item/10125-73810",
-          "title": "https://www.lltjournal.org/item/10125-73810",
+          "url": "https://example.com/mock/q095",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13320",
-          "title": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13320",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.arteducators.org/news/articles/783-naea-statement-on-artificial-intelligence",
-          "title": "https://www.arteducators.org/news/articles/783-naea-statement-on-artificial-intelligence",
-          "type": "news",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://jamanetwork.com/journals/jamasurgery/fullarticle/2801234",
-          "title": "https://jamanetwork.com/journals/jamasurgery/fullarticle/2801234",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.3102/00346543211070740",
-          "title": "https://journals.sagepub.com/doi/10.3102/00346543211070740",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 98
+      "last_verified": "2026-08-23",
+      "added_edition": 198
     }
   ],
-  "answer_summary": "For most of its history, educational technology has been a text bound enterprise — screens filled with words, exercises answered by typing, feedback delivered in written sentences.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q095. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How are multimodal and voice based AI changing learning beyond text — in languages, arts, sciences, and physical skills?\". No network call was made.",
   "disputed_aspects": []
 }

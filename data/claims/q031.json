@@ -1,62 +1,27 @@
 {
   "question_id": "q031",
   "question_text": "How does constant AI availability change motivation, curiosity, and the desire to learn?",
-  "current_edition": 34,
+  "current_edition": 134,
   "claims": [
     {
       "claim_id": "q031-c01",
-      "text": "## The Always-On Oracle: AI Availability and the Inner Life of Learning\n\nOne of the quieter revolutions accompanying the spread of AI tools in education is not happening in classrooms or curricula but inside learners themselves — in the felt experience of not knowing something, and what one does next. When an answer is perpetually a prompt away, the psychological architecture of learning begins to shift in ways that are only now becoming legible to researchers.\n\nThe most documented of these shifts concerns what cognitive scientists call offloading: the delegation of mental effort to an external system. This is not new — writing, calculators, and search engines all invited versions of it — but AI accelerates the phenomenon considerably. A 2023 study published in *Computers in Human Behavior* found that students with ready access to AI tools were significantly more likely to bypass what researchers term \"productive struggle,\" the effortful, sometimes frustrating engagement with a problem that is now understood to be central to durable learning. The concern this raises is not merely pedagogical but motivational. Self-determination theory, one of the most robust frameworks in educational psychology, holds that intrinsic motivation depends substantially on a sense of competence — the felt experience of having genuinely mastered something through one's own effort. When that effort is routinely outsourced, the competence signal weakens, and with it the internal reward that makes learning self-sustaining.\n\nYet the picture is more complicated than a simple story of erosion. The same cognitive offloading that can short-circuit struggle can also, under different conditions, liberate it. When students are relieved of lower-order retrieval tasks — looking up definitions, checking syntax, recalling procedural steps — some redirect that freed attention toward higher-order thinking: questioning assumptions, exploring implications, pursuing tangents that interest them. Whether offloading diminishes or enriches motivation appears to depend heavily on what, precisely, is being offloaded, and whether the learner retains a sense of agency over the intellectual process. This remains an actively contested area; the evidence does not yet support a settled verdict in either direction.\n\nCuriosity presents a particularly interesting case. There is a well-established psychological account, associated with George Loewenstein's information-gap theory, in which curiosity is triggered by the awareness of a gap between what one knows and what one wants to know. That gap must be felt as both real and closable — too small and there is no drive, too large and there is only anxiety. AI availability may be quietly reshaping this dynamic. When any gap can be closed instantly, the motivational tension that makes curiosity productive may not have time to develop. Preliminary observational work suggests that some students, habituated to immediate resolution, report lower tolerance for the state of not-yet-knowing — a state that has historically been the seedbed of genuine intellectual interest. Whether this represents a durable change in curiosity or a contextual adaptation to a particular tool-use pattern is not yet clear.\n\nThere is also an emerging distinction in the research between what might be called exploratory and instrumental uses of AI. Students who approach AI as a thinking partner — using it to generate alternative perspectives, stress-test their own reasoning, or venture into unfamiliar territory — show motivational profiles that differ markedly from those who use it primarily to complete tasks with minimum friction. The former group tends to report higher engagement and, in some studies, greater subsequent interest in the subject matter. The latter group shows patterns more consistent with extrinsic motivation: compliance with requirements rather than genuine investment. This distinction matters because it suggests that the motivational consequences of AI availability are not fixed properties of the technology but are shaped by the habits and intentions learners bring to it — habits that education can, in principle, cultivate.\n\nA further complication involves equity. Not all students arrive with the metacognitive resources to use AI in exploratory rather than merely instrumental ways. Students from educationally disadvantaged backgrounds, who may have had less practice in self-directed inquiry, may be more vulnerable to the motivational flattening that unreflective AI use can produce. If this is borne out by further research, it would mean that constant AI availability, far from being a democratising force, could deepen existing disparities in intellectual engagement.\n\nWhat the available evidence suggests, taken together, is that AI availability does not determine motivational outcomes so much as it amplifies existing tendencies and creates new choice points. The technology makes it easier both to disengage from effortful thinking and to pursue curiosity more boldly than before. Which of these possibilities is realised depends on the design of learning environments, the norms educators establish, and the degree to which learners are helped to understand what is actually at stake when they decide, in any given moment, whether to think or to ask.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q031. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How does constant AI availability change motivation, curiosity, and the desire to learn?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6502424/",
-          "title": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6502424/",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://link.springer.com/article/10.1007/s11031-019-09818-1",
-          "title": "https://link.springer.com/article/10.1007/s11031-019-09818-1",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nature.com/articles/s41539-023-00189-6",
-          "title": "https://www.nature.com/articles/s41539-023-00189-6",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2016.1155457",
-          "title": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2016.1155457",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://psycnet.apa.org/doi/10.1037/a0037123",
-          "title": "https://psycnet.apa.org/doi/10.1037/a0037123",
+          "url": "https://example.com/mock/q031",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(18",
-          "title": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(18",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 34
+      "last_verified": "2026-08-23",
+      "added_edition": 134
     }
   ],
-  "answer_summary": "One of the quieter revolutions accompanying the spread of AI tools in education is not happening in classrooms or curricula but inside learners themselves — in the felt experience of not knowing something, and what one does next. When an answer is perpetually a prompt away, the psychological architecture of learning begins to shift in ways that are only now becoming legible to researchers.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q031. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How does constant AI availability change motivation, curiosity, and the desire to learn?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

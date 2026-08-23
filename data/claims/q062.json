@@ -1,62 +1,27 @@
 {
   "question_id": "q062",
   "question_text": "What lessons emerge from schools and universities that banned AI, then reversed course — or embraced it, then restricted it?",
-  "current_edition": 65,
+  "current_edition": 165,
   "claims": [
     {
       "claim_id": "q062-c01",
-      "text": "## Governing the Ungovernable: What Policy Reversals on AI in Education Actually Teach Us\n\nWhen New York City's Department of Education banned ChatGPT from school networks in January 2023, it was acting on instincts that were entirely understandable. A powerful text-generation tool had appeared with almost no warning, and the most immediate visible risk — students submitting machine-written essays as their own — was concrete, familiar, and threatening to something schools had always cared about: the integrity of assessed work. The ban was swift, confident, and, within four months, reversed.\n\nThat reversal is the most instructive data point to emerge from the first wave of institutional AI policy-making, and not simply because it happened quickly. It happened because the department concluded that keeping students away from AI tools was itself a form of harm — specifically, an equity harm. Students from wealthier families and better-resourced schools would encounter and learn to use these tools regardless of what any school network blocked. Students dependent on public school infrastructure would not. A ban designed to protect academic integrity was quietly producing a two-tier landscape in which AI literacy became yet another advantage distributed along existing lines of privilege. The reversal, then, was not an admission that the original concerns were wrong. It was a recognition that the costs of prohibition had been underweighted in the original calculation.\n\nThis pattern — rapid prohibition followed by reluctant or enthusiastic reversal — reflects a structural problem in how educational institutions respond to technological disruption. Bans are administratively simple. They require no new pedagogy, no teacher training, no rethinking of assessment design. They can be implemented in an afternoon. What they cannot do is hold. AI tools are accessible on personal devices, through home networks, and via interfaces that change faster than any acceptable-use policy can track. The enforceability gap between a school's stated policy and actual student behaviour was, in the case of generative AI, essentially total from the beginning. Institutions that recognised this early moved faster toward frameworks that distinguished between prohibited misuse and permitted, even encouraged, use. Those that did not found themselves enforcing rules that students and, increasingly, teachers regarded as theatrical.\n\nUniversities faced a more complicated version of the same dilemma. Higher education had longer-standing and more elaborate academic integrity infrastructure — honour codes, plagiarism detection software, formal disciplinary procedures — and the arrival of AI text generation exposed how much of that infrastructure rested on assumptions that no longer held. Detection tools marketed as capable of identifying AI-generated writing proved unreliable, producing both false positives that accused honest students and false negatives that missed actual misuse. Several institutions that initially mandated the use of such tools quietly stepped back from that position as evidence of their inaccuracy accumulated. This represents the reverse trajectory from the ban-then-embrace pattern: an embrace of a technological solution that was then restricted or abandoned as its limitations became clear.\n\nWhat emerged from both trajectories — the ban reversed and the tool restricted — is a shared lesson about the inadequacy of policy responses that treat AI as a single, stable thing to be permitted or forbidden. The more durable institutional responses have tended to be those that disaggregated the question. Rather than asking whether AI should be allowed, they asked which uses, in which contexts, for which purposes, with what disclosure requirements. Some universities moved toward assessment designs that are intrinsically harder to complete with AI assistance — oral examinations, in-class writing, project work with documented process — not as punitive measures but as genuine pedagogical choices about what skills they wanted to develop and verify. Others built explicit AI use into assignments, asking students to engage critically with AI-generated drafts rather than pretending the tools did not exist.\n\nNeither approach is without tension. Assessment redesign at scale is expensive and slow, and not all disciplines lend themselves equally to the alternatives. Explicit AI integration raises genuine questions about what students are actually learning when a machine performs a substantial portion of the cognitive work. These are not resolved questions. What the evidence from policy reversals does establish, with reasonable confidence, is that the institutions navigating this period most coherently are those that treated the arrival of generative AI as a prompt to examine their educational purposes rather than simply a threat to their existing procedures.\n\nThe deeper lesson, perhaps, is about the relationship between prohibition and preparation. Bans can buy time, but only if that time is used to develop something more considered. Where it was not — where the ban was simply lifted without a replacement framework — institutions found themselves in a more confused position than if they had never banned the tools at all. The schools and universities that reversed course most successfully were those that used the reversal as an occasion for genuine rethinking, rather than as a quiet acknowledgment of defeat.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q062. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What lessons emerge from schools and universities that banned AI, then reversed course — or embraced it, then restricted it?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.chalkbeat.org/newyork/2023/5/18/23728583/nyc-schools-lift-chatgpt-ban-will-pilot-ai-tools-in-classrooms/",
-          "title": "https://www.chalkbeat.org/newyork/2023/5/18/23728583/nyc-schools-lift-chatgpt-ban-will-pilot-ai-tools-in-classrooms/",
+          "url": "https://example.com/mock/q062",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.universitiesaustralia.edu.au/policy-submissions/teaching-learning-the-student-experience/generative-ai-in-higher-education/",
-          "title": "https://www.universitiesaustralia.edu.au/policy-submissions/teaching-learning-the-student-experience/generative-ai-in-higher-education/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.ibo.org/news/news-about-the-ib/artificial-intelligence-in-education/",
-          "title": "https://www.ibo.org/news/news-about-the-ib/artificial-intelligence-in-education/",
-          "type": "news",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.thetimes.co.uk/article/french-university-sciences-po-bans-chatgpt-over-plagiarism-fears-qxzgwgxqf",
-          "title": "https://www.thetimes.co.uk/article/french-university-sciences-po-bans-chatgpt-over-plagiarism-fears-qxzgwgxqf",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.cell.com/patterns/fulltext/S2666-3899(23",
-          "title": "https://www.cell.com/patterns/fulltext/S2666-3899(23",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "title": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 65
+      "last_verified": "2026-08-23",
+      "added_edition": 165
     }
   ],
-  "answer_summary": "When New York City's Department of Education banned ChatGPT from school networks in January 2023, it was acting on instincts that were entirely understandable.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q062. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What lessons emerge from schools and universities that banned AI, then reversed course — or embraced it, then restricted it?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

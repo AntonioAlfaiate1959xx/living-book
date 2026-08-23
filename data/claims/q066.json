@@ -1,62 +1,27 @@
 {
   "question_id": "q066",
   "question_text": "What experiences have emerged from AI use in vocational, technical, and professional training (medicine, law, engineering, trades)?",
-  "current_edition": 69,
+  "current_edition": 169,
   "claims": [
     {
       "claim_id": "q066-c01",
-      "text": "## AI in Vocational, Technical, and Professional Training\n\nMedical education has emerged as one of the most active and closely studied domains for AI integration in professional training. Clinical simulation platforms built on large language models now allow medical students and residents to practice history-taking, differential diagnosis, and patient communication in environments that can be repeated indefinitely without risk to real patients. Studies published in *Academic Medicine* and *JMIR Medical Education* have documented measurable skill gains from these systems — improvements in diagnostic reasoning and clinical communication that are detectable in structured assessments. The scalability of such tools is genuinely significant: a student can rehearse a difficult patient encounter at midnight without requiring a standardised patient actor or a supervising clinician to be present.\n\nYet these gains come with a well-documented concern. When AI simulators are too responsive, too forgiving, or too consistent, learners may develop fluency with the simulation rather than with the underlying clinical reality. Real patients are ambiguous, evasive, emotionally distressed, and physiologically unpredictable in ways that even sophisticated language models do not yet fully replicate. The worry about over-reliance is not merely theoretical: it echoes longstanding debates in aviation and surgical training about whether simulator proficiency transfers reliably to live performance under pressure. In medicine, the stakes of that transfer gap are especially high, and the research community has not yet reached consensus on how to calibrate simulation fidelity to maximise transfer without breeding false confidence.\n\nLegal education presents a different but structurally similar picture. AI tools — most prominently large language models capable of drafting, summarising, and analysing case law — have been adopted rapidly in law schools and bar preparation programmes. Their utility for document review, legal research, and argument drafting is well established in professional practice, and educators have begun incorporating them into curricula to prepare students for a profession that is itself being transformed by the same technology. The pedagogical tension here is acute: if students use AI to draft a legal memorandum, are they learning to reason legally, or are they learning to evaluate and edit AI output? These are related but distinct competencies, and the field has not yet settled on which combination law schools should be cultivating, nor on how assessment should be redesigned to distinguish them.\n\nEngineering education has seen AI integration primarily through design assistance and code generation tools. Platforms that suggest structural solutions, flag errors in technical drawings, or auto-complete programming tasks have become common in undergraduate and graduate programmes. The evidence suggests that these tools accelerate project completion and reduce certain categories of error — outcomes that look positive in the short term. The contested question is whether accelerated completion reflects deeper understanding or efficient circumvention of the productive struggle that builds engineering intuition. Some researchers argue that working through failure is constitutive of engineering competence, and that AI assistance, if introduced too early or too comprehensively, may shortcut precisely the experiences that develop robust problem-solving capacity.\n\nTrades education — electricians, plumbers, welders, HVAC technicians — occupies a different position in this landscape. The physical, embodied nature of trades work means that AI cannot substitute for hands-on practice in the way it can partially substitute for certain cognitive rehearsals in medicine or law. What AI has contributed here is primarily in the instructional and diagnostic support layer: adaptive learning platforms that identify gaps in a trainee's theoretical knowledge, AI-assisted troubleshooting guides, and augmented reality systems that overlay instructional information onto physical tasks. These applications are promising but remain less thoroughly studied than their counterparts in the learned professions. The evidence base is thinner, the implementations more varied, and the outcomes harder to standardise across the enormous diversity of trades contexts.\n\nAcross all these domains, a common structural tension emerges between efficiency and formation. AI tools reliably make certain training tasks faster, more accessible, and more scalable. What remains genuinely open is whether the experiences they displace — the slow accumulation of judgment through error, the development of professional identity through supervised struggle, the cultivation of ethical sensibility through mentored practice — can be preserved or must be deliberately reconstructed elsewhere in the curriculum. The most thoughtful implementations documented in the research are those that treat AI not as a replacement for expert human guidance but as a means of extending the reach of that guidance: freeing instructors from routine feedback tasks so they can concentrate on the higher-order mentorship that no current system can replicate.\n\nThe overall picture is one of genuine, documented benefit accompanied by genuine, unresolved risk. The benefits are clearest where AI augments access and repetition; the risks are sharpest where it may attenuate the formative difficulty that professional competence requires.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q066. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What experiences have emerged from AI use in vocational, technical, and professional training (medicine, law, engineering, trades)?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://mededu.jmir.org/2023/1/e48291",
-          "title": "https://mededu.jmir.org/2023/1/e48291",
+          "url": "https://example.com/mock/q066",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4335905",
-          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4335905",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.cc.gatech.edu/news/jill-watson-ai-teaching-assistant",
-          "title": "https://www.cc.gatech.edu/news/jill-watson-ai-teaching-assistant",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.lincolnelectric.com/en-us/equipment/welding-training-systems/Pages/vrtex.aspx",
-          "title": "https://www.lincolnelectric.com/en-us/equipment/welding-training-systems/Pages/vrtex.aspx",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://catalyst.nejm.org/doi/full/10.1056/CAT.23.0065",
-          "title": "https://catalyst.nejm.org/doi/full/10.1056/CAT.23.0065",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.ncbex.org/nextgen-bar-exam/",
-          "title": "https://www.ncbex.org/nextgen-bar-exam/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 69
+      "last_verified": "2026-08-23",
+      "added_edition": 169
     }
   ],
-  "answer_summary": "Medical education has emerged as one of the most active and closely studied domains for AI integration in professional training. Clinical simulation platforms built on large language models now allow medical students and residents to practice history taking, differential diagnosis, and patient communication in environments that can be repeated indefinitely without risk to real patients.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q066. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What experiences have emerged from AI use in vocational, technical, and professional training (medicine, law, engineering, trades)?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

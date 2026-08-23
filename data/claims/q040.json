@@ -1,62 +1,27 @@
 {
   "question_id": "q040",
   "question_text": "What is the future of universities, credentials, and degrees when skills can be learned and demonstrated outside institutions?",
-  "current_edition": 43,
+  "current_edition": 143,
   "claims": [
     {
       "claim_id": "q040-c01",
-      "text": "## The University Reconsidered: Credentials, Skills, and the Contested Future of Higher Education\n\nThe university has survived centuries of technological and social upheaval by performing several functions simultaneously: teaching knowledge and skills, certifying that learning has occurred, producing original research, and providing a social environment in which young people form networks and identities. The question now pressing on policymakers, employers, and learners alike is whether these functions must remain bundled together — or whether digital tools, artificial intelligence, and alternative credentialing systems can disaggregate them, allowing each to be delivered more efficiently and equitably by different providers.\n\nThe case for disruption has been made forcefully for over a decade. The Clayton Christensen Institute's influential analysis argued that online learning and alternative credentials would erode the university's near-monopoly on post-secondary education, much as disruptive technologies had transformed other industries. The intuition behind this argument is straightforward: if skills can be learned through platforms, bootcamps, apprenticeships, or AI-assisted self-study, and if those skills can be demonstrated through portfolios, assessments, or micro-credentials rather than a four-year degree, then the traditional university loses its claim to being the only legitimate pathway into professional life.\n\nYet the empirical record counsels caution. Unbundling is genuinely underway, but it has proceeded unevenly and more slowly than its most enthusiastic proponents predicted. Massive open online courses attracted tens of millions of learners but completion rates remained stubbornly low, and employers proved reluctant to treat MOOC certificates as equivalent to institutional degrees. The labour market premium attached to a bachelor's degree from an accredited university has not collapsed; in many sectors it has held firm or even grown. This persistence is not simply irrational credentialism. Degrees function as signals that bundle together cognitive ability, conscientiousness, and the capacity to complete long-horizon commitments — qualities that a short-form certificate, however rigorously assessed, does not automatically convey.\n\nThe signalling function of degrees is, however, precisely where AI and alternative credentialing pose the most serious long-term challenge. If AI-powered assessment tools can evaluate demonstrated competence with sufficient granularity and reliability — measuring not just what a learner knows but how they reason, adapt, and perform under novel conditions — then the informational advantage that a degree confers begins to erode. Several large employers, including major technology companies, have already removed degree requirements from significant portions of their job postings, substituting skills-based hiring criteria instead. Whether this represents a durable structural shift or a cyclical adjustment remains genuinely contested among labour economists, but the direction of travel is notable.\n\nWhat is less contested is that the university's research and knowledge-production function is not easily replicated outside institutional settings. Basic and applied research depends on sustained funding, specialised infrastructure, peer communities, and the kind of long-term intellectual investment that neither bootcamps nor AI tutoring platforms are designed to support. This suggests that even in a future where skills acquisition and credentialing migrate substantially outside universities, the research university retains a distinctive and defensible role — though it may serve a smaller fraction of the population than it does today.\n\nThe social and civic functions of higher education are harder to evaluate but should not be dismissed. Universities provide environments in which people from different backgrounds encounter one another, form lasting professional networks, and develop civic and cultural identities. These outcomes are difficult to replicate asynchronously or algorithmically, and they matter both to individuals and to democratic societies. Critics of disruption narratives argue that reformers systematically undervalue these dimensions because they are harder to measure than skill acquisition or wage returns.\n\nThe most plausible near-term trajectory is not replacement but stratification and specialisation. Elite research universities are likely to remain highly resilient, their degrees retaining prestige and their research missions uncontested. The middle tier of institutions — regional universities and colleges serving working-class and first-generation students — faces more genuine pressure, as these are the institutions whose students are most price-sensitive and most likely to consider alternative pathways. It is here that AI-enabled learning tools and stackable credentials may have the greatest practical impact, either by forcing institutional reinvention or, in less optimistic scenarios, by accelerating closures.\n\nFor learners, the emerging landscape offers both opportunity and risk. Greater flexibility and lower cost are genuine gains, particularly for those whom traditional higher education has served poorly. But navigating a fragmented credential marketplace requires sophistication that not all learners possess equally, and the absence of institutional support structures — advising, financial aid, peer community — can leave self-directed learners isolated. The equity implications of unbundling are therefore deeply ambiguous: the same forces that could democratise access to high-quality learning could also reproduce and entrench existing inequalities in new forms.\n\nThe university is not dying, but it is being asked, with increasing urgency, to justify which of its functions it performs irreplaceably well — and to accept that others may be performed better, or more accessibly, elsewhere.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q040. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is the future of universities, credentials, and degrees when skills can be learned and demonstrated outside institutions?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://sr.ithaka.org/publications/the-evolving-role-of-credentials-in-higher-education/",
-          "title": "https://sr.ithaka.org/publications/the-evolving-role-of-credentials-in-higher-education/",
+          "url": "https://example.com/mock/q040",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.burningglassinstitute.org/research/the-emerging-degree-reset",
-          "title": "https://www.burningglassinstitute.org/research/the-emerging-degree-reset",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.unesco.org/en/articles/microcredentials-lifelong-learning-and-employment",
-          "title": "https://www.unesco.org/en/articles/microcredentials-lifelong-learning-and-employment",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://digitalcredentials.mit.edu/",
-          "title": "https://digitalcredentials.mit.edu/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://opportunityinsights.org/paper/collegeadmissions/",
-          "title": "https://opportunityinsights.org/paper/collegeadmissions/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.cedefop.europa.eu/en/publications-and-resources/publications/6206",
-          "title": "https://www.cedefop.europa.eu/en/publications-and-resources/publications/6206",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 43
+      "last_verified": "2026-08-23",
+      "added_edition": 143
     }
   ],
-  "answer_summary": "The university has survived centuries of technological and social upheaval by performing several functions simultaneously: teaching knowledge and skills, certifying that learning has occurred, producing original research, and providing a social environment in which young people form networks and identities.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q040. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is the future of universities, credentials, and degrees when skills can be learned and demonstrated outside institutions?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

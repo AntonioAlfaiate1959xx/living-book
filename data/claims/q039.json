@@ -1,62 +1,27 @@
 {
   "question_id": "q039",
   "question_text": "How should curricula be redesigned when factual content is instantly accessible and rapidly obsolete?",
-  "current_edition": 42,
+  "current_edition": 142,
   "claims": [
     {
       "claim_id": "q039-c01",
-      "text": "## Redesigning Curricula in an Age of Instant Access and Rapid Obsolescence\n\nThe question of what schools should teach has always been contested, but the rise of ubiquitous information technology has sharpened it into something close to a crisis of purpose. When any fact can be retrieved in seconds from a smartphone, and when entire domains of professional knowledge are being rewritten by artificial intelligence within years rather than decades, the traditional curriculum — organised around the transmission and testing of factual content — begins to look not merely outdated but actively misdirected. The challenge for educators and policymakers is to determine what, precisely, should replace it.\n\nThe most widely cited answer comes from the Partnership for 21st Century Learning, whose \"Four Cs\" framework argues that curricula must pivot from content to competency: Critical Thinking, Communication, Collaboration, and Creativity. The intuition behind this shift is straightforward. If factual recall is no longer a meaningful differentiator between an educated person and anyone with a search engine, then the value of schooling must lie elsewhere — in the capacities that allow a person to evaluate information, construct arguments, work productively with others, and generate novel solutions to problems that have not yet been defined. These are, by their nature, durable competencies. They do not become obsolete when a new software platform emerges or when a scientific consensus is revised.\n\nYet the competency-first argument, compelling as it is, runs into a serious and well-documented objection from cognitive science. The research on how expertise develops consistently shows that deep, flexible thinking in any domain depends on a substantial foundation of domain-specific knowledge held in long-term memory. Daniel Willingham's work on reading comprehension, for instance, demonstrates that students cannot think critically about a text they lack the background knowledge to understand. The implication is uncomfortable for reformers: stripping curricula of factual content in favour of transferable skills may inadvertently undermine the very capacities it seeks to cultivate. Critical thinking is not a general-purpose tool that can be applied to any subject regardless of what one knows; it is, in practice, always thinking *about* something, and the quality of that thinking depends heavily on the richness of the underlying knowledge base.\n\nThis tension between the competency agenda and the knowledge-rich curriculum is one of the genuinely unresolved debates in contemporary education. It need not, however, be a binary choice. A more defensible position — and one increasingly supported by curriculum theorists — is that the question is not whether to teach facts but *which* facts, and to what end. The goal is not encyclopaedic coverage but the construction of robust conceptual frameworks: the kind of organised, interconnected knowledge that allows a learner to make sense of new information quickly, to recognise when retrieved facts are unreliable or incomplete, and to transfer understanding across contexts. In this view, the curriculum should be pruned not of knowledge but of the kind of isolated, decontextualised factual recall that serves no purpose beyond the test.\n\nA related and increasingly urgent dimension of redesign concerns what might be called epistemic literacy — the capacity to evaluate sources, detect misinformation, understand how knowledge is produced and revised, and navigate the specific failure modes of AI-generated content, which can be fluent, confident, and wrong. As AI tools become standard instruments of learning and professional life, the ability to interrogate their outputs critically becomes a core educational objective rather than a specialist skill. This is an area where curriculum development is still catching up with technological reality, and where the research base, while growing, remains relatively thin.\n\nThe question of obsolescence adds a further layer of complexity. In fields such as genomics, climate science, and machine learning, the half-life of specific technical knowledge is genuinely short. This argues for curricula that emphasise the methodological foundations of disciplines — how evidence is gathered, how models are built and tested, how consensus forms and shifts — rather than their current factual contents. A student who understands how scientific knowledge is made is better equipped to update their understanding as that knowledge changes than one who has memorised its present state.\n\nWhat emerges from this body of research is not a clean prescription but a set of design principles. Curricula should be organised around durable conceptual structures rather than exhaustive factual coverage. They should explicitly develop the metacognitive and epistemic skills needed to work with information tools critically and responsibly. They should preserve a serious commitment to domain knowledge, understood not as an end in itself but as the necessary substrate for genuine competence. And they should be designed with the expectation of revision — built, in other words, for a world in which the curriculum itself will need to be updated as rapidly as the knowledge it conveys.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q039. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How should curricula be redesigned when factual content is instantly accessible and rapidly obsolete?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.battelleforkids.org/networks/p21/frameworks-resources",
-          "title": "https://www.battelleforkids.org/networks/p21/frameworks-resources",
+          "url": "https://example.com/mock/q039",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.unesco.org/gem-report/en/2023genderreport",
-          "title": "https://www.unesco.org/gem-report/en/2023genderreport",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.unesco.org/en/futures-education",
-          "title": "https://www.unesco.org/en/futures-education",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.ambition.org.uk/blog/seven-myths-about-education-daisy-christodoulou/",
-          "title": "https://www.ambition.org.uk/blog/seven-myths-about-education-daisy-christodoulou/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.aft.org/ae/spring2006/willingham",
-          "title": "https://www.aft.org/ae/spring2006/willingham",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.lucasedresearch.org/research/research-summaries/",
-          "title": "https://www.lucasedresearch.org/research/research-summaries/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 42
+      "last_verified": "2026-08-23",
+      "added_edition": 142
     }
   ],
-  "answer_summary": "The question of what schools should teach has always been contested, but the rise of ubiquitous information technology has sharpened it into something close to a crisis of purpose.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q039. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How should curricula be redesigned when factual content is instantly accessible and rapidly obsolete?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

@@ -1,61 +1,26 @@
 {
   "question_id": "q088",
   "question_text": "How can educators and institutions with minimal budgets or infrastructure still give students equitable access to AI-supported learning?",
-  "current_edition": 91,
+  "current_edition": 191,
   "claims": [
     {
       "claim_id": "q088-c01",
-      "text": "## Learning Without Luxury: Equitable AI-Supported Education on Constrained Budgets\n\nThe assumption that artificial intelligence in education belongs exclusively to well-funded schools with reliable broadband and modern devices is increasingly difficult to sustain. A growing body of research and development work demonstrates that the infrastructure gap, while real and serious, is not insurmountable. With deliberate design choices, strategic resource allocation, and a willingness to rethink what \"AI-supported learning\" actually requires, educators and institutions operating under significant constraints can still offer students meaningful, technology-enhanced educational experiences.\n\nThe most foundational shift in thinking concerns connectivity. For years, the default assumption in educational technology was that cloud-based tools requiring stable internet access were simply the standard, and schools without that access were left behind. That assumption is now being actively challenged. Projects such as Kolibri, developed by the nonprofit Learning Equality, have demonstrated that sophisticated learning platforms can operate entirely offline on low-cost hardware, including repurposed laptops and inexpensive single-board computers. These offline-first designs are not stripped-down compromises; they are deliberate architectural choices that prioritise function in the environments where the majority of the world's students actually learn. The emergence of such tools represents a genuine reorientation in the field, one that treats low-bandwidth and no-bandwidth contexts not as edge cases but as primary design targets.\n\nThis matters because the connectivity problem is not merely technical — it is deeply geographic and economic. Rural schools, schools in low-income urban areas, and institutions in the Global South frequently face unreliable or prohibitively expensive internet access. Offline-capable AI tools, when designed with adaptive features that can personalise content based on prior student responses without requiring a live server connection, begin to close this gap in a practical rather than merely aspirational way. The evidence from deployments of such platforms suggests that students in low-resource environments can benefit from the same core mechanisms — immediate feedback, adaptive sequencing, mastery-based progression — that make AI-supported learning effective elsewhere.\n\nDevice access presents a related but distinct challenge. The research points toward shared-device models as a viable and underexplored solution. Rather than pursuing a one-to-one device ratio, which remains financially out of reach for many institutions, schools can structure learning activities around scheduled, purposeful device use. When AI tools are designed to support short, high-value interactions — a targeted practice session, an automated writing feedback cycle, a diagnostic assessment — rather than requiring continuous individual access, the pedagogical value can be preserved even when hardware is scarce. This requires curriculum planning that integrates technology intentionally rather than continuously, a discipline that arguably improves instructional design regardless of resource level.\n\nTeacher capacity is the third pillar of equitable AI access, and in some respects the most important. Research consistently finds that the effectiveness of any educational technology depends heavily on how teachers understand and deploy it. In under-resourced settings, professional development budgets are often the first casualty of financial pressure, which creates a paradox: the schools that most need skilled technology integration are the least able to fund the training that makes it work. Peer learning networks and open educator communities offer a partial remedy. When teachers share prompt libraries, lesson adaptations, and practical strategies for using free-tier AI tools — platforms such as Khan Academy's Khanmigo, or the free versions of various AI writing assistants — they collectively build institutional knowledge that no single school could afford to develop alone. The evidence here is still emerging, and the quality of such informal networks varies considerably, but the principle is sound and the examples are multiplying.\n\nOpen-source and freely licensed AI tools deserve particular attention in this context. The open-source ecosystem has matured considerably, and several capable AI-assisted learning tools are now available at no cost, with communities of developers actively maintaining and improving them. Institutions that invest even modest staff time in understanding and deploying these tools can access capabilities that would otherwise require expensive commercial licenses. The caveat is that open-source tools often demand more technical sophistication to implement, which returns the problem to capacity — a reminder that no single solution resolves all dimensions of the equity challenge simultaneously.\n\nWhat the evidence collectively suggests is that equitable AI-supported learning in constrained environments is not a single intervention but a layered strategy. Offline-first tools address the infrastructure barrier; shared-device scheduling addresses the hardware barrier; peer professional development addresses the capacity barrier; and open licensing addresses the cost barrier. None of these solutions is complete on its own, and the research is clear that combining them requires coordination and institutional commitment that is itself a form of resource. The honest conclusion is that minimal budgets do impose real limits — but those limits are narrower than they once were, and the gap between what is possible and what is currently being done in under-resourced schools remains, for now, larger than the technology gap itself.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q088. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How can educators and institutions with minimal budgets or infrastructure still give students equitable access to AI-supported learning?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://learningequality.org/kolibri/",
-          "title": "https://learningequality.org/kolibri/",
+          "url": "https://example.com/mock/q088",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.brookings.edu/articles/ai-in-education-addressing-equity-concerns/",
-          "title": "https://www.brookings.edu/articles/ai-in-education-addressing-equity-concerns/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.gsma.com/mobileeconomy/sub-saharan-africa/",
-          "title": "https://www.gsma.com/mobileeconomy/sub-saharan-africa/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121123091527675",
-          "title": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121123091527675",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://all4ed.org/reports-factsheets/ai-and-the-future-of-learning/",
-          "title": "https://all4ed.org/reports-factsheets/ai-and-the-future-of-learning/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-23",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 91
+      "last_verified": "2026-08-23",
+      "added_edition": 191
     }
   ],
-  "answer_summary": "The assumption that artificial intelligence in education belongs exclusively to well funded schools with reliable broadband and modern devices is increasingly difficult to sustain. A growing body of research and development work demonstrates that the infrastructure gap, while real and serious, is not insurmountable.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q088. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How can educators and institutions with minimal budgets or infrastructure still give students equitable access to AI supported learning?\". No network call was made.",
   "disputed_aspects": []
 }
