@@ -57,6 +57,30 @@ jobs:
             node scripts/orchestrate.js --all
           fi
 
+      # ── Stage 6.5 — Canon & Consistency Review (non-blocking) ──────────
+      # Runs AFTER Harmonize (voice charter / coherence pass) and BEFORE the
+      # book is rebuilt/verified. Builds versioned claim nodes and runs the
+      # contradiction-detection engine. It NEVER halts the pipeline: disputes
+      # and errors are quarantined and surfaced in the run report for the
+      # author's loop. `continue-on-error: true` plus the script's own exit-0
+      # guarantee make this stage strictly additive.
+      - name: Canon & Consistency Review (Stage 6.5, non-blocking)
+        continue-on-error: true
+        run: |
+          node scripts/consistency-review.mjs
+          echo "----- Canon Review — Open Disputes -----"
+          latest="$(ls -1 reports/consistency-*.md 2>/dev/null | tail -1)"
+          if [ -n "$latest" ]; then
+            echo "Report: $latest"
+            # Surface the disputes section in the Actions log / job summary.
+            sed -n '/## Canon Review — Open Disputes/,$p' "$latest" | head -60
+            {
+              echo "## Canon & Consistency Review (Stage 6.5)"
+              sed -n '/## Summary/,/## Canon Review/p' "$latest"
+              sed -n '/## Canon Review — Open Disputes/,$p' "$latest" | head -60
+            } >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+          fi
+
       - name: Rebuild the published book (v2)
         run: node scripts/build-v2.js
 
