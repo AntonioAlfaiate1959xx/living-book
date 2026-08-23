@@ -13,7 +13,16 @@ const { test } = require("node:test");
 const assert = require("node:assert");
 const http = require("node:http");
 
-const { getStatus, listQuestions, getQuestion } = require("../scripts/server.js");
+const {
+  getStatus,
+  listQuestions,
+  getQuestion,
+  listClaims,
+  listDisputes,
+  listReports,
+  canonTotals,
+  resolveDispute,
+} = require("../scripts/server.js");
 
 // ── Pure data-assembly helpers (no network) ──────────────────────────
 test("getStatus returns a well-formed totals object", () => {
@@ -29,6 +38,10 @@ test("getStatus returns a well-formed totals object", () => {
     "graphNodes",
     "graphEdges",
     "contradictions",
+    // Stage 6.5 Canon fields
+    "claimNodes",
+    "suspectedClaims",
+    "openDisputes",
   ]) {
     assert.strictEqual(
       typeof s.totals[key],
@@ -37,6 +50,59 @@ test("getStatus returns a well-formed totals object", () => {
     );
   }
   assert.strictEqual(typeof s.apiKeyConfigured, "boolean");
+});
+
+// ── Stage 6.5 — Canon & Consistency Review helpers ───────────────────
+test("listClaims groups claim nodes by question with numeric totals", () => {
+  const r = listClaims();
+  assert.strictEqual(r.ok, true);
+  assert.ok(r.totals && typeof r.totals.nodes === "number", "totals.nodes numeric");
+  assert.ok(Array.isArray(r.questions), "questions is an array");
+  if (r.questions.length) {
+    const q = r.questions[0];
+    for (const key of ["questionId", "nodeCount", "suspected", "openDisputes"]) {
+      assert.ok(key in q, `claim group has ${key}`);
+    }
+  }
+});
+
+test("listDisputes returns an array and honours a status filter", () => {
+  const all = listDisputes();
+  assert.strictEqual(all.ok, true);
+  assert.ok(Array.isArray(all.disputes));
+  const open = listDisputes("open");
+  assert.ok(Array.isArray(open.disputes));
+  // Every returned dispute must actually match the filter.
+  assert.ok(open.disputes.every((d) => (d.status || "open") === "open"));
+});
+
+test("listReports returns dated reports newest-first", () => {
+  const r = listReports();
+  assert.strictEqual(r.ok, true);
+  assert.ok(Array.isArray(r.reports));
+  if (r.reports.length > 1) {
+    assert.ok(r.reports[0].date >= r.reports[1].date, "sorted desc by date");
+  }
+});
+
+test("canonTotals exposes the four headline counters", () => {
+  const t = canonTotals();
+  for (const key of ["claimNodes", "suspectedClaims", "openDisputes"]) {
+    assert.strictEqual(typeof t[key], "number", `${key} numeric`);
+  }
+  assert.ok("latestReport" in t, "latestReport present");
+});
+
+test("resolveDispute rejects a missing id without mutating anything", () => {
+  const r = resolveDispute({ disputeId: "dsp-does-not-exist", resolution: "resolved" });
+  assert.strictEqual(r.ok, false);
+  assert.match(r.error, /not found|No disputes/i);
+});
+
+test("resolveDispute rejects an unknown resolution value", () => {
+  const r = resolveDispute({ disputeId: "dsp-x", resolution: "banana" });
+  assert.strictEqual(r.ok, false);
+  assert.match(r.error, /Unknown resolution/i);
 });
 
 test("listQuestions returns every registry question with claim metadata", () => {
@@ -113,6 +179,40 @@ test("HTTP: GET /api/status and /api/questions respond OK", async () => {
 
     const unknown = await get(port, "/api/does-not-exist");
     assert.strictEqual(unknown.status, 404);
+  } finally {
+    await new Promise((r) => server.close(r));
+  }
+});
+
+test("HTTP: Stage 6.5 GET endpoints (claims, disputes, reports) respond OK", async () => {
+  const server = await startEphemeral();
+  const port = server.address().port;
+  try {
+    const claims = await get(port, "/api/claims");
+    assert.strictEqual(claims.status, 200);
+    assert.strictEqual(claims.json.ok, true);
+    assert.ok(Array.isArray(claims.json.questions));
+
+    const disputes = await get(port, "/api/disputes");
+    assert.strictEqual(disputes.status, 200);
+    assert.ok(Array.isArray(disputes.json.disputes));
+
+    const openOnly = await get(port, "/api/disputes?status=open");
+    assert.strictEqual(openOnly.status, 200);
+    assert.ok(Array.isArray(openOnly.json.disputes));
+
+    const reports = await get(port, "/api/reports");
+    assert.strictEqual(reports.status, 200);
+    assert.ok(Array.isArray(reports.json.reports));
+
+    // If a report exists, its detail endpoint must return markdown.
+    if (reports.json.reports.length) {
+      const date = reports.json.reports[0].date;
+      const one = await get(port, "/api/reports/" + date);
+      assert.strictEqual(one.status, 200);
+      assert.strictEqual(one.json.ok, true);
+      assert.ok(typeof one.json.markdown === "string" && one.json.markdown.length > 0);
+    }
   } finally {
     await new Promise((r) => server.close(r));
   }

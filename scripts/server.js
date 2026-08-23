@@ -38,6 +38,21 @@ const { renderClaim } = require("./render-claim.js");
 const PORT = parseInt(process.env.PORT || "3000", 10);
 const PUBLIC_DIR = path.join(PATHS.root, "admin");
 
+// ── Stage 6.5 (Canon & Consistency Review) locations ──────────────────
+// The Canon layer written by scripts/consistency-review.mjs lives outside
+// the paths declared in lib.js, so we resolve them here. These are the
+// versioned claim-node store, the dispute records and the run reports.
+const CANON = {
+  claimsDir: path.join(PATHS.root, "claims"), // claims/<qid>/<clm>.json
+  disputesDir: path.join(PATHS.root, "claims", "disputes"),
+  reportsDir: path.join(PATHS.root, "reports"),
+  reviewScript: path.join(PATHS.root, "scripts", "consistency-review.mjs"),
+};
+
+// Non-question directory names that live under claims/ but are not question
+// folders (so we skip them when enumerating claim-node stores).
+const CANON_SKIP = new Set(["disputes", "versions"]);
+
 // ── Small helpers ────────────────────────────────────────────────────
 function sendJSON(res, status, obj) {
   const body = JSON.stringify(obj);
@@ -146,6 +161,7 @@ function getStatus() {
       graphEdges: (graph.edges || []).length,
       contradictions: (graph.contradictions || []).length,
       disputed: (graph.disputed || []).length,
+      ...canonTotals(), // claimNodes, suspectedClaims, openDisputes, latestReport
     },
     apiKeyConfigured: Boolean(process.env.ABACUS_API_KEY),
     generatedAt: new Date().toISOString(),
@@ -211,6 +227,252 @@ function tailLog(lines = 200) {
   const content = fs.readFileSync(PATHS.orchestrationLog, "utf8");
   const arr = content.split("\n");
   return { ok: true, log: arr.slice(-lines).join("\n") };
+}
+
+// ── Stage 6.5 — Canon & Consistency Review data assembly ─────────────
+// All read-only enumerations below are defensive: a missing directory or a
+// malformed file is skipped rather than throwing, so the Back Office keeps
+// working even before the first review has run.
+
+// List the question folders that hold versioned claim nodes.
+function canonQuestionDirs() {
+  if (!fs.existsSync(CANON.claimsDir)) return [];
+  return fs
+    .readdirSync(CANON.claimsDir, { withFileTypes: true })
+    .filter((d) => d.isDirectory() && !CANON_SKIP.has(d.name))
+    .map((d) => d.name)
+    .sort();
+}
+
+// Read every claim node for one question (top-level *.json only; archived
+// versions live in a versions/ subfolder and are excluded).
+function readClaimNodes(qid) {
+  const dir = path.join(CANON.claimsDir, qid);
+  if (!fs.existsSync(dir)) return [];
+  const nodes = [];
+  for (const f of fs.readdirSync(dir)) {
+    if (!f.endsWith(".json")) continue;
+    const node = readJSON(path.join(dir, f), null);
+    if (node && node.claimId) nodes.push(node);
+  }
+  return nodes.sort((a, b) => String(a.claimId).localeCompare(String(b.claimId)));
+}
+
+// Summary of claim nodes grouped by question (for the Canon browser list).
+function listClaims() {
+  const questions = canonQuestionDirs().map((qid) => {
+    const nodes = readClaimNodes(qid);
+    return {
+      questionId: qid,
+      questionText: (nodes[0] && nodes[0].meta && nodes[0].meta.questionText) || "",
+      nodeCount: nodes.length,
+      suspected: nodes.filter((n) => n.contradictionStatus === "suspected").length,
+      openDisputes: nodes.filter((n) => n.disputeStatus === "open").length,
+    };
+  });
+  const totals = questions.reduce(
+    (acc, q) => {
+      acc.nodes += q.nodeCount;
+      acc.suspected += q.suspected;
+      acc.openDisputes += q.openDisputes;
+      return acc;
+    },
+    { nodes: 0, suspected: 0, openDisputes: 0 }
+  );
+  return { ok: true, totals, questions };
+}
+
+// Full claim-node detail for one question.
+function getClaims(qid) {
+  const nodes = readClaimNodes(qid);
+  if (!nodes.length) {
+    return { ok: false, error: `No claim nodes for ${qid}. Run the Canon review first.` };
+  }
+  return {
+    ok: true,
+    questionId: qid,
+    questionText: (nodes[0].meta && nodes[0].meta.questionText) || "",
+    nodes,
+  };
+}
+
+// Read every dispute record. Newest first.
+function listDisputes(statusFilter) {
+  if (!fs.existsSync(CANON.disputesDir)) return { ok: true, disputes: [] };
+  const disputes = [];
+  for (const f of fs.readdirSync(CANON.disputesDir)) {
+    if (!f.endsWith(".json")) continue;
+    const d = readJSON(path.join(CANON.disputesDir, f), null);
+    if (d && d.disputeId) {
+      d.__file = f; // relative filename so the UI can reference it
+      disputes.push(d);
+    }
+  }
+  disputes.sort((a, b) => String(b.detectedAt).localeCompare(String(a.detectedAt)));
+  const filtered = statusFilter
+    ? disputes.filter((d) => (d.status || "open") === statusFilter)
+    : disputes;
+  return { ok: true, disputes: filtered };
+}
+
+// List the run reports (markdown + summary sidecar), newest first.
+function listReports() {
+  if (!fs.existsSync(CANON.reportsDir)) return { ok: true, reports: [] };
+  const reports = fs
+    .readdirSync(CANON.reportsDir)
+    .filter((f) => /^consistency-\d{4}-\d{2}-\d{2}\.md$/.test(f))
+    .map((f) => {
+      const date = f.slice("consistency-".length, -".md".length);
+      const summary = readJSON(
+        path.join(CANON.reportsDir, `consistency-${date}.summary.json`),
+        null
+      );
+      return { date, file: f, summary };
+    })
+    .sort((a, b) => b.date.localeCompare(a.date));
+  return { ok: true, reports };
+}
+
+// Read one report's markdown + summary.
+function getReport(date) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(date))) {
+    return { ok: false, error: "Invalid report date." };
+  }
+  const mdFile = path.join(CANON.reportsDir, `consistency-${date}.md`);
+  if (!fs.existsSync(mdFile)) return { ok: false, error: `No report for ${date}.` };
+  const markdown = fs.readFileSync(mdFile, "utf8");
+  const summary = readJSON(
+    path.join(CANON.reportsDir, `consistency-${date}.summary.json`),
+    null
+  );
+  return { ok: true, date, markdown, summary };
+}
+
+// Stage 6.5 headline counts for the dashboard/status.
+function canonTotals() {
+  const claims = listClaims().totals;
+  const openDisputes = listDisputes("open").disputes.length;
+  const reports = listReports().reports;
+  return {
+    claimNodes: claims.nodes,
+    suspectedClaims: claims.suspected,
+    openDisputes,
+    latestReport: reports.length ? reports[0].date : null,
+  };
+}
+
+// Human-in-the-loop resolution of a dispute. Additive and non-destructive:
+// it stamps the dispute record with a resolution and flips the two claim
+// nodes' contradiction/dispute status. Nothing is ever deleted.
+function resolveDispute({ disputeId, resolution, note, resolvedBy }) {
+  if (!disputeId) return { ok: false, error: "disputeId is required." };
+  const decision = String(resolution || "resolved");
+  const allowed = new Set(["resolved", "not_a_conflict", "dismissed", "reopened"]);
+  if (!allowed.has(decision)) {
+    return { ok: false, error: `Unknown resolution "${decision}".` };
+  }
+  if (!fs.existsSync(CANON.disputesDir)) {
+    return { ok: false, error: "No disputes directory yet." };
+  }
+  // Locate the dispute file.
+  let file = null;
+  let dispute = null;
+  for (const f of fs.readdirSync(CANON.disputesDir)) {
+    if (!f.endsWith(".json")) continue;
+    const d = readJSON(path.join(CANON.disputesDir, f), null);
+    if (d && d.disputeId === disputeId) {
+      file = path.join(CANON.disputesDir, f);
+      dispute = d;
+      break;
+    }
+  }
+  if (!dispute) return { ok: false, error: `Dispute ${disputeId} not found.` };
+
+  const reopening = decision === "reopened";
+  const now = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+  dispute.status = reopening ? "open" : "resolved";
+  dispute.resolution = reopening
+    ? null
+    : {
+        decision,
+        note: note ? String(note) : "",
+        resolvedBy: resolvedBy ? String(resolvedBy) : "back-office",
+        resolvedAt: now,
+      };
+  writeJSONFile(file, dispute);
+
+  // Reflect the decision on the linked claim nodes.
+  const nodeDisputeStatus = reopening ? "open" : "resolved";
+  const nodeContradictionStatus = reopening
+    ? "suspected"
+    : decision === "not_a_conflict"
+    ? "none"
+    : "resolved";
+  const touched = [];
+  for (const c of dispute.claims || []) {
+    const node = findClaimNodeFile(dispute.questionId, c.claimId);
+    if (!node) continue;
+    node.obj.disputeStatus = nodeDisputeStatus;
+    node.obj.contradictionStatus = nodeContradictionStatus;
+    node.obj.meta = { ...(node.obj.meta || {}), lastReviewed: now };
+    writeJSONFile(node.file, node.obj);
+    touched.push(c.claimId);
+  }
+  return { ok: true, disputeId, status: dispute.status, resolution: dispute.resolution, touched };
+}
+
+// Find the on-disk file + parsed object for a claim node in a question.
+function findClaimNodeFile(qid, claimId) {
+  const dir = path.join(CANON.claimsDir, qid);
+  const file = path.join(dir, `${claimId}.json`);
+  if (fs.existsSync(file)) {
+    const obj = readJSON(file, null);
+    if (obj) return { file, obj };
+  }
+  // Fallback: scan the folder in case the filename differs from the id.
+  if (fs.existsSync(dir)) {
+    for (const f of fs.readdirSync(dir)) {
+      if (!f.endsWith(".json")) continue;
+      const p = path.join(dir, f);
+      const obj = readJSON(p, null);
+      if (obj && obj.claimId === claimId) return { file: p, obj };
+    }
+  }
+  return null;
+}
+
+// Minimal JSON writer (mirrors lib.js writeJSON but kept local to the server).
+function writeJSONFile(file, obj) {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, JSON.stringify(obj, null, 2) + "\n");
+}
+
+// Run Stage 6.5 (consistency-review.mjs) as a child process and return the
+// resulting summary. Non-blocking by design: the script always exits 0.
+function runConsistencyReview(env = {}) {
+  return new Promise((resolve) => {
+    const child = spawn(process.execPath, [CANON.reviewScript], {
+      cwd: PATHS.root,
+      env: { ...process.env, ...env },
+    });
+    let out = "";
+    let err = "";
+    child.stdout.on("data", (d) => (out += d));
+    child.stderr.on("data", (d) => (err += d));
+    child.on("error", (e) => resolve({ ok: false, code: -1, output: e.message }));
+    child.on("close", (code) => {
+      // Attach the latest summary so the UI has structured numbers.
+      const reports = listReports().reports;
+      const summary = reports.length ? reports[0].summary : null;
+      resolve({
+        ok: code === 0,
+        code,
+        output: (out + err).trim(),
+        summary,
+        latestReport: reports.length ? reports[0].date : null,
+      });
+    });
+  });
 }
 
 // ── Git commit + push after a successful refresh ─────────────────────
@@ -335,6 +597,58 @@ async function gitCommitAndPush(questionId, edition) {
   }
 }
 
+// Commit + push an explicit set of paths to origin/main. Used by the Canon
+// endpoints (which touch claims/ and reports/, outside the refresh target
+// set). Fully non-blocking: any failure is returned as a warning.
+async function gitCommitPaths(targets, message) {
+  const log = [];
+  const add = (m) => log.push(m);
+  try {
+    await runCmd("git", ["config", "user.name", "Living Book Bot"]);
+    await runCmd("git", ["config", "user.email", "bot@living-book.local"]);
+
+    const token = await getFreshGitHubToken();
+    if (token) {
+      await runCmd("git", ["config", "credential.helper", "store"]);
+      try {
+        fs.writeFileSync(
+          path.join(process.env.HOME || "/home/ubuntu", ".git-credentials"),
+          `https://oauth2:${token}@github.com\n`,
+          { mode: 0o600 }
+        );
+        add("Refreshed GitHub credentials.");
+      } catch (e) {
+        add(`Could not write git credentials: ${e.message}`);
+      }
+    } else {
+      add("Warning: could not fetch a fresh GitHub token; using existing credentials.");
+    }
+
+    await runCmd("git", ["add", "--", ...targets]);
+    const staged = await runCmd("git", ["diff", "--cached", "--name-only"]);
+    if (!staged.output) {
+      add("Nothing to commit — Canon store unchanged.");
+      return { ok: true, pushed: false, log: log.join(" ") };
+    }
+    const commit = await runCmd("git", ["commit", "-m", message]);
+    if (!commit.ok) {
+      add(`Commit failed: ${commit.output}`);
+      return { ok: false, pushed: false, log: log.join(" ") };
+    }
+    add(`Committed: ${message}`);
+    const push = await runCmd("git", ["push", "origin", "HEAD:main"]);
+    if (!push.ok) {
+      add(`Push failed: ${push.output}`);
+      return { ok: false, pushed: false, log: log.join(" ") };
+    }
+    add("Pushed to origin/main.");
+    return { ok: true, pushed: true, log: log.join(" ") };
+  } catch (e) {
+    add(`Git sync error: ${e.message}`);
+    return { ok: false, pushed: false, log: log.join(" ") };
+  }
+}
+
 // Run the v2 build as a child process so we capture its output.
 function runBuild() {
   return new Promise((resolve) => {
@@ -377,6 +691,20 @@ async function handleApi(req, res, url) {
         });
       case "logs":
         return sendJSON(res, 200, tailLog(300));
+
+      // ── Stage 6.5 — Canon & Consistency Review (read) ───────────────
+      case "claims": {
+        if (parts[2]) return sendJSON(res, 200, getClaims(parts[2]));
+        return sendJSON(res, 200, listClaims());
+      }
+      case "disputes":
+        // Optional ?status=open|resolved filter.
+        return sendJSON(res, 200, listDisputes(url.searchParams.get("status") || null));
+      case "reports": {
+        if (parts[2]) return sendJSON(res, 200, getReport(parts[2]));
+        return sendJSON(res, 200, listReports());
+      }
+
       default:
         return sendError(res, 404, `Unknown endpoint: ${url.pathname}`);
     }
@@ -485,6 +813,69 @@ async function handleApi(req, res, url) {
         return sendJSON(res, result.ok ? 200 : 500, result);
       }
 
+      // ── Stage 6.5 — run the Canon & Consistency Review pipeline ──────
+      case "consistency-review": {
+        try {
+          const env = {};
+          if (body.gate != null) env.CONSISTENCY_GATE = String(body.gate);
+          if (body.maxClaims != null) env.CONSISTENCY_MAX_CLAIMS = String(body.maxClaims);
+          const result = await runConsistencyReview(env);
+          // Optionally commit + push the regenerated Canon store + report so
+          // the change is versioned. Defaults to true; caller can opt out.
+          let gitLog = "";
+          let gitPushed = false;
+          if (body.commit !== false) {
+            const g = await gitCommitPaths(
+              ["claims", "reports"],
+              `chore: run Canon & Consistency Review (Stage 6.5) via Back Office`
+            );
+            gitLog = g.log;
+            gitPushed = Boolean(g.pushed);
+          }
+          return sendJSON(res, 200, {
+            ok: result.ok,
+            summary: result.summary,
+            latestReport: result.latestReport,
+            output: result.output,
+            gitLog,
+            gitPushed,
+          });
+        } catch (e) {
+          return sendError(res, 500, e.message);
+        }
+      }
+
+      // ── Stage 6.5 — resolve (or reopen) a dispute ───────────────────
+      case "disputes": {
+        // Only the /api/disputes/resolve action is supported for POST.
+        if (parts[2] !== "resolve") {
+          return sendError(res, 404, `Unknown endpoint: ${url.pathname}`);
+        }
+        try {
+          const result = resolveDispute({
+            disputeId: body.disputeId,
+            resolution: body.resolution,
+            note: body.note,
+            resolvedBy: body.resolvedBy,
+          });
+          if (!result.ok) return sendJSON(res, 400, result);
+          // Version the resolution so it is not lost on the next review run.
+          let gitPushed = false;
+          if (body.commit !== false) {
+            const g = await gitCommitPaths(
+              ["claims"],
+              `chore: resolve dispute ${result.disputeId} via Back Office`
+            );
+            gitPushed = Boolean(g.pushed);
+            result.gitLog = g.log;
+          }
+          result.gitPushed = gitPushed;
+          return sendJSON(res, 200, result);
+        } catch (e) {
+          return sendError(res, 500, e.message);
+        }
+      }
+
       default:
         return sendError(res, 404, `Unknown endpoint: ${url.pathname}`);
     }
@@ -517,4 +908,13 @@ module.exports = {
   gitCommitAndPush,
   getFreshGitHubToken,
   runCmd,
+  // Stage 6.5 — Canon & Consistency Review
+  listClaims,
+  getClaims,
+  listDisputes,
+  listReports,
+  getReport,
+  canonTotals,
+  resolveDispute,
+  runConsistencyReview,
 };

@@ -88,6 +88,7 @@ function render() {
     case "editions": return renderEditions();
     case "changes": return renderChanges();
     case "graph": return renderGraph();
+    case "canon": return renderCanon();
     case "logs": return renderLogs();
   }
 }
@@ -104,19 +105,20 @@ function renderDashboard() {
       ${stat(t.answered, "Answered", "good")}
       ${stat(t.proposed, "Proposed", t.proposed > 0 ? "warn" : "")}
       ${stat(t.editions, "Editions", "")}
-      ${stat(t.graphNodes, "Claim nodes", "")}
+      ${stat(t.claimNodes != null ? t.claimNodes : t.graphNodes, "Canon claim nodes", "")}
       ${stat(t.graphEdges, "Relationships", "")}
       ${stat(t.contradictions, "Contradictions", contraClass)}
-      ${stat(t.disputed, "Disputed claims", t.disputed > 0 ? "warn" : "")}
+      ${stat(t.openDisputes != null ? t.openDisputes : t.disputed, "Open disputes", (t.openDisputes || t.disputed) > 0 ? "warn" : "")}
     </div>
 
     <h2 class="section">Quick actions</h2>
     <div class="card">
       <div class="btn-row">
-        <button class="btn btn-primary" id="qaConsistency">Run consistency check</button>
-        <button class="btn btn-primary" id="qaBuild">Build site (v2)</button>
+        <button class="btn btn-primary" id="qaReview">Run Canon review (6.5)</button>
+        <button class="btn" id="qaConsistency">Run consistency check</button>
+        <button class="btn" id="qaBuild">Build site (v2)</button>
         <button class="btn" data-goto="propose">Propose a question</button>
-        <button class="btn" data-goto="questions">Refresh an answer</button>
+        <button class="btn" data-goto="canon">Canon &amp; disputes</button>
       </div>
       <div id="qaResult" class="help" style="margin-top:12px"></div>
     </div>
@@ -126,6 +128,7 @@ function renderDashboard() {
       <div class="row-between"><span class="muted">Latest edition</span><strong>#${t.latestEdition}</strong></div>
       <div class="row-between"><span class="muted">Claim files on disk</span><strong>${t.claimFiles}</strong></div>
       <div class="row-between"><span class="muted">Active questions</span><strong>${t.active}</strong></div>
+      <div class="row-between"><span class="muted">Latest Canon report</span><strong>${t.latestReport ? esc(t.latestReport) : "— none yet —"}</strong></div>
       <div class="row-between"><span class="muted">Live AI mode</span><strong>${s.apiKeyConfigured ? "available" : "disabled (no API key)"}</strong></div>
     </div>
   `;
@@ -135,8 +138,32 @@ function renderDashboard() {
       document.querySelector(`.tab[data-view="${b.dataset.goto}"]`).click();
     })
   );
+  document.getElementById("qaReview").addEventListener("click", () => runReview());
   document.getElementById("qaConsistency").addEventListener("click", runConsistency);
   document.getElementById("qaBuild").addEventListener("click", runBuild);
+}
+
+// Run Stage 6.5 (Canon & Consistency Review) from the dashboard.
+async function runReview() {
+  const box = document.getElementById("qaResult");
+  if (box) box.innerHTML = `<span class="spinner"></span> Running Canon &amp; Consistency Review (Stage 6.5)…`;
+  const r = await postJSON("/api/consistency-review", {});
+  if (r.ok) {
+    const su = r.summary || {};
+    toast(`Canon review complete — ${su.created ?? "?"} created, ${su.disputeCount ?? 0} disputes`, (su.disputeCount || 0) ? "error" : "success");
+    if (box) {
+      const gitLine = r.gitPushed
+        ? `<div style="color:var(--green)">✓ Committed &amp; pushed to GitHub.</div>`
+        : (r.gitLog ? `<div style="color:var(--amber)">⚠ ${esc(r.gitLog)}</div>` : "");
+      box.innerHTML = `✓ Report <strong>${esc(r.latestReport || "")}</strong> · `
+        + `${su.created ?? 0} created · ${su.updated ?? 0} updated · ${su.unchanged ?? 0} unchanged · `
+        + `<strong>${su.disputeCount ?? 0}</strong> open disputes · ${su.quarantineCount ?? 0} quarantined` + gitLine;
+    }
+    loadStatus();
+  } else {
+    toast("Canon review failed: " + r.error, "error");
+    if (box) box.textContent = "Error: " + r.error;
+  }
 }
 
 function stat(num, label, cls) {
@@ -517,6 +544,205 @@ async function renderGraph() {
     if (r2.ok) { toast("Consistency re-run complete", "success"); renderGraph(); loadStatus(); }
     else toast("Failed: " + r2.error, "error");
   });
+}
+
+// ── Canon & Disputes (Stage 6.5) ─────────────────────────────────────
+async function renderCanon() {
+  app.innerHTML = `<div class="empty"><span class="spinner"></span> Loading Canon layer…</div>`;
+  const [claims, disputes, reports] = await Promise.all([
+    getJSON("/api/claims"),
+    getJSON("/api/disputes"),
+    getJSON("/api/reports"),
+  ]);
+  const ct = (claims && claims.totals) || { nodes: 0, suspected: 0, openDisputes: 0 };
+  const allDisputes = (disputes && disputes.disputes) || [];
+  const open = allDisputes.filter((d) => (d.status || "open") === "open");
+  const resolved = allDisputes.filter((d) => (d.status || "open") !== "open");
+  const reps = (reports && reports.reports) || [];
+
+  app.innerHTML = `
+    <div class="row-between">
+      <h2 class="section" style="margin-top:0">Canon &amp; Consistency Review <span class="muted">(Stage 6.5 · non-blocking)</span></h2>
+      <button class="btn btn-primary" id="canonRun">Run Canon review</button>
+    </div>
+    <p class="help">The Canon layer builds versioned <strong>claim nodes</strong> from every answer and flags <strong>suspected contradictions</strong> as open <strong>disputes</strong> for human review. Nothing is ever halted or deleted — you resolve each dispute here.</p>
+    <div id="canonRunOut" class="help" style="margin:6px 0 14px"></div>
+
+    <div class="grid grid-stats">
+      ${stat(ct.nodes, "Claim nodes", "")}
+      ${stat(ct.suspected, "Suspected claims", ct.suspected ? "bad" : "good")}
+      ${stat(open.length, "Open disputes", open.length ? "warn" : "good")}
+      ${stat(reps.length, "Reports", "")}
+    </div>
+
+    <h2 class="section">Open disputes ${open.length ? `<span class="badge badge-amber">${open.length}</span>` : ""}</h2>
+    <div id="canonDisputes">
+      ${open.length ? open.map(disputeCard).join("") : `<div class="card"><p class="muted">✓ No open disputes. The canon is internally consistent.</p></div>`}
+    </div>
+
+    ${resolved.length ? `
+      <h2 class="section">Resolved disputes <span class="muted">(${resolved.length})</span></h2>
+      <div>${resolved.map(disputeCard).join("")}</div>` : ""}
+
+    <h2 class="section">Claim nodes by question</h2>
+    <div class="card" style="padding:0; overflow:auto;">
+      <table>
+        <thead><tr><th>Question</th><th>Text</th><th>Nodes</th><th>Suspected</th><th>Open</th></tr></thead>
+        <tbody>
+          ${(claims.questions || []).map((q) => `
+            <tr data-qid="${esc(q.questionId)}" class="canon-qrow">
+              <td><strong>${esc(q.questionId)}</strong></td>
+              <td class="q-text">${esc((q.questionText || "").slice(0, 90))}${(q.questionText||"").length > 90 ? "…" : ""}</td>
+              <td>${q.nodeCount}</td>
+              <td>${q.suspected ? `<span class="badge badge-red">${q.suspected}</span>` : "0"}</td>
+              <td>${q.openDisputes ? `<span class="badge badge-amber">${q.openDisputes}</span>` : "0"}</td>
+            </tr>`).join("") || `<tr><td colspan="5" class="empty">No claim nodes yet — run the Canon review.</td></tr>`}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="section">Run reports</h2>
+    <div class="card">
+      ${reps.length ? reps.map((r) => {
+        const su = r.summary || {};
+        return `<div class="row-between canon-report" data-date="${esc(r.date)}" style="cursor:pointer;padding:6px 0">
+          <span><strong>${esc(r.date)}</strong> <span class="muted">· ${su.created ?? "?"} created · ${su.disputeCount ?? 0} disputes · gate ${su.gate ?? "?"}</span></span>
+          <span class="badge badge-blue">view</span>
+        </div>`;
+      }).join("") : `<p class="muted">No reports yet.</p>`}
+    </div>
+  `;
+
+  document.getElementById("canonRun").addEventListener("click", async () => {
+    await runReview();
+    renderCanon();
+  });
+  document.querySelectorAll(".canon-qrow").forEach((tr) =>
+    tr.addEventListener("click", () => openClaims(tr.dataset.qid))
+  );
+  document.querySelectorAll(".canon-report").forEach((row) =>
+    row.addEventListener("click", () => openReport(row.dataset.date))
+  );
+  document.querySelectorAll("button[data-resolve]").forEach((b) =>
+    b.addEventListener("click", () => openResolve(b.dataset.resolve))
+  );
+  // Stash disputes so the resolve dialog can look up detail without refetch.
+  renderCanon._disputes = allDisputes;
+}
+
+function disputeCard(d) {
+  const isOpen = (d.status || "open") === "open";
+  const c = d.claims || [];
+  const res = d.resolution;
+  return `<div class="card change-card">
+    <div class="row-between">
+      <div>
+        <span class="badge ${isOpen ? "badge-amber" : "badge-green"}">${isOpen ? "open" : "resolved"}</span>
+        <span class="muted"> · ${esc(d.questionId)} · ${esc(d.reason || "conflict")} · overlap ${esc(String(d.topicalOverlap ?? ""))}</span>
+      </div>
+      <span class="muted">${esc((d.detectedAt || "").slice(0, 10))}</span>
+    </div>
+    ${d.questionText ? `<p style="margin:8px 0 4px"><strong>${esc(d.questionText)}</strong></p>` : ""}
+    <div class="diff-grid" style="margin-top:8px">
+      <div><div class="diff-h">Claim A <span class="muted">(${esc((c[0]||{}).claimId||"")})</span></div><div class="diff-old">${esc((c[0]||{}).claimText||"—")}</div></div>
+      <div><div class="diff-h">Claim B <span class="muted">(${esc((c[1]||{}).claimId||"")})</span></div><div class="diff-new">${esc((c[1]||{}).claimText||"—")}</div></div>
+    </div>
+    ${d.detail ? `<p class="help" style="margin:8px 0 0">Reason: ${esc(d.reason)} — ${esc(d.detail)}</p>` : ""}
+    ${res ? `<p class="help" style="margin:6px 0 0;color:var(--green)">Resolved as <strong>${esc(res.decision)}</strong>${res.note ? ` — ${esc(res.note)}` : ""} <span class="muted">(${esc(res.resolvedBy||"")}, ${esc((res.resolvedAt||"").slice(0,10))})</span></p>` : ""}
+    <div class="btn-row" style="margin-top:10px">
+      ${isOpen
+        ? `<button class="btn btn-primary btn-sm" data-resolve="${esc(d.disputeId)}">Resolve…</button>`
+        : `<button class="btn btn-sm" data-resolve="${esc(d.disputeId)}">Re-open / change…</button>`}
+    </div>
+  </div>`;
+}
+
+// Resolution dialog (in the shared modal).
+function openResolve(disputeId) {
+  const d = (renderCanon._disputes || []).find((x) => x.disputeId === disputeId);
+  const isOpen = !d || (d.status || "open") === "open";
+  openModal(`Resolve dispute`, `
+    <p class="help">${d ? esc(d.questionId + " · " + (d.reason || "conflict")) : esc(disputeId)}</p>
+    <div class="form">
+      <div>
+        <label>Decision</label>
+        <select id="resDecision">
+          <option value="resolved">Resolved (addressed / reconciled)</option>
+          <option value="not_a_conflict">Not a real conflict (false positive)</option>
+          <option value="dismissed">Dismissed (won't fix)</option>
+          ${isOpen ? "" : `<option value="reopened">Re-open this dispute</option>`}
+        </select>
+      </div>
+      <div>
+        <label>Note (optional)</label>
+        <textarea id="resNote" placeholder="How was this resolved? e.g. amended q012's answer to remove the contradiction."></textarea>
+      </div>
+      <div>
+        <label>Resolved by (optional)</label>
+        <input id="resBy" placeholder="your name" />
+      </div>
+      <div class="btn-row"><button class="btn btn-primary" id="resSubmit">Apply</button></div>
+      <div id="resOut" class="help"></div>
+    </div>
+  `);
+  document.getElementById("resSubmit").addEventListener("click", async () => {
+    const decision = document.getElementById("resDecision").value;
+    const note = document.getElementById("resNote").value.trim();
+    const resolvedBy = document.getElementById("resBy").value.trim();
+    const out = document.getElementById("resOut");
+    const btn = document.getElementById("resSubmit");
+    btn.disabled = true;
+    out.innerHTML = `<span class="spinner"></span> Applying…`;
+    const r = await postJSON("/api/disputes/resolve", { disputeId, resolution: decision, note, resolvedBy });
+    btn.disabled = false;
+    if (r.ok) {
+      toast(`Dispute ${r.status}`, "success");
+      closeModal();
+      loadStatus();
+      renderCanon();
+    } else {
+      out.innerHTML = `<span style="color:var(--red)">Error: ${esc(r.error)}</span>`;
+    }
+  });
+}
+
+// Claim-node detail for a question (in the shared modal).
+async function openClaims(qid) {
+  openModal(`Claim nodes — ${qid}`, `<div class="empty"><span class="spinner"></span></div>`);
+  const r = await getJSON("/api/claims/" + qid);
+  if (!r.ok) { setModalBody(`<p class="muted">${esc(r.error)}</p>`); return; }
+  const nodes = r.nodes || [];
+  let body = `<p class="help">${esc(r.questionText || "")}</p>`;
+  body += nodes.map((n) => {
+    const conf = n.confidence || {};
+    const csClass = n.contradictionStatus === "suspected" ? "badge-red"
+      : n.contradictionStatus === "resolved" ? "badge-green" : "badge-muted";
+    const dsClass = n.disputeStatus === "open" ? "badge-amber"
+      : n.disputeStatus === "resolved" ? "badge-green" : "badge-muted";
+    const srcs = (n.provenanceEdges || []).map((e) =>
+      `<li><span class="muted">${esc(e.relation||"supports")}</span> ${esc(e.url||e.sourceId||"")} <span class="badge badge-muted">${esc(e.credibility||"")}</span></li>`).join("");
+    return `<div class="card" style="margin-bottom:12px">
+      <div class="row-between">
+        <strong>${esc(n.claimId)}</strong>
+        <span>v${esc(String(n.version||1))} · <span class="badge ${csClass}">${esc(n.contradictionStatus||"none")}</span> <span class="badge ${dsClass}">${esc(n.disputeStatus||"none")}</span></span>
+      </div>
+      <p style="margin:8px 0">${esc(n.claimText || "")}</p>
+      <div class="row-between"><span class="muted">Confidence</span><strong>${esc(String(conf.score ?? ""))} (${esc(conf.level||"")})</strong></div>
+      <div class="row-between"><span class="muted">Valid from</span><span>${esc((n.validityInterval||{}).validFrom || "")}</span></div>
+      ${srcs ? `<details style="margin-top:6px"><summary class="muted">${(n.provenanceEdges||[]).length} source(s)</summary><ul>${srcs}</ul></details>` : ""}
+      ${(n.contradicts||[]).length ? `<p class="help" style="margin:6px 0 0;color:var(--red)">Contradicts: ${esc((n.contradicts||[]).join(", "))}</p>` : ""}
+    </div>`;
+  }).join("") || `<p class="muted">No nodes.</p>`;
+  setModalTitle(`Claim nodes — ${qid} (${nodes.length})`);
+  setModalBody(body);
+}
+
+// Report viewer (renders the markdown as preformatted text in the modal).
+async function openReport(date) {
+  openModal(`Report — ${date}`, `<div class="empty"><span class="spinner"></span></div>`);
+  const r = await getJSON("/api/reports/" + date);
+  if (!r.ok) { setModalBody(`<p class="muted">${esc(r.error)}</p>`); return; }
+  setModalBody(`<pre class="log" style="white-space:pre-wrap">${esc(r.markdown || "")}</pre>`);
 }
 
 // ── Logs ─────────────────────────────────────────────────────────────
