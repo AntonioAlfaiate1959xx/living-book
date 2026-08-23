@@ -56,7 +56,12 @@ jobs:
           else
             node scripts/orchestrate.js --all
           fi
-
+# Claim-Node Layer: runs after the refresh/classify stage and before the
+    # rebuild/harmonize stage. Normalizes provenance into persistent, versioned
+    # claim nodes and flags suspected contradictions for human review. It never
+    # halts the run — flagged claims are quarantined via dispute/report files.
+    - name: Build claim nodes + detect contradictions
+      run: npm run claims
       - name: Rebuild the published book (v2)
         run: node scripts/build-v2.js
 
