@@ -1,62 +1,27 @@
 {
   "question_id": "q005",
   "question_text": "How does the human relationship with truth change when answers are generated rather than discovered?",
-  "current_edition": 8,
+  "current_edition": 116,
   "claims": [
     {
       "claim_id": "q005-c01",
-      "text": "## The Epistemology of the Generated Answer\n\nThere is an old distinction in philosophy between knowledge that arrives through testimony and knowledge earned through inquiry. For most of human history, the balance between these two modes was maintained by practical necessity: testimony was abundant, but the effort required to seek, evaluate, and synthesise information kept the inquiring mind actively engaged. What changes when a machine can generate a fluent, confident, and plausible-sounding answer to almost any question in seconds is not merely a matter of convenience. It is a shift in the fundamental posture of the human mind toward truth itself.\n\nResearch on automation bias offers the most empirically grounded entry point into this problem. A landmark study by Skitka, Mosier, and Burdick (1999) demonstrated that even expert operators — commercial pilots, people with strong professional incentives to be correct — would accept incorrect automated recommendations at rates that should alarm anyone who assumes expertise confers immunity to over-reliance. The mechanism is not stupidity but cognitive economy: when a system presents an answer with apparent authority, the mental cost of mounting a challenge rises while the perceived need to do so falls. Applied to AI-generated text, this dynamic is considerably more acute. A pilot can observe that an automated system's recommendation conflicts with instrument readings; a student reading a generated essay has no equivalent external check. The answer arrives already dressed in the grammar of authority.\n\nThis is what might be called the atrophy of epistemic agency — not a sudden collapse of critical thinking, but a gradual reduction in the habit of exercising it. Discovery, in the traditional sense, involves productive struggle: the wrong turn that teaches something, the source that contradicts another and forces a resolution, the moment of genuine uncertainty that precedes genuine understanding. When answers are generated rather than found, that struggle is bypassed. The concern, well-grounded in cognitive science, is that the capacity for independent verification may weaken through disuse, much as a muscle does. This is not yet a settled empirical question in the specific context of large language models — the technology is too new for longitudinal studies — but the theoretical basis, supported by decades of research on automation bias and cognitive offloading, is substantial.\n\nThe problem is compounded by a feature peculiar to generative AI: the confident hallucination. Unlike a search engine, which returns sources that can be independently checked, a language model produces prose that synthesises and sometimes fabricates, with no reliable internal signal distinguishing accurate claims from plausible-sounding errors. The surface form of a generated answer — grammatically polished, rhetorically coherent, appropriately hedged in tone — mimics the form of trustworthy human writing. This creates what might be called an epistemic mismatch: the cues that ordinarily signal reliability (fluency, structure, apparent confidence) are decoupled from actual reliability. Users trained on human writing are poorly equipped to detect this decoupling without deliberate effort.\n\nThere is a more optimistic reading of these developments, and intellectual honesty requires acknowledging it. Some researchers argue that the relevant question is not whether AI generates answers, but what humans do with those answers. On this view, a generated answer can serve as a scaffold rather than a terminus — a starting point for inquiry rather than its conclusion. There is genuine pedagogical potential in using AI outputs as objects of critical scrutiny: asking students to verify, challenge, and improve generated text may cultivate exactly the evaluative skills that unreflective use would erode. The technology, on this account, is epistemically neutral; the educational design around it is what matters. This position has merit, but it depends on conditions — deliberate pedagogical framing, sufficient prior knowledge to detect errors, institutional cultures that reward verification — that cannot be assumed to exist by default.\n\nWhat is not seriously contested is that the relationship between effort and understanding is being renegotiated. Classical accounts of learning, from Dewey's emphasis on productive inquiry to more recent work on desirable difficulties in cognitive psychology, converge on the view that the struggle to find an answer is not merely instrumental to acquiring it — the struggle is partly constitutive of understanding. An answer received is not the same cognitive event as an answer earned. Whether this distinction matters for all kinds of knowledge, or only for some, remains an open and important question.\n\nWhat the evidence does establish is that the shift from discovery to generation is not epistemically innocent. It changes the conditions under which beliefs are formed, the habits of mind brought to bear on information, and the relationship between the knower and what is known. These are not small changes. They are changes to the infrastructure of how educated minds engage with the world, and they deserve to be treated with corresponding seriousness.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q005. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How does the human relationship with truth change when answers are generated rather than discovered?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1071581999902524",
-          "title": "https://www.sciencedirect.com/science/article/abs/pii/S1071581999902524",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.cureus.com/articles/138667-artificial-hallucinations-in-chatgpt-implications-in-scientific-writing",
-          "title": "https://www.cureus.com/articles/138667-artificial-hallucinations-in-chatgpt-implications-in-scientific-writing",
+          "url": "https://example.com/mock/q005",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://link.springer.com/article/10.1007/s10676-024-09775-5",
-          "title": "https://link.springer.com/article/10.1007/s10676-024-09775-5",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X2300076X",
-          "title": "https://www.sciencedirect.com/science/article/pii/S2666920X2300076X",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16",
-          "title": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.nature.com/articles/s42254-023-00581-4",
-          "title": "https://www.nature.com/articles/s42254-023-00581-4",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 8
+      "last_verified": "2026-08-24",
+      "added_edition": 116
     }
   ],
-  "answer_summary": "There is an old distinction in philosophy between knowledge that arrives through testimony and knowledge earned through inquiry. For most of human history, the balance between these two modes was maintained by practical necessity: testimony was abundant, but the effort required to seek, evaluate, and synthesise information kept the inquiring mind actively engaged.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q005. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How does the human relationship with truth change when answers are generated rather than discovered?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

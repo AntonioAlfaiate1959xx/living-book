@@ -1,62 +1,27 @@
 {
   "question_id": "q041",
   "question_text": "How can public education systems keep pace with private AI development without surrendering governance to tech companies?",
-  "current_edition": 44,
+  "current_edition": 152,
   "claims": [
     {
       "claim_id": "q041-c01",
-      "text": "## Governing the Machine: How Public Education Can Retain Authority in the Age of Private AI\n\nThe relationship between public education systems and private technology companies has never been straightforward, but the emergence of sophisticated artificial intelligence tools has sharpened an old tension into something approaching a structural crisis. Research from the Data & Society Research Institute and Ben Williamson's team at the University of Edinburgh's Centre for Research in Digital Education documents a profound asymmetry at the heart of this relationship: private AI developers operate with vast capital reserves, nimble organisational structures, and engineering talent that public school systems simply cannot match. Bureaucratic procurement cycles measured in years confront product release cycles measured in months. This is not merely an inconvenience of timing — it represents a fundamental imbalance of power that, left unaddressed, risks transferring de facto governance of public education from elected bodies and professional educators to corporate boardrooms.\n\nUnderstanding the nature of this imbalance is the necessary starting point. When a school district adopts an AI-driven tutoring platform or an automated essay-scoring system, it is not simply purchasing software. It is importing a set of pedagogical assumptions, data practices, and algorithmic priorities that were designed elsewhere, for purposes that may only partially align with public educational values. The companies building these tools make consequential decisions — about what counts as learning, which student behaviours to flag, how to weight different kinds of knowledge — long before any public official reviews a contract. Governance, in this sense, has already begun to migrate before a single classroom deploys the technology.\n\nThe challenge, then, is not simply to slow adoption or to resist innovation, but to develop institutional capacity that allows public systems to engage with private AI on terms they help to set. Several converging lines of research point toward what this might look like in practice. One well-documented approach involves the construction of shared public technical infrastructure: regional or national bodies that can evaluate AI tools independently, maintain student data under public custodianship, and develop open-source alternatives that reduce dependence on proprietary systems. The European Union's broader digital sovereignty agenda offers a partial model here, though its application to education specifically remains nascent and contested. Critics note that public infrastructure projects of this kind are expensive, slow to build, and vulnerable to political defunding — the same structural weaknesses that created the dependency problem in the first place.\n\nA second strand of research emphasises regulatory frameworks as the more tractable lever. Rather than attempting to out-build private developers, public systems can establish binding conditions under which AI tools are permitted to operate in schools. These include algorithmic transparency requirements — mandating that companies disclose how their systems make decisions — alongside strict limitations on the commercial use of student data. The United States' Student Privacy Pledge and the EU's General Data Protection Regulation represent early moves in this direction, though researchers consistently note that enforcement remains weak and that the technical complexity of modern AI systems makes meaningful transparency difficult to verify even when companies cooperate in good faith. There is genuine scholarly debate about whether disclosure requirements alone can shift power, or whether they function primarily as legitimising rituals that give the appearance of accountability without its substance.\n\nA third approach, perhaps the most underexplored in policy circles, concerns the professional capacity of educators themselves. Research on technology adoption in schools consistently finds that teacher agency is the most reliable predictor of whether a technology serves pedagogical ends or displaces professional judgement. Where teachers understand enough about how AI systems work to interrogate their outputs, to push back against automated recommendations, and to contextualise algorithmic assessments within their knowledge of individual students, the technology tends to function as a genuine tool rather than a substitute authority. Building this capacity requires sustained investment in professional development that goes well beyond basic digital literacy — it demands what some researchers call \"critical AI literacy,\" an ability to reason about the assumptions and limitations embedded in automated systems.\n\nNone of these approaches is sufficient on its own, and the research is candid about the tensions between them. Regulatory frameworks require technical expertise to design and enforce; public infrastructure requires political will and sustained funding; professional capacity requires time and institutional support that many systems currently lack. There is also a deeper normative question that the research raises but does not resolve: how much standardisation and efficiency gain is worth accepting in exchange for reduced local control? Communities differ in their answers, and any governance framework that ignores this variation risks imposing its own form of top-down authority.\n\nWhat the evidence does establish clearly is that passivity is not a neutral option. Public education systems that defer governance questions to the market do not thereby avoid making a choice — they make the choice to let others choose. The institutions capable of representing the public interest in education are imperfect and slow, but they remain the only ones with a democratic mandate to do so. Preserving that mandate in an era of rapid private AI development is less a technical problem than a political one, requiring deliberate investment, regulatory courage, and a willingness to treat educational governance as infrastructure worth defending.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q041. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How can public education systems keep pace with private AI development without surrendering governance to tech companies?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/13562517.2020.1748811",
-          "title": "https://www.tandfonline.com/doi/full/10.1080/13562517.2020.1748811",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.rand.org/pubs/research_reports/RRA956-1.html",
-          "title": "https://www.rand.org/pubs/research_reports/RRA956-1.html",
+          "url": "https://example.com/mock/q041",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://ainowinstitute.org/2023-report",
-          "title": "https://ainowinstitute.org/2023-report",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "title": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.hepg.org/her-home/issues/harvard-educational-review-volume-92-issue-1",
-          "title": "https://www.hepg.org/her-home/issues/harvard-educational-review-volume-92-issue-1",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 44
+      "last_verified": "2026-08-24",
+      "added_edition": 152
     }
   ],
-  "answer_summary": "The relationship between public education systems and private technology companies has never been straightforward, but the emergence of sophisticated artificial intelligence tools has sharpened an old tension into something approaching a structural crisis.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q041. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How can public education systems keep pace with private AI development without surrendering governance to tech companies?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

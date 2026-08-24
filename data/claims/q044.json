@@ -1,62 +1,27 @@
 {
   "question_id": "q044",
   "question_text": "Which human capabilities will the labor market actually reward in 10, 20, and 50 years — and how do we teach for an unpredictable future?",
-  "current_edition": 47,
+  "current_edition": 155,
   "claims": [
     {
       "claim_id": "q044-c01",
-      "text": "## Human Capabilities and the Labor Market: Teaching Across an Uncertain Future\n\nThe question of which human capabilities will command economic reward over the coming decades is not merely speculative — it is already being answered, partially and imperfectly, by labor markets responding to the first serious wave of AI-driven automation. The emerging evidence points in a recognizable direction, though the further one looks ahead, the more contested and philosophically fraught the picture becomes.\n\nWhat economists can say with reasonable confidence about the near term — the next ten years — draws on David Autor's influential task framework, developed at MIT over the past two decades. Autor's research documents a persistent hollowing out of routine cognitive and manual work: the clerical processing, the standardized analysis, the predictable physical tasks that once formed the backbone of middle-skill employment. What has proven resistant to this hollowing, and what now commands a growing wage premium, is a cluster of capabilities loosely grouped under social intelligence, complex communication, and creative problem-solving. These are not merely soft skills in the dismissive sense the phrase sometimes implies. They include the capacity to read unstated social dynamics, to negotiate meaning across contexts of genuine ambiguity, to generate solutions where no algorithm exists to specify the problem correctly in the first place. The evidence that these capabilities are already being rewarded is well-established. The contested question is whether that reward will persist or whether advancing AI systems will erode this frontier as they eroded the last one.\n\nThere are serious grounds for both optimism and concern on this point. The optimistic reading holds that social and creative capabilities are grounded in embodied human experience — in the accumulated weight of having lived a life, navigated relationships, and operated within cultural contexts that no training dataset fully captures. On this view, the ten-year horizon looks relatively stable for workers who have developed genuine depth in these areas. The more cautious reading notes that AI systems have already demonstrated surprising competence in tasks once assumed to require human creativity and social sensitivity: generating persuasive prose, producing plausible emotional responses, synthesizing complex information into coherent narratives. Whether these demonstrations represent genuine capability or sophisticated pattern-matching that will fail under pressure remains an open and genuinely important empirical question.\n\nAt the twenty-year horizon, the uncertainty compounds in ways that make confident prediction intellectually dishonest. What can be said is that the labor market will almost certainly reward the capacity to work *with* AI systems rather than in competition with them — what some researchers call \"human-AI complementarity.\" This is not simply a matter of technical literacy, though that matters. It involves the metacognitive ability to evaluate AI outputs critically, to know when a fluent-sounding answer is wrong, and to supply the contextual judgment that automated systems systematically lack. It also involves what might be called epistemic courage: the willingness to maintain a position, take responsibility for a decision, and be accountable in ways that no AI system currently can be. Whether markets will reliably price these capabilities correctly is another matter — institutional and regulatory choices will shape that outcome as much as technological ones.\n\nThe fifty-year horizon resists the language of prediction almost entirely. At this distance, the honest answer is that no one knows which specific capabilities will be economically rewarded, because the structure of the economy itself may be transformed in ways that make current frameworks obsolete. What the historical record does suggest — across the agricultural, industrial, and early digital transitions — is that entirely new categories of valuable work tend to emerge that were not legible in advance. The practical implication is not that long-range planning is pointless, but that the goal of education cannot be to optimize for a specific skill profile that may not exist in the form anticipated.\n\nThis brings the question to its most important dimension: how to teach for a future that cannot be fully specified. The research evidence, taken together, points toward a pedagogy organized around durable capacities rather than particular competencies. These include the ability to learn new domains efficiently — what cognitive scientists call \"learning to learn\" — alongside tolerance for ambiguity, the habit of questioning assumptions, and the capacity to collaborate under conditions of genuine uncertainty. Crucially, deep disciplinary knowledge remains important not as an end in itself but because it provides the cognitive scaffolding from which genuine transfer and creative recombination become possible. Shallow breadth without depth produces workers who are easily displaced; deep knowledge without adaptability produces workers who are brittle.\n\nThe pedagogical implication is uncomfortable for systems that prefer measurable outcomes: the capabilities most likely to retain value across all three time horizons are precisely those hardest to assess on a standardized rubric. Teaching for an unpredictable future means accepting that education is, at its core, the cultivation of human judgment — and that judgment, by definition, cannot be fully specified in advance.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q044. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Which human capabilities will the labor market actually reward in 10, 20, and 50 years — and how do we teach for an unpredictable future?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.aeaweb.org/articles?id=10.1257/jep.38.1.3",
-          "title": "https://www.aeaweb.org/articles?id=10.1257/jep.38.1.3",
+          "url": "https://example.com/mock/q044",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
-          "title": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.nber.org/papers/w30309",
-          "title": "https://www.nber.org/papers/w30309",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.oecd.org/education/2030-project/teaching-and-learning/learning/learning-compass-2030/",
-          "title": "https://www.oecd.org/education/2030-project/teaching-and-learning/learning/learning-compass-2030/",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/abs/2302.06590",
-          "title": "https://arxiv.org/abs/2302.06590",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/future-of-work-review-a-review-of-modern-working-practices",
-          "title": "https://www.gov.uk/government/publications/future-of-work-review-a-review-of-modern-working-practices",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 47
+      "last_verified": "2026-08-24",
+      "added_edition": 155
     }
   ],
-  "answer_summary": "The question of which human capabilities will command economic reward over the coming decades is not merely speculative — it is already being answered, partially and imperfectly, by labor markets responding to the first serious wave of AI driven automation.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q044. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Which human capabilities will the labor market actually reward in 10, 20, and 50 years — and how do we teach for an unpredictable future?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

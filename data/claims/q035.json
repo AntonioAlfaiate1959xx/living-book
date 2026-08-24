@@ -1,62 +1,27 @@
 {
   "question_id": "q035",
   "question_text": "What is the promise and the peril of AI-driven accessibility for learners with disabilities, neurodivergence, or language barriers, from the learner's own perspective?",
-  "current_edition": 38,
+  "current_edition": 146,
   "claims": [
     {
       "claim_id": "q035-c01",
-      "text": "## Accessible by Design, Excluded by Default: The Learner's Experience of AI-Driven Accessibility\n\nFor learners who have historically been underserved by standardised educational environments — those who are deaf or hard of hearing, neurodivergent, or navigating instruction in a language not their own — artificial intelligence has arrived with genuine transformative potential. Real-time captioning, adaptive interfaces, personalised pacing, and intelligent language support represent a qualitative shift from what was previously possible. Yet the evidence emerging from learners themselves tells a more complicated story: one in which the same technologies that open doors can, through their failures and blind spots, construct new forms of exclusion that are harder to name and therefore harder to remedy.\n\nThe clearest gains are visible among deaf and hard-of-hearing students. Tools such as Google's Live Caption, Microsoft Azure's captioning services, and Otter.ai have addressed a longstanding structural problem: traditional accommodations like human interpreters or note-takers were logistically cumbersome, often delayed, and dependent on institutional goodwill. AI-powered automatic speech recognition (ASR) operates in real time, enabling deaf students to follow classroom discussion as it unfolds rather than receiving a mediated, retrospective account. Students report that this changes not merely their comprehension but their sense of belonging — the ability to respond to a comment before the conversation has moved on is, socially and intellectually, a different kind of participation. That shift should not be underestimated.\n\nThe peril, however, is embedded in the same technology. ASR systems are trained predominantly on standard, clearly enunciated speech from dominant linguistic communities. Accuracy rates fall measurably when speakers have accents, speak quickly, use technical or domain-specific vocabulary, or when background noise is present. For a deaf student in a seminar where multiple voices overlap, or where a lecturer uses disciplinary jargon, the caption stream can become unreliable precisely at the moments of greatest intellectual density. The student is then left with a choice between trusting a potentially garbled transcript or signalling their confusion — which carries its own social cost. A technology marketed as equalising access can, in practice, deliver unequal accuracy depending on who is speaking and in what register.\n\nNeurodivergent learners — including those with dyslexia, ADHD, autism spectrum conditions, and related profiles — encounter a similarly double-edged landscape. AI tools that offer text-to-speech, adjustable reading speeds, distraction-reduced interfaces, and flexible task sequencing can reduce the friction that standardised formats impose on non-standard cognitive styles. For a student with dyslexia, having an AI system that reads aloud, highlights text synchronously, and allows repeated review without social embarrassment addresses barriers that have historically been managed through laborious formal accommodation processes. For students with ADHD, adaptive systems that break tasks into smaller units and provide immediate feedback align with what is known about attention and motivation in ways that traditional lecture formats do not.\n\nYet neurodivergent learners also report a subtler peril: the risk that AI systems optimise for a particular model of productivity or engagement that does not match their own. Gamified learning platforms, for instance, may reward rapid sequential completion in ways that disadvantage students who process deeply but slowly, or who need to revisit material non-linearly. When AI systems infer a learner's needs from behavioural data — time on task, click patterns, error rates — they may misread neurodivergent behaviour as disengagement or underperformance, triggering interventions that are at best irrelevant and at worst stigmatising. The learner's own account of what they need is frequently absent from these inferential loops.\n\nFor learners navigating instruction in a second or additional language, AI-driven translation, vocabulary support, and writing assistance have reduced some of the most exhausting cognitive loads that language barriers impose. The ability to receive real-time definitions, to draft in one's stronger language and receive assistance rendering ideas in the language of instruction, or to access multilingual explanations of complex concepts represents a meaningful democratisation of content. What remains contested is whether such tools support genuine language acquisition or create a form of dependency that leaves underlying proficiency undeveloped — a tension that researchers have not yet resolved, and that learners themselves report experiencing differently depending on their goals.\n\nAcross all three populations, a structural concern recurs: the learners who stand to benefit most from AI accessibility tools are also those least likely to have shaped the training data, design assumptions, or evaluation criteria of those tools. Disability communities, multilingual communities, and neurodivergent communities have historically been marginalised in technology development. The result is that AI accessibility often functions as retrofit rather than universal design — an afterthought applied to systems built around a normative user. Until learners with disabilities and language differences are involved substantively in the design and auditing of these tools, the promise of AI-driven accessibility will remain real but partial, and its perils will fall, as they so often have, on those least positioned to absorb them.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q035. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is the promise and the peril of AI-driven accessibility for learners with disabilities, neurodivergence, or language barriers, from the learner's own perspective?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.nationaldeafcenter.org/resource/captioning-quality-and-access-higher-education",
-          "title": "https://www.nationaldeafcenter.org/resource/captioning-quality-and-access-higher-education",
+          "url": "https://example.com/mock/q035",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://onlinelibrary.wiley.com/journal/10990909",
-          "title": "https://onlinelibrary.wiley.com/journal/10990909",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://autismsciencefoundation.org/what-is-autism/technology-and-autism/",
-          "title": "https://autismsciencefoundation.org/what-is-autism/technology-and-autism/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.lltjournal.org/",
-          "title": "https://www.lltjournal.org/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://chadd.org/for-adults/technology/",
-          "title": "https://chadd.org/for-adults/technology/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.peatworks.org/ai-disability-inclusion-toolkit/",
-          "title": "https://www.peatworks.org/ai-disability-inclusion-toolkit/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 38
+      "last_verified": "2026-08-24",
+      "added_edition": 146
     }
   ],
-  "answer_summary": "For learners who have historically been underserved by standardised educational environments — those who are deaf or hard of hearing, neurodivergent, or navigating instruction in a language not their own — artificial intelligence has arrived with genuine transformative potential.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q035. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is the promise and the peril of AI driven accessibility for learners with disabilities, neurodivergence, or language barriers, from the learner's own perspective?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

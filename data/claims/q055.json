@@ -1,62 +1,27 @@
 {
   "question_id": "q055",
   "question_text": "What have studies found about AI feedback compared with human feedback — in accuracy, usefulness, and student receptivity?",
-  "current_edition": 58,
+  "current_edition": 166,
   "claims": [
     {
       "claim_id": "q055-c01",
-      "text": "## AI Feedback and Human Feedback in Education: Accuracy, Usefulness, and Student Receptivity\n\nThe question of whether artificial intelligence can replicate, supplement, or surpass human feedback in educational settings has moved from speculative to empirical over the past decade. Research now offers a substantive, if still evolving, picture — one in which AI feedback demonstrates genuine technical competence in certain domains while revealing persistent limitations that prevent any straightforward equivalence with what skilled human teachers provide.\n\nThe most extensively studied dimension is accuracy, particularly in the context of automated essay scoring (AES). Large-scale investigations, including the landmark work by Shermis and Hamner drawing on data from the Hewlett Foundation's Automated Student Assessment Prize competition, have found that AES systems can achieve inter-rater reliability coefficients — typically measured by quadratic weighted kappa — in the range of 0.70 to 0.85. This places machine-human agreement broadly on par with human-human agreement, which rarely exceeds that same ceiling even among trained raters. On the surface, this is a striking result: it suggests that for holistic scoring of student writing, algorithms can match the consistency of professional judgment.\n\nThe caveats, however, are substantial. High correlation with human scores does not necessarily mean the system is measuring the same underlying constructs. Critics have demonstrated that AES systems can be gamed by students who produce long, syntactically complex, vocabulary-rich prose that scores well regardless of logical coherence or argumentative quality. The systems are, in effect, detecting surface proxies for quality rather than quality itself. This is not a minor technical quibble — it strikes at the heart of what feedback is supposed to accomplish. If an AI awards high marks to an essay that is fluent but intellectually hollow, the accuracy metric flatters the technology while obscuring a fundamental failure of construct validity.\n\nWhen the focus shifts from scoring to formative feedback — the kind of commentary intended to help students improve — the picture becomes more nuanced. AI systems, particularly those built on large language models, can generate feedback that is specific, timely, and consistently structured. Timeliness is not a trivial advantage: research on feedback efficacy consistently shows that delays between submission and response reduce the pedagogical value of commentary, and human teachers operating under heavy marking loads frequently cannot respond within the window where feedback is most actionable. In this respect, AI has a structural advantage that is independent of the quality of any individual comment.\n\nOn the question of usefulness, studies comparing AI and human formative feedback have produced mixed results that depend heavily on the task type and the level of the learner. For lower-order concerns — grammar, mechanics, citation formatting, surface-level coherence — AI feedback tends to perform well and students report finding it helpful. For higher-order concerns — the development of an argument, the handling of counterevidence, the originality of a thesis — human feedback retains a clear advantage. Human teachers bring contextual knowledge of a student's intellectual trajectory, an understanding of disciplinary norms that goes beyond pattern recognition, and the capacity to respond to what a student was attempting rather than merely what appeared on the page.\n\nStudent receptivity introduces a further layer of complexity, and here the research is genuinely contested. Some studies find that students engage more readily with AI feedback precisely because it feels less judgmental — there is no social relationship at stake, no fear of disappointing a teacher, and the feedback can be sought repeatedly without embarrassment. This psychological safety may encourage iteration and revision in ways that a single round of human commentary does not. Other studies, however, find that students discount AI feedback as impersonal or untrustworthy, particularly when they are aware it was machine-generated. The disclosure of AI authorship appears to matter: identical feedback is sometimes rated as less credible when attributed to an algorithm than when attributed to a human expert. This suggests that receptivity is partly a function of institutional trust and student belief systems rather than the intrinsic quality of the commentary.\n\nA further tension in the literature concerns equity. AI feedback systems trained predominantly on writing from certain demographic or linguistic communities may perform less reliably for students whose prose reflects different rhetorical traditions or non-standard dialects. If the benchmark for \"correct\" feedback is itself culturally narrow, then high aggregate accuracy statistics can mask systematic disparities in feedback quality across student populations.\n\nWhat emerges from the research, taken together, is not a verdict for or against AI feedback but a more conditional finding: AI performs well on tasks that are well-defined, surface-level, and amenable to pattern recognition, and it offers genuine advantages in speed and availability. Human feedback retains superiority for complex, interpretive, and relational dimensions of learning. The most defensible conclusion is that the two are complements rather than substitutes — and that treating them as interchangeable, in either direction, misreads what the evidence actually shows.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q055. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What have studies found about AI feedback compared with human feedback — in accuracy, usefulness, and student receptivity?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.journalofwritingassessment.org/article.php?article=69",
-          "title": "https://www.journalofwritingassessment.org/article.php?article=69",
+          "url": "https://example.com/mock/q055",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://doi.org/10.1016/j.compedu.2021.104280",
-          "title": "https://doi.org/10.1016/j.compedu.2021.104280",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://doi.org/10.1080/02602938.2018.1545896",
-          "title": "https://doi.org/10.1080/02602938.2018.1545896",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://doi.org/10.1016/j.learninstruc.2024.101894",
-          "title": "https://doi.org/10.1016/j.learninstruc.2024.101894",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://doi.org/10.1080/00461520.2011.611369",
-          "title": "https://doi.org/10.1080/00461520.2011.611369",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://doi.org/10.1016/j.asw.2020.100488",
-          "title": "https://doi.org/10.1016/j.asw.2020.100488",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 58
+      "last_verified": "2026-08-24",
+      "added_edition": 166
     }
   ],
-  "answer_summary": "The question of whether artificial intelligence can replicate, supplement, or surpass human feedback in educational settings has moved from speculative to empirical over the past decade.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q055. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What have studies found about AI feedback compared with human feedback — in accuracy, usefulness, and student receptivity?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

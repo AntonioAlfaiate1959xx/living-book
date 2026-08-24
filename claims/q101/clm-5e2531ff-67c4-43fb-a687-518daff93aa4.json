@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-5e2531ff-67c4-43fb-a687-518daff93aa4",
+  "questionId": "q101",
+  "claimText": "Should this same transparency standard apply to a teacher's use of AI in the classroom, even when disclosure might undermine the pedagogical value of the exercise itself?\".",
+  "status": "active",
+  "version": 1,
+  "validityInterval": {
+    "validFrom": "2026-08-24",
+    "validUntil": null
+  },
+  "confidence": {
+    "score": 0.33,
+    "level": "low"
+  },
+  "provenanceEdges": [
+    {
+      "sourceId": "src-4412bec07fcc",
+      "url": "https://example.com/mock/q101",
+      "relation": "supports",
+      "credibility": "medium"
+    }
+  ],
+  "contradictionStatus": "none",
+  "disputeStatus": "none",
+  "contradicts": [],
+  "meta": {
+    "normalizedText": "should this same transparency standard apply to a teachers use of ai in the classroom even when disclosure might undermine the pedagogical value of the exercise itself",
+    "questionText": "The EU AI Act mandates that individuals be informed when interacting with an AI system or consuming AI-generated content. Should this same transparency standard apply to a teacher's use of AI in the classroom, even when disclosure might undermine the pedagogical value of the exercise itself?",
+    "createdAt": "2026-08-24T06:30:27Z",
+    "updatedAt": "2026-08-24T06:30:27Z",
+    "supportingSourceCount": 1,
+    "builder": "consistency-review.mjs"
+  }
+}

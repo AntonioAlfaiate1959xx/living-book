@@ -1,62 +1,27 @@
 {
   "question_id": "q051",
   "question_text": "What does current peer-reviewed evidence show about the effects of AI tutoring systems on learning outcomes, and how strong is that evidence?",
-  "current_edition": 54,
+  "current_edition": 162,
   "claims": [
     {
       "claim_id": "q051-c01",
-      "text": "## AI Tutoring Systems and Learning Outcomes: What the Evidence Actually Shows\n\nThe promise of artificial intelligence in education rests substantially on a body of research into intelligent tutoring systems — software that adapts instructional content to individual learners in real time. Decades of peer-reviewed work, culminating in several meta-analyses, suggest these systems can meaningfully improve learning outcomes. Yet the strength of that evidence is uneven, and the gap between controlled research conditions and ordinary classroom practice remains one of the field's most persistent problems.\n\nThe most comprehensive quantitative picture comes from meta-analytic work. A 2023 meta-analysis by Kulik and Fletcher, extending a lineage of synthesis research that Kulik and Kulik began in 1991, examined a large body of intelligent tutoring system studies and found average effect sizes ranging from 0.3 to 0.8 standard deviations compared to conventional classroom instruction. In educational research, where an effect size of 0.4 is often treated as a meaningful threshold, these figures are notable. An effect at the upper end of that range would, in practical terms, represent something like moving a student from the fiftieth to the seventy-ninth percentile — a substantial gain. Even the lower bound suggests a reliably positive, if modest, advantage over traditional teaching.\n\nThese numbers, however, require careful interpretation. Meta-analyses aggregate studies that vary enormously in design quality, and the intelligent tutoring literature is no exception. Many of the studies contributing to these effect sizes were conducted under controlled or semi-controlled conditions — often with researcher involvement, motivated volunteer participants, short intervention windows, and outcome measures closely aligned to the content the tutoring system actually taught. These are the conditions most likely to produce strong results, and they do not straightforwardly represent what happens when a system is deployed at scale in a typical school, with ordinary students, distracted teachers, and the full complexity of institutional life.\n\nThis is what researchers call the \"lab-to-classroom gap,\" and it is not a minor technical quibble. Systems that perform impressively in tightly managed pilots have repeatedly shown attenuated effects — sometimes approaching zero — when evaluated in large-scale randomised controlled trials conducted in authentic school settings. The history of educational technology is littered with interventions that looked transformative in early studies and disappointing in broader deployment. Intelligent tutoring systems are not immune to this pattern, and the honest reading of the evidence must hold both the positive meta-analytic signal and this sobering contextual caveat simultaneously.\n\nSubject domain matters considerably. The strongest and most consistent evidence for AI tutoring effectiveness comes from mathematics and, to a lesser extent, procedural domains in science. Systems like Carnegie Learning's MATHia have been evaluated in large-scale studies with reasonably rigorous designs and have shown durable positive effects on algebra achievement. Reading and writing present a more complicated picture: the adaptive feedback loops that work well for solving equations are harder to engineer for the interpretation of literary texts or the development of argumentative prose, and the evidence in these domains is thinner and more contested.\n\nThe question of which students benefit most is also unresolved. Some studies suggest that AI tutoring systems are particularly effective for students who are already moderately engaged and have sufficient prior knowledge to make use of adaptive feedback — in other words, that the systems work best for those who are already reasonably well served by conventional instruction. Other research points in a more optimistic direction, finding that students who struggle most with traditional pacing benefit from the patience and individualisation that a well-designed system can provide. These findings are not necessarily contradictory — different systems, different populations, and different implementation contexts may genuinely produce different patterns — but the field has not yet produced a settled account of for whom these tools work best.\n\nThe emergence of large language model-based tutoring tools since 2022 introduces a further complication. These systems differ architecturally from the rule-based and Bayesian intelligent tutoring systems that dominate the existing research literature, and the peer-reviewed evidence base for their educational effects is, at present, extremely thin. Early studies are appearing, but they are mostly small, short-term, and methodologically preliminary. Enthusiasm in the popular and commercial press has run well ahead of the evidence, and it would be a mistake to assume that the positive findings accumulated for earlier intelligent tutoring systems transfer automatically to large language model tutors, which have different failure modes — including confident confabulation — that may be particularly consequential in educational settings.\n\nWhat the current peer-reviewed evidence supports, then, is a qualified optimism. Intelligent tutoring systems, particularly in mathematics and procedural subjects, can produce meaningful learning gains under the right conditions. The effect sizes in meta-analyses are real and not trivial. But the evidence base is strongest in conditions that differ from typical school deployment, the benefits are not uniformly distributed across subjects or student populations, and the newest generation of AI tutoring tools remains largely unevaluated by rigorous independent research. The field knows enough to take these systems seriously; it does not yet know enough to deploy them uncritically.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q051. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What does current peer-reviewed evidence show about the effects of AI tutoring systems on learning outcomes, and how strong is that evidence?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2011.611369",
-          "title": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2011.611369",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.3102/0162373713507480",
-          "title": "https://journals.sagepub.com/doi/10.3102/0162373713507480",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X23000169",
-          "title": "https://www.sciencedirect.com/science/article/pii/S2666920X23000169",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://psycnet.apa.org/doi/10.1037/a0032447",
-          "title": "https://psycnet.apa.org/doi/10.1037/a0032447",
+          "url": "https://example.com/mock/q051",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.1177/2332858416673968",
-          "title": "https://journals.sagepub.com/doi/10.1177/2332858416673968",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "title": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 54
+      "last_verified": "2026-08-24",
+      "added_edition": 162
     }
   ],
-  "answer_summary": "The promise of artificial intelligence in education rests substantially on a body of research into intelligent tutoring systems — software that adapts instructional content to individual learners in real time. Decades of peer reviewed work, culminating in several meta analyses, suggest these systems can meaningfully improve learning outcomes.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q051. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What does current peer reviewed evidence show about the effects of AI tutoring systems on learning outcomes, and how strong is that evidence?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

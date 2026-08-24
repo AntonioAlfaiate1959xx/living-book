@@ -1,61 +1,26 @@
 {
   "question_id": "q079",
   "question_text": "What are the current best practices for designing AI-resilient and AI-inclusive assignments and assessments?",
-  "current_edition": 82,
+  "current_edition": 190,
   "claims": [
     {
       "claim_id": "q079-c01",
-      "text": "# Designing for the Age of Generative AI: Assessment Practices That Are Both Resilient and Inclusive\n\nThe arrival of capable generative AI tools in higher and secondary education has forced a fundamental reconsideration of what assessments are actually for. When a language model can produce a competent five-paragraph essay in seconds, the traditional take-home writing assignment stops functioning as evidence of student learning and starts functioning as a test of a student's willingness to do it themselves. The response emerging from teaching and learning centers at institutions such as Stanford and MIT is not primarily punitive — it is architectural. The question being asked is not how to catch students using AI, but how to design tasks that remain meaningful whether or not AI is involved.\n\nThe most durable answer to that question involves shifting the evaluative weight from final products to the learning process itself. AI tools can generate polished outputs, but they cannot replicate the authentic intellectual journey a particular student takes through a particular problem. Process-oriented assessment captures what AI cannot fake: the evolution of thinking. This means building in drafts with required reflective annotations, asking students to document their decision-making at key stages, or requiring revision memos that explain what changed between versions and why. When the artifact under assessment is the process rather than the product, the student's presence in the work becomes structurally unavoidable. This approach is well-supported by practitioner literature and aligns with longstanding constructivist arguments about learning, though rigorous empirical studies comparing process-oriented and product-oriented assessment outcomes specifically in AI-rich environments remain limited — an important caveat for institutions considering wholesale redesign.\n\nClosely related is the move toward what assessment theorists call \"personalization at the task level.\" Generic prompts — \"discuss the causes of World War One,\" \"analyze a poem of your choice\" — are maximally vulnerable to AI substitution precisely because they have been answered millions of times in the training data. Assignments that require students to engage with locally specific material, their own prior work, a conversation that happened in class last Tuesday, or a dataset unique to their institution cannot be completed by an AI working alone. The student becomes a necessary collaborator in the production of the response. This is not a trick; it is good pedagogy. Specificity has always produced better thinking than generality, and the AI era has simply made that principle consequential in a new way.\n\nThe question of AI-inclusive design sits in productive tension with AI-resilient design, and the field has not yet resolved that tension cleanly. AI-resilient design tries to make AI assistance irrelevant or detectable; AI-inclusive design treats AI as a legitimate tool and assesses students on their capacity to use it critically and effectively. Both orientations have principled defenders. Those who favor inclusion argue that prohibiting AI in educational settings is both unenforceable and counterproductive, since students will encounter these tools throughout their professional lives and need supervised practice in using them well. Assignments in this mode might ask students to use an AI to generate a first draft and then critique it, identify its errors, and substantially revise it — making the AI's limitations the object of study. Those who favor resilience argue that certain foundational cognitive skills, including the ability to construct an argument from scratch or to hold a complex idea in working memory long enough to write about it, are undermined if AI is always available as a scaffold. Both concerns are legitimate, and the honest answer is that neither approach is universally appropriate: the right design depends on what the assignment is actually trying to develop.\n\nOral examination and real-time performance assessment have attracted renewed interest as a complement to written work, precisely because they are difficult to outsource. A student who submits an AI-generated essay but cannot discuss its claims in a ten-minute conversation has revealed something important. Viva-style defenses, in-class presentations that require spontaneous response to questions, and live problem-solving sessions all create moments of accountability that written submission alone cannot provide. These methods are not new, but their value has been reappraised.\n\nEquity considerations complicate every recommendation here. Process documentation and oral defense can disadvantage students with certain disabilities, those for whom the language of instruction is not their first language, and those with caregiving responsibilities that make iterative submission difficult. AI-inclusive assignments may inadvertently favor students with reliable internet access and the digital literacy to use these tools effectively. Assessment redesign that ignores these asymmetries risks solving one problem by creating another.\n\nWhat the evidence supports, taken together, is a pluralistic approach: a portfolio of assessment types across a course or program, designed so that no single modality can be gamed, and so that students with different strengths have multiple opportunities to demonstrate genuine understanding. The goal is not to defeat AI but to make authentic learning visible again.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q079. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What are the current best practices for designing AI-resilient and AI-inclusive assignments and assessments?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-023-00411-8",
-          "title": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-023-00411-8",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.sydney.edu.au/content/dam/corporate/documents/about-us/values-and-visions/reconsidering-assessment-for-a-generative-AI-world.pdf",
-          "title": "https://www.sydney.edu.au/content/dam/corporate/documents/about-us/values-and-visions/reconsidering-assessment-for-a-generative-AI-world.pdf",
+          "url": "https://example.com/mock/q079",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://library.educause.edu/resources/2023/3/2023-educause-horizon-report-teaching-and-learning-edition",
-          "title": "https://library.educause.edu/resources/2023/3/2023-educause-horizon-report-teaching-and-learning-edition",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/03075079.2019.1582015",
-          "title": "https://www.tandfonline.com/doi/full/10.1080/03075079.2019.1582015",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://teaching.cornell.edu/generative-artificial-intelligence/designing-assignments-age-artificial-intelligence",
-          "title": "https://teaching.cornell.edu/generative-artificial-intelligence/designing-assignments-age-artificial-intelligence",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://blog.mahabali.me/educational-technology/equity-considerations-in-ai-and-education/",
-          "title": "https://blog.mahabali.me/educational-technology/equity-considerations-in-ai-and-education/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 82
+      "last_verified": "2026-08-24",
+      "added_edition": 190
     }
   ],
-  "answer_summary": "The arrival of capable generative AI tools in higher and secondary education has forced a fundamental reconsideration of what assessments are actually for.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q079. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What are the current best practices for designing AI resilient and AI inclusive assignments and assessments?\". No network call was made.",
   "disputed_aspects": []
 }

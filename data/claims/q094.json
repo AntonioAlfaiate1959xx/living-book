@@ -1,61 +1,26 @@
 {
   "question_id": "q094",
   "question_text": "What benchmarks and audits exist for evaluating the pedagogical quality, safety, and bias of educational AI models themselves?",
-  "current_edition": 97,
+  "current_edition": 205,
   "claims": [
     {
       "claim_id": "q094-c01",
-      "text": "## Measuring What Matters: Benchmarks, Audits, and the Evaluation of Educational AI\n\nThe rapid deployment of AI systems in educational settings has outpaced the development of rigorous frameworks for evaluating them. What tools exist tend to measure what is easiest to quantify — factual knowledge, surface-level accuracy, demographic parity in outputs — rather than the qualities that most determine whether an AI system genuinely serves learners. The result is a landscape of evaluation infrastructure that is technically sophisticated in some respects and strikingly underdeveloped in others.\n\nThe most widely cited benchmark for assessing AI knowledge in academic domains is the Massive Multitask Language Understanding benchmark, developed by Hendrycks and colleagues at UC Berkeley in 2020. MMLU tests model performance across 57 subjects spanning STEM, the humanities, and the social sciences, and has become a near-universal fixture in model cards and capability leaderboards. Its appeal is understandable: it offers a standardised, reproducible measure of whether a model commands the factual and reasoning content that education requires. A model that cannot correctly answer questions about cell biology or the causes of the First World War is unlikely to be a reliable tutor in those subjects.\n\nYet education researchers have consistently noted a critical limitation of MMLU and benchmarks like it: they measure knowledge coverage, not pedagogical quality. Knowing something and being able to teach it are distinct competencies. A model that scores at the 90th percentile on MMLU may still explain concepts in ways that are developmentally inappropriate, fail to detect a student's misconception, offer feedback that discourages rather than scaffolds, or present information in a sequence that undermines rather than builds understanding. None of these failures would register on a knowledge benchmark. The gap between \"what the model knows\" and \"how well the model teaches\" remains largely unmeasured by existing standardised tools.\n\nThis gap has prompted efforts to develop more pedagogically oriented evaluation frameworks, though these remain emergent rather than established. Researchers have proposed rubrics drawn from learning science — assessing whether AI responses demonstrate awareness of prior knowledge, whether they use worked examples appropriately, whether they prompt metacognitive reflection — but no single framework has achieved the consensus or adoption that MMLU enjoys for knowledge testing. The field is, in this respect, still in a pre-standardisation phase, with individual research groups and edtech developers applying heterogeneous criteria that make cross-system comparison difficult.\n\nOn the safety and harm-prevention side, evaluation is somewhat more developed, though still contested. Red-teaming exercises — in which human evaluators systematically attempt to elicit harmful, inappropriate, or misleading outputs — have become a standard part of pre-deployment testing for large language models, including those used in educational contexts. Organisations such as Anthropic, OpenAI, and Google DeepMind publish safety evaluations as part of their model documentation, and third-party auditors have begun to apply structured adversarial testing to educational AI products. However, the scope and rigour of these audits vary considerably, and there is no independent regulatory body with the authority to certify educational AI systems as safe in the way that, say, pharmaceutical regulators certify drugs. Safety evaluation in this domain remains largely voluntary and self-reported.\n\nBias auditing presents a similarly mixed picture. Established techniques from algorithmic fairness research — measuring differential performance across demographic groups, testing for stereotyped associations in generated text, examining whether feedback quality varies by the perceived identity of the student — have been applied to educational AI systems with some regularity. Studies have found, for instance, that some AI writing feedback tools perform less accurately on text written in African American Vernacular English, and that AI-generated examples and illustrations default to culturally specific assumptions that may alienate learners from non-Western contexts. These findings are reasonably well-documented. What remains contested is how to weigh and remediate such disparities: whether demographic parity in output quality is the right target, how to handle trade-offs between fairness criteria, and whether bias audits conducted at the model level adequately capture harms that emerge only in specific deployment contexts.\n\nA further structural problem is that most existing benchmarks and audits evaluate AI models in isolation, rather than as they function within actual educational environments. A model's behaviour when integrated into a learning management system, shaped by institutional prompts, and used by students under time pressure may differ substantially from its behaviour in a controlled evaluation setting. Ecological validity — the degree to which evaluation conditions resemble real use — is a recognised weakness across the field.\n\nWhat emerges from this survey is a clear asymmetry: the technical infrastructure for measuring factual knowledge is relatively mature, while the tools for evaluating pedagogical quality, contextual safety, and equitable impact remain fragmented and underdeveloped. Closing that gap is less a technical challenge than an institutional one, requiring collaboration between learning scientists, AI developers, independent auditors, and the educators and students who bear the consequences of getting it wrong.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q094. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What benchmarks and audits exist for evaluating the pedagogical quality, safety, and bias of educational AI models themselves?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2009.03300",
-          "title": "https://arxiv.org/abs/2009.03300",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.oecd.org/education/generative-ai-and-the-future-of-education-17c4a272-en.htm",
-          "title": "https://www.oecd.org/education/generative-ai-and-the-future-of-education-17c4a272-en.htm",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://writing.mit.edu/sites/default/files/resources/Perelman_BABEL_Generator.pdf",
-          "title": "https://writing.mit.edu/sites/default/files/resources/Perelman_BABEL_Generator.pdf",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://incidentdatabase.ai/",
-          "title": "https://incidentdatabase.ai/",
+          "url": "https://example.com/mock/q094",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://deepmind.google/discover/blog/learnlm-improving-gemini-for-learning/",
-          "title": "https://deepmind.google/discover/blog/learnlm-improving-gemini-for-learning/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 97
+      "last_verified": "2026-08-24",
+      "added_edition": 205
     }
   ],
-  "answer_summary": "The rapid deployment of AI systems in educational settings has outpaced the development of rigorous frameworks for evaluating them. What tools exist tend to measure what is easiest to quantify — factual knowledge, surface level accuracy, demographic parity in outputs — rather than the qualities that most determine whether an AI system genuinely serves learners.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q094. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What benchmarks and audits exist for evaluating the pedagogical quality, safety, and bias of educational AI models themselves?\". No network call was made.",
   "disputed_aspects": []
 }

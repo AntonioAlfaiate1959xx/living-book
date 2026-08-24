@@ -1,61 +1,26 @@
 {
   "question_id": "q074",
   "question_text": "How are examination and credentialing bodies redesigning high-stakes assessment for the AI era?",
-  "current_edition": 77,
+  "current_edition": 185,
   "claims": [
     {
       "claim_id": "q074-c01",
-      "text": "# High-Stakes Assessment in the Age of Artificial Intelligence\n\nThe arrival of capable generative AI systems has forced examination and credentialing bodies into a reckoning that many had deferred for decades. When a large language model can produce a competent essay, solve structured problems, and navigate multiple-choice formats with accuracy that rivals or exceeds the average candidate, the validity of traditional written examinations as measures of individual knowledge becomes genuinely difficult to defend. The response from major testing organisations has been neither uniform nor fully resolved, but a discernible set of strategic directions has emerged.\n\nThe most significant structural shift is the move toward assessment formats that resist AI delegation — not by detecting AI use after the fact, but by designing tasks that require real-time human presence and reasoning. The International Baccalaureate announced in 2023 that it was conducting a comprehensive review of its entire assessment portfolio, with particular attention to components that could be completed outside supervised conditions. This reflects a broader recognition among credentialing bodies that the traditional take-home essay and unsupervised coursework component, long valued for allowing extended reflection, have become epistemically compromised. When the process of composition can be outsourced invisibly, the product can no longer reliably attest to the producer's understanding.\n\nOral examinations and live performance tasks have consequently attracted renewed institutional interest. These formats are not new — viva voce examinations have existed in European universities for centuries — but they had been progressively marginalised in mass credentialing systems on grounds of cost, scalability, and concerns about inter-rater reliability. AI has reversed that calculus, at least partially. A candidate who cannot explain, defend, or extend their written work under direct questioning is exposed in ways that no detection algorithm can achieve. Several professional credentialing bodies in law, medicine, and accountancy have moved to expand the proportion of assessment conducted under direct observation, whether in person or via proctored video examination.\n\nYet the shift is not without genuine tensions. Oral and performance-based assessments introduce their own validity threats, particularly around equity. Research on viva examinations consistently shows that candidates from certain linguistic, cultural, and socioeconomic backgrounds perform differently under oral conditions than their written work would predict — and not always in ways that reflect underlying competence rather than familiarity with the register and conventions of academic discourse. Scaling oral assessment to the hundreds of thousands of candidates who sit major school-leaving or professional examinations each year also raises serious logistical and financial questions that remain unresolved. The equity concern is not merely theoretical: if AI-resistant formats systematically disadvantage already-marginalised groups, the cure may introduce new distortions even as it addresses old ones.\n\nA parallel and somewhat different approach involves redesigning written assessments to require the kind of situated, contextual, and process-visible reasoning that AI cannot straightforwardly supply. This includes examinations that ask candidates to analyse novel, locally specific, or deliberately incomplete information — material that would not appear in any training corpus — and to show their reasoning in stages rather than simply producing a final answer. Some bodies have experimented with requiring candidates to annotate their own drafts, respond to examiner interventions mid-task, or complete assessments in two stages, with the second stage conducted under supervision and explicitly building on the first. These designs attempt to preserve the cognitive richness of extended writing tasks while reintroducing the kind of accountability that supervised conditions provide.\n\nThere is also a contested debate about whether AI should be excluded from high-stakes assessment at all, or whether the more honest response is to redesign what is being assessed. Proponents of AI-integrated assessment argue that if professional practice in law, medicine, engineering, and virtually every other field will involve working alongside AI tools, then assessing candidates in conditions that prohibit those tools produces a credential of diminishing real-world validity. On this view, the examination of the future should assess how well a candidate can direct, evaluate, and critically interrogate AI-generated outputs — skills that are genuinely difficult to fake and genuinely important to cultivate. This position remains a minority one among established credentialing bodies, most of which have opted for restriction rather than integration, but it is gaining traction in some professional and higher education contexts.\n\nWhat is clear is that no single solution has achieved consensus, and the field is in a period of active, sometimes anxious, experimentation. Detection-based approaches — software designed to identify AI-generated text — have proven unreliable, with documented rates of both false positives and false negatives that make them unsuitable as the primary line of defence in high-stakes contexts. The more durable responses are structural: changing what is assessed, how it is observed, and what counts as evidence of genuine understanding. The examination systems that emerge from this period will likely look meaningfully different from those that preceded it, though the shape of that difference remains, for now, genuinely open.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q074. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How are examination and credentialing bodies redesigning high-stakes assessment for the AI era?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.ibo.org/news/news-posts/2023/ib-assessment-and-ai/",
-          "title": "https://www.ibo.org/news/news-posts/2023/ib-assessment-and-ai/",
-          "type": "news",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://satsuite.collegeboard.org/digital",
-          "title": "https://satsuite.collegeboard.org/digital",
+          "url": "https://example.com/mock/q074",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.ncbex.org/nextgen-bar-exam/",
-          "title": "https://www.ncbex.org/nextgen-bar-exam/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.aicpa-cima.com/professional-insights/article/cpa-evolution-the-new-cpa-exam",
-          "title": "https://www.aicpa-cima.com/professional-insights/article/cpa-evolution-the-new-cpa-exam",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/generative-ai-in-assessments",
-          "title": "https://www.gov.uk/government/publications/generative-ai-in-assessments",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.jcq.org.uk/exams-office/malpractice/ai-use-in-assessments/",
-          "title": "https://www.jcq.org.uk/exams-office/malpractice/ai-use-in-assessments/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 77
+      "last_verified": "2026-08-24",
+      "added_edition": 185
     }
   ],
-  "answer_summary": "The arrival of capable generative AI systems has forced examination and credentialing bodies into a reckoning that many had deferred for decades.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q074. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How are examination and credentialing bodies redesigning high stakes assessment for the AI era?\". No network call was made.",
   "disputed_aspects": []
 }

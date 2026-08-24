@@ -1,62 +1,27 @@
 {
   "question_id": "q003",
   "question_text": "Does human knowledge lose or change its value when it is no longer scarce?",
-  "current_edition": 6,
+  "current_edition": 114,
   "claims": [
     {
       "claim_id": "q003-c01",
-      "text": "## When Knowledge Is No Longer Scarce: Value, Expertise, and the Human Mind in the Age of AI\n\nFor most of recorded history, the value of human knowledge rested substantially on its scarcity. A physician, lawyer, or engineer commanded social authority and economic reward precisely because they possessed what others did not. Classical economic theory formalises this intuition: when supply is constrained relative to demand, price rises. Applied to expertise, the asymmetry between the knowledgeable and the ignorant was not merely a market phenomenon but a structuring principle of professional life, educational credentialing, and social hierarchy. Artificial intelligence, by making vast stores of specialised knowledge instantly and cheaply accessible, is now disrupting that asymmetry in ways that force a fundamental reconsideration of what human knowledge is actually for, and what kinds of value it can still claim.\n\nThe most immediate disruption is economic. When a large language model can produce a competent legal summary, draft a differential diagnosis, or explain a tax code provision in plain language, the informational monopoly that once justified professional fees begins to erode. Economists studying the knowledge economy have described this as a credentialism paradox: credentials were designed to signal mastery of scarce knowledge, but if that knowledge is no longer scarce, the signal loses some of its meaning. This does not imply that doctors and lawyers will disappear, but it does suggest that the portion of their value derived purely from information possession — as opposed to judgment, accountability, and relational trust — is under genuine pressure. The economic value of knowing a fact is collapsing; the economic value of knowing what to do with a fact, in a specific human context, with real consequences, is not.\n\nThis distinction between information and judgment points toward what researchers describe as a revaluation rather than a devaluation of human knowledge. Scarcity-based value is one kind of value, but it is not the only kind. A sunset is not less beautiful because many people can see it. A mathematical proof is not less true because it appears in a textbook. What AI abundance arguably strips away is the rent extracted from informational gatekeeping, while leaving intact — and perhaps even clarifying — the forms of value that were never really about scarcity in the first place: the capacity to reason under uncertainty, to exercise ethical judgment, to integrate knowledge with lived experience, and to bear genuine responsibility for decisions that affect other people.\n\nThere is, however, a more unsettling possibility that deserves honest acknowledgment. If human knowledge is acquired partly through the effortful process of learning — through struggle, error, and the slow construction of mental models — then a world in which that effort can be bypassed may produce people who hold credentials without the underlying cognitive architecture those credentials were meant to represent. This is an emerging and contested concern rather than an established finding, but it is not a trivial one. The worry is not simply that AI makes knowledge cheap to access, but that it may make the formation of genuine understanding less likely to occur, particularly if educational systems adapt by reducing the demands they place on students. Whether this represents a loss of value in human knowledge, or merely a failure to cultivate it, is a distinction worth preserving.\n\nA further dimension concerns the social and epistemic functions of shared knowledge. Expertise has never been purely individual; it is embedded in communities of practice, in peer review, in the accumulated judgment of people who have spent years working within a domain. AI systems are trained on the outputs of those communities but do not participate in them. They do not have reputations to protect, patients to face, or colleagues to persuade. The relational and institutional dimensions of human expertise — the fact that a human expert is accountable, embedded, and morally implicated in their judgments — represent a form of value that abundance of information cannot replicate or replace.\n\nWhat the evidence suggests, taken together, is that the scarcity model of knowledge value was always a partial account. It captured something real about markets and professional power, but it obscured the deeper sources of value in human understanding: the capacity for contextual judgment, the integration of knowledge with ethical responsibility, the ability to generate genuinely new ideas rather than recombine existing ones, and the social trust that flows from accountability. AI does not destroy these capacities, but it does make them more visible by stripping away the informational rents that once surrounded them.\n\nThe honest conclusion is that human knowledge is undergoing a change in the structure of its value rather than a simple loss of it. What diminishes is the premium attached to mere possession of information. What remains — and what education must now more deliberately cultivate — is the harder, less automatable work of understanding deeply, judging wisely, and taking responsibility for the consequences of what one knows.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q003. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Does human knowledge lose or change its value when it is no longer scarce?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
-          "title": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+          "url": "https://example.com/mock/q003",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.cambridge.org/core/books/virtues-of-the-mind/",
-          "title": "https://www.cambridge.org/core/books/virtues-of-the-mind/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.science.org/doi/10.1126/science.1207745",
-          "title": "https://www.science.org/doi/10.1126/science.1207745",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
-          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://press.uchicago.edu/ucp/books/book/chicago/R/bo4857893.html",
-          "title": "https://press.uchicago.edu/ucp/books/book/chicago/R/bo4857893.html",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/13562517.2020.1852202",
-          "title": "https://www.tandfonline.com/doi/full/10.1080/13562517.2020.1852202",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 6
+      "last_verified": "2026-08-24",
+      "added_edition": 114
     }
   ],
-  "answer_summary": "For most of recorded history, the value of human knowledge rested substantially on its scarcity. A physician, lawyer, or engineer commanded social authority and economic reward precisely because they possessed what others did not. Classical economic theory formalises this intuition: when supply is constrained relative to demand, price rises.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q003. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Does human knowledge lose or change its value when it is no longer scarce?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

@@ -1,62 +1,27 @@
 {
   "question_id": "q023",
   "question_text": "What pedagogical models (Socratic, constructivist, mastery-based) does AI enable at scale for the first time?",
-  "current_edition": 109,
+  "current_edition": 134,
   "claims": [
     {
       "claim_id": "q023-c01",
-      "text": "# Pedagogical Models AI Enables at Scale\n\nFor most of recorded educational history, the most powerful ways of teaching have also been the most expensive to deliver. The Socratic dialogue, constructivist project work, and mastery-based progression each demand something that mass schooling has never been able to provide in abundance: sustained, individualised attention that adapts in real time to a single learner's current state of understanding. What large language models and modern AI tutoring systems appear to offer, for the first time, is the possibility of decoupling pedagogical quality from the scarcity of expert human time.\n\nThe Socratic method is perhaps the clearest case. Its defining feature is not the asking of questions per se, but the asking of the *right* question at the *right* moment — one that exposes a specific flaw in a specific learner's reasoning and invites them to repair it through their own effort. This demands a responsive, knowledgeable interlocutor capable of tracking the logical structure of a student's argument and probing its weakest point. Historically, that interlocutor had to be a trained human being, which confined genuine Socratic exchange to elite seminars, one-on-one tutorials at well-resourced universities, and the occasional exceptional classroom teacher with a small enough group to manage it. Research from MIT and Harvard's collaborative work on AI tutoring systems has demonstrated that large language models can sustain this kind of adaptive dialogue at scale — posing follow-up questions calibrated to a student's prior response, withholding direct answers, and guiding learners toward self-correction rather than passive reception. The pedagogical significance is considerable: what was once an aristocratic luxury of the Oxford tutorial or the Socratic seminar becomes, in principle, available to any student with a device and a connection.\n\nConstructivism presents a related but distinct challenge. Where Socratic dialogue is primarily conversational, constructivist pedagogy is primarily experiential — it holds that durable understanding is built through active knowledge construction, often in the context of authentic, complex problems. The difficulty of delivering this at scale has always been logistical: designing rich project environments, providing timely feedback on open-ended work, and scaffolding learners who are stuck without simply giving them the answer. AI systems address several of these bottlenecks simultaneously. Generative models can serve as on-demand scaffolding partners, helping students who are mid-project to articulate what they know, identify what they need to find out, and plan next steps — without collapsing the productive struggle that constructivist theory regards as essential to learning. Simulation environments powered by AI can create the kind of authentic, consequence-bearing contexts — scientific modelling, historical role-play, engineering design — that constructivist educators have long advocated but rarely been able to provide to large cohorts. Whether AI scaffolding genuinely preserves the epistemic struggle constructivism values, or subtly short-circuits it by being too helpful too quickly, remains an open and important question in the research literature.\n\nMastery-based learning has perhaps the longest prior history of attempted technological implementation, and the clearest evidence base. The core principle — that students should demonstrate genuine competence at each stage before advancing, rather than moving in lockstep with a cohort regardless of individual readiness — was articulated by Benjamin Bloom in the 1960s and 1970s, and his research suggested it could produce dramatic improvements in achievement. The obstacle was always implementation: in a classroom of thirty students, a teacher cannot simultaneously assess each learner's mastery of a concept and provide differentiated instruction to those who have not yet achieved it. Early computer-based learning systems attempted to automate this, with limited success, largely because their models of student knowledge were too coarse. Contemporary AI tutoring systems, drawing on probabilistic knowledge-tracing algorithms and large training datasets, can maintain fine-grained models of what individual students know and do not know, identify the specific misconceptions underlying errors, and route learners through personalised sequences of practice and instruction. The evidence here is among the strongest in AI-education research: systems like those studied in large-scale randomised trials have produced learning gains equivalent to moving a student from the fiftieth to the ninety-eighth percentile under idealised conditions, though real-world implementations consistently show more modest effects.\n\nThe honest qualification running through all three cases is that AI enables these models *in approximation*, not in their fullest form. An LLM conducting Socratic dialogue may miss subtle conceptual errors that a domain expert would catch. AI scaffolding in constructivist projects may not replicate the social and collaborative dimensions that many constructivists regard as constitutive of the method, not merely incidental to it. Mastery systems depend on the quality of their underlying knowledge models, which remain imperfect. What AI has genuinely accomplished is the removal of the most binding constraint — the scarcity of responsive, individualised attention — while leaving open the question of how faithfully the resulting experience realises the pedagogical ideals it approximates.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q023. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What pedagogical models (Socratic, constructivist, mastery-based) does AI enable at scale for the first time?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.khanacademy.org/khan-labs",
-          "title": "https://www.khanacademy.org/khan-labs",
+          "url": "https://example.com/mock/q023",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-08-19",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "title": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "type": "academic",
-          "retrieved": "2026-08-19",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.carnegielearning.com/research/",
-          "title": "https://www.carnegielearning.com/research/",
-          "type": "practitioner",
-          "retrieved": "2026-08-19",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2011.611369",
-          "title": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2011.611369",
-          "type": "academic",
-          "retrieved": "2026-08-19",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.rand.org/pubs/research_reports/RRA956-1.html",
-          "title": "https://www.rand.org/pubs/research_reports/RRA956-1.html",
-          "type": "practitioner",
-          "retrieved": "2026-08-19",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1816214",
-          "title": "https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1816214",
-          "type": "academic",
-          "retrieved": "2026-08-19",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-08-19",
-      "added_edition": 109
+      "last_verified": "2026-08-24",
+      "added_edition": 134
     }
   ],
-  "answer_summary": "For most of recorded educational history, the most powerful ways of teaching have also been the most expensive to deliver.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q023. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What pedagogical models (Socratic, constructivist, mastery based) does AI enable at scale for the first time?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

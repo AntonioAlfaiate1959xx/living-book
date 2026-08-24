@@ -1,62 +1,27 @@
 {
   "question_id": "q011",
   "question_text": "Who is responsible when an AI teaches something false, biased, or harmful to a student?",
-  "current_edition": 14,
+  "current_edition": 122,
   "claims": [
     {
       "claim_id": "q011-c01",
-      "text": "## When AI Gets It Wrong: Responsibility, Accountability, and the Governance of Harm in Educational AI\n\nWhen an AI system tells a student something false, reinforces a harmful stereotype, or delivers content that causes psychological or intellectual damage, the question of who bears responsibility proves far more complicated than it might initially appear. Unlike a textbook with a named author or a teacher with a professional licence, AI educational systems are the product of layered decisions made by multiple parties across long chains of development and deployment. Scholars studying AI governance have identified what they term an \"accountability gap\" — a structural condition in which responsibility is so widely distributed that no single actor can be straightforwardly held to account, even when harm is clear and documented.\n\nThat distribution typically spans at least four parties. The AI developer designs and trains the underlying model, making foundational choices about data sources, safety filters, and the boundaries of acceptable output. The educational technology vendor deploys and customises that model for classroom use, often adding proprietary interfaces, content libraries, and behavioural constraints. The institution — a school district, university, or training provider — procures the system, configures it for local use, and decides which students will interact with it under what conditions. Finally, the teacher or instructor integrates the tool into pedagogical practice, mediating between the system's outputs and the student's learning experience. Each of these actors makes decisions that shape what a student ultimately encounters, and each can, in principle, point to the decisions of the others when something goes wrong.\n\nThis diffusion of agency is not merely an administrative inconvenience; it has real consequences for students seeking redress. A student who receives confidently stated misinformation from an AI tutor, or who is systematically underestimated by an adaptive learning system trained on historically biased data, faces the daunting task of identifying which link in the chain failed. Did the model hallucinate because the developer's training data was inadequate? Did the vendor fail to implement sufficient fact-checking mechanisms? Did the institution deploy the tool in a subject domain for which it was never validated? Did the teacher fail to exercise the critical oversight that professional responsibility demands? In practice, the answer is often some combination of all four — which is precisely what makes accountability so elusive.\n\nThe three categories of harm — false information, bias, and harmful content — each implicate the accountability chain somewhat differently. Factual error, or \"hallucination\" in the technical vocabulary, is most directly traceable to model design and training, placing primary responsibility on developers. Yet vendors who market a system as suitable for high-stakes academic instruction, and institutions that deploy it without adequate human oversight, share in the culpability when students act on false information. Bias presents a more structurally embedded problem: AI systems trained on historical data tend to reproduce historical inequities, and research has documented cases in which adaptive educational platforms assign lower-difficulty content to students from certain demographic groups, effectively encoding lower expectations into the learning pathway. Here, responsibility is genuinely shared — developers must audit training data, vendors must test for differential outcomes, and institutions must monitor deployment patterns — but the diffuse nature of the harm makes it easy for each party to treat it as someone else's problem. Harmful content, whether psychologically distressing material or content that reinforces dangerous ideas, raises the sharpest questions about vendor-level content moderation and institutional duty of care toward minors.\n\nThe role of the teacher in this framework is both practically important and ethically contested. There is a well-established argument that professional educators retain a non-delegable duty of care toward their students, meaning that deploying an AI tool does not transfer their responsibility to the technology. On this view, teachers who use AI systems without critically evaluating their outputs, or who allow students to rely on AI instruction without verification, are themselves accountable for foreseeable harms. This position has considerable force, but it also places an unrealistic burden on individual practitioners who may lack the technical literacy to audit AI outputs, who are under institutional pressure to adopt new tools, and who have no meaningful visibility into how the underlying model was built or what its failure modes are.\n\nWhat emerges from this analysis is not a clean assignment of blame but a case for systemic governance. Developers must be held to transparency and safety standards that are externally audited rather than self-certified. Vendors must be required to demonstrate fitness for purpose in specific educational contexts before deployment. Institutions must establish oversight mechanisms that treat AI tools as pedagogical interventions subject to the same scrutiny as any other curriculum decision. And teachers must be supported — through training, time, and institutional backing — to exercise genuine critical oversight rather than nominal supervision. The accountability gap is real, but it is not inevitable. It persists largely because the governance frameworks that would close it have not yet been built.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q011. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Who is responsible when an AI teaches something false, biased, or harmful to a student?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
-          "title": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.ajl.org/take-action/exam-surveillance-harms-students",
-          "title": "https://www.ajl.org/take-action/exam-surveillance-harms-students",
+          "url": "https://example.com/mock/q011",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education",
-          "title": "https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://hai.stanford.edu/news/generative-ai-and-education",
-          "title": "https://hai.stanford.edu/news/generative-ai-and-education",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://cdt.org/insights/hidden-harms-the-misleading-promise-of-monitoring-students-online/",
-          "title": "https://cdt.org/insights/hidden-harms-the-misleading-promise-of-monitoring-students-online/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 14
+      "last_verified": "2026-08-24",
+      "added_edition": 122
     }
   ],
-  "answer_summary": "When an AI system tells a student something false, reinforces a harmful stereotype, or delivers content that causes psychological or intellectual damage, the question of who bears responsibility proves far more complicated than it might initially appear.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q011. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Who is responsible when an AI teaches something false, biased, or harmful to a student?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

@@ -1,61 +1,26 @@
 {
   "question_id": "q100",
   "question_text": "What weak signals today — in research labs, startups, and experimental schools — most plausibly indicate what AI in education will look like in ten years?",
-  "current_edition": 106,
+  "current_edition": 211,
   "claims": [
     {
       "claim_id": "q100-c01",
-      "text": "# Weak Signals: What Today's Experiments Reveal About AI in Education a Decade Hence\n\nThe most reliable way to anticipate the future of any technology is to watch what is working, however imperfectly, at the frontier — in research laboratories, early-adopter schools, and the more serious corners of the startup world. In AI and education, several such signals are now visible, and taken together they sketch a plausible picture of what learning environments might look like by the mid-2030s.\n\nThe clearest and most consequential signal concerns personalised AI tutoring. Benjamin Bloom's 1984 research established that one-on-one human tutoring produces learning gains roughly two standard deviations above conventional classroom instruction — the so-called \"2-sigma\" effect — and that replicating this at scale had defeated every previous technology. Large language model-based systems are now closing that gap faster than any predecessor. Khan Academy's Khanmigo, deployed in 2023 using GPT-4, is an instructive case: rather than delivering answers directly, it engages students in Socratic dialogue, prompting them to reason through problems rather than simply receive solutions. Measured learning gains remain below the full 2-sigma benchmark, and it would be premature to claim the problem is solved. But the trajectory is meaningfully different from earlier adaptive learning software, which could adjust difficulty but could not converse, explain, or respond to the texture of a student's confusion. If the rate of improvement observed in these early deployments continues — itself an open question — AI tutors that approach expert human tutor effectiveness for a wide range of subjects and age groups are a plausible decade-horizon outcome, not a fantasy.\n\nWhat makes this signal particularly significant is not just the performance level but the mechanism. Socratic dialogue is not a gimmick; it reflects a well-established pedagogical principle that durable understanding comes from effortful retrieval and self-explanation rather than passive reception. The fact that LLM-based systems can sustain this kind of exchange — adapting to a student's specific misconceptions, adjusting register, maintaining patience — represents a qualitative shift from anything previously available at scale. The open debate is whether these systems genuinely track understanding or are producing a sophisticated simulacrum of it, and whether students who rely heavily on AI interlocutors develop the metacognitive habits they would acquire through struggle with human teachers and peers. These are not trivial concerns, and they remain unresolved.\n\nA second cluster of weak signals concerns the institutional and pedagogical structures forming around AI tools in experimental schools. Several schools and university programmes are already redesigning curricula on the assumption that AI can handle a substantial portion of direct instruction and practice, repositioning human teachers as designers of learning experiences, coaches for motivation and social development, and guides for the kinds of ethical and creative reasoning that AI handles poorly. This is still marginal — most schools are at the stage of debating whether to permit AI tools at all — but the experimental cases reveal something important: the schools getting the most from AI are those that have rethought the teacher's role rather than simply added a tool to an unchanged classroom. The implication for the decade ahead is that the limiting factor will not primarily be the capability of AI systems but the speed at which institutions, teacher training programmes, and assessment regimes can adapt.\n\nAssessment itself is a third signal worth watching. The traditional essay and the timed examination were already imperfect proxies for learning; in a world where AI can produce competent prose on demand, they become nearly useless as measures of individual understanding. Researchers and some forward-looking institutions are experimenting with dynamic, conversational assessment — oral examinations conducted partly with AI interlocutors, portfolio systems that track reasoning processes rather than final products, and project-based evaluations that require students to make and defend decisions in novel contexts. None of these is yet standard, and there are legitimate concerns about equity and reliability. But the pressure to develop them is real and growing, and the tools to support them are improving.\n\nUnderlying all of these signals is a structural tension that will define the next decade. AI in education has the potential to be profoundly democratising — providing students in under-resourced schools with access to patient, knowledgeable, always-available tutoring that was previously the preserve of the privileged. Khanmigo and its successors are explicitly designed with this aspiration. Yet the same technology, deployed without care, could widen existing gaps: students from wealthier backgrounds, with more sophisticated adult guidance, are likely to use AI tools more effectively, while students without that support may use them in ways that substitute for thinking rather than augmenting it. Whether AI in education proves to be an equaliser or an amplifier of advantage is not determined by the technology alone; it will be determined by policy, teacher preparation, and institutional design.\n\nThe weak signals of today, then, point toward a future in which AI tutoring approaches genuine effectiveness, institutional structures are redesigned around new assumptions about instruction, and assessment is substantially reinvented. Whether that future is equitable and educationally sound depends on choices that are still being made.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q100. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What weak signals today — in research labs, startups, and experimental schools — most plausibly indicate what AI in education will look like in ten years?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.khanacademy.org/khan-labs",
-          "title": "https://www.khanacademy.org/khan-labs",
+          "url": "https://example.com/mock/q100",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://vhil.stanford.edu/research/",
-          "title": "https://vhil.stanford.edu/research/",
-          "type": "academic",
-          "retrieved": "2026-08-11",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.synthesis.com/how-it-works",
-          "title": "https://www.synthesis.com/how-it-works",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.rand.org/pubs/research_reports/RRA956-13.html",
-          "title": "https://www.rand.org/pubs/research_reports/RRA956-13.html",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.media.mit.edu/groups/affective-computing/overview/",
-          "title": "https://www.media.mit.edu/groups/affective-computing/overview/",
-          "type": "academic",
-          "retrieved": "2026-08-11",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.weforum.org/reports/new-vision-for-education-fostering-learning-and-skills-for-the-21st-century/",
-          "title": "https://www.weforum.org/reports/new-vision-for-education-fostering-learning-and-skills-for-the-21st-century/",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-08-11",
-      "added_edition": 106
+      "last_verified": "2026-08-24",
+      "added_edition": 211
     }
   ],
-  "answer_summary": "The most reliable way to anticipate the future of any technology is to watch what is working, however imperfectly, at the frontier — in research laboratories, early adopter schools, and the more serious corners of the startup world.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q100. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What weak signals today — in research labs, startups, and experimental schools — most plausibly indicate what AI in education will look like in ten years?\". No network call was made.",
   "disputed_aspects": []
 }

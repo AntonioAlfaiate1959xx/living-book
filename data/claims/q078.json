@@ -1,61 +1,26 @@
 {
   "question_id": "q078",
   "question_text": "How should a teacher decide, lesson by lesson, when AI use helps learning and when it undermines it — is there a practical decision framework?",
-  "current_edition": 81,
+  "current_edition": 189,
   "claims": [
     {
       "claim_id": "q078-c01",
-      "text": "## When to Use AI in the Classroom: A Practical Framework for Teachers\n\nThe arrival of capable AI tools in education has forced a question that curriculum theory has always circled but never had to answer quite so urgently: when does assistance become substitution, and when does substitution become harm? The answer cannot be given once and applied universally. It must be worked out lesson by lesson, objective by objective, and the research emerging from cognitive psychology and educational practice offers a principled basis for doing so.\n\nThe most durable starting point comes from work on desirable difficulties, a concept developed by Robert Bjork and colleagues over several decades. The core finding is well established: learning is not the same as performance. Conditions that make practice feel easier — removing obstacles, providing immediate answers, smoothing over confusion — tend to improve short-term performance while degrading long-term retention and the ability to transfer knowledge to new contexts. Struggle, when it is productive rather than merely frustrating, is not an obstacle to learning; it is frequently the mechanism of learning. Researchers at the University of Melbourne and elsewhere have applied this directly to AI use, arguing that the central question a teacher must ask before any lesson is whether the AI tool is removing a difficulty that the student needs to encounter, or whether it is removing friction that has no educational value.\n\nThis distinction — between productive and unproductive difficulty — is the axis around which any practical framework must turn. Not all struggle is desirable. A student who cannot access a text because of a language barrier, or who is spending cognitive resources on low-level formatting rather than argumentation, is not benefiting from that difficulty. AI assistance in such cases frees working memory for the intellectual work that actually constitutes the learning objective. By contrast, a student who uses an AI to generate the first draft of an essay, or to solve the mathematical problem before attempting it independently, has offloaded precisely the cognitive process the lesson was designed to develop. The output may look identical; the learning is not.\n\nThis suggests a first practical test: identify what cognitive process the lesson is trying to build, and ask whether AI use would exercise or bypass that process. Writing a thesis statement, constructing a logical argument, debugging code, interpreting a primary source — these are processes, not products. If the AI performs the process, the student has observed rather than practised. If the AI assists with surrounding tasks (checking grammar after drafting, retrieving background information before analysis, formatting after composition), the core process remains intact.\n\nA second dimension concerns the student's current level of expertise, and here the research introduces a genuine tension. There is reasonable evidence that novice learners and expert learners respond differently to the same kind of assistance. For novices, worked examples and guided support reduce unproductive cognitive overload and allow schemas to form; for more advanced learners, the same guidance can paradoxically impede progress by preventing the effortful retrieval and problem-solving that consolidates expertise. This is sometimes called the expertise reversal effect. Applied to AI, it suggests that a tool which genuinely helps a struggling beginner navigate an unfamiliar domain may be actively counterproductive for a student who has sufficient foundation to work independently. The same AI, the same lesson, the same task — but a different verdict depending on where the student sits in their learning trajectory. Teachers must therefore calibrate not just to the task but to the learner, which is demanding but not unprecedented; it is what good differentiation has always required.\n\nA third consideration is metacognitive: does the student know what the AI is doing and why? There is emerging, though not yet conclusive, evidence that students who use AI tools without understanding their own learning process are less able to self-regulate, less likely to notice when they have not understood something, and more likely to conflate fluent output with genuine comprehension. This points toward a pedagogical practice of making AI use explicit and reflective — asking students to articulate what they did themselves, what the AI contributed, and what they would do differently without it. Whether this metacognitive scaffolding reliably improves outcomes is still an open question, but the theoretical basis is sound and the practical cost is low.\n\nTaken together, these lines of research converge on a framework with three sequential questions. First: what is the learning process this lesson is designed to develop? Second: does the proposed AI use exercise or bypass that process, given where this student currently is? Third: is the student positioned to reflect on and regulate their own use of the tool? Where the answers are, respectively, \"clearly identified,\" \"exercises it,\" and \"yes,\" AI use is likely to support learning. Where any answer is uncertain or unfavourable, restraint is warranted — not as technophobia, but as fidelity to what learning actually requires.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q078. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How should a teacher decide, lesson by lesson, when AI use helps learning and when it undermines it — is there a practical decision framework?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995",
-          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.1177/00336882231162868",
-          "title": "https://journals.sagepub.com/doi/10.1177/00336882231162868",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://cft.vanderbilt.edu/2023/04/generative-ai-in-the-classroom/",
-          "title": "https://cft.vanderbilt.edu/2023/04/generative-ai-in-the-classroom/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
-          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.oneusefulthing.org/p/the-homework-apocalypse",
-          "title": "https://www.oneusefulthing.org/p/the-homework-apocalypse",
+          "url": "https://example.com/mock/q078",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 81
+      "last_verified": "2026-08-24",
+      "added_edition": 189
     }
   ],
-  "answer_summary": "The arrival of capable AI tools in education has forced a question that curriculum theory has always circled but never had to answer quite so urgently: when does assistance become substitution, and when does substitution become harm? The answer cannot be given once and applied universally.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q078. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How should a teacher decide, lesson by lesson, when AI use helps learning and when it undermines it — is there a practical decision framework?\". No network call was made.",
   "disputed_aspects": []
 }

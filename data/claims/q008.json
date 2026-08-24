@@ -1,62 +1,27 @@
 {
   "question_id": "q008",
   "question_text": "How does AI reshape our concept of intelligence itself — and the way schools measure and reward it?",
-  "current_edition": 11,
+  "current_edition": 119,
   "claims": [
     {
       "claim_id": "q008-c01",
-      "text": "## Intelligence in the Age of Thinking Machines\n\nFor most of the twentieth century, schools operated on a relatively stable, if contested, theory of mind: that intelligence could be meaningfully captured through performance on tasks requiring recall, procedural computation, and structured argumentation. Standardized tests, grades, and credentials were built on this foundation. The arrival of generative AI has not merely complicated that theory — it has exposed its assumptions with unusual clarity, forcing educators, psychologists, and policymakers to ask what human cognitive ability actually means when a machine can produce a well-structured essay, solve a calculus problem, or pass a bar examination in the time it takes a student to sharpen a pencil.\n\nResearchers at the Stanford Graduate School of Education have argued that traditional standardized assessments are, in significant part, measuring the very capacities that AI now performs most fluently. This is not a trivial observation. If a test prizes the retrieval of stored information and the application of learned procedures, and if those operations can be executed instantly by a tool available on any smartphone, then the test is no longer functioning as a reliable proxy for human potential — it is functioning as a measure of how well a student can simulate a machine, or resist using one. The philosophical problem this creates is genuine: schools have long justified their sorting mechanisms by claiming they identify capability. When the capabilities being sorted are precisely those that AI renders abundant and cheap, the justification weakens considerably.\n\nWhat emerges from this pressure is a renewed interest in forms of intelligence that AI handles poorly or not at all. Creativity in its deeper sense — not the generation of novel-sounding text, which AI does readily, but the capacity to identify which problems are worth solving, to tolerate genuine ambiguity, and to make judgments that carry moral weight — remains distinctively human, at least for now. So does what might be called relational intelligence: the ability to read emotional context, to build trust, to navigate the unspoken dimensions of human interaction. Howard Gardner's theory of multiple intelligences, long treated as an interesting but educationally inconvenient framework, has acquired new relevance in this context. If schools have historically rewarded a narrow band of cognitive performance because that band correlated with economic productivity, and if AI is now absorbing much of that productivity, the case for broadening what schools recognize and reward becomes harder to dismiss.\n\nYet this argument must be held carefully. There is a real tension between the claim that AI should push schools toward richer, more humanistic conceptions of intelligence and the equally serious concern that abandoning rigorous cognitive assessment would harm the students who most depend on it. Procedural fluency in mathematics, for instance, is not merely a test-taking skill — it builds the mental structures through which more complex reasoning becomes possible. Research in cognitive science consistently shows that working memory and the internalization of foundational knowledge are prerequisites for genuine expertise, not obstacles to it. If schools respond to AI by devaluing the hard work of acquiring knowledge — reasoning that students can simply look things up or prompt a model — they may inadvertently widen the gap between students who arrive with rich intellectual foundations built at home and those who depend on school to provide them. The equity implications of a too-hasty pivot away from cognitive rigor deserve serious attention.\n\nThe more defensible position, supported by emerging work in educational psychology, is that AI does not render cognitive ability irrelevant but rather changes what cognitive ability needs to accomplish. The capacity to evaluate AI-generated output — to detect its errors, recognize its limitations, and integrate it critically into one's own thinking — is itself a sophisticated intellectual skill, one that requires exactly the kind of deep domain knowledge that schools have traditionally tried to build. A student who cannot read a mathematical argument cannot judge whether an AI's solution is correct. A student with no historical knowledge cannot assess whether an AI's account of a political event is accurate or tendentious. In this sense, AI raises the stakes for genuine understanding rather than lowering them.\n\nWhat is clearly shifting is the way schools measure and reward intelligence. Assessment practices built around closed-book recall are losing their validity not because knowledge is unimportant but because the conditions under which knowledge will actually be used have changed. Portfolio-based assessment, oral examination, project work that requires sustained judgment over time — these approaches, long advocated by progressive educators and long resisted as difficult to standardize, are receiving renewed institutional interest precisely because they are harder for AI to perform on a student's behalf.\n\nThe deeper question AI poses to education is not whether machines are intelligent, but what human intelligence is for. Schools that treat this as merely a technical problem of academic integrity will miss the larger transformation underway. Those that engage it seriously may find themselves building something more honest, and more durable, than what came before.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q008. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How does AI reshape our concept of intelligence itself — and the way schools measure and reward it?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://arxiv.org/abs/2303.12528",
-          "title": "https://arxiv.org/abs/2303.12528",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.oecd.org/education/generative-ai-and-the-future-of-education-17c4a325-en.htm",
-          "title": "https://www.oecd.org/education/generative-ai-and-the-future-of-education-17c4a325-en.htm",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "title": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://journalhosting.ucalgary.ca/index.php/ai/article/view/77076",
-          "title": "https://journalhosting.ucalgary.ca/index.php/ai/article/view/77076",
+          "url": "https://example.com/mock/q008",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.sciencedirect.com/journal/intelligence",
-          "title": "https://www.sciencedirect.com/journal/intelligence",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000376709",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000376709",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 11
+      "last_verified": "2026-08-24",
+      "added_edition": 119
     }
   ],
-  "answer_summary": "For most of the twentieth century, schools operated on a relatively stable, if contested, theory of mind: that intelligence could be meaningfully captured through performance on tasks requiring recall, procedural computation, and structured argumentation. Standardized tests, grades, and credentials were built on this foundation.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q008. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How does AI reshape our concept of intelligence itself — and the way schools measure and reward it?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

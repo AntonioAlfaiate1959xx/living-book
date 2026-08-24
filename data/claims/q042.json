@@ -1,62 +1,27 @@
 {
   "question_id": "q042",
   "question_text": "Who has legitimate authority to govern AI in education — states, markets, professions, or communities — and on what principles?",
-  "current_edition": 45,
+  "current_edition": 153,
   "claims": [
     {
       "claim_id": "q042-c01",
-      "text": "# Who Has Legitimate Authority to Govern AI in Education?\n\nThe question of who should govern artificial intelligence in education is not merely administrative. It touches on foundational disputes about democratic accountability, the nature of professional expertise, the reach of market logic, and the rights of communities to shape the institutions that form their children. No single actor commands uncontested authority, and the emerging governance landscape reflects a genuine contest among states, markets, professions, and communities — each with plausible claims and real limitations.\n\nThe most authoritative normative baseline currently in existence is the UNESCO *Recommendation on the Ethics of Artificial Intelligence*, adopted in 2021 by all 193 member states. This instrument is significant not because international recommendations carry binding legal force — they do not — but because it represents the broadest multilateral consensus yet achieved on the principles that should govern AI, including in educational settings. UNESCO positions governments as the primary locus of legitimate authority, calling on states to develop national AI strategies grounded in human rights, human dignity, non-discrimination, and transparency. The logic is straightforward: states are the entities that bear legal obligations under international human rights law, that can compel compliance, and that are — at least in democratic systems — accountable to the populations they govern. Education, moreover, has long been understood as a public good and a state responsibility, which strengthens the case for public authority over the technologies that increasingly mediate it.\n\nYet state authority is neither uniform nor unproblematic. Governments vary enormously in their capacity to regulate sophisticated AI systems, and in many jurisdictions the technical expertise required to audit algorithmic decision-making simply does not exist within public institutions. There is also a structural tension: states are simultaneously regulators of AI in education and, in many cases, enthusiastic procurers of it. When a ministry of education deploys an AI-driven assessment platform across a national school system, it occupies both sides of the governance relationship at once, which creates obvious accountability gaps. In authoritarian contexts, state authority over educational AI raises sharper concerns still — the same infrastructure that personalises learning can surveil students and enforce ideological conformity.\n\nMarkets have, in practice, exercised enormous de facto authority over AI in education, largely because the pace of commercial development has outrun regulatory capacity. EdTech companies have shaped what tools are available, what data are collected, and what pedagogical assumptions are embedded in algorithmic systems, often with minimal public oversight. The market's defenders argue that competition drives innovation and that consumer choice — by schools, districts, or families — constitutes a form of distributed governance. The difficulty is that educational markets are rarely competitive in any robust sense: network effects, data lock-in, and the complexity of evaluating AI systems give incumbent vendors structural advantages, while the costs of poor algorithmic decisions fall on students who had no voice in procurement. Market governance, in short, tends to distribute authority toward those with capital and away from those most affected.\n\nProfessional authority offers a different kind of claim. Teachers, school psychologists, curriculum specialists, and educational researchers possess domain knowledge that neither states nor markets reliably hold: they understand child development, learning theory, and the contextual judgements that good teaching requires. There is a growing argument — still more normative than institutionalised — that professional bodies should play a formal role in certifying AI tools for educational use, analogous to the role medical associations play in evaluating clinical technologies. This would ground governance in pedagogical expertise rather than commercial interest or bureaucratic procedure. The limitation is that professional bodies can be slow, conservative, and sometimes captured by incumbent interests of their own; and in many countries, teaching lacks the institutional infrastructure — the licensing boards, the research capacity, the political independence — that would make strong professional governance feasible.\n\nCommunity authority represents perhaps the most democratically compelling claim, and the least institutionally developed. Parents, students, and local communities have direct stakes in how AI shapes educational experience, and there is a reasonable argument that those most affected by a technology should have meaningful input into its governance. Some jurisdictions have experimented with community consultation requirements for AI procurement, and data rights frameworks increasingly recognise parental and student rights over educational data. But community governance faces real challenges of scale, technical literacy, and representation: whose community, and who speaks for it?\n\nWhat the evidence suggests is that no single authority is adequate on its own. State governance provides the human-rights framework and the coercive capacity that accountability requires, but needs to be disciplined by genuine democratic participation and supplemented by professional expertise. Markets can drive useful innovation but require robust public regulation to prevent the externalisation of harm onto students. Professions can contribute essential pedagogical judgement but need institutional strengthening. Communities deserve meaningful voice, not merely consultation theatre. The most defensible governance architecture is therefore pluralist and layered — with human rights principles, established through multilateral consensus, setting the non-negotiable floor.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q042. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Who has legitimate authority to govern AI in education — states, markets, professions, or communities — and on what principles?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "title": "https://www2.ed.gov/documents/ai-report/ai-report.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nea.org/resource-library/artificial-intelligence-education",
-          "title": "https://www.nea.org/resource-library/artificial-intelligence-education",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.gida-global.org/care",
-          "title": "https://www.gida-global.org/care",
+          "url": "https://example.com/mock/q042",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://artificialintelligenceact.eu/",
-          "title": "https://artificialintelligenceact.eu/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.unite4education.org/global-response/commercialisation-and-privatisation-in-of-education-in-the-context-of-covid-19/",
-          "title": "https://www.unite4education.org/global-response/commercialisation-and-privatisation-in-of-education-in-the-context-of-covid-19/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 45
+      "last_verified": "2026-08-24",
+      "added_edition": 153
     }
   ],
-  "answer_summary": "The question of who should govern artificial intelligence in education is not merely administrative. It touches on foundational disputes about democratic accountability, the nature of professional expertise, the reach of market logic, and the rights of communities to shape the institutions that form their children.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q042. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Who has legitimate authority to govern AI in education — states, markets, professions, or communities — and on what principles?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

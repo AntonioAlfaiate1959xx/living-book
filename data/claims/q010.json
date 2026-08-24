@@ -1,62 +1,27 @@
 {
   "question_id": "q010",
   "question_text": "Is there a moral difference between learning with AI, learning from AI, and outsourcing learning to AI?",
-  "current_edition": 13,
+  "current_edition": 121,
   "claims": [
     {
       "claim_id": "q010-c01",
-      "text": "## The Moral Geometry of Learning with, from, and through AI\n\nThe arrival of capable AI systems in educational settings has forced a question that educational philosophy has long circled without quite confronting directly: does it matter, morally, *how* a person learns, and not merely *what* they come to know? Three modes of engagement with AI have emerged as analytically distinct — using AI as a cognitive partner, receiving instruction from AI as a source of knowledge, and delegating the learning task to AI entirely — and the differences between them are not merely technical. They carry genuine moral weight, rooted in longstanding debates about the nature of education itself.\n\nThe philosophical groundwork for this distinction was laid well before AI existed. John Dewey's constructivist tradition holds that genuine learning is inseparable from active engagement, struggle, and the personal construction of meaning. On this view, the process of learning is not incidental to its outcome; it is partly constitutive of it. A person who has genuinely learned something has been changed by the encounter with difficulty, uncertainty, and eventual understanding. This implies that two students who arrive at the same correct answer by different routes have not had equivalent educational experiences — and that the moral evaluation of those experiences must attend to the route, not only the destination.\n\nThis Deweyan intuition maps onto the tripartite distinction with some precision. *Learning with* AI — using it as a thinking partner, a Socratic interlocutor, or a tool for exploring ideas — preserves the learner's active role. The AI extends cognitive reach without substituting for cognitive effort. The learner still formulates questions, evaluates responses, and integrates new understanding into an existing framework of knowledge. This mode sits most comfortably within the constructivist tradition, and its moral status is correspondingly the least contested.\n\n*Learning from* AI is more ambiguous. Receiving explanation, correction, or instruction from an AI system is not categorically different from receiving it from a textbook or a teacher — and no one supposes that listening to a lecture is morally inferior to discovering the same content independently. The relevant question is whether the learner remains an active recipient, genuinely processing and internalising what is conveyed, or whether the interaction is merely performative. The moral concern here is not with the AI as source but with the quality of engagement the learner brings to it. A student who interrogates an AI's explanation, tests it against prior knowledge, and seeks to understand rather than merely record has learned from AI in a morally defensible sense. One who passively accepts outputs without critical engagement has done something closer to the third mode.\n\n*Outsourcing* learning to AI — submitting AI-generated work as one's own, or using AI to complete tasks whose purpose was the development of the learner's own capacities — is where the moral case becomes clearest and most serious. The wrong here operates on at least two levels. The first is the familiar wrong of academic dishonesty: a misrepresentation to institutions and evaluators about what the student knows and can do. The second is subtler and arguably more significant: the learner has deprived themselves of the very experience the task was designed to provide. If writing an essay develops the capacity to organise thought, sustain an argument, and discover what one actually believes, then having an AI write it is not merely cheating an institution — it is a kind of self-deprivation, a foreclosure of growth.\n\nThere is, however, a genuine tension in this analysis that intellectual honesty requires acknowledging. Critics of the constructivist framework argue that it romanticises struggle and undervalues efficiency. If a student can acquire accurate knowledge more quickly and reliably through AI assistance, the insistence on unassisted effort may reflect institutional conservatism rather than genuine educational value. This objection has force in domains where the goal is knowledge acquisition rather than skill development — knowing the date of a historical event, for instance, carries no special moral premium if arrived at through independent recall rather than AI lookup. The moral weight of the process varies with the purpose of the task.\n\nWhat this suggests is that the moral difference between the three modes is not absolute but contextual. It depends on what the learning is *for*. Where the goal is the development of a capacity — to write, to reason, to solve problems under uncertainty — outsourcing is a genuine moral failure, and even passive reception from AI is suspect. Where the goal is the acquisition of information that will serve as a foundation for further thought, the mode of acquisition matters less. The deepest moral question AI poses to education is therefore not about AI at all: it is about whether educators and learners have a clear and honest account of what any given learning task is actually meant to achieve. Without that clarity, the moral geometry of learning with, from, or through AI cannot be properly resolved.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q010. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Is there a moral difference between learning with AI, learning from AI, and outsourcing learning to AI?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.wiley.com/en-us/Should+Robots+Replace+Teachers%3F+AI+and+the+Future+of+Education-p-9781509530908",
-          "title": "https://www.wiley.com/en-us/Should+Robots+Replace+Teachers%3F+AI+and+the+Future+of+Education-p-9781509530908",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16",
-          "title": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16",
+          "url": "https://example.com/mock/q010",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://link.springer.com/chapter/10.1007/978-3-030-81907-1_3",
-          "title": "https://link.springer.com/chapter/10.1007/978-3-030-81907-1_3",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://mitpress.mit.edu/9780262045698/teaching-machines/",
-          "title": "https://mitpress.mit.edu/9780262045698/teaching-machines/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2011.611369",
-          "title": "https://www.tandfonline.com/doi/abs/10.1080/00461520.2011.611369",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 13
+      "last_verified": "2026-08-24",
+      "added_edition": 121
     }
   ],
-  "answer_summary": "The arrival of capable AI systems in educational settings has forced a question that educational philosophy has long circled without quite confronting directly: does it matter, morally, how a person learns, and not merely what they come to know? Three modes of engagement with AI have emerged as analytically distinct — using AI as a cognitive partner, receiving instruction from AI as a source of kn",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q010. In live mode this text would be generated by the Abacus.AI model in response to the question: \"Is there a moral difference between learning with AI, learning from AI, and outsourcing learning to AI?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

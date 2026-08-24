@@ -1,61 +1,26 @@
 {
   "question_id": "q087",
   "question_text": "What technical and organizational safeguards (age gates, data controls, human oversight, escalation paths) should any classroom AI deployment include?",
-  "current_edition": 90,
+  "current_edition": 198,
   "claims": [
     {
       "claim_id": "q087-c01",
-      "text": "## Safeguarding the Classroom: Technical and Organisational Requirements for AI Deployment in Schools\n\nThe introduction of AI tools into educational settings is not simply a pedagogical decision; it is simultaneously a legal, ethical, and organisational undertaking. Any responsible deployment must address at least four interlocking layers of protection: verified age-appropriate access controls, robust data governance, structured human oversight, and clearly defined escalation pathways. Each layer is necessary; none is sufficient on its own.\n\n**Age-Appropriate Design and Verified Access Controls**\n\nRegulatory frameworks across multiple jurisdictions have moved decisively away from self-declaration as an acceptable mechanism for age verification. The UK's Age Appropriate Design Code, enforced by the Information Commissioner's Office, requires that any online service likely to be accessed by children under eighteen apply high-privacy defaults as a baseline rather than an opt-in feature. This means that an AI tutoring platform, for instance, cannot simply ask a user to confirm they are over thirteen and proceed on that basis. The EU's General Data Protection Regulation similarly restricts the processing of children's data and, under the emerging AI Act, places additional obligations on high-risk AI systems deployed in educational contexts. In the United States, COPPA imposes strict parental consent requirements for children under thirteen, and several states have enacted their own student privacy statutes that go further still.\n\nWhat this means practically is that schools and vendors must implement verified age-gating — mechanisms that establish age with reasonable confidence rather than relying on assertion. For younger students, this typically involves institutional authentication: the school itself vouches for the student's identity and age through a managed account system, rather than the child interacting directly with a consumer-facing product. The technical architecture matters here. Systems should be configured so that students access AI tools through school-controlled credentials, with the institution acting as the data controller and the vendor as a processor operating under a formal data processing agreement.\n\n**Data Controls and Privacy by Design**\n\nBeyond age verification, the data environment surrounding classroom AI requires careful governance. Student interaction data — queries posed to an AI, responses received, time-on-task metrics, inferred emotional states in more sophisticated systems — constitutes sensitive personal data, and in many jurisdictions it carries heightened protections precisely because it concerns minors. Privacy-by-design principles, now codified in GDPR and reflected in the UK Children's Code, require that data minimisation be built into the system from the outset: only data necessary for the educational function should be collected, retained for the shortest defensible period, and never repurposed for commercial profiling.\n\nSchools should insist on contractual prohibitions against vendors using student data to train general-purpose models or to serve advertising. Data residency requirements — specifying that student data remain within a particular jurisdiction — are increasingly standard in procurement frameworks and should be treated as non-negotiable rather than aspirational. Encryption in transit and at rest, role-based access controls limiting which staff can view interaction logs, and regular third-party audits of vendor compliance complete the technical picture.\n\n**Human Oversight as a Structural Requirement**\n\nRegulatory and professional consensus holds that AI in classrooms must operate under meaningful human oversight rather than as an autonomous decision-making layer. This is not merely a philosophical preference; it reflects the established finding that current AI systems produce errors, exhibit biases, and can behave unpredictably when encountering edge cases. A teacher who delegates assessment feedback entirely to an AI without reviewing its outputs is not exercising oversight in any meaningful sense.\n\nEffective oversight requires that teachers have access to interpretable summaries of AI interactions — not raw logs of every exchange, which would be unmanageable, but structured dashboards that flag anomalies, unusual patterns, or content that warrants attention. It also requires that teachers retain authority over consequential decisions: whether a student needs additional support, how performance is assessed, and whether a particular AI recommendation is acted upon. The AI should function as an instrument that informs professional judgment, not one that supplants it.\n\n**Escalation Pathways and Safeguarding Integration**\n\nPerhaps the most underappreciated requirement is the integration of AI systems into existing safeguarding and child protection frameworks. AI tools used in schools will inevitably encounter students in distress. A student disclosing abuse, expressing suicidal ideation, or describing a dangerous home situation through an AI interface presents a safeguarding obligation that the technology itself cannot fulfil. Systems must be configured to detect such disclosures — imperfectly, given the limits of natural language processing — and to route them immediately to a designated safeguarding lead rather than generating an automated response.\n\nEscalation paths must be documented, tested, and known to all staff before deployment begins. This means defining in advance which categories of AI output trigger human review, who receives those alerts, within what timeframe, and what the fallback procedure is if the primary contact is unavailable. These pathways should be reviewed annually and updated whenever the AI system or the school's safeguarding structure changes.\n\nTaken together, these safeguards constitute not a checklist but an integrated governance architecture — one that treats the protection of students as a design constraint rather than an afterthought.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q087. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What technical and organizational safeguards (age gates, data controls, human oversight, escalation paths) should any classroom AI deployment include?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
-          "title": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+          "url": "https://example.com/mock/q087",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://sdpc.a4l.org/national_agreement.php",
-          "title": "https://sdpc.a4l.org/national_agreement.php",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/keeping-children-safe-in-education--2",
-          "title": "https://www.gov.uk/government/publications/keeping-children-safe-in-education--2",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://ainowinstitute.org/publication/algorithmic-accountability-policy-toolkit-2018",
-          "title": "https://ainowinstitute.org/publication/algorithmic-accountability-policy-toolkit-2018",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://fpf.org/blog/fpf-releases-updated-student-privacy-and-ed-tech-resource-guide/",
-          "title": "https://fpf.org/blog/fpf-releases-updated-student-privacy-and-ed-tech-resource-guide/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 90
+      "last_verified": "2026-08-24",
+      "added_edition": 198
     }
   ],
-  "answer_summary": "The introduction of AI tools into educational settings is not simply a pedagogical decision; it is simultaneously a legal, ethical, and organisational undertaking. Any responsible deployment must address at least four interlocking layers of protection: verified age appropriate access controls, robust data governance, structured human oversight, and clearly defined escalation pathways.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q087. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What technical and organizational safeguards (age gates, data controls, human oversight, escalation paths) should any classroom AI deployment include?\". No network call was made.",
   "disputed_aspects": []
 }

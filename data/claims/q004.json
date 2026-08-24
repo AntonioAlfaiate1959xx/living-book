@@ -1,62 +1,27 @@
 {
   "question_id": "q004",
   "question_text": "What is the difference between knowledge, understanding, and wisdom — and which of these can AI possess or transmit?",
-  "current_edition": 7,
+  "current_edition": 115,
   "claims": [
     {
       "claim_id": "q004-c01",
-      "text": "## Knowledge, Understanding, and Wisdom: What AI Can and Cannot Possess\n\nThe question of what distinguishes knowledge from understanding, and understanding from wisdom, is among the oldest in philosophy — and it has acquired urgent practical significance now that machines can pass bar examinations, write competent essays, and tutor students in calculus. Getting the distinctions right matters enormously for education, because conflating them leads either to excessive faith in what AI can deliver or to a dismissive refusal to recognise what it genuinely offers.\n\nThe most widely cited framework in information science is Russell Ackoff's DIKW hierarchy, which arranges data, information, knowledge, and wisdom into an ascending pyramid. Data are raw, uninterpreted symbols; information is data organised so as to carry meaning; knowledge is the capacity to apply information purposefully; and wisdom involves knowing *which* purposes are worth pursuing and *why*. Ackoff's scheme has been criticised for oversimplifying the relationships between these levels — knowledge does not simply accumulate upward from data in any linear way — but it remains a useful first orientation. Philosophical epistemology adds further texture. Since Plato, knowledge has conventionally required not merely true belief but justified true belief: one must not only have the right answer but be able to account for why it is right. Understanding, on this view, goes further still: it involves grasping the *structure* of a domain, seeing how its parts relate, and being able to reason flexibly across novel cases. Wisdom is something else again — it is the capacity to act well under conditions of genuine uncertainty, integrating knowledge and understanding with values, experience, and moral judgment.\n\nWhere does AI sit within this scheme? On the question of knowledge, the picture is relatively clear, if philosophically contested. Large language models store and retrieve vast quantities of propositional content and can produce accurate, well-organised responses across an extraordinary range of domains. Whether this constitutes *knowledge* in the philosophical sense depends on whether one requires that a knower have genuine justification — an internal grasp of why something is true — or whether reliable, accurate output is sufficient. Functionalists tend toward the latter view; those who insist on intentionality and genuine comprehension tend toward the former. What is not seriously disputed is that AI systems can *transmit* knowledge effectively: they can present accurate information, correct misconceptions, and scaffold a learner's acquisition of propositional content in ways that research on tutoring systems has consistently shown to be educationally valuable.\n\nUnderstanding is where the debate sharpens. Understanding, as philosophers from Aristotle to contemporary epistemologists like Jonathan Kvanvig have argued, is not merely the possession of true propositions but the ability to integrate them into a coherent, flexible mental model — to see why things are the way they are, to transfer principles across contexts, and to recognise when a familiar framework breaks down. Current AI systems display something that resembles this capacity: they can draw analogies, explain causal mechanisms, and apply concepts to unfamiliar cases. Yet there are strong reasons to hesitate before calling this genuine understanding. These systems have no perceptual grounding in the world, no embodied experience, and no stake in whether their outputs are true. They can produce the *form* of understanding — coherent explanation, apt analogy, flexible application — without the underlying cognitive architecture that philosophers typically associate with the real thing. Whether this distinction matters practically, or whether it is a metaphysical scruple without educational consequence, remains genuinely contested.\n\nWisdom presents the starkest case. Wisdom in the classical sense — *phronesis*, practical wisdom — requires not only knowing what is true and understanding how things work, but judging what matters, weighing competing goods, and acting with integrity under conditions where no algorithm can settle the question. It is inseparable from having a life, from caring about outcomes, from being vulnerable to the consequences of one's choices. An AI system has none of these things. It can retrieve and synthesise what wise people have said; it can model the *reasoning patterns* associated with wise judgment; but it cannot itself be wise, because wisdom is not a cognitive achievement separable from character, experience, and genuine moral agency. This is not a temporary limitation awaiting a technical fix — it reflects something structural about what wisdom is.\n\nFor education, these distinctions carry direct implications. AI is a genuinely powerful instrument for transmitting knowledge and for scaffolding the early stages of understanding: it can explain, illustrate, correct, and adapt to a learner's level with a patience and availability no human teacher can match at scale. What it cannot do is model wisdom, embody intellectual virtue, or demonstrate what it looks like to care about truth for its own sake. Those capacities remain irreducibly human, and the risk of over-relying on AI in education is not that students will learn too much, but that they will mistake the efficient transmission of knowledge for the slower, harder, more personal work of becoming genuinely educated.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q004. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is the difference between knowledge, understanding, and wisdom — and which of these can AI possess or transmit?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.systems-thinking.org/dikw/dikw.htm",
-          "title": "https://www.systems-thinking.org/dikw/dikw.htm",
+          "url": "https://example.com/mock/q004",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
-          "title": "https://dl.acm.org/doi/10.1145/3442188.3445922",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "title": "https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.shannonvallor.net/technology-and-the-virtues/",
-          "title": "https://www.shannonvallor.net/technology-and-the-virtues/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/abs/2303.12712",
-          "title": "https://arxiv.org/abs/2303.12712",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.pearson.com/content/dam/one-dot-com/one-dot-com/global/Files/about-pearson/innovation/open-ideas/Intelligence-Unleashed-Publication.pdf",
-          "title": "https://www.pearson.com/content/dam/one-dot-com/one-dot-com/global/Files/about-pearson/innovation/open-ideas/Intelligence-Unleashed-Publication.pdf",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 7
+      "last_verified": "2026-08-24",
+      "added_edition": 115
     }
   ],
-  "answer_summary": "The question of what distinguishes knowledge from understanding, and understanding from wisdom, is among the oldest in philosophy — and it has acquired urgent practical significance now that machines can pass bar examinations, write competent essays, and tutor students in calculus.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q004. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is the difference between knowledge, understanding, and wisdom — and which of these can AI possess or transmit?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

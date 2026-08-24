@@ -1,62 +1,27 @@
 {
   "question_id": "q017",
   "question_text": "How do we preserve academic integrity when the boundary between assistance and authorship dissolves?",
-  "current_edition": 20,
+  "current_edition": 128,
   "claims": [
     {
       "claim_id": "q017-c01",
-      "text": "## The Dissolution of Authorship: Academic Integrity in the Age of Generative AI\n\nThe question of what constitutes genuine academic work has never been as philosophically clean as institutions pretended. Students have always used tutors, writing centres, and collaborative discussion; the line between being helped to think and having someone else think for you was always drawn by convention as much as by principle. What large language models have done is not create this ambiguity but make it operationally impossible to ignore. When a student asks an AI to brainstorm, then to outline, then to draft, then to revise, and finally submits the result under their own name, the question of who authored the work resists any simple answer — and the consequences of getting that answer wrong fall on students, educators, and the credibility of qualifications alike.\n\nThe scale of the problem became undeniable with Turnitin's 2023 report, which identified potential AI-generated content in over ten million submitted papers within the first year of its detection tool's deployment. That figure does not distinguish between wholesale generation and minor AI-assisted editing, which is precisely the difficulty. The traditional binary — legitimate assistance on one side, academic dishonesty on the other — was already philosophically unstable before generative AI arrived. A student who dictates ideas to a more fluent friend occupies an uncomfortable middle ground that most honour codes simply declined to address. Large language models have forced that evasion to end, because the middle ground is now where most students live.\n\nThe core conceptual problem is what researchers have called the \"assistance spectrum.\" At one end sits a student who uses an AI tool to check grammar; at the other sits one who submits a prompt response verbatim. Between these poles lies an enormous range of practices — using AI to overcome writer's block, to generate counterarguments the student then evaluates, to restructure a draft the student wrote — none of which maps neatly onto existing categories of cheating. Institutions that respond by banning AI use entirely are, in effect, banning a technology their students will be expected to use professionally within years of graduating. Institutions that permit unrestricted use risk certifying competencies students have not demonstrated. Neither extreme is defensible.\n\nWhat the evidence suggests is that the integrity question cannot be separated from the learning question. If an assessment is designed to measure a student's capacity to construct an argument, and an AI constructs it instead, the assessment has failed regardless of whether the student technically violated a policy. This reframes the problem productively: the goal is not primarily to catch cheaters but to design conditions under which the work submitted genuinely reflects the student's intellectual development. Process-based assessment — requiring drafts, reflective annotations, oral defences, or documented revision histories — makes AI substitution harder and, more importantly, makes the learning visible in ways a single polished product cannot. Several universities have moved toward \"AI use statements\" modelled on existing disclosure norms for research assistance, requiring students to document what tools they used and how. This approach treats transparency as the operative value rather than prohibition, which is both more honest about the technology's ubiquity and more educationally coherent.\n\nDetection technology offers only partial relief, and institutions that rely on it heavily are likely to be disappointed. AI-detection tools, including Turnitin's own, operate probabilistically and carry meaningful false-positive rates — a particular concern for non-native English speakers, whose writing can share statistical features with AI-generated text. Treating a detection flag as proof of misconduct is not only procedurally unjust but likely to produce discriminatory outcomes. The tools are also in an arms race with generation models that are rapidly improving at producing text that evades detection. Detection can serve as one signal among many in a holistic review, but it cannot bear the evidentiary weight that some administrators have placed on it.\n\nThe deeper tension in this debate is between two legitimate values: the integrity of credentials as meaningful signals of individual competence, and the recognition that all intellectual work is collaborative and tool-mediated. A student who uses a calculator is not cheating at mathematics; a student who uses a spell-checker is not misrepresenting their literacy. Whether AI assistance is more like a calculator or more like a ghostwriter depends entirely on what the assessment is trying to measure — and that is a question institutions have often left unanswered. Making it explicit is the necessary first step.\n\nPreserving academic integrity in this environment requires, above all, clarity of purpose. Assessments should be designed around learning outcomes that AI cannot simply discharge on a student's behalf, or that require demonstrated understanding AI cannot fake in a live exchange. Policies should distinguish between uses of AI that support learning and uses that replace it. And the standard of honesty owed to students demands acknowledging that this distinction, while real, will always require judgment rather than algorithm to enforce.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q017. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do we preserve academic integrity when the boundary between assistance and authorship dissolves?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.turnitin.com/blog/one-year-of-ai-writing-detection-what-we-ve-learned",
-          "title": "https://www.turnitin.com/blog/one-year-of-ai-writing-detection-what-we-ve-learned",
+          "url": "https://example.com/mock/q017",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/abs/2304.02819",
-          "title": "https://arxiv.org/abs/2304.02819",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.mdpi.com/2227-7102/13/4/410",
-          "title": "https://www.mdpi.com/2227-7102/13/4/410",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/00131857.2023.2234622",
-          "title": "https://www.tandfonline.com/doi/full/10.1080/00131857.2023.2234622",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.copyright.gov/ai/",
-          "title": "https://www.copyright.gov/ai/",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://prism.ucalgary.ca/items/3e3e3e3e-2023-ai-integrity",
-          "title": "https://prism.ucalgary.ca/items/3e3e3e3e-2023-ai-integrity",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 20
+      "last_verified": "2026-08-24",
+      "added_edition": 128
     }
   ],
-  "answer_summary": "The question of what constitutes genuine academic work has never been as philosophically clean as institutions pretended. Students have always used tutors, writing centres, and collaborative discussion; the line between being helped to think and having someone else think for you was always drawn by convention as much as by principle.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q017. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do we preserve academic integrity when the boundary between assistance and authorship dissolves?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

@@ -1,62 +1,27 @@
 {
   "question_id": "q063",
   "question_text": "What do documented deployments of AI tutors in low-resource and developing-world contexts show about what transfers and what fails?",
-  "current_edition": 66,
+  "current_edition": 174,
   "claims": [
     {
       "claim_id": "q063-c01",
-      "text": "## AI Tutors in Low-Resource Contexts: What Transfers, What Fails\n\nThe deployment of AI-assisted tutoring systems in low-resource and developing-world settings has generated some of the most instructive evidence in contemporary education research — instructive not only because of what works, but because of the particular ways things go wrong. The picture that emerges from documented deployments is neither straightforwardly optimistic nor dismissive: adaptive learning technology can produce meaningful gains in foundational skills, but its benefits are consistently mediated by infrastructure, language, teacher capacity, and the depth of local pedagogical fit.\n\nThe most rigorously evaluated case comes from India. A randomized controlled trial of Mindspark, an adaptive computer-assisted learning program deployed in low-income government schools in Delhi, found that students who used the system for roughly four and a half months outperformed control students by approximately 0.37 standard deviations in mathematics and 0.23 standard deviations in Hindi. These are substantial effects by the standards of educational interventions, and they are particularly notable because Mindspark's adaptive engine was able to diagnose and respond to the severe learning deficits that characterize many students in under-resourced Indian schools — children who are formally enrolled in, say, grade five but whose actual mathematical competence sits closer to grade two. Conventional classroom instruction, paced to the official curriculum, tends to leave such students further behind with each passing year. An adaptive system that meets learners where they actually are, rather than where the syllabus assumes them to be, addresses a structural failure that human teachers in overcrowded classrooms often cannot.\n\nWhat transfers, then, is the core adaptive logic: the capacity to individualize pacing and content in response to demonstrated performance, to identify gaps that whole-class instruction routinely misses, and to provide immediate corrective feedback without the social cost of public failure. These features appear to be genuinely portable across resource contexts, at least when the underlying infrastructure holds.\n\nThat qualification matters enormously, because infrastructure is precisely where documented deployments most frequently break down. Reliable electricity, functioning devices, and stable internet connectivity — conditions taken for granted in the settings where most AI tutoring systems are designed — cannot be assumed in low-resource schools. The Mindspark trial itself was conducted under relatively controlled conditions, with dedicated computer lab time; scaling beyond such conditions has exposed the fragility of technology-dependent interventions. When power is intermittent or devices are shared across large numbers of students, the dosage of system interaction falls below the threshold needed to produce learning gains, and the intervention effectively ceases to function as designed.\n\nLanguage and content localization present a second category of failure. Most sophisticated AI tutoring systems have been built on English-language corpora and embed cultural assumptions — about mathematical notation, narrative contexts, and even what counts as a well-formed question — that do not transfer cleanly to other linguistic and pedagogical environments. Adapting a system to Hindi, Swahili, or Hausa is not merely a translation exercise; it requires rebuilding substantial portions of the content model and, in many cases, the underlying assessment logic. Deployments that have treated localization as a surface-level task have tended to produce systems that are technically functional but pedagogically alienating, with students encountering examples and framings that feel remote from their experience.\n\nTeacher integration represents a third axis of variation. Evidence from multiple contexts suggests that AI tutoring systems perform better when teachers understand what the system is doing and can use its diagnostic outputs to inform their own instruction, rather than treating the technology as a self-contained replacement for human teaching. In settings where professional development has been minimal or where teachers are skeptical of or excluded from the technology's operation, the system tends to be used inconsistently, and its gains attenuate. This is not a problem unique to low-resource contexts, but it is sharpened there by the fact that teacher training infrastructure is itself often thin.\n\nThere is also an equity tension internal to these deployments that deserves acknowledgment. Even within low-resource settings, access to AI tutoring tends to be unevenly distributed: students with more engaged parents, better home connectivity, or greater prior familiarity with digital interfaces extract more value from the same system. The intervention that is intended to close gaps can, under certain conditions, widen them — a finding that remains contested in the literature but that several deployment evaluations have flagged as a genuine risk rather than a theoretical concern.\n\nThe honest summary of the evidence is this: the adaptive pedagogical core of AI tutoring — personalized pacing, gap diagnosis, immediate feedback — transfers well and can produce meaningful learning gains even among severely under-served students. What fails, repeatedly and predictably, is the surrounding ecosystem: the hardware, the connectivity, the linguistic fit, the teacher capacity, and the equity of access within already unequal communities. Technology that is robust in one context is only as durable as the infrastructure it depends upon, and that infrastructure remains the binding constraint in most of the world's classrooms.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q063. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What do documented deployments of AI tutors in low-resource and developing-world contexts show about what transfers and what fails?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20171112",
-          "title": "https://www.aeaweb.org/articles?id=10.1257/aer.20171112",
+          "url": "https://example.com/mock/q063",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.gsma.com/mobilefordevelopment/programme/connected-society/eneza-education-reaching-the-hardest-to-reach-with-mobile-education/",
-          "title": "https://www.gsma.com/mobilefordevelopment/programme/connected-society/eneza-education-reaching-the-hardest-to-reach-with-mobile-education/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.cgdev.org/publication/teaching-frontline",
-          "title": "https://www.cgdev.org/publication/teaching-frontline",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://learningequality.org/r/kolibri-research-findings",
-          "title": "https://learningequality.org/r/kolibri-research-findings",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://blogs.worldbank.org/edutech/artificial-intelligence-education-developing-countries",
-          "title": "https://blogs.worldbank.org/edutech/artificial-intelligence-education-developing-countries",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.ictworks.org/rachel-remote-area-community-hotspot-education-learning/",
-          "title": "https://www.ictworks.org/rachel-remote-area-community-hotspot-education-learning/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 66
+      "last_verified": "2026-08-24",
+      "added_edition": 174
     }
   ],
-  "answer_summary": "The deployment of AI assisted tutoring systems in low resource and developing world settings has generated some of the most instructive evidence in contemporary education research — instructive not only because of what works, but because of the particular ways things go wrong.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q063. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What do documented deployments of AI tutors in low resource and developing world contexts show about what transfers and what fails?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

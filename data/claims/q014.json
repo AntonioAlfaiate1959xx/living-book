@@ -1,62 +1,27 @@
 {
   "question_id": "q014",
   "question_text": "How do we prevent AI from amplifying existing inequalities of class, language, geography, and disability in education?",
-  "current_edition": 17,
+  "current_edition": 125,
   "claims": [
     {
       "claim_id": "q014-c01",
-      "text": "# Preventing AI from Amplifying Educational Inequalities\n\nThe promise of artificial intelligence in education — personalised learning, instant feedback, adaptive curricula — rests on an assumption that is far from universally true: that all students can actually reach these tools on equal terms. Research accumulated over the past several years makes clear that without deliberate structural intervention, AI is at least as likely to deepen existing inequalities of class, language, geography, and disability as it is to dissolve them.\n\nThe most fundamental obstacle is what researchers have begun calling the \"Digital Divide 2.0.\" The original digital divide concerned device ownership; that gap narrowed considerably during the COVID-19 pandemic as schools and governments distributed hardware at scale. What the 2021 OECD analysis revealed, however, is that device access was never the binding constraint. Reliable high-speed connectivity, sufficient processing power to run computationally demanding applications, quiet and stable home learning environments, and ongoing technical support remain sharply unequal along class and geographic lines. A student in a rural area with intermittent broadband, or a low-income urban household where several children share a single device across different school schedules, encounters AI tutoring systems in a fundamentally different — and far less effective — way than a student in a well-resourced suburban home. The infrastructure problem is not a temporary lag to be resolved by market diffusion; it reflects durable patterns of public and private investment that require active policy redress.\n\nLanguage presents a second, structurally distinct problem. The large language models and natural language processing systems that underpin most AI educational tools have been trained overwhelmingly on English-language data, with secondary representation for a handful of other high-resource languages. For students whose home language is a regional dialect, an indigenous language, or even a widely spoken but digitally underrepresented language such as Swahili or Bengali, the consequences are concrete: automated feedback misreads their writing, speech recognition fails to parse their pronunciation, and adaptive systems calibrated on different linguistic norms may systematically underestimate their comprehension. This is not merely a technical inconvenience. When an AI assessment tool consistently marks a student's grammatically correct but non-standard English as erroneous, it encodes a sociolinguistic bias into what appears to be an objective evaluation. The student receives not personalised support but automated stigma.\n\nDisability intersects with these problems in ways that are both overlapping and specific. AI tools designed without accessibility in mind — relying on visual interfaces, timed responses, or text-heavy formats — can exclude students with visual impairments, dyslexia, processing differences, or motor disabilities. There is a genuine tension in the research here. On one hand, well-designed AI systems hold real promise for disabled learners: text-to-speech, real-time captioning, and adaptive pacing can reduce barriers that traditional classroom formats impose. On the other hand, when accessibility is treated as an afterthought rather than a design requirement, AI tools can replicate or worsen the exclusions of conventional schooling. The difference between these outcomes lies almost entirely in whether disabled students and their advocates are involved in the design process from the outset, rather than consulted after the fact.\n\nGeography compounds all of these dimensions. Rural and remote communities face not only connectivity deficits but also shortages of teachers trained to integrate AI tools effectively, fewer local technology support structures, and curricula that may reflect urban or nationally dominant cultural assumptions. Indigenous communities in particular have raised concerns about AI systems that carry embedded cultural biases — in the examples used, the values assumed, the histories referenced — that render the tools alienating or actively harmful even when they are technically accessible.\n\nWhat the evidence suggests, taken together, is that the question of preventing AI from amplifying inequality cannot be answered at the level of the technology alone. Algorithmic auditing — systematically testing AI educational tools for differential performance across demographic groups — is a necessary but insufficient condition. Equally necessary are public investments in broadband infrastructure that treat connectivity as a utility rather than a commodity, procurement standards that require multilingual capability and accessibility compliance before tools enter classrooms, and teacher professional development that equips educators to identify when an AI system is failing particular students. There is also an emerging argument, not yet fully tested at scale, that community-controlled AI development — where local schools, language communities, and disability organisations participate in training data curation and system design — produces tools that are more equitable by construction rather than by correction.\n\nThe honest conclusion is that AI will not equalise educational opportunity automatically or even naturally. Left to market forces and the path dependencies of existing data, it will tend to serve best those who are already best served. Preventing that outcome requires treating equity not as a feature to be added to AI in education, but as a precondition for its legitimate deployment.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q014. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do we prevent AI from amplifying existing inequalities of class, language, geography, and disability in education?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.unesco.org/gem-report/en/2023",
-          "title": "https://www.unesco.org/gem-report/en/2023",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nature.com/articles/s41539-022-00141-w",
-          "title": "https://www.nature.com/articles/s41539-022-00141-w",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://aclanthology.org/2020.acl-main.485/",
-          "title": "https://aclanthology.org/2020.acl-main.485/",
+          "url": "https://example.com/mock/q014",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.ncld.org/research/significant-disproportionality/",
-          "title": "https://www.ncld.org/research/significant-disproportionality/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://cdt.org/insights/challenges-and-opportunities-for-ai-in-education/",
-          "title": "https://cdt.org/insights/challenges-and-opportunities-for-ai-in-education/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.rand.org/pubs/research_reports/RRA956-8.html",
-          "title": "https://www.rand.org/pubs/research_reports/RRA956-8.html",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 17
+      "last_verified": "2026-08-24",
+      "added_edition": 125
     }
   ],
-  "answer_summary": "The promise of artificial intelligence in education — personalised learning, instant feedback, adaptive curricula — rests on an assumption that is far from universally true: that all students can actually reach these tools on equal terms.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q014. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do we prevent AI from amplifying existing inequalities of class, language, geography, and disability in education?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

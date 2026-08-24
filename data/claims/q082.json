@@ -1,61 +1,26 @@
 {
   "question_id": "q082",
   "question_text": "What should students know about the limits, failure modes, and biases of AI systems before trusting their outputs?",
-  "current_edition": 85,
+  "current_edition": 193,
   "claims": [
     {
       "claim_id": "q082-c01",
-      "text": "## Knowing the Machine: What Students Must Understand Before Trusting AI Outputs\n\nThe most consequential misunderstanding students bring to AI tools is a simple one: they assume that fluency signals accuracy. A response that reads smoothly, cites plausible sources, and arrives in seconds feels authoritative. But the architecture of large language models makes this intuition actively dangerous. These systems generate text by predicting statistically probable sequences of words, not by retrieving verified facts from a reliable store of knowledge. The result is that an AI can produce a confident, well-structured, entirely fabricated claim — complete with invented citations, nonexistent page numbers, and authors who never wrote the papers attributed to them. Researchers call this phenomenon \"hallucination,\" though the term somewhat obscures its significance: this is not an occasional glitch but a structural feature of how these systems work. Fabrication is not a bug awaiting a patch; it is an inherent consequence of the underlying mechanism.\n\nWhat makes this particularly treacherous in educational settings is that students systematically underestimate how often it occurs. The fluency of AI prose creates a powerful halo effect. When a system writes with apparent confidence and grammatical precision, readers tend to extend it epistemic credit it has not earned. Research examining models like GPT-4 has found that hallucination rates in factual domains can be substantial, yet users — including students — consistently rate AI-generated content as more reliable than the evidence warrants. This gap between perceived and actual reliability is itself a finding that educators need to take seriously. Critical engagement with AI outputs is not a supplementary skill; it is a prerequisite for using these tools without being systematically misled.\n\nBeyond hallucination, students need to understand that AI systems carry embedded biases that are neither random nor transparent. Large language models are trained on vast corpora of human-generated text, and that text reflects the full range of human prejudice, historical inequity, and cultural partiality. Models trained predominantly on English-language, Western, and digitally produced content will encode the assumptions and blind spots of those sources. This means that AI outputs on topics involving race, gender, geography, or culture may reproduce stereotypes or marginalise perspectives that were underrepresented in training data — not because the system has opinions, but because it has learned statistical patterns from a skewed sample of human expression. The bias is structural and often invisible, which makes it more insidious than explicit prejudice would be.\n\nThere is an important distinction to draw here between well-documented findings and areas of ongoing debate. That hallucination occurs, and that training data biases propagate into outputs, are established findings with substantial empirical support. More contested is the question of how much these problems can be mitigated through techniques like retrieval-augmented generation, fine-tuning, or constitutional AI methods. Some researchers argue that grounding models in verified external sources substantially reduces fabrication; others point out that even retrieval-augmented systems can misattribute, misquote, or selectively present the sources they retrieve. The honest position is that mitigation is possible but incomplete, and that no current system has solved these problems in a way that would justify uncritical trust.\n\nStudents should also understand that AI systems fail unevenly across domains. Performance tends to be stronger in areas that were heavily represented in training data — mainstream academic subjects in English, widely documented historical events, common programming languages — and weaker in specialised, recent, or culturally specific domains. A model asked about a niche scientific subfield, a recent political development, or the literary traditions of an underrepresented culture is operating with thinner and potentially lower-quality training signal. The system will not typically signal this uncertainty; it will respond with the same confident fluency it brings to questions it handles well. Students cannot rely on the AI to flag its own ignorance.\n\nThis connects to a broader epistemological point that is perhaps the most important thing students can internalise: AI systems do not know what they do not know. Human experts, when operating at the edge of their competence, typically experience and often express uncertainty. Language models have no such internal state. The absence of hedging in an AI response carries no information about the reliability of that response. Students accustomed to reading human-authored texts — where tentativeness often signals genuine epistemic humility — must recalibrate entirely when reading AI outputs.\n\nNone of this means AI tools are without value in educational contexts. It means that their value depends entirely on the critical capacity of the person using them. Verification against primary sources, attention to domain-specific limitations, awareness of whose perspectives may be absent or distorted, and a principled refusal to treat fluency as a proxy for truth — these are not optional refinements. They are the minimum conditions under which AI outputs can be used responsibly. The student who understands the machine's failure modes is not disadvantaged relative to one who trusts it uncritically; that student is simply using a powerful tool with the literacy it demands.",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q082. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What should students know about the limits, failure modes, and biases of AI systems before trusting their outputs?\". No network call was made.",
       "reliability": "established",
       "sources": [
         {
-          "url": "https://dl.acm.org/doi/10.1145/3571730",
-          "title": "https://dl.acm.org/doi/10.1145/3571730",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
-          "title": "https://dl.acm.org/doi/10.1145/3442188.3445922",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://crfm.stanford.edu/helm/latest/",
-          "title": "https://crfm.stanford.edu/helm/latest/",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000380602",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000380602",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://dl.acm.org/doi/10.1145/3490099.3511105",
-          "title": "https://dl.acm.org/doi/10.1145/3490099.3511105",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://arxiv.org/abs/2108.07258",
-          "title": "https://arxiv.org/abs/2108.07258",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
+          "url": "https://example.com/mock/q082",
+          "title": "Mock source (orchestrator self-test)",
+          "type": "practitioner",
+          "retrieved": "2026-08-24",
+          "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 85
+      "last_verified": "2026-08-24",
+      "added_edition": 193
     }
   ],
-  "answer_summary": "The most consequential misunderstanding students bring to AI tools is a simple one: they assume that fluency signals accuracy. A response that reads smoothly, cites plausible sources, and arrives in seconds feels authoritative. But the architecture of large language models makes this intuition actively dangerous.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q082. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What should students know about the limits, failure modes, and biases of AI systems before trusting their outputs?\". No network call was made.",
   "disputed_aspects": []
 }

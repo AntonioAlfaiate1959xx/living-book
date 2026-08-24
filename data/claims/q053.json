@@ -1,62 +1,27 @@
 {
   "question_id": "q053",
   "question_text": "What is currently known from cognitive science about AI's effects on memory formation, retention, and transfer of learning?",
-  "current_edition": 56,
+  "current_edition": 164,
   "claims": [
     {
       "claim_id": "q053-c01",
-      "text": "## Memory, Machines, and the Learner's Mind: What Cognitive Science Currently Knows About AI's Effects on Learning\n\nThe arrival of conversational AI in educational settings has sharpened a question that cognitive scientists were already wrestling with in the age of search engines: what happens to human memory when an extraordinarily capable external system stands ready to supply whatever information a person might need? The evidence accumulated so far is neither uniformly alarming nor reassuring. It points instead to a set of genuine mechanisms, some well-established and some still contested, through which AI tools reshape the processes of encoding, retaining, and transferring knowledge.\n\nThe most firmly grounded starting point is Betsy Sparrow's 2011 research on what she termed the \"Google Effect.\" Sparrow and her colleagues demonstrated that when people expect information to remain externally available, they invest less cognitive effort in encoding it into long-term memory. The brain, it appears, makes a pragmatic calculation: if retrieval from an outside source is easy and reliable, the metabolic cost of consolidating information internally seems unnecessary. Contemporary cognitive scientists have extended this logic directly to AI assistants, which are considerably more capable, more fluent, and more immediately responsive than a search engine returning a list of links. Where Google required the user to read, evaluate, and synthesise results, a large language model delivers a composed answer. The offloading, in other words, can now be more complete, and the concern is that encoding may be correspondingly shallower.\n\nThis matters because of what cognitive science has established about the relationship between memory and understanding. Working memory — the limited mental workspace in which active thinking occurs — depends on long-term memory to supply the schemas, concepts, and prior knowledge that give new information meaning. When a learner has not encoded foundational material, each encounter with a related problem demands more from working memory, leaving less capacity for the reasoning that produces genuine comprehension. The implication is that habitual AI-assisted retrieval, if it displaces the effortful processing that drives encoding, could quietly erode the very knowledge structures that make complex thought possible.\n\nYet the picture is more complicated than a straightforward warning against AI use. Cognitive load theory, developed by John Sweller and refined over decades, holds that offloading routine or lower-order tasks can free working memory for higher-order reasoning. A student who uses AI to handle mechanical aspects of a problem — formatting, basic calculation, surface-level information retrieval — might, in principle, direct more cognitive resources toward analysis, synthesis, and evaluation. Whether this benefit materialises depends critically on how the tool is used. Passive consumption of AI-generated answers is cognitively very different from using AI as a Socratic interlocutor that prompts the learner to explain, question, and elaborate. The former risks bypassing encoding altogether; the latter may actually support it.\n\nTransfer of learning — the ability to apply knowledge acquired in one context to a novel situation — is where the stakes become highest and the evidence most unsettled. Transfer is notoriously difficult to achieve even under optimal instructional conditions, and it depends heavily on the depth and organisation of knowledge in long-term memory. Learners who have genuinely encoded and repeatedly retrieved material develop flexible, interconnected representations that can be mapped onto new problems. Learners who have relied on external systems for retrieval tend to have thinner, more context-dependent representations. The concern, not yet fully tested in AI-specific research but well-supported by the broader literature on desirable difficulties, is that AI assistance may reduce the retrieval practice and productive struggle that are known to strengthen transferable knowledge.\n\nRetrieval practice itself deserves emphasis here, because it is one of the most robust findings in memory research. The act of recalling information — not merely re-reading or re-exposing oneself to it — substantially strengthens long-term retention and transfer. Spaced repetition compounds this effect. AI tutoring systems that incorporate these principles, prompting learners to retrieve and apply knowledge rather than simply presenting correct answers, have shown promise in early studies. The critical variable, then, is not whether AI is present but whether its design and use preserve or circumvent the cognitive processes that consolidation requires.\n\nWhat remains genuinely open is the question of individual and developmental differences. Younger learners, whose knowledge bases are still forming, may be more vulnerable to the encoding deficits associated with heavy offloading than expert learners who already possess rich schemas. Experts can use AI to extend their capabilities without sacrificing the underlying knowledge structures they have already built; novices may not have that foundation to fall back on.\n\nThe honest summary of the current state of knowledge is this: the cognitive mechanisms by which AI could impair memory formation and transfer are well-understood and plausible; the extent to which they operate in real educational settings, and under what conditions they can be mitigated by thoughtful design, remains an active and urgent area of inquiry.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q053. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is currently known from cognitive science about AI's effects on memory formation, retention, and transfer of learning?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.science.org/doi/10.1126/science.1207745",
-          "title": "https://www.science.org/doi/10.1126/science.1207745",
+          "url": "https://example.com/mock/q053",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02127.x",
-          "title": "https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02127.x",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.tandfonline.com/doi/full/10.1080/00461520.2016.1155457",
-          "title": "https://www.tandfonline.com/doi/full/10.1080/00461520.2016.1155457",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.science.org/doi/10.1126/science.adh2586",
-          "title": "https://www.science.org/doi/10.1126/science.adh2586",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://psycnet.apa.org/doi/10.1037/0278-7393.31.2.187",
-          "title": "https://psycnet.apa.org/doi/10.1037/0278-7393.31.2.187",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://onlinelibrary.wiley.com/doi/10.1002/acp.3482",
-          "title": "https://onlinelibrary.wiley.com/doi/10.1002/acp.3482",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 56
+      "last_verified": "2026-08-24",
+      "added_edition": 164
     }
   ],
-  "answer_summary": "The arrival of conversational AI in educational settings has sharpened a question that cognitive scientists were already wrestling with in the age of search engines: what happens to human memory when an extraordinarily capable external system stands ready to supply whatever information a person might need? The evidence accumulated so far is neither uniformly alarming nor reassuring.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q053. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What is currently known from cognitive science about AI's effects on memory formation, retention, and transfer of learning?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

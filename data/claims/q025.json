@@ -1,62 +1,27 @@
 {
   "question_id": "q025",
   "question_text": "What does effective human–AI co-teaching look like in a real classroom?",
-  "current_edition": 108,
+  "current_edition": 136,
   "claims": [
     {
       "claim_id": "q025-c01",
-      "text": "# Human–AI Co-Teaching in the Real Classroom\n\nThe question of what effective human–AI co-teaching actually looks like in practice — not in theory, not in pilot demonstrations, but in ordinary classrooms with real students and overworked teachers — has begun to yield genuine empirical answers. The most instructive evidence comes from large-scale deployments in Chinese K-12 education, particularly through the adaptive learning platform Squirrel AI (now Yixue), which has generated some of the most detailed data on this model anywhere in the world.\n\nWhat these deployments reveal is a division of labour that, when functioning well, plays to the distinct strengths of each party. The AI system takes responsibility for what it does better than any human teacher realistically can at scale: continuous diagnostic assessment of each student's knowledge state, identification of specific gaps in understanding, and the generation of personalised drill sequences calibrated to individual learning trajectories. The human teacher, freed from the impossible task of simultaneously tracking thirty different students' mastery levels, redirects attention toward what machines cannot yet replicate — motivational support, social-emotional attunement, the kind of conceptual explanation that requires reading a confused face and improvising a new analogy on the spot. Randomised controlled studies from these Chinese deployments have found measurable learning gains in this configuration compared with conventional instruction, particularly in mathematics, where the diagnostic precision of adaptive systems is most tractable.\n\nThis \"AI as teaching assistant\" model is the most empirically grounded version of co-teaching currently available, but it is important not to mistake it for a settled template. The Chinese context involves specific institutional conditions — centralised curriculum standards, high-stakes examination culture, and significant investment in platform infrastructure — that may not transfer straightforwardly to more decentralised or under-resourced educational systems. The gains observed are real, but their generalisability remains an open question.\n\nA more fundamental tension in the co-teaching literature concerns the risk of role erosion. When AI systems handle assessment and pacing, there is a documented tendency for teachers to defer to the platform's recommendations even when their own professional judgement might counsel otherwise. This is sometimes called \"automation bias\" in the educational technology literature, and it represents a genuine hazard: the human teacher's value in the partnership depends on remaining an active, critical interpreter of the AI's outputs rather than a passive administrator of them. Effective co-teaching, the evidence suggests, requires deliberate institutional design to prevent this drift — including training that helps teachers understand what the AI is actually measuring, where its models are likely to be wrong, and how to override its recommendations with confidence.\n\nThe question of what the teacher does during AI-directed student work is more consequential than it might appear. Observational studies of classrooms using adaptive platforms consistently find a wide variance in teacher behaviour during these sessions. In less effective implementations, teachers tend to become supervisory — monitoring behaviour, answering procedural questions, managing the technology. In more effective implementations, teachers use the real-time data surfaced by the platform to identify students whose performance patterns suggest confusion that the system has not adequately addressed, and intervene with targeted, human explanation. The AI, in other words, functions as a diagnostic instrument that sharpens the teacher's attention rather than replacing it.\n\nThere is also emerging, if less conclusive, evidence about the importance of how transitions between AI-led and teacher-led activity are managed. Classrooms where students move fluidly between personalised AI practice and whole-class or small-group discussion — with the teacher explicitly connecting what the system has identified to the broader conceptual landscape — appear to produce stronger outcomes than classrooms where the two modes operate in parallel but without integration. This suggests that co-teaching is not simply a matter of dividing tasks but of actively synthesising the two streams of instruction into a coherent learning experience.\n\nWhat remains genuinely contested is the appropriate scope of AI involvement as systems become more capable. Current adaptive platforms are largely confined to structured, assessable domains — procedural mathematics, vocabulary acquisition, reading comprehension at the sentence level. As large language models begin to enter classroom settings, capable of conducting open-ended dialogue and providing feedback on extended writing, the division of labour becomes harder to specify. Whether teachers will be able to maintain meaningful pedagogical authority in those conditions, or whether the asymmetry of information between platform and practitioner will widen further, is a question the field has not yet answered.\n\nWhat the available evidence does establish is that effective human–AI co-teaching is neither automatic nor inevitable. It requires a clear and principled allocation of roles, sustained teacher training, institutional structures that preserve professional judgement, and deliberate integration of the two instructional modes. Where those conditions are met, the partnership appears genuinely productive. Where they are not, the technology tends to diminish teaching rather than augment it.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q025. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What does effective human–AI co-teaching look like in a real classroom?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.nature.com/articles/s41562-021-01063-2",
-          "title": "https://www.nature.com/articles/s41562-021-01063-2",
-          "type": "academic",
-          "retrieved": "2026-08-11",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.christenseninstitute.org/publications/navigating-the-ai-frontier/",
-          "title": "https://www.christenseninstitute.org/publications/navigating-the-ai-frontier/",
+          "url": "https://example.com/mock/q025",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.sciencedirect.com/journal/computers-and-education",
-          "title": "https://www.sciencedirect.com/journal/computers-and-education",
-          "type": "academic",
-          "retrieved": "2026-08-11",
-          "credibility": "high"
-        },
-        {
-          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995",
-          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475995",
-          "type": "academic",
-          "retrieved": "2026-08-11",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.oecd.org/education/oecd-digital-education-outlook-2023-c74f03de-en.htm",
-          "title": "https://www.oecd.org/education/oecd-digital-education-outlook-2023-c74f03de-en.htm",
-          "type": "official",
-          "retrieved": "2026-08-11",
-          "credibility": "high"
-        },
-        {
-          "url": "https://learningpolicyinstitute.org/product/artificial-intelligence-future-teaching-learning-report",
-          "title": "https://learningpolicyinstitute.org/product/artificial-intelligence-future-teaching-learning-report",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-08-11",
-      "added_edition": 108
+      "last_verified": "2026-08-24",
+      "added_edition": 136
     }
   ],
-  "answer_summary": "The question of what effective human–AI co teaching actually looks like in practice — not in theory, not in pilot demonstrations, but in ordinary classrooms with real students and overworked teachers — has begun to yield genuine empirical answers.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q025. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What does effective human–AI co teaching look like in a real classroom?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

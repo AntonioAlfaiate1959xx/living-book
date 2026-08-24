@@ -1,62 +1,27 @@
 {
   "question_id": "q056",
   "question_text": "What does research show about the reliability of AI-detection tools, and what have institutions learned from relying on them?",
-  "current_edition": 59,
+  "current_edition": 167,
   "claims": [
     {
       "claim_id": "q056-c01",
-      "text": "## The Unreliable Science of AI Detection: What Research Reveals\n\nWhen generative AI tools became widely accessible to students in late 2022 and 2023, institutions reached instinctively for a technological countermeasure: AI-detection software. The appeal was understandable. If machines could produce essays, perhaps other machines could identify them. What the research has since established, however, is that this confidence was largely misplaced — and that the consequences of misplaced confidence in this particular domain fall with troubling unevenness on the most vulnerable students.\n\nThe most significant and well-documented finding concerns false-positive rates. A widely-cited 2023 study from Stanford University tested leading detection tools — including Turnitin's AI detector and GPTZero — against essays written by real human students. The results were striking: 61 out of 91 TOEFL essays, all composed by genuine human writers, were classified as AI-generated. The TOEFL, of course, is taken by non-native English speakers, and that detail is not incidental. The study found that detection tools flagged writing by non-native speakers at dramatically higher rates than writing by native speakers. The implication is structural rather than incidental: these tools appear to interpret the linguistic features of non-native writing — simpler syntax, more predictable vocabulary, less idiomatic variation — as markers of machine authorship, because those features overlap with characteristics of AI-generated prose.\n\nThis is an established finding, not a contested one. The mechanism is not difficult to understand. Most large language models are trained predominantly on English-language text and produce output that is grammatically correct but statistically regular — it tends toward common collocations, avoids unusual constructions, and maintains a certain flatness of register. Non-native speakers, particularly those earlier in their language development, often produce writing with similar surface properties, not because they are using AI, but because they are working within the constraints of a second language. Detection tools cannot reliably distinguish between these two sources of regularity.\n\nThe practical consequences for institutions that have relied on these tools are serious. A student wrongly accused of academic dishonesty faces reputational damage, psychological distress, and in some cases formal disciplinary proceedings. When the students most likely to be falsely accused are those already navigating the additional challenges of studying in a second language — often international students, often from less privileged educational backgrounds — the equity implications are acute. Academic integrity processes that were designed to be fair become, in practice, discriminatory in their application.\n\nBeyond the false-positive problem, detection tools face a more fundamental technical challenge: the arms race dynamic. As detection methods improve, so do the techniques for evading them. Students and researchers have demonstrated that relatively simple interventions — paraphrasing AI output, running it through secondary editing tools, or making targeted manual revisions — can substantially reduce detection scores. This means that even when a tool performs well on unmodified AI text, its real-world utility is undermined by the ease with which its signals can be obscured. The students most likely to be caught are those who use AI carelessly and make no effort to conceal it; the students most likely to evade detection are those who use it strategically. This inverts the intended function of the tool.\n\nWhat institutions have learned from experience with these tools varies, but a pattern is emerging. Several universities that initially adopted AI detectors as enforcement mechanisms have since revised their policies, either abandoning the tools altogether or explicitly prohibiting their use as sole or primary evidence in disciplinary cases. The reasoning is consistent with the research: a detection score, however high, cannot by itself constitute proof of misconduct when the false-positive rate for identifiable student populations is known to be substantial. Some institutions have moved toward requiring that any AI-detection flag be corroborated by other evidence — inconsistencies between a student's in-class and out-of-class writing, for instance, or implausibilities in the submitted work relative to the student's demonstrated knowledge.\n\nThere is a minority position worth acknowledging: some researchers and vendors argue that detection tools, used carefully and interpreted probabilistically rather than as binary verdicts, still provide useful signal. Turnitin, for its part, has maintained that its tool is intended to prompt conversation rather than to serve as definitive proof. This is a reasonable framing in principle, but it depends on instructors having the training and judgment to use probabilistic outputs appropriately — a condition that is far from universally met.\n\nThe broader lesson the research supports is that technological solutions to fundamentally human and social problems tend to displace rather than resolve the underlying difficulty. Academic integrity depends on assessment design, institutional culture, and the relationship between students and educators. Detection software addresses none of these things. What it does, when deployed uncritically, is introduce a new source of error into processes that carry real consequences for real students — and distribute that error in ways that track existing inequalities rather than cutting across them.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q056. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What does research show about the reliability of AI-detection tools, and what have institutions learned from relying on them?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(23",
-          "title": "https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(23",
+          "url": "https://example.com/mock/q056",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.turnitin.com/blog/ai-writing-detection-faq",
-          "title": "https://www.turnitin.com/blog/ai-writing-detection-faq",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://arxiv.org/abs/2303.11156",
-          "title": "https://arxiv.org/abs/2303.11156",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.washingtonpost.com/technology/2023/04/01/chatgpt-cheating-detection-turnitin/",
-          "title": "https://www.washingtonpost.com/technology/2023/04/01/chatgpt-cheating-detection-turnitin/",
-          "type": "news",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.ibo.org/news/news-about-the-ib/artificial-intelligence-in-education/",
-          "title": "https://www.ibo.org/news/news-about-the-ib/artificial-intelligence-in-education/",
-          "type": "news",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://ro.uow.edu.au/jutlp/vol20/iss5/09/",
-          "title": "https://ro.uow.edu.au/jutlp/vol20/iss5/09/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 59
+      "last_verified": "2026-08-24",
+      "added_edition": 167
     }
   ],
-  "answer_summary": "When generative AI tools became widely accessible to students in late 2022 and 2023, institutions reached instinctively for a technological countermeasure: AI detection software. The appeal was understandable. If machines could produce essays, perhaps other machines could identify them.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q056. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What does research show about the reliability of AI detection tools, and what have institutions learned from relying on them?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

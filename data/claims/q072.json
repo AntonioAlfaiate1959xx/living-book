@@ -1,61 +1,26 @@
 {
   "question_id": "q072",
   "question_text": "How are education systems regulating student data privacy in AI tools, and which legal frameworks apply to minors?",
-  "current_edition": 75,
+  "current_edition": 183,
   "claims": [
     {
       "claim_id": "q072-c01",
-      "text": "## Regulating Student Data Privacy in the Age of AI Educational Tools\n\nThe rapid adoption of artificial intelligence in classrooms has exposed a fundamental mismatch between the pace of technological change and the legal frameworks designed to protect students. Across jurisdictions, regulators are attempting to apply laws conceived in an earlier era to tools that collect, infer, and act upon student data in ways their drafters could not have anticipated. The result is a patchwork of protections that varies considerably by country, age group, and institutional context — and that leaves significant gaps precisely where the risks are greatest.\n\nIn the United States, the Family Educational Rights and Privacy Act (FERPA) remains the primary federal instrument governing student data privacy. Enacted in 1974, FERPA was built around a straightforward premise: educational institutions that receive federal funding must protect the confidentiality of students' education records, and must grant parents — or students themselves once they turn eighteen — the right to inspect, correct, and control the disclosure of those records. For decades, this framework functioned adequately in a world of paper transcripts and administrative databases. Its application to AI-driven educational tools is considerably more strained.\n\nThe central difficulty is definitional. FERPA's protections attach to \"education records,\" a category that courts and regulators have interpreted to mean documents directly related to a student and maintained by an institution or its agents. Many AI tools, however, generate data that does not fit neatly into this category. When an adaptive learning platform infers a student's cognitive state from keystroke patterns, or when a large language model retains conversational data to personalise future interactions, the resulting information may not constitute an education record in the traditional sense — even though it is arguably more sensitive than a grade report. Whether such inferred or behaviorally derived data falls under FERPA's umbrella remains a genuinely contested question, and federal guidance has not resolved it definitively.\n\nFERPA also relies heavily on the concept of institutional control. Schools are responsible for ensuring that third-party vendors who access student data under a \"school official\" exception comply with the law's requirements. In practice, enforcing this obligation across a proliferating ecosystem of AI vendors — many of which operate across multiple jurisdictions and update their data practices frequently — has proven difficult. The U.S. Department of Education has issued guidance encouraging institutions to conduct vendor due diligence, but the enforcement mechanism remains weak: FERPA's primary sanction is the withdrawal of federal funding, a remedy so drastic that it is almost never applied.\n\nSupplementing FERPA for younger students is the Children's Online Privacy Protection Act (COPPA), which imposes stricter requirements on operators of websites and online services directed at children under thirteen, including verifiable parental consent before collecting personal information. COPPA is more directly applicable to many AI tools than FERPA, but it too was designed before generative AI existed, and its consent mechanisms sit awkwardly with school-mediated deployments where parents may have little visibility into which tools their children are using on any given day.\n\nAt the state level, the regulatory landscape has grown considerably more active. California's Student Online Personal Information Protection Act (SOPIPA) and its successors prohibit ed-tech operators from using student data for targeted advertising or selling it to third parties — obligations that go beyond what FERPA requires. Several other states have enacted similar legislation, and a small number have begun explicitly addressing AI. These state-level efforts represent genuine progress, but their fragmentation creates compliance complexity for vendors and leaves students in less legislatively active states with weaker protections.\n\nOutside the United States, the European Union's General Data Protection Regulation (GDPR) provides a more comprehensive baseline. GDPR treats children's data as a special category requiring heightened protection, mandates data minimisation and purpose limitation, and grants individuals robust rights of access, rectification, and erasure. Member states may set the age of digital consent anywhere between thirteen and sixteen, creating some variation within the bloc, but the underlying framework is substantially more demanding than its American counterparts. The EU's AI Act, which entered into force in 2024, adds a further layer by classifying certain AI applications in education — particularly those used for assessment or monitoring — as high-risk systems subject to mandatory transparency, human oversight, and conformity assessments before deployment.\n\nWhat emerges from this comparative picture is a clear tension between the comprehensiveness of rights-based frameworks like GDPR and the more fragmented, institution-centred approach that characterises U.S. law. Neither model has yet fully grappled with the distinctive features of modern AI: its capacity to generate sensitive inferences from innocuous inputs, its opacity, and the difficulty of obtaining meaningful consent when the data subject is a child and the technology is embedded in a compulsory educational setting. The regulatory conversation is genuinely open, and the adequacy of existing frameworks for protecting minors in AI-mediated education remains one of the more pressing unresolved questions in education policy.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q072. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How are education systems regulating student data privacy in AI tools, and which legal frameworks apply to minors?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://studentprivacy.ed.gov/resources/ferpa-and-virtual-learning-during-covid-19",
-          "title": "https://studentprivacy.ed.gov/resources/ferpa-and-virtual-learning-during-covid-19",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/edtech-policy-statement.pdf",
-          "title": "https://www.ftc.gov/system/files/ftc_gov/pdf/edtech-policy-statement.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-052020-consent-under-regulation-2016679_en",
-          "title": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-052020-consent-under-regulation-2016679_en",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
-          "title": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://studentprivacycompass.org/state-laws/",
-          "title": "https://studentprivacycompass.org/state-laws/",
+          "url": "https://example.com/mock/q072",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
-          "title": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 75
+      "last_verified": "2026-08-24",
+      "added_edition": 183
     }
   ],
-  "answer_summary": "The rapid adoption of artificial intelligence in classrooms has exposed a fundamental mismatch between the pace of technological change and the legal frameworks designed to protect students. Across jurisdictions, regulators are attempting to apply laws conceived in an earlier era to tools that collect, infer, and act upon student data in ways their drafters could not have anticipated.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q072. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How are education systems regulating student data privacy in AI tools, and which legal frameworks apply to minors?\". No network call was made.",
   "disputed_aspects": []
 }

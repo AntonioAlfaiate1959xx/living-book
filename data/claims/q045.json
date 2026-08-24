@@ -1,62 +1,27 @@
 {
   "question_id": "q045",
   "question_text": "How should education respond to the possible decoupling of learning from employment (if AI displaces large categories of work)?",
-  "current_edition": 48,
+  "current_edition": 156,
   "claims": [
     {
       "claim_id": "q045-c01",
-      "text": "## Learning Beyond Employment: How Education Must Respond to AI-Driven Displacement\n\nThe foundational bargain of modern education has always been implicitly economic: study diligently, acquire credentials, and exchange them for productive employment. That bargain is now under serious pressure. The McKinsey Global Institute's 2023 analysis estimated that generative AI could automate tasks accounting for 60 to 70 percent of employees' time across occupations — a projection that dramatically accelerates earlier, more modest forecasts about technological displacement. If that estimate proves even partially correct, the assumption that education exists primarily to prepare workers for labour markets becomes not merely incomplete but potentially obsolete. The question facing educators, policymakers, and institutions is therefore not simply how to update curricula, but whether the entire organising purpose of formal learning requires rethinking from the ground up.\n\nIt is worth being precise about what is and is not established here. That AI will automate a significant range of cognitive and routine tasks is well-supported by current evidence. What remains genuinely contested is the pace, the distributional pattern, and the net employment effect of that automation. Historical technological transitions — mechanisation, electrification, computerisation — displaced categories of work while generating new ones, often in ways that contemporaries failed to anticipate. Some economists argue the same dynamic will reassert itself with AI, producing new roles even as old ones disappear. Others contend that generative AI is categorically different because it encroaches on non-routine cognitive work, the domain that previous automation left largely intact. Education cannot wait for that debate to resolve before responding, but it should respond with appropriate epistemic humility rather than assuming any single scenario is certain.\n\nWhat the scale of potential disruption does demand, regardless of which scenario unfolds, is a serious reconsideration of educational purpose. OECD researchers have argued that if large categories of employment become structurally unavailable, education cannot justify itself solely through the lens of workforce preparation without becoming either irrelevant or cruel — training people for positions that do not exist. This does not mean abandoning vocational and professional preparation; it means refusing to treat it as the sole or even primary rationale for learning. The older humanist tradition — education as the cultivation of judgment, civic capacity, aesthetic sensibility, and the examined life — becomes not a luxury but a practical necessity when the labour market can no longer serve as the principal organising framework for human purpose and social contribution.\n\nConcretely, this reorientation has several implications. Curricula that have been progressively narrowed toward measurable, employment-relevant competencies may need to be deliberately broadened. The humanities, philosophy, and the arts have often been marginalised in recent decades precisely because their labour-market returns are harder to quantify; a world in which AI handles much of the quantifiable cognitive work is one in which those disciplines' contributions to meaning-making, ethical reasoning, and cultural life become more rather than less important. This is an emerging argument rather than a settled consensus, but it has gained traction among educational theorists who see the current moment as an opportunity to correct a decades-long narrowing of educational ambition.\n\nAt the same time, education cannot simply retreat into pure humanism and ignore the real transitions workers and learners will face in the near term. The displacement projected by McKinsey and others will not be uniform: it will fall unevenly across sectors, skill levels, and geographies, with workers in routine cognitive roles — data processing, paralegal work, certain categories of writing and analysis — facing the most immediate pressure. Education systems will need to develop genuinely flexible pathways for retraining and lifelong learning, not the thin, underfunded versions that currently exist in most countries, but substantive programmes capable of supporting adults through multiple career transitions across a working life. The tension here is real: institutions built around the formation of young people over long, sequential programmes are structurally ill-suited to the episodic, demand-driven learning that mid-career displacement requires. Resolving that tension will require both institutional redesign and significant public investment.\n\nThere is also a deeper question that education alone cannot answer but must engage: if work becomes less central to social identity and economic participation, what replaces it as the primary structure through which people find meaning, status, and community? Education has historically both reflected and reinforced the centrality of productive employment to human dignity. A genuine decoupling would require not just new curricula but new cultural narratives about what a well-lived life looks like — narratives that education systems help to form and transmit. That is a task for which the humanist tradition is better equipped than the vocational one, which is precisely why the current moment, for all its uncertainty, may represent an opportunity to recover educational purposes that instrumental pressures have long suppressed.\n\nThe honest answer, then, is that education should respond on multiple fronts simultaneously: preserving and strengthening its capacity to prepare people for the work that remains, while rebuilding its commitment to the broader formation of persons capable of living well in a world where employment is no longer the axis around which everything else turns.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q045. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How should education respond to the possible decoupling of learning from employment (if AI displaces large categories of work)?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.oecd.org/education/2030-project/teaching-and-learning/learning/learning-compass-2030/OECD_Learning_Compass_2030_concept_note.pdf",
-          "title": "https://www.oecd.org/education/2030-project/teaching-and-learning/learning/learning-compass-2030/OECD_Learning_Compass_2030_concept_note.pdf",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nber.org/papers/w32487",
-          "title": "https://www.nber.org/papers/w32487",
+          "url": "https://example.com/mock/q045",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000379707",
-          "title": "https://unesdoc.unesco.org/ark:/48223/pf0000379707",
-          "type": "official",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
-          "title": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://tressiemc.com/",
-          "title": "https://tressiemc.com/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.luminafoundation.org/stronger-nation/report/",
-          "title": "https://www.luminafoundation.org/stronger-nation/report/",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 48
+      "last_verified": "2026-08-24",
+      "added_edition": 156
     }
   ],
-  "answer_summary": "The foundational bargain of modern education has always been implicitly economic: study diligently, acquire credentials, and exchange them for productive employment. That bargain is now under serious pressure.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q045. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How should education respond to the possible decoupling of learning from employment (if AI displaces large categories of work)?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

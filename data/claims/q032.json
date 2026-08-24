@@ -1,62 +1,27 @@
 {
   "question_id": "q032",
   "question_text": "What are the effects of AI companionship on students' social development and human relationships?",
-  "current_edition": 35,
+  "current_edition": 143,
   "claims": [
     {
       "claim_id": "q032-c01",
-      "text": "## AI Companionship and the Social Lives of Students\n\nThe arrival of conversational AI systems and social robots in educational environments has prompted serious questions about what happens to students' social development when a machine becomes a reliable, patient, and always-available companion. The evidence gathered so far is neither uniformly alarming nor reassuring; it describes a technology whose effects depend heavily on the population using it, the duration of use, and whether human relationships remain available alongside it.\n\nThe most consistently documented short-term effect is a reduction in loneliness and social anxiety. For students who find human interaction genuinely difficult — those with autism spectrum disorder, social phobia, or severe shyness — AI companions appear to offer something valuable: a low-stakes environment in which to practise conversation, receive responses without judgment, and experience a form of social presence without the unpredictability that makes human contact threatening. Research published in *Computers in Human Behavior* has documented this relief effect, and it is not trivial. For a student who might otherwise withdraw entirely from social engagement, an AI interlocutor can serve as a kind of scaffolding, maintaining some degree of social activity during periods when human connection feels inaccessible.\n\nThe difficulty is that this scaffolding can become a permanent structure rather than a temporary support. The same research that documents short-term relief also identifies dependency formation as a genuine risk. When an AI companion is consistently more available, more patient, and less demanding than human peers or teachers, students — particularly younger ones or those already socially vulnerable — may begin to prefer it. This preference is not irrational from the student's perspective: the AI does not tire, does not judge, does not have competing emotional needs. But human relationships are partly valuable because of their difficulty and reciprocity. Learning to navigate conflict, to tolerate the imperfections of others, to repair ruptures in friendship — these are developmental tasks that AI companionship, by its nature, cannot provide. A companion that never disappoints cannot teach a student how to cope with disappointment.\n\nThis tension between short-term benefit and long-term developmental risk sits at the heart of the current debate, and it is worth being precise about what remains contested. The short-term relief effect is reasonably well established across multiple studies. The dependency hypothesis is supported by evidence but is harder to study longitudinally, and researchers disagree about how readily dependency forms, under what conditions it becomes harmful, and whether it is the AI itself or the absence of adequate human alternatives that drives the problem. Some researchers argue that students who form attachments to AI companions are often those who were already struggling to form human connections, meaning the AI may be a symptom of social difficulty rather than its cause. Others contend that even if AI companionship begins as a response to existing isolation, it can deepen that isolation by reducing the motivation to pursue the harder work of human relationship.\n\nThe population question matters enormously here. Evidence from interventions with autistic students suggests that social robots used in structured, therapeutically supervised settings can actually improve subsequent human interaction — the AI functions as a rehearsal space, and the skills practised there transfer. This is a meaningfully different outcome from unsupervised, open-ended AI companionship pursued by neurotypical students who have access to human peers but find them less convenient. Conflating these two contexts produces confused conclusions. The same technology, used differently, by different students, appears capable of producing opposite effects on social development.\n\nThere is also a question about what AI companionship does to students' implicit models of what relationships are. Human friendships involve mutual vulnerability, the possibility of rejection, and the knowledge that the other person's attention is genuinely limited and therefore meaningful. An AI companion that is infinitely available and constitutionally incapable of rejection offers a fundamentally different relational experience. Whether sustained exposure to this kind of interaction subtly reshapes students' expectations of human relationships — making the ordinary friction of friendship feel less tolerable — is a question the research has begun to raise but cannot yet answer with confidence. The longitudinal studies required to address it properly are still in early stages.\n\nWhat the evidence does support, with reasonable confidence, is that the effects of AI companionship on social development are not uniform and are not determined by the technology alone. Structured use with clear therapeutic goals, maintained alongside human relationships rather than as a substitute for them, appears to carry genuine benefits for specific populations. Unstructured, substitutive use — particularly among students who are already socially isolated — carries documented risks of deepening that isolation. The pedagogical and ethical challenge is not whether to permit AI companionship in educational contexts but how to design its use so that it serves as a bridge toward human connection rather than a comfortable detour around it.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q032. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What are the effects of AI companionship on students' social development and human relationships?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.sciencedirect.com/science/article/pii/S0747563223000012",
-          "title": "https://www.sciencedirect.com/science/article/pii/S0747563223000012",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.science.org/doi/10.1126/scirobotics.aat5954",
-          "title": "https://www.science.org/doi/10.1126/scirobotics.aat5954",
+          "url": "https://example.com/mock/q032",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://www.humanetech.com/youth",
-          "title": "https://www.humanetech.com/youth",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.annualreviews.org/doi/10.1146/annurev-bioeng-071811-150036",
-          "title": "https://www.annualreviews.org/doi/10.1146/annurev-bioeng-071811-150036",
-          "type": "practitioner",
-          "retrieved": "2026-07-30",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://journals.sagepub.com/doi/10.1177/0956797616678438",
-          "title": "https://journals.sagepub.com/doi/10.1177/0956797616678438",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://link.springer.com/article/10.1007/s00146-016-0667-2",
-          "title": "https://link.springer.com/article/10.1007/s00146-016-0667-2",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 35
+      "last_verified": "2026-08-24",
+      "added_edition": 143
     }
   ],
-  "answer_summary": "The arrival of conversational AI systems and social robots in educational environments has prompted serious questions about what happens to students' social development when a machine becomes a reliable, patient, and always available companion.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q032. In live mode this text would be generated by the Abacus.AI model in response to the question: \"What are the effects of AI companionship on students' social development and human relationships?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

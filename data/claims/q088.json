@@ -1,61 +1,26 @@
 {
   "question_id": "q088",
   "question_text": "How can educators and institutions with minimal budgets or infrastructure still give students equitable access to AI-supported learning?",
-  "current_edition": 107,
+  "current_edition": 199,
   "claims": [
     {
       "claim_id": "q088-c01",
-      "text": "## Equitable AI-Supported Learning on Minimal Budgets and Infrastructure\n\nThe promise of AI in education has arrived accompanied by an uncomfortable irony: the students most likely to benefit from personalised, adaptive instruction are often the least likely to have reliable access to the tools that provide it. Yet the assumption that meaningful AI-supported learning requires high-speed internet, modern devices, and well-funded technical departments is increasingly being challenged by researchers, developers, and educators working at the margins of conventional infrastructure.\n\nThe most foundational shift in thinking concerns connectivity itself. For years, digital education initiatives faltered in low-income and rural contexts because they were designed around the assumption of stable broadband. A growing body of development work, including efforts by the Raspberry Pi Foundation and Khan Academy, has moved toward offline-capable and low-bandwidth platforms that can deliver adaptive learning experiences without a persistent internet connection. UNESCO's 2023 guidance on AI in education gave formal weight to this direction by explicitly calling for \"connectivity-agnostic\" solutions — tools that do not treat reliable internet as a prerequisite but as a bonus. This reframing is significant. It relocates the design problem from the student's circumstances to the developer's assumptions, and it opens the door to AI-supported learning in contexts that would otherwise be written off entirely.\n\nOffline-first design, however, is only one dimension of the infrastructure challenge. Device access remains a parallel constraint, and here the evidence points toward shared-use models and low-cost hardware as practical responses. Single-board computers such as the Raspberry Pi itself can run lightweight educational software at a fraction of the cost of conventional laptops, and community device-sharing schemes — where a small number of machines rotate among students or are available at a central location such as a library or community centre — have demonstrated viability in several low-income contexts. These arrangements are not ideal, but they represent a meaningful step toward access rather than a counsel of perfection.\n\nTeacher capacity is arguably as important as hardware, and this is where under-resourced institutions face a subtler but equally serious challenge. AI tools are only as effective as the pedagogical frameworks within which they are deployed, and educators who have had little exposure to these technologies may use them superficially or not at all. The evidence here points toward peer-learning networks and low-cost professional development as disproportionately effective interventions. When teachers share practical strategies with one another — through structured communities of practice, regional networks, or even informal messaging groups — the adoption and quality of AI tool use tends to improve without requiring expensive external consultants or formal training programmes. This finding is well-supported in the broader literature on teacher professional development and appears to transfer meaningfully to the AI context.\n\nOpen-source and freely licensed AI tools represent another underexplored avenue. The commercial AI education market is dominated by subscription-based platforms whose pricing structures effectively exclude the schools that need them most. But a parallel ecosystem of open-source tools — some built on large language model frameworks, others on simpler adaptive algorithms — has grown substantially in recent years. These tools can be adapted, translated, and deployed by institutions with technical capacity, and in some cases by regional education authorities who can customise them for local languages and curricula. The caveat here is real: open-source tools require someone with technical knowledge to implement and maintain them, and that capacity is itself unevenly distributed. The promise of open-source equity can therefore be partially self-defeating unless it is paired with investment in local technical expertise.\n\nA more contested question concerns the role of mobile phones. In many low-income contexts, smartphones are far more prevalent than laptops or tablets, and SMS-based or lightweight app-based learning tools have shown genuine promise in reaching students who would otherwise have no device access at all. Some researchers argue that mobile-first AI learning tools represent the most scalable path to equity; others caution that small screens, data costs, and the distractions inherent to personal devices limit their pedagogical effectiveness. The evidence does not yet resolve this tension cleanly, and the answer likely varies by age group, subject matter, and local context.\n\nWhat the evidence does establish clearly is that equitable AI-supported learning in resource-constrained settings is not primarily a technology problem. It is a design problem, a policy problem, and a professional development problem. Tools must be built for the conditions that actually exist rather than the conditions that would be convenient. Institutions must be supported in building local capacity rather than depending on external vendors. And the definition of \"access\" must expand beyond device ownership to include meaningful, pedagogically sound engagement with AI tools that adapt to students' needs. None of this is simple, but the path is considerably clearer than it was even five years ago.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q088. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How can educators and institutions with minimal budgets or infrastructure still give students equitable access to AI-supported learning?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://learningequality.org/kolibri/",
-          "title": "https://learningequality.org/kolibri/",
+          "url": "https://example.com/mock/q088",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://ai.meta.com/llama/",
-          "title": "https://ai.meta.com/llama/",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.unicef.org/innovation/digital-learning",
-          "title": "https://www.unicef.org/innovation/digital-learning",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://ai4k12.org/",
-          "title": "https://ai4k12.org/",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://edtechhub.org/",
-          "title": "https://edtechhub.org/",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.ala.org/advocacy/artificial-intelligence",
-          "title": "https://www.ala.org/advocacy/artificial-intelligence",
-          "type": "practitioner",
-          "retrieved": "2026-08-11",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-08-11",
-      "added_edition": 107
+      "last_verified": "2026-08-24",
+      "added_edition": 199
     }
   ],
-  "answer_summary": "The promise of AI in education has arrived accompanied by an uncomfortable irony: the students most likely to benefit from personalised, adaptive instruction are often the least likely to have reliable access to the tools that provide it.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q088. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How can educators and institutions with minimal budgets or infrastructure still give students equitable access to AI supported learning?\". No network call was made.",
   "disputed_aspects": []
 }

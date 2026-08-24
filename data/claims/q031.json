@@ -1,62 +1,27 @@
 {
   "question_id": "q031",
   "question_text": "How does constant AI availability change motivation, curiosity, and the desire to learn?",
-  "current_edition": 110,
+  "current_edition": 142,
   "claims": [
     {
       "claim_id": "q031-c01",
-      "text": "## The Always-On Oracle: How Constant AI Availability Reshapes the Inner Life of Learning\n\nOne of the quieter revolutions accompanying the spread of artificial intelligence in education is not happening in classrooms or curricula but inside learners themselves — in the felt sense of why one bothers to think hard, to wonder, or to persist through confusion. When a capable AI system is perpetually available, the psychological architecture of learning shifts in ways that are only beginning to be understood, and the evidence so far is genuinely ambiguous.\n\nThe most documented mechanism is cognitive offloading: the delegation of mental effort to an external tool. Humans have always done this — with writing, calculators, and search engines — but AI systems differ in the breadth and fluency of what they can absorb. Research published in *Computers in Human Behavior* in 2023 found that students with persistent access to AI writing assistants reported a lower perceived need to develop their own reasoning through the act of composition. This is not simply laziness. Cognitive offloading can be rational; there is no obvious virtue in mental effort for its own sake. The problem arises when the offloading erodes what psychologists call intrinsic motivation — the internal pull toward mastery, understanding, and the pleasure of figuring things out. When a tool reliably produces the answer, the question loses some of its grip.\n\nThis connects to a deeper concern about curiosity. Curiosity, in its most productive educational form, is often described as a tolerance for not-knowing — a willingness to sit with a gap in understanding long enough to want to close it. Constant AI availability may compress that gap almost to nothing. The moment a question forms, an answer is available. Whether this satisfies curiosity or short-circuits it is genuinely contested. One view holds that rapid, reliable answers free learners to ask more questions, moving faster across intellectual terrain and encountering more ideas. The opposing view, supported by research in the psychology of learning, suggests that the productive struggle preceding an answer is itself constitutive of curiosity: the friction generates the interest. On this account, removing friction removes the very experience that makes learning feel meaningful.\n\nThe evidence on motivation is similarly divided, and the division often tracks how AI is used rather than whether it is used. Studies examining students who employ AI as a generative scaffold — using it to explore possibilities, check reasoning, or encounter counterarguments — tend to find maintained or even enhanced engagement. Students who use AI primarily as a substitution for their own thinking show patterns more consistent with diminished intrinsic motivation and reduced persistence on challenging tasks. This distinction matters enormously for educational design, though it is worth noting that the boundary between scaffolding and substitution is not always clear to the learner in the moment, and may not be clear in retrospect either.\n\nThere is also an emerging body of work on what might be called the confidence paradox. Some research suggests that constant AI availability can simultaneously inflate students' confidence in their outputs and reduce their confidence in their own unaided abilities. When the AI is present, work feels polished and competent; when it is absent, the learner feels exposed. This dynamic has implications for the development of what self-determination theorists call perceived competence — one of the three pillars of intrinsic motivation alongside autonomy and relatedness. If learners come to attribute their competence to the tool rather than to themselves, the motivational foundation of sustained learning is weakened.\n\nAge and prior knowledge appear to moderate these effects, though the evidence here is still emerging. Younger learners and novices may be more susceptible to motivational displacement, since they have not yet developed the internal standards and domain knowledge that allow them to use AI critically rather than deferentially. More advanced learners seem better positioned to treat AI as a genuine intellectual interlocutor — something to argue with, test, and interrogate — which preserves and may even sharpen their engagement.\n\nWhat is not yet well understood is the long-term trajectory. Most studies capture snapshots of behavior over weeks or a single academic term. Whether the motivational effects of constant AI availability accumulate, stabilize, or reverse as learners develop new habits of mind remains an open question. It is possible that a generation educated alongside AI will develop forms of curiosity and motivation adapted to that environment — less oriented toward solitary struggle and more toward the collaborative, iterative, human-AI inquiry that the tools make possible. It is equally possible that something important about the inner experience of learning — the private satisfaction of working something out, the ownership of hard-won understanding — will quietly diminish.\n\nThe honest answer, then, is that constant AI availability changes the motivational landscape of learning in ways that are real, measurable in the short term, and deeply uncertain in their ultimate significance. The change is neither straightforwardly harmful nor straightforwardly beneficial; it depends on pedagogy, on individual disposition, and on choices about how these tools are integrated into the practice of education.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q031. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How does constant AI availability change motivation, curiosity, and the desire to learn?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6502424/",
-          "title": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6502424/",
-          "type": "official",
-          "retrieved": "2026-08-22",
-          "credibility": "high"
-        },
-        {
-          "url": "https://selfdeterminationtheory.org/SDT/documents/2000_DeciRyan_PIWhatWhy.pdf",
-          "title": "https://selfdeterminationtheory.org/SDT/documents/2000_DeciRyan_PIWhatWhy.pdf",
+          "url": "https://example.com/mock/q031",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-08-22",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4312418",
-          "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4312418",
-          "type": "academic",
-          "retrieved": "2026-08-22",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nature.com/articles/s41539-019-0055-z",
-          "title": "https://www.nature.com/articles/s41539-019-0055-z",
-          "type": "academic",
-          "retrieved": "2026-08-22",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.rand.org/pubs/research_reports/RRA956-13.html",
-          "title": "https://www.rand.org/pubs/research_reports/RRA956-13.html",
-          "type": "practitioner",
-          "retrieved": "2026-08-22",
-          "credibility": "medium"
-        },
-        {
-          "url": "https://www.khanacademy.org/khan-labs",
-          "title": "https://www.khanacademy.org/khan-labs",
-          "type": "practitioner",
-          "retrieved": "2026-08-22",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-08-22",
-      "added_edition": 110
+      "last_verified": "2026-08-24",
+      "added_edition": 142
     }
   ],
-  "answer_summary": "One of the quieter revolutions accompanying the spread of artificial intelligence in education is not happening in classrooms or curricula but inside learners themselves — in the felt sense of why one bothers to think hard, to wonder, or to persist through confusion.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q031. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How does constant AI availability change motivation, curiosity, and the desire to learn?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",

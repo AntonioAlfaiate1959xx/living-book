@@ -1,62 +1,27 @@
 {
   "question_id": "q030",
   "question_text": "How do we design AI systems that strengthen rather than substitute students' thinking (avoiding cognitive offloading)?",
-  "current_edition": 33,
+  "current_edition": 141,
   "claims": [
     {
       "claim_id": "q030-c01",
-      "text": "## Designing AI Systems That Strengthen Rather Than Substitute Students' Thinking\n\nThe central tension in educational AI design is deceptively simple to state and genuinely difficult to resolve: the features that make AI systems most convenient are often precisely those that make them least educationally valuable. An AI that instantly supplies answers, completes reasoning chains, and removes ambiguity is, from a learning science perspective, potentially doing the student a disservice — not because struggle is virtuous in itself, but because cognitive effort is the mechanism through which durable learning occurs.\n\nThe theoretical foundation here is well established. Robert Bjork's research on \"desirable difficulties\" demonstrated that learning is enhanced when students encounter manageable challenges that require effortful processing. Retrieval practice, spaced repetition, and interleaving of problem types all introduce friction that feels counterproductive in the moment yet produces stronger long-term retention and transfer. When an AI system short-circuits these processes — providing the answer before the student has genuinely attempted retrieval, or scaffolding so heavily that no real reasoning is required — it may produce the illusion of learning while undermining its substance. The student who receives a worked solution feels informed; the student who struggled toward that solution and then checked it has actually learned something.\n\nThis creates a design imperative that runs against the grain of most consumer technology development, which optimises relentlessly for ease and immediacy. Educational AI must instead be designed to preserve productive struggle while eliminating unproductive frustration — a distinction that is easy to articulate and hard to operationalise. The difference between a challenge that builds capacity and one that merely demoralises depends on the student's prior knowledge, current cognitive load, and motivational state, all of which vary enormously and change moment to moment.\n\nOne promising design direction involves what might be called Socratic scaffolding: AI systems that respond to student queries not with answers but with questions, prompts, and partial framings that redirect the student's own reasoning. Rather than explaining why an answer is correct, such a system might ask the student to articulate their current thinking, identify where their reasoning feels uncertain, or consider a counterexample. This approach draws on the established literature on elaborative interrogation and self-explanation, both of which have robust evidence bases showing that prompting students to generate explanations — rather than receive them — produces deeper understanding. The practical challenge is calibration: a system that asks too many questions before offering any support becomes an obstacle rather than an aid, and students with low prior knowledge may lack the conceptual resources to benefit from purely interrogative feedback.\n\nA related design principle concerns the sequencing of AI assistance relative to student effort. Evidence from the \"generation effect\" in cognitive psychology suggests that attempting to produce an answer before receiving instruction — even when the attempt fails — improves subsequent learning from that instruction. AI systems could be designed to enforce this sequence structurally: requiring a student to submit their own attempt, however incomplete, before any AI-generated guidance becomes available. This is not merely a procedural hurdle but a pedagogically motivated intervention that primes the student's cognitive system to receive and integrate new information more effectively.\n\nThe question of metacognition adds another layer of complexity. Students who offload thinking to AI systems may not only fail to learn the immediate content but may also fail to develop accurate models of their own understanding — a phenomenon sometimes called the \"fluency illusion,\" in which the ease of processing AI-generated explanations is mistaken for genuine comprehension. AI systems designed with metacognitive development in mind might periodically prompt students to predict their own performance, reflect on what they found difficult, or explain concepts back in their own words without AI assistance. Whether such prompts are effective in practice, and under what conditions, remains an open empirical question; the evidence base for AI-specific metacognitive interventions is still thin compared to the broader literature on metacognition in learning.\n\nThere is also a legitimate tension in this design space that should not be papered over. For students with certain learning differences, disabilities, or significant knowledge gaps, reducing cognitive load through AI assistance may be genuinely enabling rather than merely convenient — allowing access to learning that would otherwise be blocked entirely. The goal of preserving productive struggle cannot be pursued so rigidly that it reintroduces barriers for students who need different forms of support. Universal design principles suggest that the ideal system would be adaptive: calibrating the level of scaffolding to the individual student's zone of proximal development, withdrawing support as competence grows, and never doing for the student what the student can meaningfully do for themselves.\n\nWhat emerges from this body of evidence is not a simple prescription but a set of design commitments: build in effort before assistance, favour questions over answers, make metacognitive reflection a structural feature rather than an optional add-on, and treat adaptivity as a core requirement rather than a refinement. The AI system that strengthens thinking is one that consistently positions itself as a thinking partner rather than a thinking replacement — and that distinction must be encoded in the architecture, not left to the student's willpower.",
-      "reliability": "emerging",
+      "text": "**[MOCK REFRESH]** This is a deterministic mock answer for q030. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do we design AI systems that strengthen rather than substitute students' thinking (avoiding cognitive offloading)?\". No network call was made.",
+      "reliability": "established",
       "sources": [
         {
-          "url": "https://www.sciencedirect.com/science/article/pii/S0360131523000842",
-          "title": "https://www.sciencedirect.com/science/article/pii/S0360131523000842",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://economics.mit.edu/sites/default/files/2023-03/noy_zhang_1.pdf",
-          "title": "https://economics.mit.edu/sites/default/files/2023-03/noy_zhang_1.pdf",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.khanacademy.org/khan-labs",
-          "title": "https://www.khanacademy.org/khan-labs",
+          "url": "https://example.com/mock/q030",
+          "title": "Mock source (orchestrator self-test)",
           "type": "practitioner",
-          "retrieved": "2026-07-30",
+          "retrieved": "2026-08-24",
           "credibility": "medium"
-        },
-        {
-          "url": "https://link.springer.com/article/10.1007/s10648-022-09692-1",
-          "title": "https://link.springer.com/article/10.1007/s10648-022-09692-1",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://dl.acm.org/doi/10.1145/3544548.3580907",
-          "title": "https://dl.acm.org/doi/10.1145/3544548.3580907",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
-        },
-        {
-          "url": "https://www.nature.com/articles/s41539-023-00189-6",
-          "title": "https://www.nature.com/articles/s41539-023-00189-6",
-          "type": "academic",
-          "retrieved": "2026-07-30",
-          "credibility": "high"
         }
       ],
       "perspectives": [],
-      "last_verified": "2026-07-30",
-      "added_edition": 33
+      "last_verified": "2026-08-24",
+      "added_edition": 141
     }
   ],
-  "answer_summary": "The central tension in educational AI design is deceptively simple to state and genuinely difficult to resolve: the features that make AI systems most convenient are often precisely those that make them least educationally valuable.",
+  "answer_summary": "[MOCK REFRESH] This is a deterministic mock answer for q030. In live mode this text would be generated by the Abacus.AI model in response to the question: \"How do we design AI systems that strengthen rather than substitute students' thinking (avoiding cognitive offloading)?\". No network call was made.",
   "disputed_aspects": [],
   "legacy": {
     "lastUpdated": "2026-07-03",
