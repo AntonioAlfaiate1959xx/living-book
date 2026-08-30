@@ -13,11 +13,8 @@
 
 name: Update Living Book
 
+
 on:
-  schedule:
-    # minute hour day month weekday  →  06:00 UTC every Monday.
-    - cron: "0 6 * * 1"
-  # Adds a "Run workflow" button so the refresh can also be triggered by hand.
   workflow_dispatch:
 
 # Only one refresh may run at a time; a new one waits rather than racing.
