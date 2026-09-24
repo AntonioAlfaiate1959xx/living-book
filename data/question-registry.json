@@ -1207,9 +1207,9 @@
     {
       "id": "q101",
       "status": "active",
-      "chapter": "2",
+      "chapter": "Chapter 2: Ethical Dimensions",
       "chapter_number": null,
-      "position": null,
+      "position": 11,
       "question": "The EU AI Act mandates that individuals be informed when interacting with an AI system or consuming AI-generated content. Should this same transparency standard apply to a teacher's use of AI in the classroom, even when disclosure might undermine the pedagogical value of the exercise itself?",
       "rationale": "Proposed via CLI.",
       "added_in_edition": 111,

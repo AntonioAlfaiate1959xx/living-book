@@ -57,7 +57,7 @@ for (const chKey of chapterKeys) {
   chapterIndex++;
   const questions = byChapter.get(chKey);
   const chapterTitle = escapeHTML(
-    typeof chKey === "string" ? chKey.replace(/^Chapter \d+\.\s*/, "") : chKey
+    typeof chKey === "string" ? chKey.replace(/^Chapter\s*\d+\s*[.:]\s*/, "") : chKey
   );
 
   body += `<h2 id="ch${chapterIndex}">Chapter ${chapterIndex}. ${chapterTitle}</h2>\n`;
