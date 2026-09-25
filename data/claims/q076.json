@@ -1,13 +1,56 @@
 {
   "question_id": "q076",
   "question_text": "How are teacher unions, professional bodies, and accreditation agencies responding to AI, and what standards are they setting?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q076-c01",
+      "text": "Teacher unions, professional bodies, and accreditation agencies occupy different positions in the education system, and their responses to AI reflect those positions: unions bargain for the conditions and rights of educators, professional bodies define competence and practice standards, and accreditation agencies enforce quality thresholds. Together they are constructing the normative scaffolding — what teachers should know, what institutions must guarantee, and what rights cannot be traded away — within which AI adoption will proceed.\n\n**Teacher unions: rights, guardrails, and partnerships.** The major teacher unions have moved from initial alarm to a posture of conditional engagement. The American Federation of Teachers (AFT) launched the National Academy for AI Instruction, a multi-million-dollar initiative developed with Microsoft, OpenAI, and Anthropic, to provide training and guardrails for educators, and has promoted what it calls Commonsense Guardrails for Using Advanced Technology in Schools, which call for continuous assessment of AI tools to prevent bias and protect equity. The National Education Association (NEA) has established an AI in Education Hub to build AI literacy and leadership among its members. Education International, the global federation of teacher unions, has framed AI within its broader defence of the teaching profession, insisting that technology must not be used to erode teachers' working conditions or replace professional judgement. The union response is not without internal tension: critics within and outside the labour movement have questioned the scale of partnerships with technology companies, the adequacy of rank-and-file involvement in decisions about those partnerships, and whether equity frameworks embedded in AI guidance serve educational or ideological purposes. What is not in dispute is the core union demand: AI must augment teachers, not displace them, and its introduction must be negotiated rather than imposed.\n\n**Professional bodies: competency standards.** The most consequential standard-setting has come from professional and intergovernmental bodies. UNESCO's AI Competency Framework for Teachers (2024) is the reference point: five dimensions — human-centred mindset, ethics of AI, AI foundations and applications, AI pedagogy, and AI for professional learning — across three progression levels (Acquire, Deepen, Create). The framework is explicit that teachers must not lose core competencies through over-reliance on AI)Skip, and that human accountability must be preserved. It is designed to be adapted by national authorities into training programmes and certification requirements. The OECD's work on reimagining teaching in an accelerating world similarly treats AI competence as a component of the teaching profession's future, while Europe's DigCompEdu framework provides a digital-competence standard for educators that has been updated to incorporate AI and data literacy. These frameworks are converging on a common set of standards: teachers must understand how AI works, evaluate its outputs critically, use it ethically, protect student data, and retain final responsibility for pedagogical decisions.\n\n**Accreditation agencies: quality thresholds.** Accreditation agencies have been slower and more varied in their response, but a pattern is emerging. Regional accreditors in the United States and quality-assurance bodies in Europe are beginning to require institutions to demonstrate that they have AI policies, faculty development, and assessment practices that preserve academic integrity and learning outcomes. The emphasis is on institutional capacity rather than on prescribing particular tools: an institution seeking accreditation must show that it governs AI use, protects students, and can evidence that its qualifications still certify genuine learning. The EU AI Act adds a regulatory floor, classifying AI used in admissions, assessment, and monitoring as high-risk and requiring compliance from December 2027, which accreditation and quality-assurance bodies are beginning to incorporate into their standards.\n\n**Accreditation and quality assurance in practice.** The response of accreditation agencies is becoming visible in concrete requirements. Regional accreditors in the United States are beginning to ask institutions to document their AI governance — policies, faculty development, and assessment practices — as part of accreditation reviews, and European quality-assurance bodies are incorporating AI competence and integrity provisions into their standards. The emphasis is on institutional capacity and evidence: an institution must be able to show that it governs AI use, protects student data, and can demonstrate that its qualifications still certify genuine learning. The EU AI Act provides the regulatory floor, and quality-assurance frameworks are beginning to reference it explicitly. Professional bodies beyond UNESCO are also active: technology-education associations have issued AI standards for teachers and students, and subject-specific professional bodies are revising their codes of practice to address AI use in their disciplines. The convergence is toward a professional standard with three elements: competence (teachers can use and evaluate AI), ethics (teachers protect students, data, and equity), and accountability (teachers retain responsibility for decisions, with AI as an instrument rather than an authority). The unresolved tension remains the distributional one — whether the partnerships between unions and technology companies, and the standards set by bodies with different constituencies, will serve the profession's interests or the vendors' — and it will be resolved in practice by the vigilance of the memberships these bodies represent.\n\n**The emerging standard.** Across all three groups, a consistent standard is taking shape: human oversight of AI decisions, protection of teacher professional judgement and working conditions, equity and data protection as non-negotiable conditions, and demonstrable institutional capacity — policy, training, and assessment design — as the price of legitimacy. The unresolved questions are distributional: whether the partnerships unions have formed with technology companies will shift power within the profession, and whether accreditation standards will be enforced with the rigour that their language implies.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.ei-ie.org/en/item/30111:global-education-union-movement-rallies-in-solidarity-with-educators-in-the-united-states-as-they-resist-relentless-attacks-from-the-trump-administration",
+          "title": "Education International: Global Education Union Movement and the Defence of Educators",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.nea.org/",
+          "title": "National Education Association (NEA) — AI in Education Resources",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.aft.org/",
+          "title": "American Federation of Teachers (AFT) — AI Guidance and Guardrails",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-teachers",
+          "title": "AI Competency Framework for Teachers (UNESCO, 2024)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/reimagining-teaching-in-an-accelerating-world_d0edfe8c-en.html",
+          "title": "Reimagining Teaching in an Accelerating World (OECD)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/new-digcompedu-helps-teachers-and-trainers-assess-and-improve-their-digital-competence-2022-03-28_en",
+          "title": "DigCompEdu: Digital Competence Framework for Educators (European Commission JRC)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

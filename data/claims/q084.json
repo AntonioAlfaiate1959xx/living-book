@@ -1,13 +1,56 @@
 {
   "question_id": "q084",
   "question_text": "What practical steps allow school and university leaders to move from prohibition or paralysis to structured adoption — a realistic implementation roadmap?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q084-c01",
+      "text": "The arrival of generative AI confronted educational leaders with two equally unattractive options: prohibition, which treats the technology as a threat to be banned, and paralysis, which treats it as too complex or too risky to address at all. Both are understandable, and both fail. Prohibition fails because it is unenforceable — students carry capable models in their pockets — and inequitable, since it punishes learners who lack the home resources or technical savvy to use AI discreetly while doing nothing to build the skills the technology demands. Paralysis fails because it leaves adoption to chance, allowing informal, ungoverned use to define institutional practice by default. The realistic alternative is structured adoption: a deliberate, phased, governable pathway from wherever an institution currently stands to a position of competent, ethical, and pedagogically purposeful use.\n\n**Establish Governance Before Tools**\n\nThe first practical step is not to buy technology but to build governance. Institutions that succeed move from ad-hoc experimentation to a centralized strategic framework, typically through a cross-functional leadership team — a \"centre of excellence\" or equivalent — that includes administration, IT, legal, faculty, and student representation. This body sets ethical principles (transparency, equity, accountability), defines decision rights, and maintains a registry of all AI tools in use so that data flows and security compliance can be monitored. Risk management should be anchored in established frameworks such as the NIST AI Risk Management Framework, adapted to the specific risks of academic integrity, data privacy, and algorithmic bias. UNESCO's Guidance for Generative AI in Education and Research makes clear that the absence of regulation is itself the primary risk, leaving user data unprotected and institutions unable to validate tools; governance is therefore a precondition for everything that follows.\n\n**Assess Readiness Honestly**\n\nBefore scaling anything, leaders need an accurate picture of their starting point. This means auditing current usage — identifying which departments and faculty are already using AI, often informally — evaluating infrastructure and cybersecurity capacity, and surveying faculty and staff attitudes, skill levels, and concerns. The cultural dimension matters as much as the technical one: adoption strategies that ignore professional identity and displacement fears will meet resistance regardless of how good the tools are. The OECD Digital Education Outlook 2023 documents how uneven digital readiness is across systems, with gaps in interoperability, teacher preparedness, and governance that determine whether digital investment translates into learning gains. An honest readiness assessment prevents the common failure of building ambitious AI strategies on infrastructure that cannot support them.\n\n**Phase the Implementation**\n\nStructured adoption is inherently phased, and the sequencing prevents the \"pilot fatigue\" that afflicts institutions that launch endless small experiments without a path to scale. Phase one consists of pilots in high-impact, low-risk areas — administrative efficiency, research acceleration, or student support such as AI-driven early-warning systems — each with defined success metrics and clear ownership before launch. Phase two scales what works: successful pilots move to institutional agreements, integrate with existing learning management systems and student information systems to reduce workflow friction, and receive dedicated support. Phase three institutionalizes continuous review: a standing cadence for re-evaluating guidelines, monitoring impact on student outcomes, and incorporating technological developments. The Digital Education Council's \"Beyond the Pilot\" roadmap for higher education exemplifies this structure, explicitly designed to move institutions from isolated experiments to coordinated strategy.\n\n**Build Capacity Across the Whole Community**\n\nTechnology adoption fails when capacity building is treated as an afterthought. Faculty need professional development focused on AI literacy, pedagogical redesign, and ethical use — framed as enhancement of human expertise in mentorship and curriculum design, not replacement. Students need their own training in responsible and effective use, so that AI literacy becomes part of the curriculum rather than a private skill acquired outside it. And the wider community — parents, caregivers, governing boards — needs transparent communication through town halls, newsletters, and published guidelines, so that adoption decisions are understood and contested in the open rather than discovered after the fact. Each audience requires a different message, but all require the same foundation: a clear account of what the institution is doing, why, and under what safeguards.\n\n**Measure Impact, Not Just Adoption**\n\nFinally, institutions must distinguish between adoption metrics and impact metrics. Usage counts, logins, and seat licenses measure activity, not value. Impact metrics — improved retention, reduced grading turnaround, increased research productivity, student satisfaction, and demonstrable learning gains — measure whether the investment is working. An annual review cycle that synthesizes adoption data, stakeholder feedback, and risk incidents should inform governance and investment decisions, closing the loop between strategy and evidence. This discipline is what separates structured adoption from technology enthusiasm: the institution learns from its own experience and adjusts.\n\n**A Realistic Timeline**\n\nA realistic roadmap spans roughly 12 to 18 months for most institutions: governance and readiness in the first quarter, pilots in the second and third, scaling in the fourth and fifth, and the first full review cycle at the end. Quick wins in administration build credibility for the harder pedagogical work. The essential insight is that structured adoption is not a destination but a process — one that converts the disruptive arrival of AI into an occasion for institutional learning, rather than a crisis to be managed or avoided.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.aiforeducation.io/ai-resources/ai-adoption-roadmap-for-education-institutions",
+          "title": "AI Adoption Roadmap for Education Institutions",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.teachfloor.com/blog/ai-adoption-in-higher-education",
+          "title": "AI Adoption in Higher Education: A Strategic Guide",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.digitaleducationcouncil.com/resource-library-items/beyond-the-pilot-a-higher-education-ai-roadmap-and-action-guide",
+          "title": "Beyond the Pilot: A Higher Education AI Roadmap and Action Guide (Digital Education Council)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "title": "Guidance for Generative AI in Education and Research (UNESCO)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c74f03de-en.html",
+          "title": "OECD Digital Education Outlook 2023: Towards an Effective Digital Education Ecosystem",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-product-and-services/microsoft-education/downloadables/Cloud-AI-Strategy-and-Planning-eBook.pdf",
+          "title": "Cloud AI Strategy and Planning for Education (Microsoft Education)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        }
+      ]
+    }
+  ]
 }

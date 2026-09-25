@@ -1,13 +1,49 @@
 {
   "question_id": "q097",
   "question_text": "What is known and unknown about AI in early childhood education, where developmental stakes are highest?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q097-c01",
+      "text": "Early childhood is where the stakes of AI in education are highest and the evidence is thinnest. The developmental science is clear that the first years of life are a period of extraordinary plasticity, when the foundations of language, social-emotional competence, self-regulation, and attachment are laid down through responsive interaction with caregivers. It is equally clear that the primary driver of healthy development is face-to-face, contingent, emotionally attuned interaction with adults and peers. AI enters this landscape with genuine potential and genuine risk, and the field must be honest about how much is known and how much is not.\n\n**What AI Is Doing in Early Childhood Settings**\n\nAI is already present in early childhood education in several forms: interactive educational games and apps, smart robots, voice assistants, and adaptive platforms that adjust content to a child's pace and style. For educators and administrators, AI offers real utility in streamlining routine tasks — data collection, report generation, classroom management — which can free adults for the high-quality interaction that matters most. For children, the claimed benefits include personalized learning, language support through translation and interactive conversation, assistance for children with disabilities, and the development of skills such as creative inquiry and perspective-taking through conversational AI. None of these claims is trivial, and some have preliminary support, but the evidence base is dominated by small studies, short time horizons, and vendor-funded research.\n\n**What Is Known**\n\nThe strongest knowledge concerns the conditions under which AI is least harmful and most useful. Developmental experts converge on the principle that AI should support adults rather than replace them: tools that assist educators in reflecting on classroom challenges, drafting activities, and tracking development are on firmer ground than tools that substitute for adult interaction. There is also reasonable evidence that AI can provide tailored support for children with diverse needs — communication aids, adaptive content, and practice environments for social skills — where the alternative may be no support at all. And there is consensus on the risks: over-reliance on technology can displace the play, hands-on exploration, and human interaction that drive development; excessive screen time is associated with negative cognitive, social, and emotional outcomes; AI systems collect sensitive behavioral data on children too young to consent; and models may contain biases that reinforce stereotypes or disadvantage children from marginalized backgrounds.\n\n**What Is Unknown**\n\nThe unknowns are larger. There is no longitudinal evidence on the developmental effects of sustained AI interaction in early childhood — no studies that follow children from preschool through the primary years with measured AI exposure. The interaction between AI use and developmental stage is unstudied: the same tool may affect a two-year-old and a six-year-old differently, and the field has no framework for matching AI features to developmental readiness. The effects of AI companions on attachment, social development, and the capacity for human relationship are unknown, and the recent proliferation of AI \"friends\" marketed to children makes this the most urgent unknown of all. The equity question is also open: AI may narrow gaps by providing high-quality learning support in under-resourced settings, or widen them by concentrating benefits among children with the most capable adult mediation. The American Academy of Pediatrics and other developmental bodies have cautioned against the potential for over-reliance on technology, but the caution is a warning, not a finding.\n\n**The Role of Parents and Caregivers**\n\nIn early childhood, the most important mediator of AI is the adult. The developmental evidence is clear that children learn through interaction with responsive adults, and the question for AI is not whether it can replace that interaction — it cannot — but whether it can support it. AI tools that prompt parents and caregivers with conversation starters, activity ideas, and developmentally appropriate questions can strengthen the adult-child interaction that matters; tools that occupy the child while the adult is absent substitute for it. The design implication is that early childhood AI should be evaluated for its effect on adult-child interaction, not just on the child's isolated performance: does the tool bring the adult into the learning loop, or does it push the adult out? This is a measurable property, and it should be a central criterion in the evaluation of any early childhood AI product.\n\n**Principles for the Known-Unknown Gap**\n\nGiven the asymmetry between stakes and evidence, the responsible posture is precautionary and developmental. \"Safety from the start\" should be the operating principle: AI in early childhood should be validated by developmental experts, used only to supplement rather than replace play-based learning and in-person instruction, and governed by strict privacy protections under COPPA and comparable frameworks. Age-appropriateness should be a formal evaluation criterion, not a marketing claim. Educators should be trained to evaluate tools for developmental fit and bias, and to maintain the primacy of human relationships. And the field should invest in the longitudinal research it lacks — prospective cohorts with measured AI exposure, broad developmental outcome batteries, and comparison conditions that include equivalent adult-mediated activity. The developmental stakes are highest precisely because the window is narrow and the effects, for good or ill, are likely to be durable. Acting on the current evidence means proceeding with tools that support adults, protecting children's data, and refusing to treat the absence of evidence of harm as evidence of safety.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12587935/",
+          "title": "AI in Early Childhood Education: Benefits, Risks and Developmental Considerations (PMC)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X23000036",
+          "title": "Artificial Intelligence in Early Childhood Education: A Systematic Review (Computers and Education: AI)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://mybrightwheel.com/blog/ai-in-education",
+          "title": "AI in Early Childhood Education: Applications and Considerations (Brightwheel)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.instituteforchildsuccess.org/ai-early-childhood-education/",
+          "title": "AI in Early Childhood Education: Risks and Recommendations (Institute for Child Success)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.zerotothree.org/distillation/faq-ai-early-childhood/",
+          "title": "FAQ: AI and Early Childhood Development (Zero to Three)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

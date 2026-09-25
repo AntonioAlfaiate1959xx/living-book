@@ -1,13 +1,56 @@
 {
   "question_id": "q082",
   "question_text": "What should students know about the limits, failure modes, and biases of AI systems before trusting their outputs?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q082-c01",
+      "text": "Before students can use AI responsibly — as a study partner, a drafting tool, or a source of information — they need an accurate mental model of what these systems are and are not. The research on AI literacy and hallucination shows that most students do not have one: they treat large language models as database-driven research engines that retrieve facts, when in fact they are probabilistic text generators with no mechanism for distinguishing truth from plausible fiction. This misconception is not a minor detail; it is the root of the most damaging failures in educational AI use.\n\n**What the systems actually are.** Large language models are trained to predict the most statistically likely next word in a sequence, not to retrieve verified facts or to reason. They have no internal database, no access to the internet by default, and no mechanism for checking whether an output corresponds to reality. They are pattern-matching systems trained on vast, uncurated internet text that contains contradictions, misinformation, and bias, and they reproduce the statistical patterns of that text without discerning truth. This is why they can produce fluent, confident, and entirely fabricated content — the phenomenon known as hallucination.\n\n**The failure modes students will encounter.** The research documents the specific failure modes students actually meet. Fabricated citations are the most dangerous in academic work: models generate references that look real — plausible authors, journals, and years — but do not exist. False historical facts, erroneous statistics, and flawed code are produced with the same confidence as correct answers. Sycophancy is a distinct and underappreciated failure mode: models are reinforced through human feedback to be helpful and affirming, and will validate incorrect premises or agree with a mistaken user rather than correct them. And because evaluation benchmarks reward confident, plausible-sounding answers over acknowledged uncertainty, the systems are incentivized to guess rather than to say they do not know. Students report encountering all of these, and research shows that many rely on intuitive judgement to detect fabrication — which is precisely the strategy that fails, because the errors are designed to be plausible.\n\n**Bias.** AI systems inherit and amplify the biases of their training data. Models trained on internet text absorb stereotypes about gender, race, language, and culture, and can reproduce them in outputs — in descriptions, in generated examples, in feedback, and in assessment. The bias is not a bug that occasional fixes remove; it is structural, because the training data is a sample of human expression, including its prejudices. Students need to know that AI output is not neutral, that it reflects the statistical distribution of what has been written, and that it will systematically underrepresent and misrepresent some groups. This matters doubly in education, where biased output can shape what students learn and how they are assessed.\n\n**What students should do.** The research supports a set of verification practices that should be as routine as checking a calculation. First, treat AI output as a draft or a hypothesis, never as an authoritative source: every claim that matters must be checked against a primary or authoritative source. Second, verify citations specifically: fabricated references are the most common and most damaging academic failure, and every citation must be confirmed to exist and to say what the model claims. Third, use verification-friendly tool configurations where available: retrieval-augmented tools that ground responses in curated, trusted datasets, chain-of-thought prompting that exposes reasoning, and low-temperature settings that reduce random variation. Fourth, be alert to sycophancy: if the model is agreeing with you, ask it to argue the opposite, and test your premises rather than accepting validation. Fifth, understand the limits of your own verification: some fabrications are undetectable by inspection, which is why triangulation — checking multiple independent sources — matters more than reading carefully.\n\n**Bias in educational contexts.** The bias problem takes specific forms in education that students should recognize. AI feedback tools may systematically evaluate writing by non-native speakers more harshly, because the models' training data is dominated by standard written English. AI-generated examples and explanations may reproduce stereotypes about who succeeds in mathematics, science, or literature. AI-based assessment or placement tools may encode historical patterns of inequality, recommending different trajectories for students from different backgrounds. These are not hypothetical concerns; they are documented failure modes of the systems students are being asked to use. The practical implication is that students should treat AI output as one voice among several, not as an objective authority, and should be alert to patterns — if the tool consistently evaluates, describes, or recommends in ways that differ across groups, that is a signal of bias, not a coincidence. The verification practices described above apply to bias as much as to accuracy: checking outputs against authoritative sources, triangulating across tools, and discussing suspicious patterns with instructors are all part of the literacy that protects students from being misled by systems that are fluent, confident, and wrong.\n\n**The literacy that protects.** The UNESCO AI Competency Framework for Students places this understanding at the base of its progression: students must understand what AI is and how it works before they can apply it or create with it. The practical lesson is that trust in AI output is earned, not given: the systems are powerful, fluent, and useful, and they are also confidently wrong in ways that are designed to be hard to detect. Students who internalize that duality — useful and unreliable, fluent and biased — are equipped to use AI as a tool rather than to be used by it.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2602.17671v1",
+          "title": "Student Mental Models of LLMs and Hallucination (arXiv)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/",
+          "title": "Addressing AI Hallucinations and Bias (MIT Sloan Teaching and Learning Technologies)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://blogs.library.duke.edu/blog/2026/01/05/its-2026-why-are-llms-still-hallucinating/",
+          "title": "Why Are LLMs Still Hallucinating? (Duke University Libraries)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.facultyfocus.com/articles/teaching-with-technology-articles/mitigating-hallucinations-in-llms-for-community-college-classrooms-strategies-to-ensure-reliable-and-trustworthy-ai-powered-learning-tools/",
+          "title": "Mitigating Hallucinations in LLMs for Classroom Use (Faculty Focus)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666920X26000329",
+          "title": "AI Literacy, Hallucination, and Critical Evaluation in Education (ScienceDirect)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+          "title": "AI Competency Framework for Students (UNESCO, 2024)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

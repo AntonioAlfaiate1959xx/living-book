@@ -1,13 +1,49 @@
 {
   "question_id": "q089",
   "question_text": "How should the effectiveness of an AI intervention in education be measured — what outcomes, over what timescales, against what baselines?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q089-c01",
+      "text": "The effectiveness of an AI intervention in education cannot be measured by engagement metrics, usage counts, or vendor-reported satisfaction. These are proxies for activity, not evidence of learning. A defensible effectiveness evaluation must specify what outcomes matter, over what timescales they should be observed, and against what baselines they should be compared — and it must do so before the intervention begins, not after the results are in.\n\n**What Outcomes to Measure**\n\nThe first decision is the outcome set. Immediate learning gains — performance on assessments of the target content — are the necessary starting point, but they are not sufficient. A complete evaluation should include transfer: whether students can apply what they learned to novel problems, which is the strongest evidence that learning, rather than memorization, occurred. It should include efficiency: time to mastery, because an intervention that produces the same gains in less time is genuinely more effective. It should include engagement and motivation, not as ends in themselves but because they predict sustained use and future learning. And it should include equity outcomes: effects disaggregated by prior achievement, income, language, and disability status, because an intervention that raises average scores while widening gaps is not an unqualified success. Recent randomized controlled trials illustrate the value of this outcome set. A 2025 RCT at Harvard in a large undergraduate physics course found that students using a pedagogically designed AI tutor achieved more than double the median learning gains of peers in an in-class active learning condition, while spending less time on task and reporting higher engagement. An exploratory RCT in UK secondary schools found that AI tutoring supervised by human experts was at least as effective as human-only tutoring on immediate outcomes, and produced a 5.5 percentage point increase in the probability of solving novel problems — a transfer effect that human tutoring alone did not match.\n\n**Over What Timescales**\n\nTimescale is the second decision, and it is the one most often neglected. Immediate post-test gains can decay, and delayed effects can appear. A credible evaluation measures outcomes at multiple points: immediately after the intervention, after a retention interval (weeks to months), and — where possible — at the next meaningful educational transition. The longitudinal evidence on AI-assisted learning is sobering on this point: a three-month study of students using AI tutors found that those with on-demand access achieved less than half the performance gains of those with system-regulated assistance, and follow-up testing confirmed that the learning deficits persisted beyond the period of use. Short-term evaluations that stop at the post-test would have missed this. For interventions intended to build durable skills — writing, mathematics, self-regulated learning — the retention interval is not a luxury but the core measurement.\n\n**Against What Baselines**\n\nBaseline choice determines what an evaluation can claim. The weakest baseline is no-intervention or business-as-usual comparison, which cannot distinguish the effect of the AI from the effect of any additional attention. The strongest is an active control: a comparison condition that provides equivalent instructional time and attention through a different mechanism. The Harvard RCT's comparison against in-class active learning — itself a high-quality condition — is the right model, because it asks whether AI adds value over good teaching, not merely over nothing. Where randomized assignment is impossible, quasi-experimental designs with matched comparison groups and pre-test controls are the realistic alternative, and they should be pre-registered and analyzed with the same rigor. Vendors and institutions should be explicit about the baseline in every claim: \"students improved by X\" is meaningless without \"relative to whom, under what conditions.\"\n\n**Cost-Effectiveness and Fidelity**\n\nEffectiveness evaluation should also attend to cost and fidelity. An intervention that produces gains at twice the cost of an equivalent alternative is less effective in the sense that matters to resource-constrained institutions, and cost-effectiveness analysis — gains per unit of expenditure, including teacher time, infrastructure, and licensing — should be part of the evaluation. Fidelity is the other neglected dimension: an AI intervention evaluated under ideal conditions with intensive support may not produce the same results when deployed at scale with ordinary implementation. Evaluations should therefore measure implementation quality — how often the tool was actually used, how well teachers integrated it, what support was provided — and should report results by implementation level. An effectiveness claim without cost and fidelity information is incomplete, and institutions that act on it are making decisions on partial evidence.\n\n**Design Principles**\n\nFinally, the evaluation itself must meet basic evidentiary standards: pre-registration of outcomes and analyses, adequate statistical power, fidelity monitoring (did the intervention actually run as designed?), and reporting of null and negative results. The emerging evidence base on AI tutoring is encouraging precisely because it is beginning to meet these standards — the Harvard and Eedi trials are randomized, controlled, and transparent about design. The field will advance only if effectiveness claims are held to the same standards as claims about any other educational intervention. Institutions adopting AI should demand this architecture from vendors and build it into their own pilots: specify outcomes, schedule retention measurements, choose active baselines, and pre-register the analysis. An AI intervention whose effectiveness cannot be measured in this way should be treated as unproven, regardless of how compelling the demonstration looks.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41598-025-97652-6",
+          "title": "AI Tutoring Outperforms In-Class Active Learning: A Randomized Controlled Trial (Scientific Reports)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://arxiv.org/html/2512.23633v1",
+          "title": "LearnLM: Supervised AI Tutoring in UK Secondary Schools — An Exploratory RCT",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://serl.fas.harvard.edu/publication/ai-tutoring-outperforms-class-active-learning-rct-introducing-novel-research-based",
+          "title": "AI Tutoring Outperforms In-Class Active Learning: RCT Introducing Novel Research-Based Pedagogical Design (Harvard SEAL)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12078640/",
+          "title": "Effectiveness of AI-Based Tutoring Systems: Evidence Review (PMC)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://knowledge.wharton.upenn.edu/article/when-does-ai-assistance-undermine-learning/",
+          "title": "When Does AI Assistance Undermine Learning? (Wharton Knowledge)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

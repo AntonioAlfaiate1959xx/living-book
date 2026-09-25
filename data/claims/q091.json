@@ -1,13 +1,56 @@
 {
   "question_id": "q091",
   "question_text": "How can institutions monitor for unintended effects of AI — skill atrophy, dependency, equity gaps — that standard metrics miss?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q091-c01",
+      "text": "Standard evaluation metrics — test scores, completion rates, engagement — are structurally blind to the most important risks of AI in education. A student can improve on immediate assessments while losing the capacity for independent reasoning; a system can raise average outcomes while widening gaps; a tool can be used enthusiastically while eroding the very skills it purports to build. Monitoring for unintended effects therefore requires a different measurement architecture: one designed to detect what standard metrics are designed to miss.\n\n**Name the Failure Modes**\n\nThe first step is to specify the unintended effects that matter. The literature identifies several distinct failure modes. Cognitive atrophy: the degradation of critical thinking, problem-solving, and memory as users offload essential mental work to AI systems. The \"illusion of competence\": users mistake the efficiency of AI-generated outputs for personal mastery, masking underlying deficits in their own intellectual development. Dependency: students who cannot or will not perform tasks without AI assistance, even when capable. Skill decay: the loss of skills that are no longer exercised, which research suggests is a likely consequence of frequent engagement with AI assistants, particularly for cognitive skills. And equity gaps: differential effects across demographic groups, where AI benefits advantaged students more than disadvantaged ones, or harms them less visibly. Each failure mode has a signature that standard metrics miss because each operates beneath the level of aggregate performance.\n\n**Measure the Process, Not Just the Product**\n\nMonitoring for these effects requires measuring the learning process, not just its outputs. This means observing how students use AI: whether they attempt problems before requesting help, whether they can reproduce solutions without the tool, whether their reliance increases over time. It means testing under conditions that remove the AI — unassisted assessments, cold-call problem solving, timed writing — to measure what students can do independently. It means tracking metacognitive indicators: students' ability to plan, monitor, and evaluate their own learning, which is precisely what over-reliance erodes. The Wharton research on AI assistance documents a \"self-regulation paradox\": even when students recognize that over-relying on AI hinders their long-term development, they continue to use it as a shortcut during difficult tasks. Institutions cannot rely on students to self-regulate; they must measure the behavior directly.\n\n**Use Leading Indicators and Qualitative Methods**\n\nUnintended effects often appear first as qualitative signals before they become quantitative. Teacher observation is a monitoring instrument: teachers who see students unable to start a task without a chatbot, or who notice that written work has become uniformly fluent and uniformly shallow, are detecting atrophy before any test does. Student interviews and surveys can surface the illusion of competence — students who report feeling confident while performing poorly on unassisted tasks. Institutions should build these qualitative channels into their monitoring: structured teacher observation protocols, student focus groups, and reflective journals. Leading indicators — time-to-first-help-request, proportion of unassisted attempts, error patterns on unassisted assessments — can be tracked continuously and can trigger intervention before deficits accumulate.\n\n**Disaggregate Everything**\n\nEquity gaps are invisible in aggregate data. Every monitoring metric should be disaggregated by income, race, language, disability status, and prior achievement, and the disaggregation should be examined for differential trajectories, not just differential levels. An AI system that produces equal gains for all groups may still be widening gaps if it produces larger gains for students with more home support; a system that produces smaller gains for disadvantaged students is failing them even if averages improve. Equity monitoring also means watching for differential exposure to risk: students in under-resourced settings may be more likely to receive AI as a substitute for teaching rather than a supplement to it, which is a different and more dangerous failure mode.\n\n**Institutional Examples and Tools**\n\nMonitoring architectures are beginning to exist in practice. Some institutions maintain AI-use dashboards that track tool usage patterns alongside unassisted assessment performance, flagging classes or cohorts where reliance is rising. Others have adopted structured teacher observation protocols specifically for AI-integrated lessons, with indicators for student independence, help-seeking behavior, and the quality of AI-mediated interaction. Student-facing surveys that probe the illusion of competence — asking students how confident they are and comparing that with unassisted performance — have been used to identify classes where confidence and capability have diverged. These tools are not yet standardized, and their psychometric properties are largely unstudied, but they demonstrate that monitoring for unintended effects is feasible with existing institutional resources. The field should treat them as prototypes: instruments to be refined, validated, and shared, rather than bespoke solutions to be reinvented in every institution.\n\n**Build the Monitoring into Governance**\n\nFinally, monitoring for unintended effects must be institutionalized, not left to individual teachers. This means a standing evaluation plan with named responsibilities, published indicators, and a review cadence; it means incident reporting that captures suspected harms; and it means decision rules that connect findings to action — if dependency indicators rise, the deployment should be modified or suspended. The OECD's guidelines for effective and equitable use of AI in education explicitly warn against cognitive off-loading and skill attrition, and treat continuous evaluation as a guardrail rather than an afterthought. Institutions that monitor only what is easy to measure will discover the unintended effects of AI the way previous technology waves discovered theirs: late, and in the form of outcomes they did not design for.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/2331186X.2025.2591503",
+          "title": "Unintended Consequences of AI in Education: A Systematic Review (Cogent Education)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://moderndiplomacy.eu/2025/10/19/the-cognitive-cost-of-over-reliance-on-ai-in-education-a-global-review/",
+          "title": "The Cognitive Cost of Over-Reliance on AI in Education: A Global Review",
+          "type": "policy",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://rsisinternational.org/journals/ijrsi/articles/illusion-of-competence-and-skill-degradation-in-artificial-intelligence-dependency-among-users/",
+          "title": "Illusion of Competence and Skill Degradation in AI Dependency Among Users (IJRSI)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11239631/",
+          "title": "Skill Decay and Cognitive Offloading in AI-Assisted Work and Learning (PMC)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://mededu.jmir.org/2025/1/e74947",
+          "title": "AI Dependency in Education: Motivation, Creativity and Learning Outcomes (JMIR Medical Education)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/content/dam/oecd/en/about/projects/edu/smart-data-and-digital-technology-in-education/Opportunities,%20guidelines%20and%20guardrails%20for%20effective%20and%20equitable%20use%20of%20AI%20in%20education.pdf",
+          "title": "Opportunities, Guidelines and Guardrails for Effective and Equitable Use of AI in Education (OECD)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

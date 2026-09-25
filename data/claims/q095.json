@@ -1,13 +1,49 @@
 {
   "question_id": "q095",
   "question_text": "How are multimodal and voice-based AI changing learning beyond text — in languages, arts, sciences, and physical skills?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q095-c01",
+      "text": "The first generation of AI in education was text-centric: chatbots, essay feedback, and text-based tutoring. The second generation is multimodal — systems that process and generate across voice, vision, video, and text — and it is changing what AI can do in domains where text was never the medium of learning. Language, arts, sciences, and physical skills each present different affordances, and each is being transformed in different ways.\n\n**Language Learning: The Conversational Turn**\n\nVoice-enabled AI has transformed language acquisition, which is fundamentally an oral skill. Learners can now practice target languages through real-time conversation with AI systems that provide immediate feedback on pronunciation, fluency, and comprehension — practice that was previously available only through human conversation partners, which most learners lacked. The technology extends beyond simple dialogue: intelligent avatar-based systems integrate linguistic, paralinguistic, and affective components — gesture generation, facial expressions, and prosodic control — to create engaging, culturally relevant instruction. For learners of less-commonly-taught languages, this is a genuine expansion of opportunity, since the supply of human teachers and conversation partners is thin. The pedagogical question is whether AI conversation partners can develop the pragmatic and cultural competence that human interaction develops — a question that is open, but the practice itself is already widespread.\n\n**Sciences and Mathematics: Seeing the Work**\n\nVision-enabled AI has changed what a tutor can see. Text-only systems could only respond to typed input; multimodal systems can interpret handwritten mathematical equations, code diagrams, lab notebook entries, and student drawings, offering feedback on work that was previously invisible to the machine. This matters pedagogically because much of learning in science and mathematics is embodied in representations — equations, graphs, diagrams, experimental records — and the ability to see and respond to those representations brings AI tutoring much closer to what a human tutor does when they look over a student's shoulder. It also enables new assessment possibilities: systems that can observe a student's process, not just their final answer, can diagnose where reasoning goes wrong rather than merely marking the result incorrect.\n\n**Arts: Cross-Modal Creation**\n\nIn the arts, generative AI functions as what one line of research calls a \"voicing agent\" for transdisciplinary exploration. Cross-modal generation — producing music from paintings, images from musical scores, movement from text — allows students to explore relationships between artistic domains that were previously difficult to bridge. Students can compose, critique, and iterate in media they have not mastered, and can experience the creative process from multiple sensory perspectives. The ethical questions are substantial: concerns about bias and representation in generative models, about authorship and the value of human creation, and about students \"cheating themselves\" out of the creative struggle. Educators are responding by shifting the pedagogical emphasis from generation to critical editing and evaluation — teaching students to judge algorithmic output rather than merely produce it — and by developing critical AI literacy as a core arts competency.\n\n**Physical Skills: Embodied and Gestural Learning**\n\nMultimodal AI is beginning to address physical skills — the domain where text-based AI was most obviously inadequate. Systems that can observe movement, posture, and gesture can provide feedback on technique in sports, dance, instrument playing, and manual skills, and can support rehabilitation and motor learning. This is the least mature area, and the evidence base is thin, but the direction is clear: AI is moving from the symbolic domain of language to the embodied domain of action. The infrastructural demands are significant — cameras, microphones, and the privacy governance for continuous audiovisual data — and the ethical stakes are higher, because embodied data is more sensitive than text.\n\n**Accessibility and Equity of Multimodal Tools**\n\nMultimodal AI carries a distinctive equity risk. Text-based AI could reach students through devices they already owned; multimodal AI requires cameras, microphones, and bandwidth that many classrooms and homes lack, and the students without them will be excluded from the most advanced capabilities. The same technology that enables a vision-enabled tutor to see a student's handwritten work also requires the infrastructure to capture that work. Institutions should therefore treat multimodal deployment as an equity decision: which students get access, under what conditions, and with what alternatives for those who do not. There is also an accessibility opportunity: multimodal interfaces can serve learners who struggle with text — young children, students with reading disabilities, and learners in oral cultures — and the design of multimodal tools should be evaluated for whether it widens or narrows the participation gap.\n\n**The Common Challenges**\n\nAcross all four domains, the same challenges recur. Privacy: multimodal systems collect voice and video data, which are more sensitive than text and require stricter governance under FERPA and comparable frameworks. Infrastructure: multimodal AI requires hardware — cameras, microphones, bandwidth — that text-based systems did not, raising equity questions about which students get access. Evaluation: the field needs model cards and evaluation frameworks that assess multimodal systems on pedagogical quality, not just technical capability. And pedagogy: the evidence so far suggests that multimodal AI is most effective as scaffolding for complex tasks, with students transitioning from generation to critical evaluation of algorithmic output. The institutions that engage with these technologies early will help define the pedagogical practices; those that wait may find the practices defined for them by platform developers.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-86410-0_5",
+          "title": "Generative AI as a Voicing Agent in Transdisciplinary Arts Education (Springer)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1780150/full",
+          "title": "Intelligent Avatar-Based Language Learning Systems: Linguistic, Paralinguistic and Affective Components (Frontiers in Computer Science)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/09588221.2026.2680421",
+          "title": "Multimodal AI in Language Learning: Voice, Vision and Interaction (Computer Assisted Language Learning)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://citejournal.org/volume-25/issue-2-25/english-language-arts/exploring-the-ethics-of-multimodal-composition-with-ai-student-and-educator-perspectives-on-evaluating-and-using-generative-models-in-the-classroom/",
+          "title": "Exploring the Ethics of Multimodal Composition with AI: Student and Educator Perspectives (CITE Journal)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://everything-pr.com/multimodal-learning-ai/",
+          "title": "Multimodal Learning with AI: Capabilities, Infrastructure and Pedagogy",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        }
+      ]
+    }
+  ]
 }

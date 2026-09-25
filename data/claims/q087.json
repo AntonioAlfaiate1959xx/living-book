@@ -1,13 +1,56 @@
 {
   "question_id": "q087",
   "question_text": "What technical and organizational safeguards (age gates, data controls, human oversight, escalation paths) should any classroom AI deployment include?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q087-c01",
+      "text": "No single safeguard can make a classroom AI deployment safe. The realistic standard is defense in depth: a layered combination of technical controls, organizational policies, and human judgment, each compensating for the weaknesses of the others. The OECD and Education International have argued that AI in education must support — never replace — the teacher-student relationship, and that principle translates into a concrete architecture of safeguards that any deployment should be able to demonstrate before it reaches a classroom.\n\n**Age Gates and Age-Appropriate Design**\n\nAge is the first axis of protection. Policy models increasingly recommend age-tiered access rather than a single rule for all students. For children under 13, school-managed tools should disable chat history, block \"companion\" or \"therapeutic\" AI modes, and restrict data collection to the minimum necessary for the educational function. For students aged 13 to 15, access should run through school-verified accounts with content filtering and teacher oversight. Older students may use approved tools under explicit, teacher-led attribution rules. UNESCO's Guidance for Generative AI in Education and Research recommends age limits for independent engagement with generative AI platforms, recognizing that the youngest learners lack the metacognitive capacity to evaluate AI output. A critical caveat: age verification itself is contested. More than 370 security and privacy experts have cautioned against AI-driven age verification systems that rely on biometric data collection, and policy analysts argue that age-tiered access should not depend on invasive identification technologies. The practical answer is age assurance through school-managed accounts and institutional identity, not surveillance of children.\n\n**Data Controls**\n\nData protection is the second layer, and it should be treated as public infrastructure rather than a compliance checkbox. Minimum requirements include data minimization (collect only what the educational function requires), privacy by default (high-privacy settings as the default, not the opt-in), mandatory retention limits, audit logs, and the exclusion of children's data from commercial training datasets and secondary analytics. Deployments should operate on closed networks where feasible, with data processing agreements that bind vendors to these terms. Procurement conditions should require vendors to turn off data retention by default for minors and to provide administrative controls that disable non-educational, potentially manipulative features. The OECD's work on safe AI systems for education emphasizes that children's privacy requires structural guarantees — retention limits, audit trails, and prohibitions on secondary use — rather than reliance on individual vigilance.\n\n**Human Oversight**\n\nHuman oversight is the third layer and the one that most directly embodies the principle that AI assists rather than decides. Educators must retain final authority over grading, feedback, and pedagogical decisions; AI systems should not autonomously determine student progression, placement, or discipline. Human-in-the-loop design means that consequential outputs — assessments, recommendations, alerts — are reviewed by a qualified human before they act on a student. It also means that teachers can override, correct, or disable AI features, and that the system's reasoning is inspectable enough for them to do so meaningfully. The OECD guidelines for effective and equitable use of AI in education are explicit that AI should reduce administrative burden without becoming an autonomous decision-maker in matters affecting students' educational trajectories.\n\n**Escalation Paths and Incident Response**\n\nThe fourth layer is organizational: clear escalation paths and incident response. Every deployment should have a named human responsible for it, a mechanism for students, parents, and teachers to report problems — harmful content, factual errors, privacy incidents, suspected bias — and a defined process for investigating and remediating reports. Child-specific privacy-and-rights impact assessments should precede deployment, and incidents should be logged and reviewed. The OECD AI Incidents Monitor documents real-world failures of AI systems, including in education, and the lesson is that institutions without incident-response capacity discover problems late and respond poorly. Escalation paths should be public: students and parents should know whom to contact and what will happen when they do.\n\n**Training as a Safeguard**\n\nSafeguards are only as strong as the people operating them, and training is therefore a safeguard in its own right. Teachers need to know how to recognize AI errors and bias, how to override and disable features, how to respond when a student reports a problem, and how to explain AI use to students and parents. Students need age-appropriate instruction in what the AI in their classroom can and cannot do, so that they can use it critically and report problems rather than silently absorbing them. And the designated responsible humans need training in incident response — what to log, whom to escalate to, and how to communicate with families. A deployment with excellent technical controls and untrained humans is not a safe deployment; it is a deployment with a false sense of security.\n\n**Continuous Evaluation**\n\nFinally, safeguards are not static. Because technology evolves faster than traditional research, districts are urged to adopt evaluation plans that publicly monitor the impact of AI on teacher workload, student attention, academic integrity, and equity. UNICEF's Policy Guidance on AI for Children frames this as a lifecycle obligation: safety, data protection, transparency, and accountability must be maintained throughout the system's use, not certified once at purchase. A classroom AI deployment that cannot demonstrate age-appropriate design, enforceable data controls, meaningful human oversight, working escalation paths, and a commitment to continuous evaluation should not be deployed at all — and institutions that demand these safeguards before adoption are not slowing progress but defining what progress means.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.oecd.org/en/blogs/2026/01/designing-safe-ai-systems-for-education.html",
+          "title": "Designing Safe AI Systems for Education (OECD)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/content/dam/oecd/en/about/projects/edu/smart-data-and-digital-technology-in-education/Opportunities,%20guidelines%20and%20guardrails%20for%20effective%20and%20equitable%20use%20of%20AI%20in%20education.pdf",
+          "title": "Opportunities, Guidelines and Guardrails for Effective and Equitable Use of AI in Education (OECD)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://policyoptions.irpp.org/2026/05/children-privacy-ai-infrastructure-canada/",
+          "title": "Children's Privacy as AI Infrastructure (Policy Options)",
+          "type": "policy",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.unicef.org/innocenti/reports/policy-guidance-ai-children",
+          "title": "Policy Guidance on AI for Children (UNICEF Innocenti)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "title": "Guidance for Generative AI in Education and Research (UNESCO)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://oecd.ai/en/incidents/2026-03-02-f06a",
+          "title": "OECD AI Incidents Monitor: Education-Related Incident",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

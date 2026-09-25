@@ -1,13 +1,49 @@
 {
   "question_id": "q096",
   "question_text": "What roles are autonomous AI agents beginning to play in education — as persistent tutors, course designers, or student proxies — and what new questions do they raise?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q096-c01",
+      "text": "Autonomous AI agents represent a qualitative shift from the chatbots that defined the first wave of generative AI in education. A chatbot responds to prompts; an agent pursues goals. Agents maintain state across extended sessions, use tools, follow strategies, and act over long horizons with minimal human intervention. As they enter education in three emerging roles — persistent tutors, course designers, and student proxies — they raise questions that the field has not yet answered.\n\n**Persistent Tutors**\n\nThe most developed role is the persistent tutor. Unlike a chatbot that answers whatever it is asked, an agentic tutor maintains a model of the learner over time — mastery levels, misconceptions, learning styles — and uses that model to adapt instruction session after session. The technical architecture is typically dual-memory: long-term memory for stable student characteristics and working memory for session-specific context. Advanced systems use hierarchical multi-agent architectures, with specialized agents coordinating lesson planning, assessment generation, predictive risk detection, and domain-specific problem solving. The pedagogical design is also maturing: the best systems avoid providing direct answers, using Socratic questioning to promote critical thinking and metacognitive engagement, and are grounded in evidence-based practices such as active learning, cognitive load management, and growth-mindset promotion. Randomized controlled trials show that such systems can outperform in-class active learning on learning gains and engagement — but the same evidence base warns that over-automation can erode self-regulated learning if students become passive recipients of AI-generated content.\n\n**Course Designers**\n\nAgents are also entering the back end of education as course designers and operators. They can generate initial course frameworks by analyzing learning objectives and workforce demands, dramatically reducing the time educators spend building curricula. They automate administrative operations — scheduling, updating learning management system modules, managing attendance, checking accessibility — freeing instructors for mentorship and direct engagement. And they can analyze student progress across entire programs to adjust pacing and content dynamically, shifting education from a one-size-fits-all model toward individualized pathways. The governance question here is subtler than it appears: course design encodes values — what is worth learning, in what order, for whom — and delegating it to agents without explicit institutional oversight delegates those value decisions too. The emerging guidance is to start with narrow, measurable workflows and scale only after outcomes, educator review effort, and equity have been evaluated.\n\n**Student Proxies**\n\nThe most novel and least understood role is the student proxy: agents that act on behalf of students — submitting work, negotiating deadlines, summarizing lectures, completing routine assignments, or representing a student's interests in interactions with institutional systems. Proxies raise the deepest questions because they blur the boundary between assistance and substitution. If an agent completes a student's assignment, what has the student learned? If an agent negotiates an extension, whose agency is being exercised? The assessment-integrity problem that chatbots created — students submitting AI-generated work — becomes structurally different when the AI is not a tool the student uses but an agent that acts for them. Institutions are only beginning to develop frameworks for distinguishing legitimate delegation (an agent that helps a student with a disability access the curriculum) from illegitimate substitution (an agent that does the learning for the student).\n\n**The Evidence Base and Its Gaps**\n\nThe evidence on agentic AI in education is thinner than the enthusiasm suggests. The strongest findings come from tutoring systems that are agentic in limited senses — persistent, adaptive, memory-rich — and the randomized trials that show learning gains were conducted with substantial human oversight and careful pedagogical design. There is little evidence on the long-horizon autonomy that the term \"agent\" implies: systems that operate for weeks or months with minimal human intervention, making consequential decisions about what a student should learn next. The risks scale with autonomy — an agent that misjudges a student's readiness and adjusts the curriculum accordingly can do harm that a session-based tutor cannot — and the field has no established methods for evaluating such systems. The responsible trajectory is incremental: expand agent autonomy only as fast as the evidence and the oversight capacity allow, and treat every increase in autonomy as a new evaluation problem rather than a scaling of an existing one.\n\n**The New Questions**\n\nAcross all three roles, the same questions recur. Accountability: when an agent makes a consequential error — a wrong placement, a harmful message, a failed escalation — who is responsible, and how is the agent's reasoning inspectable? Transparency: students, parents, and teachers need to know when they are interacting with an agent and what it is doing on their behalf. Agency: does the agent expand the student's agency or replace it? The principle of human-in-the-loop — educators retaining final authority over grading, discipline, and consequential decisions — is the current consensus answer, but it is a governance principle, not a resolution of the underlying questions. The transition to \"autopilot\" modes in education is underway, and the institutions that will navigate it successfully are those that treat agentic AI as a new kind of actor in the educational system — one whose capabilities, limits, and accountabilities must be designed, not assumed.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://ascode.osu.edu/news/agentic-ai-higher-education",
+          "title": "Agentic AI in Higher Education: Capabilities, Governance and Implementation (Ohio State)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://8allocate.com/blog/agentic-ai-in-education-use-cases-trends-and-implementation-playbook/",
+          "title": "Agentic AI in Education: Use Cases, Trends and Implementation Playbook",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://arxiv.org/html/2507.12484v1",
+          "title": "Memory-Rich and Multi-Agent Tutoring Systems: Architectures and Pedagogical Design (arXiv)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41598-025-97652-6",
+          "title": "AI Tutoring Outperforms In-Class Active Learning: A Randomized Controlled Trial (Scientific Reports)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://paxrel.com/blog-ai-agent-education",
+          "title": "AI Agents in Education: Curriculum Design and Personalized Pathways",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        }
+      ]
+    }
+  ]
 }

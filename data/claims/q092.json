@@ -1,13 +1,49 @@
 {
   "question_id": "q092",
   "question_text": "What is known about the longitudinal effects of sustained AI use on learners, and how should long-term studies be designed and tracked?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q092-c01",
+      "text": "The longitudinal evidence on AI in education is young but already double-edged. Sustained AI use can produce substantial, durable gains in achievement and equity — and, under different conditions, can produce persistent learning deficits. The difference between these outcomes is not the technology itself but how it is designed and governed. Understanding what is known, and designing studies that will tell us more, is one of the most urgent tasks in the field.\n\n**What the Evidence Shows: The Gains**\n\nThe most encouraging longitudinal findings come from large-scale deployments of AI-driven adaptive learning systems. A study of 18,000 students across 12 higher education institutions found that AI-adaptive sections achieved an 88.3% course completion rate compared with 76.5% in traditional sections, with particular gains in skill mastery among students from lower-income and underrepresented backgrounds. In K-12 virtual education, research tracking more than 26,000 students found that initial performance gaps between AI users and non-users narrowed by 91% within a year, suggesting that AI can function as a genuine equalizer when integrated into a well-designed learning environment. These findings matter because they come from sustained use over months, not from short demonstrations, and because they show effects on the outcomes — completion, mastery, equity — that matter most.\n\n**What the Evidence Shows: The Risks**\n\nThe same body of research documents a darker pattern. A three-month study of students using AI tutors found that those with on-demand access achieved less than half the performance gains (30%) of those provided with controlled, system-regulated assistance (64%). The researchers identify a \"self-regulation paradox\": students recognize that over-relying on AI undermines their long-term development, yet continue to use it as a shortcut during difficult tasks. This over-reliance erodes \"productive struggle\" — the cognitive process of grappling with challenges that drives expertise — and follow-up testing confirmed that the resulting learning deficits persist beyond the period of use. The persistence finding is the critical one: it means the harm is not a temporary dip but a durable loss. Individual characteristics such as skill level or motivation do not protect against this pattern; even high-achieving students over-rely when given unrestricted access. The design implication is that system-level constraints — rate-limiting, forced delays, adaptive scaffolding that offers help only within a student's zone of proximal development — are more reliable protections than student self-regulation.\n\n**What Remains Unknown**\n\nFor all the progress, the field's unknowns are larger than its knowns. There are no studies that follow learners across the full arc of schooling with sustained AI use, and therefore no direct evidence on the effects of AI-mediated learning on adult outcomes — employment, further education, lifelong learning capacity. The interaction between AI use and developmental stage is unmeasured: the same tool may affect a 9-year-old and a 19-year-old differently, and the longitudinal designs that could detect this do not yet exist. The effects of AI on non-cognitive outcomes — motivation, identity as a learner, social development, attitudes toward effort — are largely unstudied at scale. And the equity question is unresolved in both directions: AI may narrow gaps in some contexts and widen them in others, and the conditions that determine which outcome occurs are not yet understood.\n\n**The Governance of Longitudinal Data**\n\nLong-term study design is inseparable from data governance. Following learners over years requires retaining educational data — achievement records, usage logs, demographic information — under conditions that protect students while enabling science. This means consent architectures that anticipate long horizons, data retention policies that distinguish research use from operational use, and governance bodies that can oversee a study across institutional changes and staff turnover. It also means confronting the equity dimension of longitudinal data: the students most likely to be lost to follow-up are often those from the most disadvantaged backgrounds, and studies must plan for attrition that is not random. The ethical case for longitudinal research is strong — the field cannot claim to understand sustained AI use without it — but the ethical case depends on governance that students and families can trust, which is itself a design requirement, not an afterthought.\n\n**How Long-Term Studies Should Be Designed**\n\nGiven what is at stake, long-term studies should be designed with several features. First, prospective cohorts: learners followed from a defined starting point, with AI exposure measured continuously rather than dichotomously, so that dose-response relationships can be estimated. Second, active comparison conditions: cohorts using alternative instructional approaches, not merely non-users, so that effects are attributable to AI rather than to any additional support. Third, a broad outcome battery: achievement, transfer, unassisted performance, metacognition, motivation, and equity-relevant outcomes, measured at intervals that include retention checks after AI exposure is removed. Fourth, design variation as a study variable: because the evidence shows that outcomes depend on how AI is deployed, studies should compare deployment conditions — unrestricted versus regulated access, tutor versus tool, scaffolded versus open — rather than treating \"AI use\" as a single treatment. Fifth, data infrastructure: longitudinal research requires that institutions retain the data needed for follow-up, under governance that protects students while enabling science. The Michigan Virtual longitudinal analysis and the multi-institution adaptive learning studies demonstrate that such infrastructure is feasible. The field will not answer its most important questions through more short-term trials alone; it needs studies long enough, and designed carefully enough, to observe what sustained AI use does to learners over years — and to distinguish the conditions under which it builds them up from those under which it quietly tears them down.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://michiganvirtual.org/research/publications/artificial-intelligence-and-student-usage-in-online-learning-a-longitudinal-analysis-of-usage-patterns-achievement-and-perceptions-in-k-12-virtual-education",
+          "title": "AI and Student Usage in Online Learning: A Longitudinal Analysis in K-12 Virtual Education (Michigan Virtual)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://elqn.org/impact-of-ai-driven-adaptive-learning-systems/",
+          "title": "Impact of AI-Driven Adaptive Learning Systems on Completion and Mastery (ELQN)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://knowledge.wharton.upenn.edu/article/when-does-ai-assistance-undermine-learning/",
+          "title": "When Does AI Assistance Undermine Learning? The Self-Regulation Paradox (Wharton Knowledge)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://zenodo.org/records/15793352",
+          "title": "AI-Supported Instruction and Learner Autonomy: Longitudinal Perspectives (Zenodo)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666557325000886",
+          "title": "Longitudinal Effects of AI-Mediated Learning Environments (Computers and Education: AI)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

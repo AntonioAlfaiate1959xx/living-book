@@ -1,13 +1,56 @@
 {
   "question_id": "q072",
   "question_text": "How are education systems regulating student data privacy in AI tools, and which legal frameworks apply to minors?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q072-c01",
+      "text": "Student data privacy in the age of AI is regulated through a layered patchwork of general data-protection law, child-specific statutes, and education-specific rules. Because AI tools are data-hungry by design — they ingest prompts, essays, interaction logs, and behavioural signals — the frameworks written for an earlier generation of educational software are being stretched, and regulators and schools are responding with new interpretive guidance and contractual practice.\n\n**The United States: FERPA and COPPA.** In the United States, two federal statutes carry most of the weight. The Family Educational Rights and Privacy Act (FERPA) protects education records — any information directly related to a student that is maintained by a school or its agent — and applies to all institutions receiving federal funding. When an AI tool processes, stores, or generates content based on education records, FERPA is triggered. Schools may share records with vendors without parental consent under the school-official exception, but only if the vendor performs an institutional service, remains under the school's direct control, and uses the data solely for the authorized educational purpose. In practice this requires a data-processing agreement (DPA) that mandates purpose limitation, prohibits the use of student data for model training or commercial purposes, and includes deletion, breach-notification, and audit provisions. The Children's Online Privacy Protection Act (COPPA) regulates the online collection of personal information from children under thirteen by third-party operators. Vendors must generally obtain verifiable parental consent, but schools may consent on behalf of parents for educational — not commercial — purposes. If a tool uses student data for advertising, behavioural profiling, or model training, the school cannot consent on the parent's behalf; separate parental consent is required. Roughly forty US states have added their own student-privacy statutes, many of them stricter than federal law, with requirements such as public data inventories, prohibitions on selling student data, and specific breach-notification timelines.\n\n**The European Union: GDPR and the AI Act.** In the EU, the General Data Protection Regulation (GDPR) applies to any school or provider processing the data of EU residents. Its core principles — lawfulness, purpose limitation, data minimization, and storage limitation — constrain what AI tools may collect and retain, and its provisions on automated decision-making and profiling give students and parents rights to human intervention and to contest decisions. Data Protection Impact Assessments are required for high-risk processing, which AI-based assessment and monitoring tools typically constitute. The GDPR treats children as a specially protected category, and member states may set a lower age of consent for information-society services (commonly sixteen, with a thirteen-to-sixteen range). The EU AI Act (Regulation 2024/1689) layers on top: AI systems that determine access to education, assess learning outcomes, or monitor student behaviour are high-risk, and from December 2027 their deployers must meet transparency, human-oversight, and logging obligations, while emotion recognition in educational settings is prohibited outright. The UK GDPR and the UK's own AI governance approach mirror much of this structure post-Brexit.\n\n**Other jurisdictions.** Beyond the US and EU, a growing number of systems regulate student data in AI contexts. Brazil's LGPD, South Korea's AI Basic Act, and China's Personal Information Protection Law and regulations on minors' online protection all impose consent, minimization, and special-protection duties that bear directly on educational AI. The common pattern is that minors attract heightened protection: stricter consent requirements, bans on profiling and behavioural advertising, and limits on automated decisions affecting their education.\n\n**Enforcement and the direction of regulatory practice.** The frameworks are only as strong as their enforcement, and enforcement is intensifying. Regulators have begun to act against the practices the frameworks prohibit: the US Federal Trade Commission has pursued companies for deceptive data practices involving children, and European data-protection authorities have issued significant fines under the GDPR for unlawful processing of children's data. The practical consequence for schools is that compliance can no longer be treated as a form-filling exercise. Data-processing agreements are being scrutinized as substantive documents: regulators and courts look at whether the school actually exercises the direct control that the school-official exception requires, whether the vendor's sub-processors are disclosed, and whether deletion obligations are technically feasible. The emerging standard is that a school cannot outsource its privacy obligations to a vendor's terms of service; it must negotiate, document, and audit. For minors specifically, the direction of travel is toward heightened protection: stricter consent requirements, prohibitions on profiling and behavioural advertising, and limits on automated decisions affecting education, with the EU AI Act's ban on emotion recognition in educational settings as the most visible example.\n\n**AI-specific risks and regulatory responses.** The distinctive risks of AI have forced regulators and schools beyond the original design of these statutes. Model training is the first: student inputs may be absorbed into model weights, which is generally a violation of purpose limitation under FERPA and GDPR, and is technically difficult to reverse when a deletion request arrives. Inference and profiling are the second: AI tools can infer sensitive attributes — learning disabilities, emotional states — that the student never disclosed, and these inferences may themselves become protected education records. Unauthorized adoption is the third: teachers using consumer-grade tools without district vetting create unauthorized disclosures of education records. The regulatory response has been procedural: rigorous vendor vetting with signed DPAs, data-flow audits, role-based privacy training, and human-in-the-loop review of AI-generated reports affecting grading, placement, or discipline. The direction of travel is clear — student data protection is moving from a compliance afterthought to a precondition for any AI deployment in education, with the burden of proof placed on vendors and institutions rather than on students and parents.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.edugenius.app/blog/legal-considerations-ai-education-ferpa-coppa",
+          "title": "Legal Considerations for AI in Education: FERPA and COPPA (EduGenius)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.afslaw.com/perspectives/ai-law-blog/the-development-ai-and-protecting-student-data-privacy",
+          "title": "The Development of AI and Protecting Student Data Privacy (AFS Law)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://schoolai.com/blog/ensuring-ferpa-coppa-compliance-school-ai-infrastructure",
+          "title": "Ensuring FERPA and COPPA Compliance in School AI Infrastructure (SchoolAI)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+          "title": "Children's Online Privacy Protection Rule (COPPA) — US Federal Trade Commission",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://studentprivacy.ed.gov/",
+          "title": "FERPA and Student Privacy — US Department of Education",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://gdpr-info.eu/",
+          "title": "General Data Protection Regulation (GDPR) — Full Text and Commentary",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

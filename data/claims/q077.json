@@ -1,13 +1,56 @@
 {
   "question_id": "q077",
   "question_text": "What funding models and public investments in AI for education exist, and what do early returns suggest about their effectiveness?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q077-c01",
+      "text": "Public investment in AI for education has moved from pilot projects to structured funding models, and the early evidence on returns is beginning to separate what works from what merely spends. The funding landscape spans national AI strategies, dedicated research and infrastructure programmes, and new contracting models designed to align vendor incentives with learning outcomes.\n\n**The funding models.** Four models dominate. The first is the national-strategy model, in which governments embed education within broader AI investment frameworks. In the United States, the White House AI Action Plan directs agencies including the Departments of Education and Labor to prioritize AI skill development, while the National Science Foundation's TechAccess: AI-Ready America programme (NSF 26-508) commits roughly $168–224 million to coordinate AI readiness through state and territory coordination hubs, a national coordination lead, and catalyst award competitions. The CHIPS and Science Act's $53 billion for semiconductor and research infrastructure underpins the hardware base for AI in education and beyond. The second is the targeted-intervention model, in which governments fund specific AI applications — tutoring, teacher support, adaptive platforms — often through outcome-based or pay-as-you-go contracting rather than traditional procurement, a shift the World Bank explicitly recommends to manage the risk of rapidly evolving technology. The third is the public-private partnership model, in which technology companies co-fund or supply AI tools and training for public education systems, as seen in union and district partnerships with major AI vendors. The fourth is the evidence-generation model, in which investment is deliberately coupled to evaluation: the World Bank argues that evidence generation should be treated as a core investment rather than an afterthought, particularly in low- and middle-income countries where data on scalability and cost-effectiveness is scarce.\n\n**What the early returns show.** The emerging evidence base, assembled by the World Bank, the OECD, and independent researchers, points in a consistent direction. AI tutoring can produce substantial learning gains at remarkably low cost: a teacher-guided AI tutoring programme in Ecuador achieved significant improvements in mathematics at roughly $18 per student, and a Stanford analysis estimated that AI-enhanced tutoring could scale expert pedagogical strategies at about $20 per tutor annually. A field experiment in Türkiye found that the design of the AI interface mattered enormously: a tutoring version designed to support learning produced a 127 per cent performance improvement, compared with 48 per cent for a standard interface. Teacher-facing AI shows strong returns on administrative burden: secondary science teachers in England experienced a 31 per cent reduction in time spent on lesson and resource planning, and low-experience tutors supported by AI raised student pass rates by nine percentage points. The OECD's Digital Education Outlook 2026 consolidates this picture, emphasizing that AI is most effective when it augments human instruction rather than replaces it.\n\n**The cautionary findings.** The same evidence base contains clear warnings. In the Turkish experiment, students performed 17 per cent worse once AI access was removed, suggesting that without explicit pedagogical design, AI can substitute for rather than build durable skills. The OECD and World Bank both warn against AI as a shortcut: overreliance on tools that provide direct answers reduces cognitive effort and active engagement. The digital divide remains the structural constraint — investments that assume universal connectivity and device access risk widening rather than narrowing inequity, particularly in low- and middle-income settings. And the history of educational technology spending, in which large sums produced no measurable improvement in outcomes, counsels against assuming that expenditure equals effectiveness.\n\n**International variation and the OECD synthesis.** The funding landscape varies substantially across jurisdictions. Some governments have created dedicated national programmes for AI in education, others have folded AI into broader digital-education strategies, and still others have left investment primarily to the private sector — a variation that the OECD's Digital Education Outlook 2026 documents in detail. The OECD synthesis emphasizes that the effectiveness of investment depends less on its size than on its design: investments that augment teachers, that are coupled to evaluation, and that build on existing infrastructure outperform larger investments in hardware and platforms that are not. The World Bank's guidance for low- and middle-income countries is particularly explicit: prioritize teacher-facing interventions, leverage existing devices and mobile networks, fund well-designed pilots before system-wide deployment, and use outcome-based contracting to align vendor incentives with learning outcomes. The early returns also carry a distributional warning: the countries and districts that benefit most from AI investment are those with the strongest infrastructure and teacher capacity, which means that without deliberate design, public investment in AI can widen the very gaps it is intended to close. The emerging consensus is that the binding constraint on effectiveness is not capital but capacity — teacher preparation, evaluation infrastructure, and governance — and that funding models which ignore this constraint will repeat the history of educational technology spending, in which large sums produced little measurable improvement.\n\n**The emerging synthesis.** The early returns suggest that the most cost-effective investments are teacher-facing (planning, feedback, coaching support) rather than student-facing hardware, that interface and pedagogical design determine whether AI strengthens or weakens learning, and that outcome-based contracting and rigorous evaluation are the mechanisms that keep vendor incentives aligned with student outcomes. The funding models that survive contact with evidence will be those that treat AI as an augmentation of teachers and a subject of continuous evaluation, not as a replacement for either.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://blogs.worldbank.org/en/developmenttalk/supporting-cost-effective-ai-adoption-in-education",
+          "title": "Supporting Cost-Effective AI Adoption in Education (World Bank)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://blogs.worldbank.org/en/education/from-fear-to-opportunity--making-ai-work-for-education",
+          "title": "From Fear to Opportunity: Making AI Work for Education (World Bank)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+          "title": "OECD Digital Education Outlook 2026",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation",
+          "title": "TechAccess: AI-Ready America (NSF 26-508) — National Science Foundation",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://fas.org/publication/ai-implementation-is-essential-education-infrastructure/",
+          "title": "AI Implementation Is Essential Education Infrastructure (Federation of American Scientists)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/ai-adoption-in-the-education-system_43251cf0/69bd0a4a-en.pdf",
+          "title": "AI Adoption in the Education System (OECD, 2025)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

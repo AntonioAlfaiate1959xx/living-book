@@ -1,13 +1,49 @@
 {
   "question_id": "q094",
   "question_text": "What benchmarks and audits exist for evaluating the pedagogical quality, safety, and bias of educational AI models themselves?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q094-c01",
+      "text": "Evaluating an educational AI model is not the same as evaluating an educational intervention. The intervention question asks whether the tool improves learning; the model question asks whether the model itself is pedagogically sound, safe, and fair. The second question has its own emerging toolkit: benchmarks, audits, and fairness metrics, each with known strengths and known limits.\n\n**The Limits of Static Benchmarks**\n\nGeneric AI benchmarks — WEAT, StereoSet, WinoBias, and their successors — measure bias in language models, but they are widely criticized for failing to capture the nuances of decision-level or context-sensitive bias. A model that scores well on a word-association benchmark can still systematically disadvantage particular students when used for admissions, special education referrals, or grading, because those decisions depend on context that static benchmarks do not simulate. The same critique applies to general capability benchmarks: a model's performance on a general knowledge test says little about whether it can tutor a struggling reader or explain a physics concept without introducing misconceptions. Educational evaluation therefore requires benchmarks and audits designed for educational contexts, not borrowed from general AI evaluation.\n\n**Audit-Style Evaluation**\n\nIn response, researchers are developing audit-style frameworks that simulate real-world educational tasks to observe how models behave under controlled conditions. These audits present the model with scenarios — selecting students for awards, identifying at-risk learners, comparing two students with identical performance profiles but different demographic attributes — and measure whether the model exhibits preferences that track demographic cues. This approach isolates the source of bias in a way that static benchmarks cannot, and it produces evidence that is directly relevant to the decisions the model will actually make. The emerging taxonomy of bias in educational AI distinguishes group-level biases (systemic inequalities affecting demographic groups), individual-level biases (unfair treatment of similar students), and multi-level biases (interactions between individual characteristics and demographic patterns) — and audit designs should be capable of detecting all three.\n\n\n**Fairness Metrics and Disparate Impact**\n\nAudits need quantitative metrics, and the field has converged on measures of disparate impact rather than aggregate accuracy. Reporting that a model is 92% accurate overall is inadequate when it is 65% accurate for a particular subgroup; fairness evaluation requires metrics such as demographic parity and equalized odds, computed across the subgroups the model will affect. Established libraries — Fairlearn, AIF360 — make these metrics accessible to practitioners, and the regulatory environment is beginning to require them. The U.S. Department of Education's Office for Civil Rights has signaled that AI-driven decisions in federally funded institutions must not produce disparate impacts on protected groups under Title VI, regardless of intent, and that high-stakes systems such as automated placement or special education referral tools should undergo periodic bias audits. The legal standard is shifting from \"did the model intend harm\" to \"did the model produce harm\" — which is precisely what disparate-impact metrics measure.\n\n**Pedagogical Quality and Safety Benchmarks**\n\nBias is only one dimension of model evaluation. Pedagogical quality requires benchmarks for whether a model's explanations are accurate, age-appropriate, and free of misconceptions; whether its feedback promotes learning rather than merely providing answers; and whether it adapts to learner errors in pedagogically sound ways. Safety requires evaluation of content risks: harmful output, inappropriate content, manipulation, and the model's behavior when students attempt to misuse it. The emerging practice of model cards for education — structured documentation of a model's intended use, capabilities, limitations, and evaluation results — provides a vehicle for making these assessments visible and comparable. The Eedi/LearnLM trial in UK secondary schools offers a model of what rigorous safety evaluation looks like in practice: a post-trial audit of more than 3,600 AI messages found zero instances of harmful content and a 0.1% rate of factual errors, under conditions of human supervision. That is the standard the field should aspire to — not perfection, but measured, reported, and auditable performance.\n\n**Third-Party Certification and Regulatory Audits**\n\nThe audit landscape is becoming institutionalized. Third-party certification bodies are emerging to evaluate educational AI against published standards, and regulatory authorities are beginning to exercise audit powers — the U.S. Department of Education's Office for Civil Rights has signaled that bias audits may be required periodically for high-stakes educational systems, and the EU AI Act's conformity assessment regime will bring a similar discipline to European deployments. The significance for institutions is that audits are becoming a compliance activity, not merely a quality practice: the question is shifting from whether to audit to how audits will be conducted, by whom, and against what standards. Institutions should participate in shaping those standards — through procurement requirements, professional associations, and public comment — because the audit regime that emerges will define what counts as a safe, fair educational AI for the next decade.\n\n**The Institutional Role**\n\nBenchmarks and audits are necessary but not sufficient; they must be demanded and interpreted by institutions. Because many educational AI systems are proprietary, external audits are essential for accountability, and institutions should require audit results as a condition of procurement. They should also recognize the limits of any single evaluation: models change, contexts differ, and a benchmark result is a snapshot, not a guarantee. The responsible institutional posture is continuous evaluation — benchmarks at procurement, audits at deployment, and re-evaluation as models and contexts evolve — combined with the human oversight that no benchmark can replace.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2407.18745v2",
+          "title": "A Taxonomy of Bias in Educational AI: Group, Individual and Multi-Level Perspectives (arXiv)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1592037/full",
+          "title": "Audit-Style Evaluation of Educational AI: Scenario-Based Bias Detection (Frontiers in Education)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://theneuralbase.com/ai-for-education/learn/intermediate/bias-concerns/",
+          "title": "Bias Concerns in AI for Education: Fairness Metrics and Regulatory Context",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/391286093_Fairness_and_Effectiveness_in_AI-Driven_Educational_Assessments_Challenges_and_Mitigation_Strategies",
+          "title": "Fairness and Effectiveness in AI-Driven Educational Assessments: Challenges and Mitigation Strategies",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://arxiv.org/html/2512.23633v1",
+          "title": "LearnLM: Supervised AI Tutoring in UK Secondary Schools — Safety Audit Findings (arXiv)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

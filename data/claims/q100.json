@@ -1,13 +1,49 @@
 {
   "question_id": "q100",
   "question_text": "What weak signals today — in research labs, startups, and experimental schools — most plausibly indicate what AI in education will look like in ten years?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q100-c01",
+      "text": "Forecasting AI in education by extrapolating current headlines is a reliable way to be wrong. The more useful method is signal detection: identifying weak signals — early, low-amplitude indicators of change — in the places where the future is being built: research labs, startups, and experimental schools. These signals do not predict the future; they indicate where the plausible futures are being constructed, and they are worth attending to precisely because they are easy to dismiss.\n\n**Signals from Research Labs**\n\nThe most important research signal is the shift from demonstration to hypothesis-driven evaluation. Research organizations are moving beyond asking whether AI works to asking under what conditions it works — which designs, which learners, which deployment models produce learning gains, and which produce harm. The AI Observatory and Action Lab's \"Signal Libraries\" exemplify this: systematic tracking of developments in research, news, and policy, designed to help education systems, particularly in low- and middle-income countries, avoid the mistakes of previous technology waves. The randomized controlled trials now emerging — AI tutoring against active-learning controls, supervised AI tutoring against human tutoring — are the same signal at the level of individual studies: the field is beginning to generate the evidence base that will determine which AI applications survive contact with reality. A second research signal is the growing attention to the conditions of harm: the self-regulation paradox, cognitive off-loading, and the persistence of learning deficits are being studied with the same seriousness as learning gains. Ten years from now, the AI applications that remain in education will be those that survived this evidence filter.\n\n**Signals from Startups**\n\nThe startup signal is the shift from engagement metrics to unit economics. The first wave of edtech AI sold engagement; the emerging wave is being forced to sell outcomes, because education systems are beginning to demand evidence and because the economics of AI infrastructure are forcing discipline. The global demand for data-center capacity — estimated at trillions of dollars by 2030 — is driving up the cost of compute, and education systems are responding by demanding models that run on existing, low-cost hardware and by tying payments to verified learning gains. The startups that will matter in ten years are those building for this constraint: small, task-specific models rather than general-purpose giants; offline and low-bandwidth operation; and pricing tied to outcomes rather than seats. A related signal is the movement of AI talent: while AI PhD production is rising, an increasing share of graduates are remaining in academia, potentially strengthening the research capacity that will produce the next generation of educational AI.\n\n**Signals from Experimental Schools**\n\nIn experimental schools and pioneering systems, the signal is the formalization of AI in the curriculum and the emergence of new pedagogical roles. Countries such as China and the United Arab Emirates have moved to mandate formal AI education, signaling a shift from elective exposure to core instruction. At the classroom level, the emerging roles are becoming visible: AI as tutor, providing one-on-one support where teachers are scarce; AI as co-professor, handling research, coding feedback, and assessment at the university level; and AI as companion, with a growing cohort of students turning to AI for social and emotional support — the last of these raising the most serious questions about dependency and the erosion of human relationship. The experimental-school signal is also visible in assessment: schools are beginning to redesign assessment to measure what students can do without AI, and to teach the critical evaluation of AI output as a core literacy. Ten years from now, the schools that experimented early will have defined the pedagogical practices that others adopt.\n\n**Signals from Policy and Regulation**\n\nA further signal is the formalization of governance itself. The EU AI Act's treatment of education as a high-risk domain, UNESCO's competency frameworks, and the OECD's guidelines for AI in education are not merely responses to the present; they are investments in a particular future, and their existence shapes which AI applications are built and deployed. Regulatory signals are weak in the sense that their effects are slow and indirect, but they are strong in the sense that they are durable: once an AI system is classified as high-risk in education, the classification does not change with the next product cycle. The direction of regulatory travel — toward transparency, human oversight, and evidence requirements — is itself a signal about the future, and it is one that startups and schools are already responding to. Ten years from now, the regulatory architecture being built today will be part of the environment in which all educational AI operates.\n\n**The Convergence**\n\nThe weak signals converge on a plausible picture of AI in education a decade from now: a smaller set of evidence-backed applications, deployed with governance and measured against outcomes; AI embedded in the curriculum as a subject and in pedagogy as a tool; assessment redesigned around human capability with AI; and a sharpened equity divide between systems that can afford the infrastructure and those that cannot. None of this is certain — weak signals are weak precisely because they can be swamped by events. But they are the best evidence available about where the future is being built, and they are more reliable than the confident predictions that dominate the discourse. The institutions that will thrive are those that treat these signals as design inputs: building the evidence base, the governance, and the pedagogical practices that the signals indicate will matter.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://edtechhub.org/ai-observatory/",
+          "title": "AI Observatory and Action Lab: Signal Libraries for Education Systems (EdTech Hub)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-and-future-education-disruptions-dilemmas-and-directions-0",
+          "title": "AI and the Future of Education: Disruptions, Dilemmas and Directions (UNESCO)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/education",
+          "title": "AI Index Report 2026: Education Chapter (Stanford HAI)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://economy.ac/review/2025/11/202511283313",
+          "title": "The Unit Economics of AI in Education: Infrastructure Costs and Outcome-Based Procurement",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.eschoolnews.com/digital-learning/2025/12/30/25-predictions-about-ai-and-edtech/",
+          "title": "25 Predictions About AI and EdTech (eSchool News)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        }
+      ]
+    }
+  ]
 }

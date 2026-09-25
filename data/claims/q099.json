@@ -1,13 +1,49 @@
 {
   "question_id": "q099",
   "question_text": "How is AI transforming informal and out-of-school learning — self-teaching, homeschooling, communities of practice, and family learning?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q099-c01",
+      "text": "Formal schooling has responded to AI with policies, committees, and cautious pilots. Informal learning has responded with adoption. In homes, hobby communities, and self-directed learning spaces, AI is being used at scale — often with less governance, less evidence, and more enthusiasm than in schools. The transformation of out-of-school learning is in some ways ahead of the institutional conversation, and it raises questions that formal education will eventually have to answer.\n\n**Self-Teaching and Interest-Led Inquiry**\n\nAI has changed what self-directed learning can be. The classic constraint on self-teaching was the limit of available expertise: a learner could only go as deep as their books, their network, and their own persistence allowed. AI removes that constraint. Learners can now explore complex subjects — quantum mechanics, philosophy, advanced mathematics — at their own pace, with an AI interlocutor that is non-judgmental, infinitely patient, and available at any hour. The pedagogical significance is that AI enables a genuinely interest-led form of inquiry: the learner asks the questions, and the AI responds at the learner's level, creating a Socratic loop that was previously available only to students with access to expert mentors. Tools that use Socratic-style guidance to help learners conceptualize projects and identify resources are explicitly designed to foster responsibility for one's own education. The risk is the mirror image of the promise: an AI that answers every question can also short-circuit the struggle through which understanding develops, and self-directed learners have no teacher to notice when the tool has become a substitute for thinking.\n\n**Homeschooling: The Administrative and Instructional Partner**\n\nHomeschooling families have been among the fastest adopters of AI, and the reasons are structural. Homeschooling parents carry the full administrative burden of education — lesson planning, curriculum design, progress tracking, and compliance documentation — and AI tools that generate lesson plans, unit overviews, and assessment activities in minutes convert hours of preparation into minutes, freeing parents for the mentorship and relationship-building that motivated homeschooling in the first place. Some families use specialized platforms to document activities and auto-complete state-mandated standards, simplifying portfolios and transcripts. For instruction, families use AI tutors that guide through problem-solving rather than providing answers, writing coaches that give real-time feedback, and creative tools that support artistic and narrative exploration. The homeschooling community's stance is notably different from formal education's: many advocates argue that banning AI is counterproductive, because AI literacy is a life skill their children will need regardless of institutional policy.\n\n**Communities of Practice**\n\nAI is also reshaping how informal learning communities function. Online communities of practice — hobbyists, language learners, makers, amateur scientists — have always been sites of peer learning, and AI is entering them in two ways. First, as a participant: AI systems that answer questions, review work, and provide feedback within communities, effectively adding an expert presence that small communities could not otherwise afford. Second, as a mediator: AI that helps communities organize knowledge, match learners with mentors, and curate resources. The transformation is double-edged: AI-mediated communities gain capability but risk losing the human texture — the encouragement, the shared struggle, the social identity — that makes communities of practice effective learning environments in the first place.\n\n**Family Learning**\n\nFinally, AI is changing family learning — the intergenerational learning that happens in households. Parents use AI to answer children's questions, to find learning resources, and to support their own learning as they help with homework. The technology can democratize the parent's role: a parent who did not study a subject can now support a child learning it, with AI providing the expertise the parent lacks. But family learning also concentrates the risks of informal AI use: children in homes with engaged, digitally literate parents gain a powerful learning partner, while children in homes without that mediation may encounter AI as an ungoverned entertainment or a source of misinformation. The equity question that formal education has struggled to answer is sharper in the informal sphere, where there is no institution to equalize access or oversight.\n\n**The Evidence Gap in Informal Learning**\n\nThe transformation of informal learning is running far ahead of its evidence base. There is little research on whether AI-mediated self-teaching produces durable understanding, on how homeschooling families' use of AI affects children's learning trajectories, or on how AI-mediated communities of practice compare with human-mediated ones. The studies that exist are largely descriptive — documenting adoption and practice — rather than evaluative. This matters because informal learning is where the most consequential experiments are happening with the least oversight: children are using AI tutors at home in ways that no school would be permitted to deploy, and the outcomes are unmeasured. The research community should treat informal learning as a priority site for study, and families should be offered the same evidence-based guidance that schools are beginning to receive. The absence of evidence is not neutral; it is a decision by default about what the field chooses to know.\n\n**The Governance Gap**\n\nThe defining feature of AI in informal learning is the absence of governance. There are no IEPs, no FERPA protections, no procurement standards, no professional development requirements in the informal sphere — only families, learners, and platforms. The evidence on outcomes is correspondingly thin, and the safety protections that formal deployments are beginning to require — age-appropriate design, data controls, human oversight — are largely absent from consumer tools. The transformation of informal learning is real and irreversible; the question is whether the governance frameworks that formal education is building will extend to the spaces where most learning increasingly happens, or whether informal learning will remain the unregulated frontier of AI in education.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.the74million.org/article/homeschoolers-embrace-ai-even-as-many-educators-keep-it-at-arms-length/",
+          "title": "Homeschoolers Embrace AI Even as Many Educators Keep It at Arm's Length (The 74)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://aiarena.tools/best-ai-tools-for-homeschooling/",
+          "title": "Best AI Tools for Homeschooling: Tutoring, Writing and Administration",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.govtech.com/education/k-12/what-do-new-ai-tools-mean-for-homeschooling",
+          "title": "What Do New AI Tools Mean for Homeschooling? (Government Technology)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.fastcompany.com/91147763/homeschooling-ai-chatgpt",
+          "title": "How Homeschooling Families Are Using AI (Fast Company)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.littlelit.ai/post/how-ai-can-transform-homeschools-a-parent-s-guide-to-the-future-of-learning",
+          "title": "How AI Can Transform Homeschools: A Parent's Guide to the Future of Learning (LittleLit)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        }
+      ]
+    }
+  ]
 }

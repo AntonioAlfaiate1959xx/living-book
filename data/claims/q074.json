@@ -1,13 +1,56 @@
 {
   "question_id": "q074",
   "question_text": "How are examination and credentialing bodies redesigning high-stakes assessment for the AI era?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q074-c01",
+      "text": "High-stakes assessment — the examinations and credentials that determine university admission, professional licensure, and certification — has been the most exposed flank of education in the generative AI era. Because these assessments are designed to certify individual competence, an AI system that can produce indistinguishable work threatens their validity at the root. Examination and credentialing bodies have responded with a combination of policy revision, assessment redesign, and a deliberate retreat from detection-based enforcement.\n\n**The International Baccalaureate as a case study.** The International Baccalaureate (IB) has been among the most explicit of the major credentialing bodies. Rather than banning AI, the IB revised its Academic Integrity policy to include dedicated guidance on AI tools (Appendix 6), built on the principle of transparency. Students who use AI to generate text, images, or other products must cite the tool in the body of their work and include it in their bibliography. The IB places the burden of authentication on teachers, who are expected to use professional judgement to confirm that submitted coursework is the student's own — and it explicitly states that teachers do not need to prove AI use, only to be confident the work reflects the student's capabilities. Where authenticity is in doubt, the IB endorses oral examinations and vivas, process-based evidence such as drafts and version histories, and redoing tasks under controlled conditions. The organization has also published guidance on thirteen common scenarios of AI use in coursework, distinguishing acceptable uses (research, summarising counter-positions, generating structure templates, with acknowledgement) from misconduct (asking AI to write essays, translate entire assessments, or fabricate quotations).\n\n**The shift from detection to design.** The broader research literature on assessment in the AI era has converged on a diagnosis: detection-based countermeasures are unreliable and inequitable. AI detectors produce variable accuracy, significant false-positive rates, and systematic bias against non-native English speakers, and they fuel an arms race in which students refine evasion techniques. Credentialing bodies are therefore redesigning assessment so that genuine learning is the most effective path to success. A leading conceptual framework organizes this redesign into four pillars: process-based documentation (annotated bibliographies, iterative drafts, research journals that make the learning trajectory visible); oral defence integration (vivas, presentations with questioning, follow-up discussions that require real-time justification of reasoning); authentic task design (tasks anchored in local datasets, seminar discussions, or personal experience that generic AI output cannot satisfy); and transparent AI-use policies (disclosure of prompts, reflection on AI output, and defined boundaries of legitimate use).\n\n**Operationalizing redesign at scale.** For credentialing bodies, the challenge is scale: oral components and process documentation are labour-intensive compared with machine-marked multiple-choice papers. Institutions are responding with structured oral protocols and standardized rubrics that weight oral defence and process engagement equally with the final product, and with learning-design tools that let students practise oral assessment before high-stakes encounters. Some bodies are integrating oral components as follow-ups to written submissions, asking candidates to walk through their arguments to verify understanding. The IB's approach — teacher authentication supported by oral verification and process evidence — is a template for how a global credentialing body can operationalize these principles without abandoning the scale of its examinations.\n\n**Beyond the IB: the wider credentialing landscape.** The IB's approach is the most fully articulated, but it is not alone. Other international examination boards and national credentialing bodies have moved in the same direction, revising academic-integrity policies to require disclosure of AI use, strengthening authentication procedures for coursework, and expanding the role of supervised and oral components in high-stakes assessment. The common constraint is economic: oral assessment and process verification are labour-intensive, and bodies that certify hundreds of thousands of candidates annually cannot simply convert their examinations to vivas. The emerging compromise is a portfolio model in which a limited number of high-stakes components — the ones that certify individual competence — are redesigned for AI-resilience, while the majority of assessment continues in supervised, controlled conditions. Digital assessment infrastructure is the enabling condition: secure platforms that support oral components, process documentation, and version histories at scale. The longer-term question is whether the credential itself will change — whether certification will come to rest on a documented trajectory of learning and verified performance rather than on a single examination event. The IB's teacher-authentication model, the research literature's four-pillar framework, and the economics of scale all point toward that direction, but the transition is likely to be gradual and uneven across jurisdictions.\n\n**The limits of the redesign.** It would be misleading to suggest that the redesign is complete. Many credentialing bodies continue to rely on supervised, closed-book examinations for core components, and the economics of oral assessment at national scale remain unresolved. The direction of travel, however, is consistent across the IB, the research literature, and institutional practice: high-stakes assessment is being rebuilt around the verification of process and the demonstration of reasoning under human questioning, with AI treated as a tool whose use must be transparent rather than a threat to be detected. The long-term question — whether credentials themselves will shift from certifying a single examination performance to certifying a documented trajectory of learning — is the frontier the next generation of assessment design will have to answer.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.ibo.org/programmes/artificial-intelligence-ai-in-learning-teaching-and-assessment/",
+          "title": "Artificial Intelligence in Learning, Teaching, and Assessment — International Baccalaureate",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://cityhonors.org/files/documents/ai_tools_and_scenarios.pdf",
+          "title": "IB Guidance: Evaluating Thirteen Scenarios of AI in Student Coursework",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1841682/full",
+          "title": "A Conceptual Framework for AI-Resilient Assessment Design (Frontiers in Artificial Intelligence)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/02602938.2026.2644516",
+          "title": "Assessment and Evaluation in Higher Education: AI-Resilient Assessment (Taylor & Francis)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://feedbackfruits.com/blog/ai-resilient-assessment-design-higher-education",
+          "title": "AI-Resilient Assessment Design in Higher Education (FeedbackFruits)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://nmu.edu/ctl/creating-ai-resistant-assignments-activities-and-assessments-designing-out",
+          "title": "Creating AI-Resistant Assignments, Activities, and Assessments (Northern Michigan University Center for Teaching and Learning)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        }
+      ]
+    }
+  ]
 }

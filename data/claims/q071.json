@@ -1,13 +1,56 @@
 {
   "question_id": "q071",
   "question_text": "What does an effective institutional AI policy contain, and what distinguishes policies that work from those ignored in practice?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q071-c01",
+      "text": "Institutional AI policy in education has shifted from reactive, ad-hoc measures — typically emergency bans issued when generative AI first became widely available — toward comprehensive, cross-functional governance frameworks. The evidence from institutions that have moved through this transition suggests that effective policies share a recognizable anatomy, and that the difference between a policy that shapes practice and one that is quietly ignored is largely a matter of process, specificity, and enforcement design.\n\n**The core components of an effective policy.** A well-constructed institutional AI policy typically contains six interlocking elements. First, a governance structure: a standing committee or task force that includes academic leadership, faculty, students, IT, legal, and privacy officers, with a clear mandate to review, update, and interpret the policy over time. Second, a tiered acceptable-use framework that differentiates between low-risk activities (brainstorming, summarising, drafting assistance) and high-stakes decisions (grading, admissions, clinical or legal judgements), rather than a single undifferentiated rule. Third, data governance provisions that define what student and staff data may be entered into which systems, prohibit feeding sensitive institutional data into public, unvetted models, and specify retention and deletion obligations in line with FERPA, GDPR, and emerging AI regulation. Fourth, procurement and vendor due-diligence requirements, including data-processing agreements, termination rights, and bias-mitigation commitments. Fifth, a professional-development and student-literacy component, because a policy that assumes competence it does not build will fail. Sixth, a human-in-the-loop principle stating that AI-generated outputs affecting assessment or administrative decisions must be reviewed and approved by qualified humans.\n\n**What distinguishes policies that work.** Comparative analyses of institutional practice point to several recurring features of policies that are actually followed. The first is mission alignment: policies framed around the institution's own values and educational purposes — rather than copied from a peer institution or drafted to satisfy external pressure — generate genuine ownership. The second is shared governance: involving faculty and student representatives in drafting from the outset, which builds legitimacy and durable compliance. The third is clarity and specificity: working policies tell a teacher or student exactly what is permitted in a given context, with concrete examples, rather than offering abstract principles that require legal interpretation. The fourth is feasibility of enforcement: policies that rely on detection tools as the sole evidence of misconduct fail, because AI detectors are demonstrably unreliable and produce false positives, particularly for non-native speakers; policies that anchor enforcement in process evidence — drafts, oral review, version histories — are both fairer and more workable. The fifth is a review cycle: because the technology and the regulatory environment change quickly, effective institutions commit to annual policy review rather than treating the document as settled.\n\n**Why policies fail in practice.** The literature on policy implementation identifies a consistent set of failure modes. Top-down drafting without faculty or student input produces documents that are technically correct but normatively empty — nobody feels bound by them. Vague or maximalist prohibitions (a blanket ban on all AI use) are unenforceable and are widely circumvented, which corrodes the credibility of the entire policy. Punitive framing that treats students as suspects generates resistance and drives AI use underground rather than making it transparent. Policies that mandate compliance without providing training, tools, or support place the burden on individuals who lack the capacity to comply. And policies that are never revisited quickly become obsolete, describing a technology landscape that no longer exists.\n\n**What a working policy looks like in practice.** Concrete examples help distinguish the abstract from the operational. A tiered acceptable-use framework, for instance, typically defines three bands: unrestricted use (brainstorming, summarising, drafting assistance, with disclosure), restricted use (AI permitted for specific tasks defined in the assignment, such as generating practice problems or providing feedback on drafts), and prohibited use (AI in high-stakes assessment, in final submissions where the assignment requires independent work, or in any context where the student's own competence is what is being certified). Each band is accompanied by examples and by the disclosure requirement that applies to it. Data governance provisions, in turn, specify not only what may be entered into which systems but also who is responsible when a teacher or student violates the rule — a question that institutions frequently leave unresolved. And the human-in-the-loop principle is operationalized through sign-off requirements: AI-generated feedback, reports, or recommendations affecting students must be reviewed and approved by a named human before they take effect. Institutions that publish such concrete specifications report that compliance is higher and disputes are fewer, because the policy answers the questions that actually arise in classrooms rather than the questions that arise in committee.\n\n**The emerging consensus.** The direction of travel in institutional practice is toward what one strand of the literature calls AI-ready governance: tiered risk classification, explicit human oversight, transparent disclosure norms, and continuous monitoring, embedded in a governance structure that can adapt. The UNESCO AI Competency Framework for Teachers reinforces this by treating institutional support — not individual teacher initiative — as the precondition for ethical AI use. The practical lesson for institutions is that a policy is a living governance instrument, not a document: its effectiveness is determined less by its wording than by the committee that owns it, the training that accompanies it, and the review cycle that keeps it current.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.facultyfocus.com/articles/academic-leadership/crafting-thoughtful-ai-policy-in-higher-education-a-guide-for-institutional-leaders/",
+          "title": "Crafting Thoughtful AI Policy in Higher Education: A Guide for Institutional Leaders (Faculty Focus)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://edtechmagazine.com/higher/article/2026/02/overview-ai-governance-education-perfcon",
+          "title": "An Overview of AI Governance in Education (EdTech Magazine)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/ace.70013",
+          "title": "Institutional AI Governance in Higher Education (New Directions for Adult and Continuing Education, Wiley)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://feedbackfruits.com/blog/ai-governance-higher-education",
+          "title": "AI Governance in Higher Education: From Policy to Practice (FeedbackFruits)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.learnwise.ai/guides/ai-governance-in-higher-education",
+          "title": "AI Governance in Higher Education: Frameworks, Risks, and Compliance (LearnWise)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-teachers",
+          "title": "AI Competency Framework for Teachers (UNESCO, 2024)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

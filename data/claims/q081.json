@@ -1,13 +1,56 @@
 {
   "question_id": "q081",
   "question_text": "How should students use AI as a study partner in ways that demonstrably strengthen rather than weaken their learning?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q081-c01",
+      "text": "The question of whether AI strengthens or weakens student learning has a now-substantial empirical answer: it depends almost entirely on how the tool is used. Randomized controlled trials and field experiments show that AI can produce large learning gains when it is used as a scaffolded study partner, and equally large losses when it is used as a substitute for cognitive effort. The research supports a set of concrete practices for students.\n\n**What the evidence shows.** A randomized study of college students found that those using a pedagogically designed AI tutor achieved significantly higher post-test scores and roughly double the learning gains of students in traditional in-class active learning, often in less time. Another study found that unrestricted access to an AI tutor improved test performance by 0.23 standard deviations relative to control. A field experiment with a pedagogically fine-tuned tutor (LearnLM) found a 5.5 percentage point advantage in solving novel problems compared with human tutoring alone. The pattern across studies is consistent: AI tutoring that scaffolds, questions, and provides feedback produces substantial gains, including in knowledge transfer — the ability to solve problems the student has not seen before.\n\n**What weakens learning.** The same literature documents the failure modes. The most damaging is direct-answer use: when AI supplies the answer or produces the product the student was meant to produce, learning does not occur, and the Turkish field experiment found that students performed 17 per cent worse once AI access was removed — evidence that unguided, answer-supplying use substitutes for rather than builds durable skill. Passive uptake is the subtler failure: students who accept AI suggestions without reflection or critical engagement show short-term performance gains that do not persist. The Brookings synthesis of the tutoring research is blunt: AI helps when it is designed to make students think, and hurts when it is designed to think for them.\n\n**The practices that strengthen learning.** The evidence supports a set of study-partner practices. First, use AI to generate practice and questioning rather than answers: asking the tool to quiz you, to ask Socratic follow-up questions, to identify errors in your own work, and to explain concepts in multiple ways. Second, use AI for feedback on your own drafts and attempts, not for the production of first drafts: the feedback literature shows that AI feedback on student work improves writing performance, but only when the student has done the work being critiqued. Third, use AI to scaffold difficult problems — breaking them into steps, providing worked examples, managing cognitive load — rather than to bypass them. Fourth, use AI to test understanding: asking the tool to generate novel problems, to explain a concept back to you, or to identify gaps in an explanation you have written, exploits the tool's capacity for elaboration and retrieval practice. Fifth, verify everything: the hallucination literature shows that AI fabricates citations, facts, and statistics with high confidence, so every claim that matters must be checked against authoritative sources.\n\n**The conditions that make it work.** The research identifies conditions beyond individual practice. Continuous, unrestricted access appears more effective than restricted access, because it allows AI support to be integrated naturally into self-regulated learning rather than rationed. Human oversight matters: instructors who guide how students use AI, and tutors who supervise and edit AI outputs, improve outcomes. And the student's own orientation is decisive: the most successful students use AI as a partner that supports independent study — generating questions, providing feedback, explaining — rather than as a substitute for the cognitive work of learning. The UNESCO AI Competency Framework for Students formalizes this as a progression from understanding AI, to applying it, to creating with it, with a human-centred mindset at the base.\n\n**Metacognition and the study-partner discipline.** The research on self-regulated learning explains why the study-partner model works: learning is strengthened when students plan, monitor, and evaluate their own learning, and AI is most effective when it supports those processes rather than bypassing them. A student who uses AI to generate a study plan, to quiz themselves, to explain a concept they have struggled with, and to provide feedback on their own attempts is using the tool to strengthen metacognition — the awareness and control of one's own learning. A student who uses AI to produce the answers, the summaries, or the essays is outsourcing the very processes that build understanding. The distinction is visible in the outcome data: the studies that show large learning gains are those in which the AI was designed to make students think — Socratic questioning, scaffolding, feedback on attempts — while the studies that show losses are those in which the AI supplied answers. The practical discipline for students is to ask, before each use: is this making me think more, or less? If the answer is less, the use is probably weakening learning, regardless of how convenient it is. The UNESCO AI Competency Framework for Students formalizes the same principle: students progress from understanding AI, to applying it, to creating with it, and the human-centred mindset at the base of the framework is precisely the orientation that keeps the student, not the tool, at the centre of learning.\n\n**The practical synthesis.** For a student, the rule that emerges from the evidence is simple to state and hard to maintain: use AI to make yourself think more, not less. If the tool is generating questions you answer, feedback you apply, explanations you wrestle with, and problems you solve, it is strengthening your learning; if it is generating the answers, the essays, or the solutions, it is weakening it — and the effect is measurable. The discipline of the study partner is to keep the cognitive work on your side of the partnership.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41598-025-97652-6",
+          "title": "AI Tutoring and Learning Gains: A Randomized Study (Scientific Reports, Nature)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.brookings.edu/articles/what-the-research-shows-about-generative-ai-in-tutoring/",
+          "title": "What the Research Shows About Generative AI in Tutoring (Brookings Institution)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://docs.iza.org/dp18338.pdf",
+          "title": "AI Tutors, Access Models, and Test Performance (IZA Discussion Paper)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://arxiv.org/html/2512.23633v1",
+          "title": "LearnLM: Pedagogically Fine-Tuned AI Tutoring and Knowledge Transfer (arXiv)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.future-ed.org/research-notes-two-emerging-strategies-for-using-ai-in-tutoring/",
+          "title": "Two Emerging Strategies for Using AI in Tutoring (FutureEd, Georgetown University)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+          "title": "AI Competency Framework for Students (UNESCO, 2024)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

@@ -1,13 +1,56 @@
 {
   "question_id": "q078",
   "question_text": "How should a teacher decide, lesson by lesson, when AI use helps learning and when it undermines it — is there a practical decision framework?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q078-c01",
+      "text": "The question of when AI helps and when it undermines learning cannot be answered once, at the level of policy; it must be answered repeatedly, at the level of the individual lesson and task. The research literature offers two kinds of resources: established technology-integration frameworks that predate AI, and emerging AI-specific frameworks that adapt them. Synthesizing these yields a practical decision procedure a teacher can apply in minutes.\n\n**The established frameworks.** The TPACK framework (Technological, Pedagogical, and Content Knowledge) locates effective technology use at the intersection of what a teacher knows about the subject, about teaching, and about the tool — the implication being that AI use is only sound when the teacher understands how the tool interacts with the specific content and pedagogy of the lesson. The SAMR model (Substitution, Augmentation, Modification, Redefinition) provides a scale: at the lower levels AI replaces or enhances existing practice, while at the higher levels it enables tasks that were previously impossible. The critical insight from SAMR is that substitution — using AI to do what a worksheet or search engine already did — is rarely worth the risks, while redefinition — using AI to create learning experiences that could not otherwise exist — is where the pedagogical value lies.\n\n**The AI-specific extensions.** Researchers have extended these models for generative AI. Intelligent-TPACK (i-TPACK) adds AI ethics and AI-technological content knowledge to the original domains, requiring teachers to act as ethical gatekeepers who evaluate fairness, transparency, and data privacy. AI-CoACT proposes a four-phase cycle — Awareness, Integration, Collaboration, Transformation — that treats human-AI co-creation as an iterative process of planning, action, and reflection. The PSAMR variant adds a prohibition level to SAMR, acknowledging that some AI uses must be restricted to preserve academic integrity. UNESCO's AI Competency Framework for Teachers organizes the same territory into five dimensions across three progression levels (Acquire, Deepen, Create), with the explicit principle that teachers must not lose core competencies through over-reliance on AI. The OECD's guidance on effective and equitable use of AI in education adds the governance layer: guardrails, human oversight, and equity must be designed into any use.\n\n**A practical decision framework.** These frameworks can be condensed into a five-question procedure that a teacher can run against any proposed AI use in a lesson. First, the objective question: what is the specific learning objective of this task, and what cognitive work must remain the student's own for that objective to be met? If the objective is to practise argumentation, the argument must be the student's; if the objective is to learn how to interrogate AI output, the AI is the object of study. Second, the enhancement question: does AI use enhance or replace the learning activity? Enhancement — AI as a scaffold, a source of feedback, a generator of practice problems — preserves the student's cognitive work; replacement — AI producing the product the student was meant to produce — eliminates it. Third, the evidence question: is there reason to believe this use improves learning outcomes, or is it novelty? The tutoring literature shows that AI improves learning when it is designed to scaffold, question, and provide feedback, and undermines it when it supplies direct answers. Fourth, the integrity question: is this use transparent, disclosed, and consistent with the course's assessment policy? Undisclosed use, even when pedagogically defensible, corrodes trust. Fifth, the equity question: does every student have equivalent access and support, and does the use disadvantage any group? A tool that advantages students with better access or prompting skills can widen gaps.\n\n**A worked example.** The framework is best understood through application. Consider a history teacher planning a lesson on the causes of the First World War. The objective question: students must be able to construct and defend a multi-causal argument — the cognitive work that must remain theirs is the synthesis and the argument. The enhancement question: an AI tool that generates a timeline of events, or that quizzes students on the chronology, enhances the lesson by providing practice and scaffolding; an AI tool that produces the essay the students were meant to write replaces the learning. The evidence question: the tutoring literature suggests the quiz and timeline uses are likely to improve outcomes, while the essay-generation use is likely to undermine them. The integrity question: if the essay is a graded assessment, its use must be disclosed and governed by the course policy; the quiz use may require no disclosure at all. The equity question: every student needs equivalent access to the tool and equivalent instruction in using it. The teacher's decision — permit the timeline and quiz, require disclosure for any drafting assistance, prohibit AI-written essays — follows directly from the five questions, and can be explained to students in those terms. That explainability is itself part of the value: students who understand why a use is permitted or prohibited are more likely to comply, and more likely to learn the judgement themselves.\n\n**The judgement that remains.** The framework does not remove professional judgement; it structures it. The same AI use can be transformative in one lesson and corrosive in another, depending on the objective, the students, and the assessment context. What the frameworks supply is a discipline: teachers who run the five questions — objective, enhancement, evidence, integrity, equity — make decisions that are defensible to students, parents, and colleagues, and that keep the learning objective, rather than the technology, as the unit of analysis. That, in the end, is the practical answer to the lesson-by-lesson question.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-teachers",
+          "title": "AI Competency Framework for Teachers (UNESCO, 2024)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.mdpi.com/2227-7102/15/11/1452",
+          "title": "Intelligent-TPACK and AI Integration Frameworks for Teachers (Education Sciences, MDPI)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.jotse.org/index.php/jotse/article/view/3693/1013",
+          "title": "AI-TPACK: Extending Technological Pedagogical Content Knowledge for AI (Journal of Technology and Science Education)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://viden.ai/en/ai-literacy-from-samr-to-tpack-to-coact/",
+          "title": "AI Literacy: From SAMR to TPACK to AI-CoACT (Viden.ai)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S266655732600008X",
+          "title": "Teacher Decision-Making and AI Integration in the Classroom (Computers and Education: AI, ScienceDirect)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c74f03de-en/full-report/opportunities-guidelines-and-guardrails-for-effective-and-equitable-use-of-ai-in-education_2f0862dc.html",
+          "title": "Opportunities, Guidelines, and Guardrails for Effective and Equitable Use of AI in Education (OECD Digital Education Outlook 2023)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

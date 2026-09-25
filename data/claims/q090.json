@@ -1,13 +1,49 @@
 {
   "question_id": "q090",
   "question_text": "What standards of evidence should decision makers demand from edtech vendors before adopting AI products at scale?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q090-c01",
+      "text": "The edtech procurement landscape is shifting from adoption metrics — logins, usage, satisfaction — toward a performance-based model centered on evidence of student outcomes. Recent guidance from the U.S. Department of Education has created a \"permission structure\" for districts to formalize rigorous evaluation, data privacy, and instructional effectiveness as core bid requirements, even without new federal rules. Decision makers who adopt AI products at scale without demanding commensurate evidence are not making a neutral choice; they are making an evidence-free choice that will shape thousands of students' learning. The standards below define what responsible adoption requires.\n\n**Demand Evidence Tiers, Not Anecdotes**\n\nThe first standard is a common language for evidence quality. In the United States, the Every Student Succeeds Act (ESSA) provides four tiers of evidence: strong (experimental designs such as randomized controlled trials), moderate (quasi-experimental designs), promising (correlational studies with statistical controls), and logic-model-driven (a coherent rationale with ongoing evaluation). Decision makers should require vendors to state their evidence tier explicitly and to provide the underlying studies for inspection. A vendor that cannot locate its product in this taxonomy — or that offers only testimonials, case studies, and internal analytics — has not met the standard. The emerging research base on AI tutoring shows what strong evidence looks like: randomized controlled trials with active control conditions, pre-registered outcomes, and transparent reporting. That is the bar, and it is achievable.\n\n**Apply the Five EdTech Quality Indicators**\n\nThe EdTech Quality Collaborative — including SETDA, Digital Promise, and ISTE — has developed the Five EdTech Quality Indicators (FEQI) as a common framework for vetting tools, and decision makers should adopt it as a checklist. Safe: compliance with FERPA, COPPA, and PPRA, robust security protocols, and — for AI specifically — algorithmic accountability documentation and data impact assessments. Evidence-based: design and effectiveness claims grounded in rigorous research, not inference from engagement data. Inclusive: accessibility to WCAG 2.1 Level AA and equitable design for all learners. Usable: intuitive for educators and students, minimizing cognitive load. Interoperable: supporting data standards such as LTI and Ed-Fi so the tool connects with the existing digital ecosystem rather than creating a silo. Each indicator is checkable, and each has a documented failure mode that has caused real harm in schools.\n\n**Move from Informal Purchasing to Structured Evaluation**\n\nEvidence standards are meaningless without a process that enforces them. Districts should replace informal purchasing with a cross-departmental evaluation process: a formalized rubric scoring vendors against instructional, legal, and technical criteria; third-party validation through platforms such as the EdTech Index; and structured pilots with defined success metrics before any scale commitment. Pilots are the point where evidence standards become operational: the pilot should specify the outcome, the baseline, the comparison condition, and the decision rule for scaling — in writing, before the pilot begins. A pilot without a decision rule is a demonstration, not an evaluation.\n\n**Contract for Outcomes and Accountability**\n\nEvidence standards should be written into the contract itself. Outcomes-based contracting links vendor success to measurable student impact, with performance measures informing renewals. Data obligations belong in the contract too: if a vendor receives personally identifiable information, it must be designated a \"school official\" under FERPA with a written agreement, and vendors should be required to sign a data privacy agreement such as the National Data Privacy Agreement maintained by the Student Data Privacy Consortium. For AI products, contracts should require disclosure of model provenance, bias evaluation, and the conditions under which student data may or may not be used for model training. The contract is the enforcement mechanism for every standard above; a vendor that will not accept these terms is signaling that its product cannot withstand them.\n\n**Alignment with International Frameworks**\n\nEvidence standards are converging internationally, and decision makers should align their requirements with the emerging global consensus. UNESCO's Guidance for Generative AI in Education and Research calls for human-centered, age-appropriate validation of AI tools and provider accountability, and the OECD's work on AI in education emphasizes that adoption should be governed by evidence of learning outcomes and equity. The EU AI Act adds a regulatory layer: high-risk AI systems in education will be subject to conformity assessment, and even lower-risk systems carry transparency obligations. Vendors operating across jurisdictions are increasingly accustomed to documenting model provenance, bias evaluation, and data governance — and institutions that demand these artifacts are not imposing idiosyncratic requirements but aligning with the direction of global regulation. The institution that waits for perfect evidence will wait forever; the institution that demands the evidence architecture described here — tiers, indicators, structured evaluation, and contractual accountability — will be adopting AI on the same terms the field is moving toward.\n\n**The Institutional Responsibility**\n\nFinally, decision makers should recognize that evidence standards are an institutional capability, not a vendor courtesy. This means building procurement expertise, publishing evaluation criteria, sharing findings across institutions, and refusing to be rushed by competitive pressure or vendor marketing cycles. The SETDA K-12 EdTech Quality Action Toolkit and Digital Promise's EdTech Procurement Framework provide the scaffolding for this capability. The question is not whether AI products can meet high evidence standards — the best ones can — but whether institutions will demand them. Those that do will adopt AI with their eyes open; those that do not will discover the evidence after the fact, in the form of outcomes they did not measure and harms they did not anticipate.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.setda.org/wp-content/uploads/2026/03/SETDA-K-12-EdTech-Quality-Action-Toolkit_030526-01.pdf",
+          "title": "SETDA K-12 EdTech Quality Action Toolkit",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://digitalpromise.org/edtech-procurement-framework/discover-and-decide/",
+          "title": "EdTech Procurement Framework: Discover and Decide (Digital Promise)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.marketscale.com/industries/education-technology/the-us-department-of-educations-edtech-guidance-turns-evidence-into-a-procurement-requirement-even-without-new-federal-rules",
+          "title": "The U.S. Department of Education's EdTech Guidance Turns Evidence into a Procurement Requirement",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://aieducationauthority.com/technology-services-vendor-evaluation/",
+          "title": "Technology Services Vendor Evaluation for AI in Education",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://jscholarship.library.jhu.edu/bitstreams/a517c0a8-ccca-4d30-8216-c4f4da5ea009/download",
+          "title": "Evidence-Based EdTech Procurement: Research and Practice (Johns Hopkins)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

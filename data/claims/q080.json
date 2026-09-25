@@ -1,13 +1,56 @@
 {
   "question_id": "q080",
   "question_text": "How can teachers use AI effectively for planning, differentiation, feedback, and administration while safeguarding their professional judgment?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q080-c01",
+      "text": "The most immediate and best-evidenced uses of AI in teaching are not the dramatic ones — AI tutors replacing instruction — but the quotidian ones: planning, differentiation, feedback, and administration. The research literature documents substantial productivity gains in each of these domains, and equally documents the conditions under which those gains come at the cost of professional judgement. The effective pattern is a hybrid one, in which AI handles the mechanical and time-intensive work and the teacher retains the higher-order decisions.\n\n**Planning.** Lesson and resource planning is the most widely adopted AI use among teachers, and the evidence for its productivity effect is strong: a field study of secondary science teachers in England found a 31 per cent reduction in time spent on lesson and resource planning with AI support. The OECD reports that roughly one-third of teachers already use AI for work-related tasks, chiefly planning and research. The professional-judgement safeguard is verification and adaptation: AI-generated plans must be checked against curriculum requirements, student needs, and local context, and treated as drafts to be shaped rather than products to be delivered. Teachers who use AI as a co-planner — generating options, structures, and resources that they then select among and adapt — report that it enhances rather than displaces their planning judgement.\n\n**Differentiation.** AI's capacity to generate multiple versions of materials, adapt reading levels, and scaffold tasks makes it a natural differentiation tool. The evidence base is thinner than for planning and feedback, but the design principle is clear: differentiation is only effective when the teacher diagnoses what each student needs, and AI serves the diagnosis rather than replacing it. The safeguard is that AI-generated differentiation must be grounded in the teacher's knowledge of the student — their prior work, misconceptions, and circumstances — because the tool has no access to that knowledge and will otherwise differentiate on stereotypes or averages.\n\n**Feedback.** The feedback literature is the most developed. Providing formative feedback on student writing is one of the most time-consuming tasks in teaching — a driver of workload and attrition — and generative AI can provide immediate, consistent, and personalized feedback on drafts, with some studies finding no significant difference in writing performance between students who received AI feedback and those who received teacher feedback. The consensus, however, is a hybrid model: AI handles surface-level mechanical correction (grammar, syntax, structure), enabling faster revision cycles, while the teacher focuses on higher-order feedback — argumentation, content development, and the relational work of writing conferences. The risks are documented: passive uptake, in which students accept AI suggestions without reflection; the loss of the teacher-student relationship that motivates learning; and the deskilling of teachers who delegate feedback wholesale. The safeguards are requiring students to reflect on how they applied AI feedback, and reserving the evaluative and relational dimensions of feedback for the teacher.\n\n**Administration.** AI's administrative uses — drafting communications, summarising documents, generating reports, managing routine correspondence — are the lowest-risk and highest-return applications, and they are the ones most likely to free teacher time for instruction. The safeguard here is data governance: administrative AI must not be fed student data in violation of privacy obligations, and teachers need clear institutional rules about what may be entered into which systems.\n\n**The institutional conditions.** The evidence is clear that individual teacher practice is not the binding constraint; institutional conditions are. Teachers use AI effectively for planning, differentiation, feedback, and administration when their institutions provide four things: clear policies that define what may be entered into which systems and what must be disclosed; training that builds the competence to use and evaluate AI; workload design that gives teachers time to learn and to apply the hybrid model; and evaluation that measures whether AI use is improving outcomes rather than merely being adopted. The OECD's work on reimagining teaching emphasizes that AI competence is becoming a component of the profession's future, and that systems which invest in teacher capacity will see AI augment instruction while those which do not will see it erode professional judgement. The UNESCO framework's progression from Acquire to Deepen to Create is a map of that capacity-building: teachers first learn to use AI, then to integrate it into pedagogy, then to create with it — and at every level, the framework insists, human accountability is preserved. The practical implication is that safeguarding professional judgement is an institutional responsibility, not an individual one.\n\n**Safeguarding professional judgement.** The research and the UNESCO AI Competency Framework converge on the conditions that protect professional judgement. The first is human oversight: AI outputs are drafts and recommendations, never final decisions, and the teacher remains accountable for every output that reaches a student. The second is competence: teachers need training in how AI works, how to evaluate its outputs, and how to prompt it effectively — the UNESCO framework's Acquire, Deepen, Create progression is designed for exactly this. The third is the anti-deskilling principle: teachers must not delegate the core competencies of their profession — diagnosis, evaluation, relationship — to tools, because those competencies atrophy with disuse. The fourth is institutional support: professional judgement is safeguarded not by individual vigilance but by policies, training, and workload design that make the hybrid model sustainable. The practical synthesis is that AI is most effective in teaching when it absorbs the mechanical load and the teacher concentrates on the judgement — and that the boundary between the two is itself a professional decision that teachers, supported by their institutions, must make and remake as the tools evolve.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://openpraxis.org/articles/10.55982/openpraxis.17.3.871",
+          "title": "Generative AI Feedback and Student Writing Performance (Open Praxis)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s10758-025-09903-0",
+          "title": "AI, Teacher Workload, and the Burden of Feedback (Technology, Knowledge and Learning, Springer)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.ascd.org/el/articles/teaching-students-to-use-ai-for-writing-feedback",
+          "title": "Teaching Students to Use AI for Writing Feedback (ASCD Educational Leadership)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1614673/full",
+          "title": "AI Feedback, Student Engagement, and the Hybrid Model (Frontiers in Education)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-teachers",
+          "title": "AI Competency Framework for Teachers (UNESCO, 2024)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/reimagining-teaching-in-an-accelerating-world_d0edfe8c-en.html",
+          "title": "Reimagining Teaching in an Accelerating World (OECD)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

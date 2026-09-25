@@ -1,13 +1,56 @@
 {
   "question_id": "q088",
   "question_text": "How can educators and institutions with minimal budgets or infrastructure still give students equitable access to AI-supported learning?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q088-c01",
+      "text": "AI in education presents a paradox: the same technology that promises to personalize learning at scale also threatens to widen existing inequalities. Students in low-resource schools — those without reliable broadband, adequate devices, or teachers trained in digital pedagogy — are least likely to benefit from AI tools and most likely to be harmed by their absence. The digital divide in AI-powered education is not merely a hardware problem; it is a compound of structural, pedagogical, and policy barriers. But the equity problem is not insoluble. A combination of low-cost technical pathways, inclusive design, and deliberate policy can extend meaningful AI-supported learning to settings with minimal budgets and infrastructure.\n\n**Understand the Real Barriers**\n\nEquity strategies fail when they misdiagnose the problem. The barriers are structural (connectivity, devices, electricity), socioeconomic (household income, parental digital literacy), pedagogical (teacher preparedness), and governance-related (data protection capacity). Rural and high-poverty communities face geographic isolation compounded by inadequate connectivity infrastructure. Students from low-income households often lack the foundational digital readiness to engage with AI tools, and many AI platforms are built without inclusive design principles, failing to support learners with disabilities or speakers of non-dominant languages. The Equity-Centered AI Learning Access Model (ECALAM) organizes these challenges into four domains — structural inequities, AI accessibility, inclusive design, and policy governance — and argues that true equity requires transformation of pedagogy, technology, and policy together, not the mere provision of tools.\n\n**Low-Cost Technical Pathways**\n\nMinimal budgets do not mean no AI. Several technical strategies dramatically lower the cost of access. First, mobile-first design: in many low-resource settings, smartphones are the primary computing device, and AI tools that work through messaging interfaces, SMS, or lightweight web apps reach students who will never see a laptop. Second, open-source and small models: open-weight models that run on modest hardware, or that are accessed through free tiers, avoid the licensing costs of commercial platforms, and small, task-specific models can outperform general-purpose systems on narrow educational tasks at a fraction of the compute cost. Third, offline and low-bandwidth operation: tools that cache content, process locally, or tolerate intermittent connectivity serve communities where broadband is unreliable or unaffordable. Fourth, shared infrastructure: school-based device banks, community Wi-Fi, and library access points concentrate scarce resources where they can serve the most students. Each of these choices trades the frontier of AI capability for reach — a trade that is often the right one for equity.\n\n**Inclusive Design as an Equity Strategy**\n\nEquitable access is not only about who can reach the technology but about whether the technology serves those who reach it. AI systems trained on non-representative data can exhibit algorithmic bias, producing discriminatory profiling or content that disadvantages minority students. Tools designed without accessibility features exclude learners with disabilities. Multilingual support is not an add-on but a core equity requirement in linguistically diverse communities. Institutions with minimal budgets can still demand inclusive design in procurement, and can prefer open tools whose bias and accessibility properties can be inspected and modified. Teacher preparedness is the other half of inclusive design: in under-resourced schools, teachers often lack the training to integrate AI effectively, and professional development — even low-cost, peer-led, and open-licensed professional development — is consistently identified as a critical bottleneck and therefore a critical investment.\n\n**Community-Based and Open Models**\n\nSome of the most promising low-cost pathways are community-based. Public libraries, community centers, and after-school programs can serve as access points where students use AI-supported learning with adult mediation, concentrating scarce devices and connectivity where they reach the most learners. Open educational resources — openly licensed curricula, tools, and training materials — allow institutions to build AI-supported learning without licensing costs, and open-source AI models allow inspection and adaptation that commercial black boxes do not. Teacher networks and peer-led professional development extend expertise without expensive consultants. The common thread is that equity does not require replicating the resource model of wealthy institutions; it requires designing access around the resources that actually exist in the community.\n\n**Policy and Governance Levers**\n\nEquity is ultimately a policy problem, and the levers are available even to institutions with small budgets. Public investment in digital infrastructure — affordable internet programs, subsidized devices — remains the foundation, and institutions can advocate for it collectively. Procurement policy can require vendors to offer free or low-cost tiers to underserved schools, to provide offline modes, and to demonstrate equitable outcomes. Data governance matters for equity too: students in low-resource settings are more exposed to commercial exploitation of their data precisely because their institutions have less capacity to negotiate, so model data-protection clauses and shared procurement consortia level the field. Finally, institutions should measure equity explicitly: adoption and outcome data disaggregated by income, geography, language, and disability status turn equity from a value into a monitored outcome. The schools that will close the AI gap are not necessarily those with the largest budgets, but those that treat access as a design problem — technical, pedagogical, and political — rather than a purchasing decision.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.researchgate.net/publication/390048519_Digital_Divide_in_AI-Powered_Education_Challenges_and_Solutions_for_Equitable_Learning",
+          "title": "Digital Divide in AI-Powered Education: Challenges and Solutions for Equitable Learning",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://jisem-journal.com/index.php/journal/article/view/3327",
+          "title": "Equitable AI Access in Education: Structural and Policy Perspectives (JISEM)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://iiardjournals.org/get/IJEMT/VOL.%2011%20NO.%204%202025/Regulating%20the%20Digital%20Divide%20309-325.pdf",
+          "title": "Regulating the Digital Divide in AI-Mediated Education (IJEMT)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.eschoolnews.com/digital-learning/2024/11/13/equitable-access-ai-professional-development/",
+          "title": "Equitable Access to AI Starts with Professional Development (eSchool News)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://aicompetence.org/digital-divide-in-ai-education/",
+          "title": "The Digital Divide in AI Education (AI Competence)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "title": "Guidance for Generative AI in Education and Research (UNESCO)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

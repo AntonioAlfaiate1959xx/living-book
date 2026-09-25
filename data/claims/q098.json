@@ -1,13 +1,49 @@
 {
   "question_id": "q098",
   "question_text": "How is AI reshaping special education and individualized support plans in practice, beyond its general accessibility promise?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q098-c01",
+      "text": "The general promise of AI for accessibility — text-to-speech, speech-to-text, captioning, translation — is well known. The more consequential transformation is happening in the operational core of special education: the Individualized Education Program (IEP), the legally mandated document that governs services for students with disabilities. AI is changing how IEPs are written, how progress is tracked, how assistive technology functions, and how educators allocate their time — and with those changes come new obligations and new risks.\n\n**The IEP as the Point of Transformation**\n\nIEPs are among the most time-intensive documents in education, and they are where AI is having its most concrete effect. Large language models are being used to draft IEP components: articulating SMART (Specific, Measurable, Achievable, Relevant, Time-bound) goals from a student's current academic and functional levels, generating concise descriptions of present levels of performance, and drafting accommodations, modifications, and transition plans. AI-supported systems automate progress tracking and generate meeting agendas, allowing educators to shift time from paperwork to direct student interaction. The efficiency gains are real and documented by practitioners. But the IEP is also a legal instrument with binding obligations, and the risks are correspondingly serious: AI-generated goals can be generic, can miss the individualization that the law requires, and can embed the biases of training data. The professional consensus is that AI should draft, and qualified educators must review, refine, and own the final document — a human-in-the-loop requirement that is not a courtesy but a legal necessity under IDEA and FERPA.\n\n**Assistive Technology Beyond the Generic**\n\nThe accessibility promise becomes concrete in AI-powered assistive technology. Augmentative and alternative communication (AAC) systems now analyze speech patterns to help students with severe speech difficulties express themselves, reducing the frustration that accompanies communication failure. Adaptive learning platforms adjust content difficulty and presentation in real time, matching pace and preference for students with dyslexia, ADHD, and autism. AI-driven text-to-speech, speech-to-text, and real-time captioning provide access to curriculum materials for students with visual, auditory, and language-based challenges. And virtual and augmented reality environments, often AI-powered, allow students to practice social interactions and behavioral responses in low-stakes, simulated settings — a genuinely new capability for students who need rehearsal before real-world encounters. For students whose alternative was no support at all, these tools are not conveniences; they are access to education.\n\n**Data-Driven Individualization**\n\nBeyond discrete tools, AI is changing the granularity of individualization. Systems that continuously analyze a student's performance can detect patterns — which task types cause difficulty, which scaffolds help, when frustration rises — that human observation, however skilled, cannot capture at the same resolution. This enables a more dynamic form of support planning: adjustments made in response to evidence rather than at annual review. The promise is an IEP that is a living document rather than a yearly snapshot. The risk is that the data driving these adjustments is incomplete, biased, or misinterpreted — a student's behavior in a digital environment is not the whole student, and models trained on general populations may misread the learning profiles of students with disabilities, who are systematically underrepresented in training data.\n\n**Ethical and Legal Constraints**\n\nSpecial education operates under the strictest data protections in schooling — FERPA and IDEA — and AI deployment must respect them. Student data must remain in secure, closed networks and must not be used to train public models. Algorithmic bias is a live concern: AI-generated content must be reviewed by qualified professionals, and the empathy, intuition, and relationship-building that are central to special education cannot be automated. There is also an equity dimension: differences in school funding and infrastructure mean that some students with disabilities will receive AI-enhanced support and others will not, and the digital divide in special education may be more consequential than in general education because the stakes for each student are higher.\n\n**Professional Development for the New Practice**\n\nSpecial educators are being asked to do something genuinely new: draft legally binding documents with AI assistance, evaluate AI-generated content for bias and individualization, and operate assistive technologies that did not exist when they trained. This requires professional development that is specific to special education — not generic AI literacy, but training in the IEP workflow, in the legal obligations that AI-assisted drafting must respect, and in the evaluation of AI output for the subtle errors that matter most for students with disabilities. The professional organizations in the field are beginning to develop this training, and institutions should treat it as a condition of deployment rather than an optional add-on. The stakes justify the investment: an AI-generated IEP that is efficient but generic is not a success, and the difference between efficiency and quality is precisely what professional judgment supplies.\n\n**The Practice Standard**\n\nWhat is emerging is a practice standard: AI as a drafting and analysis tool, human professionals as the authors of decisions, closed and protected data environments, and continuous professional development so that educators can evaluate AI output critically. The organizations representing special educators are clear that AI should be a pedagogical complement, not a replacement — and that the technology's value will be measured by whether it improves outcomes for the students who need the most support, not by the hours of paperwork it saves. The transformation is real, and it is happening now; the question is whether it will be governed by the field's values or by the technology's momentum.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://corp.kaltura.com/blog/combining-ai-and-special-education-a-comprehensive-guide/",
+          "title": "Combining AI and Special Education: A Comprehensive Guide (Kaltura)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://edtechmagazine.com/k12/article/2026/02/how-ai-tools-can-support-special-education-students-and-teachers",
+          "title": "How AI Tools Can Support Special Education Students and Teachers (EdTech Magazine)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://leadership.acsa.org/leveraging-ai-in-special-education",
+          "title": "Leveraging AI in Special Education: IEP Development and Ethical Practice (ACSA)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.rcresearcharchive.com/index.php/Journal/article/view/1001",
+          "title": "AI-Driven Assistive Technologies and Personalized Learning in Special Education (RCR Research Archive)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://exceptionalchildren.org/blog/next-frontier-ai-special-education",
+          "title": "The Next Frontier: AI in Special Education (Council for Exceptional Children)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

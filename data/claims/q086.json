@@ -1,13 +1,56 @@
 {
   "question_id": "q086",
   "question_text": "How can schools communicate with and involve parents and communities in decisions about AI use?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q086-c01",
+      "text": "AI adoption in schools fails when it outruns community trust. Parents who discover that an AI system is grading their child's writing, profiling their learning, or sharing data with a vendor — without having been told — will not simply object to the tool; they will question the institution's judgment. The research on school improvement is unambiguous that relational trust between families and schools is a core resource for change. AI governance is therefore not a technical exercise but a community-relations exercise, and it requires deliberate structures for communication, participation, and feedback.\n\n**Transparency as the Foundation**\n\nEverything else rests on transparency. Schools should publish plain-language \"AI use and data\" guides that explain, in non-technical terms, which AI tools are used, what student data they collect, how that data is protected under FERPA, COPPA, and comparable frameworks, and how teachers maintain final control over content and decisions. These guides should be translated into the languages of the community and should be living documents, updated as tools change. Transparency also means disclosure in the classroom itself: parents should know when their child is interacting with an AI system, what the system is and is not for, and how to opt out or request alternatives. The goal is not to overwhelm families with technical detail but to give them an accurate mental model of what is happening to their children's data and learning.\n\n**Dual Capacity-Building**\n\nThe most influential framework for family engagement — the Dual Capacity-Building Framework developed by Mapp and Kuttner — holds that engagement must build the capacity of both school staff and families. Staff need the skills to communicate effectively about AI; families need the skills to understand it and to support learning at home. AI literacy for families is therefore a genuine programmatic commitment, not a pamphlet. Schools have developed \"AI family nights,\" workshops in which parents learn to distinguish supportive AI from replacement AI, practice using the tools their children use, and develop a shared vocabulary for discussing technology at home. These events serve a second function: they surface parental concerns — about screen time, cheating, privacy, and the erosion of human teaching — in a setting where they can be addressed rather than festering.\n\n**AI-Mediated Communication**\n\nAI can also improve the mechanics of engagement. Generative AI tools can synthesize student data — grades, attendance, and participation — into personalized, actionable updates for parents, moving communication beyond generic announcements. Machine translation and multilingual communication protocols ensure that non-English-speaking families receive timely and accurate information, addressing a long-standing equity gap in school communication. Automation of routine administrative communication frees educators to invest in the high-quality, human relationships that research identifies as the primary driver of student success. But AI-mediated communication requires human oversight: AI-generated messages must be reviewed for accuracy, tone, and cultural appropriateness before they reach families, and schools should be explicit about which communications are AI-assisted. The technology should support the relationship, not impersonate it.\n\n**Participatory Governance**\n\nCommunication is necessary but not sufficient; parents and communities should also have a voice in decisions. Participatory governance structures include parent advisory groups on AI, representation on the institutional AI governance body, town halls before major procurement decisions, and regular surveys that measure parental understanding and concern. Feedback loops matter: schools should report back on what they heard and what changed as a result, so that participation is experienced as consequential rather than ceremonial. Involving parents in procurement and policy decisions before tools are adopted — rather than after — converts potential opposition into shared ownership and gives the institution access to community knowledge it would otherwise lack.\n\n**Feedback and Continuous Improvement**\n\nEngagement is not a one-time campaign but a continuous process, and it requires measurement. Schools should regularly assess parental understanding and concern through surveys, focus groups, and advisory groups, and should use that feedback to refine both their AI practices and their communication about them. The measures should be concrete: Do parents know which tools are in use? Do they know how to raise a concern? Do they feel their voice affects decisions? When engagement is measured, it becomes possible to improve it; when it is not, it becomes a claim rather than a practice. This feedback discipline also protects against the risk that AI-mediated communication becomes a substitute for genuine relationship — the metrics should track trust and understanding, not just message delivery rates.\n\n**Equity and Cultural Responsiveness**\n\nEngagement strategies must be designed for the whole community, not the most vocal segment. Drawing on the concept of community cultural wealth, schools should use AI to recognize and build on the existing cultural, linguistic, and aspirational capital of diverse families rather than viewing them through a deficit lens. This means engagement that is multilingual, accessible to families with disabilities, and attentive to the digital divide — families without reliable internet or devices cannot participate in digital engagement, and schools must provide alternatives. It also means being honest about the limits of AI: communities are more likely to trust institutions that acknowledge what is not known about long-term effects, and that commit to monitoring and adjustment. UNESCO's Guidance for Generative AI in Education and Research emphasizes that adoption must be governed by human agency, inclusion, and equity — principles that are realized in practice through the quality of the relationship between schools and the communities they serve. The institutions that will navigate the AI transition successfully are those that treat parents and communities not as audiences to be informed but as partners to be engaged.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://edtechmagazine.com/k12/article/2024/08/how-generative-ai-improves-parent-engagement-k-12-schools-perfcon",
+          "title": "How Generative AI Improves Parent Engagement in K-12 Schools (EdTech Magazine)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.panoramaed.com/blog/how-generative-ai-improves-parent-involvement",
+          "title": "How Generative AI Improves Parent Involvement (Panorama Education)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://edcircuit.com/ai-in-schools-10-ways-to-engage-parents/",
+          "title": "AI in Schools: 10 Ways to Engage Parents (EdCircuit)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.parentsquare.com/company/ai-principles/",
+          "title": "AI Principles for Family-School Communication (ParentSquare)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.edugenius.app/blog/best-ai-for-family-community-engagement",
+          "title": "Best AI Practices for Family and Community Engagement",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+          "title": "Guidance for Generative AI in Education and Research (UNESCO)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

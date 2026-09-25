@@ -1,13 +1,63 @@
 {
   "question_id": "q070",
   "question_text": "What guidance have major international bodies (UNESCO, OECD, EU, and others) issued on AI in education, and how is it being implemented?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q070-c01",
+      "text": "International guidance on artificial intelligence in education has matured rapidly since 2019, evolving from broad declarations of principle into operational frameworks, competency standards, and binding regulation. Three institutional actors dominate the landscape — UNESCO, the OECD, and the European Union — each approaching the challenge from a distinct vantage point: normative standard-setting, evidence-based policy analysis, and regulatory governance respectively.\n\n**UNESCO: from the Beijing Consensus to competency frameworks.** UNESCO's Beijing Consensus on Artificial Intelligence and Education (2019) was the first global instrument on the topic. Adopted at the International Conference on AI and Education, it committed more than one hundred Member States to a human-centred vision in which AI is controlled by humans, protects human rights, and serves the Education 2030 Agenda (Sustainable Development Goal 4). The Consensus insisted that AI should empower rather than replace teachers, that applications must be inclusive and non-discriminatory, and that educational data use should be ethical, transparent, and auditable, with privacy-by-design principles. It also tasked UNESCO with building an AI for Education platform and monitoring the AI divide between nations.\n\nTwo years later, UNESCO published AI and Education: Guidance for Policy-makers (2021), the first comprehensive policy manual for governments. The guidance distinguishes three policy approaches — independent (a standalone AI policy), integrated (AI embedded in broader digital transformation strategies), and thematic (AI addressed through specific educational challenges) — and urges policy-makers to become AI-ready before drafting rules. Its priorities include equitable access, ethics and privacy, teacher empowerment, collaborative ecosystems, and investment in infrastructure and research.\n\nIn 2024 UNESCO released the AI Competency Framework for Teachers and the AI Competency Framework for Students. The teacher framework organizes five dimensions — human-centred mindset, ethics of AI, AI foundations and applications, AI pedagogy, and AI for professional learning — across three progression levels (Acquire, Deepen, Create). The student framework defines twelve competencies across four dimensions (human-centred mindset, ethics, techniques and applications, and system design) at three levels (Understand, Apply, Create). Both frameworks are explicitly designed to be adapted by national authorities and teacher-education institutions, and they align with existing digital competence standards such as Europe's DigCompEdu.\n\n**OECD: evidence, governance, and guardrails.** The OECD's Digital Education Outlook 2023 provides the most systematic comparative analysis of AI in education to date. Structured around digital infrastructure, governance, and opportunities for AI-enabled learning, the report found that as of early 2024 none of the eighteen jurisdictions surveyed had issued specific regulations for generative AI in education. The OECD therefore advocates governance, guidelines, and guardrails rather than waiting for legislation, and documents that roughly one-third of teachers already use AI for work-related tasks, chiefly lesson planning and research. The OECD's Education Policy Outlook and its AI policy observatory continue to track how national systems balance teacher supply, digital equity, and AI adoption.\n\n**The European Union: binding regulation and strategic planning.** The EU has gone furthest in converting guidance into law. The AI Act (Regulation (EU) 2024/1689) classifies AI systems used in education and vocational training as high-risk under Annex III when they determine access to education, assess learning outcomes, or monitor student behaviour during assessments. High-risk obligations — risk management, data governance, transparency, human oversight, and logging — apply from December 2027, while the ban on emotion recognition in educational settings and the duty to support AI literacy among staff applied from February 2025. The Digital Education Action Plan (2021–2027) complements the Act with ethical guidelines on the use of AI and data in teaching and learning, updates to the DigComp competence frameworks, and the European Digital Education Hub, which coordinates member-state practice and hosts working groups such as the squad on an ethical AI toolkit for schools.\n\n**Other international actors and the direction of travel.** Beyond the three principal bodies, the Council of Europe has issued guidance on AI and education grounded in human rights and the rule of law, the G20 has endorsed principles for AI in education in its education ministers' communiqués, and regional bodies such as the African Union have begun to develop continental frameworks. The proliferation of instruments has itself become a coordination problem: governments now navigate overlapping guidance from UNESCO, the OECD, the EU, and regional organizations, each with different emphases and legal force. The emerging response is convergence on a common core — human-centred design, teacher agency, equity, privacy, and transparency — with national implementation varying according to legal tradition and institutional capacity. The most significant development is the shift from guidance to obligation: the EU AI Act demonstrates that the era of purely voluntary frameworks is ending, and other jurisdictions, including Brazil and South Korea, are moving toward binding AI legislation with education-specific provisions. The practical implication for education systems is that international guidance now functions less as a menu of options and more as a floor of expectations against which national policy will be judged.\n\n**Implementation in practice.** Implementation remains uneven across and within countries. Some governments embed AI in national education strategies and teacher-training programmes built on the UNESCO frameworks; EU member states are aligning procurement and institutional practice with the AI Act's timeline; and the OECD continues to document wide variation in teacher readiness and infrastructure. The common thread across all three bodies is a human-centred, rights-based orientation: AI is to augment human judgement, not replace it, and equity, privacy, and teacher agency are treated as non-negotiable conditions of adoption. The principal implementation gaps are teacher preparation, evaluation of learning outcomes, and the digital divide between and within countries — precisely the areas the next generation of guidance, including the UNESCO competency frameworks and the OECD's 2026 Digital Education Outlook, is now seeking to close.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000368303",
+          "title": "Beijing Consensus on Artificial Intelligence and Education (UNESCO, 2019)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000376709",
+          "title": "AI and Education: Guidance for Policy-makers (UNESCO, 2021)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-teachers",
+          "title": "AI Competency Framework for Teachers (UNESCO, 2024)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+          "title": "AI Competency Framework for Students (UNESCO, 2024)",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c74f03de-en.html",
+          "title": "OECD Digital Education Outlook 2023: Towards an Effective and Equitable Use of AI in Education",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "title": "Regulatory framework on AI (EU AI Act) — European Commission",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://education.ec.europa.eu/focus-topics/digital-education/actions",
+          "title": "Digital Education Action Plan (2021–2027) — European Commission",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

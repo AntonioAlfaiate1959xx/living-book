@@ -1,13 +1,56 @@
 {
   "question_id": "q085",
   "question_text": "How should institutions structure professional development so teachers gain real AI competence rather than one-off training?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q085-c01",
+      "text": "The dominant response to AI in schools has been the one-off workshop: a half-day introduction to ChatGPT, a vendor demonstration, a policy briefing. Decades of research on professional development show why this model fails. Isolated training events do not change classroom practice because they do not provide the sustained practice, feedback, and collaboration through which new pedagogical skills actually develop. AI competence is not an informational problem — it is a practical, ethical, and pedagogical one — and it demands a professional development architecture as deliberate as the technology itself.\n\n**The UNESCO AI Competency Framework as a Backbone**\n\nThe most important development in this space is the UNESCO AI Competency Framework for Teachers (AI CFT), a global reference tool that defines what teachers need to know and be able to do. The framework organizes fifteen competencies across five dimensions: a human-centred mindset, the ethics of AI, AI foundations and applications, AI pedagogy, and AI for professional development. Crucially, it structures progression into three levels — Acquire, Deepen, and Create — so that competence is understood as a developmental trajectory rather than a binary state. A teacher at the Acquire level understands how AI works and its basic applications; at the Deepen level, they integrate AI into pedagogical practice and critically assess its impact on learning; at the Create level, they design new learning approaches that exploit AI's capabilities. UNESCO recommends that governments and institutions use the framework as a roadmap for national strategy, integrating AI competency into both pre-service and in-service training and developing assessment tools to measure teacher competence. The framework's insistence on a human-centred approach — AI serving human agency rather than replacing the teacher — gives professional development a normative anchor that technical training alone cannot provide.\n\n**Sustained, Practice-Embedded Models**\n\nAgainst this backbone, institutions should build professional development that is sustained, job-embedded, and collaborative. The evidence base for teacher learning is consistent: coaching, professional learning communities, and lesson study outperform workshops because they embed learning in the teacher's actual work. For AI specifically, this means structures in which teachers co-plan lessons with AI tools, analyze AI outputs for bias and error, observe colleagues' AI-integrated lessons, and bring student work back to a community of practice for collective analysis. A professional learning community focused on AI might meet monthly to examine a shared question — how does AI-generated feedback affect student revision? — with each meeting anchored in classroom evidence. This converts AI competence from an individual acquisition into a collective, continuously updated practice, which matters because the technology itself changes faster than any fixed curriculum.\n\n**Assessment and Credentialing of AI Competence**\n\nCompetence that is not assessed is easily assumed. Institutions should pair professional development with competency-based assessment: portfolios of AI-integrated lessons, evidence of student learning, and structured reflection against the UNESCO dimensions. Micro-credentials offer a promising mechanism, allowing teachers to accumulate verifiable evidence of specific competencies over time. The OECD Digital Education Outlook 2023 notes that professional standards for digital competencies are often too broad to be useful, and points to models such as Austria's Digi.kompP and US micro-credentialing systems as structured alternatives. Credentialing serves two functions: it makes competence visible and portable for teachers, and it gives institutions a defensible basis for decisions about roles, mentoring, and leadership in AI-integrated teaching.\n\n**Differentiation and Role-Based Pathways**\n\nNot every teacher needs the same depth of AI competence. A differentiated model recognizes that classroom teachers, subject leaders, special educators, and administrators face different demands. All teachers need foundational AI literacy and ethics; some need deep pedagogical expertise in AI-mediated instruction; a smaller group needs the technical and evaluative skills to lead institutional adoption. Professional development should therefore offer role-based pathways rather than a single uniform program, with the UNESCO framework's progression levels providing the common language across pathways. This differentiation also respects teachers' time — a scarce resource that one-off training squanders by treating everyone as a beginner.\n\n**Institutional Conditions**\n\nFinally, professional development fails without enabling conditions. Teachers need scheduled time, protected from other duties, and leadership that models AI learning rather than delegating it. They need reliable access to the tools they are being trained to use, and technical support that does not assume expertise. They need incentives — recognition, career structures, and compensation — that signal the institution takes AI competence seriously. And pre-service education must change: new teachers should enter the profession already grounded in the AI CFT, so that in-service programs build on a foundation rather than starting from zero. The OECD's finding that roughly one in five secondary teachers still reports a need for further digital training, even after a decade of digital-education investment, is a warning: without sustained, structured, and resourced professional development, AI competence will remain the property of a self-selected minority, and the technology will widen rather than narrow the gap between teachers who use it well and those who do not.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.unesco.org/en/articles/ai-competency-framework-for-teachers",
+          "title": "AI Competency Framework for Teachers (UNESCO)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/what-you-need-know-about-unescos-new-ai-competency-frameworks-students-and-teachers",
+          "title": "What You Need to Know About UNESCO's New AI Competency Frameworks for Students and Teachers",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://ciddl.org/summary-of-unesco-ai-competency-framework-for-teachers/",
+          "title": "Summary of the UNESCO AI Competency Framework for Teachers (CIDDL)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.cedefop.europa.eu/en/tools/vet-toolkit-tackling-early-leaving/resources/unesco-ai-competency-framework-for-teachers",
+          "title": "UNESCO AI Competency Framework for Teachers (CEDEFOP Resource)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c74f03de-en.html",
+          "title": "OECD Digital Education Outlook 2023: Towards an Effective Digital Education Ecosystem",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.eschoolnews.com/digital-learning/2024/11/13/equitable-access-ai-professional-development/",
+          "title": "Equitable Access to AI Starts with Professional Development (eSchool News)",
+          "type": "industry",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        }
+      ]
+    }
+  ]
 }

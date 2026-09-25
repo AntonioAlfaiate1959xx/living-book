@@ -1,13 +1,56 @@
 {
   "question_id": "q101",
   "question_text": "The EU AI Act mandates that individuals be informed when interacting with an AI system or consuming AI-generated content. Should this same transparency standard apply to a teacher's use of AI in the classroom, even when disclosure might undermine the pedagogical value of the exercise itself?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q101-c01",
+      "text": "The EU AI Act (Regulation (EU) 2024/1689) establishes, under Article 50, a set of transparency obligations that apply to all AI systems in specified situations, regardless of risk classification. AI systems intended to interact directly with natural persons must be designed so that users are aware they are interacting with AI, unless this is obvious from the context. Providers of generative AI must ensure outputs are marked in a machine-readable format and detectable as artificially generated. Deployers using AI to create deepfakes or to publish AI-generated text on matters of public interest must disclose the artificial nature of the content. These obligations become applicable in August 2026, and the European Commission has published guidelines and a voluntary Code of Practice to support compliance. The question posed here is whether this transparency standard should extend to a teacher's use of AI in the classroom — including cases where disclosure might undermine the pedagogical value of the exercise. The answer requires distinguishing the different transparency obligations, examining the special character of the classroom, and weighing the values that transparency serves.\n\n**The Structure of the Transparency Obligation**\n\nThe AI Act's transparency regime is not a single rule but a set of differentiated obligations. The interaction obligation — informing a person that they are interacting with an AI — applies to systems intended to interact directly with natural persons, with an exception where this is \"obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect.\" The content obligation — marking AI-generated output — applies to synthetic content, with exceptions for minor assistive functions such as standard grammar correction that do not substantially alter input data. The deepfake obligation — disclosing artificially generated or manipulated content — applies to deployers, with a reduced obligation for artistic, satirical, or fictional works. Each obligation has a different rationale: the interaction obligation protects the autonomy of the person interacting; the content obligation protects the integrity of the information environment; the deepfake obligation protects against deception. Applying the regime to the classroom requires asking which of these rationales is engaged by a teacher's use of AI.\n\n**The Classroom as a Special Case**\n\nA teacher's use of AI in the classroom is not the paradigmatic case the AI Act was designed for. The Act's transparency obligations protect individuals against deception and manipulation by AI systems acting on them — chatbots that impersonate humans, synthetic content that masquerades as real, deepfakes that deceive. The classroom relationship is different in kind: the teacher is a professional with a duty of care toward students, the interaction is pedagogical rather than commercial, and the students are minors whose educational interests are the purpose of the interaction. This does not remove the transparency obligation — the AI Act applies to deployers in education as elsewhere — but it changes how the obligation should be interpreted and applied.\n\n**The Case for Full Transparency**\n\nThere are strong arguments for extending the transparency standard fully to the classroom. First, autonomy and trust: students and parents have a right to know when AI is involved in their education, and undisclosed AI use erodes the trust on which the teacher-student relationship depends. Second, informed consent: the data protection analysis of AI in education — under GDPR and the school-consent models discussed elsewhere in this volume — presupposes that families know what systems are being used. Third, modeling: if students are to develop AI literacy, they must be able to recognize AI in their environment, and a classroom where AI is invisible teaches the wrong lesson. Fourth, the AI Act's own logic: the transparency obligation exists because AI interaction can be consequential, and classroom AI is consequential for the students involved. On this view, the pedagogical value of an exercise cannot justify concealment, because the harm of concealment — to trust, to autonomy, to the student's ability to evaluate their own learning — outweighs the benefit.\n\n**The Case for Contextual Disclosure**\n\nThe counterargument is that the classroom is precisely the context where the \"obvious from the context\" exception and the pedagogical purpose should be interpreted generously. Consider a teacher who uses AI to generate a Socratic dialogue for a philosophy lesson, or to create a writing prompt designed to elicit a student's unassisted response, or to simulate a conversation partner for language practice. In each case, disclosure at the moment of use could alter the pedagogical effect: students who know the dialogue is AI-generated may engage with it differently, and the exercise's value may depend on that engagement. The deeper point is that the teacher's use of AI is not the same as an AI system acting on the student. The teacher remains the accountable agent; the AI is a tool in the teacher's hands, like a textbook or a film. The transparency obligation that protects against deception by systems is less clearly engaged when the system is not the interlocutor but the instrument of a human professional who is present, accountable, and known to the student.\n\n**A Balanced Standard**\n\nThe defensible resolution is a graduated standard that distinguishes the obligations the AI Act actually imposes. The interaction obligation should apply: students should know, at the level of the classroom and the lesson, when they are interacting with an AI system rather than with the teacher — because the interaction obligation protects the student's autonomy in the interaction itself. The content obligation should apply to AI-generated materials that students consume as content: they should be able to tell what is AI-generated, because the integrity of the information environment matters in education as much as anywhere. But the deepfake-style disclosure of every AI-assisted pedagogical act — every AI-generated prompt, every AI-drafted exercise — is neither required by the Act's rationale nor necessary for its purposes, and a teacher's professional judgment about when disclosure serves the learning objective should be respected)Skip. The standard should be: transparency about the system, transparency about the content, and professional judgment about the pedagogy — with the burden on the teacher to be able to justify, to students and parents, why a particular exercise was conducted without disclosure. This preserves the values the AI Act protects — autonomy, trust, and the integrity of information — while recognizing that the classroom is a pedagogical space, not a marketplace, and that the teacher's professional judgment is part of what students are learning to trust.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://artificialintelligenceact.eu/transparency-rules-article-50/",
+          "title": "Transparency Rules Under Article 50 of the EU AI Act (Artificial Intelligence Act)",
+          "type": "legal",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://artificialintelligenceact.eu/article/50/",
+          "title": "Article 50: Transparency Obligations for Providers and Deployers (EU AI Act)",
+          "type": "legal",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+          "title": "Code of Practice on AI-Generated Content (European Commission)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "title": "The Regulatory Framework for AI in the EU (European Commission)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act) — Official Text (EUR-Lex)",
+          "type": "legal",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.orrick.com/en/Insights/2026/08/EU-AI-Act-Transparency-Obligations-for-AI-Generated-Content-Article-50",
+          "title": "EU AI Act Transparency Obligations for AI-Generated Content: Article 50 (Orrick)",
+          "type": "legal",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }

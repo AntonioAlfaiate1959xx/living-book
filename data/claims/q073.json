@@ -1,13 +1,56 @@
 {
   "question_id": "q073",
   "question_text": "How should institutions handle procurement of AI tools — evaluation criteria, vendor accountability, contract terms, and exit strategies?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q073-c01",
+      "text": "Procurement has become the most consequential governance lever available to education institutions in the AI era. Because AI tools are not neutral software — they make probabilistic judgements, learn from the data they process, and can change behaviour through model updates — standard software acquisition practice is insufficient. The emerging consensus across government procurement handbooks, legal guidance, and institutional practice is that AI procurement must be treated as a governance process with four distinct phases: evaluation, accountability, contracting, and exit.\n\n**Evaluation criteria.** Before any tool is acquired, institutions should assess it against criteria that go beyond functionality and price. Pedagogical alignment comes first: does the tool serve a defined learning objective, and is there evidence of effectiveness rather than vendor claims? Security and privacy follow: the Higher Education Community Vendor Assessment Toolkit (HECVAT) has become the de facto standard for evaluating vendor security, privacy, and accessibility posture, and institutions increasingly refuse to consider vendors that will not complete it. Data governance is a separate criterion: where data is stored, whether it is used for model training, which sub-processors are involved, and whether deletion is technically feasible. Equity and bias are now standard evaluation dimensions: vendors must be able to document bias-testing and mitigation, and institutions increasingly require accessibility compliance and evidence that the tool does not disadvantage particular student groups. Transparency is the final criterion: institutions need to know what the model does, how it was trained, and how it will be updated, because a black-box tool cannot be governed.\n\n**Vendor accountability.** Accountability does not end at signature. Institutions are adopting vendor relationship management practices that include scheduled performance reviews, monitoring of AI-specific key performance indicators (accuracy, fairness, uptime), and bias and accessibility audits in real-world settings rather than in vendor test environments. Contracts increasingly require vendors to provide interfaces that allow the client to exercise effective oversight — logging, audit trails, and human-review workflows. The concept of performance drift is central: a model that performed acceptably at deployment may degrade or change after retraining, so accountability mechanisms must be continuous rather than point-in-time.\n\n**Contract terms.** Legal guidance on AI contracts emphasizes several provisions that differ from conventional software terms. Liability and indemnification are the first battleground: AI vendors routinely cap liability and shift risk to the customer, and institutions are advised to negotiate risk-adjusted liability models that reflect the AI's role in high-stakes decisions affecting students. Data rights are the second: nearly all AI vendors claim rights to use customer data for model retraining or competitive intelligence, and contracts must define data ownership, retention, and deletion with precision. Performance warranties are the third: because AI is probabilistic, traditional software warranties are inadequate; contracts should specify measurable performance standards, reliability targets, and remedies such as service credits or mandatory model retraining when standards are missed. Transparency and compliance commitments — disclosure of training data provenance, model update notification, and explicit compliance with GDPR, FERPA, COPPA, and the EU AI Act — round out the core terms.\n\n**Exit strategies.** Vendor lock-in is a recognized failure mode of educational technology, and AI intensifies it because models and data pipelines are difficult to port. Effective procurement therefore includes exit strategies from the outset: data portability and export rights in machine-readable formats, transition plans that specify how the institution will migrate to an alternative provider, termination-for-cause and termination-for-convenience clauses, and contractual obligations to delete institutional data on exit. Some jurisdictions now publish AI procurement handbooks that make these elements mandatory for public institutions, and school districts are beginning to publish their own vendor guidance requiring compliance with these standards as a condition of doing business.\n\n**Evaluation in practice: pilots and sandboxes.** The evaluation phase is increasingly conducted through structured pilots rather than paper assessments. Institutions are adopting sandbox approaches in which a tool is deployed to a limited cohort under defined conditions — with data-collection protocols, success metrics, and a pre-agreed decision point — before any institution-wide commitment. This reflects the reality that paper evaluation cannot predict real-world performance: a tool that scores well on vendor benchmarks may fail in a specific classroom context, with specific students, under specific network conditions. Pilot designs typically specify the evidence that will justify scale-up: learning-outcome data, teacher and student experience, technical reliability, and equity effects across student subgroups. The EU AI Act reinforces this discipline by requiring high-risk education systems to meet risk-management, data-governance, and human-oversight obligations before deployment, and by requiring deployers to conduct fundamental-rights impact assessments. The practical lesson is that procurement decisions should be reversible: a pilot that fails should be as easy to terminate as a pilot that succeeds, which is why the exit-strategy provisions described above must be in place before the pilot begins, not after the institution has become dependent on the tool.\n\n**The governance frame.** The most important shift is procedural: AI purchases are routed through a centralized governance gate rather than left to individual departments or teachers. This ensures that every acquisition is assessed against institutional principles — safety, equity, transparency, and data protection — before it reaches a classroom. The practical lesson is that procurement is not a transaction but a lifecycle: evaluation, accountability, contracting, and exit must be designed together, because a contract negotiated without an exit strategy, or an evaluation that ignores bias, will fail at the point of greatest cost.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://techplan.dc.gov/sites/default/files/u23/1E.%20AI%20Procurement%20Handbook%20-FINAL.pdf",
+          "title": "AI Procurement Handbook — Government of the District of Columbia",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.cps.edu/strategic-initiatives/ai-guidebook/guidance/vendors/",
+          "title": "AI Guidebook: Guidance for Vendors — Chicago Public Schools",
+          "type": "government",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://law.stanford.edu/2025/03/21/navigating-ai-vendor-contracts-and-the-future-of-law-a-guide-for-legal-tech-innovators/",
+          "title": "Navigating AI Vendor Contracts: A Guide for Legal Tech Innovators (Stanford Law School)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.minterellison.com/articles/procuring-ai-key-considerations-and-strategies",
+          "title": "Procuring AI: Key Considerations and Strategies (MinterEllison)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        },
+        {
+          "url": "https://www.internet2.edu/products-services/hecvat/",
+          "title": "Higher Education Community Vendor Assessment Toolkit (HECVAT) — Internet2",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://joesabado.substack.com/p/procurement-vendor-vetting-vendor",
+          "title": "Procurement, Vendor Vetting, and Vendor Relationship Management for AI in Higher Education (Joe Sabado)",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "medium"
+        }
+      ]
+    }
+  ]
 }

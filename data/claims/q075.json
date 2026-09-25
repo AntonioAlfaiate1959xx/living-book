@@ -1,13 +1,56 @@
 {
   "question_id": "q075",
   "question_text": "What academic-integrity frameworks have institutions adopted to replace binary \"cheating/not cheating\" models, and how are they working?",
-  "current_edition": 112,
-  "claims": [],
-  "answer_summary": "Answer pending — no researched answer exists yet for this question. It will be populated by a future live research run.",
-  "disputed_aspects": [],
-  "legacy": {
-    "lastUpdated": null,
-    "lastChecked": null,
-    "history": []
-  }
+  "current_edition": 113,
+  "claims": [
+    {
+      "claim_id": "q075-c01",
+      "text": "The binary model of academic integrity — an act is either cheating or not, and detection followed by punishment is the enforcement mechanism — has proven structurally inadequate for the generative AI era. AI-assisted work does not map cleanly onto the categories of plagiarism and contract cheating that the binary model was built to police, and the detection tools that sustained it are demonstrably unreliable. Institutions have responded by adopting frameworks that replace the binary with graduated, contextual, and educational models of integrity.\n\n**Why the binary model failed.** The research literature identifies three compounding failures. First, AI detectors are inaccurate: they produce false positives, particularly for non-native English speakers, and their accuracy varies unpredictably across texts, making them unsafe as the sole basis for disciplinary action. Second, detection fuels an arms race: as detection improves, evasion techniques — paraphrasing, prompt engineering, hybrid human-AI drafting — evolve alongside it, consuming institutional resources and corroding trust between students and faculty. Third, the binary model misclassifies the phenomenon: much AI use in student work is neither straightforward cheating nor legitimate independent work, but a spectrum of assistance that the binary cannot represent. Scholars of contract cheating, notably Tracy Bretag and colleagues, had already argued before the AI era that punitive, surveillance-based approaches fail and that effective integrity policy must be fair, clear, consistent, and educational.\n\n**The frameworks that replaced it.** Three families of frameworks have emerged. The first is the disclosure-based model, now the dominant approach in higher education: AI use is permitted under defined conditions, and the violation is undisclosed use rather than use itself. Students disclose the tool, the task for which it was used, and the extent of its contribution, and institutions treat failure to disclose as the primary academic offence. The second is the tiered or contextual model, in which the legitimacy of AI use is defined at the level of the course and the assignment rather than by a single institutional rule: some tasks permit AI assistance, others prohibit it, and the syllabus specifies which regime applies. The third is the process-based model, which shifts the evidentiary basis of integrity from the final product to the trajectory of work: iterative drafts, version histories, research journals, and oral defence provide evidence of genuine engagement that a final text alone cannot supply.\n\n**Theoretical grounding.** These frameworks are increasingly grounded in extended versions of the Theory of Planned Behaviour, which explains academic misconduct as a function of attitudes, subjective norms, and perceived behavioural control. In the AI context, researchers have added technology-specific constructs: perceived instructor involvement (how faculty engagement shapes student attitudes), detection awareness (which can deter or, perversely, drive more sophisticated evasion), and perceived risk of AI use. The implication is that integrity is shaped by the learning environment — by norms, relationships, and the perceived legitimacy of assessment — rather than by the threat of detection alone. This is why the most successful frameworks are pedagogical: they treat AI literacy, disclosure practice, and assessment validity as components of the curriculum rather than as compliance obligations.\n\n**Institutional experience and the evidence so far.** The survey evidence on how these frameworks are working is instructive. Studies of students in the AI era report near-universal use of AI tools — in some national contexts above ninety per cent of undergraduates — which has made prohibition-based policies untenable and has accelerated the shift to disclosure-based models. Institutions that adopted disclosure frameworks report that students disclose more readily when the policy is specific about what must be disclosed and when instructors model disclosure themselves, and that the quality of integrity conversations improves when the framework is framed educationally rather than punitively. The persistent problems are also documented: students remain uncertain about what counts as disclosable use, particularly at the boundary between assistance and authorship; faculty apply course-level policies inconsistently; and the absence of reliable detection tools means that enforcement continues to rest on process evidence and oral review, which are resource-intensive. The research consensus is that the frameworks work when they are embedded in a wider system of assessment redesign and faculty development, and that they fail when adopted as standalone documents. The measure of success is not the number of cases detected but the proportion of students who can articulate, when asked, what they used AI for and why it was legitimate — the outcome that process-based integrity is designed to produce.\n\n**How they are working.** The evidence is mixed but instructive. Surveys indicate very high rates of student AI use — in some national contexts above ninety per cent of undergraduates — which makes prohibition-based policies unenforceable and lends credibility to disclosure-based alternatives. Institutions report that disclosure frameworks generate more honest conversations about AI use and reduce the adversarial dynamic of detection, but they also report implementation challenges: disclosure rates remain uneven, students are often unsure what counts as disclosable use, and faculty vary widely in how they apply course-level policies. The research consensus is that the frameworks work when they are accompanied by assessment redesign and faculty development, and fail when they are adopted as policy documents without changing the assessment practices that create the temptation to cheat. The direction of travel is toward what the literature calls rehumanized, validity-driven assessment: integrity frameworks that make honest engagement the most rational strategy for students, supported by process evidence and oral verification rather than by surveillance.",
+      "reliability": "established",
+      "sources": [
+        {
+          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1682190/full",
+          "title": "Academic Integrity in the Age of Generative AI (Frontiers in Computer Science)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s10639-026-14145-3",
+          "title": "AI-Assisted Academic Misconduct and Integrity Frameworks (Education and Information Technologies, Springer)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s10805-025-09642-y",
+          "title": "From Detection to Design: Rehumanizing Academic Integrity in the AI Era (Journal of Academic Ethics, Springer)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/257576249_Contract_cheating_A_new_challenge_for_academic_honesty",
+          "title": "Contract Cheating: A New Challenge for Academic Honesty (Bretag, 2013)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://www.mdpi.com/2075-4698/15/1/11",
+          "title": "Academic Integrity and AI: Sociotechnical Perspectives (Social Sciences, MDPI)",
+          "type": "academic",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        },
+        {
+          "url": "https://academicintegrity.org/",
+          "title": "International Center for Academic Integrity (ICAI) — Fundamental Values of Academic Integrity",
+          "type": "institutional",
+          "retrieved": "2026-09-24",
+          "credibility": "high"
+        }
+      ]
+    }
+  ]
 }
